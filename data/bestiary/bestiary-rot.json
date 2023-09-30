@@ -208,7 +208,7 @@
 				{
 					"name": "Dragon Fanatic",
 					"entries": [
-						"The dragonfang has advantage on saving throws against being {@condition 魅惑} or {@condition 恐惧}. While the dragonfang can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, the dragonfang ignores the effects of being {@condition 魅惑} or {@condition 恐惧}."
+						"The dragonfang has advantage on saving throws against being {@condition 魅惑} or {@condition 恐懼}. While the dragonfang can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, the dragonfang ignores the effects of being {@condition 魅惑} or {@condition 恐懼}."
 					]
 				},
 				{
@@ -226,7 +226,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The dragonfang has advantage on an attack roll against a creature if at least one of the dragonfang's allies is within 5 feet of the creature and the ally isn't {@condition 无力}."
+						"The dragonfang has advantage on an attack roll against a creature if at least one of the dragonfang's allies is within 5 feet of the creature and the ally isn't {@condition 無力}."
 					]
 				}
 			],
@@ -335,7 +335,7 @@
 				{
 					"name": "Dragon Fanatic",
 					"entries": [
-						"The dragonsoul has advantage on saving throws against being {@condition 魅惑} or {@condition 恐惧}. While the dragonsoul can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, the dragonsoul ignores the effects of being {@condition 魅惑} or {@condition 恐惧}."
+						"The dragonsoul has advantage on saving throws against being {@condition 魅惑} or {@condition 恐懼}. While the dragonsoul can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, the dragonsoul ignores the effects of being {@condition 魅惑} or {@condition 恐懼}."
 					]
 				},
 				{
@@ -353,7 +353,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The dragonsoul has advantage on an attack roll against a creature if at least one of the dragonsoul's allies is within 5 feet of the creature and the ally isn't {@condition 无力}."
+						"The dragonsoul has advantage on an attack roll against a creature if at least one of the dragonsoul's allies is within 5 feet of the creature and the ally isn't {@condition 無力}."
 					]
 				}
 			],
@@ -612,7 +612,7 @@
 				{
 					"ac": 12,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -646,7 +646,7 @@
 			"cr": "1",
 			"trait": [
 				{
-					"name": "两栖",
+					"name": "兩棲",
 					"ENG_name": "Amphibious",
 					"entries": [
 						"The toad can breathe air or water."
@@ -857,7 +857,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -877,7 +877,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, Naergoth has disadvantage on attack rolls, as well as on Wisdom ({@skill 察觉}) checks that rely on sight."
+						"While in sunlight, Naergoth has disadvantage on attack rolls, as well as on Wisdom ({@skill 察覺}) checks that rely on sight."
 					]
 				}
 			],
@@ -1147,7 +1147,7 @@
 								"piercing",
 								"slashing"
 							],
-							"preNote": "非魔法攻击所造成的",
+							"preNote": "非魔法攻擊所造成的",
 							"cond": true
 						}
 					],
@@ -1245,7 +1245,7 @@
 				{
 					"name": "Hellish Chains (Costs 3 Actions)",
 					"entries": [
-						"Severin targets one creature he can see within 30 feet of him. The target is wrapped in magical chains of fire and {@condition 束缚}. The {@condition 束缚} target takes 21 ({@damage 6d6}) fire damage at the start of each of its turns. At the end of its turns, the target can make a {@dc 17} Strength saving throw, ending the effect on itself on a success."
+						"Severin targets one creature he can see within 30 feet of him. The target is wrapped in magical chains of fire and {@condition 束縛}. The {@condition 束縛} target takes 21 ({@damage 6d6}) fire damage at the start of each of its turns. At the end of its turns, the target can make a {@dc 17} Strength saving throw, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -1338,7 +1338,7 @@
 				{
 					"ac": 25,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1383,7 +1383,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -1409,7 +1409,7 @@
 					],
 					"daily": {
 						"3": [
-							"{@spell 圣言术}"
+							"{@spell 聖言術}"
 						]
 					},
 					"ability": "cha"
@@ -1475,7 +1475,7 @@
 				{
 					"name": "Frightful Presence",
 					"entries": [
-						"Each creature of Tiamat's choice that is within 240 feet of Tiamat and aware of her must succeed on a {@dc 26} Wisdom saving throw or become {@condition 恐惧} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Tiamat's Frightful Presence for the next 24 hours."
+						"Each creature of Tiamat's choice that is within 240 feet of Tiamat and aware of her must succeed on a {@dc 26} Wisdom saving throw or become {@condition 恐懼} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Tiamat's Frightful Presence for the next 24 hours."
 					]
 				}
 			],

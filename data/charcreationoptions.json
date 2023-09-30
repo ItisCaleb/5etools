@@ -412,7 +412,7 @@
 							"type": "entries",
 							"name": "Unsettling Presence",
 							"entries": [
-								"As an action, you can unsettle a creature you can see within 15 feet of you. The target has disadvantage on the next saving throw it makes within the next minute. Constructs, undead, and creatures that can't be {@condition 恐惧} are immune to this feature. Once you use this feature, you can't use it again until you finish a long rest."
+								"As an action, you can unsettle a creature you can see within 15 feet of you. The target has disadvantage on the next saving throw it makes within the next minute. Constructs, undead, and creatures that can't be {@condition 恐懼} are immune to this feature. Once you use this feature, you can't use it again until you finish a long rest."
 							]
 						}
 					]
@@ -435,7 +435,7 @@
 							"name": "Enlightened Protection",
 							"page": 12,
 							"entries": [
-								"You can cast {@spell 防护善恶} with this trait, targeting only yourself and requiring no material components. Once you do so, you can't cast it in this way again until you finish a long rest. Wisdom is your spellcasting ability for this trait."
+								"You can cast {@spell 防護善惡} with this trait, targeting only yourself and requiring no material components. Once you do so, you can't cast it in this way again until you finish a long rest. Wisdom is your spellcasting ability for this trait."
 							]
 						},
 						{
@@ -462,7 +462,7 @@
 					"page": 13,
 					"entries": [
 						"{@i 11th-level Iconoclast trait}",
-						"You can cast {@spell 反制善恶} with this trait, requiring no material components. Once you do so, you can't cast it in this way again until you finish a long rest.",
+						"You can cast {@spell 反制善惡} with this trait, requiring no material components. Once you do so, you can't cast it in this way again until you finish a long rest.",
 						"In addition, when you cast {@spell 解除魔法} using your Iconoclast Hero trait, you cast it as a 4th-level spell."
 					]
 				},
@@ -472,7 +472,7 @@
 					"page": 13,
 					"entries": [
 						"{@i 17th-level Iconoclast trait}",
-						"You can cast {@spell 反魔法结界} with this trait, requiring no material components. Once you do so, you can't cast it in this way again until you finish a long rest.",
+						"You can cast {@spell 反魔法結界} with this trait, requiring no material components. Once you do so, you can't cast it in this way again until you finish a long rest.",
 						"In addition, when you cast {@spell 解除魔法} using your Iconoclast Hero trait, you cast it as a 5th-level spell.",
 						{
 							"type": "table",
@@ -598,7 +598,7 @@
 							"name": "Boon Aura",
 							"page": 14,
 							"entries": [
-								"Your allies within 5 feet of you have advantage on saving throws against being {@condition 恐惧} or {@condition 魅惑}, provided you aren't {@condition 无力}."
+								"Your allies within 5 feet of you have advantage on saving throws against being {@condition 恐懼} or {@condition 魅惑}, provided you aren't {@condition 無力}."
 							]
 						},
 						{
@@ -950,7 +950,7 @@
 					"page": 16,
 					"entries": [
 						"{@i Piety 10+ Oracle trait}",
-						"You can cast {@spell 预言术} as a ritual with this trait. Once you do so, you can't cast it in this way again until you finish a long rest."
+						"You can cast {@spell 預言術} as a ritual with this trait. Once you do so, you can't cast it in this way again until you finish a long rest."
 					]
 				},
 				{
@@ -959,8 +959,8 @@
 					"page": 16,
 					"entries": [
 						"{@i Piety 25+ Oracle trait}",
-						"You can cast {@spell 通神术} as a ritual with this trait. Once you do so, you can't cast it in this way again until you finish a long rest.",
-						"You also can't be surprised, provided you aren't {@condition 无力}."
+						"You can cast {@spell 通神術} as a ritual with this trait. Once you do so, you can't cast it in this way again until you finish a long rest.",
+						"You also can't be surprised, provided you aren't {@condition 無力}."
 					]
 				},
 				{

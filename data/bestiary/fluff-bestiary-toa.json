@@ -187,7 +187,7 @@
 									"type": "entries",
 									"entries": [
 										"An almiraj (pronounced AWL-meer-ahj) is a large, timid rabbit with a 1-foot-long spiral horn emerging from its forehead, not unlike the horn of a unicorn. If driven to attack, it tries to spear enemies with its horn.",
-										"Almiraj were brought to Chult long ago by merchants of the distant land of Zakhara. Skilled at evading predators, these creatures have flourished throughout the tropical peninsula. They live in earthen burrows and can be captured and domesticated. With the DM's permission, the {@spell 寻获魔宠} spell can summon an almiraj."
+										"Almiraj were brought to Chult long ago by merchants of the distant land of Zakhara. Skilled at evading predators, these creatures have flourished throughout the tropical peninsula. They live in earthen burrows and can be captured and domesticated. With the DM's permission, the {@spell 尋獲魔寵} spell can summon an almiraj."
 									]
 								}
 							]
@@ -655,7 +655,7 @@
 								{
 									"type": "entries",
 									"entries": [
-										"Flying monkeys are slightly more clever and curious than common monkeys, and they can be domesticated and taught to obey simple commands. They come in many colors and varieties, with feathered wings that have a span of about 5 feet. With the DM's permission, the {@spell 寻获魔宠} spell can summon a flying monkey."
+										"Flying monkeys are slightly more clever and curious than common monkeys, and they can be domesticated and taught to obey simple commands. They come in many colors and varieties, with feathered wings that have a span of about 5 feet. With the DM's permission, the {@spell 尋獲魔寵} spell can summon a flying monkey."
 									]
 								}
 							]
@@ -1015,7 +1015,7 @@
 									"entries": [
 										"At the tender age of seventeen, Princess Mwaxanaré (\"Naré\" for short) is the oldest living descendant of the royal families of Omu and the natural inheritor of their fallen kingdom. She and her six-year-old brother, Na, are guests of the aarakocra in Kir Sabal. The aarakocra aim to protect the young royals until such time as the evil in Omu has been vanquished.",
 										"Mwaxanaré is too headstrong for her own good. She longs to claim her throne and will eagerly use adventurers to make that happen. Her tone is almost always condescending, and she doesn't take kindly to backtalk.",
-										"After forging a pact with the Wind Dukes of Aaqa, ancient beings of the Outer Planes, the princess has become a fledgling warlock. Her hatred of physical labor allows her to put her {@spell 法师之手} and {@spell 隐形仆役} spells to good use. Through her pact, she has also gained telepathy.",
+										"After forging a pact with the Wind Dukes of Aaqa, ancient beings of the Outer Planes, the princess has become a fledgling warlock. Her hatred of physical labor allows her to put her {@spell 法師之手} and {@spell 隱形僕役} spells to good use. Through her pact, she has also gained telepathy.",
 										"The young Prince Na is a noncombatant with AC 10 and 3 hit points. Having lived among the aarakocra for most of his life, Na considers himself one of them. He dresses like an aarakocra and prefers to speak Auran rather than Common."
 									]
 								},
@@ -1261,7 +1261,7 @@
 								{
 									"type": "entries",
 									"entries": [
-										"Su-monsters are cunning, wicked primates that inhabit forsaken wilderness areas and caves. Adults stand 5 feet tall and have long prehensile tails. Although they can grasp tools and weapons with their tails or clawed feet, su-monsters prefer to rend prey with their claws. Adult su-monsters can also project blasts of psionic energy that leave enemies {@condition 震慑} and unable to flee or defend themselves.",
+										"Su-monsters are cunning, wicked primates that inhabit forsaken wilderness areas and caves. Adults stand 5 feet tall and have long prehensile tails. Although they can grasp tools and weapons with their tails or clawed feet, su-monsters prefer to rend prey with their claws. Adult su-monsters can also project blasts of psionic energy that leave enemies {@condition 震懾} and unable to flee or defend themselves.",
 										"A su-monster sleeps while hanging upside down by its tail. While awake, it can also unleash a devastating attack from that position, rending with all four of its claws.",
 										"Su-monsters communicate silently by using their prehensile tails to make gestures. They typically kill more than they can eat, burying the leftovers and marking their location with the victim's possessions."
 									]
@@ -1622,7 +1622,7 @@
 								{
 									"type": "entries",
 									"entries": [
-										"The half-elf sorcerer Xandala has come to Chult in search of the Ring of Winter, an artifact in Artus Cimber's possession. Xandala knows that the ring has kept Artus alive for over a century, and she craves its power. If she meets the characters, Xandala pretends to be Artus's daughter and tries to convince them to help her find him. Her plan is to cast dominate person on Artus and force him to give her the ring, then escape using her {@spell 飞行术} spell.",
+										"The half-elf sorcerer Xandala has come to Chult in search of the Ring of Winter, an artifact in Artus Cimber's possession. Xandala knows that the ring has kept Artus alive for over a century, and she craves its power. If she meets the characters, Xandala pretends to be Artus's daughter and tries to convince them to help her find him. Her plan is to cast dominate person on Artus and force him to give her the ring, then escape using her {@spell 飛行術} spell.",
 										"Xandala's magic traces back to a draconic bloodline, and parts of her skin are covered by a thin sheen of protective scales. She has befriended a pseudodragon named Summerwise, who thinks that Xandala's quest for the ring is dangerous but has given up trying to talk the sorcerer out of it. Summerwise can be turned against Xandala by good-aligned characters."
 									]
 								},

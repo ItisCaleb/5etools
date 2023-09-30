@@ -755,7 +755,7 @@
 			]
 		},
 		{
-			"name": "铜币(cp)",
+			"name": "銅幣(cp)",
 			"ENG_name": "Copper (cp)",
 			"source": "PHB",
 			"images": [
@@ -1228,7 +1228,7 @@
 			]
 		},
 		{
-			"name": "珀金币(ep)",
+			"name": "珀金幣(ep)",
 			"ENG_name": "Electrum (ep)",
 			"source": "PHB",
 			"images": [
@@ -1528,7 +1528,7 @@
 			]
 		},
 		{
-			"name": "金币(gp)",
+			"name": "金幣(gp)",
 			"ENG_name": "Gold (gp)",
 			"source": "PHB",
 			"images": [
@@ -1685,7 +1685,7 @@
 			]
 		},
 		{
-			"name": "医疗工具组",
+			"name": "醫療工具組",
 			"ENG_name": "Healer's Kit",
 			"source": "PHB",
 			"images": [
@@ -2765,7 +2765,7 @@
 			]
 		},
 		{
-			"name": "铂金币(pp)",
+			"name": "鉑金幣(pp)",
 			"ENG_name": "Platinum (pp)",
 			"source": "PHB",
 			"images": [
@@ -3429,7 +3429,7 @@
 			]
 		},
 		{
-			"name": "银币(sp)",
+			"name": "銀幣(sp)",
 			"ENG_name": "Silver (sp)",
 			"source": "PHB",
 			"images": [
@@ -3937,7 +3937,7 @@
 			]
 		},
 		{
-			"name": "盗贼工具",
+			"name": "盜賊工具",
 			"ENG_name": "Thieves' Tools",
 			"source": "PHB",
 			"images": [
@@ -4069,7 +4069,7 @@
 			]
 		},
 		{
-			"name": "饰品",
+			"name": "飾品",
 			"ENG_name": "Trinket",
 			"source": "PHB",
 			"images": [

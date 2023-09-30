@@ -247,7 +247,7 @@ class ListPage {
 	get _listSyntax () {
 		return {
 			text: {
-				help: `"text: <文本>" 以在文本中搜索。`,
+				help: `"text: <文本>" 以在文本中搜尋。`,
 				fn: (listItem, searchTerm) => {
 					if (listItem.data._textCache == null) listItem.data._textCache = this._getSearchCache(this._dataList[listItem.ix]);
 					return listItem.data._textCache && listItem.data._textCache.includes(searchTerm);

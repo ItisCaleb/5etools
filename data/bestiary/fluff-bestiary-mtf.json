@@ -483,7 +483,7 @@
 									"type": "entries",
 									"name": "Changeable Nature",
 									"entries": [
-										"Whenever one of the eladrin presented here finishes a long rest, it can associate itself with a different season, provided it isn't {@condition 无力}. When the eladrin makes this change, it uses the stat block of the new season, rather than its old stat block. Any damage the eladrin sustained in its original form applies to the new form, as do any conditions or other ongoing effects affecting it."
+										"Whenever one of the eladrin presented here finishes a long rest, it can associate itself with a different season, provided it isn't {@condition 無力}. When the eladrin makes this change, it uses the stat block of the new season, rather than its old stat block. Any damage the eladrin sustained in its original form applies to the new form, as do any conditions or other ongoing effects affecting it."
 									]
 								}
 							]
@@ -526,7 +526,7 @@
 										"For his accomplishments, as well as for the hue of his skin, Baal has been granted the title of Bronze General. His accolades notwithstanding, Bael has had a difficult time navigating the quagmire of infernal politics. His critics call him naive, though never to his face. His primary interest has always been leading soldiers in battle, so he finds it frustrating to have his ambitions of ascending to a higher rank constantly stymied by politically shrewd rivals.",
 										"Bael prefers to make servants out of his adversaries, and mortals bound to his service earn their wretched place by falling victim to Bael's superior stratagems. Bael gladly spares the lives of those he defeats, but only if they pledge their souls and service to him. Although he is willing to corrupt almost any being in this way, he always destroys any demons he defeats.",
 										"Bael also welcomes mortals into his service if they can provide him with an advantage in his own politicking. He recruits savvy individuals and relies on them to represent his interests at Mammon's court, which leaves Bael free to pursue his battle lust.",
-										"Despite his lack of interest in affairs outside battle, or perhaps because of it, Bael has gained a small following of cultists. Those who worship at his altar call him the King of Hell, and the most deluded believe that he is the lord of all devils. In arcane circles, certain writings, such as the dreaded Book of Fire, say that Bael revealed the {@spell 隐形术} spell to the world, though some scholars of magic hotly refute such claims. Bael is sometimes depicted as a toad, a cat, a male human, or some combination of these forms, though none of these images reflect his true appearance."
+										"Despite his lack of interest in affairs outside battle, or perhaps because of it, Bael has gained a small following of cultists. Those who worship at his altar call him the King of Hell, and the most deluded believe that he is the lord of all devils. In arcane circles, certain writings, such as the dreaded Book of Fire, say that Bael revealed the {@spell 隱形術} spell to the world, though some scholars of magic hotly refute such claims. Bael is sometimes depicted as a toad, a cat, a male human, or some combination of these forms, though none of these images reflect his true appearance."
 									]
 								}
 							]
@@ -1190,11 +1190,11 @@
 							"rows": [
 								[
 									"1",
-									"{@b Camouflaged.} The clockwork gains proficiency in {@skill 隐匿} if it doesn't already have it. While motionless, it is indistinguishable from a stopped machine."
+									"{@b Camouflaged.} The clockwork gains proficiency in {@skill 隱匿} if it doesn't already have it. While motionless, it is indistinguishable from a stopped machine."
 								],
 								[
 									"2",
-									"{@b Sensors.} The range of the clockwork's {@sense 黑暗视觉} becomes 120 feet, unless it is higher, and it gains proficiency in {@skill 察觉} if it doesn't already have it."
+									"{@b Sensors.} The range of the clockwork's {@sense 黑暗視覺} becomes 120 feet, unless it is higher, and it gains proficiency in {@skill 察覺} if it doesn't already have it."
 								],
 								[
 									"3",
@@ -1272,7 +1272,7 @@
 								],
 								[
 									"8",
-									"{@b Overheats.} Roll a {@dice d6} at the start of the clockwork's turn. If you roll a 1, the clockwork is {@condition 无力} until the end of its turn."
+									"{@b Overheats.} Roll a {@dice d6} at the start of the clockwork's turn. If you roll a 1, the clockwork is {@condition 無力} until the end of its turn."
 								],
 								[
 									"9",
@@ -4795,7 +4795,7 @@
 									"type": "entries",
 									"name": "Unseen and All-Seeing",
 									"entries": [
-										"Orthons are infamous for their sharp senses. Because an orthon can become {@condition 隐形} at will, its quarry is often unaware of being hunted until the orthon strikes. The orthon's invisibility can be disrupted when the devil is attacked, however, so a strong counterattack is often the best defense against it."
+										"Orthons are infamous for their sharp senses. Because an orthon can become {@condition 隱形} at will, its quarry is often unaware of being hunted until the orthon strikes. The orthon's invisibility can be disrupted when the devil is attacked, however, so a strong counterattack is often the best defense against it."
 									]
 								},
 								{
@@ -5450,7 +5450,7 @@
 									"type": "entries",
 									"name": "Changeable Nature",
 									"entries": [
-										"Whenever one of the eladrin presented here finishes a long rest, it can associate itself with a different season, provided it isn't {@condition 无力}. When the eladrin makes this change, it uses the stat block of the new season, rather than its old stat block. Any damage the eladrin sustained in its original form applies to the new form, as do any conditions or other ongoing effects affecting it."
+										"Whenever one of the eladrin presented here finishes a long rest, it can associate itself with a different season, provided it isn't {@condition 無力}. When the eladrin makes this change, it uses the stat block of the new season, rather than its old stat block. Any damage the eladrin sustained in its original form applies to the new form, as do any conditions or other ongoing effects affecting it."
 									]
 								}
 							]
@@ -5845,7 +5845,7 @@
 									"type": "entries",
 									"name": "Cryptic Whispers",
 									"entries": [
-										"Even though creatures transformed into stone cursed are long dead, a vague whisper of their memories lives on in the obsidian skull embedded within the stone cursed's body. At the end of a short rest, a character can make a DC 20 Intelligence ({@skill 奥秘}) check to attempt to extract a memory from the skull\u2014a memory that is a response to a verbal question posed by the character to the skull. Once this check is made, whether it succeeds or fails, the skull can't be used in this manner again."
+										"Even though creatures transformed into stone cursed are long dead, a vague whisper of their memories lives on in the obsidian skull embedded within the stone cursed's body. At the end of a short rest, a character can make a DC 20 Intelligence ({@skill 奧秘}) check to attempt to extract a memory from the skull\u2014a memory that is a response to a verbal question posed by the character to the skull. Once this check is made, whether it succeeds or fails, the skull can't be used in this manner again."
 									]
 								}
 							]
@@ -5960,7 +5960,7 @@
 									"type": "entries",
 									"name": "Changeable Nature",
 									"entries": [
-										"Whenever one of the eladrin presented here finishes a long rest, it can associate itself with a different season, provided it isn't {@condition 无力}. When the eladrin makes this change, it uses the stat block of the new season, rather than its old stat block. Any damage the eladrin sustained in its original form applies to the new form, as do any conditions or other ongoing effects affecting it."
+										"Whenever one of the eladrin presented here finishes a long rest, it can associate itself with a different season, provided it isn't {@condition 無力}. When the eladrin makes this change, it uses the stat block of the new season, rather than its old stat block. Any damage the eladrin sustained in its original form applies to the new form, as do any conditions or other ongoing effects affecting it."
 									]
 								}
 							]
@@ -6747,7 +6747,7 @@
 									"type": "entries",
 									"name": "Changeable Nature",
 									"entries": [
-										"Whenever one of the eladrin presented here finishes a long rest, it can associate itself with a different season, provided it isn't {@condition 无力}. When the eladrin makes this change, it uses the stat block of the new season, rather than its old stat block. Any damage the eladrin sustained in its original form applies to the new form, as do any conditions or other ongoing effects affecting it."
+										"Whenever one of the eladrin presented here finishes a long rest, it can associate itself with a different season, provided it isn't {@condition 無力}. When the eladrin makes this change, it uses the stat block of the new season, rather than its old stat block. Any damage the eladrin sustained in its original form applies to the new form, as do any conditions or other ongoing effects affecting it."
 									]
 								}
 							]

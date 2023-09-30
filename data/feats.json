@@ -136,14 +136,14 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill 体操} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"As a bonus action, you can make a DC 15 Dexterity ({@skill 体操}) check. If you succeed, difficult terrain doesn't cost you extra movement until the end of the current turn."
+						"You gain proficiency in the {@skill 體操} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
+						"As a bonus action, you can make a DC 15 Dexterity ({@skill 體操}) check. If you succeed, difficult terrain doesn't cost you extra movement until the end of the current turn."
 					]
 				}
 			]
 		},
 		{
-			"name": "演员",
+			"name": "演員",
 			"source": "PHB",
 			"page": 165,
 			"ability": [
@@ -152,12 +152,12 @@
 				}
 			],
 			"entries": [
-				"精通于模仿和戏剧表演，让你获得下列好处：",
+				"精通於模仿和戲劇表演，讓你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"当你试图将自己装扮成另一个人时，你的魅力（{@skill 欺瞒}）和魅力（{@skill 表演}）检定获得优势。",
-						"你可以模仿另一个人的口音或其他生物发出的声音。你必须听过被模仿者说话或发声至少1分钟。一次与你的魅力（{@skill 欺瞒}）检定对抗成功的感知（{@skill 洞悉}），可以让聆听者辨识出这个声音效果是假的。"
+						"當你試圖將自己裝扮成另一個人時，你的魅力（{@skill 欺瞞}）和魅力（{@skill 表演}）檢定獲得優勢。",
+						"你可以模仿另一個人的口音或其他生物發出的聲音。你必須聽過被模仿者說話或發聲至少1分鐘。一次與你的魅力（{@skill 欺瞞}）檢定對抗成功的感知（{@skill 洞悉}），可以讓聆聽者辨識出這個聲音效果是假的。"
 					]
 				}
 			],
@@ -182,25 +182,25 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency with {@item 炼金工具|phb}. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
+						"You gain proficiency with {@item 煉金工具|phb}. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
 						"As an action, you can identify one potion within 5 feet of you, as if you had tasted it. You must see the liquid for this benefit to work.",
-						"Over the course of any short rest, you can temporarily improve the potency of one potion of healing of any rarity. To use this benefit, you must have {@item 炼金工具|phb} with you, and the potion must be within reach. If the potion is drunk no more than 1 hour after the short rest ends, the creature drinking the potion can forgo the potion's die roll and regains the maximum number of hit points that the potion can restore."
+						"Over the course of any short rest, you can temporarily improve the potency of one potion of healing of any rarity. To use this benefit, you must have {@item 煉金工具|phb} with you, and the potion must be within reach. If the potion is drunk no more than 1 hour after the short rest ends, the creature drinking the potion can forgo the potion's die roll and regains the maximum number of hit points that the potion can restore."
 					]
 				}
 			]
 		},
 		{
-			"name": "警觉",
+			"name": "警覺",
 			"source": "PHB",
 			"page": 165,
 			"entries": [
-				"经常对危机保持警惕，让你获得下列好处：",
+				"經常對危機保持警惕，讓你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"你的先攻获得+5加值。",
-						"当你意识清醒时不会被突袭。",
-						"其他生物对你进行的攻击检定并不会因为你看不到它而获得优势。"
+						"你的先攻獲得+5加值。",
+						"當你意識清醒時不會被突襲。",
+						"其他生物對你進行的攻擊檢定並不會因為你看不到它而獲得優勢。"
 					]
 				}
 			],
@@ -225,7 +225,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill 驯兽} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
+						"You gain proficiency in the {@skill 馴獸} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
 						"You can use a bonus action on your turn to command one friendly beast within 60 feet of you that can hear you and that isn't currently following the command of someone else. You decide now what action the beast will take and where it will move during its next turn, or you issue a general command that lasts for 1 minute, such as to guard a particular area."
 					]
 				}
@@ -266,14 +266,14 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill 奥秘} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"You learn the {@spell 魔法技俩} and {@spell 侦测魔法} spells. You can cast detect magic once without expending a spell slot, and you regain the ability to do so when you finish a long rest."
+						"You gain proficiency in the {@skill 奧秘} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
+						"You learn the {@spell 魔法技倆} and {@spell 偵測魔法} spells. You can cast detect magic once without expending a spell slot, and you regain the ability to do so when you finish a long rest."
 					]
 				}
 			]
 		},
 		{
-			"name": "奇械学徒",
+			"name": "奇械學徒",
 			"ENG_name": "Artificer Initiate",
 			"source": "TCE",
 			"page": 79,
@@ -304,13 +304,13 @@
 				}
 			],
 			"entries": [
-				"你已习得些许奇械师的创造力：",
+				"你已習得些許奇械師的創造力：",
 				{
 					"type": "list",
 					"items": [
-						"你从{@filter 奇械师法术列表|spells|level=0;1|class=artificer}中选择并习得一个戏法。此外，你从该法术列表中选择并习得一个一环法术。智力是你施展这些法术的施法关键属性。",
-						"你可以在不消耗法术位的情况下施展一次来自此专长的一环法术。你必须在完成一次长休后才能再次这样做。你也可以正常消耗法术位来施展该法术。",
-						"你获得你所选的一项{@filter 工匠工具|items|type=artisan's tools}熟练，并且你可以将该工具作为施展任何以智力为施法关键属性的法术的法器。"
+						"你從{@filter 奇械師法術列表|spells|level=0;1|class=artificer}中選擇並習得一個戲法。此外，你從該法術列表中選擇並習得一個一環法術。智力是你施展這些法術的施法關鍵屬性。",
+						"你可以在不消耗法術位的情況下施展一次來自此專長的一環法術。你必須在完成一次長休後才能再次這樣做。你也可以正常消耗法術位來施展該法術。",
+						"你獲得你所選的一項{@filter 工匠工具|items|type=artisan's tools}熟練，並且你可以將該工具作為施展任何以智力為施法關鍵屬性的法術的法器。"
 					]
 				}
 			]
@@ -358,7 +358,7 @@
 			]
 		},
 		{
-			"name": "运动健将",
+			"name": "運動健將",
 			"source": "PHB",
 			"page": 165,
 			"ability": [
@@ -373,13 +373,13 @@
 				}
 			],
 			"entries": [
-				"你曾经历的大量肉体训练，让你获得下列好处：",
+				"你曾經歷的大量肉體訓練，讓你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"当你{@condition 伏地}时，起身只需要花费5尺移动速度。",
-						"攀爬不会消耗额外的移动速度。",
-						"你只需要徒步移动5尺就可以进行跳高和跳远，而非原本的10尺。"
+						"當你{@condition 伏地}時，起身只需要花費5尺移動速度。",
+						"攀爬不會消耗額外的移動速度。",
+						"你只需要徒步移動5尺就可以進行跳高和跳遠，而非原本的10尺。"
 					]
 				}
 			],
@@ -420,7 +420,7 @@
 					"type": "list",
 					"items": [
 						"As a bonus action, you can cause small barbs to protrude all over your body or cause them to retract. At the start of each of your turns while the barbs are out, you deal {@damage 1d6} piercing damage to any creature grappling you or any creature {@condition 被擒} by you.",
-						"You gain proficiency in the {@skill 威吓} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it."
+						"You gain proficiency in the {@skill 威嚇} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it."
 					]
 				}
 			]
@@ -442,7 +442,7 @@
 			]
 		},
 		{
-			"name": "慷慨吉运",
+			"name": "慷慨吉運",
 			"source": "UAFeatsForRaces",
 			"page": 1,
 			"prerequisite": [
@@ -455,14 +455,14 @@
 				}
 			],
 			"entries": [
-				"你的族人们有着非同寻常的好运气，而你也学习过如何在看到同伴陷入困境时神秘地把好运借给他们。你也不确定你是怎么做到的；你只是想想，它就实现了。这无疑是你受到命运眷顾的象征！",
-				"当一个与你距离30尺内，你能看见的队友在攻击检定、能力检定、或豁免检定的d20中骰出了1，你可以使用你的反应来让该队友重新掷骰。该队友必须使用新的掷骰结果。",
-				"当你使用这个能力，直到你的下个回合结束之前，你都不能使用你的幸运种族特性。"
+				"你的族人們有著非比尋常的好運氣，而你也學習過如何在看到同伴陷入困境時神秘地把好運借給他們。你也不確定你是怎麼做到的；你只是想想，它就實現了。這無疑是你受到命運眷顧的象徵！",
+				"當一個與你距離30尺內，你能看見的隊友在攻擊檢定、能力檢定、或豁免檢定的d20中骰出了1，你可以使用你的反應來讓該隊友重新擲骰。該隊友必須使用新的擲骰結果。",
+				"當你使用這個能力，直到你的下個回合結束之前，你都不能使用你的幸運種族特性。"
 			],
 			"ENG_name": "Bountiful Luck"
 		},
 		{
-			"name": "慷慨吉运",
+			"name": "慷慨吉運",
 			"source": "XGE",
 			"page": 73,
 			"prerequisite": [
@@ -475,9 +475,9 @@
 				}
 			],
 			"entries": [
-				"你的族人们有着非同寻常的好运气，而你也学习过如何在看到同伴陷入困境时神秘地把好运借给他们。你也不确定你是怎么做到的；你只是想想，它就实现了。这无疑是你受到命运眷顾的象征！",
-				"当一个与你距离30尺内，你能看见的队友在攻击检定、能力检定、或豁免检定的d20中骰出了1，你可以使用你的反应来让该队友重新掷骰。该队友必须使用新的掷骰结果。",
-				"当你使用这个能力，直到你的下个回合结束之前，你都不能使用你的幸运种族特性。"
+				"你的族人們有著非比尋常的好運氣，而你也學習過如何在看到同伴陷入困境時神秘地把好運借給他們。你也不確定你是怎麼做到的；你只是想想，它就實現了。這無疑是你受到命運眷顧的象徵！",
+				"當一個與你距離30尺內，你能看見的隊友在攻擊檢定、能力檢定、或豁免檢定的d20中骰出了1，你可以使用你的反應來讓該隊友重新擲骰。該隊友必須使用新的擲骰結果。",
+				"當你使用這個能力，直到你的下個回合結束之前，你都不能使用你的幸運種族特性。"
 			],
 			"ENG_name": "Bountiful Luck"
 		},
@@ -500,7 +500,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill 运动} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
+						"You gain proficiency in the {@skill 運動} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
 						"You count as if you were one size larger for the purpose of determining your carrying capacity."
 					]
 				}
@@ -525,23 +525,23 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency with {@item 盗贼工具|phb}. If you are already proficient with them, you add double your proficiency bonus to checks you make with them."
+						"You gain proficiency with {@item 盜賊工具|phb}. If you are already proficient with them, you add double your proficiency bonus to checks you make with them."
 					]
 				}
 			]
 		},
 		{
-			"name": "冲锋手",
+			"name": "衝鋒手",
 			"source": "PHB",
 			"page": 165,
 			"entries": [
-				"当你使用动作进行疾走时，你可以使用附赠动作来进行一次近战武器攻击或推撞一个生物。",
-				"若你直线移动至少10尺后马上进行该附赠动作，则（若你选择近战攻击且命中）该攻击的伤害获得+5加值，或（若你选择推撞且成功）目标被推离你最多10尺。"
+				"當你使用動作進行疾走時，你可以使用附贈動作來進行一次近戰武器攻擊或推撞一個生物。",
+				"若你直線移動至少10尺後馬上進行該附贈動作，則（若你選擇近戰攻擊且命中）該攻擊的傷害獲得+5加值，或（若你選擇推撞且成功）目標被推離你最多10尺。"
 			],
 			"ENG_name": "Charger"
 		},
 		{
-			"name": "大厨",
+			"name": "大廚",
 			"ENG_name": "Chef",
 			"source": "TCE",
 			"page": 79,
@@ -562,13 +562,13 @@
 				}
 			],
 			"entries": [
-				"花费在专研厨艺上的工夫已然有了回报，使你获得了以下增益：",
+				"花費在專研廚藝上的工夫已然有了回報，使你獲得了以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"如果你还没有获得{@item 厨师工具|phb}的熟练项，获得之。",
-						"作为短休的一部分，只要你手上有原料和{@item 厨师工具|phb}，你便可以烹饪特制料理。你可以为特定数量的生物准备这种食物，其数量等同于4 + 你的熟练加值。在本次短休结束时，任何食用了料理并且花费了一个或更多生命骰来恢复生命值的生物恢复额外{@dice 1d8}点生命值。",
-						"在花费一小时精心制作后，或者在完成一次长休时，你可以制作等同于你熟练加值个数的餐点。这些餐点在制作完成后持续八小时。任何食用餐点的生物都能获得等同于你熟练加值的临时生命值。"
+						"如果你還沒有獲得{@item 廚師工具|phb}的熟練項，獲得之。",
+						"作為短休的一部分，只要你手上有原料和{@item 廚師工具|phb}，你便可以烹飪特製料理。你可以為特定數量的生物準備這種食物，其數量等同於4 + 你的熟練加值。在本次短休結束時，任何食用了料理並且花費了一個或更多生命骰來恢復生命值的生物恢復額外{@dice 1d8}點生命值。",
+						"在花費一小時精心製作後，或者在完成一次長休時，你可以製作等同於你熟練加值個數的餐點。這些餐點在製作完成後持續八小時。任何食用餐點的生物都能獲得等同於你熟練加值的臨時生命值。"
 					]
 				}
 			]
@@ -598,8 +598,8 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency with {@item 厨师工具|phb} if you don't already have it.",
-						"As part of a short rest, you can cook special food, provided you have ingredients and {@item 厨师工具|phb} on hand. You can prepare enough of this food for a number of creatures equal to 4 + your proficiency bonus. At the end of the short rest, any creature who eats the food and spends one or more Hit Dice to regain hit points regains an extra {@dice 1d8} hit points.",
+						"You gain proficiency with {@item 廚師工具|phb} if you don't already have it.",
+						"As part of a short rest, you can cook special food, provided you have ingredients and {@item 廚師工具|phb} on hand. You can prepare enough of this food for a number of creatures equal to 4 + your proficiency bonus. At the end of the short rest, any creature who eats the food and spends one or more Hit Dice to regain hit points regains an extra {@dice 1d8} hit points.",
 						"With one hour of work or when you finish a long rest, you can cook a number of treats equal to your proficiency bonus. These special treats last 8 hours after being made. A creature can use a bonus action to eat one of those treats to gain temporary hit points equal to your proficiency bonus."
 					]
 				}
@@ -646,24 +646,24 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill 驯兽} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"You learn the {@spell 动物交谈术} spell and can cast it at will, without expending a spell slot. You also learn the {@spell 化兽为友} spell, and you can cast it once with this feat, without expending a spell slot. You regain the ability to cast it in this way when you finish a long rest. Intelligence is your spellcasting ability for these spells."
+						"You gain proficiency in the {@skill 馴獸} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
+						"You learn the {@spell 動物交談術} spell and can cast it at will, without expending a spell slot. You also learn the {@spell 化獸為友} spell, and you can cast it once with this feat, without expending a spell slot. You regain the ability to cast it in this way when you finish a long rest. Intelligence is your spellcasting ability for these spells."
 					]
 				}
 			]
 		},
 		{
-			"name": "强弩专家",
+			"name": "強弩專家",
 			"source": "PHB",
 			"page": 165,
 			"entries": [
-				"多亏你在弩上投入的大量训练，你获得下列好处：",
+				"多虧你在弩上投入的大量訓練，你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"你忽略你所熟练的弩上的装填属性。",
-						"处于敌对生物5尺距离内并不会让你的远程攻击获得劣势。",
-						"当你采取攻击动作并且以单手武器攻击，你可以使用附赠动作以一把你持握的{@item 手弩|phb}进行攻击。"
+						"你忽略你所熟練的弩上的裝填屬性。",
+						"處於敵對生物5尺距離內並不會讓你的遠程攻擊獲得劣勢。",
+						"當你採取攻擊動作並且以單手武器攻擊，你可以使用附贈動作以一把你持握的{@item 手弩|phb}進行攻擊。"
 					]
 				}
 			],
@@ -686,12 +686,12 @@
 				}
 			],
 			"entries": [
-				"你擅长于碾碎敌人的技艺，你获得了以下增益：",
+				"你擅長於碾碎敵人的技藝，你獲得了以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"每回合一次，当你用造成钝击伤害的攻击命中一个生物时，只要目标的体型并未比你大一级以上，你就可以将目标移动五尺至一个未被占据的空间。",
-						"当你用造成钝击伤害的攻击命中一个生物并造成重击时，直至你的下一回合开始，所有针对该生物的攻击检定具有优势。"
+						"每回合一次，當你用造成鈍擊傷害的攻擊命中一個生物時，只要目標的體型並未比你大一級以上，你就可以將目標移動五尺至一個未被占據的空間。",
+						"當你用造成鈍擊傷害的攻擊命中一個生物並造成重擊時，直至你的下一回合開始，所有針對該生物的攻擊檢定具有優勢。"
 					]
 				}
 			]
@@ -723,7 +723,7 @@
 			]
 		},
 		{
-			"name": "防御式决斗",
+			"name": "防禦式決鬥",
 			"source": "PHB",
 			"page": 165,
 			"prerequisite": [
@@ -736,7 +736,7 @@
 				}
 			],
 			"entries": [
-				"当你持握一把你所熟练的灵巧武器，且另一个生物以近战攻击命中了你时，你可以针对此次攻击使用你的反应将你的熟练加值加到AC上，这可能会让该攻击因此失手。"
+				"當你持握一把你所熟練的靈巧武器，且另一個生物以近戰攻擊命中了你時，你可以針對此次攻擊使用你的反應將你的熟練加值加到AC上，這可能會讓該攻擊因此失手。"
 			],
 			"ENG_name": "Defensive Duelist"
 		},
@@ -759,14 +759,14 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill 说服} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"If you spend 1 minute talking to someone who can understand what you say, you can make a Charisma ({@skill 说服}) check contested by the creature's Wisdom ({@skill 洞悉}) check. If you or your companions are fighting the creature, your check automatically fails. If your check succeeds, the target is {@condition 魅惑} by you as long as it remains within 60 feet of you and for 1 minute thereafter."
+						"You gain proficiency in the {@skill 說服} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
+						"If you spend 1 minute talking to someone who can understand what you say, you can make a Charisma ({@skill 說服}) check contested by the creature's Wisdom ({@skill 洞悉}) check. If you or your companions are fighting the creature, your check automatically fails. If your check succeeds, the target is {@condition 魅惑} by you as long as it remains within 60 feet of you and for 1 minute thereafter."
 					]
 				}
 			]
 		},
 		{
-			"name": "龙族恐怖",
+			"name": "龍族恐怖",
 			"source": "UAFeatsForRaces",
 			"page": 2,
 			"prerequisite": [
@@ -790,18 +790,18 @@
 				}
 			],
 			"entries": [
-				"在感到愤怒时，你散发出威慑的气息。你获得下列好处：",
+				"在感到憤怒時，你散發出威懾的氣息。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"你可以花费一次你喷吐武器特性的使用额度，并非喷吐出毁灭性的能量，而是发出咆啸以强迫距离你30尺内每个你所选择的生物进行一次感知豁免检定（DC为8 + 你的熟练加值 + 你的魅力调整值）。如果目标不能听见或看见你，则目标将自动通过豁免。若豁免失败，则目标将对你感到{@condition 恐惧}持续1分钟。如果因此陷入{@condition 恐惧}的目标受到任何伤害，它可以重复进行这个豁免检定，并在豁免成功时终止此能力对自己的效果。"
+						"你可以花費一次你噴吐武器特性的使用額度，並非噴吐出毀滅性的能量，而是發出咆嘯以強迫距離你30尺內每個你所選擇的生物進行一次感知豁免檢定（DC為8 + 你的熟練加值 + 你的魅力調整值）。如果目標不能聽見或看見你，則目標將自動通過豁免。若豁免失敗，則目標將對你感到{@condition 恐懼}持續1分鐘。如果因此陷入{@condition 恐懼}的目標受到任何傷害，它可以重複進行這個豁免檢定，並在豁免成功時終止此能力對自己的效果。"
 					]
 				}
 			],
 			"ENG_name": "Dragon Fear"
 		},
 		{
-			"name": "龙族恐怖",
+			"name": "龍族恐怖",
 			"source": "XGE",
 			"page": 74,
 			"prerequisite": [
@@ -826,18 +826,18 @@
 				}
 			],
 			"entries": [
-				"在感到愤怒时，你散发出威慑的气息。你获得下列好处：",
+				"在感到憤怒時，你散發出威懾的氣息。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"你可以花费一次你喷吐武器特性的使用额度，并非喷吐出毁灭性的能量，而是发出咆啸以强迫距离你30尺内每个你所选择的生物进行一次感知豁免检定（DC为8 + 你的熟练加值 + 你的魅力调整值）。如果目标不能听见或看见你，则目标将自动通过豁免。若豁免失败，则目标将对你感到{@condition 恐惧}持续1分钟。如果因此陷入{@condition 恐惧}的目标受到任何伤害，它可以重复进行这个豁免检定，并在豁免成功时终止此能力对自己的效果。"
+						"你可以花費一次你噴吐武器特性的使用額度，並非噴吐出毀滅性的能量，而是發出咆嘯以強迫距離你30尺內每個你所選擇的生物進行一次感知豁免檢定（DC為8 + 你的熟練加值 + 你的魅力調整值）。如果目標不能聽見或看見你，則目標將自動通過豁免。若豁免失敗，則目標將對你感到{@condition 恐懼}持續1分鐘。如果因此陷入{@condition 恐懼}的目標受到任何傷害，它可以重複進行這個豁免檢定，並在豁免成功時終止此能力對自己的效果。"
 					]
 				}
 			],
 			"ENG_name": "Dragon Fear"
 		},
 		{
-			"name": "龙族皮革",
+			"name": "龍族皮革",
 			"source": "UAFeatsForRaces",
 			"page": 2,
 			"prerequisite": [
@@ -861,19 +861,19 @@
 				}
 			],
 			"entries": [
-				"你显而易见的鳞片和利爪让人想起了你的龙族先祖。你获得下列好处：",
+				"你顯而易見的鱗片和利爪讓人想起了你的龍族先祖。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"你的鳞片变的坚硬。当你未穿着护甲，你可以使用13 + 你的敏捷调整值来算出你的AC。你可以在使用盾牌时而仍获得这个好处。",
-						"你的指尖长出可伸缩的爪子。这对爪子是你可以用来进行徒手打击的天生武器。如果你用它们命中目标，你造成等同于{@dice 1d4} + 你的力量调整值的挥砍伤害，而非原本徒手打击的钝击伤害。"
+						"你的鱗片變的堅硬。當你未穿著護甲，你可以使用13 + 你的敏捷調整值來算出你的AC。你可以在使用盾牌時而仍獲得這個好處。",
+						"你的指尖長出可伸縮的爪子。這對爪子是你可以用來進行徒手打擊的天生武器。如果你用它們命中目標，你造成等同於{@dice 1d4} + 你的力量調整值的揮砍傷害，而非原本徒手打擊的鈍擊傷害。"
 					]
 				}
 			],
 			"ENG_name": "Dragon Hide"
 		},
 		{
-			"name": "龙族皮革",
+			"name": "龍族皮革",
 			"source": "XGE",
 			"page": 74,
 			"prerequisite": [
@@ -898,12 +898,12 @@
 				}
 			],
 			"entries": [
-				"你显而易见的鳞片和利爪让人想起了你的龙族先祖。你获得下列好处：",
+				"你顯而易見的鱗片和利爪讓人想起了你的龍族先祖。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"你的鳞片变的坚硬。当你未穿着护甲，你可以使用13 + 你的敏捷调整值来算出你的AC。你可以在使用盾牌时而仍获得这个好处。",
-						"你的指尖长出可伸缩的爪子。这对爪子是你可以用来进行徒手打击的天生武器。如果你用它们命中目标，你造成等同于{@dice 1d4} + 你的力量调整值的挥砍伤害，而非原本徒手打击的钝击伤害。"
+						"你的鱗片變的堅硬。當你未穿著護甲，你可以使用13 + 你的敏捷調整值來算出你的AC。你可以在使用盾牌時而仍獲得這個好處。",
+						"你的指尖長出可伸縮的爪子。這對爪子是你可以用來進行徒手打擊的天生武器。如果你用它們命中目標，你造成等同於{@dice 1d4} + 你的力量調整值的揮砍傷害，而非原本徒手打擊的鈍擊傷害。"
 					]
 				}
 			],
@@ -977,21 +977,21 @@
 					"type": "entries",
 					"name": "Least Dragonmark",
 					"entries": [
-						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell 侦测魔法}, {@spell 法师之手}"
+						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell 偵測魔法}, {@spell 法師之手}"
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Lesser Dragonmark",
 					"entries": [
-						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell 侦测思想}"
+						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell 偵測思想}"
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Greater Dragonmark",
 					"entries": [
-						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell 锐眼术}"
+						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell 銳眼術}"
 					]
 				}
 			],
@@ -1051,21 +1051,21 @@
 					"type": "entries",
 					"name": "Least Dragonmark",
 					"entries": [
-						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell 鉴定术}, {@spell 法师之手}"
+						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell 鑑定術}, {@spell 法師之手}"
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Lesser Dragonmark",
 					"entries": [
-						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell 物品定位术}"
+						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell 物品定位術}"
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Greater Dragonmark",
 					"entries": [
-						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell 锐眼术}"
+						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell 銳眼術}"
 					]
 				}
 			]
@@ -1121,21 +1121,21 @@
 					"type": "entries",
 					"name": "Least Dragonmark",
 					"entries": [
-						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell 德鲁伊伎俩}, {@spell 动物交谈术}"
+						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell 德魯伊伎倆}, {@spell 動物交談術}"
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Lesser Dragonmark",
 					"entries": [
-						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell 野兽知觉}"
+						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell 野獸知覺}"
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Greater Dragonmark",
 					"entries": [
-						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell 召唤动物}"
+						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell 召喚動物}"
 					]
 				}
 			]
@@ -1191,21 +1191,21 @@
 					"type": "entries",
 					"name": "Least Dragonmark",
 					"entries": [
-						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell 治疗伤势}, {@spell 拯救濒死}"
+						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell 治療傷勢}, {@spell 拯救瀕死}"
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Lesser Dragonmark",
 					"entries": [
-						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell 次级复原术}"
+						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell 次級復原術}"
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Greater Dragonmark",
 					"entries": [
-						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell 回生术}"
+						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell 回生術}"
 					]
 				}
 			]
@@ -1261,21 +1261,21 @@
 					"type": "entries",
 					"name": "Least Dragonmark",
 					"entries": [
-						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell 交友术}, {@spell 隐形仆役}"
+						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell 交友術}, {@spell 隱形僕役}"
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Lesser Dragonmark",
 					"entries": [
-						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell 通天绳}"
+						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell 通天繩}"
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Greater Dragonmark",
 					"entries": [
-						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell 李欧蒙小屋}"
+						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell 李歐蒙小屋}"
 					]
 				}
 			]
@@ -1331,7 +1331,7 @@
 					"type": "entries",
 					"name": "Least Dragonmark",
 					"entries": [
-						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell 鉴定术}, {@spell 修复术}"
+						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell 鑑定術}, {@spell 修復術}"
 					]
 				},
 				{
@@ -1401,21 +1401,21 @@
 					"type": "entries",
 					"name": "Least Dragonmark",
 					"entries": [
-						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell 脚底抹油}, {@spell 光亮术}"
+						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell 腳底抹油}, {@spell 光亮術}"
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Lesser Dragonmark",
 					"entries": [
-						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell 迷踪步}"
+						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell 迷蹤步}"
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Greater Dragonmark",
 					"entries": [
-						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell 传送法阵}"
+						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell 傳送法陣}"
 					]
 				}
 			]
@@ -1471,21 +1471,21 @@
 					"type": "entries",
 					"name": "Least Dragonmark",
 					"entries": [
-						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell 通晓语言}, {@spell 传讯术}"
+						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell 通曉語言}, {@spell 傳訊術}"
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Lesser Dragonmark",
 					"entries": [
-						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell 短讯术}"
+						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell 簡訊術}"
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Greater Dragonmark",
 					"entries": [
-						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell 巧舌术}"
+						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell 巧舌術}"
 					]
 				}
 			]
@@ -1541,21 +1541,21 @@
 					"type": "entries",
 					"name": "Least Dragonmark",
 					"entries": [
-						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell 剑刃防护}, {@spell 强迫决斗}"
+						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell 劍刃防護}, {@spell 強迫決鬥}"
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Lesser Dragonmark",
 					"entries": [
-						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell 朦胧术}"
+						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell 朦朧術}"
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Greater Dragonmark",
 					"entries": [
-						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell 防护能量}"
+						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell 防護能量}"
 					]
 				}
 			]
@@ -1611,21 +1611,21 @@
 					"type": "entries",
 					"name": "Least Dragonmark",
 					"entries": [
-						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell 舞光术}, {@spell 易容术}"
+						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell 舞光術}, {@spell 易容術}"
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Lesser Dragonmark",
 					"entries": [
-						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell 黑暗术}"
+						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell 黑暗術}"
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Greater Dragonmark",
 					"entries": [
-						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell 回避侦测}"
+						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell 迴避偵測}"
 					]
 				}
 			]
@@ -1681,14 +1681,14 @@
 					"type": "entries",
 					"name": "Least Dragonmark",
 					"entries": [
-						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell 云雾术}, {@spell 电爪}"
+						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell 雲霧術}, {@spell 電爪}"
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Lesser Dragonmark",
 					"entries": [
-						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell 造风术}"
+						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell 造風術}"
 					]
 				},
 				{
@@ -1751,27 +1751,27 @@
 					"type": "entries",
 					"name": "Least Dragonmark",
 					"entries": [
-						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell 警报术}, {@spell 提升抗力}"
+						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell 警報術}, {@spell 提升抗力}"
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Lesser Dragonmark",
 					"entries": [
-						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell 秘法锁}"
+						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell 秘法鎖}"
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Greater Dragonmark",
 					"entries": [
-						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell 防护法阵}"
+						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell 防護法陣}"
 					]
 				}
 			]
 		},
 		{
-			"name": "高等卓尔魔法",
+			"name": "高等卓爾魔法",
 			"source": "UAFeatsForRaces",
 			"page": 2,
 			"prerequisite": [
@@ -1803,12 +1803,12 @@
 				}
 			],
 			"entries": [
-				"你学会更多的黑暗精灵魔法。你习得{@spell 侦测魔法}法术并可以随意施放它，无需消耗法术位。你也习得{@spell 浮空术}和{@spell 解除魔法}，并可以各自施放一次而无需消耗法术位。你在完成一次长休后重新获得施放这两个法术的能力。这三个法术的施法属性是魅力。"
+				"你學會更多的黑暗精靈魔法。你習得{@spell 偵測魔法}法術並可以隨意施放它，無需消耗法術位。你也習得{@spell 浮空術}和{@spell 解除魔法}，並可以各自施放一次而無需消耗法術位。你在完成一次長休後重新獲得施放這兩個法術的能力。這三個法術的施法屬性是魅力。"
 			],
 			"ENG_name": "Drow High Magic"
 		},
 		{
-			"name": "高等卓尔魔法",
+			"name": "高等卓爾魔法",
 			"source": "XGE",
 			"page": 74,
 			"prerequisite": [
@@ -1840,22 +1840,22 @@
 				}
 			],
 			"entries": [
-				"你学会更多的黑暗精灵魔法。你习得{@spell 侦测魔法}法术并可以随意施放它，无需消耗法术位。你也习得{@spell 浮空术}和{@spell 解除魔法}，并可以各自施放一次而无需消耗法术位。你在完成一次长休后重新获得施放这两个法术的能力。这三个法术的施法属性是魅力。"
+				"你學會更多的黑暗精靈魔法。你習得{@spell 偵測魔法}法術並可以隨意施放它，無需消耗法術位。你也習得{@spell 浮空術}和{@spell 解除魔法}，並可以各自施放一次而無需消耗法術位。你在完成一次長休後重新獲得施放這兩個法術的能力。這三個法術的施法屬性是魅力。"
 			],
 			"ENG_name": "Drow High Magic"
 		},
 		{
-			"name": "双持客",
+			"name": "雙持客",
 			"source": "PHB",
 			"page": 165,
 			"entries": [
-				"你精通于双持武器作战，获得下列好处：",
+				"你精通於雙持武器作戰，獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"当你每只手都各持握一把近战武器时，你的AC获得+1加值。",
-						"即使你持握的单手近战武器并非轻型，你仍可以进行双武器战斗。",
-						"在你原本只能拔出或入鞘一把武器的时候，你可以同时拔出或入鞘二把单手武器。"
+						"當你每隻手都各持握一把近戰武器時，你的AC獲得+1加值。",
+						"即使你持握的單手近戰武器並非輕型，你仍可以進行雙武器戰鬥。",
+						"在你原本只能拔出或入鞘一把武器的時候，你可以同時拔出或入鞘二把單手武器。"
 					]
 				}
 			],
@@ -1866,14 +1866,14 @@
 			"source": "PHB",
 			"page": 166,
 			"entries": [
-				"警戒于大多地城中会发现的隐藏陷阱和密门，你获得下列好处：",
+				"警戒於大多地城中會發現的隱藏陷阱和密門，你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"你在搜索密门时所进行的感知（{@skill 察觉}）和智力（{@skill 调查}）检定中有优势。",
-						"你在躲避或抵抗陷阱时的豁免检定中有优势。",
-						"对于陷阱所造成的伤害具有抗性。",
-						"以快速步速旅行并不会对你的被动感知（{@skill 察觉}）数值造成原本的-5减值。"
+						"你在搜索密門時所進行的感知（{@skill 察覺}）和智力（{@skill 調查}）檢定中有優勢。",
+						"你在躲避或抵抗陷阱時的豁免檢定中有優勢。",
+						"對於陷阱所造成的傷害具有抗性。",
+						"以快速步速旅行並不會對你的被動感知（{@skill 察覺}）數值造成原本的-5減值。"
 					]
 				}
 			],
@@ -1889,11 +1889,11 @@
 				}
 			],
 			"entries": [
-				"坚强而持久，你获得下列好处：",
+				"堅強而持久，你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"当你骰生命骰来恢复生命值时，每颗生命骰恢复的生命值最少等于你体质调整值的两倍（最少为2）。"
+						"當你骰生命骰來恢復生命值時，每顆生命骰恢復的生命值最少等於你體質調整值的兩倍（最少為2）。"
 					]
 				}
 			],
@@ -1922,13 +1922,13 @@
 				{
 					"type": "list",
 					"items": [
-						"Whenever you take the {@action 闪避} action in combat, you can spend one Hit Die to heal yourself. Roll the die, add your Constitution modifier, and regain a number of hit points equal to the total (minimum of 1)."
+						"Whenever you take the {@action 閃避} action in combat, you can spend one Hit Die to heal yourself. Roll the die, add your Constitution modifier, and regain a number of hit points equal to the total (minimum of 1)."
 					]
 				}
 			]
 		},
 		{
-			"name": "矮人坚毅",
+			"name": "矮人堅毅",
 			"source": "XGE",
 			"page": 74,
 			"prerequisite": [
@@ -1946,18 +1946,18 @@
 				}
 			],
 			"entries": [
-				"你的体内流淌着矮人英雄的血脉。你获得下列好处：",
+				"你的體內流淌著矮人英雄的血脈。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"每当你在战斗中采取{@action 闪避}动作时，你可以消耗一颗生命骰以治疗你自己。骰该生命骰，加上你的体质调整值，并回复等同于其总和数值的生命值（最少为1）。"
+						"每當你在戰鬥中採取{@action 閃避}動作時，你可以消耗一顆生命骰以治療你自己。骰該生命骰，加上你的體質調整值，並回復等同於其總和數值的生命值（最少為1）。"
 					]
 				}
 			],
 			"ENG_name": "Dwarven Fortitude"
 		},
 		{
-			"name": "魔能导师",
+			"name": "魔能導師",
 			"ENG_name": "Eldritch Adept",
 			"source": "TCE",
 			"page": 79,
@@ -1967,8 +1967,8 @@
 				}
 			],
 			"entries": [
-				"对神秘学的研究使你解锁了体内的秘法能量。你从契术师职业中选择并获得一项{@filter 魔能祈唤|optionalfeatures|Feature Type=EI}。如果该祈唤具有任何先决条件，则仅当你是一位满足该条件的契术师时才能选择该祈唤。",
-				"当你升级时，你可以将该祈唤更换为契术师职业中的另一个魔能祈唤。"
+				"對神秘學的研究使你解鎖了體內的秘法能量。你從契術師職業中選擇並獲得一項{@filter 魔能祈喚|optionalfeatures|Feature Type=EI}。如果該祈喚具有任何先決條件，則僅當你是一位滿足該條件的契術師時才能選擇該祈喚。",
+				"當你升級時，你可以將該祈喚更換為契術師職業中的另一個魔能祈喚。"
 			]
 		},
 		{
@@ -1995,14 +1995,14 @@
 				}
 			],
 			"entries": [
-				"当你获得此专长时，选择下列一种伤害类型：强酸、冷冻、火焰、闪电、雷鸣。",
-				"你施放的法术忽视你所选择伤害类型的抗性。此外，当你施放法术造成所选类型的伤害时，你可以将所有伤害骰骰出的1视为2。",
-				"你可以多次选择获得此专长。每次你这么做，都必须选择一种不同的伤害类型。"
+				"當你獲得此專長時，選擇下列一種傷害類型：強酸、冷凍、火焰、閃電、雷鳴。",
+				"你施放的法朮忽視你所選擇傷害類型的抗性。此外，當你施放法術造成所選類型的傷害時，你可以將所有傷害骰骰出的1視為2。",
+				"你可以多次選擇獲得此專長。每次你這麼做，都必須選擇一種不同的傷害類型。"
 			],
 			"ENG_name": "Elemental Adept"
 		},
 		{
-			"name": "精灵之准",
+			"name": "精靈之准",
 			"source": "UAFeatsForRaces",
 			"page": 2,
 			"prerequisite": [
@@ -2023,18 +2023,18 @@
 				}
 			],
 			"entries": [
-				"精灵的准确性是众所周知的，尤其是精灵弓箭手和施法者。你在依赖精确度而非蛮力的攻击中有着不可思议的准头。你获得下列好处：",
+				"精靈的準確性是眾所周知的，尤其是精靈弓箭手和施法者。你在依賴精確度而非蠻力的攻擊中有著不可思議的準頭。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"每当你在使用敏捷、智力、感知、或魅力的攻击检定中具有优势，你可以重骰其中一颗骰子一次。"
+						"每當你在使用敏捷、智力、感知、或魅力的攻擊檢定中具有優勢，你可以重骰其中一顆骰子一次。"
 					]
 				}
 			],
 			"ENG_name": "Elven Accuracy"
 		},
 		{
-			"name": "精灵之准",
+			"name": "精靈之准",
 			"source": "XGE",
 			"page": 74,
 			"prerequisite": [
@@ -2063,11 +2063,11 @@
 				}
 			],
 			"entries": [
-				"精灵的准确性是众所周知的，尤其是精灵弓箭手和施法者。你在依赖精确度而非蛮力的攻击中有着不可思议的准头。你获得下列好处：",
+				"精靈的準確性是眾所周知的，尤其是精靈弓箭手和施法者。你在依賴精確度而非蠻力的攻擊中有著不可思議的準頭。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"每当你在使用敏捷、智力、感知、或魅力的攻击检定中具有优势，你可以重骰其中一颗骰子一次。"
+						"每當你在使用敏捷、智力、感知、或魅力的攻擊檢定中具有優勢，你可以重骰其中一顆骰子一次。"
 					]
 				}
 			],
@@ -2093,7 +2093,7 @@
 					"type": "list",
 					"items": [
 						"You gain proficiency in the {@skill 洞悉} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"You can use your action to try to get uncanny insight about one humanoid you can see within 30 feet of you. Make a Wisdom ({@skill 洞悉}) check contested by the target's Charisma ({@skill 欺瞒}) check. If your check succeeds, you have advantage on attack rolls and ability checks against the target until the end of your next turn."
+						"You can use your action to try to get uncanny insight about one humanoid you can see within 30 feet of you. Make a Wisdom ({@skill 洞悉}) check contested by the target's Charisma ({@skill 欺瞞}) check. If your check succeeds, you have advantage on attack rolls and ability checks against the target until the end of your next turn."
 					]
 				}
 			]
@@ -2127,13 +2127,13 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill 欺瞒} and {@skill 说服} skills. If you're already proficient in either skill, your proficiency bonus is doubled for any check you make with that skill."
+						"You gain proficiency in the {@skill 欺瞞} and {@skill 說服} skills. If you're already proficient in either skill, your proficiency bonus is doubled for any check you make with that skill."
 					]
 				}
 			]
 		},
 		{
-			"name": "消失无踪",
+			"name": "消失無蹤",
 			"source": "UAFeatsForRaces",
 			"page": 2,
 			"prerequisite": [
@@ -2151,18 +2151,18 @@
 				}
 			],
 			"entries": [
-				"你的族人在幻术系魔法上聪颖且握有独门诀窍。你学过一种在你受到伤害时消失无踪的魔法把戏。你获得下列好处：",
+				"你的族人在幻術系魔法上聰穎且握有獨門訣竅。你學過一種在你受到傷害時消失無蹤的魔法把戲。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"紧接在你受到伤害后，你可以使用一个反应以用魔法变得{@condition 隐形}直到你的下个回合结束，或直到你攻击、造成伤害、或强迫某人进行一次豁免检定。一旦你使用此能力，直到你完成一次短休或长休之前都无法再使用此能力。"
+						"緊接在你受到傷害後，你可以使用一個反應以用魔法變得{@condition 隱形}直到你的下個回合結束，或直到你攻擊、造成傷害、或強迫某人進行一次豁免檢定。一旦你使用此能力，直到你完成一次短休或長休之前都無法再使用此能力。"
 					]
 				}
 			],
 			"ENG_name": "Fade Away"
 		},
 		{
-			"name": "消失无踪",
+			"name": "消失無蹤",
 			"source": "XGE",
 			"page": 74,
 			"prerequisite": [
@@ -2186,11 +2186,11 @@
 				}
 			],
 			"entries": [
-				"你的族人在幻术系魔法上聪颖且握有独门诀窍。你学过一种在你受到伤害时消失无踪的魔法把戏。你获得下列好处：",
+				"你的族人在幻術系魔法上聰穎且握有獨門訣竅。你學過一種在你受到傷害時消失無蹤的魔法把戲。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"紧接在你受到伤害后，你可以使用一个反应以用魔法变得{@condition 隐形}直到你的下个回合结束，或直到你攻击、造成伤害、或强迫某人进行一次豁免检定。一旦你使用此能力，直到你完成一次短休或长休之前都无法再使用此能力。"
+						"緊接在你受到傷害後，你可以使用一個反應以用魔法變得{@condition 隱形}直到你的下個回合結束，或直到你攻擊、造成傷害、或強迫某人進行一次豁免檢定。一旦你使用此能力，直到你完成一次短休或長休之前都無法再使用此能力。"
 					]
 				}
 			],
@@ -2208,13 +2208,13 @@
 						"You gain a +1 bonus to attack rolls you make with the weapon.",
 						"Whenever you have advantage on a melee attack roll you make with the weapon and hit, you can knock the target {@condition 伏地} if the lower of the two {@dice d20} rolls would also hit the target.",
 						"Whenever you have disadvantage on a melee attack roll you make with the weapon, the target takes bludgeoning damage equal to your Strength modifier (minimum of 0) if the attack misses but the higher of the two {@dice d20} rolls would have hit.",
-						"If you use the {@action 协助} action to aid an ally's melee attack while you're wielding the weapon, you knock the target's shield aside momentarily. In addition to the ally gaining advantage on the attack roll, the ally gains a +2 bonus to the roll if the target is using a shield."
+						"If you use the {@action 協助} action to aid an ally's melee attack while you're wielding the weapon, you knock the target's shield aside momentarily. In addition to the ally gaining advantage on the attack roll, the ally gains a +2 bonus to the roll if the target is using a shield."
 					]
 				}
 			]
 		},
 		{
-			"name": "精类传送",
+			"name": "精類傳送",
 			"source": "UAFeatsForRaces",
 			"page": 3,
 			"prerequisite": [
@@ -2247,19 +2247,19 @@
 				}
 			],
 			"entries": [
-				"你对高等精灵传说的研究解开了除了你的雅灵表亲外，很少其他精灵拥有的精族力量。借助于你的精类血统，你可以暂时地跃穿妖精荒野以缩短从一处到另一处的距离。你获得下列好处：",
+				"你對高等精靈傳說的研究解開了除了你的雅靈表親外，很少其他精靈擁有的精族力量。借助於你的精類血統，你可以暫時地躍穿妖精荒野以縮短從一處到另一處的距離。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"你习得说、读、写木族语。",
-						"你习得{@spell 迷踪步}法术，并可以无需消耗法术位施放一次。你在完成一次短休或长休后重新获得施放此法术的能力。这个法术的施法属性是智力。"
+						"你習得說、讀、寫木族語。",
+						"你習得{@spell 迷蹤步}法術，並可以無需消耗法術位施放一次。你在完成一次短休或長休後重新獲得施放此法術的能力。這個法術的施法屬性是智力。"
 					]
 				}
 			],
 			"ENG_name": "Fey Teleportation"
 		},
 		{
-			"name": "精类传送",
+			"name": "精類傳送",
 			"source": "XGE",
 			"page": 74,
 			"prerequisite": [
@@ -2303,19 +2303,19 @@
 				}
 			],
 			"entries": [
-				"你对高等精灵传说的研究解开了除了你的雅灵表亲外，很少其他精灵拥有的精族力量。借助于你的精类血统，你可以暂时地跃穿妖精荒野以缩短从一处到另一处的距离。你获得下列好处：",
+				"你對高等精靈傳說的研究解開了除了你的雅靈表親外，很少其他精靈擁有的精族力量。借助於你的精類血統，你可以暫時地躍穿妖精荒野以縮短從一處到另一處的距離。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"你习得说、读、写木族语。",
-						"你习得{@spell 迷踪步}法术，并可以无需消耗法术位施放一次。你在完成一次短休或长休后重新获得施放此法术的能力。这个法术的施法属性是智力。"
+						"你習得說、讀、寫木族語。",
+						"你習得{@spell 迷蹤步}法術，並可以無需消耗法術位施放一次。你在完成一次短休或長休後重新獲得施放此法術的能力。這個法術的施法屬性是智力。"
 					]
 				}
 			],
 			"ENG_name": "Fey Teleportation"
 		},
 		{
-			"name": "精类触碰",
+			"name": "精類觸碰",
 			"ENG_name": "Fey Touched",
 			"source": "TCE",
 			"page": 79,
@@ -2349,11 +2349,11 @@
 				}
 			],
 			"entries": [
-				"暴露在妖精荒野的魔法之下的经历已经改变了你，使你获得了以下增益：",
+				"暴露在妖精荒野的魔法之下的經歷已經改變了你，使你獲得了以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"你习得{@spell 迷踪步}以及一个由你选择的{@filter 一环法术|spells|level=1|school=E;D}。该一环法术必须是预言系或者惑控系法术。你可以在不消耗法术位的情况下施展这些法术各一次。当你以此法施展某个法术后，你不能再次以此法施展该法术，直至你完成一次长休。你也可以消耗合适的法术位来施展这些法术。这些法术的施法关键属性是你由此专长提升的属性。"
+						"你習得{@spell 迷蹤步}以及一個由你選擇的{@filter 一環法術|spells|level=1|school=E;D}。該一環法術必須是預言系或者惑控系法術。你可以在不消耗法術位的情況下施展這些法術各一次。當你以此法施展某個法術後，你不能再次以此法施展該法術，直至你完成一次長休。你也可以消耗合適的法術位來施展這些法術。這些法術的施法關鍵屬性是你由此專長提升的屬性。"
 					]
 				}
 			]
@@ -2396,13 +2396,13 @@
 				{
 					"type": "list",
 					"items": [
-						"You learn the {@spell 迷踪步} spell and one {@filter 1st-level spell|spells|level=1|school=E;D} of your choice. The 1st-level spell must be from the divination or enchantment school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
+						"You learn the {@spell 迷蹤步} spell and one {@filter 1st-level spell|spells|level=1|school=E;D} of your choice. The 1st-level spell must be from the divination or enchantment school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
 					]
 				}
 			]
 		},
 		{
-			"name": "战斗学徒",
+			"name": "戰鬥學徒",
 			"ENG_name": "Fighting Initiate",
 			"source": "TCE",
 			"page": 80,
@@ -2416,8 +2416,8 @@
 				}
 			],
 			"entries": [
-				"你的军事训练帮助你养成了一种特定的战术风格。因此，你可以从战士职业中选择并习得一项{@filter 战斗风格|optionalfeatures|Feature Type=FS:F}。如果你已经有一项战斗风格，你不能选择相同的战斗风格。",
-				"每当你升级并达到获得属性值提升特性的等级时，你可以来自此专长的战斗风格替换为战士职业中的另一项你未习得的战斗风格。"
+				"你的軍事訓練幫助你養成了一種特定的戰術風格。因此，你可以從戰士職業中選擇並習得一項{@filter 戰鬥風格|optionalfeatures|Feature Type=FS:F}。如果你已經有一項戰鬥風格，你不能選擇相同的戰鬥風格。",
+				"每當你升級並達到獲得屬性值提升特性的等級時，你可以來自此專長的戰鬥風格替換為戰士職業中的另一項你未習得的戰鬥風格。"
 			]
 		},
 		{
@@ -2455,7 +2455,7 @@
 			]
 		},
 		{
-			"name": "弗莱格索斯之焰",
+			"name": "弗萊格索斯之焰",
 			"source": "UAFeatsForRaces",
 			"page": 3,
 			"prerequisite": [
@@ -2479,19 +2479,19 @@
 				}
 			],
 			"entries": [
-				"你学会呼唤地狱之火以服从你的命令。你获得下列好处：",
+				"你學會呼喚地獄之火以服從你的命令。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"当你为你所施放的法术掷骰决定火焰伤害时，你可以重骰任何你在火焰伤害骰中骰出的1，但你必须使用新的掷骰结果，即使其结果仍然是1。",
-						"每当你施放一个造成火焰伤害的法术时，你可以使烈焰环绕着你直到你的下个回合结束。这团烈焰不会伤害你或你的所有物，且会散发30尺范围的明亮光照和再延伸30尺的微光光照。当这团烈焰存在时，任何距离你5尺内且以近战攻击命中你的生物将受到{@dice 1d4}火焰伤害。"
+						"當你為你所施放的法術擲骰決定火焰傷害時，你可以重骰任何你在火焰傷害骰中骰出的1，但你必須使用新的擲骰結果，即使其結果仍然是1。",
+						"每當你施放一個造成火焰傷害的法術時，你可以使烈焰環繞著你直到你的下個回合結束。這團烈焰不會傷害你或你的所有物，且會散發30尺範圍的明亮光照和再延伸30尺的微光光照。當這團烈焰存在時，任何距離你5尺內且以近戰攻擊命中你的生物將受到{@dice 1d4}火焰傷害。"
 					]
 				}
 			],
 			"ENG_name": "Flames of Phlegethos"
 		},
 		{
-			"name": "弗莱格索斯之焰",
+			"name": "弗萊格索斯之焰",
 			"source": "XGE",
 			"page": 74,
 			"prerequisite": [
@@ -2515,12 +2515,12 @@
 				}
 			],
 			"entries": [
-				"你学会呼唤地狱之火以服从你的命令。你获得下列好处：",
+				"你學會呼喚地獄之火以服從你的命令。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"当你为你所施放的法术掷骰决定火焰伤害时，你可以重骰任何你在火焰伤害骰中骰出的1，但你必须使用新的掷骰结果，即使其结果仍然是1。",
-						"每当你施放一个造成火焰伤害的法术时，你可以使烈焰环绕着你直到你的下个回合结束。这团烈焰不会伤害你或你的所有物，且会散发30尺范围的明亮光照和再延伸30尺的微光光照。当这团烈焰存在时，任何距离你5尺内且以近战攻击命中你的生物将受到{@dice 1d4}火焰伤害。"
+						"當你為你所施放的法術擲骰決定火焰傷害時，你可以重骰任何你在火焰傷害骰中骰出的1，但你必須使用新的擲骰結果，即使其結果仍然是1。",
+						"每當你施放一個造成火焰傷害的法術時，你可以使烈焰環繞著你直到你的下個回合結束。這團烈焰不會傷害你或你的所有物，且會散發30尺範圍的明亮光照和再延伸30尺的微光光照。當這團烈焰存在時，任何距離你5尺內且以近戰攻擊命中你的生物將受到{@dice 1d4}火焰傷害。"
 					]
 				}
 			],
@@ -2621,9 +2621,9 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency with {@item 厨师工具|phb}. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
+						"You gain proficiency with {@item 廚師工具|phb}. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
 						"As an action, you can inspect a drink or plate of food within 5 feet of you and determine whether it is {@condition 中毒}, provided that you can see and smell it.",
-						"During a long rest, you can prepare and serve a meal that helps you and your allies recover from the rigors of adventuring, provided you have suitable food, {@item 厨师工具|phb}, and other supplies on hand. The meal serves up to six people, and each person who eats it regains two additional Hit Dice at the end of the long rest. In addition, those who partake of the meal have advantage on Constitution saving throws against disease for the next 24 hours."
+						"During a long rest, you can prepare and serve a meal that helps you and your allies recover from the rigors of adventuring, provided you have suitable food, {@item 廚師工具|phb}, and other supplies on hand. The meal serves up to six people, and each person who eats it regains two additional Hit Dice at the end of the long rest. In addition, those who partake of the meal have advantage on Constitution saving throws against disease for the next 24 hours."
 					]
 				}
 			]
@@ -2643,28 +2643,28 @@
 				}
 			],
 			"entries": [
-				"你着重磨练了如何保持近距离擒抱的技巧。你获得下列好处：",
+				"你著重磨練了如何保持近距離擒抱的技巧。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"你对被你擒抱的生物所进行的攻击检定有优势。",
-						"你可以使用动作尝试压制被你擒抱而处于{@condition 被擒}状态的生物。若要这么做，你需要进行另外一次擒抱检定。若成功，则直到结束擒抱之前，你与该生物同时进入{@condition 束缚}状态。"
+						"你對被你擒抱的生物所進行的攻擊檢定有優勢。",
+						"你可以使用動作嘗試壓制被你擒抱而處於{@condition 被擒}狀態的生物。若要這麼做，你需要進行另外一次擒抱檢定。若成功，則直到結束擒抱之前，你與該生物同時進入{@condition 束縛}狀態。"
 					]
 				}
 			],
 			"ENG_name": "Grappler"
 		},
 		{
-			"name": "巨武大师",
+			"name": "巨武大師",
 			"source": "PHB",
 			"page": 167,
 			"entries": [
-				"你学会了如何将武器重量转化为优势，利用其动量来增强你的打击。你获得下列好处：",
+				"你學會了如何將武器重量轉化為優勢，利用其動量來增強你的打擊。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"在你的回合，当你用近战武器造成重击、或将一名生物的生命值降至0，你可以使用附赠动作再进行一次近战武器攻击。",
-						"在你使用你所熟练的重型武器进行近战攻击之前，你可以选择让该次攻击检定承受-5的减值。若该次攻击命中，该次攻击的伤害+10。"
+						"在你的回合，當你用近戰武器造成重擊、或將一名生物的生命值降至0，你可以使用附贈動作再進行一次近戰武器攻擊。",
+						"在你使用你所熟練的重型武器進行近戰攻擊之前，你可以選擇讓該次攻擊檢定承受-5的減值。若該次攻擊命中，該次攻擊的傷害+10。"
 					]
 				}
 			],
@@ -2702,13 +2702,13 @@
 					"items": [
 						"During the first round of any combat against your chosen foes, your attack rolls against any of them have advantage.",
 						"When any of your chosen foes makes an opportunity attack against you, it makes the attack roll with disadvantage.",
-						"Whenever you make an Intelligence ({@skill 奥秘}, {@skill 历史}, {@skill 自然}, or {@skill 宗教}) check to recall information about your chosen foes, you add double your proficiency bonus to the check, even if you're not normally proficient."
+						"Whenever you make an Intelligence ({@skill 奧秘}, {@skill 歷史}, {@skill 自然}, or {@skill 宗教}) check to recall information about your chosen foes, you add double your proficiency bonus to the check, even if you're not normally proficient."
 					]
 				}
 			]
 		},
 		{
-			"name": "枪手",
+			"name": "槍手",
 			"ENG_name": "Gunner",
 			"source": "TCE",
 			"page": 80,
@@ -2723,13 +2723,13 @@
 				}
 			],
 			"entries": [
-				"你持枪时的手快眼明使你获得了以下增益：",
+				"你持槍時的手快眼明使你獲得了以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"你获得枪械的熟练项（见城主指南的\"{@variantrule Firearms|DMG}\"栏目）。",
-						"你忽略枪械的装填属性。",
-						"你在敌对生物５尺范围内发动远程攻击检定时，不会因此而具有劣势。"
+						"你獲得槍械的熟練項（見城主指南的\"{@variantrule Firearms|DMG}\"欄目）。",
+						"你忽略槍械的裝填屬性。",
+						"你在敵對生物５尺範圍內發動遠程攻擊檢定時，不會因此而具有劣勢。"
 					]
 				}
 			]
@@ -2761,23 +2761,23 @@
 			]
 		},
 		{
-			"name": "治疗师",
+			"name": "治療師",
 			"source": "PHB",
 			"page": 167,
 			"entries": [
-				"你是名娴熟的医者，能够快速地治疗伤口并让队友们重返战场。你获得下列好处：",
+				"你是名嫻熟的醫者，能夠快速地治療傷口並讓隊友們重返戰場。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"当你使用{@item 医疗工具组|phb}稳定濒死生物的伤势时，该生物同时恢复1点生命值。",
-						"以一个动作，你可以消耗医疗工具组的一次使用额度照顾一个生物，并恢复他{@dice 1d6+4}加上等同该生物最大生命骰数量的生命值。直到完成短休或长休之前，该生物都不能再通过此专长恢复生命值。"
+						"當你使用{@item 醫療工具組|phb}穩定瀕死生物的傷勢時，該生物同時恢復1點生命值。",
+						"以一個動作，你可以消耗醫療工具組的一次使用額度照顧一個生物，並恢復他{@dice 1d6+4}加上等同該生物最大生命骰數量的生命值。直到完成短休或長休之前，該生物都不能再通過此專長恢復生命值。"
 					]
 				}
 			],
 			"ENG_name": "Healer"
 		},
 		{
-			"name": "重度着甲",
+			"name": "重度著甲",
 			"source": "PHB",
 			"page": 167,
 			"prerequisite": [
@@ -2800,18 +2800,18 @@
 				}
 			],
 			"entries": [
-				"你受训于熟练重甲的使用方法，你获得下列好处：",
+				"你受訓於熟練重甲的使用方法，你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"你获得重甲的熟练。"
+						"你獲得重甲的熟練。"
 					]
 				}
 			],
 			"ENG_name": "Heavily Armored"
 		},
 		{
-			"name": "重甲大师",
+			"name": "重甲大師",
 			"source": "PHB",
 			"page": 167,
 			"prerequisite": [
@@ -2829,11 +2829,11 @@
 				}
 			],
 			"entries": [
-				"你可以利用护甲偏斜掉对他人足以致命的攻击。你获得下列好处：",
+				"你可以利用護甲偏斜掉對他人足以致命的攻擊。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"当你穿着重甲时，非魔法武器对你造成的钝击、穿刺、挥砍伤害减少3点。"
+						"當你穿著重甲時，非魔法武器對你造成的鈍擊、穿刺、揮砍傷害減少3點。"
 					]
 				}
 			],
@@ -2858,8 +2858,8 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill 历史} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"When you take the {@action 协助} action to aid another creature's ability check, you can make a DC 15 Intelligence ({@skill 历史}) check. On a success, that creature's check gains a bonus equal to your proficiency bonus, as you share pertinent advice and historical examples. To receive this bonus, the creature must be able to understand what you're saying."
+						"You gain proficiency in the {@skill 歷史} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
+						"When you take the {@action 協助} action to aid another creature's ability check, you can make a DC 15 Intelligence ({@skill 歷史}) check. On a success, that creature's check gains a bonus equal to your proficiency bonus, as you share pertinent advice and historical examples. To receive this bonus, the creature must be able to understand what you're saying."
 					]
 				}
 			]
@@ -2903,7 +2903,7 @@
 			]
 		},
 		{
-			"name": "炼狱体质",
+			"name": "煉獄體質",
 			"source": "UAFeatsForRaces",
 			"page": 3,
 			"prerequisite": [
@@ -2921,19 +2921,19 @@
 				}
 			],
 			"entries": [
-				"邪魔血脉在你体内脉动，解开了一种类似某些邪魔所拥有的韧性。你获得下列好处：",
+				"邪魔血脈在你體內脈動，解開了一種類似某些邪魔所擁有的韌性。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"你拥有对冷冻和毒素伤害的抗性。",
-						"你在对抗{@condition 中毒}的豁免检定中具有优势。"
+						"你擁有對冷凍和毒素傷害的抗性。",
+						"你在對抗{@condition 中毒}的豁免檢定中具有優勢。"
 					]
 				}
 			],
 			"ENG_name": "Infernal Constitution"
 		},
 		{
-			"name": "炼狱体质",
+			"name": "煉獄體質",
 			"source": "XGE",
 			"page": 75,
 			"prerequisite": [
@@ -2951,19 +2951,19 @@
 				}
 			],
 			"entries": [
-				"邪魔血脉在你体内脉动，解开了一种类似某些邪魔所拥有的韧性。你获得下列好处：",
+				"邪魔血脈在你體內脈動，解開了一種類似某些邪魔所擁有的韌性。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"你拥有对冷冻和毒素伤害的抗性。",
-						"你在对抗{@condition 中毒}的豁免检定中具有优势。"
+						"你擁有對冷凍和毒素傷害的抗性。",
+						"你在對抗{@condition 中毒}的豁免檢定中具有優勢。"
 					]
 				}
 			],
 			"ENG_name": "Infernal Constitution"
 		},
 		{
-			"name": "激励统御",
+			"name": "激勵統御",
 			"source": "PHB",
 			"page": 167,
 			"prerequisite": [
@@ -2976,7 +2976,7 @@
 				}
 			],
 			"entries": [
-				"你可以花费10分钟来激励你的同伴，鼓舞他们对战斗的信心。若你这么做，选择30尺内最多6个可以看到或听到你且理解你的友善生物（可以包括你自己）。每个生物可以获得等同你的等级加上你的魅力调整值的临时生命值。直到完成短休或长休之前，受影响的生物都不能再通过此专长获得临时生命值。"
+				"你可以花費10分鐘來激勵你的同伴，鼓舞他們對戰鬥的信心。若你這麼做，選擇30尺內最多6個可以看到或聽到你且理解你的友善生物（可以包括你自己）。每個生物可以獲得等同你的等級加上你的魅力調整值的臨時生命值。直到完成短休或長休之前，受影響的生物都不能再通過此專長獲得臨時生命值。"
 			],
 			"ENG_name": "Inspiring Leader"
 		},
@@ -2999,14 +2999,14 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill 调查} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"You can take the {@action 搜寻} action as a bonus action."
+						"You gain proficiency in the {@skill 調查} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
+						"You can take the {@action 搜尋} action as a bonus action."
 					]
 				}
 			]
 		},
 		{
-			"name": "敏思强记",
+			"name": "敏思強記",
 			"source": "PHB",
 			"page": 167,
 			"ability": [
@@ -3015,20 +3015,20 @@
 				}
 			],
 			"entries": [
-				"你拥有着能以不可思议的精确度牢牢追踪时间、方位、以及细节的大脑。你获得下列好处：",
+				"你擁有著能以不可思議的精確度牢牢追蹤時間、方位、以及細節的大腦。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"你永远知道哪个方位是北方。",
-						"你永远知道距离下一次日出或日落还剩下几个小时。",
-						"你可以精准回忆起过去一个月内你曾听到或看到的任何事物。"
+						"你永遠知道哪個方位是北方。",
+						"你永遠知道距離下一次日出或日落還剩下幾個小時。",
+						"你可以精準回憶起過去一個月內你曾聽到或看到的任何事物。"
 					]
 				}
 			],
 			"ENG_name": "Keen Mind"
 		},
 		{
-			"name": "轻度着甲",
+			"name": "輕度著甲",
 			"source": "PHB",
 			"page": 167,
 			"ability": [
@@ -3048,18 +3048,18 @@
 				}
 			],
 			"entries": [
-				"你受训于熟练轻甲的使用方法，你获得下列好处：",
+				"你受訓於熟練輕甲的使用方法，你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"你获得轻甲的熟练。"
+						"你獲得輕甲的熟練。"
 					]
 				}
 			],
 			"ENG_name": "Lightly Armored"
 		},
 		{
-			"name": "语言学家",
+			"name": "語言學家",
 			"source": "PHB",
 			"page": 167,
 			"ability": [
@@ -3073,48 +3073,48 @@
 				}
 			],
 			"entries": [
-				"你致力研究于语言和密码。获得下列好处：",
+				"你致力研究於語言和密碼。獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"你习得三种自选语言。",
-						"你能够巧妙地创造出书写密码。其他人无法破译你创造的密码，除非你教导他们、他们成功通过一次智力检定（DC等于你的智力值 + 你的熟练加值）、或是他们使用魔法破译。"
+						"你習得三種自選語言。",
+						"你能夠巧妙地創造出書寫密碼。其他人無法破譯你創造的密碼，除非你教導他們、他們成功通過一次智力檢定（DC等於你的智力值 + 你的熟練加值）、或是他們使用魔法破譯。"
 					]
 				}
 			],
 			"ENG_name": "Linguist"
 		},
 		{
-			"name": "幸运",
+			"name": "幸運",
 			"source": "PHB",
 			"page": 167,
 			"entries": [
-				"你的离奇运气让你可以在最危险的时刻化险为夷。",
-				"你获得3点幸运点。当你进行攻击检定、属性检定、或豁免检定时，你可以花费一点幸运点以再骰一颗额外的d20。你可以选择在你掷骰之后，但决定结果之前才花费幸运点。你选择要使用哪一颗d20以用在该攻击检定、属性检定、或豁免检定。",
-				"你也可以在一次对你的攻击检定被进行时选择花费一点幸运点。骰一颗d20，然后选择该次攻击要使用攻击者还是你的骰子。如果有超过一个生物花费幸运点以影响一次掷骰的结果，则幸运点将彼此抵消；不需要掷任何额外的骰子。",
-				"你在完成一次长休后恢复所有你花费掉的幸运点。"
+				"你的離奇運氣讓你可以在最危險的時刻化險為夷。",
+				"你獲得3點幸運點。當你進行攻擊檢定、屬性檢定、或豁免檢定時，你可以花費一點幸運點以再骰一顆額外的d20。你可以選擇在你擲骰之後，但決定結果之前才花費幸運點。你選擇要使用哪一顆d20以用在該攻擊檢定、屬性檢定、或豁免檢定。",
+				"你也可以在一次對你的攻擊檢定被進行時選擇花費一點幸運點。骰一顆d20，然後選擇該次攻擊要使用攻擊者還是你的骰子。如果有超過一個生物花費幸運點以影響一次擲骰的結果，則幸運點將彼此抵消；不需要擲任何額外的骰子。",
+				"你在完成一次長休後恢復所有你花費掉的幸運點。"
 			],
 			"ENG_name": "Lucky"
 		},
 		{
-			"name": "巫师杀手",
+			"name": "巫師殺手",
 			"source": "PHB",
 			"page": 168,
 			"entries": [
-				"你精熟于在近身战斗中对付施法者的实用技巧，获得下列好处：",
+				"你精熟於在近身戰鬥中對付施法者的實用技巧，獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"当一个处于你5尺范围内的生物施展法术，你可以使用你的反应对该生物进行一次近战武器攻击。",
-						"当你伤害了一个正专注于法术的生物，该生物在维持专注的豁免检定中获得劣势。",
-						"你在对抗处于你5尺范围内的生物所施展的法术时的豁免检定中获得优势。"
+						"當一個處於你5尺範圍內的生物施展法術，你可以使用你的反應對該生物進行一次近戰武器攻擊。",
+						"當你傷害了一個正專注於法術的生物，該生物在維持專注的豁免檢定中獲得劣勢。",
+						"你在對抗處於你5尺範圍內的生物所施展的法術時的豁免檢定中獲得優勢。"
 					]
 				}
 			],
 			"ENG_name": "Mage Slayer"
 		},
 		{
-			"name": "魔法学徒",
+			"name": "魔法學徒",
 			"source": "PHB",
 			"page": 168,
 			"additionalSpells": [
@@ -3246,23 +3246,23 @@
 				}
 			],
 			"entries": [
-				"选择一个职业：{@filter 吟游诗人|spells|level=0;1|class=bard}、 {@filter 牧师|spells|level=0;1|class=cleric}、{@filter 德鲁伊|spells|level=0;1|class=druid}、{@filter 术士|spells|level=0;1|class=sorcerer}、{@filter 契术师|spells|level=0;1|class=warlock}或{@filter 法师|spells|level=0;1|class=wizard}。你从你所选职业的法术列表中习得两个戏法。",
-				"此外，从同一个列表中选择一个1环法术。你习得该法术，并可以用最低环阶来施展它。一旦你施展它，则直到你完成一次长休之前，你都无法再借由这个专长来施展它。",
-				"这些法术的施法属性取决于你所选的职业：{@filter 吟游诗人|spells|level=0;1|class=bard}、{@filter 术士|spells|level=0;1|class=sorcerer}、{@filter 契术师|spells|level=0;1|class=warlock}使用魅力；{@filter 牧师|spells|level=0;1|class=cleric}、{@filter 德鲁伊|spells|level=0;1|class=druid}使用感知；{@filter 法师|spells|level=0;1|class=wizard}则使用智力。"
+				"選擇一個職業：{@filter 吟遊詩人|spells|level=0;1|class=bard}、 {@filter 牧師|spells|level=0;1|class=cleric}、{@filter 德魯伊|spells|level=0;1|class=druid}、{@filter 術士|spells|level=0;1|class=sorcerer}、{@filter 契術師|spells|level=0;1|class=warlock}或{@filter 法師|spells|level=0;1|class=wizard}。你從你所選職業的法術列表中習得兩個戲法。",
+				"此外，從同一個列表中選擇一個1環法術。你習得該法術，並可以用最低環階來施展它。一旦你施展它，則直到你完成一次長休之前，你都無法再藉由這個專長來施展它。",
+				"這些法術的施法屬性取決於你所選的職業：{@filter 吟遊詩人|spells|level=0;1|class=bard}、{@filter 術士|spells|level=0;1|class=sorcerer}、{@filter 契術師|spells|level=0;1|class=warlock}使用魅力；{@filter 牧師|spells|level=0;1|class=cleric}、{@filter 德魯伊|spells|level=0;1|class=druid}使用感知；{@filter 法師|spells|level=0;1|class=wizard}則使用智力。"
 			],
 			"ENG_name": "Magic Initiate"
 		},
 		{
-			"name": "战技专家",
+			"name": "戰技專家",
 			"source": "PHB",
 			"page": 168,
 			"entries": [
-				"你所经历的战技训练让你可以施展独特战技。你获得下列好处：",
+				"你所經歷的戰技訓練讓你可以施展獨特戰技。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"你习得二个{@filter 战技|optionalfeatures|feature type=MV:B}，从战士{@class 战士|phb|战斗大师|Battle Master|phb|2-0}范型的战技列表中选择。若你使用的战技要求你的目标进行一次豁免检定以抵抗战技的效果，则豁免检定的DC等同8 + 你的熟练加值 + 你的力量或敏捷调整值（由你选择）。",
-						"你获得一颗卓越骰（这颗骰将被加到任何你从其他来源获得的卓越骰池中），若你没有其他卓越骰，则这颗卓越骰为d6。这颗骰被用来启动你的战技。卓越骰将在你使用战技时被花费。你在完成一次短休或长休后恢复你花费掉的卓越骰。"
+						"你習得二個{@filter 戰技|optionalfeatures|feature type=MV:B}，從戰士{@class 戰士|phb|戰鬥大師|Battle Master|phb|2-0}范型的戰技列表中選擇。若你使用的戰技要求你的目標進行一次豁免檢定以抵抗戰技的效果，則豁免檢定的DC等同8 + 你的熟練加值 + 你的力量或敏捷調整值（由你選擇）。",
+						"你獲得一顆卓越骰（這顆骰將被加到任何你從其他來源獲得的卓越骰池中），若你沒有其他卓越骰，則這顆卓越骰為d6。這顆骰被用來啟動你的戰技。卓越骰將在你使用戰技時被花費。你在完成一次短休或長休後恢復你花費掉的卓越骰。"
 					]
 				}
 			],
@@ -3312,14 +3312,14 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill 医疗} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"During a short rest, you can clean and bind the wounds of up to six willing beasts and humanoids. Make a DC 15 Wisdom ({@skill 医疗}) check for each creature. On a success, if a creature spends a Hit Die during this rest, that creature can forgo the roll and instead regain the maximum number of hit points the die can restore. A creature can do so only once per rest, regardless of how many Hit Dice it spends."
+						"You gain proficiency in the {@skill 醫療} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
+						"During a short rest, you can clean and bind the wounds of up to six willing beasts and humanoids. Make a DC 15 Wisdom ({@skill 醫療}) check for each creature. On a success, if a creature spends a Hit Die during this rest, that creature can forgo the roll and instead regain the maximum number of hit points the die can restore. A creature can do so only once per rest, regardless of how many Hit Dice it spends."
 					]
 				}
 			]
 		},
 		{
-			"name": "中甲大师",
+			"name": "中甲大師",
 			"source": "PHB",
 			"page": 168,
 			"prerequisite": [
@@ -3332,12 +3332,12 @@
 				}
 			],
 			"entries": [
-				"你精通于在穿着中甲时行动，获得下列好处：",
+				"你精通於在穿著中甲時行動，獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"穿着中甲不会让你的敏捷（{@skill 隐匿}）检定获得劣势。",
-						"当你穿着中甲时，如果你的敏捷为16或以上，你的AC可以增加3点，而非2点。"
+						"穿著中甲不會讓你的敏捷（{@skill 隱匿}）檢定獲得劣勢。",
+						"當你穿著中甲時，如果你的敏捷為16或以上，你的AC可以增加3點，而非2點。"
 					]
 				}
 			],
@@ -3362,8 +3362,8 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill 威吓} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"When you take the {@action 攻击} action on your turn, you can replace one attack with an attempt to demoralize one humanoid you can see within 30 feet of you that can see and hear you. Make a Charisma ({@skill 威吓}) check contested by the target's Wisdom ({@skill 洞悉}) check. If your check succeeds, the target is {@condition 恐惧} until the end of your next turn. If your check fails, the target can't be {@condition 恐惧} by you in this way for 1 hour."
+						"You gain proficiency in the {@skill 威嚇} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
+						"When you take the {@action 攻擊} action on your turn, you can replace one attack with an attempt to demoralize one humanoid you can see within 30 feet of you that can see and hear you. Make a Charisma ({@skill 威嚇}) check contested by the target's Wisdom ({@skill 洞悉}) check. If your check succeeds, the target is {@condition 恐懼} until the end of your next turn. If your check fails, the target can't be {@condition 恐懼} by you in this way for 1 hour."
 					]
 				}
 			]
@@ -3401,7 +3401,7 @@
 			]
 		},
 		{
-			"name": "超魔法导师",
+			"name": "超魔法導師",
 			"ENG_name": "Metamagic Adept",
 			"source": "TCE",
 			"page": 80,
@@ -3411,12 +3411,12 @@
 				}
 			],
 			"entries": [
-				"你习得如何往你的法术上施加你的意志，从而改变它们的功能：",
+				"你習得如何往你的法術上施加你的意志，從而改變它們的功能：",
 				{
 					"type": "list",
 					"items": [
-						"你从术士职业中选择并习得两项{@filter 超魔法|optionalfeatures|Feature Type=MM}选项。除非特别说明，否则一个法术施展时只能应用一种超魔法选项。当你升级并达到获得属性值提升特性的等级时，你可以将其中一项超魔法选项替换为术士职业中的另一项超魔法选项。",
-						"你获得2点术法点，用于施展超魔法（这些术法点和任何其他来源的术法点叠加，但只能用于超魔法）。你在完成长休后重获所有已消耗的术法点。"
+						"你從術士職業中選擇並習得兩項{@filter 超魔法|optionalfeatures|Feature Type=MM}選項。除非特別說明，否則一個法術施展時只能應用一種超魔法選項。當你升級並達到獲得屬性值提升特性的等級時，你可以將其中一項超魔法選項替換為術士職業中的另一項超魔法選項。",
+						"你獲得2點術法點，用於施展超魔法（這些術法點和任何其他來源的術法點疊加，但只能用於超魔法）。你在完成長休後重獲所有已消耗的術法點。"
 					]
 				}
 			]
@@ -3442,24 +3442,24 @@
 			]
 		},
 		{
-			"name": "机动性",
+			"name": "機動性",
 			"source": "PHB",
 			"page": 168,
 			"entries": [
-				"你特别地迅速而灵巧。你获得下列好处：",
+				"你特別地迅速而靈巧。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"你的移动速度增加10尺。",
-						"当你采取疾走动作时，该回合内的困难地形不会消耗你额外的移动速度。",
-						"当你对一个生物进行近战攻击后，无论你命中与否，你在该回合都不会再引发该生物的借机攻击。"
+						"你的移動速度增加10尺。",
+						"當你採取疾走動作時，該回合內的困難地形不會消耗你額外的移動速度。",
+						"當你對一個生物進行近戰攻擊後，無論你命中與否，你在該回合都不會再引發該生物的藉機攻擊。"
 					]
 				}
 			],
 			"ENG_name": "Mobile"
 		},
 		{
-			"name": "中度着甲",
+			"name": "中度著甲",
 			"source": "PHB",
 			"page": 168,
 			"prerequisite": [
@@ -3489,28 +3489,28 @@
 				}
 			],
 			"entries": [
-				"你受训于熟练中甲和盾牌的使用方法，你获得下列好处：",
+				"你受訓於熟練中甲和盾牌的使用方法，你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"你获得中甲和盾牌的熟练。"
+						"你獲得中甲和盾牌的熟練。"
 					]
 				}
 			],
 			"ENG_name": "Moderately Armored"
 		},
 		{
-			"name": "骑乘战斗",
+			"name": "騎乘戰鬥",
 			"source": "PHB",
 			"page": 168,
 			"entries": [
-				"骑乘中的你是个危险的敌手。当你在骑乘时且不处于{@condition 无力}，你获得下列好处：",
+				"騎乘中的你是個危險的敵手。當你在騎乘時且不處於{@condition 無力}，你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"你对任何体型比你坐骑还小，且非骑乘的生物所进行的近战攻击检定中获得优势。",
-						"你可以强迫以你坐骑为目标的攻击转为以你为目标。",
-						"若你的坐骑受到需要进行敏捷豁免来减半伤害的效果影响，则牠在豁免成功时可以不承受伤害，且即使豁免失败也只承受一半的伤害。"
+						"你對任何體型比你坐騎還小，且非騎乘的生物所進行的近戰攻擊檢定中獲得優勢。",
+						"你可以強迫以你坐騎為目標的攻擊轉為以你為目標。",
+						"若你的坐騎受到需要進行敏捷豁免來減半傷害的效果影響，則牠在豁免成功時可以不承受傷害，且即使豁免失敗也只承受一半的傷害。"
 					]
 				}
 			],
@@ -3552,13 +3552,13 @@
 					"type": "list",
 					"items": [
 						"You gain proficiency in the {@skill 自然} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"You learn the {@spell 德鲁伊伎俩} and {@spell 侦测毒素或疾病} spells. You can cast {@spell 侦测毒素或疾病} once without expending a spell slot, and you regain the ability to do so when you finish a long rest."
+						"You learn the {@spell 德魯伊伎倆} and {@spell 偵測毒素或疾病} spells. You can cast {@spell 偵測毒素或疾病} once without expending a spell slot, and you regain the ability to do so when you finish a long rest."
 					]
 				}
 			]
 		},
 		{
-			"name": "敏锐观察",
+			"name": "敏銳觀察",
 			"source": "PHB",
 			"page": 168,
 			"ability": [
@@ -3573,12 +3573,12 @@
 				}
 			],
 			"entries": [
-				"你能够迅速注意周遭环境的细节，你获得下列好处：",
+				"你能夠迅速注意周遭環境的細節，你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"若你可以在一个生物正以你理解的语言说话时看见它的嘴巴，你就可以通过读唇语来理解目标正在说什么。",
-						"你的被动感知（{@skill 察觉}）和被动智力（{@skill 调查}）获得+5加值。"
+						"若你可以在一個生物正以你理解的語言說話時看見它的嘴巴，你就可以透過讀唇語來理解目標正在說什麼。",
+						"你的被動感知（{@skill 察覺}）和被動智力（{@skill 調查}）獲得+5加值。"
 					]
 				}
 			],
@@ -3602,7 +3602,7 @@
 			]
 		},
 		{
-			"name": "兽人狂怒",
+			"name": "獸人狂怒",
 			"source": "UAFeatsForRaces",
 			"page": 4,
 			"prerequisite": [
@@ -3626,19 +3626,19 @@
 				}
 			],
 			"entries": [
-				"你的狂怒怒火燃烧不倦。你获得下列好处：",
+				"你的狂怒怒火燃燒不倦。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"当你使用一把简易或军用武器的攻击命中时，你可以再额外骰一颗该武器的伤害骰，并将它作为具有该武器伤害类型的额外伤害加入。一旦你使用此能力，直到你完成一次短休或长休之前都无法再使用此能力。",
-						"紧接在你使用你的顽强耐性特性后，你可以使用你的反应以进行一次武器攻击。"
+						"當你使用一把簡易或軍用武器的攻擊命中時，你可以再額外骰一顆該武器的傷害骰，並將它作為具有該武器傷害類型的額外傷害加入。一旦你使用此能力，直到你完成一次短休或長休之前都無法再使用此能力。",
+						"緊接在你使用你的頑強耐性特性後，你可以使用你的反應以進行一次武器攻擊。"
 					]
 				}
 			],
 			"ENG_name": "Orcish Fury"
 		},
 		{
-			"name": "兽人狂怒",
+			"name": "獸人狂怒",
 			"source": "XGE",
 			"page": 75,
 			"prerequisite": [
@@ -3662,12 +3662,12 @@
 				}
 			],
 			"entries": [
-				"你的狂怒怒火燃烧不倦。你获得下列好处：",
+				"你的狂怒怒火燃燒不倦。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"当你使用一把简易或军用武器的攻击命中时，你可以再额外骰一颗该武器的伤害骰，并将它作为具有该武器伤害类型的额外伤害加入。一旦你使用此能力，直到你完成一次短休或长休之前都无法再使用此能力。",
-						"紧接在你使用你的顽强耐性特性后，你可以使用你的反应以进行一次武器攻击。"
+						"當你使用一把簡易或軍用武器的攻擊命中時，你可以再額外骰一顆該武器的傷害骰，並將它作為具有該武器傷害類型的額外傷害加入。一旦你使用此能力，直到你完成一次短休或長休之前都無法再使用此能力。",
+						"緊接在你使用你的頑強耐性特性後，你可以使用你的反應以進行一次武器攻擊。"
 					]
 				}
 			],
@@ -3692,8 +3692,8 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill 察觉} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"Being in a lightly obscured area doesn't impose disadvantage on your Wisdom ({@skill 察觉}) checks if you can both see and hear."
+						"You gain proficiency in the {@skill 察覺} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
+						"Being in a lightly obscured area doesn't impose disadvantage on your Wisdom ({@skill 察覺}) checks if you can both see and hear."
 					]
 				}
 			]
@@ -3718,7 +3718,7 @@
 					"type": "list",
 					"items": [
 						"You gain proficiency in the {@skill 表演} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"While performing, you can try to distract one humanoid you can see who can see and hear you. Make a Charisma ({@skill 表演}) check contested by the humanoid's Wisdom ({@skill 洞悉}) check. If your check succeeds, you grab the humanoid's attention enough that it makes Wisdom ({@skill 察觉}) and Intelligence ({@skill 调查}) checks with disadvantage until you stop performing."
+						"While performing, you can try to distract one humanoid you can see who can see and hear you. Make a Charisma ({@skill 表演}) check contested by the humanoid's Wisdom ({@skill 洞悉}) check. If your check succeeds, you grab the humanoid's attention enough that it makes Wisdom ({@skill 察覺}) and Intelligence ({@skill 調查}) checks with disadvantage until you stop performing."
 					]
 				}
 			]
@@ -3740,12 +3740,12 @@
 				}
 			],
 			"entries": [
-				"你已经可以在战斗中造成精准的穿刺。你获得以下好处:",
+				"你已經可以在戰鬥中造成精準的穿刺。你獲得以下好處:",
 				{
 					"type": "list",
 					"items": [
-						"每回合一次，当你用造成穿刺伤害的攻击命中一个生物时，你可以重掷其中一个伤害骰，并且你必须使用重投的结果。",
-						"当你用造成穿刺伤害的攻击命中一个生物并且造成重击时，你可以在计算重击伤害时投一个额外的伤害骰。"
+						"每回合一次，當你用造成穿刺傷害的攻擊命中一個生物時，你可以重擲其中一個傷害骰，並且你必須使用重投的結果。",
+						"當你用造成穿刺傷害的攻擊命中一個生物並且造成重擊時，你可以在計算重擊傷害時投一個額外的傷害骰。"
 					]
 				}
 			]
@@ -3777,7 +3777,7 @@
 			]
 		},
 		{
-			"name": "毒师",
+			"name": "毒師",
 			"ENG_name": "Poisoner",
 			"source": "TCE",
 			"page": 80,
@@ -3787,13 +3787,13 @@
 				}
 			],
 			"entries": [
-				"你可以准备并使用致命的毒药。你获得以下好处：",
+				"你可以準備並使用致命的毒藥。你獲得以下好處：",
 				{
 					"type": "list",
 					"items": [
-						"当你投造成毒素伤害的伤害骰时，无视目标的伤害抗性。",
-						"你可以以一个附赠动作为一把武器或一枚弹药涂毒，而不是一个动作。",
-						"你获得{@item 制毒工具|phb}的熟练项，如果你还没有的话。花费一小时使用{@item 制毒工具|phb}进行制作，并且消耗价值 50gp 的材料后，你可以制造一定数量的猛毒，其数量等同于你的熟练加值。当被用于一把武器或一枚弹药后，猛毒的毒性持续一分钟或直至你用该武器或弹药攻击命中后。当一个生物受到来自涂毒武器或弹药的伤害后，该生物必须成功通过DC 14的体质豁免，否则将受到{@damage 2d8}毒素伤害并陷入{@condition 中毒}状态，直至你的下回合结束。"
+						"當你投造成毒素傷害的傷害骰時，無視目標的傷害抗性。",
+						"你可以以一個附贈動作為一把武器或一枚彈藥塗毒，而不是一個動作。",
+						"你獲得{@item 製毒工具|phb}的熟練項，如果你還沒有的話。花費一小時使用{@item 製毒工具|phb}進行製作，並且消耗價值 50gp 的材料後，你可以製造一定數量的猛毒，其數量等同於你的熟練加值。當被用於一把武器或一枚彈藥後，猛毒的毒性持續一分鐘或直至你用該武器或彈藥攻擊命中後。當一個生物受到來自塗毒武器或彈藥的傷害後，該生物必須成功通過DC 14的體質豁免，否則將受到{@damage 2d8}毒素傷害並陷入{@condition 中毒}狀態，直至你的下回合結束。"
 					]
 				}
 			]
@@ -3814,22 +3814,22 @@
 					"items": [
 						"When you make a damage roll, you ignore resistance to poison damage.",
 						"You can coat a weapon in poison as a bonus action, instead of an action.",
-						"You gain proficiency with the {@item 制毒工具|phb} if you don't already have it. With one hour of work using a {@item 制毒工具|PHB} and expending 50 gp worth of materials, you can create a number of doses of potent poison equal to your proficiency bonus. Once applied, the poison retains potency for 1 minute, or until you hit with the weapon. When a weapon coated in this poison deals damage to a creature, that creature must succeed on a DC 14 Constitution saving throw or take {@damage 2d8} poison damage and become {@condition 中毒} until the end of your next turn."
+						"You gain proficiency with the {@item 製毒工具|phb} if you don't already have it. With one hour of work using a {@item 製毒工具|PHB} and expending 50 gp worth of materials, you can create a number of doses of potent poison equal to your proficiency bonus. Once applied, the poison retains potency for 1 minute, or until you hit with the weapon. When a weapon coated in this poison deals damage to a creature, that creature must succeed on a DC 14 Constitution saving throw or take {@damage 2d8} poison damage and become {@condition 中毒} until the end of your next turn."
 					]
 				}
 			]
 		},
 		{
-			"name": "长武大师",
+			"name": "長武大師",
 			"source": "PHB",
 			"page": 168,
 			"entries": [
-				"你可以使用触及武器以牵制你的敌人。你获得下列好处：",
+				"你可以使用觸及武器以牽制你的敵人。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"当你采取攻击动作且只使用{@item 长柄刀|phb}、{@item 斧枪|phb}、{@item 长棍|phb}或{@item 矛|phb}进行攻击时，你可以使用附赠动作以利用该武器的另一端进行一次近战攻击；这个攻击使用和主要攻击相同的属性调整值。这个攻击所使用的武器伤害骰为d4，且该攻击造成钝击伤害。",
-						"当你持握{@item 长柄刀|phb}、{@item 斧枪|phb}、{@item 长柄枪|phb}、{@item 长棍|phb}或{@item 矛|phb}时，其他生物将在进入你的触及范围时触发你的借机攻击。"
+						"當你採取攻擊動作且只使用{@item 長柄刀|phb}、{@item 斧槍|phb}、{@item 長棍|phb}或{@item 矛|phb}進行攻擊時，你可以使用附贈動作以利用該武器的另一端進行一次近戰攻擊；這個攻擊使用和主要攻擊相同的屬性調整值。這個攻擊所使用的武器傷害骰為d4，且該攻擊造成鈍擊傷害。",
+						"當你持握{@item 長柄刀|phb}、{@item 斧槍|phb}、{@item 長柄槍|phb}、{@item 長棍|phb}或{@item 矛|phb}時，其他生物將在進入你的觸及範圍時觸發你的藉機攻擊。"
 					]
 				}
 			],
@@ -3960,12 +3960,12 @@
 				}
 			],
 			"entries": [
-				"你掌握着学习新事物的诀窍。你获得下列好处：",
+				"你掌握著學習新事物的訣竅。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"你获得一个你所选择的{@table skills|phb|技能熟练}、一个你所选择的{@filter 工具熟练|items|type=tool;artisan's tools}、并能流畅的使用一种你所选择的语言。",
-						"选择一个你所熟练的技能。你获得对该技能的专精，这代表你的熟练加值在任何你使用它进行的属性检定中变为两倍。你所选择的技能必须尚未得益于其他可以将熟练加值翻倍的效果，像是专精特性。"
+						"你獲得一個你所選擇的{@table skills|phb|技能熟練}、一個你所選擇的{@filter 工具熟練|items|type=tool;artisan's tools}、並能流暢的使用一種你所選擇的語言。",
+						"選擇一個你所熟練的技能。你獲得對該技能的專精，這代表你的熟練加值在任何你使用它進行的屬性檢定中變為兩倍。你所選擇的技能必須尚未得益於其他可以將熟練加值翻倍的效果，像是專精特性。"
 					]
 				}
 			],
@@ -4027,12 +4027,12 @@
 				}
 			],
 			"entries": [
-				"你掌握着学习新事物的诀窍。你获得下列好处：",
+				"你掌握著學習新事物的訣竅。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"你获得一个你所选择的{@table skills|phb|技能熟练}、一个你所选择的{@filter 工具熟练|items|type=tool;artisan's tools}、并能流畅的使用一种你所选择的语言。",
-						"选择一个你所熟练的技能。你获得对该技能的专精，这代表你的熟练加值在任何你使用它进行的属性检定中变为两倍。你所选择的技能必须尚未得益于其他可以将熟练加值翻倍的效果，像是专精特性。"
+						"你獲得一個你所選擇的{@table skills|phb|技能熟練}、一個你所選擇的{@filter 工具熟練|items|type=tool;artisan's tools}、並能流暢的使用一種你所選擇的語言。",
+						"選擇一個你所熟練的技能。你獲得對該技能的專精，這代表你的熟練加值在任何你使用它進行的屬性檢定中變為兩倍。你所選擇的技能必須尚未得益於其他可以將熟練加值翻倍的效果，像是專精特性。"
 					]
 				}
 			],
@@ -4111,7 +4111,7 @@
 			]
 		},
 		{
-			"name": "适应力",
+			"name": "適應力",
 			"source": "PHB",
 			"page": 168,
 			"ability": [
@@ -4131,11 +4131,11 @@
 				}
 			],
 			"entries": [
-				"选择一个属性值。你获得下列好处：",
+				"選擇一個屬性值。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"你获得使用所选属性进行的豁免检定的熟练。"
+						"你獲得使用所選屬性進行的豁免檢定的熟練。"
 					]
 				}
 			],
@@ -4183,7 +4183,7 @@
 			]
 		},
 		{
-			"name": "仪式施法者",
+			"name": "儀式施法者",
 			"source": "PHB",
 			"page": 169,
 			"prerequisite": [
@@ -4297,23 +4297,23 @@
 				}
 			],
 			"entries": [
-				"你已学会一些能够以仪式施放的法术。这些法术被写在一本仪式书中，当你施展其中一个法术时你必须将仪式书拿在手中。",
-				"当你选择此专长时，你获得一本记载着两个自选1环法术的仪式书。从以下职业中选择一个：{@filter 吟游诗人|spells|level=1|class=bard|components & miscellaneous=ritual}、{@filter 牧师|spells|level=1|class=cleric|components & miscellaneous=ritual}、{@filter 德鲁伊|spells|level=1|class=druid|components & miscellaneous=ritual}、{@filter 术士|spells|level=1|class=sorcerer|components & miscellaneous=ritual}、{@filter 契术师|spells|level=1|class=warlock|components & miscellaneous=ritual}或{@filter 法师|spells|level=1|class=wizard|components & miscellaneous=ritual}。你必须从该职业的法术列表中选择你的法术，且你所选的法术必须要具有仪式标签。你所选的职业同时会决定你在使用这些法术时的施法属性：吟游诗人、术士、契术师使用魅力；牧师、德鲁伊使用感知；法师则使用智力。",
-				"若你遇到某个以书写形式存在的法术，像是魔法法术卷轴或法师的法术书，你就有可能可以将它加到你的仪式书中。该法术必须要在你所选职业的法术列表上，该法术的环阶不能超过你等级的一半（小数点进位），且它必须要具有仪式标签。将法术抄写到你的仪式书的过程需要耗费每环2小时的时间、以及每环50金币的代价。这个代价代表了你在研究如何掌握该法术时所消耗的材料构材、以及你在抄写时所需要的优质墨水。"
+				"你已學會一些能夠以儀式施放的法術。這些法術被寫在一本儀式書中，當你施展其中一個法術時你必須將儀式書拿在手中。",
+				"當你選擇此專長時，你獲得一本記載著兩個自選1環法術的儀式書。從以下職業中選擇一個：{@filter 吟遊詩人|spells|level=1|class=bard|components & miscellaneous=ritual}、{@filter 牧師|spells|level=1|class=cleric|components & miscellaneous=ritual}、{@filter 德魯伊|spells|level=1|class=druid|components & miscellaneous=ritual}、{@filter 術士|spells|level=1|class=sorcerer|components & miscellaneous=ritual}、{@filter 契術師|spells|level=1|class=warlock|components & miscellaneous=ritual}或{@filter 法師|spells|level=1|class=wizard|components & miscellaneous=ritual}。你必須從該職業的法術列表中選擇你的法術，且你所選的法術必須要具有儀式標籤。你所選的職業同時會決定你在使用這些法術時的施法屬性：吟遊詩人、術士、契術師使用魅力；牧師、德魯伊使用感知；法師則使用智力。",
+				"若你遇到某個以書寫形式存在的法術，像是魔法法術卷軸或法師的法術書，你就有可能可以將它加到你的儀式書中。該法術必須要在你所選職業的法術列表上，該法術的環階不能超過你等級的一半（小數點進位），且它必須要具有儀式標籤。將法術抄寫到你的儀式書的過程需要耗費每環2小時的時間、以及每環50金幣的代價。這個代價代表了你在研究如何掌握該法術時所消耗的材料構材、以及你在抄寫時所需要的優質墨水。"
 			],
 			"ENG_name": "Ritual Caster"
 		},
 		{
-			"name": "野蛮攻击者",
+			"name": "野蠻攻擊者",
 			"source": "PHB",
 			"page": 169,
 			"entries": [
-				"每回合一次，当你为一次近战武器攻击骰伤害时，你可以重骰该武器伤害骰，并任选其中一个结果使用"
+				"每回合一次，當你為一次近戰武器攻擊骰傷害時，你可以重骰該武器傷害骰，並任選其中一個結果使用"
 			],
 			"ENG_name": "Savage Attacker"
 		},
 		{
-			"name": "二次机会",
+			"name": "二次機會",
 			"source": "UAFeatsForRaces",
 			"page": 4,
 			"prerequisite": [
@@ -4338,18 +4338,18 @@
 				}
 			],
 			"entries": [
-				"命运在某人尝试攻击你时眷顾着你。你获得下列好处：",
+				"命運在某人嘗試攻擊你時眷顧著你。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"当一个你所能看见的生物以一次攻击检定命中你时，你可以使用你的反应以强迫该生物重骰。一旦你使用此能力，直到你在战斗开始时骰先攻、或直到你完成一次短休或长休之前都无法再使用此能力。"
+						"當一個你所能看見的生物以一次攻擊檢定命中你時，你可以使用你的反應以強迫該生物重骰。一旦你使用此能力，直到你在戰鬥開始時骰先攻、或直到你完成一次短休或長休之前都無法再使用此能力。"
 					]
 				}
 			],
 			"ENG_name": "Second Chance"
 		},
 		{
-			"name": "二次机会",
+			"name": "二次機會",
 			"source": "XGE",
 			"page": 75,
 			"prerequisite": [
@@ -4374,11 +4374,11 @@
 				}
 			],
 			"entries": [
-				"命运在某人尝试攻击你时眷顾着你。你获得下列好处：",
+				"命運在某人嘗試攻擊你時眷顧著你。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"当一个你所能看见的生物以一次攻击检定命中你时，你可以使用你的反应以强迫该生物重骰。一旦你使用此能力，直到你在战斗开始时骰先攻、或直到你完成一次短休或长休之前都无法再使用此能力。"
+						"當一個你所能看見的生物以一次攻擊檢定命中你時，你可以使用你的反應以強迫該生物重骰。一旦你使用此能力，直到你在戰鬥開始時骰先攻、或直到你完成一次短休或長休之前都無法再使用此能力。"
 					]
 				}
 			],
@@ -4389,13 +4389,13 @@
 			"source": "PHB",
 			"page": 169,
 			"entries": [
-				"你精通在敌人防御时占尽优势的技巧，获得下列好处：",
+				"你精通在敵人防禦時占盡優勢的技巧，獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"当你以借机攻击命中一个生物时，该生物在该回合剩下时间的移动速度变为0。",
-						"离开你触及范围的生物即使采取了撤离动作，仍然会触发你的借机攻击。",
-						"当一个与你距离5尺内的生物对你以外的目标进行了一次攻击（且该目标不具有此专长），你可以使用你的反应对该攻击者进行一次近战武器攻击。"
+						"當你以藉機攻擊命中一個生物時，該生物在該回合剩下時間的移動速度變為0。",
+						"離開你觸及範圍的生物即使採取了撤離動作，仍然會觸發你的藉機攻擊。",
+						"當一個與你距離5尺內的生物對你以外的目標進行了一次攻擊（且該目標不具有此專長），你可以使用你的反應對該攻擊者進行一次近戰武器攻擊。"
 					]
 				}
 			],
@@ -4426,13 +4426,13 @@
 				}
 			],
 			"entries": [
-				"You are skilled in the creation of servos\u2014tiny constructs that function as personal assistants. You can cast the {@spell 寻获魔宠} spell as a ritual, creating a servo to serve as your familiar instead of an animal. A servo's statistics appear in the \"Artifact Creatures\" section of this document. In every other way, a servo familiar functions as described in the {@spell 寻获魔宠} spell.",
+				"You are skilled in the creation of servos\u2014tiny constructs that function as personal assistants. You can cast the {@spell 尋獲魔寵} spell as a ritual, creating a servo to serve as your familiar instead of an animal. A servo's statistics appear in the \"Artifact Creatures\" section of this document. In every other way, a servo familiar functions as described in the {@spell 尋獲魔寵} spell.",
 				"You can communicate telepathically with your servo familiar and perceive through its senses as long as you are on the same plane of existence. You can speak through your servo in your own voice.",
-				"Additionally, when you take the {@action 攻击} action, you can forgo one of your own attacks to allow your servo familiar to make one attack of its own."
+				"Additionally, when you take the {@action 攻擊} action, you can forgo one of your own attacks to allow your servo familiar to make one attack of its own."
 			]
 		},
 		{
-			"name": "影界触碰",
+			"name": "影界觸碰",
 			"ENG_name": "Shadow Touched",
 			"source": "TCE",
 			"page": 80,
@@ -4466,11 +4466,11 @@
 				}
 			],
 			"entries": [
-				"暴露在堕影冥界的魔法之下的经历已经改变了你，使你获得了以下增益：",
+				"暴露在墮影冥界的魔法之下的經歷已經改變了你，使你獲得了以下增益：",
 				{
 					"type": "list",
 					"items": [
-						"你习得{@spell 隐形术}以及一个由你选择的{@filter 一环法术|spells|level=1|school=I;N}。该一环法术必须是幻术系或死灵系法术。你可以在不消耗法术位的情况下施展这些法术各一次。当你以此法施展某个法术后，你不能再次以此法施展该法术，直至你完成一次长休。你也可以消耗合适的法术位来施展这些法术。这些法术的施法关键属性是你由此专长提升的属性。"
+						"你習得{@spell 隱形術}以及一個由你選擇的{@filter 一環法術|spells|level=1|school=I;N}。該一環法術必須是幻術系或死靈系法術。你可以在不消耗法術位的情況下施展這些法術各一次。當你以此法施展某個法術後，你不能再次以此法施展該法術，直至你完成一次長休。你也可以消耗合適的法術位來施展這些法術。這些法術的施法關鍵屬性是你由此專長提升的屬性。"
 					]
 				}
 			]
@@ -4513,7 +4513,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You learn the {@spell 黑暗术} spell and one {@filter 1st-level spell|spells|level=1|school=I;N} of your choice. The 1st-level spell must be from the illusion or necromancy school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
+						"You learn the {@spell 黑暗術} spell and one {@filter 1st-level spell|spells|level=1|school=I;N} of your choice. The 1st-level spell must be from the illusion or necromancy school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
 					]
 				}
 			]
@@ -4523,30 +4523,30 @@
 			"source": "PHB",
 			"page": 170,
 			"entries": [
-				"你精通于远程武器，且能够做出他人眼中不可能的射击。你获得下列好处：",
+				"你精通於遠程武器，且能夠做出他人眼中不可能的射擊。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"攻击长射程范围中的目标并不会让你的远程武器攻击检定因此获得劣势。",
-						"你的远程武器攻击忽略半掩护和四分之三掩护。",
-						"在你以所熟练的远程武器进行攻击之前，你可以选择让该次攻击检定承受-5的减值。若该次攻击命中，该次攻击的伤害+10。"
+						"攻擊長射程範圍中的目標並不會讓你的遠程武器攻擊檢定因此獲得劣勢。",
+						"你的遠程武器攻擊忽略半掩護和四分之三掩護。",
+						"在你以所熟練的遠程武器進行攻擊之前，你可以選擇讓該次攻擊檢定承受-5的減值。若該次攻擊命中，該次攻擊的傷害+10。"
 					]
 				}
 			],
 			"ENG_name": "Sharpshooter"
 		},
 		{
-			"name": "盾牌大师",
+			"name": "盾牌大師",
 			"source": "PHB",
 			"page": 170,
 			"entries": [
-				"你的盾牌不仅仅是为了防御、更能被用来进攻。当你持握{@item 盾牌|phb}时，你获得下列好处：",
+				"你的盾牌不僅僅是為了防禦、更能被用來進攻。當你持握{@item 盾牌|phb}時，你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"如果你在你的回合采取攻击动作，你可以使用附赠动作利用你的盾牌尝试推撞一个与你距离5尺内的生物。",
-						"如果你不处于{@condition 无力}，你可以将你盾牌的AC加值加到用以对抗只以你为目标的法术或其他有害效果的敏捷豁免检定上。",
-						"如果你受到了某个效果允许你进行敏捷豁免检定以减半伤害，你可以使用你的反应以在你成功通过豁免检定时，将你的盾牌插入你和效果源头之间，好让你不受伤害。"
+						"如果你在你的回合採取攻擊動作，你可以使用附贈動作利用你的盾牌嘗試推撞一個與你距離5尺內的生物。",
+						"如果你不處於{@condition 無力}，你可以將你盾牌的AC加值加到用以對抗只以你為目標的法術或其他有害效果的敏捷豁免檢定上。",
+						"如果你受到了某個效果允許你進行敏捷豁免檢定以減半傷害，你可以使用你的反應以在你成功通過豁免檢定時，將你的盾牌插入你和效果源頭之間，好讓你不受傷害。"
 					]
 				}
 			],
@@ -4604,14 +4604,14 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill 欺瞒} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"When you take the {@action 攻击} action on your turn, you can replace one attack with an attempt to deceive one humanoid you can see within 30 feet of you that can see and hear you. Make a Charisma ({@skill 欺瞒}) check contested by the target's Wisdom ({@skill 洞悉}) check. If your check succeeds, your movement doesn't provoke opportunity attacks from the target and your attack rolls against it have advantage; both benefits last until the end of your next turn or until you use this ability on a different target. If your check fails, the target can't be deceived by you in this way for 1 hour."
+						"You gain proficiency in the {@skill 欺瞞} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
+						"When you take the {@action 攻擊} action on your turn, you can replace one attack with an attempt to deceive one humanoid you can see within 30 feet of you that can see and hear you. Make a Charisma ({@skill 欺瞞}) check contested by the target's Wisdom ({@skill 洞悉}) check. If your check succeeds, your movement doesn't provoke opportunity attacks from the target and your attack rolls against it have advantage; both benefits last until the end of your next turn or until you use this ability on a different target. If your check fails, the target can't be deceived by you in this way for 1 hour."
 					]
 				}
 			]
 		},
 		{
-			"name": "技艺专家",
+			"name": "技藝專家",
 			"ENG_name": "Skill Expert",
 			"source": "TCE",
 			"page": 80,
@@ -4657,18 +4657,18 @@
 				}
 			],
 			"entries": [
-				"你已磨练了自身的特定技艺，并获得了以下好处：",
+				"你已磨練了自身的特定技藝，並獲得了以下好處：",
 				{
 					"type": "list",
 					"items": [
-						"你选择并获得一项技能的熟练项。",
-						"选择一项你熟练的技能，你获得该技能的专精，可以将两倍的熟练加值加到使用该技能进行的属性检定上。你选择的技能必须未受益于其他使熟练加值翻倍的特性，例如专精特性。"
+						"你選擇並獲得一項技能的熟練項。",
+						"選擇一項你熟練的技能，你獲得該技能的專精，可以將兩倍的熟練加值加到使用該技能進行的屬性檢定上。你選擇的技能必須未受益於其他使熟練加值翻倍的特性，例如專精特性。"
 					]
 				}
 			]
 		},
 		{
-			"name": "技巧娴熟",
+			"name": "技巧嫻熟",
 			"source": "PHB",
 			"page": 170,
 			"skillProficiencies": [
@@ -4702,12 +4702,12 @@
 				}
 			],
 			"entries": [
-				"你获得总共3种的自选{@book 技能|phb|7|skills}或{@filter 工具|items|type=tool;artisan tool;instrument;gaming set;vehicle (land);vehicle (water)}的熟练。"
+				"你獲得總共3種的自選{@book 技能|phb|7|skills}或{@filter 工具|items|type=tool;artisan tool;instrument;gaming set;vehicle (land);vehicle (water)}的熟練。"
 			],
 			"ENG_name": "Skilled"
 		},
 		{
-			"name": "潜行者",
+			"name": "潛行者",
 			"source": "PHB",
 			"page": 170,
 			"prerequisite": [
@@ -4720,13 +4720,13 @@
 				}
 			],
 			"entries": [
-				"你是潜行于阴影中的专家。你获得下列好处：",
+				"你是潛行於陰影中的專家。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"当你对于你想躲避的生物而言处于轻度遮蔽时，你可以尝试躲藏。",
-						"当你对某个生物而言躲藏状态，且你对它进行的远程武器攻击失手，则进行该攻击并不会因此暴露你的位置。",
-						"微光不会对你依赖于视觉的感知（{@skill 察觉}）检定造成劣势。"
+						"當你對於你想躲避的生物而言處於輕度遮蔽時，你可以嘗試躲藏。",
+						"當你對某個生物而言躲藏狀態，且你對它進行的遠程武器攻擊失手，則進行該攻擊並不會因此暴露你的位置。",
+						"微光不會對你依賴於視覺的感知（{@skill 察覺}）檢定造成劣勢。"
 					]
 				}
 			],
@@ -4749,12 +4749,12 @@
 				}
 			],
 			"entries": [
-				"你已熟知该砍向何处以造成最重的伤害。你获得以下好处：",
+				"你已熟知該砍向何處以造成最重的傷害。你獲得以下好處：",
 				{
 					"type": "list",
 					"items": [
-						"每回合一次，当你用造成挥砍伤害的攻击命中一个生物时，你可以使其速度降低10尺，直到你的下回合开始。",
-						"当你用造成挥砍伤害的攻击命中一个生物并造成重击时，你将其重伤，使其所作的攻击检定具有劣势，直至你的下回合开始。"
+						"每回合一次，當你用造成揮砍傷害的攻擊命中一個生物時，你可以使其速度降低10尺，直到你的下回合開始。",
+						"當你用造成揮砍傷害的攻擊命中一個生物並造成重擊時，你將其重傷，使其所作的攻擊檢定具有劣勢，直至你的下回合開始。"
 					]
 				}
 			]
@@ -4796,14 +4796,14 @@
 					"items": [
 						"You gain a +1 bonus to attack rolls you make with a spear.",
 						"When you use a spear, its damage die changes from a {@dice d6} to a {@dice d8}, and from a {@dice d8} to a {@dice d10} when wielded with two hands. (This benefit has no effect if another feature has already improved the weapon's die.)",
-						"You can set your spear to receive a charge. As a bonus action, choose a creature you can see that is at least 20 feet away from you. If that creature moves within your spear's reach on its next turn, you can make a melee attack against it with your spear as a reaction. If the attack hits, the target takes an extra {@damage 1d8} piercing damage, or an extra {@damage 1d10} piercing damage if you wield the spear with two hands. You can't use this ability if the creature used the {@action 撤离} action before moving.",
+						"You can set your spear to receive a charge. As a bonus action, choose a creature you can see that is at least 20 feet away from you. If that creature moves within your spear's reach on its next turn, you can make a melee attack against it with your spear as a reaction. If the attack hits, the target takes an extra {@damage 1d8} piercing damage, or an extra {@damage 1d10} piercing damage if you wield the spear with two hands. You can't use this ability if the creature used the {@action 撤離} action before moving.",
 						"As a bonus action on your turn, you can increase your reach with a spear by 5 feet for the rest of your turn."
 					]
 				}
 			]
 		},
 		{
-			"name": "法术射手",
+			"name": "法術射手",
 			"source": "PHB",
 			"page": 170,
 			"prerequisite": [
@@ -4886,20 +4886,20 @@
 				}
 			],
 			"entries": [
-				"你熟习于利用特定法术强化你攻击的技巧，获得下列好处：",
+				"你熟習於利用特定法術強化你攻擊的技巧，獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"当你施放一个需要你进行一次攻击检定的法术时，该法术的射程加倍。",
-						"你的远程法术攻击忽略半掩护和四分之三掩护。",
-						"你学会一个需要一次攻击检定的戏法。从{@filter 吟游诗人|spells|level=0|class=bard|spell attack=m;r;o}、{@filter 牧师|spells|level=0|class=cleric|spell attack=m;r;o}、{@filter 德鲁伊|spells|level=0|class=druid|spell attack=m;r;o}、{@filter 术士|spells|level=0|class=sorcerer|spell attack=m;r;o}、{@filter 契术师|spells|level=0|class=warlock|spell attack=m;r;o}或{@filter 法师|spells|level=0|class=wizard|spell attack=m;r;o}法术列表中选择该戏法。该戏法的施法属性取决于你所选的法术列表：吟游诗人、术士、契术师使用魅力；牧师、德鲁伊使用感知；法师则使用智力。"
+						"當你施放一個需要你進行一次攻擊檢定的法術時，該法術的射程加倍。",
+						"你的遠程法術攻擊忽略半掩護和四分之三掩護。",
+						"你學會一個需要一次攻擊檢定的戲法。從{@filter 吟遊詩人|spells|level=0|class=bard|spell attack=m;r;o}、{@filter 牧師|spells|level=0|class=cleric|spell attack=m;r;o}、{@filter 德魯伊|spells|level=0|class=druid|spell attack=m;r;o}、{@filter 術士|spells|level=0|class=sorcerer|spell attack=m;r;o}、{@filter 契術師|spells|level=0|class=warlock|spell attack=m;r;o}或{@filter 法師|spells|level=0|class=wizard|spell attack=m;r;o}法術列表中選擇該戲法。該戲法的施法屬性取決於你所選的法術列表：吟遊詩人、術士、契術師使用魅力；牧師、德魯伊使用感知；法師則使用智力。"
 					]
 				}
 			],
 			"ENG_name": "Spell Sniper"
 		},
 		{
-			"name": "矮身灵巧",
+			"name": "矮身靈巧",
 			"source": "UAFeatsForRaces",
 			"page": 4,
 			"prerequisite": [
@@ -4939,20 +4939,20 @@
 				}
 			],
 			"entries": [
-				"你有着以你种族来说也相当不寻常的灵巧。你获得下列好处：",
+				"你有著以你種族來說也相當不尋常的靈巧。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
 						"你的步行速度增加5尺。",
-						"你获得{@skill 体操}或{@skill 运动}其中之一的熟练（由你选择）。",
-						"你在挣脱{@condition 被擒}时所进行的力量（运动）或敏捷（体操）检定有优势。"
+						"你獲得{@skill 體操}或{@skill 運動}其中之一的熟練（由你選擇）。",
+						"你在掙脫{@condition 被擒}時所進行的力量（運動）或敏捷（體操）檢定有優勢。"
 					]
 				}
 			],
 			"ENG_name": "Squat Nimbleness"
 		},
 		{
-			"name": "矮身灵巧",
+			"name": "矮身靈巧",
 			"source": "XGE",
 			"page": 75,
 			"prerequisite": [
@@ -4990,13 +4990,13 @@
 				}
 			],
 			"entries": [
-				"你有着以你种族来说也相当不寻常的灵巧。你获得下列好处：",
+				"你有著以你種族來說也相當不尋常的靈巧。你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
 						"你的步行速度增加5尺。",
-						"你获得{@skill 体操}或{@skill 运动}其中之一的熟练（由你选择）。",
-						"你在挣脱{@condition 被擒}时所进行的力量（运动）或敏捷（体操）检定有优势。"
+						"你獲得{@skill 體操}或{@skill 運動}其中之一的熟練（由你選擇）。",
+						"你在掙脫{@condition 被擒}時所進行的力量（運動）或敏捷（體操）檢定有優勢。"
 					]
 				}
 			],
@@ -5021,7 +5021,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill 隐匿} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
+						"You gain proficiency in the {@skill 隱匿} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
 						"If you are hidden, you can move up to 10 feet in the open without revealing yourself if you end the move in a position where you're not clearly visible."
 					]
 				}
@@ -5060,7 +5060,7 @@
 					"type": "list",
 					"items": [
 						"You gain proficiency in the {@skill 生存} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"You learn the {@spell 警报术} spell. You can cast it once without expending a spell slot, and you regain the ability to do so when you finish a long rest."
+						"You learn the {@spell 警報術} spell. You can cast it once without expending a spell slot, and you regain the ability to do so when you finish a long rest."
 					]
 				}
 			]
@@ -5109,8 +5109,8 @@
 				}
 			],
 			"entries": [
-				"你继承了来自你先祖的天生施法能力。此能力允许你对自己随意施放{@spell 回避侦测}，且无须材料构材。你也可以通过此能力各自施放下列法术一次：{@spell 目盲/耳聋术}、{@spell 朦胧术}、和{@spell 易容术}。当你完成一次长休，你将重新获得施放这些法术的能力。",
-				"这些法术的施法属性是智力，你只能以它们的最低环阶施放它们。"
+				"你繼承了來自你先祖的天生施法能力。此能力允許你對自己隨意施放{@spell 迴避偵測}，且無須材料構材。你也可以通過此能力各自施放下列法術一次：{@spell 目盲/耳聾術}、{@spell 朦朧術}、和{@spell 易容術}。當你完成一次長休，你將重新獲得施放這些法術的能力。",
+				"這些法術的施法屬性是智力，你只能以它們的最低環階施放它們。"
 			],
 			"ENG_name": "Svirfneblin Magic"
 		},
@@ -5123,14 +5123,14 @@
 				{
 					"type": "list",
 					"items": [
-						"You can use the {@action 协助} action as a bonus action.",
-						"When you use the {@action 协助} action to aid an ally in attacking a creature, increase the range of the {@action 协助} action by 10 feet. Additionally, you can help two allies targeting the same creature within range when you use the {@action 协助} action this way."
+						"You can use the {@action 協助} action as a bonus action.",
+						"When you use the {@action 協助} action to aid an ally in attacking a creature, increase the range of the {@action 協助} action by 10 feet. Additionally, you can help two allies targeting the same creature within range when you use the {@action 協助} action this way."
 					]
 				}
 			]
 		},
 		{
-			"name": "酒馆拳王",
+			"name": "酒館拳王",
 			"source": "PHB",
 			"page": 170,
 			"ability": [
@@ -5145,20 +5145,20 @@
 				}
 			],
 			"entries": [
-				"习惯于抄起任何刚好在手边的武器加入混战乱斗，你获得下列好处：",
+				"習慣於抄起任何剛好在手邊的武器加入混戰亂鬥，你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"你熟练于临时武器。",
-						"你的徒手打击使用d4作为伤害骰。",
-						"当你在你的回合使用徒手打击或临时武器命中一个生物，你可以使用附赠动作以尝试擒抱该目标。"
+						"你熟練於臨時武器。",
+						"你的徒手打擊使用d4作為傷害骰。",
+						"當你在你的回合使用徒手打擊或臨時武器命中一個生物，你可以使用附贈動作以嘗試擒抱該目標。"
 					]
 				}
 			],
 			"ENG_name": "Tavern Brawler"
 		},
 		{
-			"name": "念动力",
+			"name": "念動力",
 			"ENG_name": "Telekinetic",
 			"source": "TCE",
 			"page": 81,
@@ -5185,12 +5185,12 @@
 				}
 			],
 			"entries": [
-				"你习得用你的意念移动物体的能力。你获得以下好处：",
+				"你習得用你的意念移動物體的能力。你獲得以下好處：",
 				{
 					"type": "list",
 					"items": [
-						"你习得{@spell 法师之手}戏法，你施展它无需语言构材或材料构材，并且你可以让该幽灵手{@condition 隐形}。如果你已经习得该戏法，你施展该戏法时其施法距离提升30尺。该戏法的施法关键属性是你由此专长提升的属性。",
-						"以一个附赠动作，你可以尝试以念动力推撞30尺内的一个你可见的生物。当你这样做时，目标必须成功通过一次力量豁免（DC为8 + 你的熟练加值 + 你由此专长提升的属性的属性调整值），否则将被你拉近或推离五尺。目标生物可以自愿放弃豁免。"
+						"你習得{@spell 法師之手}戲法，你施展它無需語言構材或材料構材，並且你可以讓該幽靈手{@condition 隱形}。如果你已經習得該戲法，你施展該戲法時其施法距離提升30尺。該戲法的施法關鍵屬性是你由此專長提升的屬性。",
+						"以一個附贈動作，你可以嘗試以念動力推撞30尺內的一個你可見的生物。當你這樣做時，目標必須成功通過一次力量豁免（DC為8 + 你的熟練加值 + 你由此專長提升的屬性的屬性調整值），否則將被你拉近或推離五尺。目標生物可以自願放棄豁免。"
 					]
 				}
 			]
@@ -5231,7 +5231,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You learn the {@spell 法师之手} cantrip. You can cast it without verbal or somatic components, and you can make the spectral hand {@condition 隐形}. If you already know this spell, its range increases by 30 feet when you cast it. Its spellcasting ability is the ability increased by this feat.",
+						"You learn the {@spell 法師之手} cantrip. You can cast it without verbal or somatic components, and you can make the spectral hand {@condition 隱形}. If you already know this spell, its range increases by 30 feet when you cast it. Its spellcasting ability is the ability increased by this feat.",
 						"As a bonus action, you can try to telekinetically shove one creature you can see within 30 feet of you. When you do so, roll your Psionic Talent die, and the target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + the ability modifier of the score increased by this feat) or be moved toward you or away from you a number of feet equal to 5 times the number you rolled. A creature can willingly fail this save."
 					]
 				}
@@ -5260,14 +5260,14 @@
 				{
 					"type": "list",
 					"items": [
-						"You learn the {@spell 法师之手} cantrip. You can cast it without verbal or somatic components, and you can make the spectral hand invisible.",
-						"As a bonus action, you can try to shove one creature you can see within 5 feet of the spectral hand created by your {@spell 法师之手} spell. When you do so, the target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Intelligence modifier) or be pushed 5 feet away from you."
+						"You learn the {@spell 法師之手} cantrip. You can cast it without verbal or somatic components, and you can make the spectral hand invisible.",
+						"As a bonus action, you can try to shove one creature you can see within 5 feet of the spectral hand created by your {@spell 法師之手} spell. When you do so, the target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Intelligence modifier) or be pushed 5 feet away from you."
 					]
 				}
 			]
 		},
 		{
-			"name": "心电感应",
+			"name": "心電感應",
 			"ENG_name": "Telepathic",
 			"source": "TCE",
 			"page": 81,
@@ -5298,12 +5298,12 @@
 				}
 			],
 			"entries": [
-				"你觉醒了用意念与其他生物交流的能力。你获得以下好处：",
+				"你覺醒了用意念與其他生物交流的能力。你獲得以下好處：",
 				{
 					"type": "list",
 					"items": [
-						"你可以和60尺内任何你可见的生物用心灵感应进行交流。你的心电沟通以一种你已知的语言的形式进行，该生物必须懂得该语言才能理解你。你的主动沟通并未给予该生物以心灵感应的形式回复你的能力。",
-						"你可以施展{@spell 侦测思想}法术，无需法术位和构材。以此法施法后，你在完成一次长休前不能再这样做。该法术的施法关键属性是你由此专长提升的属性。如果你拥有二环或更高的法术位，你可以消耗这些法术位施展该法术。"
+						"你可以和60尺內任何你可見的生物用心靈感應進行交流。你的心電溝通以一種你已知的語言的形式進行，該生物必須懂得該語言才能理解你。你的主動溝通並未給予該生物以心靈感應的形式回覆你的能力。",
+						"你可以施展{@spell 偵測思想}法術，無需法術位和構材。以此法施法後，你在完成一次長休前不能再這樣做。該法術的施法關鍵屬性是你由此專長提升的屬性。如果你擁有二環或更高的法術位，你可以消耗這些法術位施展該法術。"
 					]
 				}
 			]
@@ -5349,7 +5349,7 @@
 					"type": "list",
 					"items": [
 						"You can speak telepathically to any creature you can see within 30 feet of you. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. Your communication doesn't give the creature the ability to respond to you telepathically.",
-						"If your Psionic Talent die is available, you can cast the {@spell 侦测思想} spell, requiring no components. When you start casting the spell, your Psionic Talent die decreases by one die size. Your spellcasting ability for the spell is the ability increased by this feat."
+						"If your Psionic Talent die is available, you can cast the {@spell 偵測思想} spell, requiring no components. When you start casting the spell, your Psionic Talent die decreases by one die size. Your spellcasting ability for the spell is the ability increased by this feat."
 					]
 				}
 			]
@@ -5380,7 +5380,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in one skill of your choice from the following list: {@skill 欺瞒}, {@skill 洞悉}, {@skill 威吓}, or {@skill 说服}.",
+						"You gain proficiency in one skill of your choice from the following list: {@skill 欺瞞}, {@skill 洞悉}, {@skill 威嚇}, or {@skill 說服}.",
 						"You can communicate telepathically with any creature you can see within 30 feet of you. If it understands at least one language, it can respond to you telepathically."
 					]
 				}
@@ -5422,17 +5422,17 @@
 					"type": "list",
 					"items": [
 						"You gain proficiency in the {@skill 宗教} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"You learn the {@spell 奇术} and {@spell 侦测善恶} spells. You can cast {@spell 侦测善恶} once without expending a spell slot, and you regain the ability to do so when you finish a long rest."
+						"You learn the {@spell 奇術} and {@spell 偵測善惡} spells. You can cast {@spell 偵測善惡} once without expending a spell slot, and you regain the ability to do so when you finish a long rest."
 					]
 				}
 			]
 		},
 		{
-			"name": "健壮",
+			"name": "健壯",
 			"source": "PHB",
 			"page": 170,
 			"entries": [
-				"当你获得此专长时，你的生命值最大值增加等同于你等级两倍的数值。每当你在这之后提升等级，你的生命值最大值都会再额外增加2点生命值。"
+				"當你獲得此專長時，你的生命值最大值增加等同於你等級兩倍的數值。每當你在這之後提升等級，你的生命值最大值都會再額外增加2點生命值。"
 			],
 			"ENG_name": "Tough"
 		},
@@ -5477,7 +5477,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You learn the {@spell 猎人印记} spell. You can cast it once without expending a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have. Wisdom is your spellcasting ability for this spell.",
+						"You learn the {@spell 獵人印記} spell. You can cast it once without expending a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have. Wisdom is your spellcasting ability for this spell.",
 						"You have advantage on Wisdom ({@skill 生存}) checks to track creatures"
 					]
 				}
@@ -5501,7 +5501,7 @@
 			]
 		},
 		{
-			"name": "战斗施法者",
+			"name": "戰鬥施法者",
 			"source": "PHB",
 			"page": 170,
 			"prerequisite": [
@@ -5510,13 +5510,13 @@
 				}
 			],
 			"entries": [
-				"你受训于混乱战场的中心施展法术，学习这项技巧让你获得下列好处：",
+				"你受訓於混亂戰場的中心施展法術，學習這項技巧讓你獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"当你受到伤害时，你在为维持法术专注而进行的体质豁免检定上有优势。",
-						"即使你单手或双手持有武器或{@item 盾牌|phb}，你也可以做出法术所要求的姿势构材。",
-						"当一个敌意生物的移动触发了你的借机攻击，你可以使用你的反应以对该生物施展法术，而非进行一次借机攻击。该法术的施法时间必须为1个动作，且只能以该生物为目标。"
+						"當你受到傷害時，你在為維持法術專注而進行的體質豁免檢定上有優勢。",
+						"即使你單手或雙手持有武器或{@item 盾牌|phb}，你也可以做出法術所要求的姿勢構材。",
+						"當一個敵意生物的移動觸發了你的藉機攻擊，你可以使用你的反應以對該生物施展法術，而非進行一次藉機攻擊。該法術的施法時間必須為1個動作，且只能以該生物為目標。"
 					]
 				}
 			],
@@ -5533,7 +5533,7 @@
 			]
 		},
 		{
-			"name": "武器大师",
+			"name": "武器大師",
 			"source": "PHB",
 			"page": 170,
 			"ability": [
@@ -5556,11 +5556,11 @@
 				}
 			],
 			"entries": [
-				"你已受过大量使用各种武器的训练，获得下列好处：",
+				"你已受過大量使用各種武器的訓練，獲得下列好處：",
 				{
 					"type": "list",
 					"items": [
-						"你获得4种自选简易武器或军用武器的熟练。"
+						"你獲得4種自選簡易武器或軍用武器的熟練。"
 					]
 				}
 			],
@@ -5702,7 +5702,7 @@
 			]
 		},
 		{
-			"name": "木精灵魔法",
+			"name": "木精靈魔法",
 			"source": "UAFeatsForRaces",
 			"page": 4,
 			"prerequisite": [
@@ -5731,12 +5731,12 @@
 				}
 			],
 			"entries": [
-				"你学会来自你族人们守护和尊崇的原初森林的魔法。你学会一个自选的德鲁伊戏法。你也学会{@spell 大步奔行}和{@spell 行踪无迹}法术，你可以各施放它们一次而无须消耗法术位。当你完成一次长休，你将重新获得通过这个方式施放这两个法术的能力。这三个法术的施法属性是感知。"
+				"你學會來自你族人們守護和尊崇的原初森林的魔法。你學會一個自選的德魯伊戲法。你也學會{@spell 大步奔行}和{@spell 行蹤無跡}法術，你可以各施放它們一次而無須消耗法術位。當你完成一次長休，你將重新獲得透過這個方式施放這兩個法術的能力。這三個法術的施法屬性是感知。"
 			],
 			"ENG_name": "Wood Elf Magic"
 		},
 		{
-			"name": "木精灵魔法",
+			"name": "木精靈魔法",
 			"source": "XGE",
 			"page": 75,
 			"prerequisite": [
@@ -5765,7 +5765,7 @@
 				}
 			],
 			"entries": [
-				"你学会来自你族人们守护和尊崇的原初森林的魔法。你学会一个自选的德鲁伊戏法。你也学会{@spell 大步奔行}和{@spell 行踪无迹}法术，你可以各施放它们一次而无须消耗法术位。当你完成一次长休，你将重新获得通过这个方式施放这两个法术的能力。这三个法术的施法属性是感知。"
+				"你學會來自你族人們守護和尊崇的原初森林的魔法。你學會一個自選的德魯伊戲法。你也學會{@spell 大步奔行}和{@spell 行蹤無跡}法術，你可以各施放它們一次而無須消耗法術位。當你完成一次長休，你將重新獲得透過這個方式施放這兩個法術的能力。這三個法術的施法屬性是感知。"
 			],
 			"ENG_name": "Wood Elf Magic"
 		}

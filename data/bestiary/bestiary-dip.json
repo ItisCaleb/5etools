@@ -76,13 +76,13 @@
 					],
 					"daily": {
 						"3": [
-							"{@spell 雷鸣波} ({@dice 2d8} damage)"
+							"{@spell 雷鳴波} ({@dice 2d8} damage)"
 						],
 						"1e": [
 							"{@spell 卜筮}",
-							"{@spell 祝福术}",
-							"{@spell 闪电束} ({@dice 8d6} damage)",
-							"{@spell 回生术}"
+							"{@spell 祝福術}",
+							"{@spell 閃電束} ({@dice 8d6} damage)",
+							"{@spell 回生術}"
 						]
 					},
 					"ability": "wis"
@@ -182,7 +182,7 @@
 				{
 					"name": "Brave",
 					"entries": [
-						"Don-Jon has advantage on saving throws against being {@condition 恐惧}."
+						"Don-Jon has advantage on saving throws against being {@condition 恐懼}."
 					]
 				},
 				{
@@ -352,7 +352,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -380,7 +380,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -462,7 +462,7 @@
 				10,
 				{
 					"ac": 13,
-					"condition": "with {@spell 法师护甲}",
+					"condition": "with {@spell 法師護甲}",
 					"braces": true
 				}
 			],
@@ -501,18 +501,18 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 法师之手}",
-								"{@spell 魔法技俩}",
-								"{@spell 冷冻射线} (see \"Actions\" below)"
+								"{@spell 法師之手}",
+								"{@spell 魔法技倆}",
+								"{@spell 冷凍射線} (see \"Actions\" below)"
 							]
 						},
 						"1": {
 							"slots": 3,
 							"spells": [
-								"{@spell 侦测魔法}",
-								"{@spell 法师护甲}",
-								"{@spell 魔法飞弹} (see \"Actions\" below)",
-								"{@spell 护盾术}"
+								"{@spell 偵測魔法}",
+								"{@spell 法師護甲}",
+								"{@spell 魔法飛彈} (see \"Actions\" below)",
+								"{@spell 護盾術}"
 							]
 						}
 					},

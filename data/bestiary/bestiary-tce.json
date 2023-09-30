@@ -14,7 +14,7 @@
 	},
 	"monster": [
 		{
-			"name": "异怪灵魄",
+			"name": "異怪靈魄",
 			"ENG_name": "Aberrant Spirit",
 			"source": "TCE",
 			"page": 109,
@@ -25,20 +25,20 @@
 			],
 			"ac": [
 				{
-					"special": "11 + 法术环阶（天生护甲）",
+					"special": "11 + 法術環階（天生護甲）",
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
 			"hp": {
-				"special": "40 + 10 * 每比4环高的法术环阶"
+				"special": "40 + 10 * 每比4環高的法術環階"
 			},
 			"speed": {
 				"walk": 30,
 				"fly": {
 					"number": 30,
-					"condition": "（悬浮）（仅限类眼魔）"
+					"condition": "（懸浮）（僅限類眼魔）"
 				},
 				"canHover": true
 			},
@@ -49,59 +49,59 @@
 			"wis": 10,
 			"cha": 6,
 			"senses": [
-				"黑暗视觉 60 尺"
+				"黑暗視覺 60 尺"
 			],
 			"passive": 10,
 			"immune": [
 				"psychic"
 			],
 			"languages": [
-				"深潜语",
+				"深潛語",
 				"understands the languages you speak"
 			],
 			"trait": [
 				{
-					"name": "再生（仅限史拉蟾）",
+					"name": "再生（僅限史拉蟾）",
 					"ENG_name": "Regeneration (Slaad Only)",
 					"entries": [
-						"异怪在其自己的回合开始时恢复5点生命值，前提是它至少有1点生命值。"
+						"異怪在其自己的回合開始時恢復5點生命值，前提是它至少有1點生命值。"
 					]
 				},
 				{
-					"name": "低语灵光（仅限星之子）",
+					"name": "低語靈光（僅限星之子）",
 					"ENG_name": "Whispering Aura (Star Spawn Only)",
 					"entries": [
-						"异怪自己的每个回合开始时，所有在其5尺内的生物必须进行一次感知豁免对抗你的法术豁免DC，豁免失败则受到{@damage 2d6}心灵伤害，这个效果只在异怪不处于{@condition 无力}时适用。"
+						"異怪自己的每個回合開始時，所有在其5尺內的生物必須進行一次感知豁免對抗你的法術豁免DC，豁免失敗則受到{@damage 2d6}心靈傷害，這個效果只在異怪不處於{@condition 無力}時適用。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "多重攻击",
+					"name": "多重攻擊",
 					"ENG_name": "Multiattack",
 					"entries": [
-						"异怪发动等同于法术环位一半的次数的攻击（向下取整）。"
+						"異怪發動等同於法術環位一半的次數的攻擊（向下取整）。"
 					]
 				},
 				{
-					"name": "眼波射线Eye Ray（仅限类眼魔）",
+					"name": "眼波射線Eye Ray（僅限類眼魔）",
 					"ENG_name": "Eye Ray (Beholderkin Only)",
 					"entries": [
-						"{@atk rs} 命中+{@hitYourSpellAttack}，射程150尺，单一生物。{@h}{@damage 1d8 + 3} + 法术环位的心灵伤害。"
+						"{@atk rs} 命中+{@hitYourSpellAttack}，射程150尺，單一生物。{@h}{@damage 1d8 + 3} + 法術環位的心靈傷害。"
 					]
 				},
 				{
-					"name": "爪击Claws（仅限史拉蟾）",
+					"name": "爪擊Claws（僅限史拉蟾）",
 					"ENG_name": "Claws (Slaad Only)",
 					"entries": [
-						"{@atk mw} 命中+{@hitYourSpellAttack}，触及5尺，单一目标。{@h}{@damage 1d10 + 3} + 法术环位的挥砍伤害。如果目标是生物，其直到异怪下回合开始不能恢复生命值。"
+						"{@atk mw} 命中+{@hitYourSpellAttack}，觸及5尺，單一目標。{@h}{@damage 1d10 + 3} + 法術環位的揮砍傷害。如果目標是生物，其直到異怪下回合開始不能恢復生命值。"
 					]
 				},
 				{
-					"name": "灵能猛击Psychic Slam（仅限星之子）",
+					"name": "靈能猛擊Psychic Slam（僅限星之子）",
 					"ENG_name": "Psychic Slam (Star Spawn Only)",
 					"entries": [
-						"{@atk ms} 命中+{@hitYourSpellAttack}，触及5尺，单一生物。{@h}{@damage 1d8 + 3} + 法术环位的心灵伤害。"
+						"{@atk ms} 命中+{@hitYourSpellAttack}，觸及5尺，單一生物。{@h}{@damage 1d8 + 3} + 法術環位的心靈傷害。"
 					]
 				}
 			],
@@ -126,7 +126,7 @@
 			]
 		},
 		{
-			"name": "成年红龙巫妖",
+			"name": "成年紅龍巫妖",
 			"ENG_name": "Adult Red Dracolich",
 			"source": "TCE",
 			"page": 137,
@@ -140,7 +140,7 @@
 			}
 		},
 		{
-			"name": "大地野兽",
+			"name": "大地野獸",
 			"ENG_name": "Beast of the Land",
 			"source": "TCE",
 			"page": 61,
@@ -151,14 +151,14 @@
 			],
 			"ac": [
 				{
-					"special": "13 + PB（天生护甲）",
+					"special": "13 + PB（天生護甲）",
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
 			"hp": {
-				"special": "5 + 5 * 你游侠等级（野兽具有你游侠等级数量的生命骰[d8]）"
+				"special": "5 + 5 * 你遊俠等級（野獸具有你遊俠等級數量的生命骰[d8]）"
 			},
 			"speed": {
 				"walk": 40,
@@ -171,35 +171,35 @@
 			"wis": 14,
 			"cha": 11,
 			"senses": [
-				"黑暗视觉60尺"
+				"黑暗視覺60尺"
 			],
 			"passive": 12,
 			"languages": [
 				"understands the languages you speak"
 			],
-			"pbNote": "等于你的熟练加值",
+			"pbNote": "等於你的熟練加值",
 			"trait": [
 				{
-					"name": "冲锋",
+					"name": "衝鋒",
 					"ENG_name": "Charge",
 					"entries": [
-						"当大地野兽向一个目标直线移动了至少20尺，然后在同一回合以挥打攻击命中目标时。目标会额外受到{@damage 1d6}挥砍伤害。如果目标是生物，它必须成功通过对抗你法术豁免DC的力量豁免检定否则应击倒{@condition 伏地}。"
+						"當大地野獸向一個目標直線移動了至少20尺，然後在同一回合以揮打攻擊命中目標時。目標會額外受到{@damage 1d6}揮砍傷害。如果目標是生物，它必須成功通過對抗你法術豁免DC的力量豁免檢定否則應擊倒{@condition 伏地}。"
 					]
 				},
 				{
-					"name": "原初联结",
+					"name": "原初聯結",
 					"ENG_name": "Primal Bond",
 					"entries": [
-						"你能将你的熟练加值加到野兽进行的一切属性检定和豁免检定上。"
+						"你能將你的熟練加值加到野獸進行的一切屬性檢定和豁免檢定上。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "挥击",
+					"name": "揮擊",
 					"ENG_name": "Maul",
 					"entries": [
-						"{@atk mw} 命中+{@hitYourSpellAttack}，触及5尺，单一目标。{@h}{@damage 1d8 + 2 + PB}挥砍伤害。"
+						"{@atk mw} 命中+{@hitYourSpellAttack}，觸及5尺，單一目標。{@h}{@damage 1d8 + 2 + PB}揮砍傷害。"
 					]
 				}
 			],
@@ -220,7 +220,7 @@
 			]
 		},
 		{
-			"name": "海洋野兽",
+			"name": "海洋野獸",
 			"ENG_name": "Beast of the Sea",
 			"source": "TCE",
 			"page": 61,
@@ -231,14 +231,14 @@
 			],
 			"ac": [
 				{
-					"special": "13 + PB（天生护甲）",
+					"special": "13 + PB（天生護甲）",
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
 			"hp": {
-				"special": "5 + 5 * 你游侠等级（野兽具有你游侠等级数量的生命骰[d8]）"
+				"special": "5 + 5 * 你遊俠等級（野獸具有你遊俠等級數量的生命骰[d8]）"
 			},
 			"speed": {
 				"walk": 5,
@@ -251,35 +251,35 @@
 			"wis": 14,
 			"cha": 11,
 			"senses": [
-				"黑暗视觉 60 尺"
+				"黑暗視覺 60 尺"
 			],
 			"passive": 12,
 			"languages": [
 				"understands the languages you speak"
 			],
-			"pbNote": "等于你的熟练加值",
+			"pbNote": "等於你的熟練加值",
 			"trait": [
 				{
-					"name": "水陆两栖",
+					"name": "水陸兩棲",
 					"ENG_name": "Amphibious",
 					"entries": [
-						"野兽可以在空气和水中呼吸。"
+						"野獸可以在空氣和水中呼吸。"
 					]
 				},
 				{
-					"name": "原初联结",
+					"name": "原初聯結",
 					"ENG_name": "Primal Bond",
 					"entries": [
-						"你能将你的熟练加值加到野兽进行的一切属性检定和豁免检定上。"
+						"你能將你的熟練加值加到野獸進行的一切屬性檢定和豁免檢定上。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "攫击",
+					"name": "攫擊",
 					"ENG_name": "Binding Strike",
 					"entries": [
-						"{@atk mw} 命中+{@hitYourSpellAttack}，触及5尺，单一目标。{@h}{@damage 1d6 + 2 + PB}穿刺或钝击伤害（由你选择），并且目标{@condition 被擒}（逃脱DC等于你的法术豁免DC）。直到擒抱结束，野兽无法对另一个目标使用该攻击。"
+						"{@atk mw} 命中+{@hitYourSpellAttack}，觸及5尺，單一目標。{@h}{@damage 1d6 + 2 + PB}穿刺或鈍擊傷害（由你選擇），並且目標{@condition 被擒}（逃脫DC等於你的法術豁免DC）。直到擒抱結束，野獸無法對另一個目標使用該攻擊。"
 					]
 				}
 			],
@@ -301,7 +301,7 @@
 			]
 		},
 		{
-			"name": "天空野兽",
+			"name": "天空野獸",
 			"ENG_name": "Beast of the Sky",
 			"source": "TCE",
 			"page": 61,
@@ -312,14 +312,14 @@
 			],
 			"ac": [
 				{
-					"special": "13 + PB（天生护甲）",
+					"special": "13 + PB（天生護甲）",
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
 			"hp": {
-				"special": "4 + 4 * 你游侠等级（野兽具有你游侠等级数量的生命骰[d6]）"
+				"special": "4 + 4 * 你遊俠等級（野獸具有你遊俠等級數量的生命骰[d6]）"
 			},
 			"speed": {
 				"walk": 10,
@@ -332,26 +332,26 @@
 			"wis": 14,
 			"cha": 11,
 			"senses": [
-				"黑暗视觉 60 尺"
+				"黑暗視覺 60 尺"
 			],
 			"passive": 12,
 			"languages": [
 				"understands the languages you speak"
 			],
-			"pbNote": "等于你的熟练加值",
+			"pbNote": "等於你的熟練加值",
 			"trait": [
 				{
-					"name": "飞掠",
+					"name": "飛掠",
 					"ENG_name": "Flyby",
 					"entries": [
-						"野兽以飞行离开敌人的触及范围时不会引发对方的借机攻击。"
+						"野獸以飛行離開敵人的觸及範圍時不會引發對方的藉機攻擊。"
 					]
 				},
 				{
-					"name": "原初联结",
+					"name": "原初聯結",
 					"ENG_name": "Primal Bond",
 					"entries": [
-						"你能将你的熟练加值加到野兽进行的一切属性检定和豁免检定上。"
+						"你能將你的熟練加值加到野獸進行的一切屬性檢定和豁免檢定上。"
 					]
 				}
 			],
@@ -360,7 +360,7 @@
 					"name": "撕咬",
 					"ENG_name": "Shred",
 					"entries": [
-						"{@atk mw} 命中+{@hitYourSpellAttack}，触及5尺，单一目标。{@h}{@damage 1d4 + 3 + PB}挥砍伤害。"
+						"{@atk mw} 命中+{@hitYourSpellAttack}，觸及5尺，單一目標。{@h}{@damage 1d4 + 3 + PB}揮砍傷害。"
 					]
 				}
 			],
@@ -378,7 +378,7 @@
 			]
 		},
 		{
-			"name": "野兽灵魄",
+			"name": "野獸靈魄",
 			"ENG_name": "Bestial Spirit",
 			"source": "TCE",
 			"page": 109,
@@ -389,28 +389,28 @@
 			],
 			"ac": [
 				{
-					"special": "11 + 法术环阶（天生护甲）",
+					"special": "11 + 法術環階（天生護甲）",
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
 			"hp": {
-				"special": "20（仅限空）或 30（仅限陆与水）+ 高于二环的每环阶 5 点"
+				"special": "20（僅限空）或 30（僅限陸與水）+ 高於二環的每環階 5 點"
 			},
 			"speed": {
 				"walk": 30,
 				"climb": {
 					"number": 30,
-					"condition": "（仅限陆）"
+					"condition": "（僅限陸）"
 				},
 				"fly": {
 					"number": 60,
-					"condition": "（仅限空）"
+					"condition": "（僅限空）"
 				},
 				"swim": {
 					"number": 30,
-					"condition": "（仅限水）"
+					"condition": "（僅限水）"
 				}
 			},
 			"str": 18,
@@ -420,7 +420,7 @@
 			"wis": 14,
 			"cha": 5,
 			"senses": [
-				"黑暗视觉 60 尺"
+				"黑暗視覺 60 尺"
 			],
 			"passive": 12,
 			"languages": [
@@ -428,40 +428,40 @@
 			],
 			"trait": [
 				{
-					"name": "水下呼吸（仅限水）",
+					"name": "水下呼吸（僅限水）",
 					"ENG_name": "Water Breathing (Water Only)",
 					"entries": [
-						"该野兽只能在水下呼吸。"
+						"該野獸只能在水下呼吸。"
 					]
 				},
 				{
-					"name": "飞掠（仅限空）",
+					"name": "飛掠（僅限空）",
 					"ENG_name": "Flyby (Air Only)",
 					"entries": [
-						"该野兽飞出敌人触及范围时不会引起借机攻击。"
+						"該野獸飛出敵人觸及範圍時不會引起藉機攻擊。"
 					]
 				},
 				{
-					"name": "集群战术（仅限陆与水）",
+					"name": "集群戰術（僅限陸與水）",
 					"ENG_name": "Pack Tactics (Land and Water Only)",
 					"entries": [
-						"该野兽至少有一个未处于{@condition 无力}的盟友在目标生物5ft.内时，它对该生物发动的攻击检定有优势。"
+						"該野獸至少有一個未處於{@condition 無力}的盟友在目標生物5ft.內時，它對該生物發動的攻擊檢定有優勢。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "多重攻击",
+					"name": "多重攻擊",
 					"ENG_name": "Multiattack",
 					"entries": [
-						"该野兽发动等同于法术环阶半数（向下取整）次数的攻击。"
+						"該野獸發動等同於法術環階半數（向下取整）次數的攻擊。"
 					]
 				},
 				{
 					"name": "撕咬",
 					"ENG_name": "Maul",
 					"entries": [
-						"{@atk mw} 命中+{@hitYourSpellAttack}，触及 5ft.，单一目标。{@h}{@damage 1d8 + 4} + 法术环阶的穿刺伤害。"
+						"{@atk mw} 命中+{@hitYourSpellAttack}，觸及 5ft.，單一目標。{@h}{@damage 1d8 + 4} + 法術環階的穿刺傷害。"
 					]
 				}
 			],
@@ -484,7 +484,7 @@
 			]
 		},
 		{
-			"name": "天界灵魄",
+			"name": "天界靈魄",
 			"ENG_name": "Celestial Spirit",
 			"source": "TCE",
 			"page": 110,
@@ -495,14 +495,14 @@
 			],
 			"ac": [
 				{
-					"special": "11 + 法术环阶（天生护甲） + 2（仅限守护圣灵）",
+					"special": "11 + 法術環階（天生護甲） + 2（僅限守護聖靈）",
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
 			"hp": {
-				"special": "40 + 10 * 每比5环高的法术环阶"
+				"special": "40 + 10 * 每比5環高的法術環階"
 			},
 			"speed": {
 				"walk": 30,
@@ -515,7 +515,7 @@
 			"wis": 14,
 			"cha": 16,
 			"senses": [
-				"黑暗视觉 60 尺"
+				"黑暗視覺 60 尺"
 			],
 			"passive": 12,
 			"resist": [
@@ -531,31 +531,31 @@
 			],
 			"action": [
 				{
-					"name": "多重攻击",
+					"name": "多重攻擊",
 					"ENG_name": "Multiattack",
 					"entries": [
-						"天界生物发动等同于法术环位一半的次数的攻击（向下取整）。"
+						"天界生物發動等同於法術環位一半的次數的攻擊（向下取整）。"
 					]
 				},
 				{
-					"name": "光耀之弓（仅限复仇圣灵）",
+					"name": "光耀之弓（僅限復仇聖靈）",
 					"ENG_name": "Radiant Bow (Avenger Only)",
 					"entries": [
-						"{@atk rw} 命中+{@hitYourSpellAttack}，射程150/600尺，单一目标。{@h} {@damage 2d6 + 2} + 法术环位的光耀伤害。"
+						"{@atk rw} 命中+{@hitYourSpellAttack}，射程150/600尺，單一目標。{@h} {@damage 2d6 + 2} + 法術環位的光耀傷害。"
 					]
 				},
 				{
-					"name": "光耀之锤（仅限守护圣灵）",
+					"name": "光耀之錘（僅限守護聖靈）",
 					"ENG_name": "Radiant Mace (Defender Only)",
 					"entries": [
-						"{@atk mw} 命中+{@hitYourSpellAttack}，触及5尺，单一目标。{@h}{@damage 1d10 + 3} + 法术环位的光耀伤害，且天界生物可选择自己或其10尺内可见的另一生物，选定生物获得 {@dice 1d10} 临时生命值。"
+						"{@atk mw} 命中+{@hitYourSpellAttack}，觸及5尺，單一目標。{@h}{@damage 1d10 + 3} + 法術環位的光耀傷害，且天界生物可選擇自己或其10尺內可見的另一生物，選定生物獲得 {@dice 1d10} 臨時生命值。"
 					]
 				},
 				{
-					"name": "治愈之触（1/日）",
+					"name": "治癒之觸（1/日）",
 					"ENG_name": "Healing Touch (1/Day)",
 					"entries": [
-						"天界生物触碰另一生物。目标魔法性地恢复目标等同于{@dice 2d8} + 法术环位的生命值。"
+						"天界生物觸碰另一生物。目標魔法性地恢復目標等同於{@dice 2d8} + 法術環位的生命值。"
 					]
 				}
 			],
@@ -577,7 +577,7 @@
 			]
 		},
 		{
-			"name": "构装体灵魄",
+			"name": "構裝體靈魄",
 			"ENG_name": "Construct Spirit",
 			"source": "TCE",
 			"page": 111,
@@ -588,14 +588,14 @@
 			],
 			"ac": [
 				{
-					"special": "13 + 法术环阶（天生护甲）",
+					"special": "13 + 法術環階（天生護甲）",
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
 			"hp": {
-				"special": "40 + 15 * 每比3环高的法术环阶"
+				"special": "40 + 15 * 每比3環高的法術環階"
 			},
 			"speed": {
 				"walk": 30
@@ -607,7 +607,7 @@
 			"wis": 11,
 			"cha": 5,
 			"senses": [
-				"黑暗视觉 60 尺"
+				"黑暗視覺 60 尺"
 			],
 			"passive": 10,
 			"resist": [
@@ -627,42 +627,42 @@
 			],
 			"trait": [
 				{
-					"name": "灼热之躯（仅限金属）",
+					"name": "灼熱之軀（僅限金屬）",
 					"ENG_name": "Heated Body (Metal Only)",
 					"entries": [
-						"当一个生物在构装生物周边5尺范围内触碰或对其发动近战攻击命中时，将受{@damage 1d10}火焰伤害。"
+						"當一個生物在構裝生物周邊5尺範圍內觸碰或對其發動近戰攻擊命中時，將受{@damage 1d10}火焰傷害。"
 					]
 				},
 				{
-					"name": "石迷昏眠（仅限石）",
+					"name": "石迷昏眠（僅限石）",
 					"ENG_name": "Stony Lethargy (Stone Only)",
 					"entries": [
-						"当一个构装生物可见的生物在其10尺距离内开始回合时，构装生物可以强迫其进行一次感知豁免对抗你的法术豁免DC，豁免失败则其直到其下个回合开始前不能使用反应，且速度减半。"
+						"當一個構裝生物可見的生物在其10尺距離內開始回合時，構裝生物可以強迫其進行一次感知豁免對抗你的法術豁免DC，豁免失敗則其直到其下個回合開始前不能使用反應，且速度減半。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "多重攻击",
+					"name": "多重攻擊",
 					"ENG_name": "Multiattack",
 					"entries": [
-						"构装生物发动等同于法术环位一半的次数的攻击（向下取整）。"
+						"構裝生物發動等同於法術環位一半的次數的攻擊（向下取整）。"
 					]
 				},
 				{
-					"name": "猛击",
+					"name": "猛擊",
 					"ENG_name": "Slam",
 					"entries": [
-						"{@atk mw} 命中+{@hitYourSpellAttack}，触及5尺，单一目标。{@h}{@damage 1d8 + 4} +法术环位的钝击伤害。"
+						"{@atk mw} 命中+{@hitYourSpellAttack}，觸及5尺，單一目標。{@h}{@damage 1d8 + 4} +法術環位的鈍擊傷害。"
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "狂怒乱击（仅限粘土）",
+					"name": "狂怒亂擊（僅限黏土）",
 					"ENG_name": "Berserk Lashing (Clay Only)",
 					"entries": [
-						"当构装生物受到伤害时，对其5尺内的随机一个生物进行一次猛击攻击。如果在其触及范围内没有生物，则该构装生物会以其一半的速度朝着其可见的一个敌人移动，且不会引发借机攻击。"
+						"當構裝生物受到傷害時，對其5尺內的隨機一個生物進行一次猛擊攻擊。如果在其觸及範圍內沒有生物，則該構裝生物會以其一半的速度朝著其可見的一個敵人移動，且不會引發藉機攻擊。"
 					]
 				}
 			],
@@ -695,18 +695,18 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
 			"hp": {
-				"special": "10 + 5 * 你诗人等级"
+				"special": "10 + 5 * 你詩人等級"
 			},
 			"speed": {
 				"walk": 30,
 				"fly": {
 					"number": 30,
-					"condition": "（悬浮）"
+					"condition": "（懸浮）"
 				},
 				"canHover": true
 			},
@@ -717,7 +717,7 @@
 			"wis": 10,
 			"cha": 6,
 			"senses": [
-				"黑暗视觉 60 尺"
+				"黑暗視覺 60 尺"
 			],
 			"passive": 10,
 			"immune": [
@@ -735,26 +735,26 @@
 			],
 			"trait": [
 				{
-					"name": "不变形态",
+					"name": "不變形態",
 					"ENG_name": "Immutable Form",
 					"entries": [
-						"该物品不会受到任何使它形态发生改变的法术或者其他效果的影响。"
+						"該物品不會受到任何使它形態發生改變的法術或者其他效果的影響。"
 					]
 				},
 				{
-					"name": "难抑舞动",
+					"name": "難抑舞動",
 					"ENG_name": "Irrespressible Dance",
 					"entries": [
-						"若一个生物在该舞空物品10尺内开始回合，那么他将可以增加或者减少10尺的步行移动力（由你来决定），直到他的下一个回合结束。舞空物品提供这一效果时不能{@condition 无力}。"
+						"若一個生物在該舞空物品10尺內開始回合，那麼他將可以增加或者減少10尺的步行移動力（由你來決定），直到他的下一個回合結束。舞空物品提供這一效果時不能{@condition 無力}。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "力场猛击",
+					"name": "力場猛擊",
 					"ENG_name": "Force-Empowered Slam",
 					"entries": [
-						"{@atk mw} 命中+{@hitYourSpellAttack}，触及 5ft.，单一可见目标。{@h}{@damage 1d10 + PB} 的力场伤害。"
+						"{@atk mw} 命中+{@hitYourSpellAttack}，觸及 5ft.，單一可見目標。{@h}{@damage 1d10 + PB} 的力場傷害。"
 					]
 				}
 			],
@@ -772,7 +772,7 @@
 			]
 		},
 		{
-			"name": "元素灵魄",
+			"name": "元素靈魄",
 			"ENG_name": "Elemental Spirit",
 			"source": "TCE",
 			"page": 111,
@@ -783,28 +783,28 @@
 			],
 			"ac": [
 				{
-					"special": "11 + 法术环阶（天生护甲）",
+					"special": "11 + 法術環階（天生護甲）",
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
 			"hp": {
-				"special": "50 + 10 * 每比4环高的法术环阶"
+				"special": "50 + 10 * 每比4環高的法術環階"
 			},
 			"speed": {
 				"walk": 40,
 				"fly": {
 					"number": 40,
-					"condition": "（悬浮）（仅限气）"
+					"condition": "（懸浮）（僅限氣）"
 				},
 				"burrow": {
 					"number": 40,
-					"condition": "（仅限土）"
+					"condition": "（僅限土）"
 				},
 				"swim": {
 					"number": 40,
-					"condition": "（仅限水）"
+					"condition": "（僅限水）"
 				},
 				"canHover": true
 			},
@@ -815,7 +815,7 @@
 			"wis": 10,
 			"cha": 16,
 			"senses": [
-				"黑暗视觉 60 尺"
+				"黑暗視覺 60 尺"
 			],
 			"passive": 10,
 			"resist": [
@@ -825,7 +825,7 @@
 						"thunder"
 					],
 					"cond": true,
-					"note": "（仅限气）"
+					"note": "（僅限氣）"
 				},
 				{
 					"resist": [
@@ -833,14 +833,14 @@
 						"slashing"
 					],
 					"cond": true,
-					"note": "（仅限土）"
+					"note": "（僅限土）"
 				},
 				{
 					"resist": [
 						"acid"
 					],
 					"cond": true,
-					"note": "（仅限水）"
+					"note": "（僅限水）"
 				}
 			],
 			"immune": [
@@ -850,7 +850,7 @@
 						"fire"
 					],
 					"cond": true,
-					"note": "（仅限火）"
+					"note": "（僅限火）"
 				}
 			],
 			"conditionImmune": [
@@ -866,26 +866,26 @@
 			],
 			"trait": [
 				{
-					"name": "不定形态（仅限于气、火和水）",
+					"name": "不定形態（僅限於氣、火和水）",
 					"ENG_name": "Amorphous Form (Air, Fire, and Water Only)",
 					"entries": [
-						"该元素生物能够轻松穿过最窄 1 寸宽的狭窄空间而无需挤身通过。"
+						"該元素生物能夠輕鬆穿過最窄 1 寸寬的狹窄空間而無需擠身通過。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "多重攻击",
+					"name": "多重攻擊",
 					"ENG_name": "Multiattack",
 					"entries": [
-						"该元素发动等同于法术环阶半数（向下取整）次数的攻击。"
+						"該元素發動等同於法術環階半數（向下取整）次數的攻擊。"
 					]
 				},
 				{
-					"name": "猛击",
+					"name": "猛擊",
 					"ENG_name": "Slam",
 					"entries": [
-						"{@atk mw} 命中+{@hitYourSpellAttack}，触及 5ft.，单一目标。 {@h} {@damage 1d10 + 4} + 法术环阶的钝击伤害（仅限气、土和水）或火焰伤害（仅限火）。"
+						"{@atk mw} 命中+{@hitYourSpellAttack}，觸及 5ft.，單一目標。 {@h} {@damage 1d10 + 4} + 法術環階的鈍擊傷害（僅限氣、土和水）或火焰傷害（僅限火）。"
 					]
 				}
 			],
@@ -910,7 +910,7 @@
 			]
 		},
 		{
-			"name": "精类灵魄",
+			"name": "精類靈魄",
 			"ENG_name": "Fey Spirit",
 			"source": "TCE",
 			"page": 112,
@@ -921,14 +921,14 @@
 			],
 			"ac": [
 				{
-					"special": "12 + 法术环阶（天生护甲）",
+					"special": "12 + 法術環階（天生護甲）",
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
 			"hp": {
-				"special": "30 + 10 * 每比3环高的法术环阶"
+				"special": "30 + 10 * 每比3環高的法術環階"
 			},
 			"speed": {
 				"walk": 40
@@ -940,7 +940,7 @@
 			"wis": 11,
 			"cha": 16,
 			"senses": [
-				"黑暗视觉 60 尺"
+				"黑暗視覺 60 尺"
 			],
 			"passive": 10,
 			"conditionImmune": [
@@ -952,47 +952,47 @@
 			],
 			"action": [
 				{
-					"name": "多重攻击",
+					"name": "多重攻擊",
 					"ENG_name": "Multiattack",
 					"entries": [
-						"该精类发动等同于法术环阶半数（向下取整）次数的攻击。"
+						"該精類發動等同於法術環階半數（向下取整）次數的攻擊。"
 					]
 				},
 				{
-					"name": "短剑",
+					"name": "短劍",
 					"ENG_name": "Shortsword",
 					"entries": [
-						"{@atk mw} 命中+{@hitYourSpellAttack}，触及 5ft.，单一目标。{@h} {@damage 1d6 + 3} + 法术环阶的穿刺伤害 + {@damage  + 1d6}力场伤害。"
+						"{@atk mw} 命中+{@hitYourSpellAttack}，觸及 5ft.，單一目標。{@h} {@damage 1d6 + 3} + 法術環階的穿刺傷害 + {@damage  + 1d6}力場傷害。"
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "精类步",
+					"name": "精類步",
 					"ENG_name": "Fey Step",
 					"entries": [
-						"该精类魔法地传送到最远30ft.的一处它可见的未被占据空间。然后根据所选精类情绪，触发以下效果之一：",
+						"該精類魔法地傳送到最遠30ft.的一處它可見的未被占據空間。然後根據所選精類情緒，觸發以下效果之一：",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
-									"name": "愤怒",
+									"name": "憤怒",
 									"ENG_name": "Fuming",
-									"entry": "在使用精类步后，该精类生物在它回合结束前的下一次攻击检定具有优势。"
+									"entry": "在使用精類步後，該精類生物在它回合結束前的下一次攻擊檢定具有優勢。"
 								},
 								{
 									"type": "item",
-									"name": "欢欣",
+									"name": "歡欣",
 									"ENG_name": "Mirthful",
-									"entry": "在使用精类步后，该精类生物可以立即选择它10尺内可见的一个生物，强迫其进行一次对抗你的法术豁免DC的感知豁免，若豁免失败则其将被你及该精类生物魅惑，持续1分钟或目标受到任何伤害。"
+									"entry": "在使用精類步後，該精類生物可以立即選擇它10尺內可見的一個生物，強迫其進行一次對抗你的法術豁免DC的感知豁免，若豁免失敗則其將被你及該精類生物魅惑，持續1分鐘或目標受到任何傷害。"
 								},
 								{
 									"type": "item",
-									"name": "诡诈",
+									"name": "詭詐",
 									"ENG_name": "Tricksy",
-									"entry": "在使用精类步后，该精类生物可以立即令魔法黑暗充斥于它5尺内的一个5尺立方区域，魔法黑暗持续直到精类生物的下回合结束。"
+									"entry": "在使用精類步後，該精類生物可以立即令魔法黑暗充斥於它5尺內的一個5尺立方區域，魔法黑暗持續直到精類生物的下回合結束。"
 								}
 							]
 						}
@@ -1021,7 +1021,7 @@
 			]
 		},
 		{
-			"name": "邪魔灵魄",
+			"name": "邪魔靈魄",
 			"ENG_name": "Fiendish Spirit",
 			"source": "TCE",
 			"page": 112,
@@ -1032,24 +1032,24 @@
 			],
 			"ac": [
 				{
-					"special": "12 + 法术环阶（天生护甲）",
+					"special": "12 + 法術環階（天生護甲）",
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
 			"hp": {
-				"special": "50（仅限恶魔）或40（仅限魔鬼）或60（仅限尤格罗斯魔） + 15 * 每比6环高的法术环阶"
+				"special": "50（僅限惡魔）或40（僅限魔鬼）或60（僅限尤格羅斯魔） + 15 * 每比6環高的法術環階"
 			},
 			"speed": {
 				"walk": 40,
 				"climb": {
 					"number": 40,
-					"condition": "（仅限恶魔）"
+					"condition": "（僅限惡魔）"
 				},
 				"fly": {
 					"number": 60,
-					"condition": "（仅限魔鬼）"
+					"condition": "（僅限魔鬼）"
 				}
 			},
 			"str": 13,
@@ -1059,7 +1059,7 @@
 			"wis": 10,
 			"cha": 16,
 			"senses": [
-				"黑暗视觉 60 尺"
+				"黑暗視覺 60 尺"
 			],
 			"passive": 10,
 			"resist": [
@@ -1081,51 +1081,51 @@
 					"name": "魔法抗性",
 					"ENG_name": "Magic Resistance",
 					"entries": [
-						"邪魔在对抗法术和其他魔法效应的豁免掷骰中具有优势。"
+						"邪魔在對抗法術和其他魔法效應的豁免擲骰中具有優勢。"
 					]
 				},
 				{
-					"name": "焚身爆（仅限恶魔）",
+					"name": "焚身爆（僅限惡魔）",
 					"ENG_name": "Death Throes (Demon Only)",
 					"entries": [
-						"邪魔生命值降为0时或法术结束时将爆炸，其周围10尺内每个生物必须进行一次敏捷豁免对抗你的法术豁免DC，豁免失败则将受到{@dice 2d10} + 法术环位的火焰伤害，豁免成功则伤害减半。"
+						"邪魔生命值降為0時或法術結束時將爆炸，其周圍10尺內每個生物必須進行一次敏捷豁免對抗你的法術豁免DC，豁免失敗則將受到{@dice 2d10} + 法術環位的火焰傷害，豁免成功則傷害減半。"
 					]
 				},
 				{
-					"name": "魔鬼视界（仅限魔鬼）",
+					"name": "魔鬼視界（僅限魔鬼）",
 					"ENG_name": "Devil's Sight (Devil Only)",
 					"entries": [
-						"魔法黑暗不会阻碍邪魔的黑暗视觉。"
+						"魔法黑暗不會阻礙邪魔的黑暗視覺。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "多重攻击",
+					"name": "多重攻擊",
 					"ENG_name": "Multiattack",
 					"entries": [
-						"邪魔发动等同于法术环位一半的次数的攻击（向下取整）。"
+						"邪魔發動等同於法術環位一半的次數的攻擊（向下取整）。"
 					]
 				},
 				{
-					"name": "啃咬（仅限于恶魔）",
+					"name": "啃咬（僅限於惡魔）",
 					"ENG_name": "Bite (Demon Only)",
 					"entries": [
-						"{@atk mw} 命中+{@hitYourSpellAttack}，触及5尺，单一目标。{@h}{@damage 1d12 + 3} + 法术环位的黯蚀伤害。"
+						"{@atk mw} 命中+{@hitYourSpellAttack}，觸及5尺，單一目標。{@h}{@damage 1d12 + 3} + 法術環位的黯蝕傷害。"
 					]
 				},
 				{
-					"name": "爪击（仅限于尤格罗斯魔）",
+					"name": "爪擊（僅限於尤格羅斯魔）",
 					"ENG_name": "Claws (Yugoloth Only)",
 					"entries": [
-						"{@atk mw} 命中+{@hitYourSpellAttack}，触及5尺，单一目标。 {@h}{@damage 1d8 + 3} + 法术环位的挥砍伤害。发动攻击后，邪魔可以魔法性地传送至一处30尺内其可见且未被占据的空间。"
+						"{@atk mw} 命中+{@hitYourSpellAttack}，觸及5尺，單一目標。 {@h}{@damage 1d8 + 3} + 法術環位的揮砍傷害。發動攻擊後，邪魔可以魔法性地傳送至一處30尺內其可見且未被占據的空間。"
 					]
 				},
 				{
-					"name": "投掷烈焰（仅限于魔鬼）",
+					"name": "投擲烈焰（僅限於魔鬼）",
 					"ENG_name": "Hurl Flame (Devil Only)",
 					"entries": [
-						"{@atk rs} 命中+{@hitYourSpellAttack}，射程150尺，单一目标。{@h}{@damage 2d6 + 3} + 法术环位的火焰伤害。如果目标时未被着装或携带的可燃物件，则将被点燃。"
+						"{@atk rs} 命中+{@hitYourSpellAttack}，射程150尺，單一目標。{@h}{@damage 2d6 + 3} + 法術環位的火焰傷害。如果目標時未被著裝或攜帶的可燃物件，則將被點燃。"
 					]
 				}
 			],
@@ -1155,7 +1155,7 @@
 			]
 		},
 		{
-			"name": "人工生命仆从",
+			"name": "人工生命僕從",
 			"ENG_name": "Homunculus Servant",
 			"source": "TCE",
 			"page": 22,
@@ -1171,12 +1171,12 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
 			"hp": {
-				"special": "1 + 你的智力调整值 + 你奇械师等级（人工生命具有你奇械师等级数量的生命骰[d4]）"
+				"special": "1 + 你的智力調整值 + 你奇械師等級（人工生命具有你奇械師等級數量的生命骰[d4]）"
 			},
 			"speed": {
 				"walk": 20,
@@ -1196,7 +1196,7 @@
 				"stealth": "+2 + PB"
 			},
 			"senses": [
-				"黑暗视觉 60 尺"
+				"黑暗視覺 60 尺"
 			],
 			"passive": "10 + (PB × 2)",
 			"immune": [
@@ -1209,32 +1209,32 @@
 			"languages": [
 				"understands the languages you speak"
 			],
-			"pbNote": "等于你的熟练加值",
+			"pbNote": "等於你的熟練加值",
 			"trait": [
 				{
-					"name": "反射闪避",
+					"name": "反射閃避",
 					"ENG_name": "Evasion",
 					"entries": [
-						"当需要通过敏捷豁免来使伤害减半时，若豁免成功则不受伤害，豁免失败则伤害减半。此特性在{@condition 无力}时无效。"
+						"當需要透過敏捷豁免來使傷害減半時，若豁免成功則不受傷害，豁免失敗則傷害減半。此特性在{@condition 無力}時無效。"
 					]
 				}
 			],
-			"actionNote": "需花费你的附赠动作",
+			"actionNote": "需花費你的附贈動作",
 			"action": [
 				{
-					"name": "力场冲击",
+					"name": "力場衝擊",
 					"ENG_name": "Force Strike",
 					"entries": [
-						"{@atk rw} 命中+{@hitYourSpellAttack}，射程30尺，单个你可见的目标。{@h} {@damage 1d4 + PB}力场伤害。"
+						"{@atk rw} 命中+{@hitYourSpellAttack}，射程30尺，單個你可見的目標。{@h} {@damage 1d4 + PB}力場傷害。"
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "传递法术",
+					"name": "傳遞法術",
 					"ENG_name": "Channel Magic",
 					"entries": [
-						"传递法术。当你施展施法距离为触及的法术时，只要人工生命距离你120尺内，它就能替你传递该法术。"
+						"傳遞法術。當你施展施法距離為觸及的法術時，只要人工生命距離你120尺內，它就能替你傳遞該法術。"
 					]
 				}
 			],
@@ -1251,7 +1251,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "幼体拟身怪",
+			"name": "幼體擬身怪",
 			"ENG_name": "Juvenile Mimic",
 			"source": "TCE",
 			"page": 167,
@@ -1286,7 +1286,7 @@
 				"stealth": "+3"
 			},
 			"senses": [
-				"黑暗视觉 60 尺"
+				"黑暗視覺 60 尺"
 			],
 			"passive": 11,
 			"immune": [
@@ -1303,17 +1303,17 @@
 			"cr": "0",
 			"trait": [
 				{
-					"name": "拟形（仅物体形态）",
+					"name": "擬形（僅物體形態）",
 					"ENG_name": "False Appearance (Object Form Only)",
 					"entries": [
-						"当拟身怪静止不动时，它与普通的物体难以区分。"
+						"當擬身怪靜止不動時，它與普通的物體難以區分。"
 					]
 				},
 				{
 					"name": "蛛行",
 					"ENG_name": "Spider Climb",
 					"entries": [
-						"拟身怪可以在困难地形的表面攀爬，包括倒吊在天花板上，且不需要进行属性检定。"
+						"擬身怪可以在困難地形的表面攀爬，包括倒吊在天花板上，且不需要進行屬性檢定。"
 					]
 				}
 			],
@@ -1322,14 +1322,14 @@
 					"name": "啃咬",
 					"ENG_name": "Bite",
 					"entries": [
-						"命中{@hit 3}，触及5尺，单一目标。{@h} 1穿刺伤害 + 2({@damage 1d4})强酸伤害。"
+						"命中{@hit 3}，觸及5尺，單一目標。{@h} 1穿刺傷害 + 2({@damage 1d4})強酸傷害。"
 					]
 				},
 				{
-					"name": "变形",
+					"name": "變形",
 					"ENG_name": "Shape-Shift",
 					"entries": [
-						"拟身怪变形成一个物体或者变回到它真实的、无定形的形态。它的数据面板在每种形式中都是相同的。它穿着或携带的任何设备都没有变形。如果它死了，就会恢复到它的真实形态。"
+						"擬身怪變形成一個物體或者變回到它真實的、無定形的形態。它的數據面板在每種形式中都是相同的。它穿著或攜帶的任何設備都沒有變形。如果它死了，就會恢復到它的真實形態。"
 					]
 				}
 			],
@@ -1354,7 +1354,7 @@
 			]
 		},
 		{
-			"name": "琉克欧的非凡机仆",
+			"name": "琉克歐的非凡機仆",
 			"ENG_name": "Mighty Servant of Leuk-o",
 			"source": "TCE",
 			"page": 131,
@@ -1367,7 +1367,7 @@
 				{
 					"ac": 22,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1428,56 +1428,56 @@
 			],
 			"trait": [
 				{
-					"name": "不变存在",
+					"name": "不變存在",
 					"ENG_name": "Immutable Existence",
 					"entries": [
-						"机仆免疫任何可以改变其形态或将其送至另一个存在位面的法术或效应。"
+						"機仆免疫任何可以改變其形態或將其送至另一個存在位面的法術或效應。"
 					]
 				},
 				{
-					"name": "抗魔构造",
+					"name": "抗魔構造",
 					"ENG_name": "Magic Resistance",
 					"entries": [
-						"机仆在抵抗法术和其他魔法效应时进行的豁免检定具有优势，并且对其进行的法术攻击具有劣势。"
+						"機仆在抵抗法術和其他魔法效應時進行的豁免檢定具有優勢，並且對其進行的法術攻擊具有劣勢。"
 					]
 				},
 				{
 					"name": "再生",
 					"ENG_name": "Regeneration",
 					"entries": [
-						"机仆在它的回合开始时回复10点生命值。如果机仆的生命值降低到0，则该特质无法生效直到一个与之同调的生物耗费24小时维修神器或直到神器受到闪电伤害。"
+						"機仆在它的回合開始時回復10點生命值。如果機仆的生命值降低到0，則該特質無法生效直到一個與之同調的生物耗費24小時維修神器或直到神器受到閃電傷害。"
 					]
 				},
 				{
 					"name": "立定起跳",
 					"ENG_name": "Standing Leap",
 					"entries": [
-						"无论是否助跑，机仆最远可以跳50尺，最高25尺。"
+						"無論是否助跑，機仆最遠可以跳50尺，最高25尺。"
 					]
 				},
 				{
-					"name": "非凡本质",
+					"name": "非凡本質",
 					"ENG_name": "Unusual Nature",
 					"entries": [
-						"机仆无须空气，进食，饮水和睡眠。"
+						"機仆無須空氣，進食，飲水和睡眠。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "毁灭铁拳",
+					"name": "毀滅鐵拳",
 					"ENG_name": "Destructive Fist",
 					"entries": [
-						"{@atk mw} 命中{@hit 17}，触及10尺，单一目标。{@h} 36 ({@damage 4d12 + 10}) 力场伤害 或",
-						"{@atk rw} 命中{@hit 17}，射程120尺，单一目标。{@h} 36 ({@damage 4d12 + 10}) 力场伤害。",
-						"如果目标为物件，它受到三倍伤害。"
+						"{@atk mw} 命中{@hit 17}，觸及10尺，單一目標。{@h} 36 ({@damage 4d12 + 10}) 力場傷害 或",
+						"{@atk rw} 命中{@hit 17}，射程120尺，單一目標。{@h} 36 ({@damage 4d12 + 10}) 力場傷害。",
+						"如果目標為物件，它受到三倍傷害。"
 					]
 				},
 				{
-					"name": "飞跃冲击",
+					"name": "飛躍衝擊",
 					"ENG_name": "Crushing Leap",
 					"entries": [
-						"如果机仆在其移动中跳跃25尺，它能用该动作着陆在一处由一个或多个生物占据的空间。该空间内的每个生物被推到机仆身边5尺内一处未被占据的空间内，并必须进行一次 {@dc 25}的敏捷豁免。豁免失败者受到26（{@damage 4d12}）钝击伤害并应击{@condition 伏地}。豁免成功则伤害减半，且不会因此{@condition 伏地}。"
+						"如果機仆在其移動中跳躍25尺，它能用該動作著陸在一處由一個或多個生物占據的空間。該空間內的每個生物被推到機仆身邊5尺內一處未被占據的空間內，並必須進行一次 {@dc 25}的敏捷豁免。豁免失敗者受到26（{@damage 4d12}）鈍擊傷害並應擊{@condition 伏地}。豁免成功則傷害減半，且不會因此{@condition 伏地}。"
 					]
 				}
 			],
@@ -1515,7 +1515,7 @@
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
-						"replace": "阴影",
+						"replace": "陰影",
 						"with": "反影"
 					}
 				}
@@ -1532,7 +1532,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -1541,7 +1541,7 @@
 			]
 		},
 		{
-			"name": "幽影灵魄",
+			"name": "幽影靈魄",
 			"ENG_name": "Shadow Spirit",
 			"source": "TCE",
 			"page": 114,
@@ -1552,14 +1552,14 @@
 			],
 			"ac": [
 				{
-					"special": "11 + 法术环阶（天生护甲）",
+					"special": "11 + 法術環階（天生護甲）",
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
 			"hp": {
-				"special": "35 + 15 * 每比3环高的法术环阶"
+				"special": "35 + 15 * 每比3環高的法術環階"
 			},
 			"speed": {
 				"walk": 40
@@ -1571,7 +1571,7 @@
 			"wis": 10,
 			"cha": 16,
 			"senses": [
-				"黑暗视觉 120 尺"
+				"黑暗視覺 120 尺"
 			],
 			"passive": 10,
 			"resist": [
@@ -1585,49 +1585,49 @@
 			],
 			"trait": [
 				{
-					"name": "惧怖狂怒（仅限暴怒）",
+					"name": "懼怖狂怒（僅限暴怒）",
 					"ENG_name": "Terror Frenzy (Fury Only)",
 					"entries": [
-						"该灵魄对{@condition 恐惧}生物发动的攻击检定具有优势。"
+						"該靈魄對{@condition 恐懼}生物發動的攻擊檢定具有優勢。"
 					]
 				},
 				{
-					"name": "哀伤之重（仅限绝望）",
+					"name": "哀傷之重（僅限絕望）",
 					"ENG_name": "Weight of Sorrow (Despair Only)",
 					"entries": [
-						"除你之外的所有生物在该灵魄5尺内开始回合时，其速度降低 20 尺直到该生物的下回合开始。"
+						"除了你之外的所有生物在該靈魄5尺內開始回合時，其速度降低 20 尺直到該生物的下回合開始。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "多重攻击",
+					"name": "多重攻擊",
 					"ENG_name": "Multiattack",
 					"entries": [
-						"该灵魄发动等同于法术环位一半的次数的攻击（向下取整）。"
+						"該靈魄發動等同於法術環位一半的次數的攻擊（向下取整）。"
 					]
 				},
 				{
-					"name": "冻寒撕裂",
+					"name": "凍寒撕裂",
 					"ENG_name": "Chilling Rend",
 					"entries": [
-						"{@atk mw} 命中+{@hitYourSpellAttack}，触及5尺，单一目标。{@h}{@damage 1d12 + 3} + 法术环阶的冷冻伤害。"
+						"{@atk mw} 命中+{@hitYourSpellAttack}，觸及5尺，單一目標。{@h}{@damage 1d12 + 3} + 法術環階的冷凍傷害。"
 					]
 				},
 				{
-					"name": "恐惧尖叫（1/日）",
+					"name": "恐懼尖叫（1/日）",
 					"ENG_name": "Dreadful Scream (1/Day)",
 					"entries": [
-						"该灵魄发出尖叫。处于它10尺内的每个生物必须进行一次感知豁免对抗你的法术豁免DC，否则对灵魄{@condition 恐惧}1分钟。被{@condition 恐惧}生物可以在其自己回合结束时再进行一次该豁免，豁免成功则终止该生物身上的{@condition 恐惧}效应。"
+						"該靈魄發出尖叫。處於它10尺內的每個生物必須進行一次感知豁免對抗你的法術豁免DC，否則對靈魄{@condition 恐懼}1分鐘。被{@condition 恐懼}生物可以在其自己回合結束時再進行一次該豁免，豁免成功則終止該生物身上的{@condition 恐懼}效應。"
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "暗影潜藏（仅限恐惧）",
+					"name": "暗影潛藏（僅限恐懼）",
 					"ENG_name": "Shadow Stealth (Fear Only)",
 					"entries": [
-						"灵魄处于微光光照或黑暗环境时，可以一个附赠动作来执行躲藏动作。"
+						"靈魄處於微光光照或黑暗環境時，可以一個附贈動作來執行躲藏動作。"
 					]
 				}
 			],
@@ -1651,7 +1651,7 @@
 			]
 		},
 		{
-			"name": "钢铁守卫",
+			"name": "鋼鐵守衛",
 			"ENG_name": "Steel Defender",
 			"source": "TCE",
 			"page": 19,
@@ -1667,12 +1667,12 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
 			"hp": {
-				"special": "2 + 你的智力调整值 + 5 * 你奇械师等级（钢铁守卫具有你奇械师等级数量的生命骰[d8]）"
+				"special": "2 + 你的智力調整值 + 5 * 你奇械師等級（鋼鐵守衛具有你奇械師等級數量的生命骰[d8]）"
 			},
 			"speed": {
 				"walk": 40
@@ -1692,7 +1692,7 @@
 				"perception": "+0 + PB × 2"
 			},
 			"senses": [
-				"黑暗视觉 60 尺"
+				"黑暗視覺 60 尺"
 			],
 			"passive": "10 + (PB × 2)",
 			"immune": [
@@ -1706,39 +1706,39 @@
 			"languages": [
 				"understands the languages you speak"
 			],
-			"pbNote": "等于你的熟练加值",
+			"pbNote": "等於你的熟練加值",
 			"trait": [
 				{
 					"name": "警惕",
 					"ENG_name": "Vigilant",
 					"entries": [
-						"钢铁守卫不会被突袭。"
+						"鋼鐵守衛不會被突襲。"
 					]
 				}
 			],
-			"actionNote": "需花费你的附赠动作",
+			"actionNote": "需花費你的附贈動作",
 			"action": [
 				{
-					"name": "力场动能撕扯",
+					"name": "力場動能撕扯",
 					"ENG_name": "Force-Empowered Rend",
 					"entries": [
-						"{@atk mw} 命中+{@hitYourSpellAttack}，触及5尺，单个你可见的目标。{@h} {@damage 1d8 + PB}力场伤害。"
+						"{@atk mw} 命中+{@hitYourSpellAttack}，觸及5尺，單個你可見的目標。{@h} {@damage 1d8 + PB}力場傷害。"
 					]
 				},
 				{
 					"name": "修理（3次/天）",
 					"ENG_name": "Repair (3/Day)",
 					"entries": [
-						"安装于钢铁守卫内部的魔法机械能够为钢铁守卫本身或距离其5尺内的构装体或物品恢复{@dice 2d8 + PB}的生命值。"
+						"安裝於鋼鐵守衛內部的魔法機械能夠為鋼鐵守衛本身或距離其5尺內的構裝體或物品恢復{@dice 2d8 + PB}的生命值。"
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "偏转攻击",
+					"name": "偏轉攻擊",
 					"ENG_name": "Deflect Attack",
 					"entries": [
-						"当距离钢铁守卫5尺内的一个可见生物对钢铁守卫以外的生物进行攻击时，钢铁守卫能迫使此次攻击承受劣势。"
+						"當距離鋼鐵守衛5尺內的一個可見生物對鋼鐵守衛以外的生物進行攻擊時，鋼鐵守衛能迫使此次攻擊承受劣勢。"
 					]
 				}
 			],
@@ -1755,7 +1755,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "不死灵魄",
+			"name": "不死靈魄",
 			"ENG_name": "Undead Spirit",
 			"source": "TCE",
 			"page": 114,
@@ -1766,20 +1766,20 @@
 			],
 			"ac": [
 				{
-					"special": "11 + 法术环阶（天生护甲）",
+					"special": "11 + 法術環階（天生護甲）",
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
 			"hp": {
-				"special": "30（仅限虚灵或腐尸）或20（仅限骷髅）+ 10 * 每比3环高的法术环阶"
+				"special": "30（僅限虛靈或腐屍）或20（僅限骷髏）+ 10 * 每比3環高的法術環階"
 			},
 			"speed": {
 				"walk": 30,
 				"fly": {
 					"number": 40,
-					"condition": "（悬浮）（仅限虚灵）"
+					"condition": "（懸浮）（僅限虛靈）"
 				},
 				"canHover": true
 			},
@@ -1790,7 +1790,7 @@
 			"wis": 10,
 			"cha": 9,
 			"senses": [
-				"黑暗视觉 60 尺"
+				"黑暗視覺 60 尺"
 			],
 			"passive": 10,
 			"immune": [
@@ -1808,47 +1808,47 @@
 			],
 			"trait": [
 				{
-					"name": "虚体移动（仅限于虚灵）",
+					"name": "虛體移動（僅限於虛靈）",
 					"ENG_name": "Incorporeal Movement (Ghostly Only)",
 					"entries": [
-						"灵魄可以虚体化并如同穿过困难地形一样穿过其他生物和物件。如果它在自己的回合结束时仍处在物件内部，则被挪到距离最近的未被占据的位置，且每虚体移动5尺便受到{@damage 1d10}力场伤害。"
+						"靈魄可以虛體化並如同穿過困難地形一樣穿過其他生物和物件。如果它在自己的回合結束時仍處在物件內部，則被挪到距離最近的未被占據的位置，且每虛體移動5尺便受到{@damage 1d10}力場傷害。"
 					]
 				},
 				{
-					"name": "腐灭灵光（仅限腐尸）",
+					"name": "腐滅靈光（僅限腐屍）",
 					"ENG_name": "Festering Aura (Putrid Only)",
 					"entries": [
-						"除你之外的所有生物，在不死生物5尺内开始其回合时必须进行一次体质豁免对抗你的法术豁免DC，豁免失败则在其下个回合开始前{@condition 中毒}。"
+						"除了你之外的所有生物，在不死生物5尺內開始其回合時必須進行一次體質豁免對抗你的法術豁免DC，豁免失敗則在其下個回合開始前{@condition 中毒}。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "多重攻击",
+					"name": "多重攻擊",
 					"ENG_name": "Multiattack",
 					"entries": [
-						"灵魄发动等同于法术环位一半的次数的攻击（向下取整）。"
+						"靈魄發動等同於法術環位一半的次數的攻擊（向下取整）。"
 					]
 				},
 				{
-					"name": "致死之触（仅限于虚灵）",
+					"name": "致死之觸（僅限於虛靈）",
 					"ENG_name": "Deathly Touch (Ghostly Only)",
 					"entries": [
-						"{@atk mw} 命中+{@hitYourSpellAttack}，触及5尺，单一生物。{@h}{@damage 1d8 + 3} + 法术环位的黯蚀伤害，且目标生物必须进行一次感知豁免对抗你的法术豁免DC，豁免失败则对不死生物{@condition 恐惧}直到目标下回合结束。"
+						"{@atk mw} 命中+{@hitYourSpellAttack}，觸及5尺，單一生物。{@h}{@damage 1d8 + 3} + 法術環位的黯蝕傷害，且目標生物必須進行一次感知豁免對抗你的法術豁免DC，豁免失敗則對不死生物{@condition 恐懼}直到目標下回合結束。"
 					]
 				},
 				{
-					"name": "暗澹箭（仅限于骷髅）",
+					"name": "暗澹箭（僅限於骷髏）",
 					"ENG_name": "Grave Bolt (Skeletal Only)",
 					"entries": [
-						"{@atk rs} 命中+{@hitYourSpellAttack}，射程150尺，单一目标。{@h}{@damage 2d4 + 3} + 法术环位的黯蚀伤害。"
+						"{@atk rs} 命中+{@hitYourSpellAttack}，射程150尺，單一目標。{@h}{@damage 2d4 + 3} + 法術環位的黯蝕傷害。"
 					]
 				},
 				{
-					"name": "腐烂爪击（仅限于腐尸）。",
+					"name": "腐爛爪擊（僅限於腐屍）。",
 					"ENG_name": "Rotting Claw (Putrid Only)",
 					"entries": [
-						"{@atk mw} 命中+{@hitYourSpellAttack}，触及5尺，单一目标。{@h}{@damage 1d6 + 3} + 法术环位的挥砍伤害。如果目标处于{@condition 中毒}状态，其必须进行一次体质豁免对抗你的法术豁免DC，否则{@condition 麻痹}直到目标下回合结束。"
+						"{@atk mw} 命中+{@hitYourSpellAttack}，觸及5尺，單一目標。{@h}{@damage 1d6 + 3} + 法術環位的揮砍傷害。如果目標處於{@condition 中毒}狀態，其必須進行一次體質豁免對抗你的法術豁免DC，否則{@condition 麻痺}直到目標下回合結束。"
 					]
 				}
 			],
@@ -1892,18 +1892,18 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
 			"hp": {
-				"special": "5 + 5 * 你的德鲁伊等级"
+				"special": "5 + 5 * 你的德魯伊等級"
 			},
 			"speed": {
 				"walk": 30,
 				"fly": {
 					"number": 30,
-					"condition": "（悬浮）"
+					"condition": "（懸浮）"
 				},
 				"canHover": true
 			},
@@ -1914,7 +1914,7 @@
 			"wis": 15,
 			"cha": 11,
 			"senses": [
-				"黑暗视觉 60 尺"
+				"黑暗視覺 60 尺"
 			],
 			"passive": 12,
 			"immune": [
@@ -1932,17 +1932,17 @@
 			],
 			"action": [
 				{
-					"name": "火种",
+					"name": "火種",
 					"ENG_name": "Flame Seed",
 					"entries": [
-						"{@atk rw} 命中+{@hitYourSpellAttack}，射程60ft.，单一你可见的目标。{@h} {@damage 1d6 + PB}火焰伤害。"
+						"{@atk rw} 命中+{@hitYourSpellAttack}，射程60ft.，單一你可見的目標。{@h} {@damage 1d6 + PB}火焰傷害。"
 					]
 				},
 				{
-					"name": "烈焰传送",
+					"name": "烈焰傳送",
 					"ENG_name": "Fiery Teleportation",
 					"entries": [
-						"精魂与每个在其5尺内你所选择的自愿生物传送至15尺内你可见的未被占据的空间。随后每个处于精魂离开空间5尺范围内的生物必须成功通过对抗你法术豁免DC的敏捷豁免，否则受到{@damage 1d6 + PB}火焰伤害。"
+						"精魂與每個在其5尺內你所選擇的自願生物傳送至15尺內你可見的未被占據的空間。隨後每個處於精魂離開空間5尺範圍內的生物必須成功通過對抗你法術豁免DC的敏捷豁免，否則受到{@damage 1d6 + PB}火焰傷害。"
 					]
 				}
 			],

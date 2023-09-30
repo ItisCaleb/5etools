@@ -13,7 +13,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -51,7 +51,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -83,7 +83,7 @@
 				{
 					"name": "Mandibles",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage, and the target is {@condition 被擒} (escape {@dc 19}). Until this grapple ends, the target is {@condition 束缚}, and the ancient deep crow can't use its mandibles on another target."
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage, and the target is {@condition 被擒} (escape {@dc 19}). Until this grapple ends, the target is {@condition 束縛}, and the ancient deep crow can't use its mandibles on another target."
 					]
 				},
 				{
@@ -206,7 +206,7 @@
 						"Auspicia's innate spellcasting ability is Intelligence. She can innately cast the following spells, requiring no components:"
 					],
 					"will": [
-						"{@spell 侦测思想}"
+						"{@spell 偵測思想}"
 					],
 					"daily": {
 						"1e": [
@@ -311,26 +311,26 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 法师之手}",
-								"{@spell 传讯术}",
-								"{@spell 恶毒嘲笑}"
+								"{@spell 法師之手}",
+								"{@spell 傳訊術}",
+								"{@spell 惡毒嘲笑}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 魅惑人类}",
-								"{@spell 英雄气概}",
+								"{@spell 魅惑人類}",
+								"{@spell 英雄氣概}",
 								"{@spell 迷幻手稿}",
-								"{@spell 睡眠术}",
-								"{@spell 隐形仆役}"
+								"{@spell 睡眠術}",
+								"{@spell 隱形僕役}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 匕首之云}",
-								"{@spell 隐形术}"
+								"{@spell 匕首之雲}",
+								"{@spell 隱形術}"
 							]
 						}
 					},
@@ -407,7 +407,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -452,13 +452,13 @@
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 15 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage. If the target is a creature, it is {@condition 被擒} (escape {@dc 14}). Until this grapple ends, the target is {@condition 束缚}. The chaos quadrapod can grapple no more than two targets at a time."
+						"{@atk mw} {@hit 6} to hit, reach 15 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage. If the target is a creature, it is {@condition 被擒} (escape {@dc 14}). Until this grapple ends, the target is {@condition 束縛}. The chaos quadrapod can grapple no more than two targets at a time."
 					]
 				},
 				{
 					"name": "Chaos Cloud (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The chaos quadrapod shoots forth a knot of roiling ethereal light that explodes at a point it can see within 60 feet of it. Each creature in a 20-foot-radius sphere centered on that point must succeed on a {@dc 14} Charisma saving throw or be {@condition 震慑} until the end of its next turn."
+						"The chaos quadrapod shoots forth a knot of roiling ethereal light that explodes at a point it can see within 60 feet of it. Each creature in a 20-foot-radius sphere centered on that point must succeed on a {@dc 14} Charisma saving throw or be {@condition 震懾} until the end of its next turn."
 					]
 				}
 			],
@@ -502,7 +502,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -605,7 +605,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -670,7 +670,7 @@
 				{
 					"name": "Mandibles",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage, and the target is {@condition 被擒} (escape {@dc 17}). Until this grapple ends, the target is {@condition 束缚}, and the deep crow can't use its mandibles on another target."
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage, and the target is {@condition 被擒} (escape {@dc 17}). Until this grapple ends, the target is {@condition 束縛}, and the deep crow can't use its mandibles on another target."
 					]
 				},
 				{
@@ -774,20 +774,20 @@
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 命令术}",
-								"{@spell 强迫决斗}",
-								"{@spell 治疗伤势}",
-								"{@spell 激愤斩}"
+								"{@spell 命令術}",
+								"{@spell 強迫決鬥}",
+								"{@spell 治療傷勢}",
+								"{@spell 激憤斬}"
 							]
 						},
 						"2": {
 							"slots": 2,
 							"spells": [
-								"{@spell 援助术}",
-								"{@spell 烙印斩}",
-								"{@spell 次级复原术}",
-								"{@spell 守护联结}",
-								"{@spell 诚实之域}"
+								"{@spell 援助術}",
+								"{@spell 烙印斬}",
+								"{@spell 次級復原術}",
+								"{@spell 守護聯結}",
+								"{@spell 誠實之域}"
 							]
 						}
 					},
@@ -798,7 +798,7 @@
 				{
 					"name": "Champion Challenge (Recharges after a Short or Long Rest)",
 					"entries": [
-						"As a bonus action, Donaar causes each creature of his choice that he can see within 30 feet of him to make a {@dc 13} Wisdom saving throw. On a failure, a creature can't willingly move more than 30 feet away from Donaar. This effect ends on the creature if Donaar is {@condition 无力} or dies, or if the creature is moved more than 30 feet away from him."
+						"As a bonus action, Donaar causes each creature of his choice that he can see within 30 feet of him to make a {@dc 13} Wisdom saving throw. On a failure, a creature can't willingly move more than 30 feet away from Donaar. This effect ends on the creature if Donaar is {@condition 無力} or dies, or if the creature is moved more than 30 feet away from him."
 					]
 				}
 			],
@@ -876,7 +876,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell 法师护甲}",
+					"condition": "with {@spell 法師護甲}",
 					"braces": true
 				}
 			],
@@ -921,16 +921,16 @@
 						"0": {
 							"spells": [
 								"{@spell 火焰箭}",
-								"{@spell 光亮术}",
-								"{@spell 法师之手}",
-								"{@spell 魔法技俩}"
+								"{@spell 光亮術}",
+								"{@spell 法師之手}",
+								"{@spell 魔法技倆}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 侦测魔法}",
-								"{@spell 法师护甲}",
+								"{@spell 偵測魔法}",
+								"{@spell 法師護甲}",
 								"{@spell distort value|AI}*"
 							]
 						},
@@ -938,26 +938,26 @@
 							"slots": 3,
 							"spells": [
 								"{@spell gift of gab|AI}*",
-								"{@spell 暗示术}"
+								"{@spell 暗示術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
 								"{@spell fast friends|AI}*",
-								"{@spell 闪电束}"
+								"{@spell 閃電束}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 高等隐形术}"
+								"{@spell 高等隱形術}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell 寒冰锥}"
+								"{@spell 寒冰錐}"
 							]
 						}
 					},
@@ -1016,7 +1016,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell 法师护甲}",
+					"condition": "with {@spell 法師護甲}",
 					"braces": true
 				}
 			],
@@ -1059,24 +1059,24 @@
 						"0": {
 							"spells": [
 								"{@spell 火焰箭}",
-								"{@spell 交友术}",
-								"{@spell 法师之手}",
-								"{@spell 次级幻象}",
-								"{@spell 魔法技俩}"
+								"{@spell 交友術}",
+								"{@spell 法師之手}",
+								"{@spell 次級幻象}",
+								"{@spell 魔法技倆}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 易容术}",
+								"{@spell 易容術}",
 								"{@spell Jim's magic missile|AI}*",
-								"{@spell 法师护甲}"
+								"{@spell 法師護甲}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 隐形术}",
+								"{@spell 隱形術}",
 								"{@spell Jim's glowing coin|AI}*"
 							]
 						},
@@ -1084,20 +1084,20 @@
 							"slots": 3,
 							"spells": [
 								"{@spell incite greed|AI}*",
-								"{@spell 火球术}"
+								"{@spell 火球術}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 召唤次级元素生物}",
-								"{@spell 变形术}"
+								"{@spell 召喚次級元素生物}",
+								"{@spell 變形術}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell 假象术}"
+								"{@spell 假象術}"
 							]
 						}
 					},
@@ -1217,13 +1217,13 @@
 						"K'thriss's innate spellcasting ability is Charisma (spell save {@dc 14}). He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 舞光术}",
-						"{@spell 易容术}"
+						"{@spell 舞光術}",
+						"{@spell 易容術}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 黑暗术}",
-							"{@spell 妖火术}"
+							"{@spell 黑暗術}",
+							"{@spell 妖火術}"
 						]
 					},
 					"ability": "cha"
@@ -1236,23 +1236,23 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 寒颤之触}",
+								"{@spell 冷顫之觸}",
 								"{@spell 魔能爆}",
-								"{@spell 修复术}",
-								"{@spell 魔法技俩}",
-								"{@spell 荆棘之鞭}",
-								"{@spell 恶毒嘲笑}"
+								"{@spell 修復術}",
+								"{@spell 魔法技倆}",
+								"{@spell 荊棘之鞭}",
+								"{@spell 惡毒嘲笑}"
 							]
 						},
 						"3": {
 							"lower": 1,
 							"slots": 2,
 							"spells": [
-								"{@spell 噪音暗语}",
-								"{@spell 飞行术}",
-								"{@spell 脆弱诅咒}",
-								"{@spell 迷踪步}",
-								"{@spell 短讯术}",
+								"{@spell 噪音暗語}",
+								"{@spell 飛行術}",
+								"{@spell 脆弱詛咒}",
+								"{@spell 迷蹤步}",
+								"{@spell 簡訊術}",
 								"{@spell 粉碎音波}"
 							]
 						}
@@ -1337,7 +1337,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1368,7 +1368,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -1518,7 +1518,7 @@
 						"Môrgæn's spellcasting ability is Intelligence. She can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 法师之手}"
+						"{@spell 法師之手}"
 					],
 					"ability": "int"
 				},
@@ -1531,22 +1531,22 @@
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 警报术}",
-								"{@spell 化兽为友}",
-								"{@spell 猎人印记}"
+								"{@spell 警報術}",
+								"{@spell 化獸為友}",
+								"{@spell 獵人印記}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 行踪无迹}",
-								"{@spell 荆棘丛生}"
+								"{@spell 行蹤無跡}",
+								"{@spell 荊棘叢生}"
 							]
 						},
 						"3": {
 							"slots": 2,
 							"spells": [
-								"{@spell 召唤动物}"
+								"{@spell 召喚動物}"
 							]
 						}
 					},
@@ -1809,58 +1809,58 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 神导术}",
-								"{@spell 圣焰}",
-								"{@spell 拯救濒死}",
-								"{@spell 奇术}"
+								"{@spell 神導術}",
+								"{@spell 聖焰}",
+								"{@spell 拯救瀕死}",
+								"{@spell 奇術}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 祝福术}",
-								"{@spell 命令术}",
-								"{@spell 神恩术}",
-								"{@spell 虔诚护盾}"
+								"{@spell 祝福術}",
+								"{@spell 命令術}",
+								"{@spell 神恩術}",
+								"{@spell 虔誠護盾}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 强化属性}",
-								"{@spell 人类定身术}",
+								"{@spell 強化屬性}",
+								"{@spell 人類定身術}",
 								"{@spell 魔化武器}",
-								"{@spell 沉默术}",
-								"{@spell 灵体武器}"
+								"{@spell 沉默術}",
+								"{@spell 靈體武器}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 希望信标}",
-								"{@spell 十字军斗篷}",
+								"{@spell 希望信標}",
+								"{@spell 十字軍斗篷}",
 								"{@spell 解除魔法}",
-								"{@spell 群体治愈真言}",
-								"{@spell 灵体守卫}"
+								"{@spell 群體治癒真言}",
+								"{@spell 靈體守衛}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 防死护咒}",
-								"{@spell 行动自如术}",
-								"{@spell 生物定位术}",
-								"{@spell 石肤术}"
+								"{@spell 防死護咒}",
+								"{@spell 行動自如術}",
+								"{@spell 生物定位術}",
+								"{@spell 石膚術}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell 反制善恶}",
-								"{@spell 焰击术}",
-								"{@spell 怪物定身术}",
-								"{@spell 高等复原术}",
-								"{@spell 通晓传奇}"
+								"{@spell 反制善惡}",
+								"{@spell 焰擊術}",
+								"{@spell 怪物定身術}",
+								"{@spell 高等復原術}",
+								"{@spell 通曉傳奇}"
 							]
 						}
 					},
@@ -1956,7 +1956,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell 法师护甲}",
+					"condition": "with {@spell 法師護甲}",
 					"braces": true
 				}
 			],
@@ -1995,28 +1995,28 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 酸液溅爆}",
-								"{@spell 光亮术}",
-								"{@spell 法师之手}",
-								"{@spell 毒气喷洒}",
-								"{@spell 电爪}"
+								"{@spell 酸液濺爆}",
+								"{@spell 光亮術}",
+								"{@spell 法師之手}",
+								"{@spell 毒氣噴灑}",
+								"{@spell 電爪}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 侦测魔法}",
-								"{@spell 法师护甲}",
-								"{@spell 魔法飞弹}",
-								"{@spell 睡眠术}"
+								"{@spell 偵測魔法}",
+								"{@spell 法師護甲}",
+								"{@spell 魔法飛彈}",
+								"{@spell 睡眠術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 目盲/耳聋术}",
-								"{@spell 匕首之云}",
-								"{@spell 灼热射线}"
+								"{@spell 目盲/耳聾術}",
+								"{@spell 匕首之雲}",
+								"{@spell 灼熱射線}"
 							]
 						}
 					},
@@ -2117,25 +2117,25 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 神导术}",
-								"{@spell 光亮术}",
-								"{@spell 修复术}",
-								"{@spell 圣焰}"
+								"{@spell 神導術}",
+								"{@spell 光亮術}",
+								"{@spell 修復術}",
+								"{@spell 聖焰}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 灾祸术}",
-								"{@spell 治疗伤势}",
-								"{@spell 光导箭}"
+								"{@spell 災禍術}",
+								"{@spell 治療傷勢}",
+								"{@spell 光導箭}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 人类定身术}",
-								"{@spell 灵体武器}"
+								"{@spell 人類定身術}",
+								"{@spell 靈體武器}"
 							]
 						}
 					},
@@ -2248,7 +2248,7 @@
 				{
 					"name": "Sneak Attack (1/Turn)",
 					"entries": [
-						"Portentia deals an extra 14 ({@dice 4d6}) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Portentia that isn't {@condition 无力} and Portentia doesn't have disadvantage on the attack roll."
+						"Portentia deals an extra 14 ({@dice 4d6}) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Portentia that isn't {@condition 無力} and Portentia doesn't have disadvantage on the attack roll."
 					]
 				}
 			],
@@ -2354,31 +2354,31 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 光亮术}",
-								"{@spell 圣焰}",
-								"{@spell 奇术}"
+								"{@spell 光亮術}",
+								"{@spell 聖焰}",
+								"{@spell 奇術}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 治疗伤势}",
-								"{@spell 光导箭}",
-								"{@spell 圣域术}"
+								"{@spell 治療傷勢}",
+								"{@spell 光導箭}",
+								"{@spell 聖域術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 次级复原术}",
-								"{@spell 灵体武器}"
+								"{@spell 次級復原術}",
+								"{@spell 靈體武器}"
 							]
 						},
 						"3": {
 							"slots": 2,
 							"spells": [
 								"{@spell 解除魔法}",
-								"{@spell 灵体守卫}"
+								"{@spell 靈體守衛}"
 							]
 						}
 					},
@@ -2448,7 +2448,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"无甲防御"
+						"無甲防禦"
 					]
 				}
 			],
@@ -2490,17 +2490,17 @@
 						"Rosie's innate spellcasting ability is Wisdom (spell save {@dc 12}). She can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 次级幻象}",
-						"{@spell 圣焰}",
-						"{@spell 奇术}"
+						"{@spell 次級幻象}",
+						"{@spell 聖焰}",
+						"{@spell 奇術}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 命令术}",
-							"{@spell 黑暗术}",
-							"{@spell 黑暗视觉}",
-							"{@spell 行踪无迹}",
-							"{@spell 沉默术}"
+							"{@spell 命令術}",
+							"{@spell 黑暗術}",
+							"{@spell 黑暗視覺}",
+							"{@spell 行蹤無跡}",
+							"{@spell 沉默術}"
 						]
 					},
 					"ability": "wis"
@@ -2510,7 +2510,7 @@
 				{
 					"name": "Brave",
 					"entries": [
-						"Rosie has advantage on saving throws against being {@condition 恐惧}."
+						"Rosie has advantage on saving throws against being {@condition 恐懼}."
 					]
 				},
 				{
@@ -2522,7 +2522,7 @@
 				{
 					"name": "Evasion",
 					"entries": [
-						"If Rosie is subjected to an effect that allows her to make a Dexterity saving throw to take only half damage, she instead takes no damage if she succeeds on the saving throw, and only half damage if she fails. She can't use this trait if she's {@condition 无力}."
+						"If Rosie is subjected to an effect that allows her to make a Dexterity saving throw to take only half damage, she instead takes no damage if she succeeds on the saving throw, and only half damage if she fails. She can't use this trait if she's {@condition 無力}."
 					]
 				},
 				{
@@ -2644,7 +2644,7 @@
 				{
 					"name": "Defensive Advantage",
 					"entries": [
-						"As long as two or more of Splugoth's allies are within 5 feet of him and are not {@condition 无力}, attack rolls against him are made with disadvantage."
+						"As long as two or more of Splugoth's allies are within 5 feet of him and are not {@condition 無力}, attack rolls against him are made with disadvantage."
 					]
 				},
 				{
@@ -2656,7 +2656,7 @@
 				{
 					"name": "Touch of Madness",
 					"entries": [
-						"Splugoth has advantage on saving throws against being {@condition 魅惑} or {@condition 恐惧}."
+						"Splugoth has advantage on saving throws against being {@condition 魅惑} or {@condition 恐懼}."
 					]
 				}
 			],
@@ -2676,7 +2676,7 @@
 				{
 					"name": "Word From Beyond (1/Day)",
 					"entries": [
-						"Splugoth remembers and repeats aloud a few words from a place he entered while walking back from the next world to this one. Each creature of his choice within 30 feet of him that can hear him must succeed on a {@dc 12} Wisdom saving throw or be {@condition 震慑} until the end of its next turn."
+						"Splugoth remembers and repeats aloud a few words from a place he entered while walking back from the next world to this one. Each creature of his choice within 30 feet of him that can hear him must succeed on a {@dc 12} Wisdom saving throw or be {@condition 震懾} until the end of its next turn."
 					]
 				}
 			],
@@ -2782,7 +2782,7 @@
 				{
 					"name": "Evasion",
 					"entries": [
-						"If Viari is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, he instead takes no damage if he succeeds on the saving throw, and only half damage if he fails. He can't use this trait if he's {@condition 无力}."
+						"If Viari is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, he instead takes no damage if he succeeds on the saving throw, and only half damage if he fails. He can't use this trait if he's {@condition 無力}."
 					]
 				},
 				{
@@ -2794,7 +2794,7 @@
 				{
 					"name": "Sneak Attack (1/Turn)",
 					"entries": [
-						"Viari deals an extra 14 ({@dice 4d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Viari that isn't {@condition 无力} and Viari doesn't have disadvantage on the attack roll."
+						"Viari deals an extra 14 ({@dice 4d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Viari that isn't {@condition 無力} and Viari doesn't have disadvantage on the attack roll."
 					]
 				}
 			],
@@ -2923,40 +2923,40 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 德鲁伊伎俩}",
-								"{@spell 燃火术}",
-								"{@spell 荆棘之鞭}"
+								"{@spell 德魯伊伎倆}",
+								"{@spell 燃火術}",
+								"{@spell 荊棘之鞭}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 治疗伤势}",
-								"{@spell 纠缠术}",
-								"{@spell 雷鸣波}"
+								"{@spell 治療傷勢}",
+								"{@spell 糾纏術}",
+								"{@spell 雷鳴波}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
 								"{@spell 火焰刀}",
-								"{@spell 月华之光}",
-								"{@spell 行踪无迹}"
+								"{@spell 月華之光}",
+								"{@spell 行蹤無跡}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 召雷术}",
+								"{@spell 召雷術}",
 								"{@spell 解除魔法}",
-								"{@spell 植物滋长}"
+								"{@spell 植物滋長}"
 							]
 						},
 						"4": {
 							"slots": 1,
 							"spells": [
-								"{@spell 枯萎术}",
-								"{@spell 行动自如术}"
+								"{@spell 枯萎術}",
+								"{@spell 行動自如術}"
 							]
 						}
 					},

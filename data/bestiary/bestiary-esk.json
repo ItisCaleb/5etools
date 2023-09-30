@@ -53,7 +53,7 @@
 				{
 					"name": "Tools",
 					"entries": [
-						"The expert has {@item 盗贼工具|phb} and a musical instrument."
+						"The expert has {@item 盜賊工具|phb} and a musical instrument."
 					]
 				}
 			],
@@ -141,14 +141,14 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 神导术}",
-								"{@spell 圣焰}"
+								"{@spell 神導術}",
+								"{@spell 聖焰}"
 							]
 						},
 						"1": {
 							"slots": 2,
 							"spells": [
-								"{@spell 治疗伤势}"
+								"{@spell 治療傷勢}"
 							]
 						}
 					},
@@ -163,13 +163,13 @@
 						"0": {
 							"spells": [
 								"{@spell 火焰箭}",
-								"{@spell 光亮术}"
+								"{@spell 光亮術}"
 							]
 						},
 						"1": {
 							"slots": 2,
 							"spells": [
-								"{@spell 睡眠术}"
+								"{@spell 睡眠術}"
 							]
 						}
 					},

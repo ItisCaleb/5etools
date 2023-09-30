@@ -89,7 +89,7 @@ function getPersonDetails (opts) {
 				return resultLast ? resultLast.result : "";
 			})();
 
-			out.unshift(`<i><b title="使用姗娜萨的万事指南中的随机姓名表生成">名字：</b> ${resultFirst.result}${lastName ? ` ${lastName}` : ""}</i>`);
+			out.unshift(`<i><b title="使用姍娜薩的萬事指南中的隨機姓名表生成">名字：</b> ${resultFirst.result}${lastName ? ` ${lastName}` : ""}</i>`);
 		}
 	}
 
@@ -99,12 +99,12 @@ function getPersonDetails (opts) {
 	const cls = rollSuppClass().result;
 	const relate = rollSuppRelationship().result;
 	const out = [
-		`<b>阵营：</b> ${align}`,
-		opts.isAdventurer ? `<b>工作职业：</b> ${cls}` : `<b>职业：</b> ${occ}`,
-		`<b>关系：</b> ${relate}`,
+		`<b>陣營：</b> ${align}`,
+		opts.isAdventurer ? `<b>工作職業：</b> ${cls}` : `<b>職業：</b> ${occ}`,
+		`<b>關係：</b> ${relate}`,
 	];
 	if (!opts.isParent) {
-		out.push(`<b>状态：</b> ${status.result}`);
+		out.push(`<b>狀態：</b> ${status.result}`);
 	}
 
 	if (!opts.isParent) {
@@ -114,9 +114,9 @@ function getPersonDetails (opts) {
 			else return rollSuppRace().result;
 		})() : rollSuppRace().result;
 
-		out.unshift(`<i><b>种族：</b> ${race}</i>`);
+		out.unshift(`<i><b>種族：</b> ${race}</i>`);
 		const gender = opts.gender ? opts.gender : rollUnofficialGender().result;
-		out.unshift(`<i><b>性别：</b> ${gender}</i>`);
+		out.unshift(`<i><b>性別：</b> ${gender}</i>`);
 
 		addName(race, gender);
 	} else if (opts.race) {
@@ -183,50 +183,50 @@ const RACES_SELECTABLE = ["Dwarf", "Elf", "Half-Elf", "Half-Orc", "Tiefling"];
 const RACES_UNSELECTABLE = ["Human", "Halfling", "Dragonborn", "Gnome"];
 
 const PARENTS_HALF_ELF = [
-	{min: 1, max: 5, result: () => { const p = RNG(2); return `父母其中一方是精灵 ${fmtChoice(p === 1 ? "母亲" : "父亲")}，另一方是人类 ${fmtChoice(p === 1 ? "父亲" : "母亲")}。` }, display: "父母其中一方是精灵，另一方是人类。", _races: ["Elf", "Human"]},
-	{min: 6, result: () => { const p = RNG(2); return `父母其中一方是精灵 ${fmtChoice(p === 1 ? "母亲" : "父亲")}，另一方是半精灵 ${fmtChoice(p === 1 ? "父亲" : "母亲")}。` }, display: "父母其中一方是精灵，另一方是半精灵。", _races: ["Elf", "Half-Elf"]},
-	{min: 7, result: () => { const p = RNG(2); return `父母其中一方是人类 ${fmtChoice(p === 1 ? "母亲" : "父亲")}，另一方是半精灵 ${fmtChoice(p === 1 ? "父亲" : "母亲")}。` }, display: "父母其中一方是人类，另一方是半精灵。", _races: ["Half-Elf", "Human"]},
-	{min: 8, result: "双亲都是半精灵。"},
+	{min: 1, max: 5, result: () => { const p = RNG(2); return `父母其中一方是精靈 ${fmtChoice(p === 1 ? "母親" : "父親")}，另一方是人類 ${fmtChoice(p === 1 ? "父親" : "母親")}。` }, display: "父母其中一方是精靈，另一方是人類。", _races: ["Elf", "Human"]},
+	{min: 6, result: () => { const p = RNG(2); return `父母其中一方是精靈 ${fmtChoice(p === 1 ? "母親" : "父親")}，另一方是半精靈 ${fmtChoice(p === 1 ? "父親" : "母親")}。` }, display: "父母其中一方是精靈，另一方是半精靈。", _races: ["Elf", "Half-Elf"]},
+	{min: 7, result: () => { const p = RNG(2); return `父母其中一方是人類 ${fmtChoice(p === 1 ? "母親" : "父親")}，另一方是半精靈 ${fmtChoice(p === 1 ? "父親" : "母親")}。` }, display: "父母其中一方是人類，另一方是半精靈。", _races: ["Half-Elf", "Human"]},
+	{min: 8, result: "雙親都是半精靈。"},
 ];
 
 const PARENTS_HALF_ORC = [
-	{min: 1, max: 3, result: () => { const p = RNG(2); return `父母其中一方是兽人 ${fmtChoice(p === 1 ? "母亲" : "父亲")}，另一方是人类 ${fmtChoice(p === 1 ? "父亲" : "母亲")}。` }, display: "父母其中一方是兽人，另一方是人类。", _races: ["Orc", "Human"]},
-	{min: 4, max: 5, result: () => { const p = RNG(2); return `父母其中一方是兽人 ${fmtChoice(p === 1 ? "母亲" : "父亲")}，另一方是半兽人 ${fmtChoice(p === 1 ? "父亲" : "母亲")}。` }, display: "父母其中一方是兽人，另一方是半兽人。", _races: ["Orc", "Half-Orc"]},
-	{min: 6, max: 7, result: () => { const p = RNG(2); return `父母其中一方是人类 ${fmtChoice(p === 1 ? "母亲" : "父亲")}，另一方是半兽人 ${fmtChoice(p === 1 ? "父亲" : "母亲")}。` }, display: "父母其中一方是人类，另一方是半兽人。", _races: ["Human", "Half-Orc"]},
-	{min: 8, display: "双亲都是半兽人。"},
+	{min: 1, max: 3, result: () => { const p = RNG(2); return `父母其中一方是獸人 ${fmtChoice(p === 1 ? "母親" : "父親")}，另一方是人類 ${fmtChoice(p === 1 ? "父親" : "母親")}。` }, display: "父母其中一方是獸人，另一方是人類。", _races: ["Orc", "Human"]},
+	{min: 4, max: 5, result: () => { const p = RNG(2); return `父母其中一方是獸人 ${fmtChoice(p === 1 ? "母親" : "父親")}，另一方是半獸人 ${fmtChoice(p === 1 ? "父親" : "母親")}。` }, display: "父母其中一方是獸人，另一方是半獸人。", _races: ["Orc", "Half-Orc"]},
+	{min: 6, max: 7, result: () => { const p = RNG(2); return `父母其中一方是人類 ${fmtChoice(p === 1 ? "母親" : "父親")}，另一方是半獸人 ${fmtChoice(p === 1 ? "父親" : "母親")}。` }, display: "父母其中一方是人類，另一方是半獸人。", _races: ["Human", "Half-Orc"]},
+	{min: 8, display: "雙親都是半獸人。"},
 ];
 
 const PARENTS_TIEFLING = [
-	{min: 1, max: 4, display: "双亲都是人类，他们体内沉睡的炼狱血脉在你身上显现。"},
-	{min: 5, max: 6, result: () => { const p = RNG(2); return `父母其中一方是提夫林 ${fmtChoice(p === 1 ? "母亲" : "父亲")}，另一方是人类 ${fmtChoice(p === 1 ? "父亲" : "母亲")}。` }, display: "父母其中一方是提夫林，另一方是人类。", _races: ["Human", "Tiefling"]},
-	{min: 7, result: () => { const p = RNG(2); return `父母其中一方是提夫林 ${fmtChoice(p === 1 ? "母亲" : "父亲")}，另一方是魔鬼 ${fmtChoice(p === 1 ? "父亲" : "母亲")}。` }, display: "父母其中一方是提夫林，另一方是魔鬼。", _races: ["Devil", "Tiefling"]},
-	{min: 8, result: () => { const p = RNG(2); return `父母其中一方是人类 ${fmtChoice(p === 1 ? "母亲" : "父亲")}，另一方是魔鬼 ${fmtChoice(p === 1 ? "父亲" : "母亲")}。` }, display: "父母其中一方是人类，另一方是魔鬼。", _races: ["Human", "Devil"]},
+	{min: 1, max: 4, display: "雙親都是人類，他們體內沉睡的煉獄血脈在你身上顯現。"},
+	{min: 5, max: 6, result: () => { const p = RNG(2); return `父母其中一方是提夫林 ${fmtChoice(p === 1 ? "母親" : "父親")}，另一方是人類 ${fmtChoice(p === 1 ? "父親" : "母親")}。` }, display: "父母其中一方是提夫林，另一方是人類。", _races: ["Human", "Tiefling"]},
+	{min: 7, result: () => { const p = RNG(2); return `父母其中一方是提夫林 ${fmtChoice(p === 1 ? "母親" : "父親")}，另一方是魔鬼 ${fmtChoice(p === 1 ? "父親" : "母親")}。` }, display: "父母其中一方是提夫林，另一方是魔鬼。", _races: ["Devil", "Tiefling"]},
+	{min: 8, result: () => { const p = RNG(2); return `父母其中一方是人類 ${fmtChoice(p === 1 ? "母親" : "父親")}，另一方是魔鬼 ${fmtChoice(p === 1 ? "父親" : "母親")}。` }, display: "父母其中一方是人類，另一方是魔鬼。", _races: ["Human", "Devil"]},
 ];
 
 const BIRTHPLACES = [
 	{min: 1, max: 50, result: "家中"},
 	{min: 51, max: 55, result: "家族友人的家中"},
-	{min: 56, max: 63, result: () => `医者或产婆的家中 ${choose("医者", "产婆")}`, display: "医者或产婆的家中"},
-	{min: 64, max: 65, result: () => `四轮马车、运货车、或运货马车 ${choose("四轮马车", "运货车", "运货马车")}`, display: "四轮马车、运货车、或运货马车"},
-	{min: 66, max: 68, result: () => `谷仓、牲舍、或其他附属建筑 ${choose("谷仓", "牲舍", "附属建筑")}`, display: "谷仓、牲舍、或其他附属建筑"},
+	{min: 56, max: 63, result: () => `醫者或產婆的家中 ${choose("醫者", "產婆")}`, display: "醫者或產婆的家中"},
+	{min: 64, max: 65, result: () => `四輪馬車、運貨車、或運貨馬車 ${choose("四輪馬車", "運貨車", "運貨馬車")}`, display: "四輪馬車、運貨車、或運貨馬車"},
+	{min: 66, max: 68, result: () => `穀倉、牲舍、或其他附屬建築 ${choose("穀倉", "牲舍", "附屬建築")}`, display: "穀倉、牲舍、或其他附屬建築"},
 	{min: 69, max: 70, result: "洞穴"},
 	{min: 71, max: 72, result: "原野"},
 	{min: 73, max: 74, result: "森林"},
-	{min: 75, max: 77, result: "神庙"},
-	{min: 78, result: "战场"},
+	{min: 75, max: 77, result: "神廟"},
+	{min: 78, result: "戰場"},
 	{min: 79, max: 80, result: () => `巷弄或街道 ${choose("巷弄", "街道")}`, display: "巷弄或街道"},
-	{min: 81, max: 82, result: () => `妓院、酒馆、或旅店 ${choose("妓院", "酒馆", "旅店")}`, display: "妓院、酒馆、或旅店"},
-	{min: 83, max: 84, result: () => `城堡、要塞、高塔、或宫殿 ${choose("城堡", "要塞", "高塔", "宫殿")}`, display: "城堡、要塞、高塔、或宫殿"},
+	{min: 81, max: 82, result: () => `妓院、酒館、或旅店 ${choose("妓院", "酒館", "旅店")}`, display: "妓院、酒館、或旅店"},
+	{min: 83, max: 84, result: () => `城堡、要塞、高塔、或宮殿 ${choose("城堡", "要塞", "高塔", "宮殿")}`, display: "城堡、要塞、高塔、或宮殿"},
 	{min: 85, result: () => `下水道或垃圾堆 ${choose("下水道", "垃圾堆")}`, display: "下水道或垃圾堆"},
-	{min: 86, max: 88, result: "在不同种族的人群之中"},
-	{min: 89, max: 91, result: () => `在舟艇或船舰上 ${choose("舟艇", "船舰")}`, display: "在舟艇或船舰上"},
-	{min: 92, max: 93, result: () => `在监狱或一个秘密组织的总部中 ${choose("监狱", "秘密组织的总部")}`, display: "在监狱或一个秘密组织的总部中"},
-	{min: 94, max: 95, result: "在一名学者的研究室"},
+	{min: 86, max: 88, result: "在不同種族的人群之中"},
+	{min: 89, max: 91, result: () => `在舟艇或船艦上 ${choose("舟艇", "船艦")}`, display: "在舟艇或船艦上"},
+	{min: 92, max: 93, result: () => `在監獄或一個秘密組織的總部中 ${choose("監獄", "秘密組織的總部")}`, display: "在監獄或一個秘密組織的總部中"},
+	{min: 94, max: 95, result: "在一名學者的研究室"},
 	{min: 96, result: "在妖精荒野"},
-	{min: 97, result: "在堕影冥界"},
+	{min: 97, result: "在墮影冥界"},
 	{min: 98, result: () => `在星界位面或乙太位面 ${choose("星界位面", "乙太位面")}`, display: "在星界位面或乙太位面"},
-	{min: 99, result: "在一个你所选择的内层位面"},
-	{min: 100, result: "在一个你所选择的外层位面"},
+	{min: 99, result: "在一個你所選擇的內層位面"},
+	{min: 100, result: "在一個你所選擇的外層位面"},
 ];
 
 function absentParent (parent) {
@@ -234,48 +234,48 @@ function absentParent (parent) {
 }
 
 function absentBothParents () {
-	const p = ["母亲", "父亲"][RNG(2) - 1];
+	const p = ["母親", "父親"][RNG(2) - 1];
 	return `${absentParent(p)} ${absentParent(otherParent(p))}`;
 }
 
 function otherParent (parent) {
-	return parent === "母亲" ? "父亲" : "母亲";
+	return parent === "母親" ? "父親" : "母親";
 }
 
 function singleParentOrStep (parent) {
 	const p = RNG(2);
-	return `单亲${parent} 或 继${parent} ${fmtChoice(p === 1 ? parent : `继${parent}`)}. ${p === 1 ? `${absentParent(otherParent(parent))}` : absentBothParents()}`
+	return `單親${parent} 或 繼${parent} ${fmtChoice(p === 1 ? parent : `繼${parent}`)}. ${p === 1 ? `${absentParent(otherParent(parent))}` : absentBothParents()}`
 }
 
 const FAMILY = [
-	{min: 1, result: () => `无。 ${absentBothParents()}`, display: "无"},
-	{min: 2, result: () => `公共机构，例如收容所。 ${absentBothParents()}`, display: "公共机构，例如收容所"},
+	{min: 1, result: () => `無。 ${absentBothParents()}`, display: "無"},
+	{min: 2, result: () => `公共機構，例如收容所。 ${absentBothParents()}`, display: "公共機構，例如收容所"},
 	{min: 3, result: () => `神殿。 ${absentBothParents()}`, display: "神殿"},
-	{min: 4, max: 5, result: () => `孤儿院。 ${absentBothParents()}`, display: "孤儿院"},
-	{min: 6, max: 7, result: () => `监护人。 ${absentBothParents()}`, display: "监护人"},
-	{min: 8, max: 15, result: () => `父亲或母亲家族的姨母或叔父，或者两者皆具；或者是如同部落或氏族的大家族 ${choose("叔父", "姨母", "叔父和姨母", "如同部落或氏族的大家族")}. ${absentBothParents()}`, display: "父亲或母亲家族的姨母或叔父，或者两者皆具；或者是如同部落或氏族的大家族"},
+	{min: 4, max: 5, result: () => `孤兒院。 ${absentBothParents()}`, display: "孤兒院"},
+	{min: 6, max: 7, result: () => `監護人。 ${absentBothParents()}`, display: "監護人"},
+	{min: 8, max: 15, result: () => `父親或母親家族的姨母或叔父，或者兩者皆具；或者是如同部落或氏族的大家族 ${choose("叔父", "姨母", "叔父和姨母", "如同部落或氏族的大家族")}. ${absentBothParents()}`, display: "父親或母親家族的姨母或叔父，或者兩者皆具；或者是如同部落或氏族的大家族"},
 	{min: 16, max: 25, result: () => `祖父母或外祖父母 ${choose("祖父", "外祖母", "祖父和外祖母")}. ${absentBothParents()}`, display: "祖父母或外祖父母"},
-	{min: 26, max: 35, result: () => `领养家庭 (相同或不同种族) ${choose("相同种族", "不同种族")}. ${absentBothParents()}`, display: "领养家庭 (相同或不同种族)"},
-	{min: 36, max: 55, result: () => singleParentOrStep("父亲"), display: "单亲父亲 或 继父"},
-	{min: 56, max: 75, result: () => singleParentOrStep("母亲"), display: "单亲母亲 或 继母"},
-	{min: 76, max: 100, result: "父母亲"},
+	{min: 26, max: 35, result: () => `領養家庭 (相同或不同種族) ${choose("相同種族", "不同種族")}. ${absentBothParents()}`, display: "領養家庭 (相同或不同種族)"},
+	{min: 36, max: 55, result: () => singleParentOrStep("父親"), display: "單親父親 或 繼父"},
+	{min: 56, max: 75, result: () => singleParentOrStep("母親"), display: "單親母親 或 繼母"},
+	{min: 76, max: 100, result: "父母親"},
 ];
 
 const ABSENT_PARENT = [
-	{min: 1, result: () => `你父母双亡 (${rollSuppDeath().result.lowercaseFirst()})。`, display: "你父母双亡（使用{@table Supplemental Tables; Cause of Death|XGE|死因}补充表掷骰）。"},
-	{min: 2, result: () => `你的父母被监禁、奴役、或因为其他原因而被带走 ${choose("监禁", "奴役", "其他原因")}。`, display: "你的父母被监禁、奴役、或因为其他原因而被带走。"},
-	{min: 3, result: "你的父母遗弃了你。"},
+	{min: 1, result: () => `你父母雙亡 (${rollSuppDeath().result.lowercaseFirst()})。`, display: "你父母雙亡（使用{@table Supplemental Tables; Cause of Death|XGE|死因}補充表擲骰）。"},
+	{min: 2, result: () => `你的父母被監禁、奴役、或因為其他原因而被帶走 ${choose("監禁", "奴役", "其他原因")}。`, display: "你的父母被監禁、奴役、或因為其他原因而被帶走。"},
+	{min: 3, result: "你的父母遺棄了你。"},
 	{min: 4, result: "你的父母不知去向。"},
 ];
 
 const FAMILY_LIFESTYLE = [
-	{min: 3, result: "悲惨 (-40)", "modifier": -40},
+	{min: 3, result: "悲慘 (-40)", "modifier": -40},
 	{min: 4, max: 5, result: "困苦 (-20)", "modifier": -20},
-	{min: 6, max: 8, result: "贫穷 (-10)", "modifier": -10},
-	{min: 9, max: 12, result: "简朴 (+0)", "modifier": 0},
-	{min: 13, max: 15, result: "舒适 (+10)", "modifier": 10},
+	{min: 6, max: 8, result: "貧窮 (-10)", "modifier": -10},
+	{min: 9, max: 12, result: "簡樸 (+0)", "modifier": 0},
+	{min: 13, max: 15, result: "舒適 (+10)", "modifier": 10},
 	{min: 16, max: 17, result: "富裕 (+20)", "modifier": 20},
-	{min: 18, result: "奢华 (+40)", "modifier": 40},
+	{min: 18, result: "奢華 (+40)", "modifier": 40},
 ];
 
 const CHILDHOOD_HOME = [
@@ -287,7 +287,7 @@ const CHILDHOOD_HOME = [
 	{min: 51, max: 70, result: "Small house"},
 	{min: 71, max: 90, result: "Large house"},
 	{min: 91, max: 110, result: "豪宅"},
-	{min: 111, result: () => `宫殿或城堡 ${choose("宫殿", "城堡")}`, display: "宫殿或城堡"},
+	{min: 111, result: () => `宮殿或城堡 ${choose("宮殿", "城堡")}`, display: "宮殿或城堡"},
 ];
 
 const CHILDHOOD_MEMORIES = [
@@ -301,12 +301,12 @@ const CHILDHOOD_MEMORIES = [
 ];
 
 const LIFE_EVENTS_AGE = [
-	{min: 1, max: 20, "age": () => RNG(20), result: "20岁或更年轻", "events": 1},
-	{min: 21, max: 59, "age": () => RNG(10) + 20, result: "21\u201430岁", "events": () => RNG(4)},
-	{min: 60, max: 69, "age": () => RNG(10) + 30, result: "31\u201440岁", "events": () => RNG(6)},
-	{min: 70, max: 89, "age": () => RNG(10) + 40, result: "41\u201450岁", "events": () => RNG(8)},
-	{min: 90, max: 99, "age": () => RNG(10) + 50, result: "51\u201460岁", "events": () => RNG(10)},
-	{min: 100, "age": () => RNG(690) + 60, result: "61岁或更老", "events": () => RNG(12)}, // max age = 750; max elven age
+	{min: 1, max: 20, "age": () => RNG(20), result: "20歲或更年輕", "events": 1},
+	{min: 21, max: 59, "age": () => RNG(10) + 20, result: "21\u201430歲", "events": () => RNG(4)},
+	{min: 60, max: 69, "age": () => RNG(10) + 30, result: "31\u201440歲", "events": () => RNG(6)},
+	{min: 70, max: 89, "age": () => RNG(10) + 40, result: "41\u201450歲", "events": () => RNG(8)},
+	{min: 90, max: 99, "age": () => RNG(10) + 50, result: "51\u201460歲", "events": () => RNG(10)},
+	{min: 100, "age": () => RNG(690) + 60, result: "61歲或更老", "events": () => RNG(12)}, // max age = 750; max elven age
 ];
 
 function _lifeEvtResult (title, rollResult) {
@@ -464,19 +464,19 @@ const LIFE_EVENTS_WEIRD_STUFF = [
 ];
 
 const SUPP_ALIGNMENT = [
-	{min: 1, max: 3, result: () => rollOnArray(["混乱邪恶", "混乱中立"]), display: "混乱邪恶(50%) 或 混乱中立(50%)"},
-	{min: 4, max: 5, result: "守序邪恶"},
-	{min: 6, max: 8, result: "中立邪恶"},
-	{min: 9, max: 12, result: "绝对中立"},
+	{min: 1, max: 3, result: () => rollOnArray(["混亂邪惡", "混亂中立"]), display: "混亂邪惡(50%) 或 混亂中立(50%)"},
+	{min: 4, max: 5, result: "守序邪惡"},
+	{min: 6, max: 8, result: "中立邪惡"},
+	{min: 9, max: 12, result: "絕對中立"},
 	{min: 13, max: 15, result: "中立善良"},
 	{min: 16, max: 17, result: () => rollOnArray(["守序善良", "守序中立"]), display: "守序善良(50%) 或 守序中立(50%)"},
-	{min: 18, result: () => rollOnArray(["混乱善良", "混乱中立"]), display: "混乱善良(50%) 或 混乱中立(50%)"},
+	{min: 18, result: () => rollOnArray(["混亂善良", "混亂中立"]), display: "混亂善良(50%) 或 混亂中立(50%)"},
 ];
 
 const SUPP_DEATH = [
 	{min: 1, result: "死因不明"},
-	{min: 2, result: "被谋杀"},
-	{min: 3, result: "在战斗中被杀"},
+	{min: 2, result: "被謀殺"},
+	{min: 3, result: "在戰鬥中被殺"},
 	{min: 4, result: "Accident related to class or occupation"},
 	{min: 5, result: "Accident unrelated to class or occupation"},
 	{min: 6, max: 7, result: "Natural causes, such as disease or old age"},
@@ -488,32 +488,32 @@ const SUPP_DEATH = [
 ];
 
 const SUPP_CLASS = [
-	{min: 1, max: 7, result: "野蛮人"},
-	{min: 8, max: 14, result: "吟游诗人"},
-	{min: 15, max: 29, result: "牧师"},
-	{min: 30, max: 36, result: "德鲁伊"},
-	{min: 37, max: 52, result: "战士"},
+	{min: 1, max: 7, result: "野蠻人"},
+	{min: 8, max: 14, result: "吟遊詩人"},
+	{min: 15, max: 29, result: "牧師"},
+	{min: 30, max: 36, result: "德魯伊"},
+	{min: 37, max: 52, result: "戰士"},
 	{min: 53, max: 58, result: "武僧"},
-	{min: 59, max: 64, result: "圣武士"},
-	{min: 65, max: 70, result: "游侠"},
-	{min: 71, max: 84, result: "游荡者"},
-	{min: 85, max: 89, result: "术士"},
-	{min: 90, max: 94, result: "契术师"},
-	{min: 95, max: 100, result: "法师"},
+	{min: 59, max: 64, result: "聖武士"},
+	{min: 65, max: 70, result: "遊俠"},
+	{min: 71, max: 84, result: "遊蕩者"},
+	{min: 85, max: 89, result: "術士"},
+	{min: 90, max: 94, result: "契術師"},
+	{min: 95, max: 100, result: "法師"},
 ];
 
 const SUPP_OCCUPATION = [
-	{min: 1, max: 5, result: "学者"},
-	{min: 6, max: 10, result: () => `冒险者(${rollSuppClass().result})`, display: "冒险者 (从职业表中掷骰决定)"},
-	{min: 11, result: "贵族"},
-	{min: 12, max: 26, result: () => `工匠 或 公会成员 ${choose("工匠", "公会成员")}`, display: "工匠 或 公会成员"},
+	{min: 1, max: 5, result: "學者"},
+	{min: 6, max: 10, result: () => `冒險者(${rollSuppClass().result})`, display: "冒險者 (從職業表中擲骰決定)"},
+	{min: 11, result: "貴族"},
+	{min: 12, max: 26, result: () => `工匠 或 公會成員 ${choose("工匠", "公會成員")}`, display: "工匠 或 公會成員"},
 	{min: 27, max: 31, result: "罪犯"},
-	{min: 32, max: 36, result: "艺人"},
-	{min: 37, max: 38, result: () => `放逐者、隐士、或 难民 ${choose("放逐者", "隐士", "难民")}`, display: "放逐者、隐士、或 难民"},
-	{min: 39, max: 43, result: () => `探险家 或 浪人 ${choose("探险家", "浪人")}`, display: "探险家 或 浪人"},
-	{min: 44, max: 55, result: () => `农夫 或 牧人 ${choose("农夫", "牧人")}`, display: "农夫 或 牧人"},
-	{min: 56, max: 60, result: () => `猎人 或 陷阱捕兽者 ${choose("猎人", "陷阱捕兽者")}`, display: "猎人 或 陷阱捕兽者"},
-	{min: 61, max: 75, result: "劳工"},
+	{min: 32, max: 36, result: "藝人"},
+	{min: 37, max: 38, result: () => `放逐者、隱士、或 難民 ${choose("放逐者", "隱士", "難民")}`, display: "放逐者、隱士、或 難民"},
+	{min: 39, max: 43, result: () => `探險家 或 浪人 ${choose("探險家", "浪人")}`, display: "探險家 或 浪人"},
+	{min: 44, max: 55, result: () => `農夫 或 牧人 ${choose("農夫", "牧人")}`, display: "農夫 或 牧人"},
+	{min: 56, max: 60, result: () => `獵人 或 陷阱捕獸者 ${choose("獵人", "陷阱捕獸者")}`, display: "獵人 或 陷阱捕獸者"},
+	{min: 61, max: 75, result: "勞工"},
 	{min: 76, max: 80, result: "商人"},
 	{min: 81, max: 85, result: () => `政治家 或 官僚 ${choose("政治家", "官僚")}`, display: "政治家 或 官僚"},
 	{min: 86, max: 90, result: "祭司"},
@@ -522,32 +522,32 @@ const SUPP_OCCUPATION = [
 ];
 
 const SUPP_RACE = [
-	{min: 1, max: 40, result: "人类"},
+	{min: 1, max: 40, result: "人類"},
 	{min: 41, max: 50, result: "矮人"},
-	{min: 51, max: 60, result: "精灵"},
+	{min: 51, max: 60, result: "精靈"},
 	{min: 61, max: 70, result: "半身人"},
-	{min: 71, max: 75, result: "龙裔"},
+	{min: 71, max: 75, result: "龍裔"},
 	{min: 76, max: 80, result: "侏儒"},
-	{min: 81, max: 85, result: "半精灵"},
-	{min: 86, max: 90, result: "半兽人"},
+	{min: 81, max: 85, result: "半精靈"},
+	{min: 86, max: 90, result: "半獸人"},
 	{min: 91, max: 95, result: "提夫林"},
-	{min: 96, max: 100, result: "由DM决定"},
+	{min: 96, max: 100, result: "由DM決定"},
 ];
 
 const SUPP_RELATIONSHIP = [
-	{min: 3, max: 4, result: "敌对"},
+	{min: 3, max: 4, result: "敵對"},
 	{min: 5, max: 10, result: "友善"},
 	{min: 11, max: 12, result: "冷淡"},
 ];
 
 const SUPP_STATUS = [
-	{min: 3, result: () => { return `死亡 (${rollSuppDeath().result.lowercaseFirst()})` }, display: "死亡 (从死因表中掷骰决定)", "dead": true},
-	{min: 4, max: 5, result: () => `失踪 或 状况不明 ${choose("失踪", "状况不明")}`, display: "失踪 或 状况不明"},
-	{min: 6, max: 8, result: () => `活着，但因为重伤、经济困难、或人际难题${choose("重伤", "经济困难", "人际难题")}而过得很糟糕`, display: "活着，但因为重伤、经济困难、或人际难题而过得很糟糕"},
-	{min: 9, max: 12, result: "活着，且过得不错"},
-	{min: 13, max: 15, result: "活着，且颇有成就"},
-	{min: 16, max: 17, result: "活着，且恶名昭彰"},
-	{min: 18, result: "活着，且享誉盛名"},
+	{min: 3, result: () => { return `死亡 (${rollSuppDeath().result.lowercaseFirst()})` }, display: "死亡 (從死因表中擲骰決定)", "dead": true},
+	{min: 4, max: 5, result: () => `失蹤 或 狀況不明 ${choose("失蹤", "狀況不明")}`, display: "失蹤 或 狀況不明"},
+	{min: 6, max: 8, result: () => `活著，但因為重傷、經濟困難、或人際難題${choose("重傷", "經濟困難", "人際難題")}而過得很糟糕`, display: "活著，但因為重傷、經濟困難、或人際難題而過得很糟糕"},
+	{min: 9, max: 12, result: "活著，且過得不錯"},
+	{min: 13, max: 15, result: "活著，且頗有成就"},
+	{min: 16, max: 17, result: "活著，且惡名昭彰"},
+	{min: 18, result: "活著，且享譽盛名"},
 ];
 
 let classList;
@@ -575,27 +575,27 @@ function onJsonLoad (lifeData, nameData) {
 	$selClass = $(`#class`).empty().attr("disabled", false);
 	$selAge = $(`#age`).empty().attr("disabled", false);
 
-	$selRace.append(`<option value="Random" selected>随机</option>`);
+	$selRace.append(`<option value="Random" selected>隨機</option>`);
 	$selRace.append(`<option value="Other">其他</option>`);
 	RACES_SELECTABLE.forEach(r => $selRace.append(`<option value="${r}">${r}</option>`));
 	RACES_UNSELECTABLE.forEach(r => $selRace.append(`<option class="italic" value="${r}">${Parser.RaceToDisplay(r)}</option>`));
-	$selCha.append(`<option value="Random">随机</option>`);
+	$selCha.append(`<option value="Random">隨機</option>`);
 	for (let i = -5; i <= 5; ++i) {
 		$selCha.append(`<option value="${i}" ${i === 0 ? "selected" : ""}>${i >= 0 ? "+" : ""}${i}</option>`)
 	}
-	$selBg.append(`<option value="-1" selected>随机</option>`);
+	$selBg.append(`<option value="-1" selected>隨機</option>`);
 	bgList.forEach((b, i) => $selBg.append(`<option value="${i}">${b.name}</option>`));
-	$selClass.append(`<option value="-1" selected>随机</option>`);
+	$selClass.append(`<option value="-1" selected>隨機</option>`);
 	classList.forEach((c, i) => $selClass.append(`<option value="${i}">${c.name}</option>`));
 
 	[
-		{val: "", text: "随机", style: "font-style: normal;"},
-		{val: "1", text: "20 岁或更小", class: "italic"},
-		{val: "21", text: "21&mdash;30 岁", class: "italic"},
-		{val: "60", text: "31&mdash;40 岁", class: "italic"},
-		{val: "70", text: "41&mdash;50 岁", class: "italic"},
-		{val: "90", text: "51&mdash;60 岁", class: "italic"},
-		{val: "100", text: "61 岁或更老", class: "italic"},
+		{val: "", text: "隨機", style: "font-style: normal;"},
+		{val: "1", text: "20 歲或更小", class: "italic"},
+		{val: "21", text: "21&mdash;30 歲", class: "italic"},
+		{val: "60", text: "31&mdash;40 歲", class: "italic"},
+		{val: "70", text: "41&mdash;50 歲", class: "italic"},
+		{val: "90", text: "51&mdash;60 歲", class: "italic"},
+		{val: "100", text: "61 歲或更老", class: "italic"},
 	].forEach(age => $selAge.append(`<option value="${age.val}" ${age.style ? `style="${age.style}"` : ""} ${age.class ? `class="${age.class}"` : ""}>${age.text}</option>`));
 
 	nameTables = {};
@@ -664,26 +664,26 @@ function sectParents () {
 	})();
 
 	const $parents = $(`#parents`);
-	const knowParentsStr = knowParents ? "<b>双亲：</b>你知道你的双亲是谁。" : "<b>双亲：</b>你不晓得你的双亲是什么人。";
+	const knowParentsStr = knowParents ? "<b>雙親：</b>你知道你的雙親是誰。" : "<b>雙親：</b>你不曉得你的雙親是什麼人。";
 
 	let parentage = null;
 	if (knowParents) {
 		switch (race.toLowerCase()) {
 			case "half-elf": {
 				const rolled = GenUtil.getFromTable(PARENTS_HALF_ELF, RNG(8));
-				parentage = `<b>${race} 双亲：</b> ${rolled.result}`;
+				parentage = `<b>${race} 雙親：</b> ${rolled.result}`;
 				parentRaces = rolled._races;
 				break;
 			}
 			case "half-orc": {
 				const rolled = GenUtil.getFromTable(PARENTS_HALF_ORC, RNG(8));
-				parentage = `<b>${race} 双亲：</b> ${rolled.result}`;
+				parentage = `<b>${race} 雙親：</b> ${rolled.result}`;
 				parentRaces = rolled._races;
 				break;
 			}
 			case "tiefling": {
 				const rolled = GenUtil.getFromTable(PARENTS_TIEFLING, RNG(8));
-				parentage = `<b>${race} 双亲：</b> ${rolled.result}`;
+				parentage = `<b>${race} 雙親：</b> ${rolled.result}`;
 				parentRaces = rolled._races;
 				break;
 			}
@@ -694,9 +694,9 @@ function sectParents () {
 	}
 
 	if (selRace === "Other") {
-		$parents.html(concatSentences(`<b>种族：</b> 其他 ${fmtChoice(`${Parser.RaceToDisplay(race)}; 使用{@table Supplemental Tables; Race|XGE|补充种族}表生成`, true)}`, knowParentsStr, parentage));
+		$parents.html(concatSentences(`<b>種族：</b> 其他 ${fmtChoice(`${Parser.RaceToDisplay(race)}; 使用{@table Supplemental Tables; Race|XGE|補充種族}表生成`, true)}`, knowParentsStr, parentage));
 	} else {
-		$parents.html(concatSentences(`<b>种族：</b> ${Parser.RaceToDisplay(race)}${selRace === "Random" ? ` ${fmtChoice("使用{@table Supplemental Tables; Race|XGE|补充种族}表生成", true)}` : ""}`, knowParentsStr, parentage));
+		$parents.html(concatSentences(`<b>種族：</b> ${Parser.RaceToDisplay(race)}${selRace === "Random" ? ` ${fmtChoice("使用{@table Supplemental Tables; Race|XGE|補充種族}表生成", true)}` : ""}`, knowParentsStr, parentage));
 	}
 
 	if (knowParents) {
@@ -712,9 +712,9 @@ function sectParents () {
 			race: parentRaces.length > 1 ? parentRaces[1] : parentRaces[0],
 			gender: "Male",
 		});
-		$parents.append(`<h5>母亲</h5>`);
+		$parents.append(`<h5>母親</h5>`);
 		$parents.append(joinParaList(mum));
-		$parents.append(`<h5>父亲</h5>`);
+		$parents.append(`<h5>父親</h5>`);
 		$parents.append(joinParaList(dad));
 	}
 }
@@ -723,7 +723,7 @@ function sectParents () {
 function sectBirthplace () {
 	const $birthplace = $(`#birthplace`);
 	const rollBirth = RNG(100);
-	const birth = `<b>出生场所：</b> ${GenUtil.getFromTable(BIRTHPLACES, rollBirth).result}`;
+	const birth = `<b>出生場所：</b> ${GenUtil.getFromTable(BIRTHPLACES, rollBirth).result}`;
 
 	const strangeBirth = RNG(100) === 100 ? "A strange event coincided with your birth: the moon briefly turning red, all the milk within a mile spoiling, the water in the area freezing solid in midsummer, all the iron in the home rusting or turning to silver, or some other unusual event of your choice" : "";
 	$birthplace.html(concatSentences(birth, strangeBirth));
@@ -734,7 +734,7 @@ function sectSiblings () {
 	const $siblings = $(`#siblings`);
 	function getBirthOrder (rollBirthOrder) {
 		if (rollBirthOrder < 3) {
-			return "双、三、或四胞胎"
+			return "雙、三、或四胞胎"
 		} else if (rollBirthOrder < 8) {
 			return "兄姊";
 		} else {
@@ -773,10 +773,10 @@ function sectSiblings () {
 
 	if (sibCount > 0) {
 		$siblings.empty();
-		$siblings.append(`<p>你有 ${sibCount} 个兄弟姊妹。</p>`);
+		$siblings.append(`<p>你有 ${sibCount} 個兄弟姊妹。</p>`);
 		for (let i = 0; i < sibCount; ++i) {
 			const siblingType = rollOnArray(["兄弟", "姐妹"]);
-			$siblings.append(`<h5>${getBirthOrder()} 平辈 ${fmtChoice(siblingType, true)}</h5>`);
+			$siblings.append(`<h5>${getBirthOrder()} 平輩 ${fmtChoice(siblingType, true)}</h5>`);
 			$siblings.append(joinParaList(getPersonDetails({
 				gender: siblingType === "兄弟" ? "男性" : "女性",
 				parentRaces: parentRaces,
@@ -784,7 +784,7 @@ function sectSiblings () {
 			})));
 		}
 	} else {
-		$siblings.html("你是家中的独生子。");
+		$siblings.html("你是家中的獨生子。");
 	}
 }
 
@@ -803,22 +803,22 @@ function sectFamily () {
 	const $btnSuppFam = $(`<button class="btn btn-xs btn-default btn-supp-fam no-print"></button>`).on("click", () => {
 		const supDetails = getPersonDetails();
 		const $wrpRes = $(`<div class="life__output-wrp-border p-3 my-2"/>`);
-		$wrpRes.append(`<h5 class="mt-0">家族成员 掷骰结果 ${famIndex++}</h5>`);
+		$wrpRes.append(`<h5 class="mt-0">家族成員 擲骰結果 ${famIndex++}</h5>`);
 		$wrpRes.append(joinParaList(supDetails));
 		$btnSuppFam.css("margin-bottom", 5);
 		$btnSuppFam.after($wrpRes);
 	});
-	$family.append(`<span class="note">你可以从关系表中掷骰决定你的家族成员或其他你人生中的重要人物是如何看待你的。你也可以使用种族、工作职业、和阵营表以决定更多关于家族成员或抚养你长大的监护人的情报。</span>`);
+	$family.append(`<span class="note">你可以從關係表中擲骰決定你的家族成員或其他你人生中的重要人物是如何看待你的。你也可以使用種族、工作職業、和陣營表以決定更多關於家族成員或撫養你長大的監護人的情報。</span>`);
 	$family.append($btnSuppFam);
 
 	const rollFamLifestyle = GenUtil.getFromTable(FAMILY_LIFESTYLE, RNG(6) + RNG(6) + RNG(6));
-	$family.append(`<b>家族生活风格：</b> ${rollFamLifestyle.result}<br>`);
+	$family.append(`<b>家族生活風格：</b> ${rollFamLifestyle.result}<br>`);
 	const rollFamHome = Math.min(Math.max(RNG(100) + rollFamLifestyle.modifier, 0), 111);
 	const rollFamHomeRes = GenUtil.getFromTable(CHILDHOOD_HOME, rollFamHome).result;
-	$family.append(`<b>童年家园：</b> ${rollFamHomeRes}<br>`);
+	$family.append(`<b>童年家園：</b> ${rollFamHomeRes}<br>`);
 
 	const rollChildMems = Math.min(Math.max(RNG(6) + RNG(6) + RNG(6) + getChaVal(), 3), 18);
-	$family.append(`<b>童年回忆：</b> ${GenUtil.getFromTable(CHILDHOOD_MEMORIES, rollChildMems).result}`);
+	$family.append(`<b>童年回憶：</b> ${GenUtil.getFromTable(CHILDHOOD_MEMORIES, rollChildMems).result}`);
 }
 
 // PERSONAL DECISIONS
@@ -827,7 +827,7 @@ function sectPersonalDecisions () {
 	const selBg = Number($selBg.val());
 	const myBg = selBg === -1 ? rollOnArray(bgList) : bgList[selBg];
 	$personal.append(`<b>背景：</b> ${myBg.name}<br>`);
-	$personal.append(`<b>我成为了一名${myBg.name}，因为：</b> ${rollOnArray(myBg.reasons)}`);
+	$personal.append(`<b>我成為了一名${myBg.name}，因為：</b> ${rollOnArray(myBg.reasons)}`);
 }
 
 // CLASS TRAINING
@@ -835,8 +835,8 @@ function sectClassTraining () {
 	const $clss = $(`#clss`).empty();
 	const selClass = Number($selClass.val());
 	const myClass = selClass === -1 ? rollOnArray(classList) : classList[selClass];
-	$clss.append(`<b>职业：</b> ${myClass.name}<br>`);
-	$clss.append(`<b>我成为了一名${myClass.name}，因为：</b> ${rollOnArray(myClass.reasons)}`);
+	$clss.append(`<b>職業：</b> ${myClass.name}<br>`);
+	$clss.append(`<b>我成為了一名${myClass.name}，因為：</b> ${rollOnArray(myClass.reasons)}`);
 }
 
 // LIFE EVENTS
@@ -844,7 +844,7 @@ function sectLifeEvents () {
 	const $events = $(`#events`).empty();
 	marriageIndex = 0;
 	const age = GenUtil.getFromTable(LIFE_EVENTS_AGE, Number($selAge.val()) || RNG(100));
-	$events.append(`<b>现在年纪：</b> ${age.result} ${fmtChoice(`${age.age}岁`, true)}`);
+	$events.append(`<b>現在年紀：</b> ${age.result} ${fmtChoice(`${age.age}歲`, true)}`);
 	for (let i = 0; i < age.events; ++i) {
 		$events.append(`<h5>人生大事 ${i + 1}</h5>`);
 		const evt = GenUtil.getFromTable(LIFE_EVENTS, RNG(100));
@@ -900,7 +900,7 @@ window.addEventListener("load", async () => {
 		}
 	});
 
-	$(`#xge_link`).replaceWith(Renderer.get().render(`{@book 姗纳萨的万事指南|XGE|1|This Is Your Life}`));
+	$(`#xge_link`).replaceWith(Renderer.get().render(`{@book 姍納薩的萬事指南|XGE|1|This Is Your Life}`));
 
 	window.dispatchEvent(new Event("toolsLoaded"));
 });

@@ -1,7 +1,7 @@
 {
 	"class": [
 		{
-			"name": "奇械师",
+			"name": "奇械師",
 			"ENG_name": "Artificer",
 			"source": "UAArtificer",
 			"page": 1,
@@ -47,7 +47,7 @@
 					"simple"
 				],
 				"tools": [
-					"{@item 盗贼工具|phb}",
+					"{@item 盜賊工具|phb}",
 					"{@item 修理工具|PHB}",
 					"one type of {@item 工匠工具|phb} of your choice"
 				],
@@ -75,7 +75,7 @@
 					"(a) a {@item handaxe|phb} and a {@item light hammer|phb} or (b) any two {@filter simple weapons|items|source=phb|category=basic|type=simple weapon}",
 					"a {@item light crossbow|phb} and {@item crossbow bolts (20)|phb|20 bolts}",
 					"(a) {@item scale mail|phb} or (b) {@item studded leather armor|phb}",
-					"{@item 盗贼工具|phb} and a {@item dungeoneer's pack|phb}"
+					"{@item 盜賊工具|phb} and a {@item dungeoneer's pack|phb}"
 				],
 				"defaultData": [
 					{
@@ -468,7 +468,7 @@
 					}
 				],
 				"tools": [
-					"{@item 盗贼工具|phb}",
+					"{@item 盜賊工具|phb}",
 					"{@item 修理工具|PHB}",
 					"one type of {@item 工匠工具|phb} of your choice"
 				],
@@ -495,9 +495,9 @@
 					"any two {@filter simple weapons|items|source=phb|category=basic|type=simple weapon}",
 					"a {@item light crossbow|phb} and {@item crossbow bolts (20)|phb|20 bolts}",
 					"(a) {@item studded leather armor|phb} or (b) {@item scale mail|phb}",
-					"{@item 盗贼工具|phb} and a {@item dungeoneer's pack|phb}"
+					"{@item 盜賊工具|phb} and a {@item dungeoneer's pack|phb}"
 				],
-				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|起始金钱}",
+				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|起始金錢}",
 				"defaultData": [
 					{
 						"_": [
@@ -540,7 +540,7 @@
 						"{@item shield|phb|盾牌}"
 					],
 					"tools": [
-						"{@item 盗贼工具|phb}",
+						"{@item 盜賊工具|phb}",
 						"{@item 修理工具|PHB}"
 					]
 				}
@@ -895,7 +895,7 @@
 					"source": "UAArtificerRevisited",
 					"type": "section",
 					"entries": [
-						"Masters of unlocking magic in everyday objects, artificers are supreme inventors. They see magic as a complex system waiting to be decoded and controlled. Artificers use tools to channel arcane power, crafting temporary and permanent magical objects. To cast a spell, an artificer could use {@item 炼金工具|PHB} to create a potent elixir, {@item 书法工具|PHB} to inscribe a sigil of power on an ally's armor, or {@item 修理工具|PHB} to craft a temporary charm. The magic of artificers is tied to their tools and their talents.",
+						"Masters of unlocking magic in everyday objects, artificers are supreme inventors. They see magic as a complex system waiting to be decoded and controlled. Artificers use tools to channel arcane power, crafting temporary and permanent magical objects. To cast a spell, an artificer could use {@item 煉金工具|PHB} to create a potent elixir, {@item 書法工具|PHB} to inscribe a sigil of power on an ally's armor, or {@item 修理工具|PHB} to craft a temporary charm. The magic of artificers is tied to their tools and their talents.",
 						{
 							"type": "entries",
 							"name": "Arcane Science",
@@ -955,7 +955,7 @@
 									"type": "entries",
 									"name": "Proficiencies Gained",
 									"entries": [
-										"If artificer isn't your initial class, here are the proficiencies you gain when you take your first level as an artificer: light armor, medium armor, shields, {@item 盗贼工具|phb}, {@item 修理工具|PHB}."
+										"If artificer isn't your initial class, here are the proficiencies you gain when you take your first level as an artificer: light armor, medium armor, shields, {@item 盜賊工具|phb}, {@item 修理工具|PHB}."
 									]
 								},
 								{
@@ -979,7 +979,7 @@
 			]
 		},
 		{
-			"name": "奇械师",
+			"name": "奇械師",
 			"ENG_name": "Artificer",
 			"source": "TCE",
 			"page": 9,
@@ -1064,9 +1064,9 @@
 					}
 				],
 				"tools": [
-					"{@item 盗贼工具|phb}",
+					"{@item 盜賊工具|phb}",
 					"{@item 修理工具|PHB}",
-					"从{@item 工匠工具|phb}选择一种"
+					"從{@item 工匠工具|phb}選擇一種"
 				],
 				"skills": [
 					{
@@ -1088,12 +1088,12 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"任意两把{@filter 简易武器|items|source=phb|category=basic|type=simple weapon}",
-					"一把{@item 轻弩|phb} 和 {@item 弩矢(20)|phb|20 支弩矢}",
-					"(a)一件{@item 镶钉皮甲|phb} 或 (b)一件{@item 鳞甲|phb}",
-					"一套{@item 盗贼工具|phb}和一套{@item 地城探险家套装|phb}"
+					"任意兩把{@filter 簡易武器|items|source=phb|category=basic|type=simple weapon}",
+					"一把{@item 輕弩|phb} 和 {@item 弩矢(20)|phb|20 支弩矢}",
+					"(a)一件{@item 鑲釘皮甲|phb} 或 (b)一件{@item 鱗甲|phb}",
+					"一套{@item 盜賊工具|phb}和一套{@item 地城探險家套裝|phb}"
 				],
-				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|起始金钱}",
+				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|起始金錢}",
 				"defaultData": [
 					{
 						"_": [
@@ -1136,7 +1136,7 @@
 						"{@item shield|phb|盾牌}"
 					],
 					"tools": [
-						"{@item 盗贼工具|PHB}",
+						"{@item 盜賊工具|PHB}",
 						"{@item 修理工具|PHB}"
 					]
 				}
@@ -1146,7 +1146,7 @@
 					"colLabels": [
 						"{@filter 已知注法|optionalfeatures|feature type=ai|source=ERLW}",
 						"注法物品",
-						"{@filter 已知戏法|spells|level=0|class=artificer}"
+						"{@filter 已知戲法|spells|level=0|class=artificer}"
 					],
 					"rows": [
 						[
@@ -1252,13 +1252,13 @@
 					]
 				},
 				{
-					"title": "法术位/每环",
+					"title": "法術位/每環",
 					"colLabels": [
-						"{@filter 1环|spells|level=1|class=Artificer}",
-						"{@filter 2环|spells|level=2|class=Artificer}",
-						"{@filter 3环|spells|level=3|class=Artificer}",
-						"{@filter 4环|spells|level=4|class=Artificer}",
-						"{@filter 5环|spells|level=5|class=Artificer}"
+						"{@filter 1環|spells|level=1|class=Artificer}",
+						"{@filter 2環|spells|level=2|class=Artificer}",
+						"{@filter 3環|spells|level=3|class=Artificer}",
+						"{@filter 4環|spells|level=4|class=Artificer}",
+						"{@filter 5環|spells|level=5|class=Artificer}"
 					],
 					"rows": [
 						[
@@ -1405,42 +1405,42 @@
 				}
 			],
 			"classFeatures": [
-				"可选规则：火器熟练|Artificer|TCE|1",
-				"魔法工艺|Artificer|TCE|1",
+				"可選規則：火器熟練|Artificer|TCE|1",
+				"魔法工藝|Artificer|TCE|1",
 				"施法|Artificer|TCE|1",
 				"物品注法|Artificer|TCE|2",
 				{
-					"classFeature": "奇械师专业|Artificer|TCE|3",
+					"classFeature": "奇械師專業|Artificer|TCE|3",
 					"gainSubclassFeature": true
 				},
-				"称手工具|Artificer|TCE|3",
-				"属性值提升|Artificer|TCE|4",
+				"稱手工具|Artificer|TCE|3",
+				"屬性值提升|Artificer|TCE|4",
 				"Proficiency Versatility|Artificer|TCE|4|UAClassFeatureVariants",
 				{
-					"classFeature": "奇械师专业能力|Artificer|TCE|5",
+					"classFeature": "奇械師專業能力|Artificer|TCE|5",
 					"gainSubclassFeature": true
 				},
-				"工具专精|Artificer|TCE|6",
-				"灵光一闪|Artificer|TCE|7",
-				"属性值提升|Artificer|TCE|8",
+				"工具專精|Artificer|TCE|6",
+				"靈光一閃|Artificer|TCE|7",
+				"屬性值提升|Artificer|TCE|8",
 				"Proficiency Versatility|Artificer|TCE|8|UAClassFeatureVariants",
 				{
-					"classFeature": "奇械师专业能力|Artificer|TCE|9",
+					"classFeature": "奇械師專業能力|Artificer|TCE|9",
 					"gainSubclassFeature": true
 				},
 				"魔法物品熟稔|Artificer|TCE|10",
-				"储法物品|Artificer|TCE|11",
-				"属性值提升|Artificer|TCE|12",
+				"儲法物品|Artificer|TCE|11",
+				"屬性值提升|Artificer|TCE|12",
 				"Proficiency Versatility|Artificer|TCE|12|UAClassFeatureVariants",
-				"魔法物品专家|Artificer|TCE|14",
+				"魔法物品專家|Artificer|TCE|14",
 				{
-					"classFeature": "奇械师专业能力|Artificer|TCE|15",
+					"classFeature": "奇械師專業能力|Artificer|TCE|15",
 					"gainSubclassFeature": true
 				},
-				"属性值提升|Artificer|TCE|16",
+				"屬性值提升|Artificer|TCE|16",
 				"Proficiency Versatility|Artificer|TCE|16|UAClassFeatureVariants",
-				"魔法物品大师|Artificer|TCE|18",
-				"属性值提升|Artificer|TCE|19",
+				"魔法物品大師|Artificer|TCE|18",
+				"屬性值提升|Artificer|TCE|19",
 				"Proficiency Versatility|Artificer|TCE|19|UAClassFeatureVariants",
 				"奇械之魂|Artificer|TCE|20"
 			],
@@ -1486,9 +1486,9 @@
 					]
 				},
 				{
-					"name": "炼金师",
+					"name": "煉金師",
 					"ENG_name": "Alchemist",
-					"shortName": "炼金师",
+					"shortName": "煉金師",
 					"ENG_shortName": "Alchemist",
 					"source": "TCE",
 					"page": 14,
@@ -1525,16 +1525,16 @@
 						}
 					],
 					"subclassFeatures": [
-						"炼金师|Artificer|TCE|Alchemist|TCE|3",
-						"炼金术掌握|Artificer|TCE|Alchemist|TCE|5",
-						"复原药剂|Artificer|TCE|Alchemist|TCE|9",
-						"化学专家|Artificer|TCE|Alchemist|TCE|15"
+						"煉金師|Artificer|TCE|Alchemist|TCE|3",
+						"鍊金術掌握|Artificer|TCE|Alchemist|TCE|5",
+						"復原藥劑|Artificer|TCE|Alchemist|TCE|9",
+						"化學專家|Artificer|TCE|Alchemist|TCE|15"
 					]
 				},
 				{
-					"name": "装甲师",
+					"name": "裝甲師",
 					"ENG_name": "Armorer",
-					"shortName": "装甲师",
+					"shortName": "裝甲師",
 					"ENG_shortName": "Armorer",
 					"source": "TCE",
 					"page": 15,
@@ -1565,16 +1565,16 @@
 						}
 					],
 					"subclassFeatures": [
-						"装甲师|Artificer|TCE|Armorer|TCE|3",
-						"额外攻击|Artificer|TCE|Armorer|TCE|5",
-						"装甲改造|Artificer|TCE|Armorer|TCE|9",
-						"完美装甲|Artificer|TCE|Armorer|TCE|15"
+						"裝甲師|Artificer|TCE|Armorer|TCE|3",
+						"額外攻擊|Artificer|TCE|Armorer|TCE|5",
+						"裝甲改造|Artificer|TCE|Armorer|TCE|9",
+						"完美裝甲|Artificer|TCE|Armorer|TCE|15"
 					]
 				},
 				{
-					"name": "魔炮师",
+					"name": "魔炮師",
 					"ENG_name": "Artillerist",
-					"shortName": "魔炮师",
+					"shortName": "魔炮師",
 					"ENG_shortName": "Artillerist",
 					"source": "TCE",
 					"page": 17,
@@ -1611,16 +1611,16 @@
 						}
 					],
 					"subclassFeatures": [
-						"魔炮师|Artificer|TCE|Artillerist|TCE|3",
-						"奥法火器|Artificer|TCE|Artillerist|TCE|5",
+						"魔炮師|Artificer|TCE|Artillerist|TCE|3",
+						"奧法火器|Artificer|TCE|Artillerist|TCE|5",
 						"高爆炮台|Artificer|TCE|Artillerist|TCE|9",
-						"坚固要塞|Artificer|TCE|Artillerist|TCE|15"
+						"堅固要塞|Artificer|TCE|Artillerist|TCE|15"
 					]
 				},
 				{
-					"name": "战地匠师",
+					"name": "戰地匠師",
 					"ENG_name": "Battle Smith",
-					"shortName": "战地匠师",
+					"shortName": "戰地匠師",
 					"ENG_shortName": "Battle Smith",
 					"source": "TCE",
 					"page": 18,
@@ -1657,16 +1657,16 @@
 						}
 					],
 					"subclassFeatures": [
-						"战地匠师|Artificer|TCE|Battle Smith|TCE|3",
-						"额外攻击|Artificer|TCE|Battle Smith|TCE|5",
-						"奥能震荡|Artificer|TCE|Battle Smith|TCE|9",
-						"改良守卫|Artificer|TCE|Battle Smith|TCE|15"
+						"戰地匠師|Artificer|TCE|Battle Smith|TCE|3",
+						"額外攻擊|Artificer|TCE|Battle Smith|TCE|5",
+						"奧能震盪|Artificer|TCE|Battle Smith|TCE|9",
+						"改良守衛|Artificer|TCE|Battle Smith|TCE|15"
 					]
 				}
 			],
 			"fluff": [
 				{
-					"name": "奇械师",
+					"name": "奇械師",
 					"ENG_name": "Artificer",
 					"type": "section",
 					"entries": [
@@ -1713,7 +1713,7 @@
 											"type": "entries",
 											"name": "Proficiencies Gained",
 											"entries": [
-												"If artificer isn't your initial class, here are the proficiencies you gain when you take your first level as an artificer: light armor, medium armor, shields, {@item 盗贼工具|phb}, {@item 修理工具|PHB}."
+												"If artificer isn't your initial class, here are the proficiencies you gain when you take your first level as an artificer: light armor, medium armor, shields, {@item 盜賊工具|phb}, {@item 修理工具|PHB}."
 											]
 										},
 										{
@@ -1734,7 +1734,7 @@
 					"name": "Artificer",
 					"type": "section",
 					"entries": [
-						"Masters of unlocking magic in everyday objects, artificers are supreme inventors. They see magic as a complex system waiting to be decoded and controlled. Artificers use tools to channel arcane power, crafting magical objects. To cast a spell, an artificer could use {@item 炼金工具|PHB} to create a potent elixir, {@item 书法工具|PHB} to inscribe a sigil of power on an ally's armor, or {@item 修理工具|PHB} to craft a temporary charm. The magic of artificers is tied to their tools and their talents.",
+						"Masters of unlocking magic in everyday objects, artificers are supreme inventors. They see magic as a complex system waiting to be decoded and controlled. Artificers use tools to channel arcane power, crafting magical objects. To cast a spell, an artificer could use {@item 煉金工具|PHB} to create a potent elixir, {@item 書法工具|PHB} to inscribe a sigil of power on an ally's armor, or {@item 修理工具|PHB} to craft a temporary charm. The magic of artificers is tied to their tools and their talents.",
 						{
 							"type": "entries",
 							"name": "Arcane Science",
@@ -1786,7 +1786,7 @@
 											"type": "entries",
 											"name": "Proficiencies Gained",
 											"entries": [
-												"If artificer isn't your initial class, here are the proficiencies you gain when you take your first level as an artificer: light armor, medium armor, shields, {@item 盗贼工具|phb}, {@item 修理工具|PHB}."
+												"If artificer isn't your initial class, here are the proficiencies you gain when you take your first level as an artificer: light armor, medium armor, shields, {@item 盜賊工具|phb}, {@item 修理工具|PHB}."
 											]
 										},
 										{
@@ -1809,7 +1809,7 @@
 	],
 	"classFeature": [
 		{
-			"name": "魔法工艺",
+			"name": "魔法工藝",
 			"ENG_name": "Magical Tinkering",
 			"source": "TCE",
 			"page": 9,
@@ -1823,22 +1823,22 @@
 			"classSource": "TCE",
 			"level": 1,
 			"entries": [
-				"在1级时，你将学习如何在平凡的物品中注入魔法的火花。要使用这个能力，你必须手持{@item 盗贼工具|PHB}或{@item 工匠工具|PHB}。然后花费一个动作触摸一个微小的非魔法物体，从以下魔法属性中选择一个赋予它：",
+				"在1級時，你將學習如何在平凡的物品中注入魔法的火花。要使用這個能力，你必須手持{@item 盜賊工具|PHB}或{@item 工匠工具|PHB}。然後花費一個動作觸摸一個微小的非魔法物體，從以下魔法屬性中選擇一個賦予它：",
 				{
 					"type": "list",
 					"items": [
-						"该物体提供5尺半径的明亮照明，以及该范围外5尺范围的微光照明。",
-						"无论何时，只要该物品被生物触碰，就会发出可在10尺外听到的录音信息。录入的信息在你将此属性赋予对象时决定，且时长不可超过6秒。",
-						"物品不断地发出一种气味或一种非语言的声音（风声、浪声、鸟叫或类似的声音）。这一现象最多能传播10尺远。",
-						"一个静态的视觉效果出现在物体的表面上。这个效果可以是一幅图片，最多25个单词的文本，线条和形状，或者这些元素的混合，如你所愿。"
+						"該物體提供5尺半徑的明亮照明，以及該範圍外5尺範圍的微光照明。",
+						"無論何時，只要該物品被生物觸碰，就會發出可在10尺外聽到的錄音資訊。輸入的資訊在你將此屬性賦予對象時決定，且時長不可超過6秒。",
+						"物品不斷地發出一種氣味或一種非語言的聲音（風聲、浪聲、鳥叫或類似的聲音）。這一現象最多能傳播10尺遠。",
+						"一個靜態的視覺效果出現在物體的表面上。這個效果可以是一幅圖片，最多25個單字的文本，線條和形狀，或者這些元素的混合，如你所願。"
 					]
 				},
-				"所选的魔法属性持续时间无限。你能够以一个动作触摸对象来提前消除这一魔法属性。",
-				"你能够通过此特性将魔力赋予多个物品，每次使用该特性时都需要触摸一个物品，并且单个物品一次只能承载一种魔法属性。你能够使用该特性影响的物品的最大数量等于你的智力调整值（最少一个物品）。如果你试图超过最大值，最老的魔法属性将立即结束，然后新的魔法属性生效。"
+				"所選的魔法屬性持續時間無限。你能夠以一個動作觸摸對象來提前消除這一魔法屬性。",
+				"你能夠透過此特性將魔力賦予多個物品，每次使用該特性時都需要觸摸一個物品，並且單個物品一次只能承載一種魔法屬性。你能夠使用該特性影響的物品的最大數量等於你的智力調整值（最少一個物品）。如果你試圖超過最大值，最老的魔法屬性將立即結束，然後新的魔法屬性生效。"
 			]
 		},
 		{
-			"name": "可选规则：火器熟练",
+			"name": "可選規則：火器熟練",
 			"ENG_name": "Optional Rule: Firearm Proficiency",
 			"source": "TCE",
 			"page": 9,
@@ -1852,7 +1852,7 @@
 			"classSource": "TCE",
 			"level": 1,
 			"entries": [
-				"在 D&D 多元宇宙的各个角落都发现了火药武器的制造和使用。如果你的 DM 使用记载于{@book 《地下城主指南》|DMG}中的{@book 第九章的火器规则|DMG|9|Firearms}，并且你的奇械师已经接触过这些武器的操作，就能获得这些武器的熟练。"
+				"在 D&D 多元宇宙的各個角落都發現了火藥武器的製造和使用。如果你的 DM 使用記載於{@book 《地下城主指南》|DMG}中的{@book 第九章的火器規則|DMG|9|Firearms}，並且你的奇械師已經接觸過這些武器的操作，就能獲得這些武器的熟練。"
 			]
 		},
 		{
@@ -1870,62 +1870,62 @@
 			"classSource": "TCE",
 			"level": 1,
 			"entries": [
-				"你已经学习了魔法的工作原理，知道如何引导魔法进入物体，以及如何唤醒魔法。因此，你获得了有限的施法能力。在旁观者看来，你不会用传统的方式施法\u2014\u2014你看起来好像在通过各种物品创造奇迹。",
+				"你已經學習了魔法的工作原理，知道如何引導魔法進入物體，以及如何喚醒魔法。因此，你獲得了有限的施法能力。在旁觀者看來，你不會用傳統的方式施法\u2014\u2014你看起來好像在通過各種物品創造奇蹟。",
 				{
 					"type": "entries",
-					"name": "必备工具",
+					"name": "必備工具",
 					"ENG_name": "Tools Required",
 					"entries": [
-						"你通过你的工具产生你的奇械师法术效果。当你使用施法特性来施展法术时，必须手持一个法器\u2014通常是{@item 盗贼工具|phb}或某种{@item 工匠工具|phb|工匠工具}\u2014这也意味着你施展的法术拥有\"M（材料）\"成分。你必须熟练这一工具才能将它作为法器使用。这些工具的描述请参见{@book 《玩家手册》|PHB}的{@book 第五章的\"装备\"|PHB|4}。",
-						"当你在第二级获得物品注法特性后，你也能使用任何你注入魔法的物品来作为法器使用。",
+						"你通過你的工具產生你的奇械師法術效果。當你使用施法特性來施展法術時，必須手持一個法器\u2014通常是{@item 盜賊工具|phb}或某種{@item 工匠工具|phb|工匠工具}\u2014這也意味著你施展的法術擁有\"M（材料）\"成分。你必須熟練這一工具才能將它作為法器使用。這些工具的描述請參見{@book 《玩家手冊》|PHB}的{@book 第五章的\"裝備\"|PHB|4}。",
+						"當你在第二級獲得物品注法特性後，你也能使用任何你注入魔法的物品來作為法器使用。",
 						{
 							"type": "inset",
-							"name": "技艺的魔法",
+							"name": "技藝的魔法",
 							"ENG_name": "The Magic of Artifice",
 							"entries": [
-								"身为一名奇械师，你在施法时使用工具。当描述你的施法时，请想想你是如何使用一个工具来执行这个法术效果的。如果你使用{@item 炼金工具|PHB}来施展{@spell 治疗伤势}，你可以很快的制造出药膏。如果你用{@item 修理工具|PHB}来施展，你可能会拿出一个微型机械蜘蛛来缝合伤口。当你施放{@spell 毒气喷洒}时，你可以喷射出有毒的化学物质，或者使用一根喷射毒液的魔杖。法术的效果和其他的施法者职业是一样，但是你的施法方法是特殊的。",
-								"同样的原则也适用于你准备法术的时候。作为一名奇械师，你不需要学习魔法书，也不需要祈祷去准备你的魔法。你需要使用工具来制造用于产生效果的特定物品。如果你用{@spell 灼热金属}替换{@spell 治疗伤势}，你可能会破坏你用来治疗的设备，并用它的部件制造一个攻击性的物品\u2014这可能是一只能够让你引导冲击性能量的长手套。",
-								"这些细节不会以任何方式限制你，也不会给你带来任何好处。你不需要证明你是如何使用工具来施展法术的。但是创造性地描述你的施法是一种能够让你从其他施法者中脱颖而出的有趣方法。"
+								"身為一名奇械師，你在施法時使用工具。當描述你的施法時，請想想你是如何使用一個工具來執行這個法術效果的。如果你使用{@item 煉金工具|PHB}來施展{@spell 治療傷勢}，你可以很快的製造出藥膏。如果你用{@item 修理工具|PHB}來施展，你可能會拿出一個微型機械蜘蛛來縫合傷口。當你施放{@spell 毒氣噴灑}時，你可以噴射出有毒的化學物質，或者使用一根噴射毒液的魔杖。法術的效果和其他的施法者職業是一樣，但是你的施法方法是特殊的。",
+								"同樣的原則也適用於你準備法術的時候。作為一名奇械師，你不需要學習魔法書，也不需要祈禱去準備你的魔法。你需要使用工具來製造用於產生效果的特定物品。如果你用{@spell 灼熱金屬}替換{@spell 治療傷勢}，你可能會破壞你用來治療的設備，並用它的部件製造一個攻擊性的物品\u2014這可能是一隻能夠讓你引導衝擊性能量的長手套。",
+								"這些細節不會以任何方式限制你，也不會給你帶來任何好處。你不需要證明你是如何使用工具來施展法術的。但是創造性地描述你的施法是一種能夠讓你從其他施法者中脫穎而出的有趣方法。"
 							]
 						}
 					]
 				},
 				{
 					"type": "entries",
-					"name": "戏法",
+					"name": "戲法",
 					"ENG_name": "Cantrips (0-Level Spells)",
 					"entries": [
-						"在1级时，你从{@filter 奇械师法术列表|spells|level=0|class=Artificer}中习得两个戏法。在更高的等级，你能够根据奇械师已知戏法表习得更多戏法。",
-						"当你提升一个奇械师等级时，你能够从奇械师法术列表中习得一个新的戏法来替换一个原有的已知戏法。"
+						"在1級時，你從{@filter 奇械師法術列表|spells|level=0|class=Artificer}中習得兩個戲法。在更高的等級，你能夠根據奇械師已知戲法表習得更多戲法。",
+						"當你提升一個奇械師等級時，你能夠從奇械師法術列表中習得一個新的戲法來替換一個原有的已知戲法。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "法术的准备和施展",
+					"name": "法術的準備和施展",
 					"ENG_name": "Preparing and Casting Spells",
 					"entries": [
-						"\"奇械师职业表\"显示出你有多少能用于施法的法术位。施展某个奇械师法术时，你必须同时消耗其对应环阶的法术位。而已消耗的法术位则可以通过完成一次长休进行恢复。",
-						"你需要从{@filter 奇械师法术列表|spells|class=Artificer}中选择想要准备的法术，你能选择的准备法术总数等于你的智力调整值＋奇械师职业等级的一半，向下取整（最少为一个法术）。你只能准备已经获得相应环阶法术位的法术。",
-						"例如，作为一名5级奇械师时，你拥有四枚1环法术位和两枚2环法术位。假如你的智力为14，则你的准备法术列表可以囊括总共四个1环或2环法术的组合。如果你准备了1环法术{@spell 治疗伤势}，则你可以使用1环或者2环的法术位来施展它。另外，已施展的法术并不会从你的准备列表中移除。",
-						"你可以在完成长休后改变你的准备法术列表。如需准备新的奇械师法术，你需要花时间来调整你的法器：每个法术要花费至少1分钟的时间。"
+						"\"奇械師職業表\"顯示出你有多少能用於施法的法術位。施展某個奇械師法術時，你必須同時消耗其對應環階的法術位。而已消耗的法術位則可以通過完成一次長休進行恢復。",
+						"你需要從{@filter 奇械師法術列表|spells|class=Artificer}中選擇想要準備的法術，你能選擇的準備法術總數等於你的智力調整值＋奇械師職業等級的一半，向下取整（最少為一個法術）。你只能準備已經獲得相應環階法術位的法術。",
+						"例如，作為一名5級奇械師時，你擁有四枚1環法術位和兩枚2環法術位。假如你的智力為14，則你的準備法術列表可以囊括總共四個1環或2環法術的組合。如果你準備了1環法術{@spell 治療傷勢}，則你可以使用1環或者2環的法術位來施展它。另外，已施展的法術並不會從你的準備列表中移除。",
+						"你可以在完成長休後改變你的準備法術列表。如需準備新的奇械師法術，你需要花時間來調整你的法器：每個法術要花費至少1分鐘的時間。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "施法关键属性",
+					"name": "施法關鍵屬性",
 					"ENG_name": "Spellcasting Ability",
 					"entries": [
-						"你对魔法理论的理解使你能够以更高超的技法来使用这些法术，因此智力是你的施法关键属性。每当你的法术需要施法关键属性时均指向你的智力值。而你奇械师法术的豁免DC和攻击检定，也使用你的智力调整值。",
+						"你對魔法理論的理解使你能夠以更高超的技法來使用這些法術，因此智力是你的施法關鍵屬性。每當你的法術需要施法關鍵屬性時均指向你的智力值。而你奇械師法術的豁免DC和攻擊檢定，也使用你的智力調整值。",
 						{
 							"type": "abilityDc",
-							"name": "法术",
+							"name": "法術",
 							"attributes": [
 								"int"
 							]
 						},
 						{
 							"type": "abilityAttackMod",
-							"name": "法术",
+							"name": "法術",
 							"attributes": [
 								"int"
 							]
@@ -1934,10 +1934,10 @@
 				},
 				{
 					"type": "entries",
-					"name": "仪式施法",
+					"name": "儀式施法",
 					"ENG_name": "Ritual Casting",
 					"entries": [
-						"如果你准备了带有仪式标签的法术，则你可以用这些法术进行仪式施法。"
+						"如果你準備了帶有儀式標籤的法術，則你可以用這些法術進行儀式施法。"
 					]
 				}
 			]
@@ -1957,31 +1957,31 @@
 			"classSource": "TCE",
 			"level": 2,
 			"entries": [
-				"在2级时，你获得为普通物品注入魔法的能力。使用此特性创造的魔法物品是永久性魔法物品的原型。",
+				"在2級時，你獲得為普通物品注入魔法的能力。使用此特性創造的魔法物品是永久性魔法物品的原型。",
 				{
 					"type": "refClassFeature",
 					"classFeature": "已知注法|Artificer|TCE|2"
 				},
 				{
 					"type": "inset",
-					"name": "奇械师注法",
+					"name": "奇械師注法",
 					"ENG_name": "Artificer Infusions",
 					"entries": [
-						"奇械师发明了许多特殊的注法工艺来快速制造魔法物品。对于没有受过训练的人来说，奇械师就像神奇的工匠，能够在数小时内完成别人需要数周才能完成的事情。",
-						"每个注法的描述都会告诉你可以接受它的物品类型。以及所产生的魔法物品是否需要调谐。",
-						"有些注法规定了最低的奇械师等级。你必须达到那个等级才能学习该注法。",
-						"除非注法的描述中写明，否则你无法重复学习同一个注法。"
+						"奇械師發明了許多特殊的注法工藝來快速製造魔法物品。對於沒有受過訓練的人來說，奇械師就像神奇的工匠，能夠在數小時內完成別人需要數周才能完成的事情。",
+						"每個注法的描述都會告訴你可以接受它的物品類型。以及所產生的魔法物品是否需要調諧。",
+						"有些注法規定了最低的奇械師等級。你必須達到那個等級才能學習該注法。",
+						"除非注法的描述中寫明，否則你無法重複學習同一個注法。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "为物品进行注法",
+					"name": "為物品進行注法",
 					"ENG_name": "Infusing an Item",
 					"entries": [
-						"每当你完成一个长休后，你可以触摸一个非魔法的物体，使用奇械师注法来把它变成一个魔法物品。注法只能作用于注法描述中写明的指定类型物品。如果该物品需要调谐，你可以在为物品进行注法的那一刻调谐到它，或者你可以放弃调谐，以便其他人能够调谐到该物品。如果你决定以后与这个物品进行调谐，你必须进行通常的调谐程序（参见{@book 《地下城主指南》|DMG}第七章中的\"调谐\"）。",
-						"你的注法持续时间无限，但当你死亡时，注法会在你智力调整值的天数后消失（至少1天）。如果你将某个注法从已知中替换掉，该注法的效果也将消失。",
-						"你能在一次长休后为复数物品进行注法；注法物品的最大数量请参见\"奇械师职业表\"。你必须触摸每一个物体，且一种注法在同一时间内只能存在于一个物品上，而一个物品也无法进行复数次注法。如果你试图超过你的最大注法量，则最旧的注法立即结束，然后新的注法适用。",
-						"如果注法结束时，该物品中包含有其他物品，例如是一个次元袋，其中的物品将无害地出现在它周围的空间中。"
+						"每當你完成一個長休後，你可以觸摸一個非魔法的物體，使用奇械師注法來把它變成一個魔法物品。注法只能作用於注法描述中寫明的指定類型物品。如果該物品需要調諧，你可以在為物品進行注法的那一刻調諧到它，或者你可以放棄調諧，以便其他人能夠調諧到該物品。如果你決定以後與這個物品進行調諧，你必須進行通常的調諧程序（參見{@book 《地下城主指南》|DMG}第七章中的\"調諧\"）。",
+						"你的注法持續時間無限，但當你死亡時，注法會在你智力調整值的天數後消失（至少1天）。如果你將某個注法從已知中替換掉，該注法的效果也將消失。",
+						"你能在一次長休後為複數物品進行注法；注法物品的最大數量請參見\"奇械師職業表\"。你必須觸摸每一個物體，且一種注法在同一時間內只能存在於一個物品上，而一個物品也無法進行複數次注法。如果你試圖超過你的最大注法量，則最舊的注法立即結束，然後新的注法適用。",
+						"如果注法結束時，該物品中包含有其他物品，例如是一個次元袋，其中的物品將無害地出現在它周圍的空間中。"
 					]
 				}
 			]
@@ -2002,12 +2002,12 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"当你获得这个特性时，从职业描述末尾的{@filter 奇械师注法|optionalfeatures|feature type=ai|source=ERLW}列表中选择选择四个奇械师注法习得。当你提升奇械师等级时，还能够根据\"奇械师职业表\"的\"已知注法\"习得更多注法。",
-				"当你提升一个奇械师等级时，你能够习得一个新的奇械师注法来来替换一个原有的已知注法。"
+				"當你獲得這個特性時，從職業描述末尾的{@filter 奇械師注法|optionalfeatures|feature type=ai|source=ERLW}列表中選擇選擇四個奇械師注法習得。當你提升奇械師等級時，還能夠根據\"奇械師職業表\"的\"已知注法\"習得更多注法。",
+				"當你提升一個奇械師等級時，你能夠習得一個新的奇械師注法來來替換一個原有的已知注法。"
 			]
 		},
 		{
-			"name": "奇械师专业",
+			"name": "奇械師專業",
 			"ENG_name": "Artificer Specialist",
 			"source": "TCE",
 			"page": 9,
@@ -2021,11 +2021,11 @@
 			"classSource": "TCE",
 			"level": 3,
 			"entries": [
-				"在3级时，你选择自己将成为哪方面的专家。每个专业会在职业描述的最后进行说明。你的选择将决定你在5级、9级和15级获得的特性。"
+				"在3級時，你選擇自己將成為哪方面的專家。每個專業會在職業描述的最後進行說明。你的選擇將決定你在5級、9級和15級獲得的特性。"
 			]
 		},
 		{
-			"name": "称手工具",
+			"name": "稱手工具",
 			"ENG_name": "The Right Tool for the Job",
 			"source": "TCE",
 			"page": 9,
@@ -2039,11 +2039,11 @@
 			"classSource": "TCE",
 			"level": 3,
 			"entries": [
-				"在3级时，你将学习如何精确地制作你所需要的工具：使用{@item 盗贼工具|phb}或{@item 工匠工具|phb}，你可以在离你5尺内的未占据空间中魔法性地制作出一套{@item 工匠工具|phb}。这一制造需要1小时不间断的工作，可以在短休或长休的过程中进行。这套工具是魔法的产物，但其本身是非魔法的，当你再次使用此特性时，之前制造的工具就会消失。"
+				"在3級時，你將學習如何精確地製作你所需要的工具：使用{@item 盜賊工具|phb}或{@item 工匠工具|phb}，你可以在離你5尺內的未占據空間中魔法性地製作出一套{@item 工匠工具|phb}。這一製造需要1小時不間斷的工作，可以在短休或長休的過程中進行。這套工具是魔法的產物，但其本身是非魔法的，當你再次使用此特性時，之前製造的工具就會消失。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "TCE",
 			"page": 9,
@@ -2057,8 +2057,8 @@
 			"classSource": "TCE",
 			"level": 4,
 			"entries": [
-				"当你在此职业升至4级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能通过这个能力将一个属性值提升至超过20。",
-				"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
+				"當你在此職業升至4級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
+				"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
 			]
 		},
 		{
@@ -2076,7 +2076,7 @@
 			]
 		},
 		{
-			"name": "奇械师专业能力",
+			"name": "奇械師專業能力",
 			"ENG_name": "Artificer Specialist Feature",
 			"source": "TCE",
 			"page": 9,
@@ -2090,11 +2090,11 @@
 			"classSource": "TCE",
 			"level": 5,
 			"entries": [
-				"在5级时，你获得一个由你奇械师专业所赋予的能力。"
+				"在5級時，你獲得一個由你奇械師專業所賦予的能力。"
 			]
 		},
 		{
-			"name": "工具专精",
+			"name": "工具專精",
 			"ENG_name": "Tool Expertise",
 			"source": "TCE",
 			"page": 9,
@@ -2108,11 +2108,11 @@
 			"classSource": "TCE",
 			"level": 6,
 			"entries": [
-				"从6级开始，你在使用你熟练的工具时，能够使用双倍的熟练加值。"
+				"從6級開始，你在使用你熟練的工具時，能夠使用雙倍的熟練加值。"
 			]
 		},
 		{
-			"name": "灵光一闪",
+			"name": "靈光一閃",
 			"ENG_name": "Flash of Genius",
 			"source": "TCE",
 			"page": 9,
@@ -2126,12 +2126,12 @@
 			"classSource": "TCE",
 			"level": 7,
 			"entries": [
-				"从7级开始，你获得了在压力下想出解决方案的能力。当你或距离你30尺内的可见生物进行属性检定或豁免检定时，你能以一个反应将你的智力调整值添加到此次检定中。",
-				"你能使用此能力的次数等于你的智力调整值（最少1次）。在你完成一次长休后，恢复所有可用次数。"
+				"從7級開始，你獲得了在壓力下想出解決方案的能力。當你或距離你30尺內的可見生物進行屬性檢定或豁免檢定時，你能以一個反應將你的智力調整值添加到此次檢定中。",
+				"你能使用此能力的次數等於你的智力調整值（最少1次）。在你完成一次長休後，恢復所有可用次數。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "TCE",
 			"page": 9,
@@ -2145,8 +2145,8 @@
 			"classSource": "TCE",
 			"level": 8,
 			"entries": [
-				"当你在此职业升至8级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能通过这个能力将一个属性值提升至超过20。",
-				"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
+				"當你在此職業升至8級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
+				"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
 			]
 		},
 		{
@@ -2164,7 +2164,7 @@
 			]
 		},
 		{
-			"name": "奇械师专业能力",
+			"name": "奇械師專業能力",
 			"ENG_name": "Artificer Specialist Feature",
 			"source": "TCE",
 			"page": 9,
@@ -2178,7 +2178,7 @@
 			"classSource": "TCE",
 			"level": 9,
 			"entries": [
-				"在9级时，你获得一个由你奇械师专业所赋予的能力。"
+				"在9級時，你獲得一個由你奇械師專業所賦予的能力。"
 			]
 		},
 		{
@@ -2196,18 +2196,18 @@
 			"classSource": "TCE",
 			"level": 10,
 			"entries": [
-				"当你达到10级时，你对如何使用和制作魔法物品有了深刻的理解：",
+				"當你達到10級時，你對如何使用和製作魔法物品有了深刻的理解：",
 				{
 					"type": "list",
 					"items": [
-						"你一次最多可以调谐四个魔法物品。",
-						"如果你制作一件稀有度为普通或非普通的魔法物品，时间花费只需通常的四分之一，而且金钱花费只有通常的一半。"
+						"你一次最多可以調諧四個魔法物品。",
+						"如果你製作一件稀有度為普通或非普通的魔法物品，時間花費只需通常的四分之一，而且金錢花費只有通常的一半。"
 					]
 				}
 			]
 		},
 		{
-			"name": "储法物品",
+			"name": "儲法物品",
 			"ENG_name": "Spell-Storing Item",
 			"source": "TCE",
 			"page": 9,
@@ -2221,12 +2221,12 @@
 			"classSource": "TCE",
 			"level": 11,
 			"entries": [
-				"当你达到第11级时，你将习得如何在一个物体中储存一个法术。当你完成一次长休，你能够触摸一件{@filter 简易武器或军用武器|items|source=phb|category=basic|type=martial weapon;simple weapon}或一个你可以将其作为法器使用的物品，从{@filter 奇械师法术列表|spells|class=Artificer|cast time=action|level=1;2}中选择一个施法时间为一个动作的1环或2环法术（你不需要准备这个法术）。",
-				"任何在手中持有该物品的生物能够使用你的施法关键属性来以一个动作通过该物品产生储存法术的效果。如果该法术需要专注，则启动物品的生物必须进行专注。该法术将留存在物品中，直到使用次数用完（最大使用次数等于你智力调整值的两倍，至少两次）或直到你再次使用该特性。"
+				"當你達到第11級時，你將習得如何在一個物體中儲存一個法術。當你完成一次長休，你能夠觸摸一件{@filter 簡易武器或軍用武器|items|source=phb|category=basic|type=martial weapon;simple weapon}或一個你可以將其作為法器使用的物品，從{@filter 奇械師法術列表|spells|class=Artificer|cast time=action|level=1;2}中選擇一個施法時間為一個動作的1環或2環法術（你不需要準備這個法術）。",
+				"任何在手中持有該物品的生物能夠使用你的施法關鍵屬性來以一個動作透過該物品產生儲存法術的效果。如果該法術需要專注，則啟動物品的生物必須進行專注。該法術將留存在物品中，直到使用次數用完（最大使用次數等於你智力調整值的兩倍，至少兩次）或直到你再次使用該特性。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "TCE",
 			"page": 9,
@@ -2240,8 +2240,8 @@
 			"classSource": "TCE",
 			"level": 12,
 			"entries": [
-				"当你在此职业升至12级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能通过这个能力将一个属性值提升至超过20。",
-				"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
+				"當你在此職業升至12級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
+				"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
 			]
 		},
 		{
@@ -2259,7 +2259,7 @@
 			]
 		},
 		{
-			"name": "魔法物品专家",
+			"name": "魔法物品專家",
 			"ENG_name": "Magic Item Savant",
 			"source": "TCE",
 			"page": 9,
@@ -2273,18 +2273,18 @@
 			"classSource": "TCE",
 			"level": 14,
 			"entries": [
-				"当你达到14级时，你在魔法物品方面的技巧愈发精进：",
+				"當你達到14級時，你在魔法物品方面的技巧越來越精進：",
 				{
 					"type": "list",
 					"items": [
-						"你一次最多可以调谐五个魔法物品。",
-						"你无视调谐或使用魔法物品所需的任何职业、种族、法术和等级条件。"
+						"你一次最多可以調諧五個魔法物品。",
+						"你無視調諧或使用魔法物品所需的任何職業、種族、法術和等級條件。"
 					]
 				}
 			]
 		},
 		{
-			"name": "奇械师专业能力",
+			"name": "奇械師專業能力",
 			"ENG_name": "Artificer Specialist Feature",
 			"source": "TCE",
 			"page": 9,
@@ -2298,11 +2298,11 @@
 			"classSource": "TCE",
 			"level": 15,
 			"entries": [
-				"在15级时，你获得一个由你奇械师专业所赋予的能力。"
+				"在15級時，你獲得一個由你奇械師專業所賦予的能力。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "TCE",
 			"page": 9,
@@ -2316,8 +2316,8 @@
 			"classSource": "TCE",
 			"level": 16,
 			"entries": [
-				"当你在此职业升至16级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能通过这个能力将一个属性值提升至超过20。",
-				"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
+				"當你在此職業升至16級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
+				"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
 			]
 		},
 		{
@@ -2335,7 +2335,7 @@
 			]
 		},
 		{
-			"name": "魔法物品大师",
+			"name": "魔法物品大師",
 			"ENG_name": "Magic Item Master",
 			"source": "TCE",
 			"page": 9,
@@ -2349,11 +2349,11 @@
 			"classSource": "TCE",
 			"level": 18,
 			"entries": [
-				"18级起，你一次最多可以调谐六个魔法物品。"
+				"18級起，你一次最多可以調諧六個魔法物品。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "TCE",
 			"page": 9,
@@ -2367,8 +2367,8 @@
 			"classSource": "TCE",
 			"level": 19,
 			"entries": [
-				"当你在此职业升至19级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能通过这个能力将一个属性值提升至超过20。",
-				"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
+				"當你在此職業升至19級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
+				"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
 			]
 		},
 		{
@@ -2400,12 +2400,12 @@
 			"classSource": "TCE",
 			"level": 20,
 			"entries": [
-				"在20级时，你与你的魔法物品建立了一种神秘的联系，你可以利用它来保护自己：",
+				"在20級時，你與你的魔法物品建立了一種神秘的聯繫，你可以利用它來保護自己：",
 				{
 					"type": "list",
 					"items": [
-						"你当前每有一件调谐中的魔法物品，你就在所有豁免检定中得到+1加值。",
-						"如果你的生命值降低到0，但没有立即死亡，你能以一个反应解除一个注法，使你的生命值降低到1而不是0。"
+						"你當前每有一件調諧中的魔法物品，你就在所有豁免檢定中得到+1加值。",
+						"如果你的生命值降低到0，但沒有立即死亡，你能以一個反應解除一個注法，使你的生命值降低到1而不是0。"
 					]
 				}
 			]
@@ -2429,7 +2429,7 @@
 			"classSource": "UAArtificer",
 			"level": 1,
 			"entries": [
-				"Starting at 1st level, your understanding of magic items allows you to analyze and understand their secrets. You know the artificer spells {@spell 侦测魔法} and {@spell 鉴定术}, and you can cast them as rituals. You don't need to provide a material component when casting {@spell 鉴定术} with this class feature."
+				"Starting at 1st level, your understanding of magic items allows you to analyze and understand their secrets. You know the artificer spells {@spell 偵測魔法} and {@spell 鑑定術}, and you can cast them as rituals. You don't need to provide a material component when casting {@spell 鑑定術} with this class feature."
 			]
 		},
 		{
@@ -2530,14 +2530,14 @@
 						"Intelligence is your spellcasting ability for your artificer spells; your understanding of the theory behind magic allows you to wield these spells with superior skill. You use your Intelligence whenever an artificer spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for an artificer spell you cast and when making an attack roll with one.",
 						{
 							"type": "abilityDc",
-							"name": "法术",
+							"name": "法術",
 							"attributes": [
 								"int"
 							]
 						},
 						{
 							"type": "abilityAttackMod",
-							"name": "法术",
+							"name": "法術",
 							"attributes": [
 								"int"
 							]
@@ -2629,13 +2629,13 @@
 						"It is a construct instead of a beast.",
 						"It can't be {@condition 魅惑}.",
 						"It is immune to poison damage and the {@condition 中毒} condition.",
-						"It gains {@sense 黑暗视觉} with a range of 60 feet if it doesn't have it already.",
+						"It gains {@sense 黑暗視覺} with a range of 60 feet if it doesn't have it already.",
 						"It understands the languages you can speak when you create it, but it can't speak.",
 						"If you are the target of a melee attack and the servant is within 5 feet of the attacker, you can use your reaction to command the servant to respond, using its reaction to make a melee attack against the attacker."
 					]
 				},
 				"The servant obeys your orders to the best of its ability. In combat, it rolls its own initiative and acts on its own.",
-				"If the servant is killed, it can be returned to life via normal means, such as with the {@spell 回生术} spell. In addition, over the course of a long rest, you can repair a slain servant if you have access to its body. It returns to life with 1 hit point at the end of the rest. If the servant is beyond recovery, you can build a new one with one week of work (eight hours each day) and 1,000 gp of raw materials."
+				"If the servant is killed, it can be returned to life via normal means, such as with the {@spell 回生術} spell. In addition, over the course of a long rest, you can repair a slain servant if you have access to its body. It returns to life with 1 hit point at the end of the rest. If the servant is beyond recovery, you can build a new one with one week of work (eight hours each day) and 1,000 gp of raw materials."
 			]
 		},
 		{
@@ -2823,7 +2823,7 @@
 			"classSource": "UAArtificerRevisited",
 			"level": 1,
 			"entries": [
-				"At 1st level, you learn how to invest a spark of magic in objects that would otherwise be mundane. To use this ability, you must have {@item 盗贼工具|phb}, {@item 修理工具|PHB}, or other {@item 工匠工具|phb} in hand. You then touch a Tiny nonmagical object as an action and give it one of the following magical properties of your choice:",
+				"At 1st level, you learn how to invest a spark of magic in objects that would otherwise be mundane. To use this ability, you must have {@item 盜賊工具|phb}, {@item 修理工具|PHB}, or other {@item 工匠工具|phb} in hand. You then touch a Tiny nonmagical object as an action and give it one of the following magical properties of your choice:",
 				{
 					"type": "list",
 					"items": [
@@ -2850,13 +2850,13 @@
 					"type": "entries",
 					"name": "Tools Required",
 					"entries": [
-						"You produce your artificer spell effects through your tools. You must have a spellcasting focus\u2014specifically {@item 盗贼工具|phb} or some kind of artisan's tool\u2014in hand when you cast any spell with this Spellcasting feature. You must be proficient with the tool to use it in this way. See chapter 5, \"{@book Equipment|phb|6|tools},\" in the Player's Handbook for descriptions of these tools.",
+						"You produce your artificer spell effects through your tools. You must have a spellcasting focus\u2014specifically {@item 盜賊工具|phb} or some kind of artisan's tool\u2014in hand when you cast any spell with this Spellcasting feature. You must be proficient with the tool to use it in this way. See chapter 5, \"{@book Equipment|phb|6|tools},\" in the Player's Handbook for descriptions of these tools.",
 						"After you gain the Infuse Item feature at 2nd level, you can also use any item bearing one of your infusions as a spellcasting focus."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "戏法",
+					"name": "戲法",
 					"entries": [
 						"At 1st level, you know two cantrips of your choice from the {@filter artificer spell list|spells|class=artificer (uaar)}. At higher levels, you learn additional artificer cantrips of your choice, as shown in the Cantrips Known column of the Artificer table.",
 						"When you gain a level in this class, you can replace one of the artificer cantrips you know with another cantrip from the artificer spell list."
@@ -2868,7 +2868,7 @@
 					"entries": [
 						"The Artificer table shows how many spell slots you have to cast your artificer spells. To cast one of your artificer spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
 						"You prepare the list of artificer spells that are available for you to cast, choosing from the {@filter artificer spell list|spells|class=artificer (uaar)}. When you do so, choose a number of artificer spells equal to your Intelligence modifier + half your artificer level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.",
-						"For example, if you are a 5th-level artificer, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell {@spell 治疗伤势}, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
+						"For example, if you are a 5th-level artificer, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell {@spell 治療傷勢}, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
 						"You can change your list of prepared spells when you finish a long rest. Preparing a new list of artificer spells requires time spent in tinkering with your spellcasting focuses: at least 1 minute per spell level for each spell on your list."
 					]
 				},
@@ -2879,14 +2879,14 @@
 						"Intelligence is your spellcasting ability for your artificer spells; your understanding of the theory behind magic allows you to wield these spells with superior skill. You use your Intelligence whenever an artificer spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for an artificer spell you cast and when making an attack roll with one.",
 						{
 							"type": "abilityDc",
-							"name": "法术",
+							"name": "法術",
 							"attributes": [
 								"int"
 							]
 						},
 						{
 							"type": "abilityAttackMod",
-							"name": "法术",
+							"name": "法術",
 							"attributes": [
 								"int"
 							]
@@ -2895,7 +2895,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "仪式施法",
+					"name": "儀式施法",
 					"entries": [
 						"You can cast an artificer spell as a ritual if that spell has the ritual tag and you have the spell prepared."
 					]
@@ -2904,8 +2904,8 @@
 					"type": "inset",
 					"name": "The Magic of Artifice",
 					"entries": [
-						"As an artificer, you use tools when you cast your spells. When describing your spellcasting, think about how you're using a tool to perform the spell effect. If you cast {@spell 治疗伤势} using {@item 炼金工具|PHB}, you could be quickly producing a salve. If you cast it using {@item 修理工具|phb}, you might have a miniature mechanical spider that binds wounds. When you cast {@spell 毒气喷洒}, you could fling foul chemicals or use a wand that spits venom. The effect of the spell is the same as for a spellcaster of any other class, but your method of spellcasting is special.",
-						"The same principle applies when you prepare your spells. As an artificer, you don't study a spellbook or pray to prepare your spells. Instead, you work with your tools and create the specialized items you'll use to produce your effects. If you replace {@spell 治疗伤势} with {@spell 电爪}, you might be breaking down the device you used to heal and creating an offensive item in its place\u2014perhaps a gauntlet that lets you channel a surge of energy.",
+						"As an artificer, you use tools when you cast your spells. When describing your spellcasting, think about how you're using a tool to perform the spell effect. If you cast {@spell 治療傷勢} using {@item 煉金工具|PHB}, you could be quickly producing a salve. If you cast it using {@item 修理工具|phb}, you might have a miniature mechanical spider that binds wounds. When you cast {@spell 毒氣噴灑}, you could fling foul chemicals or use a wand that spits venom. The effect of the spell is the same as for a spellcaster of any other class, but your method of spellcasting is special.",
+						"The same principle applies when you prepare your spells. As an artificer, you don't study a spellbook or pray to prepare your spells. Instead, you work with your tools and create the specialized items you'll use to produce your effects. If you replace {@spell 治療傷勢} with {@spell 電爪}, you might be breaking down the device you used to heal and creating an offensive item in its place\u2014perhaps a gauntlet that lets you channel a surge of energy.",
 						"Such details don't limit you in any way or provide you with any benefit. You don't have to justify how you're using tools to cast a spell. But describing your spellcasting creatively is a fun way to distinguish yourself from other spellcasters."
 					]
 				}
@@ -3013,7 +3013,7 @@
 			"classSource": "UAArtificerRevisited",
 			"level": 5,
 			"entries": [
-				"Starting at 5th level, you can attack twice, rather than once, whenever you take the {@action 攻击} action on your turn, but one of the attacks must be made with a magic weapon, the magic of which you use to propel the attack."
+				"Starting at 5th level, you can attack twice, rather than once, whenever you take the {@action 攻擊} action on your turn, but one of the attacks must be made with a magic weapon, the magic of which you use to propel the attack."
 			]
 		},
 		{
@@ -3179,7 +3179,7 @@
 	],
 	"subclassFeature": [
 		{
-			"name": "炼金师",
+			"name": "煉金師",
 			"ENG_name": "Alchemist",
 			"source": "TCE",
 			"page": 14,
@@ -3195,23 +3195,23 @@
 			"subclassSource": "TCE",
 			"level": 3,
 			"entries": [
-				"炼金师是将奇异的原料混合在一起以产生种种新物质的专家，炼金师的创造物能用来延续生命，也能用来夺走生命。炼金术是最古老的奇械师技艺，它的多功能性在战争与和平时都长期受到重视。",
+				"煉金師是將奇異的原料混合在一起以產生種種新物質的專家，煉金師的創造物能用來延續生命，也能用來奪走生命。鍊金術是最古老的奇械師技藝，它的多功能性在戰爭與和平時都長期受到重視。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "本职工具|Artificer|TCE|Alchemist|TCE|3"
+					"subclassFeature": "本職工具|Artificer|TCE|Alchemist|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "炼金师法术|Artificer|TCE|Alchemist|TCE|3"
+					"subclassFeature": "煉金師法術|Artificer|TCE|Alchemist|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "实验性灵药|Artificer|TCE|Alchemist|TCE|3"
+					"subclassFeature": "實驗性靈藥|Artificer|TCE|Alchemist|TCE|3"
 				}
 			]
 		},
 		{
-			"name": "炼金师法术",
+			"name": "煉金師法術",
 			"ENG_name": "Alchemist Spells",
 			"source": "TCE",
 			"page": 14,
@@ -3228,14 +3228,14 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级炼金师特性}",
-				"只要你达到相应的职业等级，炼金师法术表格中的法术总是被视为已准备。这些法术对你来说是奇械师法术，且不会计入你可以准备法术的总数。",
+				"{@i 3級煉金師特性}",
+				"只要你達到相應的職業等級，煉金師法術表格中的法術總是被視為已準備。這些法術對你來說是奇械師法術，且不會計入你可以準備法術的總數。",
 				{
 					"type": "table",
-					"caption": "炼金师法术",
+					"caption": "煉金師法術",
 					"colLabels": [
-						"奇械师等级",
-						"法术"
+						"奇械師等級",
+						"法術"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -3244,30 +3244,30 @@
 					"rows": [
 						[
 							"3rd",
-							"{@spell 治愈真言}, {@spell 致病射线}"
+							"{@spell 治癒真言}, {@spell 致病射線}"
 						],
 						[
 							"5th",
-							"{@spell 炽焰法球}, {@spell 马友夫强酸箭}"
+							"{@spell 熾焰法球}, {@spell 馬友夫強酸箭}"
 						],
 						[
 							"9th",
-							"{@spell 气化形体}, {@spell 群体治愈真言}"
+							"{@spell 氣化形體}, {@spell 群體治癒真言}"
 						],
 						[
 							"13th",
-							"{@spell 枯萎术}, {@spell 防死护咒}"
+							"{@spell 枯萎術}, {@spell 防死護咒}"
 						],
 						[
 							"17th",
-							"{@spell 死云术}, {@spell 唤醒死者}"
+							"{@spell 死雲術}, {@spell 喚醒死者}"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "实验性灵药",
+			"name": "實驗性靈藥",
 			"ENG_name": "Experimental Elixir",
 			"source": "TCE",
 			"page": 14,
@@ -3284,14 +3284,14 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级炼金师特性}",
-				"每当你完成一次长休，你能在一个你接触的空瓶中魔法性的制造出一剂{@i 实验性灵药}。当某人饮用灵药时，通过实验性灵药表来掷骰决定灵药的效果。以一个动作，一个生物能自己饮用灵药，或是将灵药给一个{@condition 无力}生物饮用。",
-				"你需要拥有{@item 炼金工具|PHB}才能制造{@i 实验性灵药}，你通过此特征创造的所有灵药会一直存在到被饮用，或是你下一次长休结束时。",
-				"当你达到某些特定等级时，将能够在长休结束时制造更多灵药：6级时2剂，15级时3剂。每剂灵药都需要掷骰决定效果。每一剂灵药都需要用独立的烧瓶盛放。",
-				"你能通过消耗一枚1环或更高环的法术位来制造额外的{@i 实验性灵药}。要这么做的话，你需要以一个动作接触一个空烧瓶来制造灵药，然后从\"实验性灵药表\"中选择这剂灵药的效果。",
+				"{@i 3級煉金師特性}",
+				"每當你完成一次長休，你能在一個你接觸的空瓶中魔法性的製造出一劑{@i 實驗性靈藥}。當某人飲用靈藥時，通過實驗性靈藥表來擲骰決定靈藥的效果。以一個動作，一個生物能自己飲用靈藥，或是將靈藥給一個{@condition 無力}生物飲用。",
+				"你需要擁有{@item 煉金工具|PHB}才能製造{@i 實驗性靈藥}，你透過此特徵創造的所有靈藥會一直存在到被飲用，或是你下一次長休結束時。",
+				"當你達到某些特定等級時，將能夠在長休結束時製造更多靈藥：6級時2劑，15級時3劑。每劑靈藥都需要擲骰決定效果。每一劑靈藥都需要用獨立的燒瓶盛放。",
+				"你能透過消耗一枚1環或更高環的法術位來製造額外的{@i 實驗性靈藥}。要這麼做的話，你需要以一個動作接觸一個空燒瓶來製造靈藥，然後從\"實驗性靈藥表\"中選擇這劑靈藥的效果。",
 				{
 					"type": "table",
-					"caption": "实验性灵药",
+					"caption": "實驗性靈藥",
 					"colLabels": [
 						"d6",
 						"效果"
@@ -3303,34 +3303,34 @@
 					"rows": [
 						[
 							"1",
-							"{@b 治疗}。饮用者恢复 {@dice 2d4} + 你智力调整值的生命值"
+							"{@b 治療}。飲用者恢復 {@dice 2d4} + 你智力調整值的生命值"
 						],
 						[
 							"2",
-							"{@b 疾速}。饮用者在1小时内速度增加10尺。"
+							"{@b 疾速}。飲用者在1小時內速度增加10尺。"
 						],
 						[
 							"3",
-							"{@b 韧性}。饮用者在10分钟内AC获得+1加值。"
+							"{@b 韌性}。飲用者在10分鐘內AC獲得+1加值。"
 						],
 						[
 							"4",
-							"{@b 勇气}。饮用者在1分钟内，能够在每个攻击检定和豁免检定中增加一个{@dice d4}。"
+							"{@b 勇氣}。飲用者在1分鐘內，能夠在每個攻擊檢定和豁免檢定中增加一個{@dice d4}。"
 						],
 						[
 							"5",
-							"{@b 飞行}。饮用者在10分钟内获得10尺飞行速度。"
+							"{@b 飛行}。飲用者在10分鐘內獲得10尺飛行速度。"
 						],
 						[
 							"6",
-							"{@b 变形}。饮用者的身体产生如同{@spell 变造自身}法术的变化。具体怎样变化由饮用者决定，持续时间10分钟。"
+							"{@b 變形}。飲用者的身體產生如同{@spell 變造自身}法術的變化。具體怎樣變化由飲用者決定，持續時間10分鐘。"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "本职工具",
+			"name": "本職工具",
 			"ENG_name": "Tool Proficiency",
 			"source": "TCE",
 			"page": 14,
@@ -3347,12 +3347,12 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级炼金师特性}",
-				"你获得{@item 炼金工具|PHB}的熟练。如果你已经拥有此熟练项，作为代替，你能获得另一种{@item 工匠工具|PHB}的熟练。"
+				"{@i 3級煉金師特性}",
+				"你獲得{@item 煉金工具|PHB}的熟練。如果你已經擁有此熟練項，作為代替，你能獲得另一種{@item 工匠工具|PHB}的熟練。"
 			]
 		},
 		{
-			"name": "炼金术掌握",
+			"name": "鍊金術掌握",
 			"ENG_name": "Alchemical Savant",
 			"source": "TCE",
 			"page": 14,
@@ -3369,12 +3369,12 @@
 			"level": 5,
 			"header": 2,
 			"entries": [
-				"{@i 5级炼金师特性}",
-				"你对魔法化学物质的掌握变得非常熟练，这将提高你通过炼金物质造成的治疗和伤害效果。当你使用{@item 炼金工具|PHB}作为法器施法时，你在法术的一次掷骰中获得加值。该掷骰必须恢复生命值，或是造成强酸、火焰、黯蚀或毒素伤害，获得的加值等于你的智力调整值（最低+1）。"
+				"{@i 5級煉金師特性}",
+				"你對魔法化學物質的掌握變得非常熟練，這將提高你通過煉金物質造成的治療和傷害效果。當你使用{@item 煉金工具|PHB}作為法器施法時，你在法術的一次擲骰中獲得加值。該擲骰必須恢復生命值，或是造成強酸、火焰、黯蝕或毒素傷害，獲得的加值等於你的智力調整值（最低+1）。"
 			]
 		},
 		{
-			"name": "复原药剂",
+			"name": "復原藥劑",
 			"ENG_name": "Restorative Reagents",
 			"source": "TCE",
 			"page": 14,
@@ -3391,19 +3391,19 @@
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"{@i 9级炼金师特性}",
-				"你可以在你的一些作品中加入复原药剂：",
+				"{@i 9級煉金師特性}",
+				"你可以在你的一些作品中加入復原藥劑：",
 				{
 					"type": "list",
 					"items": [
-						"每当一个生物饮用一剂你制造的{@i 实验性灵药}时，该生物获得{@dice 2d6} + 你智力调整值的临时生命值（至少1点临时生命值）。",
-						"此外，只要你使用{@item 炼金工具|PHB}作为法器，就可以在不花费法术位的情况下施展{@spell 次级复原术}。你能够这么做的次数等于你的智力调整值（最少1次），在你完成一次长休后，将恢复所有可用次数。"
+						"每當一個生物飲用一劑你製造的{@i 實驗性靈藥}時，該生物獲得{@dice 2d6} + 你智力調整值的臨時生命值（至少1點臨時生命值）。",
+						"此外，只要你使用{@item 煉金工具|PHB}作為法器，就可以在不花費法術位的情況下施展{@spell 次級復原術}。你能夠這麼做的次數等於你的智力調整值（最少1次），在你完成一次長休後，將恢復所有可用次數。"
 					]
 				}
 			]
 		},
 		{
-			"name": "化学专家",
+			"name": "化學專家",
 			"ENG_name": "Chemical Mastery",
 			"source": "TCE",
 			"page": 14,
@@ -3420,19 +3420,19 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"{@i 15级炼金师特性}",
-				"你已经接触了太多的化学物质，并解开了它们的秘密，它们对你的危害很小，你可以使用它们来迅速治愈某些疾病：",
+				"{@i 15級煉金師特性}",
+				"你已經接觸了太多的化學物質，並解開了它們的秘密，它們對你的危害很小，你可以使用它們來迅速治癒某些疾病：",
 				{
 					"type": "list",
 					"items": [
-						"你获得了对强酸伤害和毒素伤害的抗性，同时对{@condition 中毒}状态免疫。",
-						"只要你使用{@item 炼金工具|PHB}作为法器，就能够在不消费法术位和材料成分的情况下施展{@spell 高等复原术}和{@spell 治愈术}。一旦你通过此特性施法，必须完成一次长休才能再次使用此特性。"
+						"你獲得了對強酸傷害和毒素傷害的抗性，同時對{@condition 中毒}狀態免疫。",
+						"只要你使用{@item 煉金工具|PHB}作為法器，就能夠在不消費法術位和材料成分的情況下施展{@spell 高等復原術}和{@spell 治癒術}。一旦你通過此特性施法，必須完成一次長休才能再次使用此特性。"
 					]
 				}
 			]
 		},
 		{
-			"name": "装甲师",
+			"name": "裝甲師",
 			"ENG_name": "Armorer",
 			"source": "TCE",
 			"page": 15,
@@ -3442,27 +3442,27 @@
 			"subclassSource": "TCE",
 			"level": 3,
 			"entries": [
-				"对于装甲师专业的奇械师来说，装甲就像是第二层皮肤。这一装甲能够增强奇械师的魔法，释放强力的攻击，产生绝佳的防护。这些奇械师与他们的装甲之间有着强力的纽带，在他们经过实验并改进装甲的魔法性能后，甚至能够合二为一。",
+				"對於裝甲師專業的奇械師來說，裝甲就像是第二層皮膚。這一裝甲能夠增強奇械師的魔法，釋放強力的攻擊，產生絕佳的防護。這些奇械師與他們的裝甲之間有著強力的紐帶，在他們經過實驗並改進裝甲的魔法性能後，甚至能夠合二為一。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "本职工具|Artificer|TCE|Armorer|TCE|3"
+					"subclassFeature": "本職工具|Artificer|TCE|Armorer|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "装甲师法术|Artificer|TCE|Armorer|TCE|3"
+					"subclassFeature": "裝甲師法術|Artificer|TCE|Armorer|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "奥能装甲|Artificer|TCE|Armorer|TCE|3"
+					"subclassFeature": "奧能裝甲|Artificer|TCE|Armorer|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "装甲型号|Artificer|TCE|Armorer|TCE|3"
+					"subclassFeature": "裝甲型號|Artificer|TCE|Armorer|TCE|3"
 				}
 			]
 		},
 		{
-			"name": "奥能装甲",
+			"name": "奧能裝甲",
 			"ENG_name": "Arcane Armor",
 			"source": "TCE",
 			"page": 15,
@@ -3473,22 +3473,22 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级装甲师特性}",
-				"你对冶金的钻研让你的盔甲成为了实现你奇械师魔法的渠道。只要你手持{@item 铁匠工具|PHB}，就能以一个动作将你正穿着的一套重甲变成奥能装甲。",
-				"在穿着奥能装甲时，你获得以下好处：",
+				"{@i 3級裝甲師特性}",
+				"你對冶金的鑽研讓你的盔甲成為了實現你奇械師魔法的渠道。只要你手持{@item 鐵匠工具|PHB}，就能以一個動作將你正穿著的一套重甲變成奧能裝甲。",
+				"在穿著奧能裝甲時，你獲得以下好處：",
 				{
 					"type": "list",
 					"items": [
-						"如果你的盔甲通常对穿戴者的力量有要求，奥能装甲能让你无视它。",
-						"你能够将奥能装甲作为你奇械师法术的法器。",
-						"穿在你身上的奥能装甲除非你自愿，否则无法移除。同时，奥能装甲能够扩展到复盖你的整个身体，并替换你所有缺失的肢体，替换肢体的部分拥有和正常肢体一样的功能。",
-						"你能以一个动作穿着或脱下装甲。护甲会一直保持奥能装甲的功能，直到你穿着另一套盔甲或你死亡。"
+						"如果你的盔甲通常對穿戴者的力量有要求，奧能裝甲能讓你無視它。",
+						"你能夠將奧能裝甲作為你奇械師法術的法器。",
+						"穿在你身上的奧能裝甲除非你自願，否則無法移除。同時，奧能裝甲能夠擴展到復蓋你的整個身體，並替換你所有缺失的肢體，替換肢體的部分擁有和正常肢體一樣的功能。",
+						"你能以一個動作穿著或脫下裝甲。護甲會一直保持奧能裝甲的功能，直到你穿著另一套盔甲或你死亡。"
 					]
 				}
 			]
 		},
 		{
-			"name": "装甲型号",
+			"name": "裝甲型號",
 			"ENG_name": "Armor Model",
 			"source": "TCE",
 			"page": 15,
@@ -3499,34 +3499,34 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级装甲师特性}",
-				"你能够定制你的奥能装甲。当你这么做时，能够从以下两种型号中选择其一：守护者 或 渗透者。你选择的型号会在你穿着时提供特殊的好处。",
-				"每种型号都包括一种特殊武器。当你使用该武器攻击时，你可以使用你的智力调整值，而不是力量或敏捷，来进行攻击和伤害检定。",
-				"只要你手上有{@item 铁匠工具|PHB}，就可以在完成一次短休或长休后更换你的装甲型号。",
+				"{@i 3級裝甲師特性}",
+				"你能夠訂製你的奧能裝甲。當你這麼做時，能夠從以下兩種型號中選擇其一：守護者 或 滲透者。你選擇的型號會在你穿著時提供特殊的好處。",
+				"每種型號都包括一種特殊武器。當你使用該武器攻擊時，你可以使用你的智力調整值，而不是力量或敏捷，來進行攻擊和傷害檢定。",
+				"只要你手上有{@item 鐵匠工具|PHB}，就可以在完成一次短休或長休後更換你的裝甲型號。",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "守护者",
+							"name": "守護者",
 							"ENG_name": "Guardian",
 							"entries": [
-								"你将装甲设计为适合冲锋陷阵。它拥有下列特性：",
+								"你將裝甲設計為適合衝鋒陷陣。它擁有下列特性：",
 								{
 									"type": "list",
 									"style": "list-hang-notitle",
 									"items": [
 										{
 											"type": "item",
-											"name": "雷霆战拳。",
+											"name": "雷霆戰拳。",
 											"ENG_name": "Thunder Gauntlets.",
-											"entry": "每一只装甲附带的手套在没有持握任何物品时皆可被视为一件简单近战武器，命中后会造成{@damage 1d8} 雷鸣伤害。被战拳击中的生物，会被装甲释放的魔法性干扰脉冲影响，使其对除你之外的目标攻击时有劣势，直到你的下个回合开始。"
+											"entry": "每一隻裝甲附帶的手套在沒有持握任何物品時皆可被視為一件簡單近戰武器，命中後會造成{@damage 1d8} 雷鳴傷害。被戰拳擊中的生物，會被裝甲釋放的魔法性干擾脈衝影響，使其對除了你之外的目標攻擊時有劣勢，直到你的下個回合開始。"
 										},
 										{
 											"type": "item",
-											"name": "防护场。",
+											"name": "防護場。",
 											"ENG_name": "Defensive Field.",
-											"entry": "在每个你的回合，你能以一个附赠动作获得等于你奇械师职业等级的临时生命值，这会取代你现有的任何临时生命值。如果你脱下装甲，你会失去这些临时生命值。你能执行此附赠动作一共等同于你熟练加值的次数，在完成一次长休后将恢复所有花费的使用次数。"
+											"entry": "在每個你的回合，你能以一個附贈動作獲得等於你奇械師職業等級的臨時生命值，這會取代你現有的任何臨時生命值。如果你脫下裝甲，你會失去這些臨時生命值。你能執行此附贈動作一共等同於你熟練加值的次數，在完成一次長休後將恢復所有花費的使用次數。"
 										}
 									]
 								}
@@ -3534,31 +3534,31 @@
 						},
 						{
 							"type": "entries",
-							"name": "渗透者",
+							"name": "滲透者",
 							"ENG_name": "Infiltrator",
 							"entries": [
-								"你出于某些特殊需要对你的装甲进行了定制。它拥有下列特性：",
+								"你出於某些特殊需要對你的裝甲進行了訂製。它擁有下列特性：",
 								{
 									"type": "list",
 									"style": "list-hang-notitle",
 									"items": [
 										{
 											"type": "item",
-											"name": "闪电发射器。",
+											"name": "閃電發射器。",
 											"ENG_name": "Lightning Launcher.",
-											"entry": "你在胸部或复盖装甲的拳头（根据你的选择）上安装了一个宝石状的节点。它被视为一件简单远程武器，它拥有90尺的常规射程和300尺的最大射程，在命中后会造成{@damage 1d6}闪电伤害。每个你的回合一次，你在通过闪电发射器命中一个生物时，能够额外造成{@damage 1d6} 闪电伤害。"
+											"entry": "你在胸部或復蓋裝甲的拳頭（根據你的選擇）上安裝了一個寶石狀的節點。它被視為一件簡單遠程武器，它擁有90尺的常規射程和300尺的最大射程，在命中後會造成{@damage 1d6}閃電傷害。每個你的回合一次，你在通過閃電發射器命中一個生物時，能夠額外造成{@damage 1d6} 閃電傷害。"
 										},
 										{
 											"type": "item",
-											"name": "动力步伐。",
+											"name": "動力步伐。",
 											"ENG_name": "Powered Steps.",
 											"entry": "你的步行速度增加5尺。"
 										},
 										{
 											"type": "item",
-											"name": "减震场。",
+											"name": "減震場。",
 											"ENG_name": "Dampening Field.",
-											"entry": "你在敏捷（{@skill 隐匿}）检定中具有优势。如果你的盔甲原本会让你在此检定上具有劣势，优势和劣势将会正常抵消。"
+											"entry": "你在敏捷（{@skill 隱匿}）檢定中具有優勢。如果你的盔甲原本會讓你在此檢定上具有劣勢，優勢和劣勢將會正常抵消。"
 										}
 									]
 								}
@@ -3569,7 +3569,7 @@
 			]
 		},
 		{
-			"name": "装甲师法术",
+			"name": "裝甲師法術",
 			"ENG_name": "Armorer Spells",
 			"source": "TCE",
 			"page": 15,
@@ -3580,14 +3580,14 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级装甲师特性}",
-				"只要你达到相应的职业等级，装甲师法术表格中的法术总是被视为已准备。这些法术对你来说是奇械师法术，且不会计入你可以准备法术的总数。",
+				"{@i 3級裝甲師特性}",
+				"只要你達到相應的職業等級，裝甲師法術表格中的法術總是被視為已準備。這些法術對你來說是奇械師法術，且不會計入你可以準備法術的總數。",
 				{
 					"type": "table",
-					"caption": "装甲师法术",
+					"caption": "裝甲師法術",
 					"colLabels": [
-						"奇械师等级",
-						"法术"
+						"奇械師等級",
+						"法術"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -3596,30 +3596,30 @@
 					"rows": [
 						[
 							"3rd",
-							"{@spell 魔法飞弹}, {@spell 雷鸣波}"
+							"{@spell 魔法飛彈}, {@spell 雷鳴波}"
 						],
 						[
 							"5th",
-							"{@spell 镜影术}, {@spell 粉碎音波}"
+							"{@spell 鏡影術}, {@spell 粉碎音波}"
 						],
 						[
 							"9th",
-							"{@spell 催眠图纹}, {@spell 闪电束}"
+							"{@spell 催眠圖紋}, {@spell 閃電束}"
 						],
 						[
 							"13th",
-							"{@spell 火焰护盾}, {@spell 高等隐形术}"
+							"{@spell 火焰護盾}, {@spell 高等隱形術}"
 						],
 						[
 							"17th",
-							"{@spell 穿墙术}, {@spell 力墙术}"
+							"{@spell 穿牆術}, {@spell 力牆術}"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "本职工具",
+			"name": "本職工具",
 			"ENG_name": "Tools of the Trade",
 			"source": "TCE",
 			"page": 15,
@@ -3630,12 +3630,12 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级装甲师特性}",
-				"你获得重甲的熟练。你同时获得{@item 铁匠工具|PHB}的熟练，如果你已经熟练于此工具，作为代替，你能获得另一种{@item 工匠工具|phb}的熟练。"
+				"{@i 3級裝甲師特性}",
+				"你獲得重甲的熟練。你同時獲得{@item 鐵匠工具|PHB}的熟練，如果你已經熟練於此工具，作為代替，你能獲得另一種{@item 工匠工具|phb}的熟練。"
 			]
 		},
 		{
-			"name": "额外攻击",
+			"name": "額外攻擊",
 			"ENG_name": "Extra Attack",
 			"source": "TCE",
 			"page": 15,
@@ -3646,12 +3646,12 @@
 			"level": 5,
 			"header": 2,
 			"entries": [
-				"{@i 5级装甲师特性}",
-				"每当你在自己回合执行{@action 攻击}动作时，你可以发动两次攻击，而非一次。"
+				"{@i 5級裝甲師特性}",
+				"每當你在自己回合執行{@action 攻擊}動作時，你可以發動兩次攻擊，而非一次。"
 			]
 		},
 		{
-			"name": "装甲改造",
+			"name": "裝甲改造",
 			"ENG_name": "Armor Modifications",
 			"source": "TCE",
 			"page": 15,
@@ -3662,12 +3662,12 @@
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"{@i 9级装甲师特性}",
-				"你习得了如何通过奇械师注法对你的奥能装甲进行特殊改造。奥能装甲现在你进行注法时，能够被视为下列独立物品：盔甲（胸甲）、靴子、护腕和武器。每件物品都能进行一次注法，此外，你的注法物品的上限增加2，但增加的部分只能用于为奥能装甲的一部分注法。"
+				"{@i 9級裝甲師特性}",
+				"你習得了如何通過奇械師注法對你的奧能裝甲進行特殊改造。奧能裝甲現在你進行注法時，能夠被視為下列獨立物品：盔甲（胸甲）、靴子、護腕和武器。每件物品都能進行一次注法，此外，你的注法物品的上限增加2，但增加的部分只能用於為奧能裝甲的一部分注法。"
 			]
 		},
 		{
-			"name": "完美装甲",
+			"name": "完美裝甲",
 			"ENG_name": "Perfected Armor",
 			"source": "TCE",
 			"page": 15,
@@ -3678,29 +3678,29 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"{@i 15级装甲师特性}",
-				"你的奥能装甲根据其型号获得下列额外好处。",
+				"{@i 15級裝甲師特性}",
+				"你的奧能裝甲根據其型號獲得下列額外好處。",
 				{
 					"type": "entries",
-					"name": "守护者",
+					"name": "守護者",
 					"ENG_name": "Guardian",
 					"entries": [
-						"对你奥能装甲能量系统的改进使你能够释放强大的拉力。当你可见的一个体型为巨型或更小的生物在距离你30尺内的地方结束其回合时，你能以一个反应迫使该生物对你的法术豁免DC进行一个力量豁免检定，失败将被拉向你最多30尺。如果你将目标拉到距离你5尺的地方，作为此反应的一部分，你能对该生物进行一次近战武器攻击。",
-						"你能够执行此反应的次数等于你的熟练加值，在完成一次长休后将恢复所有可用次数。"
+						"對你奧能裝甲能量系統的改進使你能夠釋放強大的拉力。當你可見的一個體型為巨型或更小的生物在距離你30尺內的地方結束其回合時，你能以一個反應迫使該生物對你的法術豁免DC進行一個力量豁免檢定，失敗將被拉向你最多30尺。如果你將目標拉到距離你5尺的地方，作為此反應的一部分，你能對該生物進行一次近戰武器攻擊。",
+						"你能夠執行此反應的次數等於你的熟練加值，在完成一次長休後將恢復所有可用次數。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "渗透者",
+					"name": "滲透者",
 					"ENG_name": "Infiltrator",
 					"entries": [
-						"任何被你闪电发射器造成闪电伤害的生物将在你的下个回合到来前发光。发光的生物会放出5尺半径的微光光照，当它试图攻击你时，光芒会突然增强，使其在针对你的攻击检定中具有劣势。另外，下次针对发光生物的攻击检定具有优势。如果那次攻击命中，将额外造成{@damage 1d6}闪电伤害。"
+						"任何被你閃電發射器造成閃電傷害的生物將在你的下個回合到來前發光。發光的生物會放出5尺半徑的微光光照，當它試圖攻擊你時，光芒會突然增強，使其在針對你的攻擊檢定中具有劣勢。另外，下次針對發光生物的攻擊檢定具有優勢。如果那次攻擊命中，將額外造成{@damage 1d6}閃電傷害。"
 					]
 				}
 			]
 		},
 		{
-			"name": "魔炮师",
+			"name": "魔炮師",
 			"ENG_name": "Artillerist",
 			"source": "TCE",
 			"page": 17,
@@ -3716,15 +3716,15 @@
 			"subclassSource": "TCE",
 			"level": 3,
 			"entries": [
-				"魔炮师是在战场上投射能量、炮弹和爆炸物的专家。这种破坏力在终末战争中受到所有军队的重视。而现在，战争已经结束，这一专业的部分人员开始试图运用自己的力量来消灭科瓦雷中的战争火种，从而建立一个更加和平的世界。",
-				"看上去不像，但事实上是卡尼斯家族战俑计划关键人物的侏儒奇械师Vi一直都大力宣扬要做正确的事：\"现在这个时代，应该致力于修复，而不是把一切都轰下地狱。\"",
+				"魔炮師是在戰場上投射能量、炮彈和爆炸物的專家。這種破壞力在終末戰爭中受到所有軍隊的重視。而現在，戰爭已經結束，這一專業的部分人員開始試圖運用自己的力量來消滅科瓦雷中的戰爭火種，從而建立一個更加和平的世界。",
+				"看起來不像，但事實上是卡尼斯家族戰俑計劃關鍵人物的侏儒奇械師Vi一直都大力宣揚要做正確的事：\"現在這個時代，應該致力於修復，而不是把一切都轟下地獄。\"",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "本职工具|Artificer|TCE|Artillerist|TCE|3"
+					"subclassFeature": "本職工具|Artificer|TCE|Artillerist|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "魔炮师法术|Artificer|TCE|Artillerist|TCE|3"
+					"subclassFeature": "魔炮師法術|Artificer|TCE|Artillerist|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -3733,7 +3733,7 @@
 			]
 		},
 		{
-			"name": "魔炮师法术",
+			"name": "魔炮師法術",
 			"ENG_name": "Artillerist Spells",
 			"source": "TCE",
 			"page": 17,
@@ -3750,14 +3750,14 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级魔炮师特性}",
-				"只要你达到相应的职业等级，魔炮师法术表格中的法术总是被视为已准备。这些法术对你来说是奇械师法术，且不会计入你可以准备法术的总数。",
+				"{@i 3級魔炮師特性}",
+				"只要你達到相應的職業等級，魔炮師法術表格中的法術總是被視為已準備。這些法術對你來說是奇械師法術，且不會計入你可以準備法術的總數。",
 				{
 					"type": "table",
-					"caption": "魔炮师法术",
+					"caption": "魔炮師法術",
 					"colLabels": [
-						"奇械师等级",
-						"法术"
+						"奇械師等級",
+						"法術"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -3766,23 +3766,23 @@
 					"rows": [
 						[
 							"3rd",
-							"{@spell 护盾术}, {@spell 雷鸣波}"
+							"{@spell 護盾術}, {@spell 雷鳴波}"
 						],
 						[
 							"5th",
-							"{@spell 灼热射线}, {@spell 粉碎音波}"
+							"{@spell 灼熱射線}, {@spell 粉碎音波}"
 						],
 						[
 							"9th",
-							"{@spell 火球术}, {@spell 风墙术}"
+							"{@spell 火球術}, {@spell 風牆術}"
 						],
 						[
 							"13th",
-							"{@spell 冰风暴}, {@spell 火墙术}"
+							"{@spell 冰風暴}, {@spell 火牆術}"
 						],
 						[
 							"17th",
-							"{@spell 寒冰锥}, {@spell 力墙术}"
+							"{@spell 寒冰錐}, {@spell 力牆術}"
 						]
 					]
 				}
@@ -3806,17 +3806,17 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级魔炮师特性}",
-				"你习得了如何制造一架魔法炮台。只要你手持{@item 木雕工具|PHB}或{@item 铁匠工具|PHB}，你能以一个动作在距离你5尺且没被占据的水平空格内魔法性地召唤出一架小型或微型炮台。小型魔能炮台会占据它所在的方格，而微型炮台能直接拿在手里。",
-				"你能够免费召唤一次炮台，若如此做，你必须完成一次长休才能再次进行。但是你也可以通过消耗一枚法术位来制造炮台。你同时只能拥有一架炮台，并且不能制造第二架炮台。",
-				"无论炮台有多大，它都是魔法物件。它的AC是18，生命值是你奇械师等级的5倍。它对毒素伤害和心灵伤害免疫。如果它被迫进行属性检定或豁免检定，则将其所有属性都视为10(+0)。如果对炮台施展{@spell 修复术}，它将恢复{@dice 2d6}生命值。炮台在生命值降低到0或者1小时后消失。你能以一个动作来提前让其消失。",
-				"当你制造炮台时，你可以决定它的外观以及是否有腿，并且需要从魔能炮台列表中选择它的类型。在你的每个回合中，只要你离炮台不到60尺，就能以一个附赠动作来激活炮台。作为同一动作的一部分，你可以引导有腿的炮台步行或攀爬到15尺内的一个未占用的空间中。",
+				"{@i 3級魔炮師特性}",
+				"你習得了如何製造一架魔法炮台。只要你手持{@item 木雕工具|PHB}或{@item 鐵匠工具|PHB}，你能以一個動作在距離你5尺且沒被占據的水準空格內魔法性地召喚出一架小型或微型炮台。小型魔能炮台會占據它所在的方格，而微型炮台能直接拿在手裡。",
+				"你能夠免費召喚一次炮台，若如此做，你必須完成一次長休才能再次進行。但是你也可以透過消耗一枚法術位來製造炮台。你同時只能擁有一架炮台，並且不能製造第二架炮台。",
+				"無論炮台有多大，它都是魔法物件。它的AC是18，生命值是你奇械師等級的5倍。它對毒素傷害和心靈傷害免疫。如果它被迫進行屬性檢定或豁免檢定，則將其所有屬性都視為10(+0)。如果對炮台施展{@spell 修復術}，它將恢復{@dice 2d6}生命值。炮台在生命值降低到0或者1小時後消失。你能以一個動作來提前讓其消失。",
+				"當你製造炮台時，你可以決定它的外觀以及是否有腿，並且需要從魔能炮台列表中選擇它的類型。在你的每個回合中，只要你離炮台不到60尺，就能以一個附贈動作來啟用炮台。作為同一動作的一部分，你可以引導有腿的炮台步行或攀爬到15尺內的一個未占用的空間中。",
 				{
 					"type": "table",
 					"caption": "魔能炮台",
 					"colLabels": [
 						"炮台",
-						"激活"
+						"啟用"
 					],
 					"colStyles": [
 						"col-2",
@@ -3825,22 +3825,22 @@
 					"rows": [
 						[
 							"{@b 投火器} Flamethrower",
-							"炮台在你指定的一个15尺锥形范围内发射火焰。该区域内的每个生物必须对你的法术豁免DC做一次敏捷豁免检定，如果豁免失败则受到{@damage 2d8}火焰伤害，成功的豁免检定将使伤害减半。火焰会点燃该地区内任何未被穿戴或携带的易燃物品。"
+							"炮台在你指定的一個15尺錐形範圍內發射火焰。該區域內的每個生物必須對你的法術豁免DC做一次敏捷豁免檢定，如果豁免失敗則受到{@damage 2d8}火焰傷害，成功的豁免檢定將使傷害減半。火焰會點燃該地區內任何未被穿戴或攜帶的易燃物品。"
 						],
 						[
-							"{@b 力场弩炮} Force Ballista",
-							"对一个距离炮台120尺以内的生物或物体进行远程法术攻击。击中时，目标受到{@damage 2d8}力场伤害，如果目标是一个生物，它将向远离炮台的方向推开5尺。"
+							"{@b 力場弩炮} Force Ballista",
+							"對一個距離炮台120尺以內的生物或物體進行遠程法術攻擊。擊中時，目標受到{@damage 2d8}力場傷害，如果目標是一個生物，它將向遠離炮台的方向推開5尺。"
 						],
 						[
-							"{@b 保护者} Protector",
-							"炮台释放出一股正能量，给予它自己和10尺距离内每个你选择的生物{@damage 1d8} + 你智力调整值的临时生命值（最低+1）。"
+							"{@b 保護者} Protector",
+							"炮台釋放出一股正能量，給予它自己和10尺距離內每個你選擇的生物{@damage 1d8} + 你智力調整值的臨時生命值（最低+1）。"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "本职工具",
+			"name": "本職工具",
 			"ENG_name": "Tool Proficiency",
 			"source": "TCE",
 			"page": 17,
@@ -3857,12 +3857,12 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级魔炮师特性}",
-				"你获得{@item 木雕工具|PHB}的熟练。如果你已经拥有此熟练，作为代替，你能获得另一种{@item 工匠工具|phb}的熟练。"
+				"{@i 3級魔炮師特性}",
+				"你獲得{@item 木雕工具|PHB}的熟練。如果你已經擁有此熟練，作為代替，你能獲得另一種{@item 工匠工具|phb}的熟練。"
 			]
 		},
 		{
-			"name": "奥法火器",
+			"name": "奧法火器",
 			"ENG_name": "Arcane Firearm",
 			"source": "TCE",
 			"page": 17,
@@ -3879,9 +3879,9 @@
 			"level": 5,
 			"header": 2,
 			"entries": [
-				"{@i 5级魔炮师特性}",
-				"你知道如何把魔杖、法杖或权杖变成一件奥法火器，一个传送你的毁灭性法术的管道。当你完成一次长休后，你可以用{@item 木雕工具|PHB}在一根魔杖、法杖或权杖上刻印一个特殊印记，从而把它变成你的奥法火器。印记会一直存在，除非你之后在另一件物品上刻上这种印记，这样的话，之前物体上印记就会消失。",
-				"你可以将你的奥法火器作为你奇械师法术的法器。当你通过奥法火器施放一个奇械师法术时，掷一个{@damage d8}，你在法术的一次伤害骰中获得与掷骰结果相同的加值。"
+				"{@i 5級魔炮師特性}",
+				"你知道如何把魔杖、法杖或權杖變成一件奧法火器，一個傳送你的毀滅性法術的管道。當你完成一次長休後，你可以用{@item 木雕工具|PHB}在一根魔杖、法杖或權杖上刻印一個特殊印記，從而把它變成你的奧法火器。印記會一直存在，除非你之後在另一件物品上刻上這種印記，這樣的話，之前物體上印記就會消失。",
+				"你可以將你的奧法火器作為你奇械師法術的法器。當你通過奧法火器施放一個奇械師法術時，擲一個{@damage d8}，你在法術的一次傷害骰中獲得與擲骰結果相同的加值。"
 			]
 		},
 		{
@@ -3902,19 +3902,19 @@
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"{@i 9级魔炮师特性}",
-				"你制造的每一门魔能炮台都将拥有更大的破坏力：",
+				"{@i 9級魔炮師特性}",
+				"你製造的每一門魔能炮台都將擁有更大的破壞力：",
 				{
 					"type": "list",
 					"items": [
-						"所有炮台的伤害增加{@damage 1d8}。",
-						"如果你距离炮台不到60尺，你能以一个动作命令你的炮台自爆。这么做会摧毁炮台，并迫使每一个离它20尺以内的生物对你的法术豁免DC进行一次敏捷豁免检定，若豁免失败，将受到{@damage 3d8}力场伤害，豁免成功则伤害减半。"
+						"所有炮台的傷害增加{@damage 1d8}。",
+						"如果你距離炮台不到60尺，你能以一個動作命令你的炮台自爆。這麼做會摧毀炮台，並迫使每一個離它20尺以內的生物對你的法術豁免DC進行一次敏捷豁免檢定，若豁免失敗，將受到{@damage 3d8}力場傷害，豁免成功則傷害減半。"
 					]
 				}
 			]
 		},
 		{
-			"name": "坚固要塞",
+			"name": "堅固要塞",
 			"ENG_name": "Fortified Position",
 			"source": "TCE",
 			"page": 17,
@@ -3931,19 +3931,19 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"{@i 15级魔炮师特性}",
-				"你成为了用魔能炮台构筑阵地的大师：",
+				"{@i 15級魔炮師特性}",
+				"你成為了用魔能炮台構築陣地的大師：",
 				{
 					"type": "list",
 					"items": [
-						"由于你用魔能炮台特性创造的炮台所发出的闪光魔法保护场，你和你的盟友在距离炮台10尺以内时具有半掩蔽。",
-						"你现在同时拥有二架炮台，你能以一个动作同时制造两架炮台（但使用法术位制造时，每个炮台都要一个法术位）。此外，你能够以一个附赠动作来同时激活两架炮台。这两架炮台可以是不同的类型。你在拥有两架炮台时，不能制造第三架炮台。"
+						"由於你用魔能炮台特性創造的炮台所發出的閃光魔法保護場，你和你的盟友在距離炮台10尺以內時具有半掩蔽。",
+						"你現在同時擁有二架炮台，你能以一個動作同時製造兩架炮台（但使用法術位製造時，每個炮台都要一個法術位）。此外，你能夠以一個附贈動作來同時啟用兩架炮台。這兩架炮台可以是不同的類型。你在擁有兩架炮台時，不能製造第三架炮台。"
 					]
 				}
 			]
 		},
 		{
-			"name": "战地匠师",
+			"name": "戰地匠師",
 			"ENG_name": "Battle Smith",
 			"source": "TCE",
 			"page": 18,
@@ -3959,28 +3959,28 @@
 			"subclassSource": "TCE",
 			"level": 3,
 			"entries": [
-				"军队需要保护，但当防卫战失败时，需要有人来进行重整。身为守护者和医生的结合，战地匠师是进行防卫，以及重整工事与人员的专家。战地匠师大多都携带一个由自己制造的防卫性随从\u2014\u2014钢铁守卫来辅助自己。无数士兵都曾讲述过关于濒临死亡的自己被一名战地匠师，以及他的钢铁守卫所拯救的故事。",
-				"战地匠师在卡尼斯家族制造战斗构装体和最初的战俑时扮演了关键的角色。在终末战争过后，这些奇械师致力于救助在恐怖的战争中受伤的人。",
+				"軍隊需要保護，但當防衛戰失敗時，需要有人來進行重整。身為守護者和醫生的結合，戰地匠師是進行防衛，以及重整工事與人員的專家。戰地匠師大多都攜帶一個由自己製造的防衛性隨從\u2014\u2014鋼鐵守衛來輔助自己。無數士兵都曾講述過關於瀕臨死亡的自己被一名戰地匠師，以及他的鋼鐵守衛所拯救的故事。",
+				"戰地匠師在卡尼斯家族製造戰鬥構裝體和最初的戰俑時扮演了關鍵的角色。在終末戰爭過後，這些奇械師致力於救助在恐怖的戰爭中受傷的人。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "本职工具|Artificer|TCE|Battle Smith|TCE|3"
+					"subclassFeature": "本職工具|Artificer|TCE|Battle Smith|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "战地匠师法术|Artificer|TCE|Battle Smith|TCE|3"
+					"subclassFeature": "戰地匠師法術|Artificer|TCE|Battle Smith|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "战斗准备|Artificer|TCE|Battle Smith|TCE|3"
+					"subclassFeature": "戰鬥準備|Artificer|TCE|Battle Smith|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "钢铁守卫|Artificer|TCE|Battle Smith|TCE|3"
+					"subclassFeature": "鋼鐵守衛|Artificer|TCE|Battle Smith|TCE|3"
 				}
 			]
 		},
 		{
-			"name": "战斗准备",
+			"name": "戰鬥準備",
 			"ENG_name": "Battle Ready",
 			"source": "TCE",
 			"page": 18,
@@ -3997,19 +3997,19 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级战地匠师特性}",
-				"你的战斗训练和魔法实验为你带来了两种好处：",
+				"{@i 3級戰地匠師特性}",
+				"你的戰鬥訓練和魔法實驗為你帶來了兩種好處：",
 				{
 					"type": "list",
 					"items": [
-						"你获得军用武器的熟练。",
-						"当你以魔法武器攻击时，你可以在攻击和伤害检定使用智力调整值，以代替力量或敏捷。"
+						"你獲得軍用武器的熟練。",
+						"當你以魔法武器攻擊時，你可以在攻擊和傷害檢定使用智力調整值，以代替力量或敏捷。"
 					]
 				}
 			]
 		},
 		{
-			"name": "战地匠师法术",
+			"name": "戰地匠師法術",
 			"ENG_name": "Battle Smith Spells",
 			"source": "TCE",
 			"page": 18,
@@ -4026,14 +4026,14 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级战地匠师特性}",
-				"只要你达到相应的职业等级，战地匠师法术表格中的法术总是被视为已准备。这些法术对你来说是奇械师法术，且不会计入你可以准备法术的总数。",
+				"{@i 3級戰地匠師特性}",
+				"只要你達到相應的職業等級，戰地匠師法術表格中的法術總是被視為已準備。這些法術對你來說是奇械師法術，且不會計入你可以準備法術的總數。",
 				{
 					"type": "table",
-					"caption": "战地匠师法术",
+					"caption": "戰地匠師法術",
 					"colLabels": [
-						"奇械师等级",
-						"法术"
+						"奇械師等級",
+						"法術"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -4042,30 +4042,30 @@
 					"rows": [
 						[
 							"3rd",
-							"{@spell 英雄气概}, {@spell 护盾术}"
+							"{@spell 英雄氣概}, {@spell 護盾術}"
 						],
 						[
 							"5th",
-							"{@spell 烙印斩}, {@spell 守护联结}"
+							"{@spell 烙印斬}, {@spell 守護聯結}"
 						],
 						[
 							"9th",
-							"{@spell 活力灵光}, {@spell 召唤箭幕}"
+							"{@spell 活力靈光}, {@spell 召喚箭幕}"
 						],
 						[
 							"13th",
-							"{@spell 净化灵光}, {@spell 火焰护盾}"
+							"{@spell 淨化靈光}, {@spell 火焰護盾}"
 						],
 						[
 							"17th",
-							"{@spell 放逐斩}, {@spell 群体治疗伤势}"
+							"{@spell 放逐斬}, {@spell 群體治療傷勢}"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "钢铁守卫",
+			"name": "鋼鐵守衛",
 			"ENG_name": "Steel Defender",
 			"source": "TCE",
 			"page": 18,
@@ -4082,15 +4082,15 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级战地匠师特性}",
-				"你闲暇的工匠时间让你创造出可靠的随从，一个{@creature steel defender|tce}。它对你和你的同伴友好，并且服从你的命令。钢铁守卫的游戏数据见下，它的数据中某几项会适用你的熟练加值。该生物的外观，两足步行还是四足步行皆由你决定；你的决定对游戏数据没有影响。",
-				"在战斗中，钢铁守卫使用你的先攻，并且在你的回合后立即行动。它能自由移动和执行反应，但除非你以一个附赠动作命令它进行数据中列出的动作或其他动作，否则它在回合中只能进行{@action 闪避}动作。如果你{@condition 无力}，钢铁守卫可以进行任何动作，而不仅仅是{@action 闪避}。",
-				"如果你对钢铁守卫施放{@spell 修复术}，它将恢复{@dice 2d6}生命值。如果它在最近一小时内死亡，你能够以一个动作使用{@item 铁匠工具|PHB}花费一个至少1环的法术位来在距离你5尺的空格内复活它。钢铁守卫会在1分钟后复活，在复活时会回满生命值。",
-				"当你在手头有{@item 铁匠工具|PHB}的情况下完成一次长休时，你可以创造一个新的钢铁守卫。如果你已经通过此特性拥有一个钢铁守卫，则上一个会立即消失。如果你死亡，钢铁守卫会随之损毁。"
+				"{@i 3級戰地匠師特性}",
+				"你閒暇的工匠時間讓你創造出可靠的隨從，一個{@creature steel defender|tce}。它對你和你的同伴友好，並且服從你的命令。鋼鐵守衛的遊戲數據見下，它的數據中某幾項會適用你的熟練加值。該生物的外觀，兩足步行還是四足步行皆由你決定；你的決定對遊戲數據沒有影響。",
+				"在戰鬥中，鋼鐵守衛使用你的先攻，並且在你的回合後立即行動。它能自由移動和執行反應，但除非你以一個附贈動作命令它進行數據中列出的動作或其他動作，否則它在回合中只能進行{@action 閃避}動作。如果你{@condition 無力}，鋼鐵守衛可以進行任何動作，而不僅僅是{@action 閃避}。",
+				"如果你對鋼鐵守衛施放{@spell 修復術}，它將恢復{@dice 2d6}生命值。如果它在最近一小時內死亡，你能夠以一個動作使用{@item 鐵匠工具|PHB}花費一個至少1環的法術位來在距離你5尺的空格內復活它。鋼鐵守衛會在1分鐘後復活，在復活時會回滿生命值。",
+				"當你在手頭有{@item 鐵匠工具|PHB}的情況下完成一次長休時，你可以創造一個新的鋼鐵守衛。如果你已經通過此特性擁有一個鋼鐵守衛，則上一個會立即消失。如果你死亡，鋼鐵守衛會隨之損毀。"
 			]
 		},
 		{
-			"name": "本职工具",
+			"name": "本職工具",
 			"ENG_name": "Tool Proficiency",
 			"source": "TCE",
 			"page": 18,
@@ -4107,12 +4107,12 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级战地匠师特性}",
-				"你获得{@item 铁匠工具|PHB}的熟练。如果你已经拥有此熟练，作为代替，你能获得另一种{@item 工匠工具|phb}的熟练。"
+				"{@i 3級戰地匠師特性}",
+				"你獲得{@item 鐵匠工具|PHB}的熟練。如果你已經擁有此熟練，作為代替，你能獲得另一種{@item 工匠工具|phb}的熟練。"
 			]
 		},
 		{
-			"name": "额外攻击",
+			"name": "額外攻擊",
 			"ENG_name": "Extra Attack",
 			"source": "TCE",
 			"page": 18,
@@ -4129,12 +4129,12 @@
 			"level": 5,
 			"header": 2,
 			"entries": [
-				"{@i 5级战地匠师特性}",
-				"每当你在自己回合执行{@action 攻击}动作时，你可以发动两次攻击，而非一次。"
+				"{@i 5級戰地匠師特性}",
+				"每當你在自己回合執行{@action 攻擊}動作時，你可以發動兩次攻擊，而非一次。"
 			]
 		},
 		{
-			"name": "奥能震荡",
+			"name": "奧能震盪",
 			"ENG_name": "Arcane Jolt",
 			"source": "TCE",
 			"page": 18,
@@ -4151,20 +4151,20 @@
 			"level": 9,
 			"header": 2,
 			"entries": [
-				"{@i 9级战地匠师特性}",
-				"你学会了新的方法来引导奥术能量进行伤害或治疗。当你使用魔法武器或指挥钢铁守卫命中目标时，你可以将奥术能量引导至攻击中，以获得以下一种效应：",
+				"{@i 9級戰地匠師特性}",
+				"你學會了新的方法來引導奧術能量進行傷害或治療。當你使用魔法武器或指揮鋼鐵守衛命中目標時，你可以將奧術能量引導至攻擊中，以獲得以下一種效應：",
 				{
 					"type": "list",
 					"items": [
-						"目标受到额外的{@damage 2d6}力场伤害。",
-						"选择距离目标30尺以内的一个可见生物或物体。治愈能量涌进选择的对象，为其恢复{@dice 2d6}生命值。"
+						"目標受到額外的{@damage 2d6}力場傷害。",
+						"選擇距離目標30尺以內的一個可見生物或物體。治癒能量湧進選擇的對象，為其恢復{@dice 2d6}生命值。"
 					]
 				},
-				"你可以引导奥术能量的次数等同于你的智力调整值（至少1次），但每回合只能这么做一次。在你完成长休时，恢复所有可用次数。"
+				"你可以引導奧術能量的次數等同於你的智力調整值（至少1次），但每回合只能這麼做一次。在你完成長休時，恢復所有可用次數。"
 			]
 		},
 		{
-			"name": "改良守卫",
+			"name": "改良守衛",
 			"ENG_name": "Improved Defender",
 			"source": "TCE",
 			"page": 18,
@@ -4181,14 +4181,14 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"{@i 15级战地匠师特性}",
-				"你的奥能震荡和钢铁守卫变得更强：",
+				"{@i 15級戰地匠師特性}",
+				"你的奧能震盪和鋼鐵守衛變得更強：",
 				{
 					"type": "list",
 					"items": [
-						"奥能震荡的额外伤害和生命恢复变为{@damage 4d6}。",
-						"你的钢铁守卫的AC获得+2加值。",
-						"当你的钢铁守卫使用偏转攻击时，攻击者受到{@damage 1d4} + 你的智力调整值的力场伤害。"
+						"奧能震盪的額外傷害和生命恢復變為{@damage 4d6}。",
+						"你的鋼鐵守衛的AC獲得+2加值。",
+						"當你的鋼鐵守衛使用偏轉攻擊時，攻擊者受到{@damage 1d4} + 你的智力調整值的力場傷害。"
 					]
 				}
 			]
@@ -4236,7 +4236,7 @@
 				"{@i 3rd-level Armorer feature}",
 				"You can customize your power armor. When you do so, choose one of the following armor models: guardian or infiltrator. The model you choose gives you special benefits while you wear it.",
 				"Each model includes a special weapon. When you attack with that weapon, you can use your Intelligence modifier, instead of Strength or Dexterity, for the attack and damage rolls.",
-				"You can change your power armor's model whenever you finish a short or long rest, provided you have {@item 铁匠工具|PHB} in hand.",
+				"You can change your power armor's model whenever you finish a short or long rest, provided you have {@item 鐵匠工具|PHB} in hand.",
 				{
 					"type": "entries",
 					"name": "Guardian",
@@ -4282,7 +4282,7 @@
 								{
 									"type": "item",
 									"name": "Second Skin.",
-									"entry": "The armor's weight is negligible, and it becomes formfitting and wearable under clothing. If the armor normally imposes disadvantage on Dexterity ({@skill 隐匿}) checks, the power armor doesn't."
+									"entry": "The armor's weight is negligible, and it becomes formfitting and wearable under clothing. If the armor normally imposes disadvantage on Dexterity ({@skill 隱匿}) checks, the power armor doesn't."
 								}
 							]
 						}
@@ -4317,23 +4317,23 @@
 					"rows": [
 						[
 							"3rd",
-							"{@spell 魔法飞弹}, {@spell 护盾术}"
+							"{@spell 魔法飛彈}, {@spell 護盾術}"
 						],
 						[
 							"5th",
-							"{@spell 镜影术}, {@spell 粉碎音波}"
+							"{@spell 鏡影術}, {@spell 粉碎音波}"
 						],
 						[
 							"9th",
-							"{@spell 催眠图纹}, {@spell 闪电束}"
+							"{@spell 催眠圖紋}, {@spell 閃電束}"
 						],
 						[
 							"13th",
-							"{@spell 火焰护盾}, {@spell 高等隐形术}"
+							"{@spell 火焰護盾}, {@spell 高等隱形術}"
 						],
 						[
 							"17th",
-							"{@spell 穿墙术}, {@spell 力墙术}"
+							"{@spell 穿牆術}, {@spell 力牆術}"
 						]
 					]
 				}
@@ -4351,7 +4351,7 @@
 			"header": 1,
 			"entries": [
 				"{@i 3rd-level Armorer feature}",
-				"Your metallurgical pursuits have led to you making armor a conduit for your artificer magic. As an action, you can turn a suit of heavy armor you are wearing into power armor, provided you have {@item 铁匠工具|PHB} in hand.",
+				"Your metallurgical pursuits have led to you making armor a conduit for your artificer magic. As an action, you can turn a suit of heavy armor you are wearing into power armor, provided you have {@item 鐵匠工具|PHB} in hand.",
 				"You gain the following benefits while wearing the power armor:",
 				{
 					"type": "list",
@@ -4376,7 +4376,7 @@
 			"header": 1,
 			"entries": [
 				"{@i 3rd-level Armorer feature}",
-				"You gain proficiency with heavy armor. You also gain proficiency with {@item 铁匠工具|PHB}. If you already have this tool proficiency, you gain proficiency with one other type of {@item 工匠工具|phb} of your choice."
+				"You gain proficiency with heavy armor. You also gain proficiency with {@item 鐵匠工具|PHB}. If you already have this tool proficiency, you gain proficiency with one other type of {@item 工匠工具|phb} of your choice."
 			]
 		},
 		{
@@ -4391,7 +4391,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 5th-level Armorer feature}",
-				"You can attack twice, rather than once, whenever you take the {@action 攻击} action on your turn."
+				"You can attack twice, rather than once, whenever you take the {@action 攻擊} action on your turn."
 			]
 		},
 		{
@@ -4633,7 +4633,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"When you choose this specialization at 1st level, you gain proficiency with {@item 铁匠工具|phb}, and you learn the mending cantrip."
+				"When you choose this specialization at 1st level, you gain proficiency with {@item 鐵匠工具|phb}, and you learn the mending cantrip."
 			]
 		},
 		{
@@ -4747,10 +4747,10 @@
 			"header": 1,
 			"entries": [
 				"At 3rd level, you learn ancient methods for magically creating a special homunculus that is formed by alchemical substances.",
-				"Whenever you finish a long rest and your {@item 炼金工具|PHB} are with you, you can form this homunculus in an unoccupied space within 5 feet of you. If you already have a homunculus from this feature, the first one immediately dies.",
+				"Whenever you finish a long rest and your {@item 煉金工具|PHB} are with you, you can form this homunculus in an unoccupied space within 5 feet of you. If you already have a homunculus from this feature, the first one immediately dies.",
 				"The homunculus is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the {@creature Alchemical Homunculus|uaartificerrevisited} stat block. You determine the homunculus's appearance, which includes wings and bits of alchemical equipment. Some alchemists prefer mechanical-looking birds, whereas others like winged vials or miniature cauldrons.",
-				"In combat, the homunculus shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is the {@action 闪避} action, unless you take a bonus action on your turn to command it to take one of the actions in its stat block or to take the {@action 疾走}, {@action 撤离}, or {@action 协助} action.",
-				"If the {@spell 修复术} spell is cast on it, it regains {@dice 2d6} hit points. If it has died within the last hour, you can use your {@item 炼金工具|PHB} as an action to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The homunculus returns to life with all its hit points restored."
+				"In combat, the homunculus shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is the {@action 閃避} action, unless you take a bonus action on your turn to command it to take one of the actions in its stat block or to take the {@action 疾走}, {@action 撤離}, or {@action 協助} action.",
+				"If the {@spell 修復術} spell is cast on it, it regains {@dice 2d6} hit points. If it has died within the last hour, you can use your {@item 煉金工具|PHB} as an action to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The homunculus returns to life with all its hit points restored."
 			]
 		},
 		{
@@ -4779,23 +4779,23 @@
 					"rows": [
 						[
 							"3rd",
-							"{@spell 净化饮食}, {@spell 致病射线}"
+							"{@spell 淨化飲食}, {@spell 致病射線}"
 						],
 						[
 							"5th",
-							"{@spell 马友夫强酸箭}, {@spell 蛛网术}"
+							"{@spell 馬友夫強酸箭}, {@spell 蛛網術}"
 						],
 						[
 							"9th",
-							"{@spell 创造饮食}, {@spell 臭云术}"
+							"{@spell 創造飲食}, {@spell 臭雲術}"
 						],
 						[
 							"13th",
-							"{@spell 枯萎术}, {@spell 防死护咒}"
+							"{@spell 枯萎術}, {@spell 防死護咒}"
 						],
 						[
 							"17th",
-							"{@spell 死云术}, {@spell 唤醒死者}"
+							"{@spell 死雲術}, {@spell 喚醒死者}"
 						]
 					]
 				}
@@ -4817,7 +4817,7 @@
 					"type": "entries",
 					"name": "Proficiencies",
 					"entries": [
-						"You gain proficiency with {@item 炼金工具|phb} and the {@item 草药工具|phb}, assuming you don't already have them. You also gain {@item 炼金工具|phb} and an {@item 草药工具|phb} for free\u2014the result of tinkering you've done as you've prepared for this specialization."
+						"You gain proficiency with {@item 煉金工具|phb} and the {@item 草藥工具|phb}, assuming you don't already have them. You also gain {@item 煉金工具|phb} and an {@item 草藥工具|phb} for free\u2014the result of tinkering you've done as you've prepared for this specialization."
 					]
 				},
 				{
@@ -4840,8 +4840,8 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, your command of magical chemicals has become masterful, enhancing the healing and damage you create through them. When you cast a spell using your {@item 炼金工具|phb} as the spellcasting focus, you gain a bonus to one roll of the spell. That roll must restore hit points or be a damage roll that deals acid or poison damage, and the bonus equals your Intelligence modifier (minimum of +1).",
-				"In addition, you can cast {@spell 次级复原术} without expending a spell slot, provided you use {@item 炼金工具|phb} as the spellcasting focus. You can do so a number of times per day equal to your Intelligence modifier (minimum of once)."
+				"At 6th level, your command of magical chemicals has become masterful, enhancing the healing and damage you create through them. When you cast a spell using your {@item 煉金工具|phb} as the spellcasting focus, you gain a bonus to one roll of the spell. That roll must restore hit points or be a damage roll that deals acid or poison damage, and the bonus equals your Intelligence modifier (minimum of +1).",
+				"In addition, you can cast {@spell 次級復原術} without expending a spell slot, provided you use {@item 煉金工具|phb} as the spellcasting focus. You can do so a number of times per day equal to your Intelligence modifier (minimum of once)."
 			]
 		},
 		{
@@ -4856,7 +4856,7 @@
 			"header": 2,
 			"entries": [
 				"By 14th level, you have been exposed to so many chemicals and unlocked their secrets that they pose little risk to you, and you can use them to quickly end certain ailments. You gain resistance to acid damage and poison damage, and you are now immune to the {@condition 中毒} condition.",
-				"In addition, you can cast {@spell 高等复原术} once without expending a spell slot and without providing the material component, provided you use {@item 炼金工具|phb} as the spellcasting focus. You regain the ability to do so when you finish a long rest."
+				"In addition, you can cast {@spell 高等復原術} once without expending a spell slot and without providing the material component, provided you use {@item 煉金工具|phb} as the spellcasting focus. You regain the ability to do so when you finish a long rest."
 			]
 		},
 		{
@@ -4914,23 +4914,23 @@
 					"rows": [
 						[
 							"3rd",
-							"{@spell 通晓语言}, {@spell 噪音暗语}"
+							"{@spell 通曉語言}, {@spell 噪音暗語}"
 						],
 						[
 							"5th",
-							"{@spell 侦测思想}, {@spell 物品定位术}"
+							"{@spell 偵測思想}, {@spell 物品定位術}"
 						],
 						[
 							"9th",
-							"{@spell 催眠图纹}, {@spell 巧舌术}"
+							"{@spell 催眠圖紋}, {@spell 巧舌術}"
 						],
 						[
 							"13th",
-							"{@spell 生物定位术}, {@spell 魅影杀手}"
+							"{@spell 生物定位術}, {@spell 魅影殺手}"
 						],
 						[
 							"17th",
-							"{@spell 通晓传奇}, {@spell 修改记忆}"
+							"{@spell 通曉傳奇}, {@spell 修改記憶}"
 						]
 					]
 				}
@@ -4947,7 +4947,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, you discover how to awaken a mind inside an object. Whenever you finish a long rest and your {@item 书法工具|PHB} are with you, you can magically rouse a keen mind within a Tiny, nonmagical object on which you write mystical symbols. The object is a magic item while the mind is inside it, and you can use it as a spellcasting focus. If you already have an artificial mind from this feature, the first one immediately dissipates.",
+				"At 3rd level, you discover how to awaken a mind inside an object. Whenever you finish a long rest and your {@item 書法工具|PHB} are with you, you can magically rouse a keen mind within a Tiny, nonmagical object on which you write mystical symbols. The object is a magic item while the mind is inside it, and you can use it as a spellcasting focus. If you already have an artificial mind from this feature, the first one immediately dissipates.",
 				"The magic item has the following properties.",
 				{
 					"type": "entries",
@@ -4961,7 +4961,7 @@
 					"name": "Manifest Mind",
 					"entries": [
 						"As a bonus action while the item is on your person, you can cause the mind to manifest as a Tiny spectral presence, hovering in an unoccupied space of your choice within 60 feet of you. This presence is intangible and invulnerable, and it sheds dim light in a 10-foot radius. You determine its appearance; the Artificial Mind table offers suggested appearances based on the object's main material.",
-						"While manifested, the spectral mind can hear and see, and it has {@sense 黑暗视觉} with a range of 60 feet. As an action, you can hear and see using the mind's senses, instead of your own, until your concentration ends (as if concentrating on a spell).",
+						"While manifested, the spectral mind can hear and see, and it has {@sense 黑暗視覺} with a range of 60 feet. As an action, you can hear and see using the mind's senses, instead of your own, until your concentration ends (as if concentrating on a spell).",
 						"As a bonus action, you can cause the spectral mind to hover up to 30 feet to an unoccupied space that you or it can see. It can pass through creatures but not objects. The spectral mind stops manifesting if it is ever more than 300 feet away from its magic item or if you dismiss it as a bonus action.",
 						"When you cast an artificer spell on your turn, you can cast it as if you were in the spectral mind's space, instead of your own, using its senses. You can do so a number of times per day equal to your Intelligence modifier (at least once), and you regain all expended uses when you finish a long rest."
 					]
@@ -4990,17 +4990,17 @@
 					"rows": [
 						[
 							"Animal (parchment, leather, bone)",
-							"{@skill 驯兽}, {@skill 洞悉}, {@skill 医疗}, {@skill 察觉}, {@skill 生存}",
+							"{@skill 馴獸}, {@skill 洞悉}, {@skill 醫療}, {@skill 察覺}, {@skill 生存}",
 							"A beast or a humanoid visage with antlers"
 						],
 						[
 							"Mineral (glass, stone, metal)",
-							"{@skill 欺瞒}, {@skill 威吓}, {@skill 表演}, {@skill 说服}",
+							"{@skill 欺瞞}, {@skill 威嚇}, {@skill 表演}, {@skill 說服}",
 							"A robotic or golem-like face"
 						],
 						[
 							"Plant (paper, wood)",
-							"{@skill 奥秘}, {@skill 历史}, {@skill 调查}, {@skill 自然}, {@skill 宗教}",
+							"{@skill 奧秘}, {@skill 歷史}, {@skill 調查}, {@skill 自然}, {@skill 宗教}",
 							"A bespectacled visage or a treant"
 						]
 					]
@@ -5038,7 +5038,7 @@
 					"type": "entries",
 					"name": "Proficiencies",
 					"entries": [
-						"You gain proficiency with {@item 书法工具|phb} and the {@item 文书伪造工具|phb}, assuming you don't already have them. You also gain {@item 书法工具|PHB} and a {@item 文书伪造工具|PHB} for free\u2014the result of tinkering you've done as you've prepared for this specialization."
+						"You gain proficiency with {@item 書法工具|phb} and the {@item 文書偽造工具|phb}, assuming you don't already have them. You also gain {@item 書法工具|PHB} and a {@item 文書偽造工具|PHB} for free\u2014the result of tinkering you've done as you've prepared for this specialization."
 					]
 				},
 				{
@@ -5094,7 +5094,7 @@
 					"type": "entries",
 					"name": "Mind Overload",
 					"entries": [
-						"When you expend a spell slot to increase the damage of Information Overload, the target must succeed on an Intelligence saving throw against your spell save DC or be {@condition 震慑} until the end of your next turn."
+						"When you expend a spell slot to increase the damage of Information Overload, the target must succeed on an Intelligence saving throw against your spell save DC or be {@condition 震懾} until the end of your next turn."
 					]
 				},
 				{
@@ -5143,8 +5143,8 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, you learn how to create a magical turret. With your {@item 铁匠工具|phb} in hand, you can take an action to magically summon a Medium turret in an unoccupied space on a horizontal surface within 5 feet of you.",
-				"The turret is a magical object that occupies its space and that has crablike legs. It has an AC of 18 and a number of hit points equal to five times your artificer level. It is immune to poison damage, psychic damage, and all conditions. If it is forced to make an ability check or a saving throw, treat all its ability scores as 10 (+0). If the {@spell 修复术} spell is cast on it, it regains {@dice 2d6} hit points. It disappears if it is reduced to 0 hit points or after 10 minutes. You can dismiss it early as an action.",
+				"At 3rd level, you learn how to create a magical turret. With your {@item 鐵匠工具|phb} in hand, you can take an action to magically summon a Medium turret in an unoccupied space on a horizontal surface within 5 feet of you.",
+				"The turret is a magical object that occupies its space and that has crablike legs. It has an AC of 18 and a number of hit points equal to five times your artificer level. It is immune to poison damage, psychic damage, and all conditions. If it is forced to make an ability check or a saving throw, treat all its ability scores as 10 (+0). If the {@spell 修復術} spell is cast on it, it regains {@dice 2d6} hit points. It disappears if it is reduced to 0 hit points or after 10 minutes. You can dismiss it early as an action.",
 				"When you summon the turret, you decide which type it is, choosing from the options on the Arcane Turrets table. On each of your turns, you can take a bonus action to cause the turret to activate if you are within 60 feet of it. As part of the same action, you can direct the turret to walk or climb up to 15 feet to an unoccupied space.",
 				"You can summon a turret once for free and must finish a long rest before doing so again. You can also summon the turret by expending a spell slot of 1st level or higher. If you summon a second turret, the first turret disappears.",
 				"As an action, you can command your turret to detonate if you are within 60 feet of it. Doing so destroys the turret and forces each creature within 10 feet of it to make a Dexterity saving throw against your spell save DC, taking {@damage 3d6} force damage on a failed save or half as much damage on a successful one.",
@@ -5202,23 +5202,23 @@
 					"rows": [
 						[
 							"3rd",
-							"{@spell 护盾术}, {@spell 雷鸣波}"
+							"{@spell 護盾術}, {@spell 雷鳴波}"
 						],
 						[
 							"5th",
-							"{@spell 灼热射线}, {@spell 粉碎音波}"
+							"{@spell 灼熱射線}, {@spell 粉碎音波}"
 						],
 						[
 							"9th",
-							"{@spell 火球术}, {@spell 风墙术}"
+							"{@spell 火球術}, {@spell 風牆術}"
 						],
 						[
 							"13th",
-							"{@spell 冰风暴}, {@spell 火墙术}"
+							"{@spell 冰風暴}, {@spell 火牆術}"
 						],
 						[
 							"17th",
-							"{@spell 寒冰锥}, {@spell 力墙术}"
+							"{@spell 寒冰錐}, {@spell 力牆術}"
 						]
 					]
 				}
@@ -5240,7 +5240,7 @@
 					"type": "entries",
 					"name": "Proficiencies",
 					"entries": [
-						"You gain proficiency with {@item 铁匠工具|phb} and {@item 木雕工具|phb}, assuming you don't already have them. You also gain those tools for free\u2014the result of tinkering you've done as you've prepared for this specialization.",
+						"You gain proficiency with {@item 鐵匠工具|phb} and {@item 木雕工具|phb}, assuming you don't already have them. You also gain those tools for free\u2014the result of tinkering you've done as you've prepared for this specialization.",
 						"In addition, you gain the ability to use rods, staffs, and wands as spellcasting focuses for your artificer spells. You also gain a nonmagical, wooden wand for free, which you've carved in your spare time."
 					]
 				},
@@ -5361,23 +5361,23 @@
 					"rows": [
 						[
 							"3rd",
-							"{@spell 英雄气概}, {@spell 炽炎斩}"
+							"{@spell 英雄氣概}, {@spell 熾炎斬}"
 						],
 						[
 							"5th",
-							"{@spell 烙印斩}, {@spell 守护联结}"
+							"{@spell 烙印斬}, {@spell 守護聯結}"
 						],
 						[
 							"9th",
-							"{@spell 活力灵光}, {@spell 致盲斩}"
+							"{@spell 活力靈光}, {@spell 致盲斬}"
 						],
 						[
 							"13th",
-							"{@spell 净化灵光}, {@spell 惊震斩}"
+							"{@spell 淨化靈光}, {@spell 驚震斬}"
 						],
 						[
 							"17th",
-							"{@spell 放逐斩}, {@spell 群体治疗伤势}"
+							"{@spell 放逐斬}, {@spell 群體治療傷勢}"
 						]
 					]
 				}
@@ -5395,9 +5395,9 @@
 			"header": 1,
 			"entries": [
 				"By 3rd level, the tinkering in your free time has borne you a faithful companion, an iron defender. This metallic creature resembles a hound, a cougar, a bear, or another four-legged creature of your choice. It is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the {@creature iron defender|uaartificerrevisited} stat block.",
-				"In combat, the iron defender shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the {@action 闪避} action, unless you take a bonus action on your turn to command it to take one of the actions in its stat block or the {@action 疾走}, {@action 撤离}, or {@action 协助} action.",
-				"If the {@spell 修复术} spell is cast on it, it regains {@dice 2d6} hit points. If it has died within the last hour, you can use your {@item 铁匠工具|phb} as an action to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The iron defender returns to life after 1 minute with all its hit points restored.",
-				"At the end of a long rest, you can create a new iron defender if you have your {@item 铁匠工具|phb} with you. If you already have an iron defender from this feature, the first one immediately perishes."
+				"In combat, the iron defender shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the {@action 閃避} action, unless you take a bonus action on your turn to command it to take one of the actions in its stat block or the {@action 疾走}, {@action 撤離}, or {@action 協助} action.",
+				"If the {@spell 修復術} spell is cast on it, it regains {@dice 2d6} hit points. If it has died within the last hour, you can use your {@item 鐵匠工具|phb} as an action to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The iron defender returns to life after 1 minute with all its hit points restored.",
+				"At the end of a long rest, you can create a new iron defender if you have your {@item 鐵匠工具|phb} with you. If you already have an iron defender from this feature, the first one immediately perishes."
 			]
 		},
 		{
@@ -5416,7 +5416,7 @@
 					"type": "entries",
 					"name": "Proficiencies",
 					"entries": [
-						"You gain proficiency with {@item 皮匠工具|phb} and {@item 铁匠工具|phb}, assuming you don't already have them. You also gain {@item 皮匠工具|phb} and {@item 铁匠工具|phb} for free\u2014the result of tinkering you've done as you've prepared for this specialization."
+						"You gain proficiency with {@item 皮匠工具|phb} and {@item 鐵匠工具|phb}, assuming you don't already have them. You also gain {@item 皮匠工具|phb} and {@item 鐵匠工具|phb} for free\u2014the result of tinkering you've done as you've prepared for this specialization."
 					]
 				},
 				{

@@ -14,7 +14,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -72,8 +72,8 @@
 					"daily": {
 						"1e": [
 							"{@spell 探知}",
-							"{@spell 心灵遥控}",
-							"{@spell 传送法阵}"
+							"{@spell 心靈遙控}",
+							"{@spell 傳送法陣}"
 						]
 					},
 					"ability": "int"
@@ -127,13 +127,13 @@
 				{
 					"name": "Frightful Presence",
 					"entries": [
-						"Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 17} Wisdom saving throw or become {@condition 恐惧} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+						"Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 17} Wisdom saving throw or become {@condition 恐懼} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
 					]
 				},
 				{
 					"name": "Debilitating Breath {@recharge 5}",
 					"entries": [
-						"The dragon exhales a pulse of high-pitched, nearly inaudible sound in a 60-foot-cone. Each creature in that cone must make a {@dc 18} Constitution saving throw. On a failed save, the creature takes 45 ({@damage 13d6}) thunder damage and is {@condition 无力} until the end of its next turn. On a successful save, the creature takes half as much damage and isn't {@condition 无力}."
+						"The dragon exhales a pulse of high-pitched, nearly inaudible sound in a 60-foot-cone. Each creature in that cone must make a {@dc 18} Constitution saving throw. On a failed save, the creature takes 45 ({@damage 13d6}) thunder damage and is {@condition 無力} until the end of its next turn. On a successful save, the creature takes half as much damage and isn't {@condition 無力}."
 					]
 				}
 			],

@@ -12,12 +12,12 @@ class PageFilterConditionsDiseases extends PageFilter {
 		this._sourceFilter = new SourceFilter();
 		this._typeFilter = new Filter({
 			header: "Type",
-			headerName: "类型",
+			headerName: "類型",
 			items: ["condition", "disease", "status"],
 			displayFn: Parser.ConditionsDiseasesToDisplay,
 			deselFn: (it) => it === "disease" || it === "status",
 		});
-		this._miscFilter = new Filter({header: "Miscellaneous", headerName: "杂项", items: ["SRD", "Has Images", "Has Info"], isSrdFilter: true});
+		this._miscFilter = new Filter({header: "Miscellaneous", headerName: "雜項", items: ["SRD", "Has Images", "Has Info"], isSrdFilter: true});
 	}
 
 

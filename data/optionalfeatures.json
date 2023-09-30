@@ -12,7 +12,7 @@
 			]
 		},
 		{
-			"name": "痛苦冲击",
+			"name": "痛苦衝擊",
 			"source": "PHB",
 			"page": 110,
 			"srd": true,
@@ -27,7 +27,7 @@
 				}
 			],
 			"entries": [
-				"当你施放{@spell 魔能爆}，在命中时将你的魅力调整值加入它所造成的伤害。"
+				"當你施放{@spell 魔能爆}，在命中時將你的魅力調整值加入它所造成的傷害。"
 			],
 			"ENG_name": "Agonizing Blast"
 		},
@@ -54,7 +54,7 @@
 			]
 		},
 		{
-			"name": "突袭",
+			"name": "突襲",
 			"ENG_name": "Ambush",
 			"source": "TCE",
 			"page": 42,
@@ -63,7 +63,7 @@
 				"MV:B"
 			],
 			"entries": [
-				"当你进行一次敏捷（{@skill 隐匿}）检定或先攻检定时，如果你并非{@condition 无力}，你能够消耗一枚卓越骰，并将消耗的卓越骰加入检定中。"
+				"當你進行一次敏捷（{@skill 隱匿}）檢定或先攻檢定時，如果你並非{@condition 無力}，你能夠消耗一枚卓越骰，並將消耗的卓越骰加入檢定中。"
 			]
 		},
 		{
@@ -75,7 +75,7 @@
 				"MV:B"
 			],
 			"entries": [
-				"When you make a Dexterity ({@skill 隐匿}) check or an initiative roll, you can expend one superiority die and add the die to the roll."
+				"When you make a Dexterity ({@skill 隱匿}) check or an initiative roll, you can expend one superiority die and add the die to the roll."
 			]
 		},
 		{
@@ -95,7 +95,7 @@
 			]
 		},
 		{
-			"name": "奥能动力甲",
+			"name": "奧能動力甲",
 			"ENG_name": "Arcane Propulsion Armor",
 			"source": "TCE",
 			"page": 20,
@@ -111,19 +111,19 @@
 						}
 					},
 					"item": [
-						"一套盔甲（需同调）"
+						"一套盔甲（需同調）"
 					]
 				}
 			],
 			"entries": [
-				"穿戴者获得以下好处：",
+				"穿戴者獲得以下好處：",
 				{
 					"type": "list",
 					"items": [
 						"穿戴者的步行速度增加5尺。",
-						"每一只装甲附带的手套在没有持握任何物品时皆可被视为一件魔法近战武器。穿戴者熟练于此手套，命中后会造成{@damage 1d8}力场伤害，此手套具有投掷属性，普通射程20尺，最大射程60尺。投掷时，手套会脱离并飞向攻击目标，然后立即回到穿戴者身上并重新连接。",
-						"此盔甲除非你自愿，否则无法移除。",
-						"如果你有肢体缺失，装甲能够替换你所有缺失的肢体\u2014手、臂、 脚、腿等，替换肢体的部分拥有和正常肢体一样的功能。"
+						"每一隻裝甲附帶的手套在沒有持握任何物品時皆可被視為一件魔法近戰武器。穿戴者熟練於此手套，命中後會造成{@damage 1d8}力場傷害，此手套具有投擲屬性，普通射程20尺，最大射程60尺。投擲時，手套會脫離並飛向攻擊目標，然後立即回到穿戴者身上並重新連接。",
+						"此盔甲除非你自願，否則無法移除。",
+						"如果你有肢體缺失，裝甲能夠替換你所有缺失的肢體\u2014手、臂、 腳、腿等，替換肢體的部分擁有和正常肢體一樣的功能。"
 					]
 				}
 			]
@@ -148,7 +148,7 @@
 				"FS:R"
 			],
 			"entries": [
-				"你在使用远程武器进行的攻击检定中获得+2加值。"
+				"你在使用遠程武器進行的攻擊檢定中獲得+2加值。"
 			],
 			"ENG_name": "Archery"
 		},
@@ -163,20 +163,20 @@
 			"prerequisite": [
 				{
 					"item": [
-						"一套盔甲（需调谐）"
+						"一套盔甲（需調諧）"
 					]
 				}
 			],
 			"entries": [
-				"此盔甲拥有6发充能。穿戴者能以下列方式消耗充能：",
+				"此盔甲擁有6發充能。穿戴者能以下列方式消耗充能：",
 				{
 					"type": "list",
 					"items": [
-						"进行力量检定或力量豁免检定时，你能消耗1发充能来获得等于你智力调整值的加值。",
-						"当穿着者将被击倒{@condition 伏地}时，以一个反应消耗1发充能，就能避免被击倒。"
+						"進行力量檢定或力量豁免檢定時，你能消耗1發充能來獲得等於你智力調整值的加值。",
+						"當穿著者將被擊倒{@condition 伏地}時，以一個反應消耗1發充能，就能避免被擊倒。"
 					]
 				},
-				"此盔甲在每天的黎明时会恢复{@dice 1d6}发充能。"
+				"此盔甲在每天的黎明時會恢復{@dice 1d6}發充能。"
 			]
 		},
 		{
@@ -205,7 +205,7 @@
 			]
 		},
 		{
-			"name": "暗影护甲",
+			"name": "暗影護甲",
 			"source": "PHB",
 			"page": 110,
 			"srd": true,
@@ -222,7 +222,7 @@
 				}
 			],
 			"entries": [
-				"你可以对你自己随意施放{@spell 法师护甲}，无需消耗法术位或材料构材。"
+				"你可以對你自己隨意施放{@spell 法師護甲}，無需消耗法術位或材料構材。"
 			],
 			"ENG_name": "Armor of Shadows"
 		},
@@ -241,12 +241,12 @@
 				}
 			],
 			"entries": [
-				"As an action, a creature wearing this infused armor can integrate into it {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools} or {@item 盗贼工具|phb}. The tools remain integrated in the armor for 8 hours or until the wearer removes the tools as an action. The armor can have only one tool integrated at a time.",
+				"As an action, a creature wearing this infused armor can integrate into it {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools} or {@item 盜賊工具|phb}. The tools remain integrated in the armor for 8 hours or until the wearer removes the tools as an action. The armor can have only one tool integrated at a time.",
 				"The wearer can add its Intelligence modifier to any ability checks it makes with the integrated tool. The wearer must have a hand free to use the tool."
 			]
 		},
 		{
-			"name": "跃升步伐",
+			"name": "躍升步伐",
 			"source": "PHB",
 			"page": 110,
 			"srd": true,
@@ -273,12 +273,12 @@
 				}
 			],
 			"entries": [
-				"你可以对你自己随意施放{@spell 浮空术}，无需消耗法术位或材料构材。"
+				"你可以對你自己隨意施放{@spell 浮空術}，無需消耗法術位或材料構材。"
 			],
 			"ENG_name": "Ascendant Step"
 		},
 		{
-			"name": "月之仪态",
+			"name": "月之儀態",
 			"source": "UARevisedClassOptions",
 			"page": 5,
 			"previousVersion": {
@@ -294,12 +294,12 @@
 				}
 			],
 			"entries": [
-				"你不再需要睡眠，且无法被任何方式强迫入睡。若要获得长休的好处，你可以消耗完整8小时进行轻省活动，像是阅读你的影之书和放哨。"
+				"你不再需要睡眠，且無法被任何方式強迫入睡。若要獲得長休的好處，你可以消耗完整8小時進行輕省活動，像是閱讀你的影之書和放哨。"
 			],
 			"ENG_name": "Aspect of the Moon"
 		},
 		{
-			"name": "月之仪态",
+			"name": "月之儀態",
 			"source": "UAWarlockAndWizard",
 			"page": 3,
 			"featureType": [
@@ -311,12 +311,12 @@
 				}
 			],
 			"entries": [
-				"你获得了月亮女神的眷顾。你不再需要睡眠，且无法被任何方式强迫入睡。若要获得长休的好处，你可以消耗完整8小时进行轻省活动，像是阅读你的影之书和放哨。"
+				"你獲得了月亮女神的眷顧。你不再需要睡眠，且無法被任何方式強迫入睡。若要獲得長休的好處，你可以消耗完整8小時進行輕省活動，像是閱讀你的影之書和放哨。"
 			],
 			"ENG_name": "Aspect of the Moon"
 		},
 		{
-			"name": "月之仪态",
+			"name": "月之儀態",
 			"source": "XGE",
 			"page": 56,
 			"featureType": [
@@ -328,12 +328,12 @@
 				}
 			],
 			"entries": [
-				"你不再需要睡眠，且无法被任何方式强迫入睡。若要获得长休的好处，你必须消耗完整8小时进行轻省活动，像是阅读你的影之书和放哨。"
+				"你不再需要睡眠，且無法被任何方式強迫入睡。若要獲得長休的好處，你必須消耗完整8小時進行輕省活動，像是閱讀你的影之書和放哨。"
 			],
 			"ENG_name": "Aspect of the Moon"
 		},
 		{
-			"name": "诱饵战术",
+			"name": "誘餌戰術",
 			"ENG_name": "Bait and Switch",
 			"source": "TCE",
 			"page": 42,
@@ -342,8 +342,8 @@
 				"MV:B"
 			],
 			"entries": [
-				"当你距离一个生物5尺以内时，你能够消耗一枚卓越骰，如果你同时消耗至少5尺的移动速度，该生物自愿且并不{@condition 无力}，你能与该生物互换位置。这一移动不会引发借机攻击。",
-				"掷消耗的卓越骰。直到你的下个回合开始，你或另一个生物（由你选择）的AC获得等于掷骰结果的加值。"
+				"當你距離一個生物5尺以內時，你能夠消耗一枚卓越骰，如果你同時消耗至少5尺的移動速度，該生物自願且並不{@condition 無力}，你能與該生物互換位置。這一移動不會引發藉機攻擊。",
+				"擲消耗的卓越骰。直到你的下個回合開始，你或另一個生物（由你選擇）的AC獲得等於擲骰結果的加值。"
 			]
 		},
 		{
@@ -367,7 +367,7 @@
 				"AS:V2-UA"
 			],
 			"entries": [
-				"You use abjuration magic to try to temporarily banish your target to a harmless location in the Feywild. If the arrow hits a creature, the target must also succeed on a Charisma saving throw or be banished. While banished in this way, its speed is 0, and it is {@condition 无力}. At the end of its next turn, the target reappears in the space it vacated or in the nearest unoccupied space if that space is occupied.",
+				"You use abjuration magic to try to temporarily banish your target to a harmless location in the Feywild. If the arrow hits a creature, the target must also succeed on a Charisma saving throw or be banished. While banished in this way, its speed is 0, and it is {@condition 無力}. At the end of its next turn, the target reappears in the space it vacated or in the nearest unoccupied space if that space is occupied.",
 				"After you reach 18th level in this class, a target also takes {@damage 2d6} force damage when the arrow hits it."
 			]
 		},
@@ -379,13 +379,13 @@
 				"AS"
 			],
 			"entries": [
-				"你使用防护系魔法以尝试暂时地将你的目标放逐到一个位于妖精荒野的无害区域。被此箭命中的生物必须成功通过一次魅力豁免，否则将被放逐。当因为这个方式被放逐，目标的移动速度将归零，且陷入{@condition 无力}状态。在它的下个回合结束时，目标将重新出现在它离开时所在的空间，或若该空间已被占据则出现在最近一处未被占据空间。",
-				"在你本职业升至18级之后，当被此箭命中时，目标同时也将受到{@dice 2d6}力场伤害。"
+				"你使用防護系魔法以嘗試暫時地將你的目標放逐到一個位於妖精荒野的無害區域。被此箭命中的生物必須成功通過一次魅力豁免，否則將被放逐。當因為這個方式被放逐，目標的移動速度將歸零，且陷入{@condition 無力}狀態。在它的下個回合結束時，目標將重新出現在它離開時所在的空間，或若該空間已被占據則出現在最近一處未被占據空間。",
+				"在你本職業升至18級之後，當被此箭命中時，目標同時也將受到{@dice 2d6}力場傷害。"
 			],
 			"ENG_name": "Banishing Arrow"
 		},
 		{
-			"name": "野兽之语",
+			"name": "野獸之語",
 			"source": "PHB",
 			"page": 110,
 			"srd": true,
@@ -402,7 +402,7 @@
 				}
 			],
 			"entries": [
-				"你可以随意施放{@spell 动物交谈术}，无需消耗法术位。"
+				"你可以隨意施放{@spell 動物交談術}，無需消耗法術位。"
 			],
 			"ENG_name": "Beast Speech"
 		},
@@ -425,13 +425,13 @@
 				"AS"
 			],
 			"entries": [
-				"你的惑控系魔法让这支箭能暂时地迷惑它的目标。被此箭命中的生物将受到额外的{@dice 2d6}心灵伤害，且你选择其中一个距离目标30尺内的你的盟友。目标必须成功通过一次感知豁免，否则被所选的目标{@condition 魅惑}直到你的下个回合开始。这个效果会在所选的盟友攻击被{@condition 魅惑}目标、对目标造成伤害、或强迫它进行豁免检定时提早结束。",
-				"这个心灵伤害将在你本职业升至18级时增加至{@dice 4d6}。"
+				"你的惑控系魔法讓這枝箭能暫時地迷惑它的目標。被此箭命中的生物將受到額外的{@dice 2d6}心靈傷害，且你選擇其中一個距離目標30尺內的你的盟友。目標必須成功通過一次感知豁免，否則被所選的目標{@condition 魅惑}直到你的下個回合開始。這個效果會在所選的盟友攻擊被{@condition 魅惑}目標、對目標造成傷害、或強迫它進行豁免檢定時提早結束。",
+				"這個心靈傷害將在你本職業升至18級時增加至{@dice 4d6}。"
 			],
 			"ENG_name": "Beguiling Arrow"
 		},
 		{
-			"name": "迷人影响力",
+			"name": "迷人影響力",
 			"source": "PHB",
 			"page": 110,
 			"srd": true,
@@ -445,12 +445,12 @@
 				}
 			],
 			"entries": [
-				"你获得对{@skill 欺瞒}和{@skill 说服}的技能熟练。"
+				"你獲得對{@skill 欺瞞}和{@skill 說服}的技能熟練。"
 			],
 			"ENG_name": "Beguiling Influence"
 		},
 		{
-			"name": "惑人低语",
+			"name": "惑人低語",
 			"source": "PHB",
 			"page": 110,
 			"srd": true,
@@ -481,7 +481,7 @@
 				}
 			],
 			"entries": [
-				"你可以使用契术师法术位施放一次{@spell 强迫术}。直到你完成一次长休之前你都不能再这么做。"
+				"你可以使用契術師法術位施放一次{@spell 強迫術}。直到你完成一次長休之前你都不能再這麼做。"
 			],
 			"ENG_name": "Bewitching Whispers"
 		},
@@ -508,7 +508,7 @@
 				}
 			],
 			"entries": [
-				"你从{@filter 牧师法术列表|spells|level=0|class=Cleric}中习得两项戏法。这些戏法对你来说是圣武士法术，施法关键属性是魅力。每当你提升此职业的等级时，你能够将一个已知戏法替换为牧师法术列表中的另一个戏法。"
+				"你從{@filter 牧師法術列表|spells|level=0|class=Cleric}中習得兩項戲法。這些戲法對你來說是聖武士法術，施法關鍵屬性是魅力。每當你提升此職業的等級時，你能夠將一個已知戲法替換為牧師法術列表中的另一個戲法。"
 			]
 		},
 		{
@@ -548,7 +548,7 @@
 				"FS:R"
 			],
 			"entries": [
-				"你获得10尺{@sense 盲视}。在10尺范围内，你可以看见除了处于全遮掩后的任何东西，哪怕你正在被{@condition 目盲}或是在黑暗之中。此外，你可以看见该范围内的未对你成功躲藏的{@condition 隐形}生物。"
+				"你獲得10尺{@sense 盲視}。在10尺範圍內，你可以看見除了處於全遮掩後的任何東西，哪怕你正在被{@condition 目盲}或是在黑暗之中。此外，你可以看見該範圍內的未對你成功躲藏的{@condition 隱形}生物。"
 			]
 		},
 		{
@@ -566,7 +566,7 @@
 			]
 		},
 		{
-			"name": "护符牵绊",
+			"name": "護符牽絆",
 			"ENG_name": "Bond of the Talisman",
 			"source": "TCE",
 			"page": 70,
@@ -586,7 +586,7 @@
 				}
 			],
 			"entries": [
-				"当别人佩戴你的护身符时，只要你们存在于同一位面，你可以用一个动作传送至离他们最近的未被占据空间。佩戴该护符的人如此用动作传送到你身边。该传送能力可使用的次数等于你的熟练加值，且所有已消耗的次数会在你完成一次长休之后完全恢复。"
+				"當別人佩戴你的護身符時，只要你們存在於同一位面，你可以用一個動作傳送至離他們最近的未被占據空間。佩戴該護符的人如此用動作傳送到你身邊。該傳送能力可使用的次數等於你的熟練加值，且所有已消耗的次數會在你完成一次長休之後完全恢復。"
 			]
 		},
 		{
@@ -613,7 +613,7 @@
 			]
 		},
 		{
-			"name": "远古奥秘卷册",
+			"name": "遠古奧秘卷冊",
 			"source": "PHB",
 			"page": 110,
 			"srd": true,
@@ -641,8 +641,8 @@
 				}
 			],
 			"entries": [
-				"现在你可以将魔法仪式抄写进你的影之书。选择二个{@filter 任何职业法术列表中具有仪式标签的1环法术|spells|tag=ritual|level=1}。这些法术并不需要是来自同一个法术列表。这些法术将出现在书中，且不会计入你的已知法术数量。当影之书在你手上时，你能够以仪式施展所选的法术。你不能以仪式以外的方式施展这些法术，除非你通过其他方式习得了它们。若一个你已知的契术师法术具有仪式标签，你也可以将它作为仪式施展。",
-				"在你的冒险中，你可以将其他仪式法术加入你的影之书。当你找到一个这样的法术时，若该法术的环阶等于或低于你契术师等级的一半（小数点进位）且你能够腾出时间抄写该法术，你就可以将它加到书中。抄写该法术的过程需要花费每环阶2小时的时间，和成本为每环阶50金币用于抄写的稀有墨水。"
+				"現在你可以將魔法儀式抄寫進你的影之書。選擇二個{@filter 任何職業法術列表中具有儀式標籤的1環法術|spells|tag=ritual|level=1}。這些法術並不需要是來自同一個法術列表。這些法術將出現在書中，且不會計入你的已知法術數量。當影之書在你手上時，你能夠以儀式施展所選的法術。你不能以儀式以外的方式施展這些法術，除非你透過其他方式習得了它們。若一個你已知的契術師法術具有儀式標籤，你也可以將它作為儀式施展。",
+				"在你的冒險中，你可以將其他儀式法術加入你的影之書。當你找到一個這樣的法術時，若該法術的環階等於或低於你契術師等級的一半（小數點進位）且你能夠騰出時間抄寫該法術，你就可以將它加到書中。抄寫該法術的過程需要花費每環階2小時的時間，和成本為每環階50金幣用於抄寫的稀有墨水。"
 			],
 			"ENG_name": "Book of Ancient Secrets"
 		},
@@ -669,16 +669,16 @@
 						}
 					},
 					"item": [
-						"一双靴子（需调谐）"
+						"一雙靴子（需調諧）"
 					]
 				}
 			],
 			"entries": [
-				"一个穿着这双靴子的生物能以一个附赠动作传送到一个该生物可以看到且距离15尺内的未占据空格中。该空格必须被该生物在当前回合中的某个时间点里占据过。"
+				"一個穿著這雙靴子的生物能以一個附贈動作傳送到一個該生物可以看到且距離15尺內的未占據空格中。該空格必須被該生物在當前回合中的某個時間點裡占據過。"
 			]
 		},
 		{
-			"name": "曲径折返之靴",
+			"name": "曲徑折返之靴",
 			"source": "UAArtificerRevisited",
 			"page": 12,
 			"featureType": [
@@ -698,7 +698,7 @@
 				}
 			],
 			"entries": [
-				"当穿着这双靴子时，该生物能够以一个附赠动作传送到最多15尺距离的一处该生物所能看见的未被占据空间。该生物必须必须在该回合期间曾经占据过该空间。"
+				"當穿著這雙靴子時，該生物能夠以一個附贈動作傳送到最多15尺距離的一處該生物所能看見的未被占據空間。該生物必須必須在該回合期間曾經占據過該空間。"
 			],
 			"ENG_name": "Boots of the Winding Path"
 		},
@@ -712,7 +712,7 @@
 				"MV:B"
 			],
 			"entries": [
-				"当一个生物移动进你的触及范围而你手握武器时，你能以一个反应消耗一枚卓越骰对该生物进行一次武器攻击。如果攻击命中，将消耗的卓越骰加入此次攻击的伤害骰中。"
+				"當一個生物移動進你的觸及範圍而你手握武器時，你能以一個反應消耗一枚卓越骰對該生物進行一次武器攻擊。如果攻擊命中，將消耗的卓越骰加入此次攻擊的傷害骰中。"
 			]
 		},
 		{
@@ -762,7 +762,7 @@
 				}
 			],
 			"entries": [
-				"你可以消耗6点气以施放{@spell 寒冰锥}。"
+				"你可以消耗6點氣以施放{@spell 寒冰錐}。"
 			],
 			"ENG_name": "Breath of Winter"
 		},
@@ -790,7 +790,7 @@
 			]
 		},
 		{
-			"name": "燃烧巫咒",
+			"name": "燃燒巫咒",
 			"source": "UAWarlockAndWizard",
 			"page": 3,
 			"featureType": [
@@ -802,7 +802,7 @@
 				}
 			],
 			"entries": [
-				"以一个附赠动作，你使一个被你咒剑诅咒给影响的目标受到等同于你魅力调整值的火焰伤害（最少为1）。"
+				"以一個附贈動作，你使一個被你咒劍詛咒給影響的目標受到等同於你魅力調整值的火焰傷害（最少為1）。"
 			],
 			"ENG_name": "Burning Hex"
 		},
@@ -837,8 +837,8 @@
 				"AS"
 			],
 			"entries": [
-				"你将汲取自塑能学派的力场能量注入你的箭矢。这股能量将在你攻击之后爆发。紧接在此箭命中一个生物之后，目标和所有距离它10尺内的其他生物都将各自受到{@dice 2d6}力场伤害。",
-				"这个力场伤害将在你本职业升至18级时增加至{@dice 4d6}。"
+				"你將汲取自塑能學派的力場能量注入你的箭矢。這股能量將在你攻擊之後爆發。緊接在此箭命中一個生物之後，目標和所有距離它10尺內的其他生物都將各自受到{@dice 2d6}力場傷害。",
+				"這個力場傷害將在你本職業升至18級時增加至{@dice 4d6}。"
 			],
 			"ENG_name": "Bursting Arrow"
 		},
@@ -861,11 +861,11 @@
 				}
 			],
 			"entries": [
-				"The purple star Caiphon is the doom of inexperienced mariners. Those who use its deceptive light to guide their travels invariably come to ruin. You gain proficiency in the {@skill 欺瞒} and {@skill 隐匿} skills, and you have advantage on attack rolls against {@condition 魅惑} creatures."
+				"The purple star Caiphon is the doom of inexperienced mariners. Those who use its deceptive light to guide their travels invariably come to ruin. You gain proficiency in the {@skill 欺瞞} and {@skill 隱匿} skills, and you have advantage on attack rolls against {@condition 魅惑} creatures."
 			]
 		},
 		{
-			"name": "谨慎法术",
+			"name": "謹慎法術",
 			"source": "PHB",
 			"page": 102,
 			"srd": true,
@@ -873,7 +873,7 @@
 				"MM"
 			],
 			"entries": [
-				"当你施放一个会强迫其他生物进行豁免检定的法术时，你可以保护其中一些生物不受该法术的完整威力影响。要这么做，你得消耗1点术法点，并选择最多等同于你魅力调整值数量的生物（最少一个生物）。被选择的生物将在对抗该法术的豁免检定中自动成功。"
+				"當你施放一個會強迫其他生物進行豁免檢定的法術時，你可以保護其中一些生物不受該法術的完整威力影響。要這麼做，你得消耗1點術法點，並選擇最多等同於你魅力調整值數量的生物（最少一個生物）。被選擇的生物將在對抗該法術的豁免檢定中自動成功。"
 			],
 			"ENG_name": "Careful Spell"
 		},
@@ -901,7 +901,7 @@
 			]
 		},
 		{
-			"name": "卡瑟利之缚",
+			"name": "卡瑟利之縛",
 			"source": "PHB",
 			"page": 110,
 			"srd": true,
@@ -933,7 +933,7 @@
 				}
 			],
 			"entries": [
-				"你可以随意施放{@spell 怪物定身术}\u2014以一个天界生物、邪魔、或元素为目标\u2014而无需消耗法术位或材料构材。你必须完成一次长休才能再对同一个生物使用此祈唤。"
+				"你可以隨意施放{@spell 怪物定身術}\u2014以一個天界生物、邪魔、或元素為目標\u2014而無需消耗法術位或材料構材。你必須完成一次長休才能再對同一個生物使用此祈喚。"
 			],
 			"ENG_name": "Chains of Carceri"
 		},
@@ -988,7 +988,7 @@
 			]
 		},
 		{
-			"name": "北风之握",
+			"name": "北風之握",
 			"source": "PHB",
 			"page": 81,
 			"featureType": [
@@ -1022,7 +1022,7 @@
 				}
 			],
 			"entries": [
-				"你可以消耗3点气以施放{@spell 人类定身术}。"
+				"你可以消耗3點氣以施放{@spell 人類定身術}。"
 			],
 			"ENG_name": "Clench of the North Wind"
 		},
@@ -1039,7 +1039,7 @@
 				}
 			],
 			"entries": [
-				"As a bonus action, you can conjure a swarm of buzzing flies around you. The swarm grants you advantage on Charisma ({@skill 威吓}) checks but disadvantage on all other Charisma checks. In addition, a creature that starts its turn within 5 feet of you takes poison damage equal to your Charisma modifier. You can dismiss the swarm with another bonus action."
+				"As a bonus action, you can conjure a swarm of buzzing flies around you. The swarm grants you advantage on Charisma ({@skill 威嚇}) checks but disadvantage on all other Charisma checks. In addition, a creature that starts its turn within 5 feet of you takes poison damage equal to your Charisma modifier. You can dismiss the swarm with another bonus action."
 			]
 		},
 		{
@@ -1064,13 +1064,13 @@
 				}
 			],
 			"entries": [
-				"As a bonus action, you can surround yourself with a magical aura that looks like buzzing flies. The aura includes your space, extends 5 feet from you in every direction, and is blocked by total cover. It lasts until you're {@condition 无力} or you dismiss it with a bonus action.",
-				"The aura grants you advantage on Charisma ({@skill 威吓}) checks but disadvantage on all other Charisma checks. Any other creature that starts its turn in the aura takes poison damage equal to your Charisma modifier (minimum of 0 damage).",
+				"As a bonus action, you can surround yourself with a magical aura that looks like buzzing flies. The aura includes your space, extends 5 feet from you in every direction, and is blocked by total cover. It lasts until you're {@condition 無力} or you dismiss it with a bonus action.",
+				"The aura grants you advantage on Charisma ({@skill 威嚇}) checks but disadvantage on all other Charisma checks. Any other creature that starts its turn in the aura takes poison damage equal to your Charisma modifier (minimum of 0 damage).",
 				"Once you use this invocation, you can't use it again until you finish a short or long rest."
 			]
 		},
 		{
-			"name": "飞蝇斗篷",
+			"name": "飛蠅斗篷",
 			"source": "XGE",
 			"page": 56,
 			"featureType": [
@@ -1087,9 +1087,9 @@
 				}
 			],
 			"entries": [
-				"以一个附赠动作，你可以让一道仿佛嗡嗡飞蝇的魔法灵光环绕在你周围。这道灵光从你向四周延伸5尺，但不会穿过全掩护。它会持续存在直到你陷入{@condition 无力}状态或你以一个附赠动作解消它。",
-				"这道灵光将让你在魅力（{@skill 威吓}）检定中获得优势，但在其他所有魅力检定中承受劣势。任何其他在这道灵光中开始它回合的生物将受到等同于你魅力调整值的毒素伤害（最少为0）。",
-				"一旦你使用此祈唤，直到你完成一次短休或长休之前都无法再使用它。"
+				"以一個附贈動作，你可以讓一道彷彿嗡嗡飛蠅的魔法靈光環繞在你周圍。這道靈光從你向四周延伸5尺，但不會穿過全掩護。它會持續存在直到你陷入{@condition 無力}狀態或你以一個附贈動作解消它。",
+				"這道靈光將讓你在魅力（{@skill 威嚇}）檢定中獲得優勢，但在其他所有魅力檢定中承受劣勢。任何其他在這道靈光中開始它回合的生物將受到等同於你魅力調整值的毒素傷害（最少為0）。",
+				"一旦你使用此祈喚，直到你完成一次短休或長休之前都無法再使用它。"
 			],
 			"ENG_name": "Cloak of Flies"
 		},
@@ -1103,12 +1103,12 @@
 				"FS:R"
 			],
 			"entries": [
-				"当你在距离一个敌意生物5尺以内时进行一次远程攻击，你在该攻击检定中并不会具有劣势。你的远程攻击忽略距离你30尺内目标的半掩护和四分之三掩护。你在远程攻击的攻击检定中获得+1加值。"
+				"當你在距離一個敵意生物5尺以內時進行一次遠程攻擊，你在該攻擊檢定中並不會具有劣勢。你的遠程攻擊忽略距離你30尺內目標的半掩護和四分之三掩護。你在遠程攻擊的攻擊檢定中獲得+1加值。"
 			],
 			"ENG_name": "Close Quarters Shooter"
 		},
 		{
-			"name": "云之符文",
+			"name": "雲之符文",
 			"ENG_name": "Cloud Rune",
 			"source": "TCE",
 			"page": 44,
@@ -1116,24 +1116,24 @@
 				"RN"
 			],
 			"entries": [
-				"该符文模拟了一些云巨人使用的魔法诈术。当你穿着或持有一个铭刻此符文的物品时，你在敏捷（{@skill 巧手}）和魅力（{@skill 欺瞒}）检定上具有优势。",
-				"此外，当你或一个你30尺内可视生物被一次攻击检定击中，你可以用你的反应激活此符文并选择30尺内除攻击者外另一生物。此攻击检定的目标改为该生物，且使用同一骰值。此魔法带来的攻击效果无视其距离。一旦你激活此符文，你无法再如此直到你完成一次短休或长休。"
+				"該符文模擬了一些雲巨人使用的魔法詐術。當你穿著或持有一個銘刻此符文的物品時，你在敏捷（{@skill 巧手}）和魅力（{@skill 欺瞞}）檢定上具有優勢。",
+				"此外，當你或一個你30尺內可視生物被一次攻擊檢定擊中，你可以用你的反應活化此符文並選擇30尺內除攻擊者外另一生物。此攻擊檢定的目標改為該生物，且使用同一骰值。此魔法帶來的攻擊效果無視其距離。一旦你啟用此符文，你無法再如此直到你完成一次短休或長休。"
 			]
 		},
 		{
-			"name": "指挥官奇袭",
+			"name": "指揮官奇襲",
 			"source": "PHB",
 			"page": 74,
 			"featureType": [
 				"MV:B"
 			],
 			"entries": [
-				"当你在你的回合采取{@action 攻击}动作时，你可以放弃你的其中一次攻击，并使用一个附赠动作以指挥你的其中一个同伴进行奇袭。当你这么做时，选择一个能够看见或听见你的友善生物，并消耗一颗卓越骰。该生物可以立刻使用它的反应以进行一次武器攻击，并将卓越骰加入该攻击的伤害骰中。"
+				"當你在你的回合採取{@action 攻擊}動作時，你可以放棄你的其中一次攻擊，並使用一個附贈動作以指揮你的其中一個同伴進行奇襲。當你這麼做時，選擇一個能夠看見或聽見你的友善生物，並消耗一顆卓越骰。該生物可以立刻使用它的反應以進行一次武器攻擊，並將卓越骰加入該攻擊的傷害骰中。"
 			],
 			"ENG_name": "Commander's Strike"
 		},
 		{
-			"name": "领导风范",
+			"name": "領導風範",
 			"ENG_name": "Commanding Presence",
 			"source": "TCE",
 			"page": 42,
@@ -1142,7 +1142,7 @@
 				"MV:B"
 			],
 			"entries": [
-				"当你进行一次魅力（{@skill 威吓}）、魅力（{@skill 表演}）或魅力（{@skill 说服}）检定时，你能够消耗一枚卓越骰，将消耗的卓越骰加入此次属性检定中。"
+				"當你進行一次魅力（{@skill 威嚇}）、魅力（{@skill 表演}）或魅力（{@skill 說服}）檢定時，你能夠消耗一枚卓越骰，將消耗的卓越骰加入此次屬性檢定中。"
 			]
 		},
 		{
@@ -1153,7 +1153,7 @@
 				"MV:C2-UA"
 			],
 			"entries": [
-				"When you make a Wisdom ({@skill 驯兽}) check to influence a creature that you or an ally is riding, you can expend one superiority die, roll it, and add the number rolled to the check. You can do this before or after rolling the {@dice d20}, but before applying the results of the check."
+				"When you make a Wisdom ({@skill 馴獸}) check to influence a creature that you or an ally is riding, you can expend one superiority die, roll it, and add the number rolled to the check. You can do this before or after rolling the {@dice d20}, but before applying the results of the check."
 			]
 		},
 		{
@@ -1186,7 +1186,7 @@
 			]
 		},
 		{
-			"name": "防御",
+			"name": "防禦",
 			"source": "PHB",
 			"page": 72,
 			"srd": true,
@@ -1210,7 +1210,7 @@
 				"FS:R"
 			],
 			"entries": [
-				"当你穿戴护甲时，你的AC获得+1加值。"
+				"當你穿戴護甲時，你的AC獲得+1加值。"
 			],
 			"ENG_name": "Defense"
 		},
@@ -1226,7 +1226,7 @@
 			]
 		},
 		{
-			"name": "魔鬼视觉",
+			"name": "魔鬼視覺",
 			"source": "PHB",
 			"page": 110,
 			"srd": true,
@@ -1234,19 +1234,19 @@
 				"EI"
 			],
 			"entries": [
-				"当你在黑暗中，无论是魔法还是非魔法黑暗，你可以正常看见距离你120尺范围内的事物。"
+				"當你在黑暗中，無論是魔法還是非魔法黑暗，你可以正常看見距離你120尺範圍內的事物。"
 			],
 			"ENG_name": "Devil's Sight"
 		},
 		{
-			"name": "缴械击",
+			"name": "繳械擊",
 			"source": "PHB",
 			"page": 74,
 			"featureType": [
 				"MV:B"
 			],
 			"entries": [
-				"当你以一次武器攻击命中一个生物时，你可以消耗一颗卓越骰并尝试使目标缴械，强迫它掉落一个它正持握且你所选择的物品。你将卓越骰加入该攻击的伤害骰中，且目标必须进行一次力量豁免。若豁免失败，它将掉落你所选择的该物体。该物体将落在它的脚边。"
+				"當你以一次武器攻擊命中一個生物時，你可以消耗一顆卓越骰並嘗試使目標繳械，強迫它掉落一個它正持握且你所選擇的物品。你將卓越骰加入該攻擊的傷害骰中，且目標必須進行一次力量豁免。若豁免失敗，它將掉落你所選擇的該物體。該物體將落在它的腳邊。"
 			],
 			"ENG_name": "Disarming Attack"
 		},
@@ -1262,7 +1262,7 @@
 			]
 		},
 		{
-			"name": "远程法术",
+			"name": "遠程法術",
 			"source": "PHB",
 			"page": 102,
 			"srd": true,
@@ -1270,25 +1270,25 @@
 				"MM"
 			],
 			"entries": [
-				"当你施放一个射程为5尺或更远的法术时，你可以消耗1点术法点以将该法术的射程变为二倍。",
-				"当你施放一个射程为触碰的法术时，你可以消耗1点术法点以将该法术的射程变为30尺。"
+				"當你施放一個射程為5尺或更遠的法術時，你可以消耗1點術法點以將該法術的射程變為二倍。",
+				"當你施放一個射程為觸碰的法術時，你可以消耗1點術法點以將該法術的射程變為30尺。"
 			],
 			"ENG_name": "Distant Spell"
 		},
 		{
-			"name": "扰乱击",
+			"name": "擾亂擊",
 			"source": "PHB",
 			"page": 74,
 			"featureType": [
 				"MV:B"
 			],
 			"entries": [
-				"当你以一次武器攻击命中一个生物时，你可以消耗一颗卓越骰以干扰该生物，为你的盟友制造良机。你将卓越骰加入该攻击的伤害骰中。在你的下个回合开始前，下一次你以外的攻击者对目标所进行的攻击检定将具有优势。"
+				"當你以一次武器攻擊命中一個生物時，你可以消耗一顆卓越骰以干擾該生物，為你的盟友製造良機。你將卓越骰加入該攻擊的傷害骰中。在你的下個回合開始前，下一次你以外的攻擊者對目標所進行的攻擊檢定將具有優勢。"
 			],
 			"ENG_name": "Distracting Strike"
 		},
 		{
-			"name": "恐惧之语",
+			"name": "恐懼之語",
 			"source": "PHB",
 			"page": 110,
 			"srd": true,
@@ -1319,12 +1319,12 @@
 				}
 			],
 			"entries": [
-				"你可以使用契术师法术位施放一次{@spell 困惑术}。直到你完成一次长休之前你都不能再这么做。"
+				"你可以使用契術師法術位施放一次{@spell 困惑術}。直到你完成一次長休之前你都不能再這麼做。"
 			],
 			"ENG_name": "Dreadful Word"
 		},
 		{
-			"name": "德鲁伊教战士",
+			"name": "德魯伊教戰士",
 			"ENG_name": "Druidic Warrior",
 			"source": "TCE",
 			"page": 57,
@@ -1346,7 +1346,7 @@
 				}
 			],
 			"entries": [
-				"你习得两个来自{@filter 德鲁伊法术列表|spells|level=0|class=druid}的你自选的戏法。它们对你视作游侠法术，感知是你施展他们的施法关键属性。当你升级时，你可以将其中一个戏法替换为德鲁伊法术列表中的另一个戏法。"
+				"你習得兩個來自{@filter 德魯伊法術列表|spells|level=0|class=druid}的你自選的戲法。它們對你視作遊俠法術，感知是你施展他們的施法關鍵屬性。當你升級時，你可以將其中一個戲法替換為德魯伊法術列表中的另一個戲法。"
 			]
 		},
 		{
@@ -1375,7 +1375,7 @@
 			]
 		},
 		{
-			"name": "决斗",
+			"name": "決鬥",
 			"source": "PHB",
 			"page": 72,
 			"srd": true,
@@ -1408,7 +1408,7 @@
 				"FS:R"
 			],
 			"entries": [
-				"当你单手持用一把近战武器，且没有持用其他武器时，你在使用该武器所进行的伤害骰中获得+2加值。"
+				"當你單手持用一把近戰武器，且沒有持用其他武器時，你在使用該武器所進行的傷害骰中獲得+2加值。"
 			],
 			"ENG_name": "Dueling"
 		},
@@ -1439,7 +1439,7 @@
 				"EI"
 			],
 			"entries": [
-				"你在用于维持法术专注的体质豁免上具有优势。"
+				"你在用於維持法術專注的體質豁免上具有優勢。"
 			]
 		},
 		{
@@ -1460,7 +1460,7 @@
 			]
 		},
 		{
-			"name": "魔能视界",
+			"name": "魔能視界",
 			"source": "PHB",
 			"page": 110,
 			"srd": true,
@@ -1477,12 +1477,12 @@
 				}
 			],
 			"entries": [
-				"你可以随意施放{@spell 侦测魔法}，无需消耗法术位。"
+				"你可以隨意施放{@spell 偵測魔法}，無需消耗法術位。"
 			],
 			"ENG_name": "Eldritch Sight"
 		},
 		{
-			"name": "魔能重斩",
+			"name": "魔能重斬",
 			"source": "UARevisedClassOptions",
 			"page": 6,
 			"previousVersion": {
@@ -1504,12 +1504,12 @@
 				}
 			],
 			"entries": [
-				"每回合一次，当你使用你的契约武器命中一个生物时，你可以消耗一个契术师法术位以对目标造成额外的{@dice 1d8}力场伤害，加上该法术位每环阶再{@dice 1d8}点的伤害。若目标受到此伤害且它的体型为巨型或更小，你可以将目标击倒{@condition 伏地}。"
+				"每回合一次，當你使用你的契約武器命中一個生物時，你可以消耗一個契術師法術位以對目標造成額外的{@dice 1d8}力場傷害，加上該法術位每環階再{@dice 1d8}點的傷害。若目標受到此傷害且它的體型為巨型或更小，你可以將目標擊倒{@condition 伏地}。"
 			],
 			"ENG_name": "Eldritch Smite"
 		},
 		{
-			"name": "魔能重斩",
+			"name": "魔能重斬",
 			"source": "XGE",
 			"page": 56,
 			"featureType": [
@@ -1527,7 +1527,7 @@
 				}
 			],
 			"entries": [
-				"每回合一次，当你使用你的契约武器命中一个生物时，你可以消耗一个契术师法术位以对目标造成额外的{@dice 1d8}力场伤害，加上该法术位每环阶再{@dice 1d8}点的伤害，且若目标的体型为巨型或更小，你可以将目标击倒{@condition 伏地}。"
+				"每回合一次，當你使用你的契約武器命中一個生物時，你可以消耗一個契術師法術位以對目標造成額外的{@dice 1d8}力場傷害，加上該法術位每環階再{@dice 1d8}點的傷害，且若目標的體型為巨型或更小，你可以將目標擊倒{@condition 伏地}。"
 			],
 			"ENG_name": "Eldritch Smite"
 		},
@@ -1547,26 +1547,26 @@
 				}
 			],
 			"entries": [
-				"当你施放{@spell 魔能爆}，它的射程变为300尺。"
+				"當你施放{@spell 魔能爆}，它的射程變為300尺。"
 			],
 			"ENG_name": "Eldritch Spear"
 		},
 		{
-			"name": "元素调律",
+			"name": "元素調律",
 			"source": "PHB",
 			"page": 81,
 			"featureType": [
 				"ED"
 			],
 			"entries": [
-				"你可以使用你的动作以简单地控制距离你30尺内的元素之力，造成下列其中一个你所选择的效果：",
+				"你可以使用你的動作以簡單地控制距離你30尺內的元素之力，造成下列其中一個你所選擇的效果：",
 				{
 					"type": "list",
 					"items": [
-						"创造出一个与气、土、火、或水有关，即效而无害的感官效果，像是火花飞溅、清风吹拂、轻烟飘散、或岩石轻微地隆隆作响。",
-						"立刻点亮或熄灭一根蜡烛、火炬、或一处小型篝火。",
-						"冷却或温热最多1磅的非活物物质长达最多1小时。",
-						"使一片可容纳于1尺边长立方体内的土、火、水、或雾以自我形塑成你指定的粗糙形状，长达1分钟。"
+						"創造出一個與氣、土、火、或水有關，即效而無害的感官效果，像是火花飛濺、清風吹拂、輕煙飄散、或岩石輕微地隆隆作響。",
+						"立刻點亮或熄滅一根蠟燭、火炬、或一處小型篝火。",
+						"冷卻或溫熱最多1磅的非活物物質長達最多1小時。",
+						"使一片可容納於1尺邊長立方體內的土、火、水、或霧以自我形塑成你指定的粗糙形狀，長達1分鐘。"
 					]
 				}
 			],
@@ -1585,7 +1585,7 @@
 			]
 		},
 		{
-			"name": "强效法术",
+			"name": "強效法術",
 			"source": "PHB",
 			"page": 102,
 			"srd": true,
@@ -1593,8 +1593,8 @@
 				"MM"
 			],
 			"entries": [
-				"当你在为法术骰伤害时，你可以消耗1点术法点以重骰最多等同于你魅力调整值数量的骰子（最少一颗）。你必须使用新的掷骰结果。",
-				"即使你已经在施放此法术的期间已经使用了一个不同的超魔法选项，你仍然可以使用强效法术。"
+				"當你在為法術骰傷害時，你可以消耗1點術法點以重骰最多等同於你魅力調整值數量的骰子（最少一顆）。你必須使用新的擲骰結果。",
+				"即使你已經在施放此法術的期間已經使用了一個不同的超魔法選項，你仍然可以使用強效法術。"
 			],
 			"ENG_name": "Empowered Spell"
 		},
@@ -1606,13 +1606,13 @@
 				"AS"
 			],
 			"entries": [
-				"你将死灵系魔法编入你的箭矢中。被此箭命中的生物将受到额外的{@dice 2d6}黯蚀伤害。目标也必须成功通过一次体质豁免，否则它武器攻击所造成的伤害将被减半，持续直到你的下个回合开始。",
-				"这个黯蚀伤害将在你本职业升至18级时增加至{@dice 4d6}。"
+				"你將死靈系魔法編入你的箭矢中。被此箭命中的生物將受到額外的{@dice 2d6}黯蝕傷害。目標也必須成功通過一次體質豁免，否則它武器攻擊所造成的傷害將被減半，持續直到你的下個回合開始。",
+				"這個黯蝕傷害將在你本職業升至18級時增加至{@dice 4d6}。"
 			],
 			"ENG_name": "Enfeebling Arrow"
 		},
 		{
-			"name": "增强奥术法器",
+			"name": "增強奧術法器",
 			"ENG_name": "Enhanced Arcane Focus",
 			"source": "TCE",
 			"page": 21,
@@ -1628,17 +1628,17 @@
 			"prerequisite": [
 				{
 					"item": [
-						"一根权杖、法杖或是魔杖（需调谐）"
+						"一根權杖、法杖或是魔杖（需調諧）"
 					]
 				}
 			],
 			"entries": [
-				"当持续此物品时，持有者的法术攻击检定获得+1加值，同时在进行法术法术攻击时无视半身掩护。",
-				"当你拥有10个奇械师等级时，该加值变成+2。"
+				"當持續此物品時，持有者的法術攻擊檢定獲得+1加值，同時在進行法術法術攻擊時無視半身掩護。",
+				"當你擁有10個奇械師等級時，該加值變成+2。"
 			]
 		},
 		{
-			"name": "增强防御",
+			"name": "增強防禦",
 			"ENG_name": "Enhanced Defense",
 			"source": "TCE",
 			"page": 21,
@@ -1659,12 +1659,12 @@
 				}
 			],
 			"entries": [
-				"穿着该盔甲或挥舞该盾牌的生物在AC上获得+1加值。",
-				"当你拥有10个奇械师等级时，该加值变成+2。"
+				"穿著該盔甲或揮舞該盾牌的生物在AC上獲得+1加值。",
+				"當你擁有10個奇械師等級時，該加值變成+2。"
 			]
 		},
 		{
-			"name": "增强防御",
+			"name": "增強防禦",
 			"source": "UAArtificerRevisited",
 			"page": 12,
 			"featureType": [
@@ -1678,8 +1678,8 @@
 				}
 			],
 			"entries": [
-				"一个生物在穿戴（护甲）或持用（盾牌）注法物品时将在它的护甲等级上额外获得+1加值。",
-				"这个加值将在你于本职业升至12级时增加至+2。"
+				"一個生物在穿戴（護甲）或持用（盾牌）注法物品時將在它的護甲等級上額外獲得+1加值。",
+				"這個加值將在你於本職業升至12級時增加至+2。"
 			],
 			"ENG_name": "Enhanced Defense"
 		},
@@ -1703,7 +1703,7 @@
 			]
 		},
 		{
-			"name": "增强武器",
+			"name": "增強武器",
 			"ENG_name": "Enhanced Weapon",
 			"source": "TCE",
 			"page": 21,
@@ -1719,17 +1719,17 @@
 			"prerequisite": [
 				{
 					"item": [
-						"一把简易或军用武器"
+						"一把簡易或軍用武器"
 					]
 				}
 			],
 			"entries": [
-				"该魔法武器在攻击和伤害检定中具有+1加值。",
-				"当你拥有10个奇械师等级时，该加值变成+2。"
+				"該魔法武器在攻擊和傷害檢定中具有+1加值。",
+				"當你擁有10個奇械師等級時，該加值變成+2。"
 			]
 		},
 		{
-			"name": "增强武器",
+			"name": "增強武器",
 			"source": "UAArtificerRevisited",
 			"page": 12,
 			"featureType": [
@@ -1743,13 +1743,13 @@
 				}
 			],
 			"entries": [
-				"这把魔法武器将在使用它进行的攻击检定和伤害骰上赋予+1加值。",
-				"这个加值将在你于本职业升至12级时增加至+2。"
+				"這把魔法武器將在使用它進行的攻擊檢定和傷害骰上賦予+1加值。",
+				"這個加值將在你於本職業升至12級時增加至+2。"
 			],
 			"ENG_name": "Enhanced Weapon"
 		},
 		{
-			"name": "苍山庇佑",
+			"name": "蒼山庇佑",
 			"source": "PHB",
 			"page": 81,
 			"featureType": [
@@ -1783,24 +1783,24 @@
 				}
 			],
 			"entries": [
-				"你可以消耗5点气以施放{@spell 石肤术}，以你自己为目标。"
+				"你可以消耗5點氣以施放{@spell 石膚術}，以你自己為目標。"
 			],
 			"ENG_name": "Eternal Mountain Defense"
 		},
 		{
-			"name": "躲闪步伐",
+			"name": "躲閃步伐",
 			"source": "PHB",
 			"page": 74,
 			"featureType": [
 				"MV:B"
 			],
 			"entries": [
-				"当你移动时，你可以消耗一颗卓越骰，掷该卓越骰并将骰出的数字加入你的AC中直到你停止移动。"
+				"當你移動時，你可以消耗一顆卓越骰，擲該卓越骰並將骰出的數字加入你的AC中直到你停止移動。"
 			],
 			"ENG_name": "Evasive Footwork"
 		},
 		{
-			"name": "延时法术",
+			"name": "延時法術",
 			"source": "PHB",
 			"page": 102,
 			"srd": true,
@@ -1808,12 +1808,12 @@
 				"MM"
 			],
 			"entries": [
-				"当你施放一个持续时间为1分钟或更久的法术时，你可以消耗1点术法点以将它的持续时间变为二倍，最久到24小时。"
+				"當你施放一個持續時間為1分鐘或更久的法術時，你可以消耗1點術法點以將它的持續時間變為二倍，最久到24小時。"
 			],
 			"ENG_name": "Extended Spell"
 		},
 		{
-			"name": "符文师之眼",
+			"name": "符文師之眼",
 			"source": "PHB",
 			"page": 111,
 			"srd": true,
@@ -1821,7 +1821,7 @@
 				"EI"
 			],
 			"entries": [
-				"你可以读懂所有文本。"
+				"你可以讀懂所有文本。"
 			],
 			"ENG_name": "Eyes of the Rune Keeper"
 		},
@@ -1833,12 +1833,12 @@
 				"ED"
 			],
 			"entries": [
-				"当你在你的回合使用{@action 攻击}动作时，你可以消耗1点气以让烈焰触手从你的拳脚延伸而出。你徒手打击的触及范围在该动作以及该回合结束前视为增加10尺。这类攻击在命中时将造成火焰伤害，而非钝击伤害。且若你在攻击命中时消耗1点气，它将造成额外的{@damage 1d10}火焰伤害。"
+				"當你在你的回合使用{@action 攻擊}動作時，你可以消耗1點氣以讓烈焰觸手從你的拳腳延伸而出。你徒手打擊的觸及範圍在該動作以及該回合結束前視為增加10尺。這類攻擊在命中時將造成火焰傷害，而非鈍擊傷害。且若你在攻擊命中時消耗1點氣，它將造成額外的{@damage 1d10}火焰傷害。"
 			],
 			"ENG_name": "Fangs of the Fire Snake"
 		},
 		{
-			"name": "遥远音讯",
+			"name": "遙遠音訊",
 			"ENG_name": "Far Scribe",
 			"source": "TCE",
 			"page": 71,
@@ -1867,9 +1867,9 @@
 				}
 			],
 			"entries": [
-				"一张新的书页出现在你的影之书中。在你许可下，一个生物可以用动作来将它的名字写在这一页上，这一页能容纳的名字数量等于你的熟练加值。",
-				"你可以对名字在这一页上的生物施展{@spell 短讯术}，而不需要消耗法术位和材料成分。你必须将传讯写在这一页上来完成此行为。目标将在他们的心中听到这个传讯，如果目标回复了传讯，他们的回复将会出现在书页上而不是在你的心中。这些文字将会在一分钟后消失。",
-				"以一个动作，你可以用魔法以触摸的方式消除书页上的一个名字。"
+				"一張新的書頁出現在你的影之書中。在你許可下，一個生物可以用動作來將它的名字寫在這一頁上，這一頁能容納的名字數量等於你的熟練加值。",
+				"你可以對名字在這一頁上的生物施展{@spell 簡訊術}，而不需要消耗法術位和材料成分。你必須將傳訊寫在這一頁上來完成此行為。目標將在他們的心中聽到這個傳訊，如果目標回復了傳訊，他們的回覆將會出現在書頁上而不是在你的心中。這些文字將會在一分鐘後消失。",
+				"以一個動作，你可以用魔法以觸摸的方式消除書頁上的一個名字。"
 			]
 		},
 		{
@@ -1902,20 +1902,20 @@
 			],
 			"entries": [
 				"A new page appears in your Book of Shadows. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your Charisma modifier (minimum of 1).",
-				"You can cast the {@spell 短讯术} spell, targeting a creature whose name is on the page, without using a spell slot and without using material components. To do so, you must write the message on the page. The target hears the message in their mind, and if the target replies, their message appears on the page, rather than in your mind. The writing disappears after 1 minute.",
+				"You can cast the {@spell 簡訊術} spell, targeting a creature whose name is on the page, without using a spell slot and without using material components. To do so, you must write the message on the page. The target hears the message in their mind, and if the target replies, their message appears on the page, rather than in your mind. The writing disappears after 1 minute.",
 				"As an action, you can magically erase a name on the page by touching the name on it."
 			]
 		},
 		{
-			"name": "诡诈击",
+			"name": "詭詐擊",
 			"source": "PHB",
 			"page": 74,
 			"featureType": [
 				"MV:B"
 			],
 			"entries": [
-				"你可以消耗一颗卓越骰并在你的回合使用一个附赠动作以进行佯攻，选择一个距离你5尺内的生物作为你的目标。你在该回合对该生物的下一次攻击检定中具有优势。若该攻击命中，则将卓越骰加入该攻击的伤害骰中。",
-				"若你在获得这个优势的回合中没有使用它，则你将会失去这个优势。"
+				"你可以消耗一顆卓越骰並在你的回合使用一個附贈動作以進行佯攻，選擇一個距離你5尺內的生物作為你的目標。你在該回合對該生物的下一次攻擊檢定中具有優勢。若該攻擊命中，則將卓越骰加入該攻擊的傷害骰中。",
+				"若你在獲得這個優勢的回合中沒有使用它，則你將會失去這個優勢。"
 			],
 			"ENG_name": "Feinting Attack"
 		},
@@ -1937,7 +1937,7 @@
 				}
 			],
 			"entries": [
-				"你可以对你自己以1环法术随意施放{@spell 摹造生命}，无需消耗法术位或材料构材。"
+				"你可以對你自己以1環法術隨意施放{@spell 摹造生命}，無需消耗法術位或材料構材。"
 			],
 			"ENG_name": "Fiendish Vigor"
 		},
@@ -1950,8 +1950,8 @@
 				"RN"
 			],
 			"entries": [
-				"该符文中的魔力引导了伟大铁匠的高超技艺。当你穿着或持有一个铭刻此符文的物品，你在使用具有熟练项的工具进行属性检定时，你的熟练加值翻倍。",
-				"此外，当你使用武器攻击并命中一个生物，你可以激活此符文来召唤炽热镣铐：目标受到额外{@damage 2d6}火焰伤害，且其必须通过一次力量豁免检定，如果失败则被{@condition 束缚}1分钟。当目标被炽热镣铐束缚时，目标在它每回合开始时受到{@damage 2d6}火焰伤害。目标可以在每个自己回合结束时重复此豁免检定，成功则放逐镣铐。每当你激活该符文，你无法再如此直到你完成一次短休或长休。"
+				"該符文中的魔力引導了偉大鐵匠的高超技藝。當你穿著或持有一個銘刻此符文的物品，你在使用具有熟練項的工具進行屬性檢定時，你的熟練加值翻倍。",
+				"此外，當你使用武器攻擊並命中一個生物，你可以啟用此符文來召喚熾熱鐐銬：目標受到額外{@damage 2d6}火焰傷害，且其必須通過一次力量豁免檢定，如果失敗則被{@condition 束縛}1分鐘。當目標被熾熱鐐銬束縛時，目標在它每回合開始時受到{@damage 2d6}火焰傷害。目標可以在每個自己回合結束時重複此豁免檢定，成功則放逐鐐銬。每當你啟用該符文，你無法再如此直到你完成一次短休或長休。"
 			]
 		},
 		{
@@ -1976,12 +1976,12 @@
 				}
 			],
 			"entries": [
-				"你可以消耗2点气以施放{@spell 雷鸣波}。"
+				"你可以消耗2點氣以施放{@spell 雷鳴波}。"
 			],
 			"ENG_name": "Fist of Four Thunders"
 		},
 		{
-			"name": "凤凰火",
+			"name": "鳳凰火",
 			"source": "PHB",
 			"page": 81,
 			"featureType": [
@@ -2015,7 +2015,7 @@
 				}
 			],
 			"entries": [
-				"你可以消耗4点气以施放{@spell 火球术}。"
+				"你可以消耗4點氣以施放{@spell 火球術}。"
 			],
 			"ENG_name": "Flames of the Phoenix"
 		},
@@ -2069,8 +2069,8 @@
 				"RN"
 			],
 			"entries": [
-				"该符文的魔力唤起了诸如霜巨人般在冬日荒野中生存下来的力量。当你穿着或持有一个铭刻此符文的物品，你在感知（{@skill 驯兽}）检定和魅力（{@skill 威吓}）检定上获得优势。",
-				"此外，你可以用一个附赠动作激活该符文来提高你的体能。十分钟内，你所有与力量或体质有关的属性和豁免检定获得+2的加值。每当你激活该符文，你无法再如此直到你完成一次短休或长休。"
+				"該符文的魔力喚起了諸如霜巨人般在冬日荒野中生存下來的力量。當你穿著或持有一個銘刻此符文的物品，你在感知（{@skill 馴獸}）檢定和魅力（{@skill 威嚇}）檢定上獲得優勢。",
+				"此外，你可以用一個附贈動作啟用該符文來提高你的體能。十分鐘內，你所有與力量或體質有關的屬性和豁免檢定獲得+2的加值。每當你啟用該符文，你無法再如此直到你完成一次短休或長休。"
 			]
 		},
 		{
@@ -2096,7 +2096,7 @@
 			]
 		},
 		{
-			"name": "联心之视",
+			"name": "聯心之視",
 			"source": "PHB",
 			"page": 111,
 			"srd": true,
@@ -2104,12 +2104,12 @@
 				"EI"
 			],
 			"entries": [
-				"你可以使用你的动作以触碰一个自愿的类人生物，并直到你的下个回合结束前通过它的感官感知周遭。只要该生物和你处于相同的存在位面，你就可以在后续的回合中使用你的动作以维持这道链接，将持续时间延长到你的下个回合结束。当通过该生物的感官感知时，你得益于该生物所拥有的任何特殊感官，且你对你自己的周遭环境视作{@condition 耳聋}和{@condition 目盲}。"
+				"你可以使用你的動作以觸碰一個自願的類人生物，並直到你的下個回合結束前通過它的感官感知周遭。只要該生物和你處於相同的存在位面，你就可以在後續的回合中使用你的動作以維持這道連結，將持續時間延長到你的下個回合結束。當通過該生物的感官感知時，你得益於該生物所擁有的任何特殊感官，且你對你自己的周遭環境視作{@condition 耳聾}和{@condition 目盲}。"
 			],
 			"ENG_name": "Gaze of Two Minds"
 		},
 		{
-			"name": "幽魂凝视",
+			"name": "幽魂凝視",
 			"source": "UARevisedClassOptions",
 			"page": 6,
 			"previousVersion": {
@@ -2130,12 +2130,12 @@
 				}
 			],
 			"entries": [
-				"以一个动作，你获得看透30尺范围内固态物体的能力。若你尚未具有黑暗视觉，则你将在此范围内具有黑暗视觉。这个特殊感官将持续直到该回合结束。在这段期间，你所看到的物体将呈现幽影般、透明的影像。一旦你使用此祈唤，直到你完成一次短休或长休之前都无法再使用它。"
+				"以一個動作，你獲得看透30尺範圍內固態物體的能力。若你尚未具有黑暗視覺，則你將在此範圍內具有黑暗視覺。這個特殊感官將持續直到該回合結束。在這段期間，你所看到的物體將呈現幽影般、透明的影像。一旦你使用此祈喚，直到你完成一次短休或長休之前都無法再使用它。"
 			],
 			"ENG_name": "Ghostly Gaze"
 		},
 		{
-			"name": "幽魂凝视",
+			"name": "幽魂凝視",
 			"source": "XGE",
 			"page": 56,
 			"featureType": [
@@ -2152,13 +2152,13 @@
 				}
 			],
 			"entries": [
-				"以一个动作，你获得看透30尺范围内固态物体的能力。若你尚未具有黑暗视觉，则你将在此范围内具有黑暗视觉。这个特殊感官将持续1分钟或直到你结束专注（如同你专注于法术）。在这段期间，你所看到的物体将呈现幽影般、透明的影像。",
-				"一旦你使用此祈唤，直到你完成一次短休或长休之前都无法再使用它。"
+				"以一個動作，你獲得看透30尺範圍內固態物體的能力。若你尚未具有黑暗視覺，則你將在此範圍內具有黑暗視覺。這個特殊感官將持續1分鐘或直到你結束專注（如同你專注於法術）。在這段期間，你所看到的物體將呈現幽影般、透明的影像。",
+				"一旦你使用此祈喚，直到你完成一次短休或長休之前都無法再使用它。"
 			],
 			"ENG_name": "Ghostly Gaze"
 		},
 		{
-			"name": "深海之赐",
+			"name": "深海之賜",
 			"source": "UARevisedClassOptions",
 			"page": 6,
 			"previousVersion": {
@@ -2192,12 +2192,12 @@
 				}
 			],
 			"entries": [
-				"你可以在水下呼吸，且你获得等同于你步行速度的游泳速度。你也可以施放{@spell 水下呼吸}一次而无需消耗法术位。一旦你使用此祈唤施放它，直到你完成一次长休之前你都不能再这么做。"
+				"你可以在水下呼吸，且你獲得等同於你步行速度的游泳速度。你也可以施放{@spell 水下呼吸}一次而無需消耗法術位。一旦你使用此祈喚施放它，直到你完成一次長休之前你都不能再這麼做。"
 			],
 			"ENG_name": "Gift of the Depths"
 		},
 		{
-			"name": "深海之赐",
+			"name": "深海之賜",
 			"source": "XGE",
 			"page": 57,
 			"featureType": [
@@ -2227,13 +2227,13 @@
 				}
 			],
 			"entries": [
-				"你可以在水下呼吸，且你获得等同于你步行速度的游泳速度。",
-				"你也可以施放{@spell 水下呼吸}一次而无需消耗法术位。你在完成一次长休后恢复这么做的能力。"
+				"你可以在水下呼吸，且你獲得等同於你步行速度的游泳速度。",
+				"你也可以施放{@spell 水下呼吸}一次而無需消耗法術位。你在完成一次長休後恢復這麼做的能力。"
 			],
 			"ENG_name": "Gift of the Depths"
 		},
 		{
-			"name": "永生者之赐",
+			"name": "永生者之賜",
 			"source": "UARevisedClassOptions",
 			"page": 6,
 			"previousVersion": {
@@ -2249,12 +2249,12 @@
 				}
 			],
 			"entries": [
-				"每当你在你的魔宠距离你100尺内时回复生命值，将任何用以决定你生命值回复量的骰子都视作它们骰出了最大值。"
+				"每當你在你的魔寵距離你100尺內時回復生命值，將任何用以決定你生命值回復量的骰子都視作它們骰出了最大值。"
 			],
 			"ENG_name": "Gift of the Ever-Living Ones"
 		},
 		{
-			"name": "永生者之赐",
+			"name": "永生者之賜",
 			"source": "XGE",
 			"page": 57,
 			"featureType": [
@@ -2266,12 +2266,12 @@
 				}
 			],
 			"entries": [
-				"每当你在你的魔宠距离你100尺内时回复生命值，将任何用以决定你生命值回复量的骰子都视作它们骰出了最大值。"
+				"每當你在你的魔寵距離你100尺內時回復生命值，將任何用以決定你生命值回復量的骰子都視作它們骰出了最大值。"
 			],
 			"ENG_name": "Gift of the Ever-Living Ones"
 		},
 		{
-			"name": "守护馈赠",
+			"name": "守護饋贈",
 			"ENG_name": "Gift of the Protectors",
 			"source": "TCE",
 			"page": 71,
@@ -2291,9 +2291,9 @@
 				}
 			],
 			"entries": [
-				"一张新的书页出现在你的影之书中。在你许可下，一个生物可以用动作将它的名字写在这一页上，这一页能容纳的名字数量等于你的熟练加值。",
-				"当一个名字在这一页上的生物生命值降为0但未立即死亡，该生物的生命值因魔法而变为1点。一旦该魔法效应触发，没有生物可以再从此效应中获益直到你完成一次长休。",
-				"以一个动作，你可以用魔法以触摸的方式消除书页上的一个名字。"
+				"一張新的書頁出現在你的影之書中。在你許可下，一個生物可以用動作將它的名字寫在這一頁上，這一頁能容納的名字數量等於你的熟練加值。",
+				"當一個名字在這一頁上的生物生命值降為0但未立即死亡，該生物的生命值因魔法而變為1點。一旦該魔法效應觸發，沒有生物可以再從此效應中獲益直到你完成一次長休。",
+				"以一個動作，你可以用魔法以觸摸的方式消除書頁上的一個名字。"
 			]
 		},
 		{
@@ -2322,19 +2322,19 @@
 			]
 		},
 		{
-			"name": "挑衅击",
+			"name": "挑釁擊",
 			"source": "PHB",
 			"page": 74,
 			"featureType": [
 				"MV:B"
 			],
 			"entries": [
-				"当你以一次武器攻击命中一个生物时，你可以消耗一颗卓越骰以尝试挑衅目标攻击你。你将卓越骰加入该攻击的伤害骰中，且目标必须进行一次感知豁免。若豁免失败，则直到你的下个回合结束前，目标对你以外的对象所进行的所有攻击检定都将承受劣势。"
+				"當你以一次武器攻擊命中一個生物時，你可以消耗一顆卓越骰以嘗試挑釁目標攻擊你。你將卓越骰加入該攻擊的傷害骰中，且目標必須進行一次感知豁免。若豁免失敗，則直到你的下個回合結束前，目標對你以外的對象所進行的所有攻擊檢定都將承受劣勢。"
 			],
 			"ENG_name": "Goading Attack"
 		},
 		{
-			"name": "狮吼功",
+			"name": "獅吼功",
 			"source": "PHB",
 			"page": 81,
 			"featureType": [
@@ -2368,12 +2368,12 @@
 				}
 			],
 			"entries": [
-				"你可以消耗3点气以施放{@spell 粉碎音波}。"
+				"你可以消耗3點氣以施放{@spell 粉碎音波}。"
 			],
 			"ENG_name": "Gong of the Summit"
 		},
 		{
-			"name": "擒拿击",
+			"name": "擒拿擊",
 			"ENG_name": "Grappling Strike",
 			"source": "TCE",
 			"page": 42,
@@ -2382,11 +2382,11 @@
 				"MV:B"
 			],
 			"entries": [
-				"当你在一次近战武器攻击命中一个生物后，你能够立即消耗一枚卓越骰，以一个附赠动作对目标进行一次擒抱（见{@book 《玩家手册》的\"擒抱\"|PHB|9|擒抱}规则）。将消耗的卓越骰加入你的力量（{@skill 运动}）检定中。"
+				"當你在一次近戰武器攻擊命中一個生物後，你能夠立即消耗一枚卓越骰，以一個附贈動作對目標進行一次擒抱（見{@book 《玩家手冊》的\"擒抱\"|PHB|9|擒抱}規則）。將消耗的卓越骰加入你的力量（{@skill 運動}）檢定中。"
 			]
 		},
 		{
-			"name": "哈达之攫",
+			"name": "哈達之攫",
 			"source": "UARevisedClassOptions",
 			"page": 6,
 			"previousVersion": {
@@ -2404,12 +2404,12 @@
 				}
 			],
 			"entries": [
-				"在你的每个回合一次，当你使用你的{@spell 魔能爆}戏法命中一个生物时，你可以让该生物向你直线移动10尺。"
+				"在你的每個回合一次，當你使用你的{@spell 魔能爆}戲法命中一個生物時，你可以讓該生物向你直線移動10尺。"
 			],
 			"ENG_name": "Grasp of Hadar"
 		},
 		{
-			"name": "哈达之攫",
+			"name": "哈達之攫",
 			"source": "UAWarlockAndWizard",
 			"page": 4,
 			"featureType": [
@@ -2424,12 +2424,12 @@
 				}
 			],
 			"entries": [
-				"在你的回合期间一次，当你使用你的{@spell 魔能爆}戏法命中一个生物时，你可以让该生物向你直线移动10尺。"
+				"在你的回合期間一次，當你使用你的{@spell 魔能爆}戲法命中一個生物時，你可以讓該生物向你直線移動10尺。"
 			],
 			"ENG_name": "Grasp of Hadar"
 		},
 		{
-			"name": "哈达之攫",
+			"name": "哈達之攫",
 			"source": "XGE",
 			"page": 57,
 			"featureType": [
@@ -2443,7 +2443,7 @@
 				}
 			],
 			"entries": [
-				"在你的每个回合一次，当你使用你的{@spell 魔能爆}命中一个生物时，你可以让该生物向你直线移动10尺。"
+				"在你的每個回合一次，當你使用你的{@spell 魔能爆}命中一個生物時，你可以讓該生物向你直線移動10尺。"
 			],
 			"ENG_name": "Grasp of Hadar"
 		},
@@ -2466,25 +2466,25 @@
 				"AS:V2-UA"
 			],
 			"entries": [
-				"When this arrow strikes its target, conjuration magic creates grasping, thorny brambles that wrap around the target. If the arrow hits a creature, the target takes an extra {@damage 2d6} poison damage, its speed is reduced by 10 feet, and it takes {@damage 2d6} slashing damage the first time on each turn it moves 1 foot or more without teleporting. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength ({@skill 运动}) check against your Arcane Shot save DC. Otherwise, the brambles last for 1 minute or until you use this option again.",
+				"When this arrow strikes its target, conjuration magic creates grasping, thorny brambles that wrap around the target. If the arrow hits a creature, the target takes an extra {@damage 2d6} poison damage, its speed is reduced by 10 feet, and it takes {@damage 2d6} slashing damage the first time on each turn it moves 1 foot or more without teleporting. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength ({@skill 運動}) check against your Arcane Shot save DC. Otherwise, the brambles last for 1 minute or until you use this option again.",
 				"The poison and slashing damage both increase to {@damage 4d6} when you reach 18th level in this class."
 			]
 		},
 		{
-			"name": "纠缠箭",
+			"name": "糾纏箭",
 			"source": "XGE",
 			"page": 29,
 			"featureType": [
 				"AS"
 			],
 			"entries": [
-				"当此箭击中它的目标，咒法系魔法将创造出一团纠缠着的有毒刺籐，紧紧缠绕着目标。被此箭命中的生物将受到额外的{@dice 2d6}毒素伤害，它的移动速度降低10尺，且它在每回合不通过传送而第一次移动1尺或以上的距离时，将再受到{@dice 2d6}挥砍伤害。目标或其他能够触及它的生物可以使用它的动作，并借由成功通过一次对抗你秘法射击豁免DC的力量（{@skill 运动}）检定以移除这些刺籐。否则，这些刺籐将持续存在长达1分钟，或直到你再次使用这个选项。",
-				"这个毒素伤害和挥砍伤害将在你本职业升至18级时增加至{@dice 4d6}。"
+				"當此箭擊中它的目標，咒法系魔法將創造出一團糾纏著的有毒刺籐，緊緊纏繞著目標。被此箭命中的生物將受到額外的{@dice 2d6}毒素傷害，它的移動速度降低10尺，且它在每回合不通過傳送而第一次移動1尺或以上的距離時，將再受到{@dice 2d6}揮砍傷害。目標或其他能夠觸及它的生物可以使用它的動作，並藉由成功通過一次對抗你秘法射擊豁免DC的力量（{@skill 運動}）檢定以移除這些刺籐。否則，這些刺籐將持續存在長達1分鐘，或直到你再次使用這個選項。",
+				"這個毒素傷害和揮砍傷害將在你本職業升至18級時增加至{@dice 4d6}。"
 			],
 			"ENG_name": "Grasping Arrow"
 		},
 		{
-			"name": "巨武战斗",
+			"name": "巨武戰鬥",
 			"source": "PHB",
 			"page": 72,
 			"srd": true,
@@ -2499,7 +2499,7 @@
 				"FS:P"
 			],
 			"entries": [
-				"当你在使用一把以双手持用的近战武器所进行攻击的伤害骰中骰出了1或2的结果，你可以重骰该骰，且必须使用新的掷骰结果，即使其结果仍然是1或2。该武器必须具有双手或可双手属性才能让你获得这个好处。"
+				"當你在使用一把以雙手持用的近戰武器所進行攻擊的傷害骰中骰出了1或2的結果，你可以重骰該骰，且必須使用新的擲骰結果，即使其結果仍然是1或2。該武器必須具有雙手或可雙手屬性才能讓你獲得這個好處。"
 			],
 			"ENG_name": "Great Weapon Fighting"
 		},
@@ -2543,7 +2543,7 @@
 			]
 		},
 		{
-			"name": "升阶法术",
+			"name": "升階法術",
 			"source": "PHB",
 			"page": 102,
 			"srd": true,
@@ -2551,12 +2551,12 @@
 				"MM"
 			],
 			"entries": [
-				"当你施放一个会强迫一个生物进行豁免检定以抵抗它效果的法术时，你可以消耗3点术法点以让一个该法术的目标在它对抗该法术的第一次豁免检定中承受劣势。"
+				"當你施放一個會強迫一個生物進行豁免檢定以抵抗它效果的法術時，你可以消耗3點術法點以讓一個該法術的目標在它對抗該法術的第一次豁免檢定中承受劣勢。"
 			],
 			"ENG_name": "Heightened Spell"
 		},
 		{
-			"name": "警觉之盔",
+			"name": "警覺之盔",
 			"ENG_name": "Helm of Awareness",
 			"source": "TCE",
 			"page": 21,
@@ -2572,12 +2572,12 @@
 						}
 					},
 					"item": [
-						"一件头盔（需调谐）"
+						"一件頭盔（需調諧）"
 					]
 				}
 			],
 			"entries": [
-				"穿戴此头盔的生物在先攻检定上具有优势。此外，穿戴者只要不处于{@condition 无力}状态，就不会被突袭。."
+				"穿戴此頭盔的生物在先攻檢定上具有優勢。此外，穿戴者只要不處於{@condition 無力}狀態，就不會被突襲。."
 			]
 		},
 		{
@@ -2601,7 +2601,7 @@
 				}
 			],
 			"entries": [
-				"While wearing this helmet, a creature has advantage on initiative rolls. In addition, the wearer can't be surprised, provided it isn't {@condition 无力}."
+				"While wearing this helmet, a creature has advantage on initiative rolls. In addition, the wearer can't be surprised, provided it isn't {@condition 無力}."
 			]
 		},
 		{
@@ -2626,12 +2626,12 @@
 				}
 			],
 			"entries": [
-				"该符文的魔力赋予如山丘巨人一般的坚韧。当你穿着或持有一个铭刻此符文的物品，你在对抗{@condition 中毒}状态的豁免检定上具有优势，且你对于毒素伤害具有抗性。",
-				"此外，你可以用一个附赠动作激活该符文，并获得1分钟的钝击、挥砍和穿刺伤害抗性。每当你激活该符文，你无法再如此直到你完成一次短休或长休。"
+				"該符文的魔力賦予如山丘巨人一般的堅韌。當你穿著或持有一個銘刻此符文的物品，你在對抗{@condition 中毒}狀態的豁免檢定上具有優勢，且你對於毒素傷害具有抗性。",
+				"此外，你可以用一個附贈動作啟用該符文，並獲得1分鐘的鈍擊、揮砍和穿刺傷害抗性。每當你啟用該符文，你無法再如此直到你完成一次短休或長休。"
 			]
 		},
 		{
-			"name": "人工生命仆从",
+			"name": "人工生命僕從",
 			"ENG_name": "Homunculus Servant",
 			"source": "TCE",
 			"page": 21,
@@ -2647,16 +2647,16 @@
 			"prerequisite": [
 				{
 					"item": [
-						"一颗价值至少 100gp 的宝石或水晶"
+						"一顆價值至少 100gp 的寶石或水晶"
 					]
 				}
 			],
 			"entries": [
-				"你习得了如何魔法性的创造一个为你服务的特殊{@creature 人工生命仆从|TCE|人工生命}。你在注法中使用的物品将变成人工生命的心脏，而它的身体会立即围绕心脏成型。",
-				"你能够决定人工生命的外观。有些奇械师喜欢看上去像机械的鸟，也有些喜欢长翅膀的小瓶或是拥有生命的小坩埚。",
-				"人工生命对你和你的同伴都十分友善，且服从你的命令。人工生命的游戏数据见下，它的数据中某几项会适用你的熟练加值（PB）。",
-				"在战斗中，人工生命使用你的先攻，并且在你的回合后立即行动。它能自由移动和执行反应，但除非你以一个附赠动作命令它进行数据中列出的动作或其他动作，否则它在回合中只能进行{@action 闪避}动作。如果你{@condition 无力}，人工生命可以进行任何动作，而不仅仅是{@action 闪避}。",
-				"如果你对人工生命施放{@spell 修复术}，它将恢复{@dice 2d6}生命值。如果你或人工生命死亡，它将消失，只有心脏会留在它之前占据的地方。"
+				"你習得了如何魔法性的創造一個為你服務的特殊{@creature 人工生命僕從|TCE|人工生命}。你在注法中使用的物品將變成人工生命的心臟，而它的身體會立即圍繞心臟成型。",
+				"你能夠決定人工生命的外觀。有些奇械師喜歡看起來像機械的鳥，也有些喜歡長翅膀的小瓶或是擁有生命的小坩堝。",
+				"人工生命對你和你的同伴都十分友善，且服從你的命令。人工生命的遊戲數據見下，它的數據中某幾項會適用你的熟練加值（PB）。",
+				"在戰鬥中，人工生命使用你的先攻，並且在你的回合後立即行動。它能自由移動和執行反應，但除非你以一個附贈動作命令它進行數據中列出的動作或其他動作，否則它在回合中只能進行{@action 閃避}動作。如果你{@condition 無力}，人工生命可以進行任何動作，而不僅僅是{@action 閃避}。",
+				"如果你對人工生命施放{@spell 修復術}，它將恢復{@dice 2d6}生命值。如果你或人工生命死亡，它將消失，只有心臟會留在它之前占據的地方。"
 			]
 		},
 		{
@@ -2668,11 +2668,11 @@
 			],
 			"entries": [
 				"This rune's magic channels the masterful craftsmanship of fire giant smiths. While wearing or carrying an object inscribed with this rune, your proficiency bonus is doubled for any ability check you make that uses your proficiency with a tool.",
-				"In addition, when you hit a creature with a weapon attack, you can invoke the rune to summon fiery shackles: the target must succeed on a Strength saving throw or be {@condition 束缚} for 1 minute. While {@condition 束缚} by the shackles, the target takes  {@damage 2d6} fire damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, banishing the shackles on a success. Once you invoke the rune, you can't do so again until you finish a short or long rest."
+				"In addition, when you hit a creature with a weapon attack, you can invoke the rune to summon fiery shackles: the target must succeed on a Strength saving throw or be {@condition 束縛} for 1 minute. While {@condition 束縛} by the shackles, the target takes  {@damage 2d6} fire damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, banishing the shackles on a success. Once you invoke the rune, you can't do so again until you finish a short or long rest."
 			]
 		},
 		{
-			"name": "进阶契约武器",
+			"name": "進階契約武器",
 			"source": "UARevisedClassOptions",
 			"page": 6,
 			"previousVersion": {
@@ -2688,7 +2688,7 @@
 				}
 			],
 			"entries": [
-				"你可以使用任何你通过锋刃魔契能力召唤出来的武器作为你施放契术师法术的法器。此外，该武器视作一把在攻击检定和伤害骰上具有+1加值的魔法武器，除非它已经是一把被你转化为你契约武器的魔法武器。"
+				"你可以使用任何你透過鋒刃魔契能力召喚出來的武器作為你施放契術師法術的法器。此外，該武器視作一把在攻擊檢定和傷害骰上具有+1加值的魔法武器，除非它已經是一把被你轉化為你契約武器的魔法武器。"
 			],
 			"ENG_name": "Improved Pact Weapon"
 		},
@@ -2715,7 +2715,7 @@
 			]
 		},
 		{
-			"name": "进阶契约武器",
+			"name": "進階契約武器",
 			"source": "XGE",
 			"page": 57,
 			"featureType": [
@@ -2727,14 +2727,14 @@
 				}
 			],
 			"entries": [
-				"你可以使用任何你通过锋刃魔契能力召唤出来的武器作为你施放契术师法术的法器。",
-				"此外，该武器在它的攻击检定和伤害骰上获得+1加值，除非它已经是一把在这些掷骰中具有加值的魔法武器。",
-				"最后，你所召唤的该武器可以是一把{@item 短弓|phb}、{@item 长弓|phb}、{@item 轻弩|phb}或{@item 重弩|phb}。"
+				"你可以使用任何你透過鋒刃魔契能力召喚出來的武器作為你施放契術師法術的法器。",
+				"此外，該武器在它的攻擊檢定和傷害骰上獲得+1加值，除非它已經是一把在這些擲骰中具有加值的魔法武器。",
+				"最後，你所召喚的該武器可以是一把{@item 短弓|phb}、{@item 長弓|phb}、{@item 輕弩|phb}或{@item 重弩|phb}。"
 			],
 			"ENG_name": "Improved Pact Weapon"
 		},
 		{
-			"name": "拦截",
+			"name": "攔截",
 			"ENG_name": "Interception",
 			"source": "TCE",
 			"page": 41,
@@ -2744,7 +2744,7 @@
 				"FS:P"
 			],
 			"entries": [
-				"当一个你可见的生物攻击距离你5尺以内你以外的目标时，你能以一个反应将目标受到的伤害减少{@dice 1d10} + 你熟练加值（最多减到0伤害）。当你手持一面{@item 盾牌|phb}或者一把简单或军用武器时才能执行此反应。"
+				"當一個你可見的生物攻擊距離你5尺以內你以外的目標時，你能以一個反應將目標受到的傷害減少{@dice 1d10} + 你熟練加值（最多減到0傷害）。當你手持一面{@item 盾牌|phb}或者一把簡單或軍用武器時才能執行此反應。"
 			]
 		},
 		{
@@ -2762,7 +2762,7 @@
 			]
 		},
 		{
-			"name": "链主赋能",
+			"name": "鏈主賦能",
 			"ENG_name": "Investment of the Chain Master",
 			"source": "TCE",
 			"page": 71,
@@ -2776,15 +2776,15 @@
 				}
 			],
 			"entries": [
-				"当你施展{@spell 寻获魔宠}时，你将一定程度的魔能力量灌注给被召唤的魔宠，给予这个生物以下的能力：",
+				"當你施展{@spell 尋獲魔寵}時，你將一定程度的魔能力量灌注給被召喚的魔寵，給予這個生物以下的能力：",
 				{
 					"type": "list",
 					"items": [
-						"该魔宠获得40尺飞行速度或游泳速度（由你选择）。",
-						"你可以用一个附赠动作指挥你的魔宠进行{@action 攻击}动作。",
-						"在攻击对非魔法攻击或伤害具有抗性或免疫的目标时，该魔宠的武器攻击将视为魔法武器攻击。",
-						"如果该魔宠强迫一个生物进行豁免检定，它使用你的法术豁免DC。",
-						"当你的魔宠受到伤害时，你可以用反应给予它对于该伤害的抗性。"
+						"該魔寵獲得40尺飛行速度或游泳速度（由你選擇）。",
+						"你可以用一個附贈動作指揮你的魔寵進行{@action 攻擊}動作。",
+						"在攻擊對非魔法攻擊或傷害具有抗性或免疫的目標時，該魔寵的武器攻擊將視為魔法武器攻擊。",
+						"如果該魔寵強迫一個生物進行豁免檢定，它使用你的法術豁免DC。",
+						"當你的魔寵受到傷害時，你可以用反應給予它對於該傷害的抗性。"
 					]
 				}
 			]
@@ -2823,7 +2823,7 @@
 				"RN"
 			],
 			"entries": [
-				"This rune's magic evokes a frost giant's stoic calm. While wearing or carrying an object inscribed with this rune, you have advantage on Wisdom ({@skill 驯兽}) checks and Charisma ({@skill 威吓}) checks.",
+				"This rune's magic evokes a frost giant's stoic calm. While wearing or carrying an object inscribed with this rune, you have advantage on Wisdom ({@skill 馴獸}) checks and Charisma ({@skill 威嚇}) checks.",
 				"In addition, you can invoke the rune as a bonus action to increase your Strength score by 2 for 10 minutes. This increase can cause your score to exceed 20, but not 30. Once you invoke the rune, you can't do so again until you finish a short or long rest."
 			]
 		},
@@ -2852,7 +2852,7 @@
 				}
 			],
 			"entries": [
-				"When you hit a creature with your {@spell 魔能爆}, you can cast {@spell 火球术} as a bonus action using a warlock spell slot. The spell must be centered on the creature you hit with {@spell 魔能爆}."
+				"When you hit a creature with your {@spell 魔能爆}, you can cast {@spell 火球術} as a bonus action using a warlock spell slot. The spell must be centered on the creature you hit with {@spell 魔能爆}."
 			]
 		},
 		{
@@ -2877,11 +2877,11 @@
 				}
 			],
 			"entries": [
-				"You can channel the fires of Mephistopheles through your {@spell 魔能爆}. When you hit a creature with that cantrip, you can cast {@spell 火球术} as a bonus action using a warlock spell slot. However, the spell must be centered on a creature you hit with eldritch blast."
+				"You can channel the fires of Mephistopheles through your {@spell 魔能爆}. When you hit a creature with that cantrip, you can cast {@spell 火球術} as a bonus action using a warlock spell slot. However, the spell must be centered on a creature you hit with eldritch blast."
 			]
 		},
 		{
-			"name": "怠惰之枪",
+			"name": "怠惰之槍",
 			"source": "XGE",
 			"page": 57,
 			"featureType": [
@@ -2895,12 +2895,12 @@
 				}
 			],
 			"entries": [
-				"在你的每个回合一次，当你使用你的{@spell 魔能爆}命中一个生物时，你可以让该生物的移动速度降低10尺，持续直到你的下个回合结束。"
+				"在你的每個回合一次，當你使用你的{@spell 魔能爆}命中一個生物時，你可以讓該生物的移動速度降低10尺，持續直到你的下個回合結束。"
 			],
 			"ENG_name": "Lance of Lethargy"
 		},
 		{
-			"name": "饮命者",
+			"name": "飲命者",
 			"source": "PHB",
 			"page": 111,
 			"srd": true,
@@ -2919,19 +2919,19 @@
 				}
 			],
 			"entries": [
-				"当你使用你的契约武器命中一个生物时，该生物受到等同你魅力调整值的额外黯蚀伤害（最少为1）。"
+				"當你使用你的契約武器命中一個生物時，該生物受到等同你魅力調整值的額外黯蝕傷害（最少為1）。"
 			],
 			"ENG_name": "Lifedrinker"
 		},
 		{
-			"name": "突刺击",
+			"name": "突刺擊",
 			"source": "PHB",
 			"page": 74,
 			"featureType": [
 				"MV:B"
 			],
 			"entries": [
-				"当你在你的回合进行一次近战武器攻击时，你可以消耗一颗卓越骰以使你该攻击的触及范围增加5尺。若你命中，则你将卓越骰加入该攻击的伤害骰中。"
+				"當你在你的回合進行一次近戰武器攻擊時，你可以消耗一顆卓越骰以使你該攻擊的觸及範圍增加5尺。若你命中，則你將卓越骰加入該攻擊的傷害骰中。"
 			],
 			"ENG_name": "Lunging Attack"
 		},
@@ -2953,7 +2953,7 @@
 			]
 		},
 		{
-			"name": "癫狂巫咒",
+			"name": "癲狂巫咒",
 			"source": "UARevisedClassOptions",
 			"page": 6,
 			"previousVersion": {
@@ -2974,12 +2974,12 @@
 				}
 			],
 			"entries": [
-				"以一个附赠动作，你让被你使用{@spell 脆弱诅咒}法术或你的契术师能力（像是咒剑诅咒或凶兆符记）所诅咒的目标环绕着一道精神乱流。当你这么做时，你对该目标和每个距离它5尺内你所选择的生物造成心灵伤害。这个心灵伤害等同于你的魅力调整值（最少为0点伤害）。"
+				"以一個附贈動作，你讓被你使用{@spell 脆弱詛咒}法術或你的契術師能力（像是咒劍詛咒或凶兆符記）所詛咒的目標環繞著一道精神亂流。當你這麼做時，你對該目標和每個距離它5尺內你所選擇的生物造成心靈傷害。這個心靈傷害等同於你的魅力調整值（最少為0點傷害）。"
 			],
 			"ENG_name": "Maddening Hex"
 		},
 		{
-			"name": "癫狂巫咒",
+			"name": "癲狂巫咒",
 			"source": "XGE",
 			"page": 57,
 			"featureType": [
@@ -2999,19 +2999,19 @@
 				}
 			],
 			"entries": [
-				"以一个附赠动作，你让被你使用{@spell 脆弱诅咒}法术或你的契术师能力（像是咒剑诅咒或凶兆符记）所诅咒的目标环绕着一道精神乱流。当你这么做时，你对被诅咒的目标和每个距离它5尺内你所选且你能看见的生物造成精神伤害。这个精神伤害等同于你的魅力调整值（最少为1点伤害）。若要使用此祈唤，你必须要能够看见被诅咒的目标，且它必须距离你30尺内。"
+				"以一個附贈動作，你讓被你使用{@spell 脆弱詛咒}法術或你的契術師能力（像是咒劍詛咒或凶兆符記）所詛咒的目標環繞著一道精神亂流。當你這麼做時，你對被詛咒的目標和每個距離它5尺內你所選且你能看見的生物造成精神傷害。這個精神傷害等同於你的魅力調整值（最少為1點傷害）。若要使用此祈喚，你必須要能夠看見被詛咒的目標，且它必須距離你30尺內。"
 			],
 			"ENG_name": "Maddening Hex"
 		},
 		{
-			"name": "灵动击",
+			"name": "靈動擊",
 			"source": "PHB",
 			"page": 74,
 			"featureType": [
 				"MV:B"
 			],
 			"entries": [
-				"当你以一次武器攻击命中一个生物时，你可以消耗一颗卓越骰以调动你其中一个伙伴到一处更有利的位置。你将卓越骰加入该攻击的伤害骰中，且你选择一个能够看见或听见你的友善生物。该生物可以使用它的反应以移动最多等同于它移动速度一半的距离，且不会触发来自你攻击目标的借机攻击。"
+				"當你以一次武器攻擊命中一個生物時，你可以消耗一顆卓越骰以調動你其中一個伙伴到一處更有利的位置。你將卓越骰加入該攻擊的傷害骰中，且你選擇一個能夠看見或聽見你的友善生物。該生物可以使用它的反應以移動最多等同於它移動速度一半的距離，且不會觸發來自你攻擊目標的藉機攻擊。"
 			],
 			"ENG_name": "Maneuvering Attack"
 		},
@@ -3036,8 +3036,8 @@
 				}
 			],
 			"entries": [
-				"这些灌入注法的囊袋全都共用一个容量等同于一个囊袋的异次元空间。因此，将手伸进其中任何一个囊袋都会进入相同的保存空间。一个囊袋只要和另一个囊袋彼此距离在100里内就能够正常运作，否则该囊袋将会变的空空如也，且无法放入任何物体。",
-				"若这个注法被终止，则被保存于共用空间的物体将会随机移动到其中一个囊袋。其余的囊袋将变得空空如也。"
+				"這些灌入注法的囊袋全都共用一個容量等同於一個囊袋的異次元空間。因此，將手伸進其中任何一個囊袋都會進入相同的保存空間。一個囊袋只要和另一個囊袋彼此距離在100里內就能夠正常運作，否則該囊袋將會變的空空如也，且無法放入任何物體。",
+				"若這個注法被終止，則被保存於共用空間的物體將會隨機移動到其中一個囊袋。其餘的囊袋將變得空空如也。"
 			],
 			"ENG_name": "Many-Handed Pouch"
 		},
@@ -3051,12 +3051,12 @@
 				"FS:R"
 			],
 			"entries": [
-				"只要你未穿戴重甲或使用盾牌，你就拥有等同于你正常移动速度的游泳速度和攀爬速度，且你的AC获得+1加值。"
+				"只要你未穿戴重甲或使用盾牌，你就擁有等同於你正常移動速度的游泳速度和攀爬速度，且你的AC獲得+1加值。"
 			],
 			"ENG_name": "Mariner"
 		},
 		{
-			"name": "千面之脸",
+			"name": "千面之臉",
 			"source": "PHB",
 			"page": 111,
 			"srd": true,
@@ -3073,12 +3073,12 @@
 				}
 			],
 			"entries": [
-				"你可以随意施放{@spell 易容术}，无需消耗法术位。"
+				"你可以隨意施放{@spell 易容術}，無需消耗法術位。"
 			],
 			"ENG_name": "Mask of Many Faces"
 		},
 		{
-			"name": "万形之主",
+			"name": "萬形之主",
 			"source": "PHB",
 			"page": 111,
 			"srd": true,
@@ -3105,24 +3105,24 @@
 				}
 			],
 			"entries": [
-				"你可以随意施放{@spell 变造自身}，无需消耗法术位。"
+				"你可以隨意施放{@spell 變造自身}，無需消耗法術位。"
 			],
 			"ENG_name": "Master of Myriad Forms"
 		},
 		{
-			"name": "恐吓击",
+			"name": "恐嚇擊",
 			"source": "PHB",
 			"page": 74,
 			"featureType": [
 				"MV:B"
 			],
 			"entries": [
-				"当你以一次武器攻击命中一个生物时，你可以消耗一颗卓越骰以尝试吓唬目标。你将卓越骰加入该攻击的伤害骰中，且目标必须进行一次感知豁免。若豁免失败，它将因你陷入{@condition 恐惧}直到你的下个回合结束。"
+				"當你以一次武器攻擊命中一個生物時，你可以消耗一顆卓越骰以嘗試嚇唬目標。你將卓越骰加入該攻擊的傷害骰中，且目標必須進行一次感知豁免。若豁免失敗，它將因你陷入{@condition 恐懼}直到你的下個回合結束。"
 			],
 			"ENG_name": "Menacing Attack"
 		},
 		{
-			"name": "思维砥石",
+			"name": "思維砥石",
 			"ENG_name": "Mind Sharpener",
 			"source": "TCE",
 			"page": 22,
@@ -3137,7 +3137,7 @@
 				}
 			],
 			"entries": [
-				"此物品能够鞭策穿戴者，使其能够重新集中精神。此物品具有4发充能，当穿戴此物品的生物在维持专注法术的一次专注豁免中失败时，能够以一个反应消耗1发充能将结果变为成功。此物品在每天的黎明时会恢复{@dice 1d4}发充能。"
+				"此物品能夠鞭策穿戴者，使其能夠重新集中精神。此物品具有4發充能，當穿戴此物品的生物在維持專注法術的一次專注豁免中失敗時，能夠以一個反應消耗1發充能將結果變為成功。此物品在每天的黎明時會恢復{@dice 1d4}發充能。"
 			]
 		},
 		{
@@ -3171,7 +3171,7 @@
 			]
 		},
 		{
-			"name": "浑沌仆役",
+			"name": "渾沌僕役",
 			"source": "PHB",
 			"page": 111,
 			"srd": true,
@@ -3202,12 +3202,12 @@
 				}
 			],
 			"entries": [
-				"你可以使用契术师法术位施放一次{@spell 召唤元素生物}。直到你完成一次长休之前你都不能再这么做。"
+				"你可以使用契術師法術位施放一次{@spell 召喚元素生物}。直到你完成一次長休之前你都不能再這麼做。"
 			],
 			"ENG_name": "Minions of Chaos"
 		},
 		{
-			"name": "陷困心灵",
+			"name": "陷困心靈",
 			"source": "PHB",
 			"page": 111,
 			"srd": true,
@@ -3238,12 +3238,12 @@
 				}
 			],
 			"entries": [
-				"你可以使用契术师法术位施放一次{@spell 缓速术}。直到你完成一次长休之前你都不能再这么做。"
+				"你可以使用契術師法術位施放一次{@spell 緩速術}。直到你完成一次長休之前你都不能再這麼做。"
 			],
 			"ENG_name": "Mire the Mind"
 		},
 		{
-			"name": "云雾式",
+			"name": "雲霧式",
 			"source": "PHB",
 			"page": 81,
 			"featureType": [
@@ -3277,12 +3277,12 @@
 				}
 			],
 			"entries": [
-				"你可以消耗4点气以施放{@spell 气化形体}，以你自己为目标。"
+				"你可以消耗4點氣以施放{@spell 氣化形體}，以你自己為目標。"
 			],
 			"ENG_name": "Mist Stance"
 		},
 		{
-			"name": "迷雾幻影",
+			"name": "迷霧幻影",
 			"source": "PHB",
 			"page": 111,
 			"srd": true,
@@ -3299,7 +3299,7 @@
 				}
 			],
 			"entries": [
-				"你可以随意施放{@spell 无声幻影}，无需消耗法术位或材料构材。"
+				"你可以隨意施放{@spell 無聲幻影}，無需消耗法術位或材料構材。"
 			],
 			"ENG_name": "Misty Visions"
 		},
@@ -3350,12 +3350,12 @@
 				}
 			],
 			"entries": [
-				"当你处于微光光照或黑暗区域时，你可以使用你的动作以变得{@condition 隐形}，直到你移动或采取动作或反应。"
+				"當你處於微光光照或黑暗區域時，你可以使用你的動作以變得{@condition 隱形}，直到你移動或採取動作或反應。"
 			],
 			"ENG_name": "One with Shadows"
 		},
 		{
-			"name": "超凡跳跃",
+			"name": "超凡跳躍",
 			"source": "PHB",
 			"page": 111,
 			"srd": true,
@@ -3382,12 +3382,12 @@
 				}
 			],
 			"entries": [
-				"你可以对你自己随意施放{@spell 跳跃术}，无需消耗法术位或材料构材。"
+				"你可以對你自己隨意施放{@spell 跳躍術}，無需消耗法術位或材料構材。"
 			],
 			"ENG_name": "Otherworldly Leap"
 		},
 		{
-			"name": "锋刃魔契",
+			"name": "鋒刃魔契",
 			"source": "PHB",
 			"page": 107,
 			"srd": true,
@@ -3395,14 +3395,14 @@
 				"PB"
 			],
 			"entries": [
-				"你可以使用你的动作以在你的一只空着的手中创造一把契约武器。你可以在每次创造它时选择这把近战武器的型态（参见第五章的武器选项）。你在使用它时熟练于该武器。这把武器在克服对非魔法攻击和伤害的抗性和免疫时视作魔法武器。",
-				"你的契约武器会在距离你超过5尺外的情况下长达1分钟或更久时消失。这把武器也会在你再次使用这个能力创造武器、你解消武器（无需花费动作）、或你死亡时消失。",
-				"你可以在持握一把魔法武器时借由施展一种特别仪式以将该武器转化成你的契约武器。施展这个仪式的过程需要1小时，且可以在短休期间被施展。你可以解消这把武器，将它存放在一个异次元空间，且它将在往后每次你创造你的契约武器时出现。你不能用这个方式影响一件神器或一把智能武器。若你死亡、你对另一把武器施展了1小时仪式、或你施展一个1小时仪式以打破跟这把武器的链接时，它将不再作为你的契约武器。若这把武器在链接中断时处于异次元空间，则它将出现在你的脚边。"
+				"你可以使用你的動作以在你的一隻空著的手中創造一把契約武器。你可以在每次創造它時選擇這把近戰武器的型態（參見第五章的武器選項）。你在使用它時熟練於該武器。這把武器在克服對非魔法攻擊和傷害的抗性和免疫時視作魔法武器。",
+				"你的契約武器會在距離你超過5尺外的情況下長達1分鐘或更久時消失。這把武器也會在你再次使用這個能力創造武器、你解消武器（無需花費動作）、或你死亡時消失。",
+				"你可以在持握一把魔法武器時藉由施展一種特別儀式以將該武器轉化成你的契約武器。施展這個儀式的過程需要1小時，且可以在短休期間被施展。你可以解消這把武器，將它存放在一個異次元空間，且它將在往後每次你創造你的契約武器時出現。你不能用這個方式影響一件神器或一把智慧武器。若你死亡、你對另一把武器施展了1小時儀式、或你施展一個1小時儀式以打破跟這把武器的連結時，它將不再作為你的契約武器。若這把武器在連結中斷時處於異次元空間，則它將出現在你的腳邊。"
 			],
 			"ENG_name": "Pact of the Blade"
 		},
 		{
-			"name": "锁链魔契",
+			"name": "鎖鏈魔契",
 			"source": "PHB",
 			"page": 107,
 			"srd": true,
@@ -3422,14 +3422,14 @@
 				}
 			],
 			"entries": [
-				"你习得{@spell 寻获魔宠}法术，并可以将之作为仪式施放。此法术不会计入你的已知法术数量中。",
-				"当你施放此法术时，你可以为你的魔宠选择一个正常的型态，或选择下列其中一个特殊的型态：{@creature 小魔鬼}、{@creature 伪龙}、{@creature 夸塞魔}或{@creature 小妖精}。",
-				"此外，当你采取{@action 攻击}动作时，你可以放弃你其中一次攻击以让你的魔宠使用它的反应进行一次攻击。"
+				"你習得{@spell 尋獲魔寵}法術，並可以將之作為儀式施放。此法術不會計入你的已知法術數量中。",
+				"當你施放此法術時，你可以為你的魔寵選擇一個正常的型態，或選擇下列其中一個特殊的型態：{@creature 小魔鬼}、{@creature 偽龍}、{@creature 夸塞魔}或{@creature 小妖精}。",
+				"此外，當你採取{@action 攻擊}動作時，你可以放棄你其中一次攻擊以讓你的魔寵使用它的反應進行一次攻擊。"
 			],
 			"ENG_name": "Pact of the Chain"
 		},
 		{
-			"name": "星链魔契",
+			"name": "星鏈魔契",
 			"source": "UATheFaithful",
 			"page": 1,
 			"featureType": [
@@ -3448,11 +3448,11 @@
 				}
 			],
 			"entries": [
-				"在3级时，一个献身于{@class Warlock|phb|Seeker|the Seeker (UA)|UATheFaithful}的角色可以选择这个选项，而非契术师既存的契约恩赐选项。",
-				"The Seeker赋予你一条由星光打造的锁链，饰以七颗闪烁的光辉尘埃。当这条锁链在你身上时，你知晓{@spell 卜筮}法术，并可以将之作为仪式施放。此法术不会计入你的已知法术数量中。",
-				"此外，你可以在你携带这个物品时引发the Seeker的力量以在一次智力检定中获得优势。一旦你使用这个能力，直到完成一次短休或长休之前，你都不能再使用它。",
-				"若你失去了你的星光锁链，你可以施展一个长达1小时的仪式以从The Seeker那里获得一个替代品。。这个仪式可以在短休或长休期间被施展，且它将摧毁前一条锁链。这条锁链会在你死亡的时候在一阵闪光中消失。",
-				"这个物品的实际外型可能会根据你的宗主而有所不同。星光锁链是受到灰鹰世界的神祇塞莱斯汀所启发。"
+				"在3級時，一個獻身於{@class Warlock|phb|Seeker|the Seeker (UA)|UATheFaithful}的角色可以選擇這個選項，而非契術師既存的契約恩賜選項。",
+				"The Seeker賦予你一條由星光打造的鎖鏈，飾以七顆閃爍的光輝塵埃。當這條鎖鏈在你身上時，你知曉{@spell 卜筮}法術，並可以將之作為儀式施放。此法術不會計入你的已知法術數量中。",
+				"此外，你可以在你攜帶這個物品時引發the Seeker的力量以在一次智力檢定中獲得優勢。一旦你使用這個能力，直到完成一次短休或長休之前，你都不能再使用它。",
+				"若你失去了你的星光鎖鏈，你可以施展一個長達1小時的儀式以從The Seeker那裡獲得一個替代品。。這個儀式可以在短休或長休期間被施展，且它將摧毀前一條鎖鏈。這條鎖鏈會在你死亡的時候在一陣閃光中消失。",
+				"這個物品的實際外型可能會根據你的宗主而有所不同。星光鎖鏈是受到灰鷹世界的神祇塞萊斯汀所啟發。"
 			],
 			"ENG_name": "Pact of the Star Chain"
 		},
@@ -3466,8 +3466,8 @@
 				"PB"
 			],
 			"entries": [
-				"你的宗主赐予你一个护身符，一个当需要的时候可以帮助佩戴者的护身符。当佩戴者在一次属性检定中失败，他们可以在掷骰结果上增加一个{@dice d4}骰，这可能将结果变为成功。这一能力可使用的次数等于你的熟练加值，且所有已消耗的次数将会在你完成一次长休之后全部恢复。",
-				"如果你弄丢了护身符，你可以进行一个1小时的仪式从你的宗主那里得到一个替代品。这一仪式可以在一个短休或一个长休过程中完成，且它将会破坏之前的护身符。护身符将会在你死亡时消散为灰尘。"
+				"你的宗主賜予你一個護身符，一個當需要的時候可以幫助佩戴者的護身符。當佩戴者在一次屬性檢定中失敗，他們可以在擲骰結果上增加一個{@dice d4}骰，這可能將結果變為成功。這一能力可使用的次數等於你的熟練加值，且所有已消耗的次數將會在你完成一次長休之後全部恢復。",
+				"如果你弄丟了護身符，你可以進行一個1小時的儀式從你的宗主那裡得到一個替代品。這一儀式可以在一個短休或一個長休過程中完成，且它將會破壞之前的護身符。護身符將會在你死亡時消散為灰塵。"
 			]
 		},
 		{
@@ -3485,7 +3485,7 @@
 			]
 		},
 		{
-			"name": "书卷魔契",
+			"name": "書卷魔契",
 			"source": "PHB",
 			"page": 108,
 			"srd": true,
@@ -3506,19 +3506,19 @@
 				}
 			],
 			"entries": [
-				"你的宗主赐予你一本被称作「影之书」的魔法书。当你获得这个能力时，从任何职业的法术列表中选择三个戏法。这些戏法不需要来自同一个法术列表。当这本书在你身上时，你可以随意施放这些戏法。它们不会计入你的已知戏法数量。任何你通过此能力施放的戏法对你而言都视作契术师戏法。若你失去了你的影之书，你可以施展一个长达1小时的仪式以从你的宗主那里获得一个替代品。这个仪式可以在短休或长休期间被施展，且它将摧毁前一本书卷。这本书会在你死亡的时候化作灰烬。"
+				"你的宗主賜予你一本被稱作「影之書」的魔法書。當你獲得這個能力時，從任何職業的法術列表中選擇三個戲法。這些戲法不需要來自同一個法術列表。當這本書在你身上時，你可以隨意施放這些戲法。它們不會計入你的已知戲法數量。任何你通過此能力施放的戲法對你而言都視作契術師戲法。若你失去了你的影之書，你可以施展一個長達1小時的儀式以從你的宗主那裡獲得一個替代品。這個儀式可以在短休或長休期間被施展，且它將摧毀前一本書卷。這本書會在你死亡的時候化作灰燼。"
 			],
 			"ENG_name": "Pact of the Tome"
 		},
 		{
-			"name": "格挡",
+			"name": "格擋",
 			"source": "PHB",
 			"page": 74,
 			"featureType": [
 				"MV:B"
 			],
 			"entries": [
-				"当另一个生物以一次近战攻击伤害你时，你可以使用你的反应并消耗一颗卓越骰以减少伤害。该伤害将减少等同于你卓越骰所骰出的数字 + 你的敏捷调整值。"
+				"當另一個生物以一次近戰攻擊傷害你時，你可以使用你的反應並消耗一顆卓越骰以減少傷害。該傷害將減少等同於你卓越骰所骰出的數字 + 你的敏捷調整值。"
 			],
 			"ENG_name": "Parry"
 		},
@@ -3535,7 +3535,7 @@
 				}
 			],
 			"entries": [
-				"The Seeker bids you to travel in search of knowledge, and little can prevent you from walking this path. You ignore difficult terrain, have advantage on all checks to escape a grapple, manacles, or rope bindings, and advantage on saving throws against being {@condition 麻痹}."
+				"The Seeker bids you to travel in search of knowledge, and little can prevent you from walking this path. You ignore difficult terrain, have advantage on all checks to escape a grapple, manacles, or rope bindings, and advantage on saving throws against being {@condition 麻痺}."
 			]
 		},
 		{
@@ -3569,20 +3569,20 @@
 				"AS"
 			],
 			"entries": [
-				"你利用变化系魔法以将乙太属性赋予你的箭矢。当你使用此选项时，你不需要为此攻击进行攻击检定。取而代之，这支箭矢将在消失前向前射出一道1尺宽、30尺长的直线。这支箭矢将无害地穿过物体、忽略掩护。每个在直线内的生物都必须进行一次敏捷豁免。若豁免失败，该生物将受到如同被箭矢命中一样伤害，再加上额外的{@dice 1d6}穿刺伤害。若豁免成功，则目标只受到一半的伤害。",
-				"这个穿刺伤害将在你本职业升至18级时增加至{@dice 2d6}。"
+				"你利用變化系魔法以將乙太屬性賦予你的箭矢。當你使用此選項時，你不需要為此攻擊進行攻擊檢定。取而代之，這枝箭矢將在消失前向前射出一道1尺寬、30尺長的直線。這枝箭矢將無害地穿過物體、忽略掩護。每個在直線內的生物都必須進行一次敏捷豁免。若豁免失敗，該生物將受到如同被箭矢命中一樣傷害，再加上額外的{@dice 1d6}穿刺傷害。若豁免成功，則目標只受到一半的傷害。",
+				"這個穿刺傷害將在你本職業升至18級時增加至{@dice 2d6}。"
 			],
 			"ENG_name": "Piercing Arrow"
 		},
 		{
-			"name": "精准击",
+			"name": "精準擊",
 			"source": "PHB",
 			"page": 74,
 			"featureType": [
 				"MV:B"
 			],
 			"entries": [
-				"当你对一个生物进行一次武器攻击检定，你可以消耗一颗卓越骰以将它加入该检定中。你可以在进行攻击检定之前或之后使用此战技，但必须在任何攻击的效果适用前使用。"
+				"當你對一個生物進行一次武器攻擊檢定，你可以消耗一顆卓越骰以將它加入該檢定中。你可以在進行攻擊檢定之前或之後使用此戰技，但必須在任何攻擊的效果適用前使用。"
 			],
 			"ENG_name": "Precision Attack"
 		},
@@ -3598,7 +3598,7 @@
 			]
 		},
 		{
-			"name": "守护",
+			"name": "守護",
 			"source": "PHB",
 			"page": 72,
 			"srd": true,
@@ -3613,12 +3613,12 @@
 				"FS:P"
 			],
 			"entries": [
-				"当一个你所能看见的生物攻击一个距离你5尺内你以外的目标，你可以使用你的反应以让该攻击检定承受劣势。你必须持握一面盾牌。"
+				"當一個你所能看見的生物攻擊一個距離你5尺內你以外的目標，你可以使用你的反應以讓該攻擊檢定承受劣勢。你必須持握一面盾牌。"
 			],
 			"ENG_name": "Protection"
 		},
 		{
-			"name": "护符庇佑",
+			"name": "護符庇佑",
 			"ENG_name": "Protection of the Talisman",
 			"source": "TCE",
 			"page": 71,
@@ -3638,7 +3638,7 @@
 				}
 			],
 			"entries": [
-				"当你护符的佩戴者在一次豁免检定中失败，其可以在掷骰结果上增加一个{@dice d4}骰，这可能将结果变为成功。这一增益可使用的次数等于你的熟练加值，且所有已消耗的次数将会在你完成一次长休之后全部恢复。"
+				"當你護符的佩戴者在一次豁免檢定中失敗，其可以在擲骰結果上增加一個{@dice d4}骰，這可能將結果變為成功。這一增益可使用的次數等於你的熟練加值，且所有已消耗的次數將會在你完成一次長休之後全部恢復。"
 			]
 		},
 		{
@@ -3676,19 +3676,19 @@
 			]
 		},
 		{
-			"name": "推撞击",
+			"name": "推撞擊",
 			"source": "PHB",
 			"page": 74,
 			"featureType": [
 				"MV:B"
 			],
 			"entries": [
-				"当你以一次武器攻击命中一个生物时，你可以消耗一颗卓越骰以尝试驱使目标后退。你将卓越骰加入该攻击的伤害骰中，且若目标的体型为大型或更小，则它必须进行一次力量豁免。若豁免失败，你将目标推离你最多15尺距离。"
+				"當你以一次武器攻擊命中一個生物時，你可以消耗一顆卓越骰以嘗試驅使目標後退。你將卓越骰加入該攻擊的傷害骰中，且若目標的體型為大型或更小，則它必須進行一次力量豁免。若豁免失敗，你將目標推離你最多15尺距離。"
 			],
 			"ENG_name": "Pushing Attack"
 		},
 		{
-			"name": "快手投掷",
+			"name": "快手投擲",
 			"ENG_name": "Quick Toss",
 			"source": "TCE",
 			"page": 42,
@@ -3697,11 +3697,11 @@
 				"MV:B"
 			],
 			"entries": [
-				"以一个附赠动作，你能消耗一枚卓越骰一一件具有投掷属性的武器进行一次远程攻击。在进行此攻击时，你能拔出一把投掷武器作为攻击的一部分。如果此次攻击命中，你能将消耗的卓越骰加入此次攻击的伤害骰中。"
+				"以一個附贈動作，你能消耗一枚卓越骰一一件具有投擲屬性的武器進行一次遠程攻擊。在進行此攻擊時，你能拔出一把投擲武器作為攻擊的一部分。如果此次攻擊命中，你能將消耗的卓越骰加入此次攻擊的傷害骰中。"
 			]
 		},
 		{
-			"name": "瞬发法术",
+			"name": "瞬發法術",
 			"source": "PHB",
 			"page": 102,
 			"srd": true,
@@ -3709,7 +3709,7 @@
 				"MM"
 			],
 			"entries": [
-				"当你施放一个施法时间为1个动作的法术时，你可以消耗2点术法点以将它在这次施法的的施法时间变为1个附赠动作。"
+				"當你施放一個施法時間為1個動作的法術時，你可以消耗2點術法點以將它在這次施法的的施法時間變為1個附贈動作。"
 			],
 			"ENG_name": "Quickened Spell"
 		},
@@ -3736,13 +3736,13 @@
 						}
 					},
 					"item": [
-						"一把简易或军用武器（需调谐）"
+						"一把簡易或軍用武器（需調諧）"
 					]
 				}
 			],
 			"entries": [
-				"该魔法武器在攻击和伤害检定中具有+1加值。该武器被拿在手中时，持有者能以一个附赠动作让它放出半径30尺的明亮照明以及该范围外30尺范围的微光照明。持有者也能以一个附赠动作熄灭武器的光芒。",
-				"此武器具有4发充能。当该武器的持有者被近战攻击命中后，持有者能够立即以一个反应消耗1发充能让攻击者对你的法术豁免DC进行一次体质豁免检定，若失败，攻击者将{@condition 目盲}直到他的下个回合结束。此武器在每天的黎明时会恢复{@dice 1d4}发充能。"
+				"該魔法武器在攻擊和傷害檢定中具有+1加值。該武器被拿在手中時，持有者能以一個附贈動作讓它放出半徑30尺的明亮照明以及該範圍外30尺範圍的微光照明。持有者也能以一個附贈動作熄滅武器的光芒。",
+				"此武器具有4發充能。當該武器的持有者被近戰攻擊命中後，持有者能夠立即以一個反應消耗1發充能讓攻擊者對你的法術豁免DC進行一次體質豁免檢定，若失敗，攻擊者將{@condition 目盲}直到他的下個回合結束。此武器在每天的黎明時會恢復{@dice 1d4}發充能。"
 			]
 		},
 		{
@@ -3766,8 +3766,8 @@
 				}
 			],
 			"entries": [
-				"这把魔法武器在使用它进行的攻击检定和伤害骰上赋予+1加值。当持握这把武器时，持用者能够以一个附赠动作使它散发出30尺半径的明亮光照和再延伸30尺的微光光照。持用者也能够以一个附赠动作熄灭这个光照。",
-				"在被一次近战攻击命中时，持用者可以立即以一个反应使攻击者陷入{@condition 目盲}状态直到攻击者的下个回合结束，除非攻击者成功通过一次对抗你法术豁免DC的体质豁免。一旦使用，这个反应直到持用者完成一次短休或长休之前都不能再被使用。"
+				"這把魔法武器在使用它進行的攻擊檢定和傷害骰上賦予+1加值。當持握這把武器時，持用者能夠以一個附贈動作使它散發出30尺半徑的明亮光照和再延伸30尺的微光光照。持用者也能夠以一個附贈動作熄滅這個光照。",
+				"在被一次近戰攻擊命中時，持用者可以立即以一個反應使攻擊者陷入{@condition 目盲}狀態直到攻擊者的下個回合結束，除非攻擊者成功通過一次對抗你法術豁免DC的體質豁免。一旦使用，這個反應直到持用者完成一次短休或長休之前都不能再被使用。"
 			],
 			"ENG_name": "Radiant Weapon"
 		},
@@ -3779,7 +3779,7 @@
 				"MV:B"
 			],
 			"entries": [
-				"在你的回合，你可以使用一个附赠动作并消耗一颗卓越骰以鼓舞你其中一个同伴的士气。当你这么做时，选择一个能够看见或听见你的友善生物。该生物将获得等同于你卓越骰所骰出的数字 + 你的魅力调整值的临时生命值。"
+				"在你的回合，你可以使用一個附贈動作並消耗一顆卓越骰以鼓舞你其中一個同伴的士氣。當你這麼做時，選擇一個能夠看見或聽見你的友善生物。該生物將獲得等同於你卓越骰所骰出的數字 + 你的魅力調整值的臨時生命值。"
 			],
 			"ENG_name": "Rally"
 		},
@@ -3803,7 +3803,7 @@
 			]
 		},
 		{
-			"name": "符令责斥",
+			"name": "符令責斥",
 			"ENG_name": "Rebuke of the Talisman",
 			"source": "TCE",
 			"page": 71,
@@ -3817,7 +3817,7 @@
 				}
 			],
 			"entries": [
-				"当你护符的佩戴者被一个你30尺内可见的攻击者命中时，你可以用反应动作对攻击者造成等于你熟练加值的心灵伤害，并将它推离护符佩戴者最多10尺远。"
+				"當你護符的佩戴者被一個你30尺內可見的攻擊者命中時，你可以用反應動作對攻擊者造成等於你熟練加值的心靈傷害，並將它推離護符佩戴者最多10尺遠。"
 			]
 		},
 		{
@@ -3838,7 +3838,7 @@
 			]
 		},
 		{
-			"name": "无间巫咒",
+			"name": "無間巫咒",
 			"source": "UARevisedClassOptions",
 			"page": 6,
 			"previousVersion": {
@@ -3859,12 +3859,12 @@
 				}
 			],
 			"entries": [
-				"你的诅咒在你和你目标之间创造出一道暂时性的链接。以一个附赠动作，你可以用魔法传送最多30尺距离到一处位于被你使用{@spell 脆弱诅咒}法术或你的契术师能力（像是咒剑诅咒或凶兆符记）所诅咒的目标5尺内，且你能看见的未被占据空间。若要通过这个方式传送，你必须要能够看见被诅咒的目标。"
+				"你的詛咒在你和你目標之間創造出一道暫時性的連結。以一個附贈動作，你可以用魔法傳送最多30尺距離到一處位於被你使用{@spell 脆弱詛咒}法術或你的契術師能力（像是咒劍詛咒或凶兆符記）所詛咒的目標5尺內，且你能看見的未被占據空間。若要透過這個方式傳送，你必須要能夠看見被詛咒的目標。"
 			],
 			"ENG_name": "Relentless Hex"
 		},
 		{
-			"name": "无间巫咒",
+			"name": "無間巫咒",
 			"source": "UAWarlockAndWizard",
 			"page": 5,
 			"featureType": [
@@ -3882,12 +3882,12 @@
 				}
 			],
 			"entries": [
-				"你的咒剑诅咒在你和你目标之间创造出一道暂时性的链接。以一个附赠动作，你可以用魔法传送到一处位于被你咒剑诅咒给诅咒的目标5尺内，且你能看见的空间。若要这么做，你必须要能够看见被诅咒的目标且距离它30尺内。"
+				"你的咒劍詛咒在你和你目標之間創造出一道暫時性的連結。以一個附贈動作，你可以用魔法傳送到一處位於被你咒劍詛咒給詛咒的目標5尺內，且你能看見的空間。若要這麼做，你必須要能夠看見被詛咒的目標且距離它30尺內。"
 			],
 			"ENG_name": "Relentless Hex"
 		},
 		{
-			"name": "无间巫咒",
+			"name": "無間巫咒",
 			"source": "XGE",
 			"page": 57,
 			"featureType": [
@@ -3907,12 +3907,12 @@
 				}
 			],
 			"entries": [
-				"你的诅咒在你和你目标之间创造出一道暂时性的链接。以一个附赠动作，你可以用魔法传送到一处位于被你使用{@spell 脆弱诅咒}法术或你的契术师能力（像是咒剑诅咒或凶兆符记）所诅咒的目标5尺内，距离你最多30尺远，且你能看见的未被占据空间。若要通过这个方式传送，你必须要能够看见被诅咒的目标。"
+				"你的詛咒在你和你目標之間創造出一道暫時性的連結。以一個附贈動作，你可以用魔法傳送到一處位於被你使用{@spell 脆弱詛咒}法術或你的契術師能力（像是咒劍詛咒或凶兆符記）所詛咒的目標5尺內，距離你最多30尺遠，且你能看見的未被占據空間。若要透過這個方式傳送，你必須要能夠看見被詛咒的目標。"
 			],
 			"ENG_name": "Relentless Hex"
 		},
 		{
-			"name": "连射武器",
+			"name": "連射武器",
 			"ENG_name": "Repeating Shot",
 			"source": "TCE",
 			"page": 22,
@@ -3928,13 +3928,13 @@
 			"prerequisite": [
 				{
 					"item": [
-						"一把具有弹药特性的简单或军用武器（需调谐）"
+						"一把具有彈藥特性的簡單或軍用武器（需調諧）"
 					]
 				}
 			],
 			"entries": [
-				"此魔法武器在远程攻击的攻击和伤害检定上获得+1加值，并且无视装填特性（如有）。",
-				"此武器不需要弹药；除非你手动为它装填弹药，否则每次你以它远程攻击时，它会魔法地创造一根子弹。此武器创造的弹药在击中或失误之后立即消失。"
+				"此魔法武器在遠程攻擊的攻擊和傷害檢定上獲得+1加值，並且無視裝填特性（如有）。",
+				"此武器不需要彈藥；除非你手動為它裝填彈藥，否則每次你以它遠程攻擊時，它會魔法地創造一根子彈。此武器創造的彈藥在擊中或失誤之後立即消失。"
 			]
 		},
 		{
@@ -3957,7 +3957,7 @@
 			]
 		},
 		{
-			"name": "斥力冲击",
+			"name": "斥力衝擊",
 			"source": "PHB",
 			"page": 111,
 			"srd": true,
@@ -3972,12 +3972,12 @@
 				}
 			],
 			"entries": [
-				"当你使用{@spell 魔能爆}命中一个生物时，你可以直线推动该生物远离你最多10尺。"
+				"當你使用{@spell 魔能爆}命中一個生物時，你可以直線推動該生物遠離你最多10尺。"
 			],
 			"ENG_name": "Repelling Blast"
 		},
 		{
-			"name": "复制魔法物品",
+			"name": "複製魔法物品",
 			"ENG_name": "Replicate Magic Item",
 			"source": "TCE",
 			"page": 22,
@@ -3991,14 +3991,14 @@
 				"AI"
 			],
 			"entries": [
-				"使用此注法，你能够复制一个特定的魔法物品。你能够多次学习此注法；每次这样做时，你需要从下面的可复制魔法物品表中选择一个不同的魔法物品。如果表格的标题中有一个等级，那么你必须到达该等级才能在这个表格中选择一个魔法物品。另外，你也可以选择一个游戏中存在且并非卷轴或药水的{@filter 常见魔法物品|items|type=!potion;!scroll|rarity=common}。",
-				"在表格中，物品的条目会告诉你该项目是否需要调谐。有关该物品的更多信息，包括制作该物品所需的物品类型，请参阅 {@book 《城主指南》|DMG}中的\"物品描述\"。",
+				"使用此注法，你能夠複製一個特定的魔法物品。你能夠多次學習此注法；每次這樣做時，你需要從下面的可複製魔法物品表中選擇一個不同的魔法物品。如果表格的標題中有一個等級，那麼你必須到達該等級才能在這個表格中選擇一個魔法物品。另外，你也可以選擇一個遊戲中存在且並非卷軸或藥水的{@filter 常見魔法物品|items|type=!potion;!scroll|rarity=common}。",
+				"在表格中，物品的條目會告訴你該項目是否需要調諧。有關該物品的更多資訊，包括製作該物品所需的物品類型，請參閱 {@book 《城主指南》|DMG}中的\"物品描述\"。",
 				{
 					"type": "table",
-					"caption": "复制魔法物品（2级奇械师）",
+					"caption": "複製魔法物品（2級奇械師）",
 					"colLabels": [
 						"魔法物品",
-						"调谐？"
+						"調諧？"
 					],
 					"colStyles": [
 						"col-10",
@@ -4006,7 +4006,7 @@
 					],
 					"rows": [
 						[
-							"{@item 炼金壶}",
+							"{@item 煉金壺}",
 							"否"
 						],
 						[
@@ -4018,19 +4018,19 @@
 							"否"
 						],
 						[
-							"{@item 夜视护目镜}",
+							"{@item 夜視護目鏡}",
 							"否"
 						],
 						[
-							"{@item 攀爬绳}",
+							"{@item 攀爬繩}",
 							"否"
 						],
 						[
-							"{@item 传讯石}",
+							"{@item 傳訊石}",
 							"否"
 						],
 						[
-							"{@item 侦测魔法魔杖}",
+							"{@item 偵測魔法魔杖}",
 							"否"
 						],
 						[
@@ -4041,10 +4041,10 @@
 				},
 				{
 					"type": "table",
-					"caption": "复制魔法物品（6级奇械师）",
+					"caption": "複製魔法物品（6級奇械師）",
 					"colLabels": [
 						"魔法物品",
-						"调谐？"
+						"調諧？"
 					],
 					"colStyles": [
 						"col-10",
@@ -4052,31 +4052,31 @@
 					],
 					"rows": [
 						[
-							"{@item 精灵之靴}",
+							"{@item 精靈之靴}",
 							"否"
 						],
 						[
-							"{@item 精灵斗篷}",
+							"{@item 精靈斗篷}",
 							"是"
 						],
 						[
-							"{@item 魟鱼斗篷}",
+							"{@item 魟魚斗篷}",
 							"否"
 						],
 						[
-							"{@item 魅惑镜片}",
+							"{@item 魅惑鏡片}",
 							"是"
 						],
 						[
-							"{@item 窃贼手套}",
+							"{@item 竊賊手套}",
 							"否"
 						],
 						[
-							"{@item 显像提灯}",
+							"{@item 顯像提燈}",
 							"否"
 						],
 						[
-							"{@item 颤栗之笛}",
+							"{@item 顫慄之笛}",
 							"否"
 						],
 						[
@@ -4087,10 +4087,10 @@
 				},
 				{
 					"type": "table",
-					"caption": "复制魔法物品（10级奇械师）",
+					"caption": "複製魔法物品（10級奇械師）",
 					"colLabels": [
 						"魔法物品",
-						"调谐？"
+						"調諧？"
 					],
 					"colStyles": [
 						"col-11",
@@ -4106,27 +4106,27 @@
 							"是"
 						],
 						[
-							"{@item 射手护腕}",
+							"{@item 射手護腕}",
 							"是"
 						],
 						[
-							"{@item 护盾胸针}",
+							"{@item 護盾胸針}",
 							"是"
 						],
 						[
-							"{@item 防护斗篷}",
+							"{@item 防護斗篷}",
 							"是"
 						],
 						[
-							"{@item 鹰眼镜片}",
+							"{@item 鷹眼鏡片}",
 							"是"
 						],
 						[
-							"{@item 食人魔力量护手}",
+							"{@item 食人魔力量護手}",
 							"是"
 						],
 						[
-							"{@item 避矢夺箭手套}",
+							"{@item 避矢奪箭手套}",
 							"是"
 						],
 						[
@@ -4138,39 +4138,39 @@
 							"是"
 						],
 						[
-							"{@item 智力头带}",
+							"{@item 智力頭帶}",
 							"是"
 						],
 						[
-							"{@item 心灵感应头盔}",
+							"{@item 心靈感應頭盔}",
 							"是"
 						],
 						[
-							"{@item 读心勋章}",
+							"{@item 讀心勳章}",
 							"是"
 						],
 						[
-							"{@item 适应项链}",
+							"{@item 適應項鍊}",
 							"是"
 						],
 						[
-							"{@item 愈合护身符}",
+							"{@item 癒合護身符}",
 							"是"
 						],
 						[
-							"{@item 唤鼠排笛}",
+							"{@item 喚鼠排笛}",
 							"是"
 						],
 						[
-							"{@item 艾罗娜的箭袋}",
+							"{@item 艾羅娜的箭袋}",
 							"否"
 						],
 						[
-							"{@item 跳跃戒指}",
+							"{@item 跳躍戒指}",
 							"是"
 						],
 						[
-							"{@item 心灵护盾戒指}",
+							"{@item 心靈護盾戒指}",
 							"是"
 						],
 						[
@@ -4178,21 +4178,21 @@
 							"是"
 						],
 						[
-							"{@item Ventilating lungs|ERLW}（详情见{@book 第五章|ERLW|13}）",
+							"{@item Ventilating lungs|ERLW}（詳情見{@book 第五章|ERLW|13}）",
 							"是"
 						],
 						[
-							"{@item 飞翼之靴}",
+							"{@item 飛翼之靴}",
 							"是"
 						]
 					]
 				},
 				{
 					"type": "table",
-					"caption": "复制魔法物品（14级奇械师）",
+					"caption": "複製魔法物品（14級奇械師）",
 					"colLabels": [
 						"魔法物品",
-						"调谐？"
+						"調諧？"
 					],
 					"colStyles": [
 						"col-11",
@@ -4200,15 +4200,15 @@
 					],
 					"rows": [
 						[
-							"{@item 强健护符}",
+							"{@item 強健護符}",
 							"是"
 						],
 						[
-							"{@item Arcane propulsion arm|ERLW}（详情见{@book 第五章|ERLW|13}）",
+							"{@item Arcane propulsion arm|ERLW}（詳情見{@book 第五章|ERLW|13}）",
 							"是"
 						],
 						[
-							"{@item 山岳巨人力量腰带}",
+							"{@item 山岳巨人力量腰帶}",
 							"是"
 						],
 						[
@@ -4220,7 +4220,7 @@
 							"是"
 						],
 						[
-							"{@item 防御护腕}",
+							"{@item 防禦護腕}",
 							"是"
 						],
 						[
@@ -4228,23 +4228,23 @@
 							"是"
 						],
 						[
-							"{@item 次元镣铐}",
+							"{@item 次元鐐銬}",
 							"否"
 						],
 						[
-							"{@item 真视宝石}",
+							"{@item 真視寶石}",
 							"是"
 						],
 						[
-							"{@item 音爆号角}",
+							"{@item 音爆號角}",
 							"否"
 						],
 						[
-							"{@item 自由行动戒指}",
+							"{@item 自由行動戒指}",
 							"是"
 						],
 						[
-							"{@item 防护戒指}",
+							"{@item 防護戒指}",
 							"是"
 						],
 						[
@@ -4256,7 +4256,7 @@
 			]
 		},
 		{
-			"name": "拷贝魔法物品",
+			"name": "拷貝魔法物品",
 			"source": "UAArtificerRevisited",
 			"page": 9,
 			"featureType": [
@@ -4271,14 +4271,14 @@
 				}
 			],
 			"entries": [
-				"借由使用这个注法，你能够拷贝一个特定的魔法物品。你可以多次习得这个注法；每次你习得这个注法时，你从下列的可拷贝魔法物品表中选择一个不同的魔法物品。若该表格的标题写有特定等级，则你本职业必须至少升至该等级才能从该表格中选择魔法物品。",
-				"在表格中，每个魔法物品的条目都会告诉你这件魔法物品是否需要同调。关于该魔法物品的更多信息（包括制作该物品所需的物品类型），请参阅《地下城主指南》中的物品叙述。",
+				"藉由使用這個注法，你能夠拷貝一個特定的魔法物品。你可以多次習得這個注法；每次你習得這個注法時，你從下列的可拷貝魔法物品表中選擇一個不同的魔法物品。若該表格的標題寫有特定等級，則你本職業必須至少升至該等級才能從該表格中選擇魔法物品。",
+				"在表格中，每個魔法物品的條目都會告訴你這件魔法物品是否需要同調。關於該魔法物品的更多資訊（包括製作該物品所需的物品類型），請參閱《地下城主指南》中的物品敘述。",
 				{
 					"type": "table",
-					"caption": "可拷贝魔法物品",
+					"caption": "可拷貝魔法物品",
 					"colLabels": [
 						"魔法物品",
-						"同调"
+						"同調"
 					],
 					"colStyles": [
 						"col-xs-10",
@@ -4286,7 +4286,7 @@
 					],
 					"rows": [
 						[
-							"{@item 炼金壶}",
+							"{@item 煉金壺}",
 							"否"
 						],
 						[
@@ -4298,27 +4298,27 @@
 							"否"
 						],
 						[
-							"{@item 魟鱼斗篷}",
+							"{@item 魟魚斗篷}",
 							"否"
 						],
 						[
-							"{@item 夜视护目镜}",
+							"{@item 夜視護目鏡}",
 							"否"
 						],
 						[
-							"{@item 显像提灯}",
+							"{@item 顯像提燈}",
 							"否"
 						],
 						[
-							"{@item 攀爬绳}",
+							"{@item 攀爬繩}",
 							"否"
 						],
 						[
-							"{@item 传讯石}",
+							"{@item 傳訊石}",
 							"否"
 						],
 						[
-							"{@item 侦测魔法魔杖}",
+							"{@item 偵測魔法魔杖}",
 							"否"
 						],
 						[
@@ -4329,10 +4329,10 @@
 				},
 				{
 					"type": "table",
-					"caption": "可拷贝魔法物品 (奇械师12级)",
+					"caption": "可拷貝魔法物品 (奇械師12級)",
 					"colLabels": [
 						"魔法物品",
-						"同调"
+						"同調"
 					],
 					"colStyles": [
 						"col-xs-10",
@@ -4340,7 +4340,7 @@
 					],
 					"rows": [
 						[
-							"{@item 精灵之靴}",
+							"{@item 精靈之靴}",
 							"否"
 						],
 						[
@@ -4352,35 +4352,35 @@
 							"需要"
 						],
 						[
-							"{@item 射手护腕}",
+							"{@item 射手護腕}",
 							"需要"
 						],
 						[
-							"{@item 护盾胸针}",
+							"{@item 護盾胸針}",
 							"需要"
 						],
 						[
-							"{@item 精灵斗篷}",
+							"{@item 精靈斗篷}",
 							"需要"
 						],
 						[
-							"{@item 防护斗篷}",
+							"{@item 防護斗篷}",
 							"需要"
 						],
 						[
-							"{@item 魅惑镜片}",
+							"{@item 魅惑鏡片}",
 							"需要"
 						],
 						[
-							"{@item 鹰眼镜片}",
+							"{@item 鷹眼鏡片}",
 							"需要"
 						],
 						[
-							"{@item 食人魔力量护手}",
+							"{@item 食人魔力量護手}",
 							"需要"
 						],
 						[
-							"{@item 避矢夺箭手套}",
+							"{@item 避矢奪箭手套}",
 							"需要"
 						],
 						[
@@ -4388,7 +4388,7 @@
 							"需要"
 						],
 						[
-							"{@item 窃贼手套}",
+							"{@item 竊賊手套}",
 							"否"
 						],
 						[
@@ -4396,39 +4396,39 @@
 							"需要"
 						],
 						[
-							"{@item 智力头带}",
+							"{@item 智力頭帶}",
 							"需要"
 						],
 						[
-							"{@item 心灵感应头盔}",
+							"{@item 心靈感應頭盔}",
 							"需要"
 						],
 						[
-							"{@item 读心勋章}",
+							"{@item 讀心勳章}",
 							"需要"
 						],
 						[
-							"{@item 愈合护身符}",
+							"{@item 癒合護身符}",
 							"需要"
 						],
 						[
-							"{@item 颤栗之笛}",
+							"{@item 顫慄之笛}",
 							"否"
 						],
 						[
-							"{@item 唤鼠排笛}",
+							"{@item 喚鼠排笛}",
 							"需要"
 						],
 						[
-							"{@item 艾罗娜的箭袋}",
+							"{@item 艾羅娜的箭袋}",
 							"否"
 						],
 						[
-							"{@item 跳跃戒指}",
+							"{@item 跳躍戒指}",
 							"需要"
 						],
 						[
-							"{@item 心灵护盾戒指}",
+							"{@item 心靈護盾戒指}",
 							"需要"
 						],
 						[
@@ -4440,17 +4440,17 @@
 							"需要"
 						],
 						[
-							"{@item 飞翼之靴}",
+							"{@item 飛翼之靴}",
 							"需要"
 						]
 					]
 				},
 				{
 					"type": "table",
-					"caption": "可拷贝魔法物品 (奇械师16级)",
+					"caption": "可拷貝魔法物品 (奇械師16級)",
 					"colLabels": [
 						"魔法物品",
-						"同调"
+						"同調"
 					],
 					"colStyles": [
 						"col-xs-10",
@@ -4458,11 +4458,11 @@
 					],
 					"rows": [
 						[
-							"{@item 强健护符}",
+							"{@item 強健護符}",
 							"需要"
 						],
 						[
-							"{@item 山丘巨人力量腰带}",
+							"{@item 山丘巨人力量腰帶}",
 							"需要"
 						],
 						[
@@ -4474,7 +4474,7 @@
 							"需要"
 						],
 						[
-							"{@item ​防御护腕}",
+							"{@item ​防禦護腕}",
 							"需要"
 						],
 						[
@@ -4482,23 +4482,23 @@
 							"需要"
 						],
 						[
-							"{@item 次元镣铐}",
+							"{@item 次元鐐銬}",
 							"否"
 						],
 						[
-							"{@item 真视宝石}",
+							"{@item 真視寶石}",
 							"需要"
 						],
 						[
-							"{@item 音爆号角}",
+							"{@item 音爆號角}",
 							"否"
 						],
 						[
-							"{@item 自由行动戒指}",
+							"{@item 自由行動戒指}",
 							"需要"
 						],
 						[
-							"{@item 防护戒指}",
+							"{@item 防護戒指}",
 							"需要"
 						],
 						[
@@ -4533,13 +4533,13 @@
 						}
 					},
 					"item": [
-						"一个盾牌（需调谐）"
+						"一個盾牌（需調諧）"
 					]
 				}
 			],
 			"entries": [
-				"持握该盾牌的生物AC获得+1加值。",
-				"该盾牌有4发充能，当持用者被近战攻击命中时，以一个反应消耗一发充能，其可以将攻击者击退至多15尺远。该盾牌在次日黎明时会恢复{@dice 1d4}发充能。"
+				"持握該盾牌的生物AC獲得+1加值。",
+				"該盾牌有4發充能，當持用者被近戰攻擊命中時，以一個反應消耗一發充能，其可以將攻擊者擊退至多15尺遠。該盾牌在次日黎明時會恢復{@dice 1d4}發充能。"
 			]
 		},
 		{
@@ -4589,16 +4589,16 @@
 						}
 					},
 					"item": [
-						"一套盔甲（需调谐）"
+						"一套盔甲（需調諧）"
 					]
 				}
 			],
 			"entries": [
-				"穿戴该盔甲的生物对以下伤害类型中的一种具有抗性，具体类型由你在进行注法时选择：强酸、冷冻、火焰、力场、闪电、黯蚀、毒素、心灵、光耀与雷鸣。"
+				"穿戴該盔甲的生物對以下傷害類型中的一種具有抗性，具體類型由你在進行注法時選擇：強酸、冷凍、火焰、力場、閃電、黯蝕、毒素、心靈、光耀與雷鳴。"
 			]
 		},
 		{
-			"name": "抗性护甲",
+			"name": "抗性護甲",
 			"source": "UAArtificerRevisited",
 			"page": 14,
 			"featureType": [
@@ -4618,7 +4618,7 @@
 				}
 			],
 			"entries": [
-				"当穿戴此护甲时，生物将具有下列其中一个伤害属性的抗性，由你在为这个物品注能时选择：强酸、冷冻、火焰、力场、闪电、黯蚀、毒素、精神、光燿、或雷鸣。"
+				"當穿戴此護甲時，生物將具有下列其中一個傷害屬性的抗性，由你在為這個物品注能時選擇：強酸、冷凍、火焰、力場、閃電、黯蝕、毒素、精神、光燿、或雷鳴。"
 			],
 			"ENG_name": "Resistant Armor"
 		},
@@ -4631,7 +4631,7 @@
 				"MV:B"
 			],
 			"entries": [
-				"Immediately after you hit a creature with a melee weapon attack on your turn, you can expend one superiority die and use a bonus action to grapple the target (see chapter 9 in the Player's Handbook for rules on grappling). Add the superiority die to your Strength ({@skill 运动}) check. The target is also {@condition 束缚} while {@condition 被擒} in this way."
+				"Immediately after you hit a creature with a melee weapon attack on your turn, you can expend one superiority die and use a bonus action to grapple the target (see chapter 9 in the Player's Handbook for rules on grappling). Add the superiority die to your Strength ({@skill 運動}) check. The target is also {@condition 束縛} while {@condition 被擒} in this way."
 			]
 		},
 		{
@@ -4651,12 +4651,12 @@
 			"prerequisite": [
 				{
 					"item": [
-						"一把带有投掷属性的简易或军用武器"
+						"一把帶有投擲屬性的簡易或軍用武器"
 					]
 				}
 			],
 			"entries": [
-				"该魔法武器在攻击和伤害检定中具有+1加值，在使用它进行远程攻击后，它会立即回到持有者的手中。"
+				"該魔法武器在攻擊和傷害檢定中具有+1加值，在使用它進行遠程攻擊後，它會立即回到持有者的手中。"
 			]
 		},
 		{
@@ -4674,12 +4674,12 @@
 				}
 			],
 			"entries": [
-				"这把魔法武器在使用它进行的攻击检定和伤害骰上赋予+1加值，且它在被用以进行一次远程攻击之后，将会立即返回持用者的手中。"
+				"這把魔法武器在使用它進行的攻擊檢定和傷害骰上賦予+1加值，且它在被用以進行一次遠程攻擊之後，將會立即返回持用者的手中。"
 			],
 			"ENG_name": "Returning Weapon"
 		},
 		{
-			"name": "攀云步",
+			"name": "攀雲步",
 			"source": "PHB",
 			"page": 81,
 			"featureType": [
@@ -4713,19 +4713,19 @@
 				}
 			],
 			"entries": [
-				"你可以消耗4点气以施放{@spell 飞行术}，以你自己为目标。"
+				"你可以消耗4點氣以施放{@spell 飛行術}，以你自己為目標。"
 			],
 			"ENG_name": "Ride the Wind"
 		},
 		{
-			"name": "反击",
+			"name": "反擊",
 			"source": "PHB",
 			"page": 74,
 			"featureType": [
 				"MV:B"
 			],
 			"entries": [
-				"当一个生物在一次对你进行的近战攻击中失手，你可以使用你的反应并消耗一颗卓越骰以对该生物进行一次近战武器攻击。若你命中，则你将卓越骰加入该攻击的伤害骰中。"
+				"當一個生物在一次對你進行的近戰攻擊中失手，你可以使用你的反應並消耗一顆卓越骰以對該生物進行一次近戰武器攻擊。若你命中，則你將卓越骰加入該攻擊的傷害骰中。"
 			],
 			"ENG_name": "Riposte"
 		},
@@ -4764,12 +4764,12 @@
 				}
 			],
 			"entries": [
-				"你可以消耗5点气以施放{@spell 火墙术}。"
+				"你可以消耗5點氣以施放{@spell 火牆術}。"
 			],
 			"ENG_name": "River of Hungry Flame"
 		},
 		{
-			"name": "风灵突进",
+			"name": "風靈突進",
 			"source": "PHB",
 			"page": 81,
 			"featureType": [
@@ -4790,7 +4790,7 @@
 				}
 			],
 			"entries": [
-				"你可以消耗2点气以施放{@spell 造风术}。"
+				"你可以消耗2點氣以施放{@spell 造風術}。"
 			],
 			"ENG_name": "Rush of the Gale Spirits"
 		},
@@ -4826,7 +4826,7 @@
 				}
 			],
 			"entries": [
-				"你可以使用契术师法术位施放一次{@spell 变形术}。直到你完成一次长休之前你都不能再这么做。"
+				"你可以使用契術師法術位施放一次{@spell 變形術}。直到你完成一次長休之前你都不能再這麼做。"
 			],
 			"ENG_name": "Sculptor of Flesh"
 		},
@@ -4900,20 +4900,20 @@
 			]
 		},
 		{
-			"name": "追踪箭",
+			"name": "追蹤箭",
 			"source": "XGE",
 			"page": 30,
 			"featureType": [
 				"AS"
 			],
 			"entries": [
-				"利用预言系魔法，你赋予你的箭矢追踪目标的能力。当你使用此选项时，你不需要为此攻击进行攻击检定。取而代之，选择一个你在过去1分钟内曾见过的生物。这支箭矢将飞向该生物，若有需要的话则绕过转角，并忽略四分之三掩护和半掩护。若该目标在此武器的射程内，且其存在一条能让箭矢通往目标的途径，则目标必须进行一次敏捷豁免。否则这支箭矢将在飞至最远距离之后消失。若豁免失败，目标将受到如同被箭矢命中一样伤害，再加上额外的{@dice 1d6}力场伤害，且你将得知目标当下所在的位置。若豁免成功，则目标只受到一半的伤害，且你无法得知它所在的位置。",
-				"这个力场伤害将在你本职业升至18级时增加至{@dice 2d6}。"
+				"利用預言系魔法，你賦予你的箭矢追蹤目標的能力。當你使用此選項時，你不需要為此攻擊進行攻擊檢定。取而代之，選擇一個你在過去1分鐘內曾見過的生物。這枝箭矢將飛向該生物，若有需要的話則繞過轉角，並忽略四分之三掩護和半掩護。若該目標在此武器的射程內，且其存在一條能讓箭矢通往目標的途徑，則目標必須進行一次敏捷豁免。否則這枝箭矢將在飛至最遠距離之後消失。若豁免失敗，目標將受到如同被箭矢命中一樣傷害，再加上額外的{@dice 1d6}力場傷害，且你將得知目標當下所在的位置。若豁免成功，則目標只受到一半的傷害，且你無法得知它所在的位置。",
+				"這個力場傷害將在你本職業升至18級時增加至{@dice 2d6}。"
 			],
 			"ENG_name": "Seeking Arrow"
 		},
 		{
-			"name": "追踪法术",
+			"name": "追蹤法術",
 			"ENG_name": "Seeking Spell",
 			"source": "TCE",
 			"page": 66,
@@ -4922,8 +4922,8 @@
 				"MM"
 			],
 			"entries": [
-				"当你因法术进行一次攻击检定并失手时，你可以使用2术法点重投{@dice d20}。你必须使用重投的结果。",
-				"超魔法追踪法术可以与其他超魔法选项合用。"
+				"當你因法術進行一次攻擊檢定並失手時，你可以使用2術法點重投{@dice d20}。你必須使用重投的結果。",
+				"超魔法追蹤法術可以與其他超魔法選項合用。"
 			]
 		},
 		{
@@ -4969,8 +4969,8 @@
 				"AS"
 			],
 			"entries": [
-				"你将幻术系魔法编入你的箭矢中，使它以暗影屏蔽你敌人的视线。被此箭命中的生物将受到额外的{@dice 2d6}心灵伤害，且它必须成功通过一次感知豁免，否则直到你的下个回合开始前都无法看见任何5尺以外的事物。",
-				"这个心灵伤害将在你本职业升至18级时增加至{@dice 4d6}。"
+				"你將幻術系魔法編入你的箭矢中，使它以暗影屏蔽你敵人的視線。被此箭命中的生物將受到額外的{@dice 2d6}心靈傷害，且它必須成功通過一次感知豁免，否則直到你的下個回合開始前都無法看見任何5尺以外的事物。",
+				"這個心靈傷害將在你本職業升至18級時增加至{@dice 4d6}。"
 			],
 			"ENG_name": "Shadow Arrow"
 		},
@@ -4982,7 +4982,7 @@
 				"ED"
 			],
 			"entries": [
-				"以一个动作，你可以消耗1点气以选择一片距离你120尺内，各边不超过30尺的冰或水的区域。你可以将该区域内的水变成冰，反之亦可，且你可以将区域内的冰重塑成任何你想要的样子。你可以升高或降低冰的海拔高度、创造或填满一道沟壑，升起或移平一道墙、或形成一根立柱。任何这类变化的程度都不能超过这片区域最大边长的一半。举例来说，若你影响了一片30尺平方的方形区域，你可以创造出一个最多15尺高的立柱、将这片方形区域的高度提升或降低最多15尺、或挖掘一道最多15尺深的沟壑，诸如此类。你无法通过形塑冰以困住或伤害位于区域内的生物。"
+				"以一個動作，你可以消耗1點氣以選擇一片距離你120尺內，各邊不超過30尺的冰或水的區域。你可以將該區域內的水變成冰，反之亦可，且你可以將區域內的冰重塑成任何你想要的樣子。你可以升高或降低冰的海拔高度、創造或填滿一道溝壑，升起或移平一道牆、或形成一根立柱。任何這類變化的程度都不能超過這片區域最大邊長的一半。舉例來說，若你影響了一片30尺平方的方形區域，你可以創造出一個最多15尺高的立柱、將這片方形區域的高度提升或降低最多15尺、或挖掘一道最多15尺深的溝壑，諸如此類。你無法通過形塑冰以困住或傷害位於區域內的生物。"
 			],
 			"ENG_name": "Shape the Flowing River"
 		},
@@ -5017,7 +5017,7 @@
 				}
 			],
 			"entries": [
-				"你可以随意施放{@spell 隐形术}，无需消耗法术位。"
+				"你可以隨意施放{@spell 隱形術}，無需消耗法術位。"
 			],
 			"ENG_name": "Shroud of Shadow"
 		},
@@ -5048,7 +5048,7 @@
 				}
 			],
 			"entries": [
-				"你可以随意施放{@spell 隐形术}，无需消耗法术位。"
+				"你可以隨意施放{@spell 隱形術}，無需消耗法術位。"
 			],
 			"ENG_name": "Shroud of Shadow"
 		},
@@ -5071,11 +5071,11 @@
 				}
 			],
 			"entries": [
-				"The blue-white star Ulban maintains a fickle presence among the stars, fluttering into view only to herald a dire omen. As an action, you can turn {@condition 隐形} for 1 minute. If you attack, deal damage, or force a creature to make a saving throw, you become visible at the end of the current turn."
+				"The blue-white star Ulban maintains a fickle presence among the stars, fluttering into view only to herald a dire omen. As an action, you can turn {@condition 隱形} for 1 minute. If you attack, deal damage, or force a creature to make a saving throw, you become visible at the end of the current turn."
 			]
 		},
 		{
-			"name": "凶兆符记",
+			"name": "凶兆符記",
 			"source": "PHB",
 			"page": 111,
 			"srd": true,
@@ -5106,7 +5106,7 @@
 				}
 			],
 			"entries": [
-				"你可以使用契术师法术位施放一次{@spell 降咒}。直到你完成一次长休之前你都不能再这么做。"
+				"你可以使用契術師法術位施放一次{@spell 降咒}。直到你完成一次長休之前你都不能再這麼做。"
 			],
 			"ENG_name": "Sign of Ill Omen"
 		},
@@ -5119,7 +5119,7 @@
 				"MV:B"
 			],
 			"entries": [
-				"When you make a Charisma ({@skill 欺瞒}) check or a Charisma ({@skill 说服}) check, you can expend one superiority die, and add the superiority die to the ability check."
+				"When you make a Charisma ({@skill 欺瞞}) check or a Charisma ({@skill 說服}) check, you can expend one superiority die, and add the superiority die to the ability check."
 			]
 		},
 		{
@@ -5130,7 +5130,7 @@
 				"RN"
 			],
 			"entries": [
-				"This rune's magic emulates the deceptiveness of a cloud giant. While wearing or carrying an object inscribed with this rune, you have advantage on Dexterity ({@skill 巧手}) checks and Charisma ({@skill 欺瞒}) checks.",
+				"This rune's magic emulates the deceptiveness of a cloud giant. While wearing or carrying an object inscribed with this rune, you have advantage on Dexterity ({@skill 巧手}) checks and Charisma ({@skill 欺瞞}) checks.",
 				"In addition, when you or a creature you can see within 30 feet of you is hit by an attack roll, you can use your reaction to invoke the rune and cause that attack to target a different creature within 30 feet of you (other than the attacker), using the same roll. This magic can transfer the attack regardless of the attack's range. Once you invoke the rune, you can't do so again until you finish a short or long rest."
 			]
 		},
@@ -5142,7 +5142,7 @@
 				"AF"
 			],
 			"entries": [
-				"As an action, you can reach into your Alchemist's Satchel and pull out a stick that produces a thick plume of smoke. You can hold on to the stick or throw it to a point up to 30 feet away as part of the action used to produce it. The area in a 10-foot radius around the stick is filled with thick smoke that blocks vision, including {@sense 黑暗视觉}. The stick and smoke persist for 1 minute and then disappear. After using this formula, you can't do so again for 1 minute."
+				"As an action, you can reach into your Alchemist's Satchel and pull out a stick that produces a thick plume of smoke. You can hold on to the stick or throw it to a point up to 30 feet away as part of the action used to produce it. The area in a 10-foot radius around the stick is filled with thick smoke that blocks vision, including {@sense 黑暗視覺}. The stick and smoke persist for 1 minute and then disappear. After using this formula, you can't do so again for 1 minute."
 			]
 		},
 		{
@@ -5158,7 +5158,7 @@
 			]
 		},
 		{
-			"name": "法力恢复戒指",
+			"name": "法力恢復戒指",
 			"ENG_name": "Spell-Refueling Ring",
 			"source": "TCE",
 			"page": 23,
@@ -5174,12 +5174,12 @@
 						}
 					},
 					"item": [
-						"一枚戒指（需调谐）"
+						"一枚戒指（需調諧）"
 					]
 				}
 			],
 			"entries": [
-				"穿戴此戒指的生物能够以一个动作恢复一个消费掉的法术位。恢复的法术位最高3环。一旦使用，此戒指在次日黎明前将无法再次使用。"
+				"穿戴此戒指的生物能夠以一個動作恢復一個消費掉的法術位。恢復的法術位最高3環。一旦使用，此戒指在次日黎明前將無法再次使用。"
 			]
 		},
 		{
@@ -5214,8 +5214,8 @@
 				"RN"
 			],
 			"entries": [
-				"This rune's magic channels the insightfulness of a stone giant. While wearing or carrying an object inscribed with this rune, you have advantage on Wisdom ({@skill 洞悉}) checks, and you have {@sense 黑暗视觉} out to a range of 60 feet. If you already have {@sense 黑暗视觉}, its range increases by 30 feet.",
-				"In addition, when a creature you can see ends its turn within 30 feet of you, you can use your reaction to invoke the rune and force the creature to make a Wisdom saving throw. Unless the save succeeds, the creature is {@condition 魅惑} by you for 1 minute. While {@condition 魅惑} in this way, the creature has a speed of 0 and is {@condition 无力}, descending into a dreamy stupor. The effect ends if the {@condition 魅惑} creature takes any damage or if someone else uses an action to shake the creature out of its haze. Once you invoke the rune, you can't do so again until you finish a short or long rest."
+				"This rune's magic channels the insightfulness of a stone giant. While wearing or carrying an object inscribed with this rune, you have advantage on Wisdom ({@skill 洞悉}) checks, and you have {@sense 黑暗視覺} out to a range of 60 feet. If you already have {@sense 黑暗視覺}, its range increases by 30 feet.",
+				"In addition, when a creature you can see ends its turn within 30 feet of you, you can use your reaction to invoke the rune and force the creature to make a Wisdom saving throw. Unless the save succeeds, the creature is {@condition 魅惑} by you for 1 minute. While {@condition 魅惑} in this way, the creature has a speed of 0 and is {@condition 無力}, descending into a dreamy stupor. The effect ends if the {@condition 魅惑} creature takes any damage or if someone else uses an action to shake the creature out of its haze. Once you invoke the rune, you can't do so again until you finish a short or long rest."
 			]
 		},
 		{
@@ -5227,12 +5227,12 @@
 				"RN"
 			],
 			"entries": [
-				"该符文的魔力可以引导和石巨人相关的智慧。当你穿着或持有一个铭刻此符文的物品，你在感知（{@skill 洞悉}）的检定上获得优势，且你获得120尺的{@sense 黑暗视觉} 。",
-				"此外，当一个你30尺内可见生物结束它的回合时，你可以使用一个反应动作来激活该符文，并强迫该生物进行一次感知豁免。若失败，则该生物被你{@condition 魅惑}1分钟。如果以该形式被魅惑，该生物移动速度降为0且{@condition 无力}，陷入梦幻般的麻木状态。目标可以在每个自己回合结束时重复此豁免，成功则解除该状态。每当你激活该符文，你无法再如此直到你完成一次短休或长休。"
+				"該符文的魔力可以引導和石巨人相關的智慧。當你穿著或持有一個銘刻此符文的物品，你在感知（{@skill 洞悉}）的檢定上獲得優勢，且你獲得120尺的{@sense 黑暗視覺} 。",
+				"此外，當一個你30尺內可見生物結束它的回合時，你可以使用一個反應動作來活化該符文，並強迫該生物進行一次感知豁免。若失敗，則該生物被你{@condition 魅惑}1分鐘。如果以該形式被魅惑，該生物移動速度降為0且{@condition 無力}，陷入夢幻般的麻木狀態。目標可以在每個自己回合結束時重複此豁免，成功則解除該狀態。每當你啟用該符文，你無法再如此直到你完成一次短休或長休。"
 			]
 		},
 		{
-			"name": "风暴符文",
+			"name": "風暴符文",
 			"ENG_name": "Storm Rune",
 			"source": "TCE",
 			"page": 45,
@@ -5253,8 +5253,8 @@
 				}
 			],
 			"entries": [
-				"通过使用该符文，你可以像一位风暴巨人预言者一样瞥见未来。当你穿着或持有一个铭刻此符文的物品，你在智力（{@skill 奥秘}）检定上获得优势，且只要你未{@condition 无力}，你不会被突袭。",
-				"此外，你可以用一个附赠动作激活该符文来进入先知形态，持续1分钟或直到你{@condition 无力}。在该形态结束之前，当你或另一个你60尺内可见的生物进行一次攻击检定、一次豁免检定或一次属性检定时，你可以用反应使这次检定获得优势或劣势。每当你激活该符文，你无法再如此直到你完成一次短休或长休。"
+				"透過使用該符文，你可以像一位風暴巨人預言者一樣瞥見未來。當你穿著或持有一個銘刻此符文的物品，你在智力（{@skill 奧秘}）檢定上獲得優勢，且只要你未{@condition 無力}，你不會被突襲。",
+				"此外，你可以用一個附贈動作啟用該符文來進入先知形態，持續1分鐘或直到你{@condition 無力}。在該形態結束之前，當你或另一個你60尺內可見的生物進行一次攻擊檢定、一次豁免檢定或一次屬性檢定時，你可以用反應使這次檢定獲得優勢或劣勢。每當你啟用該符文，你無法再如此直到你完成一次短休或長休。"
 			]
 		},
 		{
@@ -5266,11 +5266,11 @@
 				"MV:B"
 			],
 			"entries": [
-				"When you make a Wisdom ({@skill 洞悉}) check or an Intelligence ({@skill 调查}) check, you can expend one superiority die, and add the superiority die to the ability check."
+				"When you make a Wisdom ({@skill 洞悉}) check or an Intelligence ({@skill 調查}) check, you can expend one superiority die, and add the superiority die to the ability check."
 			]
 		},
 		{
-			"name": "精妙法术",
+			"name": "精妙法術",
 			"source": "PHB",
 			"page": 102,
 			"srd": true,
@@ -5278,7 +5278,7 @@
 				"MM"
 			],
 			"entries": [
-				"当你施放一个法术时，你可以消耗1点术法点以施放它而无须提供任何姿势或声音构材。"
+				"當你施放一個法術時，你可以消耗1點術法點以施放它而無須提供任何姿勢或聲音構材。"
 			],
 			"ENG_name": "Subtle Spell"
 		},
@@ -5314,8 +5314,8 @@
 				"FS:F"
 			],
 			"entries": [
-				"你从{@class 战士|phb|战斗大师|Battle Master|phb|2-0}武术范型的{@filter 战技|optionalfeatures|feature type=MV:B}列表中习得一项战技。如果该战技需要豁免，则豁免DC为8 + 你的熟练加值 + 你的力量或敏捷调整值（由你选择）。",
-				"你获得一个{@dice d6}的卓越骰（此卓越骰与任何你能够其他方式获得的卓越骰累计）。此卓越骰可用于启动你的战技。卓越骰一经使用即消耗，并在完成一次短休或长休后恢复。"
+				"你從{@class 戰士|phb|戰鬥大師|Battle Master|phb|2-0}武術范型的{@filter 戰技|optionalfeatures|feature type=MV:B}列表中習得一項戰技。如果該戰技需要豁免，則豁免DC為8 + 你的熟練加值 + 你的力量或敏捷調整值（由你選擇）。",
+				"你獲得一個{@dice d6}的卓越骰（此卓越骰與任何你能夠其他方式獲得的卓越骰累計）。此卓越骰可用於啟動你的戰技。卓越骰一經使用即消耗，並在完成一次短休或長休後恢復。"
 			]
 		},
 		{
@@ -5332,19 +5332,19 @@
 			]
 		},
 		{
-			"name": "横扫击",
+			"name": "橫掃擊",
 			"source": "PHB",
 			"page": 74,
 			"featureType": [
 				"MV:B"
 			],
 			"entries": [
-				"当你以一次近战武器攻击命中一个生物时，你可以消耗一颗卓越骰以尝试以相同的攻击伤害另一个生物。选择另一个距离原本目标5尺内，且处于你触及范围的生物。若原本的攻击检定能够命中第二个生物，则它将受到等同于你卓越骰所骰出的数字的伤害。这个伤害的伤害类型与原本攻击所造成的伤害类型相同。"
+				"當你以一次近戰武器攻擊命中一個生物時，你可以消耗一顆卓越骰以嘗試以相同的攻擊傷害另一個生物。選擇另一個距離原本目標5尺內，且處於你觸及範圍的生物。若原本的攻擊檢定能夠命中第二個生物，則它將受到等同於你卓越骰所骰出的數字的傷害。這個傷害的傷害類型與原本攻擊所造成的傷害類型相同。"
 			],
 			"ENG_name": "Sweeping Attack"
 		},
 		{
-			"name": "飞炎击",
+			"name": "飛炎擊",
 			"source": "PHB",
 			"page": 81,
 			"featureType": [
@@ -5365,7 +5365,7 @@
 				}
 			],
 			"entries": [
-				"你可以消耗2点气以施放{@spell 燃烧之手}。"
+				"你可以消耗2點氣以施放{@spell 燃燒之手}。"
 			],
 			"ENG_name": "Sweeping Cinder Strike"
 		},
@@ -5392,7 +5392,7 @@
 			]
 		},
 		{
-			"name": "战术预估",
+			"name": "戰術預估",
 			"ENG_name": "Tactical Assessment",
 			"source": "TCE",
 			"page": 42,
@@ -5401,7 +5401,7 @@
 				"MV:B"
 			],
 			"entries": [
-				"当你进行一次智力（{@skill 调查}）、智力（{@skill 历史}）或感知（{@skill 洞悉}）检定时，你能够消耗一枚卓越骰，将消耗的卓越骰加入此次属性检定中。"
+				"當你進行一次智力（{@skill 調查}）、智力（{@skill 歷史}）或感知（{@skill 洞悉}）檢定時，你能夠消耗一枚卓越骰，將消耗的卓越骰加入此次屬性檢定中。"
 			]
 		},
 		{
@@ -5416,7 +5416,7 @@
 			]
 		},
 		{
-			"name": "五运窃贼",
+			"name": "五運竊賊",
 			"source": "PHB",
 			"page": 111,
 			"srd": true,
@@ -5437,12 +5437,12 @@
 				}
 			],
 			"entries": [
-				"你可以使用契术师法术位施放一次{@spell 灾祸术}。直到你完成一次长休之前你都不能再这么做。"
+				"你可以使用契術師法術位施放一次{@spell 災禍術}。直到你完成一次長休之前你都不能再這麼做。"
 			],
 			"ENG_name": "Thief of Five Fates"
 		},
 		{
-			"name": "饥渴锋刃",
+			"name": "飢渴鋒刃",
 			"source": "PHB",
 			"page": 111,
 			"srd": true,
@@ -5461,12 +5461,12 @@
 				}
 			],
 			"entries": [
-				"每当你在你的回合采取攻击动作时，你可以使用你的契约武器攻击二次，而非一次。"
+				"每當你在你的回合採取攻擊動作時，你可以使用你的契約武器攻擊二次，而非一次。"
 			],
 			"ENG_name": "Thirsting Blade"
 		},
 		{
-			"name": "投掷武器战斗",
+			"name": "投擲武器戰鬥",
 			"ENG_name": "Thrown Weapon Fighting",
 			"source": "TCE",
 			"page": 42,
@@ -5476,8 +5476,8 @@
 				"FS:R"
 			],
 			"entries": [
-				"你可以在使用一件带有投掷属性武器进行进攻时，将那件武器作为攻击的一部分而拔出。",
-				"此外，在你以一件投掷武器于远程攻击中命中对手时，你的伤害骰获得+2加值。"
+				"你可以在使用一件帶有投擲屬性武器進行進攻時，將那件武器作為攻擊的一部分而拔出。",
+				"此外，在你以一件投擲武器於遠程攻擊中命中對手時，你的傷害骰獲得+2加值。"
 			]
 		},
 		{
@@ -5507,7 +5507,7 @@
 			]
 		},
 		{
-			"name": "莱维斯图斯之墓",
+			"name": "萊維斯圖斯之墓",
 			"source": "UARevisedClassOptions",
 			"page": 6,
 			"previousVersion": {
@@ -5528,13 +5528,13 @@
 				}
 			],
 			"entries": [
-				"当你受到伤害时，你可以采取一个反应以将自己封入冰墓中，这块冰墓将在你的下个回合结束时溶化消失。你获得每契术师等级10点的临时生命值，且用其尽可能地承受触发它的伤害。紧接在你承受伤害之后，你获得对火焰伤害的易伤，你的移动速度归零，且你陷入{@condition 无力}状态。这些效果都将在冰墓溶解时消失。",
-				"一旦你使用此祈唤，直到你完成一次短休或长休之前都无法再使用它。"
+				"當你受到傷害時，你可以採取一個反應以將自己封入冰墓中，這塊冰墓將在你的下個回合結束時溶化消失。你獲得每契術師等級10點的臨時生命值，且用其盡可能地承受觸發它的傷害。緊接在你承受傷害之後，你獲得對火焰傷害的易傷，你的移動速度歸零，且你陷入{@condition 無力}狀態。這些效果都將在冰墓溶解時消失。",
+				"一旦你使用此祈喚，直到你完成一次短休或長休之前都無法再使用它。"
 			],
 			"ENG_name": "Tomb of Levistus"
 		},
 		{
-			"name": "莱维斯图斯之墓",
+			"name": "萊維斯圖斯之墓",
 			"source": "UAWarlockAndWizard",
 			"page": 5,
 			"featureType": [
@@ -5546,13 +5546,13 @@
 				}
 			],
 			"entries": [
-				"当你受到伤害时，你可以采取一个反应以将自己封入冰墓中，这块冰墓将在你的下个回合结束时溶化消失。你获得每契术师等级10点的临时生命值，且用其尽可能地承受触发它的伤害。紧接在你承受伤害之后，你获得对火焰伤害的易伤，你的移动速度归零，且你陷入{@condition 无力}状态。所有这些效果都将在冰墓溶解时消失。",
-				"一旦你使用此祈唤，直到你完成一次短休或长休之前都无法再使用它。"
+				"當你受到傷害時，你可以採取一個反應以將自己封入冰墓中，這塊冰墓將在你的下個回合結束時溶化消失。你獲得每契術師等級10點的臨時生命值，且用其盡可能地承受觸發它的傷害。緊接在你承受傷害之後，你獲得對火焰傷害的易傷，你的移動速度歸零，且你陷入{@condition 無力}狀態。所有這些效果都將在冰墓溶解時消失。",
+				"一旦你使用此祈喚，直到你完成一次短休或長休之前都無法再使用它。"
 			],
 			"ENG_name": "Tomb of Levistus"
 		},
 		{
-			"name": "莱维斯图斯之墓",
+			"name": "萊維斯圖斯之墓",
 			"source": "XGE",
 			"page": 57,
 			"featureType": [
@@ -5569,13 +5569,13 @@
 				}
 			],
 			"entries": [
-				"当你受到伤害时，你可以采取一个反应以将自己封入冰墓中，这块冰墓将在你的下个回合结束时溶化消失。你获得每契术师等级10点的临时生命值，且用其尽可能地承受触发它的伤害。紧接在你承受伤害之后，你获得对火焰伤害的易伤，你的移动速度归零，且你陷入{@condition 无力}状态。这些效果，包括剩余的临时生命值，都将在冰墓溶解时消失。",
-				"一旦你使用此祈唤，直到你完成一次短休或长休之前都无法再使用它。"
+				"當你受到傷害時，你可以採取一個反應以將自己封入冰墓中，這塊冰墓將在你的下個回合結束時溶化消失。你獲得每契術師等級10點的臨時生命值，且用其盡可能地承受觸發它的傷害。緊接在你承受傷害之後，你獲得對火焰傷害的易傷，你的移動速度歸零，且你陷入{@condition 無力}狀態。這些效果，包括剩餘的臨時生命值，都將在冰墓溶解時消失。",
+				"一旦你使用此祈喚，直到你完成一次短休或長休之前都無法再使用它。"
 			],
 			"ENG_name": "Tomb of Levistus"
 		},
 		{
-			"name": "转化法术",
+			"name": "轉化法術",
 			"ENG_name": "Transmuted Spell",
 			"source": "TCE",
 			"page": 66,
@@ -5584,11 +5584,11 @@
 				"MM"
 			],
 			"entries": [
-				"当你施放一个能够造成以下列表中类型伤害的法术时，你可以使用1术法点将其改为列表中的另一种伤害类型：强酸、冷冻、火焰、闪电、毒素或雷鸣。"
+				"當你施放一個能夠造成以下列表中類型傷害的法術時，你可以使用1術法點將其改為列表中的另一種傷害類型：強酸、冷凍、火焰、閃電、毒素或雷鳴。"
 			]
 		},
 		{
-			"name": "诡术逃脱",
+			"name": "詭術逃脫",
 			"source": "UARevisedClassOptions",
 			"page": 7,
 			"previousVersion": {
@@ -5622,12 +5622,12 @@
 				}
 			],
 			"entries": [
-				"你可以对你自己施放一次{@spell 行动自如术}而无需消耗法术位。你在完成一次长休后恢复这么做的能力。"
+				"你可以對你自己施放一次{@spell 行動自如術}而無需消耗法術位。你在完成一次長休後恢復這麼做的能力。"
 			],
 			"ENG_name": "Trickster's Escape"
 		},
 		{
-			"name": "诡术逃脱",
+			"name": "詭術逃脫",
 			"source": "XGE",
 			"page": 57,
 			"featureType": [
@@ -5657,19 +5657,19 @@
 				}
 			],
 			"entries": [
-				"你可以对你自己施放一次{@spell 行动自如术}而无需消耗法术位。你在完成一次长休后恢复这么做的能力。"
+				"你可以對你自己施放一次{@spell 行動自如術}而無需消耗法術位。你在完成一次長休後恢復這麼做的能力。"
 			],
 			"ENG_name": "Trickster's Escape"
 		},
 		{
-			"name": "绊摔击",
+			"name": "絆摔擊",
 			"source": "PHB",
 			"page": 74,
 			"featureType": [
 				"MV:B"
 			],
 			"entries": [
-				"当你以一次武器攻击命中一个生物时，你可以消耗一颗卓越骰以尝试将目标击倒。你将卓越骰加入该攻击的伤害骰中，且若目标的体型为大型或更小，则它必须进行一次力量豁免。若豁免失败，则你将目标击倒{@condition 伏地}。"
+				"當你以一次武器攻擊命中一個生物時，你可以消耗一顆卓越骰以嘗試將目標擊倒。你將卓越骰加入該攻擊的傷害骰中，且若目標的體型為大型或更小，則它必須進行一次力量豁免。若豁免失敗，則你將目標擊倒{@condition 伏地}。"
 			],
 			"ENG_name": "Trip Attack"
 		},
@@ -5685,7 +5685,7 @@
 			]
 		},
 		{
-			"name": "坑道斗士",
+			"name": "坑道鬥士",
 			"source": "UALightDarkUnderdark",
 			"page": 1,
 			"featureType": [
@@ -5694,12 +5694,12 @@
 				"FS:R"
 			],
 			"entries": [
-				"以一个附赠动作，你可以进入防御架式并持续直到你的下个回合开始。当你处于防御架式时，你可以进行借机攻击而无需使用你的反应，且你可以处于你触及范围内的生物移动超过5尺时使用你的反应对它进行一次近战攻击。"
+				"以一個附贈動作，你可以進入防禦架式並持續直到你的下個回合開始。當你處於防禦架式時，你可以進行藉機攻擊而無需使用你的反應，且你可以處於你觸及範圍內的生物移動超過5尺時使用你的反應對它進行一次近戰攻擊。"
 			],
 			"ENG_name": "Tunnel Fighter"
 		},
 		{
-			"name": "孪生法术",
+			"name": "孿生法術",
 			"source": "PHB",
 			"page": 102,
 			"srd": true,
@@ -5707,13 +5707,13 @@
 				"MM"
 			],
 			"entries": [
-				"当你施放一个射程不为自身，且在使用当前法术位时无法指定超过一个生物作为目标的法术时，你可以消耗等同于该法术环阶数量的术法点以使用同个法术指定射程内的第二个生物作为目标（若该法术为戏法，则消耗1点术法点）。",
-				"要符合条件，该法术必须要在使用当前法术位时无法指定超过一个生物作为目标。举例来说，{@spell 魔法飞弹}和{@spell 灼热射线}并不符合条件，但{@spell 冷冻射线}和{@spell 幻色法球}则可。"
+				"當你施放一個射程不為自身，且在使用當前法術位時無法指定超過一個生物作為目標的法術時，你可以消耗等同於該法術環階數量的術法點以使用同個法術指定射程內的第二個生物作為目標（若該法術為戲法，則消耗1點術法點）。",
+				"要符合條件，該法術必須要在使用當前法術位時無法指定超過一個生物作為目標。舉例來說，{@spell 魔法飛彈}和{@spell 灼熱射線}並不符合條件，但{@spell 冷凍射線}和{@spell 幻色法球}則可。"
 			],
 			"ENG_name": "Twinned Spell"
 		},
 		{
-			"name": "双武器战斗",
+			"name": "雙武器戰鬥",
 			"source": "PHB",
 			"page": 72,
 			"srd": true,
@@ -5741,7 +5741,7 @@
 				"FS:R"
 			],
 			"entries": [
-				"当你进行双武器战斗时，你可以将你的属性调整值加入第二次攻击的伤害中。"
+				"當你進行雙武器戰鬥時，你可以將你的屬性調整值加入第二次攻擊的傷害中。"
 			],
 			"ENG_name": "Two-Weapon Fighting"
 		},
@@ -5768,7 +5768,7 @@
 			]
 		},
 		{
-			"name": "徒手格斗",
+			"name": "徒手格鬥",
 			"ENG_name": "Unarmed Fighting",
 			"source": "TCE",
 			"page": 42,
@@ -5777,8 +5777,8 @@
 				"FS:F"
 			],
 			"entries": [
-				"你的徒手打击可以造成{@damage 1d6} + 你力量调整值的钝击伤害，如果你没有手持任何武器或{@item 盾牌|phb}进行攻击，伤害骰从{@damage d6}变为{@damage d8}。",
-				"你的每个回合开始时，你可以对{@condition 被擒}于你的一个生物造成{@damage 1d4}钝击伤害。"
+				"你的徒手打擊可以造成{@damage 1d6} + 你力量調整值的鈍擊傷害，如果你沒有手持任何武器或{@item 盾牌|phb}進行攻擊，傷害骰從{@damage d6}變為{@damage d8}。",
+				"你的每個回合開始時，你可以對{@condition 被擒}於你的一個生物造成{@damage 1d4}鈍擊傷害。"
 			]
 		},
 		{
@@ -5797,7 +5797,7 @@
 			]
 		},
 		{
-			"name": "凝气刚拳",
+			"name": "凝氣剛拳",
 			"ENG_name": "Unbroken Air",
 			"source": "PHB",
 			"page": 81,
@@ -5805,11 +5805,11 @@
 				"ED"
 			],
 			"entries": [
-				"你可以将大气凝聚成拳进行打击。作为一个动作，你可以消耗2点气并指定一个在你身边30尺内的生物。该生物必须进行一次力量豁免，豁免失败将受到{@damage 3d10}钝击伤害，此外你每额外消耗1点气则再增加{@damage 1d10}钝击伤害，并且可以将目标从远离你的方向推开至多20尺再使其{@condition 伏地}。豁免成功则伤害减半，且不会被推离和{@condition 伏地}。"
+				"你可以將大氣凝聚成拳進行打擊。作為一個動作，你可以消耗2點氣並指定一個在你身邊30尺內的生物。該生物必須進行一次力量豁免，豁免失敗將受到{@damage 3d10}鈍擊傷害，此外你每額外消耗1點氣則再增加{@damage 1d10}鈍擊傷害，並且可以將目標從遠離你的方向推開至多20尺再使其{@condition 伏地}。豁免成功則傷害減半，且不會被推離和{@condition 伏地}。"
 			]
 		},
 		{
-			"name": "永恒奴役",
+			"name": "永恆奴役",
 			"ENG_name": "Undying Servitude",
 			"source": "TCE",
 			"page": 71,
@@ -5841,7 +5841,7 @@
 				}
 			],
 			"entries": [
-				"你可以不消耗法术位施展{@spell 活化死尸}。若如此做，则你无法再以此方式施展该法术直到你完成一次长休。"
+				"你可以不消耗法術位施展{@spell 活化死屍}。若如此做，則你無法再以此方式施展該法術直到你完成一次長休。"
 			]
 		},
 		{
@@ -5865,12 +5865,12 @@
 				"RN"
 			],
 			"entries": [
-				"Using this rune, you can glimpse the future like a storm giant. While wearing or carrying an object inscribed with this rune, you have advantage on Intelligence ({@skill 奥秘}) checks, and you can't be surprised as long as you are not {@condition 无力}.",
-				"In addition, you can invoke the rune as a bonus action to enter a prophetic state for 1 minute or until you're {@condition 无力}. Until the state ends, when you or another creature you can see within 60 feet of you makes an attack roll, a saving throw, or an ability check, you can use your reaction to cause the roll to have advantage or disadvantage. Once you invoke the rune, you can't do so again until you finish a short or long rest."
+				"Using this rune, you can glimpse the future like a storm giant. While wearing or carrying an object inscribed with this rune, you have advantage on Intelligence ({@skill 奧秘}) checks, and you can't be surprised as long as you are not {@condition 無力}.",
+				"In addition, you can invoke the rune as a bonus action to enter a prophetic state for 1 minute or until you're {@condition 無力}. Until the state ends, when you or another creature you can see within 60 feet of you makes an attack roll, a saving throw, or an ability check, you can use your reaction to cause the roll to have advantage or disadvantage. Once you invoke the rune, you can't do so again until you finish a short or long rest."
 			]
 		},
 		{
-			"name": "穹宇尽视",
+			"name": "穹宇盡視",
 			"source": "PHB",
 			"page": 111,
 			"srd": true,
@@ -5897,12 +5897,12 @@
 				}
 			],
 			"entries": [
-				"你可以随意施放{@spell 秘法眼}，无需消耗法术位。"
+				"你可以隨意施放{@spell 秘法眼}，無需消耗法術位。"
 			],
 			"ENG_name": "Visions of Distant Realms"
 		},
 		{
-			"name": "缚主之音",
+			"name": "縛主之音",
 			"source": "PHB",
 			"page": 111,
 			"srd": true,
@@ -5915,7 +5915,7 @@
 				}
 			],
 			"entries": [
-				"只要你和你的魔宠处于相同的存在位面，你就可以借由心灵感应和它沟通，且可以通过你魔宠的感官感知周遭。此外，当通过你魔宠的感官感知时，你也可以通过你的魔宠用你自己的声音说话，即使你的魔宠原本没有办法说话也一样。"
+				"只要你和你的魔寵處於相同的存在位面，你就可以藉由心靈感應和它溝通，且可以通過你魔寵的感官感知周遭。此外，當通過你魔寵的感官感知時，你也可以透過你的魔寵用你自己的聲音說話，即使你的魔寵原本沒有辦法說話也一樣。"
 			],
 			"ENG_name": "Voice of the Chain Master"
 		},
@@ -5938,12 +5938,12 @@
 				"ED"
 			],
 			"entries": [
-				"你可以消耗2点气，并以一个动作创造出一条流水长鞭推拉目标使其失衡。一个距离你30尺内且你所能看见的生物必须进行一次敏捷豁免。若豁免失败，该生物将受到{@damage 3d10}钝击伤害，加上你每额外消耗一点气的额外{@damage 1d10}钝击伤害，且你可以将它击倒{@condition 伏地}或将它向你拉近最多25尺距离。若豁免成功，该生物只受到一半的伤害，且你无法拉动它或将它击倒{@condition 伏地}。"
+				"你可以消耗2點氣，並以一個動作創造出一條流水長鞭推拉目標使其失衡。一個距離你30尺內且你所能看見的生物必須進行一次敏捷豁免。若豁免失敗，該生物將受到{@damage 3d10}鈍擊傷害，加上你每額外消耗一點氣的額外{@damage 1d10}鈍擊傷害，且你可以將它擊倒{@condition 伏地}或將它向你拉近最多25尺距離。若豁免成功，該生物只受到一半的傷害，且你無法拉動它或將它擊倒{@condition 伏地}。"
 			],
 			"ENG_name": "Water Whip"
 		},
 		{
-			"name": "滚石浪",
+			"name": "滾石浪",
 			"source": "PHB",
 			"page": 81,
 			"featureType": [
@@ -5977,12 +5977,12 @@
 				}
 			],
 			"entries": [
-				"你可以消耗6点气以施放{@spell 石墙术}。"
+				"你可以消耗6點氣以施放{@spell 石牆術}。"
 			],
 			"ENG_name": "Wave of Rolling Earth"
 		},
 		{
-			"name": "坟墓低语",
+			"name": "墳墓低語",
 			"source": "PHB",
 			"page": 111,
 			"srd": true,
@@ -6009,12 +6009,12 @@
 				}
 			],
 			"entries": [
-				"你可以随意施放{@spell 死者交谈术}，无需消耗法术位。"
+				"你可以隨意施放{@spell 死者交談術}，無需消耗法術位。"
 			],
 			"ENG_name": "Whispers of the Grave"
 		},
 		{
-			"name": "巫者视界",
+			"name": "巫者視界",
 			"source": "PHB",
 			"page": 111,
 			"srd": true,
@@ -6032,7 +6032,7 @@
 				}
 			],
 			"entries": [
-				"当任何变形者或被幻术系或变化系法术隐藏的生物距离你30尺内并处于你视线范围内，你可以看见该生物的真实型态。"
+				"當任何變形者或被幻術系或變化系法術隱藏的生物距離你30尺內並處於你視線範圍內，你可以看見該生物的真實型態。"
 			],
 			"ENG_name": "Witch Sight"
 		}

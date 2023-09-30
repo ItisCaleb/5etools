@@ -14,7 +14,7 @@ class SearchPage {
 
 		Omnisearch.initState();
 
-		const $iptSearch = $(`<input class="form-control pg-search__ipt" placeholder="全域搜索..." title="生命：很有可能搜不到全域的内容。使用时请注意。">`)
+		const $iptSearch = $(`<input class="form-control pg-search__ipt" placeholder="全域搜索..." title="生命：很有可能搜不到全域的內容。使用時請注意。">`)
 			.keydown(evt => {
 				if (evt.key !== "Enter") return;
 				$btnSearch.click();
@@ -26,10 +26,10 @@ class SearchPage {
 				location.search = encodeURIComponent($iptSearch.val().trim().toLowerCase());
 			});
 
-		const $btnHelp = $(`<button class="btn btn-default mr-2 mobile__hidden" title="帮助"><span class="glyphicon glyphicon-info-sign"></span></button>`)
+		const $btnHelp = $(`<button class="btn btn-default mr-2 mobile__hidden" title="幫助"><span class="glyphicon glyphicon-info-sign"></span></button>`)
 			.click(() => Omnisearch.doShowHelp());
 
-		const $btnToggleUa = $(`<button class="btn btn-default" title="筛选 UA 和其他非官方资源">包含 UA</button>`)
+		const $btnToggleUa = $(`<button class="btn btn-default" title="篩選 UA 和其他非官方資源">包含 UA</button>`)
 			.click(() => Omnisearch.doToggleUa());
 		const hkUa = () => {
 			$btnToggleUa.toggleClass("active", Omnisearch.isShowUa);
@@ -39,7 +39,7 @@ class SearchPage {
 		Omnisearch.addHookUa(hkUa)
 		hkUa();
 
-		const $btnToggleBlacklisted = $(`<button class="btn btn-default" title="筛选黑名单中的内容结果">包含黑名单内容</button>`)
+		const $btnToggleBlacklisted = $(`<button class="btn btn-default" title="篩選黑名單中的內容結果">包含黑名單內容</button>`)
 			.click(() => Omnisearch.doToggleBlacklisted());
 		const hkBlacklisted = () => {
 			$btnToggleBlacklisted.toggleClass("active", Omnisearch.isShowBlacklisted);
@@ -59,13 +59,13 @@ class SearchPage {
 				.forEach(meta => meta.setIsExpanded(mode));
 		};
 
-		const $btnCollapseAll = $(`<button class="btn btn-default" title="折叠所有结果"><span class="glyphicon glyphicon-minus"></span></button>`)
+		const $btnCollapseAll = $(`<button class="btn btn-default" title="摺疊所有結果"><span class="glyphicon glyphicon-minus"></span></button>`)
 			.click(() => handleMassExpandCollapse(false));
 
-		const $btnExpandAll = $(`<button class="btn btn-default" title="展开所有结果"><span class="glyphicon glyphicon-plus"></span></button>`)
+		const $btnExpandAll = $(`<button class="btn btn-default" title="展開所有結果"><span class="glyphicon glyphicon-plus"></span></button>`)
 			.click(() => handleMassExpandCollapse(true));
 
-		SearchPage._$wrpResults = $(`<div class="flex-col w-100">${this._getWrpResult_message("加载中...")}</div>`);
+		SearchPage._$wrpResults = $(`<div class="flex-col w-100">${this._getWrpResult_message("載入中...")}</div>`);
 
 		$$(SearchPage._$wrp)`<div class="flex-col w-100 pg-search__wrp">
 			<div class="flex-v-center mb-2 mobile__flex-col">
@@ -111,7 +111,7 @@ class SearchPage {
 		SearchPage._rowMetas = [];
 
 		if (!location.search.slice(1)) {
-			SearchPage._$wrpResults.empty().append(this._getWrpResult_message("输入搜索内容来查看结果"));
+			SearchPage._$wrpResults.empty().append(this._getWrpResult_message("輸入搜索內容來查看結果"));
 			return;
 		}
 
@@ -120,7 +120,7 @@ class SearchPage {
 				SearchPage._$wrpResults.empty();
 
 				if (!results.length) {
-					SearchPage._$wrpResults.append(this._getWrpResult_message("没有找到结果。"));
+					SearchPage._$wrpResults.append(this._getWrpResult_message("沒有找到結果。"));
 					return;
 				}
 
@@ -130,7 +130,7 @@ class SearchPage {
 					const $link = Omnisearch.$getResultLink(r);
 
 					const {s: source, p: page, h: isHoverable, c: category, u: hash} = r;
-					const ptPageInner = page ? `页码 ${page}` : "";
+					const ptPageInner = page ? `頁碼 ${page}` : "";
 					const adventureBookSourceHref = SourceUtil.getAdventureBookSourceHref(source, page);
 					const ptPage = ptPageInner && adventureBookSourceHref
 						? `<a href="${adventureBookSourceHref}">${ptPageInner}</a>`
@@ -212,7 +212,7 @@ class SearchPage {
 						);
 						SearchPage._observer.observe(observationTarget);
 
-						const $btnTogglePreview = $(`<button class="btn btn-default btn-xs h-100" title="切换预览"></button>`)
+						const $btnTogglePreview = $(`<button class="btn btn-default btn-xs h-100" title="切換預覽"></button>`)
 							.click(() => {
 								out.isExpanded = !out.isExpanded;
 								handleIsExpanded();

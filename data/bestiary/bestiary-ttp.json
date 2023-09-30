@@ -20,7 +20,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -64,7 +64,7 @@
 				{
 					"name": "Tentacles",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}24 ({@damage 9d4 + 2}) bludgeoning damage or 14 ({@damage 5d4 + 2}) bludgeoning damage if the decapus is grappling a creature other than the target or if the decapus is on the ground or floor. The target is also {@condition 被擒} (escape {@dc 14}) unless the decapus is already grappling a creature. Until this grapple ends, the target is {@condition 束缚}."
+						"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}24 ({@damage 9d4 + 2}) bludgeoning damage or 14 ({@damage 5d4 + 2}) bludgeoning damage if the decapus is grappling a creature other than the target or if the decapus is on the ground or floor. The target is also {@condition 被擒} (escape {@dc 14}) unless the decapus is already grappling a creature. Until this grapple ends, the target is {@condition 束縛}."
 					]
 				}
 			],
@@ -104,7 +104,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -180,7 +180,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -219,9 +219,9 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell 光导箭}",
-							"{@spell 圣域术}",
-							"{@spell 灵体武器}"
+							"{@spell 光導箭}",
+							"{@spell 聖域術}",
+							"{@spell 靈體武器}"
 						]
 					},
 					"ability": "wis"
@@ -231,7 +231,7 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"The slug has advantage on Wisdom ({@skill 察觉}) checks that rely on smell."
+						"The slug has advantage on Wisdom ({@skill 察覺}) checks that rely on smell."
 					]
 				},
 				{
@@ -251,7 +251,7 @@
 				{
 					"name": "Tentacles",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 10 ft., one creature. {@h}4 ({@damage 1d4 + 2}) poison damage, and the target must succeed on a {@dc 13} Constitution saving throw or be {@condition 中毒} for 1 minute. Until this poison ends, the target is {@condition 麻痹}. The target can repeat the saving throw at the end of each of its turns, ending the poison on itself on a success."
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one creature. {@h}4 ({@damage 1d4 + 2}) poison damage, and the target must succeed on a {@dc 13} Constitution saving throw or be {@condition 中毒} for 1 minute. Until this poison ends, the target is {@condition 麻痺}. The target can repeat the saving throw at the end of each of its turns, ending the poison on itself on a success."
 					]
 				},
 				{
@@ -313,7 +313,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],

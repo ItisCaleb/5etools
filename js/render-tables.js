@@ -21,7 +21,7 @@ class RenderTables {
 		</td></tr>` : ""}
 
 		${it.chapter ? `<tr class="text"><td colspan="6">
-		${Renderer.get().render(`{@note ${it.__prop === "table" ? `这个表格` : "这些表格"} 可以在 ${Parser.sourceJsonToFull(it.source)}${Parser.bookOrdinalToAbv(it.chapter.ordinal, true)}, {@book ${it.chapter.name}|${it.source}|${it.chapter.index}|${it.chapter.name}}中被找到}`)}
+		${Renderer.get().render(`{@note ${it.__prop === "table" ? `這個表格` : "這些表格"} 可以在 ${Parser.sourceJsonToFull(it.source)}${Parser.bookOrdinalToAbv(it.chapter.ordinal, true)}, {@book ${it.chapter.name}|${it.source}|${it.chapter.index}|${it.chapter.name}}中被找到}`)}
 		</td></tr>` : ""}
 
 		${Renderer.utils.getPageTr(it)}

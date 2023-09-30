@@ -541,11 +541,11 @@
 												],
 												[
 													"6",
-													"Hypnotic Display (Recharge 5-6). As an action, the krasis creates mesmerizing colors and shapes around itself. Each creature within 15 feet of it that can see it must succeed on a Wisdom saving throw (DC 12 for category 1, DC 14 for category 2, and DC 18 for category 3) or be {@condition 震慑} for 1 minute. The {@condition 震慑} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on a saving throw against this effect becomes immune to the Hypnotic Display of all krasis for 24 hours."
+													"Hypnotic Display (Recharge 5-6). As an action, the krasis creates mesmerizing colors and shapes around itself. Each creature within 15 feet of it that can see it must succeed on a Wisdom saving throw (DC 12 for category 1, DC 14 for category 2, and DC 18 for category 3) or be {@condition 震懾} for 1 minute. The {@condition 震懾} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on a saving throw against this effect becomes immune to the Hypnotic Display of all krasis for 24 hours."
 												],
 												[
 													"7",
-													"Venomous Sting. When the krasis hits a creature with its claws, the creature must succeed on a Constitution saving throw (DC 12 for category 1, DC 14 for category 2, and DC 18 for category 3) or be {@condition 中毒} for 1 minute. If the krasis is a category 2 or 3, the creature is {@condition 麻痹} while {@condition 中毒} in this way. The {@condition 中毒} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+													"Venomous Sting. When the krasis hits a creature with its claws, the creature must succeed on a Constitution saving throw (DC 12 for category 1, DC 14 for category 2, and DC 18 for category 3) or be {@condition 中毒} for 1 minute. If the krasis is a category 2 or 3, the creature is {@condition 麻痺} while {@condition 中毒} in this way. The {@condition 中毒} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 												],
 												[
 													"8",
@@ -579,7 +579,7 @@
 												],
 												[
 													"4",
-													"Cryptic Skin. The krasis can change color to match its surroundings. It has advantage on Dexterity ({@skill 隐匿}) checks made to hide."
+													"Cryptic Skin. The krasis can change color to match its surroundings. It has advantage on Dexterity ({@skill 隱匿}) checks made to hide."
 												],
 												[
 													"5",
@@ -673,11 +673,11 @@
 												],
 												[
 													"6",
-													"Hypnotic Display (Recharge 5-6). As an action, the krasis creates mesmerizing colors and shapes around itself. Each creature within 15 feet of it that can see it must succeed on a Wisdom saving throw (DC 12 for category 1, DC 14 for category 2, and DC 18 for category 3) or be {@condition 震慑} for 1 minute. The {@condition 震慑} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on a saving throw against this effect becomes immune to the Hypnotic Display of all krasis for 24 hours."
+													"Hypnotic Display (Recharge 5-6). As an action, the krasis creates mesmerizing colors and shapes around itself. Each creature within 15 feet of it that can see it must succeed on a Wisdom saving throw (DC 12 for category 1, DC 14 for category 2, and DC 18 for category 3) or be {@condition 震懾} for 1 minute. The {@condition 震懾} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on a saving throw against this effect becomes immune to the Hypnotic Display of all krasis for 24 hours."
 												],
 												[
 													"7",
-													"Venomous Sting. When the krasis hits a creature with its claws, the creature must succeed on a Constitution saving throw (DC 12 for category 1, DC 14 for category 2, and DC 18 for category 3) or be {@condition 中毒} for 1 minute. If the krasis is a category 2 or 3, the creature is {@condition 麻痹} while {@condition 中毒} in this way. The {@condition 中毒} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+													"Venomous Sting. When the krasis hits a creature with its claws, the creature must succeed on a Constitution saving throw (DC 12 for category 1, DC 14 for category 2, and DC 18 for category 3) or be {@condition 中毒} for 1 minute. If the krasis is a category 2 or 3, the creature is {@condition 麻痺} while {@condition 中毒} in this way. The {@condition 中毒} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 												],
 												[
 													"8",
@@ -711,7 +711,7 @@
 												],
 												[
 													"4",
-													"Cryptic Skin. The krasis can change color to match its surroundings. It has advantage on Dexterity ({@skill 隐匿}) checks made to hide."
+													"Cryptic Skin. The krasis can change color to match its surroundings. It has advantage on Dexterity ({@skill 隱匿}) checks made to hide."
 												],
 												[
 													"5",
@@ -805,11 +805,11 @@
 												],
 												[
 													"6",
-													"Hypnotic Display (Recharge 5-6). As an action, the krasis creates mesmerizing colors and shapes around itself. Each creature within 15 feet of it that can see it must succeed on a Wisdom saving throw (DC 12 for category 1, DC 14 for category 2, and DC 18 for category 3) or be {@condition 震慑} for 1 minute. The {@condition 震慑} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on a saving throw against this effect becomes immune to the Hypnotic Display of all krasis for 24 hours."
+													"Hypnotic Display (Recharge 5-6). As an action, the krasis creates mesmerizing colors and shapes around itself. Each creature within 15 feet of it that can see it must succeed on a Wisdom saving throw (DC 12 for category 1, DC 14 for category 2, and DC 18 for category 3) or be {@condition 震懾} for 1 minute. The {@condition 震懾} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on a saving throw against this effect becomes immune to the Hypnotic Display of all krasis for 24 hours."
 												],
 												[
 													"7",
-													"Venomous Sting. When the krasis hits a creature with its claws, the creature must succeed on a Constitution saving throw (DC 12 for category 1, DC 14 for category 2, and DC 18 for category 3) or be {@condition 中毒} for 1 minute. If the krasis is a category 2 or 3, the creature is {@condition 麻痹} while {@condition 中毒} in this way. The {@condition 中毒} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+													"Venomous Sting. When the krasis hits a creature with its claws, the creature must succeed on a Constitution saving throw (DC 12 for category 1, DC 14 for category 2, and DC 18 for category 3) or be {@condition 中毒} for 1 minute. If the krasis is a category 2 or 3, the creature is {@condition 麻痺} while {@condition 中毒} in this way. The {@condition 中毒} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 												],
 												[
 													"8",
@@ -843,7 +843,7 @@
 												],
 												[
 													"4",
-													"Cryptic Skin. The krasis can change color to match its surroundings. It has advantage on Dexterity ({@skill 隐匿}) checks made to hide."
+													"Cryptic Skin. The krasis can change color to match its surroundings. It has advantage on Dexterity ({@skill 隱匿}) checks made to hide."
 												],
 												[
 													"5",
@@ -1397,11 +1397,11 @@
 												],
 												[
 													"3",
-													"Keen Senses. The horror has advantage on Wisdom ({@skill 察觉}) checks that rely on sight, sound, or smell."
+													"Keen Senses. The horror has advantage on Wisdom ({@skill 察覺}) checks that rely on sight, sound, or smell."
 												],
 												[
 													"4",
-													"Mind Sight. Magical darkness doesn't impede the horror's {@sense 黑暗视觉}."
+													"Mind Sight. Magical darkness doesn't impede the horror's {@sense 黑暗視覺}."
 												]
 											]
 										}
@@ -2145,7 +2145,7 @@
 											"name": "Gloamwing Mount",
 											"type": "entries",
 											"entries": [
-												"If a gloamwing is killed, its specter becomes fixated on destroying those responsible. If the specter survives, it can create a new gloamwing over the course of a month, during which time the specter is {@condition 无力}.",
+												"If a gloamwing is killed, its specter becomes fixated on destroying those responsible. If the specter survives, it can create a new gloamwing over the course of a month, during which time the specter is {@condition 無力}.",
 												"A gloamwing's head is almost ratlike, with prominent teeth, and its leathery skin is stretched tight over its skull, where its eyes are empty sockets. Its body is mottled with bony plates, and great wings stretch from its shoulders."
 											]
 										},
@@ -2753,11 +2753,11 @@
 												],
 												[
 													"3",
-													"Keen Senses. The horror has advantage on Wisdom ({@skill 察觉}) checks that rely on sight, sound, or smell."
+													"Keen Senses. The horror has advantage on Wisdom ({@skill 察覺}) checks that rely on sight, sound, or smell."
 												],
 												[
 													"4",
-													"Mind Sight. Magical darkness doesn't impede the horror's {@sense 黑暗视觉}."
+													"Mind Sight. Magical darkness doesn't impede the horror's {@sense 黑暗視覺}."
 												]
 											]
 										}
@@ -2947,11 +2947,11 @@
 												],
 												[
 													"3",
-													"Keen Senses. The horror has advantage on Wisdom ({@skill 察觉}) checks that rely on sight, sound, or smell."
+													"Keen Senses. The horror has advantage on Wisdom ({@skill 察覺}) checks that rely on sight, sound, or smell."
 												],
 												[
 													"4",
-													"Mind Sight. Magical darkness doesn't impede the horror's {@sense 黑暗视觉}."
+													"Mind Sight. Magical darkness doesn't impede the horror's {@sense 黑暗視覺}."
 												]
 											]
 										}

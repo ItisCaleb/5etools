@@ -5,7 +5,7 @@ class RenderDeities {
 			${Renderer.utils.getExcludedTr(deity, "deity")}
 			${Renderer.utils.getNameTr(deity, {suffix: deity.title ? `，${deity.title.toTitleCase()}` : "", page: UrlUtil.PG_DEITIES})}
 			${RenderDeities._getDeityBody(deity)}
-			${deity.reprinted ? `<tr class="text"><td colspan="6"><i class="text-muted">注意：此神祇已被重印在较新的出版物中。</i></td></tr>` : ""}
+			${deity.reprinted ? `<tr class="text"><td colspan="6"><i class="text-muted">注意：此神祇已被重印在較新的出版物中。</i></td></tr>` : ""}
 			${Renderer.utils.getPageTr(deity)}
 			${deity.previousVersions ? `
 			${Renderer.utils.getDividerTr()}
@@ -23,7 +23,7 @@ class RenderDeities {
 			renderer.recursiveRender(
 				{
 					entries: [
-						...deity.customExtensionOf ? [`{@note 此神祇是{@deity ${deity.customExtensionOf}}加上来自于 <i title="${Parser.sourceJsonToFull(deity.source).escapeQuotes()}">${Parser.sourceJsonToAbv(deity.source)}</i> 的额外信息的扩展。}`] : [],
+						...deity.customExtensionOf ? [`{@note 此神祇是{@deity ${deity.customExtensionOf}}加上來自於 <i title="${Parser.sourceJsonToFull(deity.source).escapeQuotes()}">${Parser.sourceJsonToAbv(deity.source)}</i> 的額外資訊的擴展。}`] : [],
 						...deity.entries,
 					],
 				},
@@ -37,7 +37,7 @@ class RenderDeities {
 			${reprintIndex ? `
 				<tr><td colspan="6">
 				<i class="text-muted">
-				${reprintIndex === 1 ? `此神祇是重印版本。` : ""} 以下版本被印于较旧的出版物中 (${Parser.sourceJsonToFull(deity.source)}${Renderer.utils.isDisplayPage(deity.page) ? `-第${deity.page}页` : ""}).
+				${reprintIndex === 1 ? `此神祇是重印版本。` : ""} 以下版本被印於較舊的出版物中 (${Parser.sourceJsonToFull(deity.source)}${Renderer.utils.isDisplayPage(deity.page) ? `-第${deity.page}頁` : ""}).
 				</i>
 				</td></tr>
 			` : ""}

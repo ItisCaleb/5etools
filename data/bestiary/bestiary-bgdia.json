@@ -41,7 +41,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -282,7 +282,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -366,7 +366,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -386,13 +386,13 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell 活化死尸}",
-							"{@spell 烙印斩} (at 4th level)",
-							"{@spell 回生术}"
+							"{@spell 活化死屍}",
+							"{@spell 烙印斬} (at 4th level)",
+							"{@spell 回生術}"
 						],
 						"1e": [
-							"{@spell 指使术}",
-							"{@spell 唤醒死者}"
+							"{@spell 指使術}",
+							"{@spell 喚醒死者}"
 						]
 					},
 					"ability": "cha"
@@ -402,13 +402,13 @@
 				{
 					"name": "Aura of Hate",
 					"entries": [
-						"While Arkhan isn't {@condition 无力}, he and all fiends and undead within 30 feet of him deal 4 extra damage whenever they hit with a melee weapon attack (already factored into Arkhan's attacks). This extra damage is of the same type as the weapon's damage type."
+						"While Arkhan isn't {@condition 無力}, he and all fiends and undead within 30 feet of him deal 4 extra damage whenever they hit with a melee weapon attack (already factored into Arkhan's attacks). This extra damage is of the same type as the weapon's damage type."
 					]
 				},
 				{
 					"name": "Hand of Vecna",
 					"entries": [
-						"The Hand of Vecna has 8 charges and regains {@dice 1d4 + 4} expended charges daily at dawn. Arkhan can cast the following spells from the hand by expending the specified number of charges (spell save {@dc 18}): {@spell 死亡一指} (5 charges), {@spell 睡眠术} (1 charge), {@spell 缓速术} (2 charges), and {@spell 传送术} (3 charges)."
+						"The Hand of Vecna has 8 charges and regains {@dice 1d4 + 4} expended charges daily at dawn. Arkhan can cast the following spells from the hand by expending the specified number of charges (spell save {@dc 18}): {@spell 死亡一指} (5 charges), {@spell 睡眠術} (1 charge), {@spell 緩速術} (2 charges), and {@spell 傳送術} (3 charges)."
 					]
 				},
 				{
@@ -489,7 +489,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -530,7 +530,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -554,21 +554,21 @@
 						"Bel's spellcasting ability is Charisma (spell save {@dc 23}). Bel can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 侦测魔法}",
-						"{@spell 火球术}"
+						"{@spell 偵測魔法}",
+						"{@spell 火球術}"
 					],
 					"daily": {
 						"3e": [
 							"{@spell 解除魔法}",
-							"{@spell 怪物定身术}",
-							"{@spell 镜影术}",
-							"{@spell 假象术}",
-							"{@spell 唤醒死者}",
-							"{@spell 传送术}",
-							"{@spell 火墙术}"
+							"{@spell 怪物定身術}",
+							"{@spell 鏡影術}",
+							"{@spell 假象術}",
+							"{@spell 喚醒死者}",
+							"{@spell 傳送術}",
+							"{@spell 火牆術}"
 						],
 						"1e": [
-							"{@spell 禁锢术}",
+							"{@spell 禁錮術}",
 							"{@spell 流星爆}"
 						]
 					},
@@ -579,7 +579,7 @@
 				{
 					"name": "Fear Aura",
 					"entries": [
-						"Any creature hostile to Bel that starts its turn within 20 feet of him must make a {@dc 23} Wisdom saving throw, unless Bel is {@condition 无力}. Unless the save succeeds, the creature is {@condition 恐惧} until the start of its next turn. If a creature's saving throw is successful, the creature is immune to Bel's Fear Aura for the next 24 hours."
+						"Any creature hostile to Bel that starts its turn within 20 feet of him must make a {@dc 23} Wisdom saving throw, unless Bel is {@condition 無力}. Unless the save succeeds, the creature is {@condition 恐懼} until the start of its next turn. If a creature's saving throw is successful, the creature is immune to Bel's Fear Aura for the next 24 hours."
 					]
 				},
 				{
@@ -617,7 +617,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}25 ({@damage 3d10 + 9}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 23} Constitution saving throw or be {@condition 震慑} until the end of its next turn."
+						"{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}25 ({@damage 3d10 + 9}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 23} Constitution saving throw or be {@condition 震懾} until the end of its next turn."
 					]
 				}
 			],
@@ -765,33 +765,33 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 神导术}",
-								"{@spell 圣焰}",
-								"{@spell 奇术}"
+								"{@spell 神導術}",
+								"{@spell 聖焰}",
+								"{@spell 奇術}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 灾祸术}",
-								"{@spell 祝福术}",
-								"{@spell 治疗伤势}",
-								"{@spell 光导箭} (see \"Actions\" below)"
+								"{@spell 災禍術}",
+								"{@spell 祝福術}",
+								"{@spell 治療傷勢}",
+								"{@spell 光導箭} (see \"Actions\" below)"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 目盲/耳聋术}",
-								"{@spell 人类定身术}",
-								"{@spell 沉默术}"
+								"{@spell 目盲/耳聾術}",
+								"{@spell 人類定身術}",
+								"{@spell 沉默術}"
 							]
 						},
 						"3": {
 							"slots": 2,
 							"spells": [
-								"{@spell 短讯术}",
-								"{@spell 灵体守卫}"
+								"{@spell 簡訊術}",
+								"{@spell 靈體守衛}"
 							]
 						}
 					},
@@ -802,7 +802,7 @@
 				{
 					"name": "Aura of Terror",
 					"entries": [
-						"When a hostile creature within 5 feet of the black gauntlet makes an attack roll or a saving throw, it has disadvantage on the roll. Creatures that are immune to the {@condition 恐惧} condition are immune to this trait."
+						"When a hostile creature within 5 feet of the black gauntlet makes an attack roll or a saving throw, it has disadvantage on the roll. Creatures that are immune to the {@condition 恐懼} condition are immune to this trait."
 					]
 				},
 				{
@@ -870,7 +870,7 @@
 				{
 					"ac": 12,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -960,7 +960,7 @@
 							{
 								"name": "Healer",
 								"entries": [
-									"Burney has the benefits of the {@feat healer} feat as well as proficiency with both the {@item healer's kit|phb} and the {@item 草药工具|phb}."
+									"Burney has the benefits of the {@feat healer} feat as well as proficiency with both the {@item healer's kit|phb} and the {@item 草藥工具|phb}."
 								]
 							},
 							{
@@ -971,9 +971,9 @@
 										"type": "list",
 										"items": [
 											"Unless Burney decided otherwise, once any creature less powerful than a deity has taken three steps from her, they can no longer remember her or having interacted with her specifically.",
-											"Burney is under the effect of a permanent {@spell 心灵屏障} spell, and cannot be detected by magical or mundane means unless she wishes it. In exchange for this blessing, Burney can take no direct action against the denizens of the Nine Hells, though she can certainly enlist the help of those who can.",
+											"Burney is under the effect of a permanent {@spell 心靈屏障} spell, and cannot be detected by magical or mundane means unless she wishes it. In exchange for this blessing, Burney can take no direct action against the denizens of the Nine Hells, though she can certainly enlist the help of those who can.",
 											"Burney always knows the location of the Wandering Emporium and can transport herself there as though by a {@spell 回返真言} spell. This explains why Burney simply seems to appear amid the fully deployed marketplace each morning it is active to provide service and tell stories.",
-											"Once each day, when Burney so desires, she can instantly transport herself to the court of Bahamut via a powerful blessing akin to the {@spell 异界传送} spell."
+											"Once each day, when Burney so desires, she can instantly transport herself to the court of Bahamut via a powerful blessing akin to the {@spell 異界傳送} spell."
 										]
 									}
 								]
@@ -1067,7 +1067,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1103,7 +1103,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -1237,7 +1237,7 @@
 				{
 					"name": "Aura of Murder",
 					"entries": [
-						"As long as the death's head is not {@condition 无力}, hostile creatures within 5 feet of it gain vulnerability to piercing damage unless they have resistance or immunity to such damage."
+						"As long as the death's head is not {@condition 無力}, hostile creatures within 5 feet of it gain vulnerability to piercing damage unless they have resistance or immunity to such damage."
 					]
 				},
 				{
@@ -1263,7 +1263,7 @@
 				{
 					"name": "Stunning Gaze",
 					"entries": [
-						"The death's head targets one creature it can see within 30 feet of it. The target must succeed on a {@dc 14} Wisdom saving throw or be {@condition 震慑} until the end of its next turn."
+						"The death's head targets one creature it can see within 30 feet of it. The target must succeed on a {@dc 14} Wisdom saving throw or be {@condition 震懾} until the end of its next turn."
 					]
 				}
 			],
@@ -1369,7 +1369,7 @@
 				{
 					"name": "Dark Devotion",
 					"entries": [
-						"Thalamra has advantage on saving throws against being {@condition 魅惑} or {@condition 恐惧}."
+						"Thalamra has advantage on saving throws against being {@condition 魅惑} or {@condition 恐懼}."
 					]
 				},
 				{
@@ -1517,7 +1517,7 @@
 				{
 					"ac": 12,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1806,7 +1806,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -1927,7 +1927,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1986,7 +1986,7 @@
 				{
 					"name": "Sting",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) piercing damage plus 7 ({@damage 2d6}) fire damage, and the target must succeed on a {@dc 12} Constitution saving throw or be {@condition 中毒} for 1 minute. While {@condition 中毒} in this way, the target is also {@condition 麻痹}. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) piercing damage plus 7 ({@damage 2d6}) fire damage, and the target must succeed on a {@dc 12} Constitution saving throw or be {@condition 中毒} for 1 minute. While {@condition 中毒} in this way, the target is also {@condition 麻痺}. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -2048,7 +2048,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -2079,7 +2079,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -2101,20 +2101,20 @@
 						"The hollyphant's innate spellcasting ability is Wisdom (spell save {@dc 15}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 光亮术}"
+						"{@spell 光亮術}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell 祝福术}",
-							"{@spell 治疗伤势}",
-							"{@spell 防护善恶}"
+							"{@spell 祝福術}",
+							"{@spell 治療傷勢}",
+							"{@spell 防護善惡}"
 						],
 						"1e": [
-							"{@spell 放逐术}",
-							"{@spell 治愈术}",
-							"{@spell 唤醒死者}",
-							"{@spell 形体变化} (into a golden-furred {@creature mammoth} with feathered wings and a flying speed of 120 ft.)",
-							"{@spell 传送术} (with no chance of error)"
+							"{@spell 放逐術}",
+							"{@spell 治癒術}",
+							"{@spell 喚醒死者}",
+							"{@spell 形體變化} (into a golden-furred {@creature mammoth} with feathered wings and a flying speed of 120 ft.)",
+							"{@spell 傳送術} (with no chance of error)"
 						]
 					},
 					"ability": "wis"
@@ -2124,7 +2124,7 @@
 				{
 					"name": "Aura of Invulnerability",
 					"entries": [
-						"An {@condition 隐形} aura forms a 10-foot-radius sphere around the hollyphant for as long as it lives. Any spell of 5th level or lower cast from outside the barrier can't affect creatures or objects within it, even if the spell is cast using a higher level spell slot. Such a spell can target creatures and objects within the barrier, but the spell has no effect on them. Similarly, the area within the barrier is excluded from the areas affected by such spells. The hollyphant can use an action to suppress this trait until its concentration ends (as if concentrating on a spell)."
+						"An {@condition 隱形} aura forms a 10-foot-radius sphere around the hollyphant for as long as it lives. Any spell of 5th level or lower cast from outside the barrier can't affect creatures or objects within it, even if the spell is cast using a higher level spell slot. Such a spell can target creatures and objects within the barrier, but the spell has no effect on them. Similarly, the area within the barrier is excluded from the areas affected by such spells. The hollyphant can use an action to suppress this trait until its concentration ends (as if concentrating on a spell)."
 					]
 				},
 				{
@@ -2150,7 +2150,7 @@
 				{
 					"name": "Trumpet of Blasting",
 					"entries": [
-						"Each creature in the cone must make a {@dc 14} Constitution saving throw. On a failed save, a creature takes 17 ({@damage 5d6}) thunder damage and is {@condition 耳聋} for 1 minute. On a successful save, a creature takes half as much damage and isn't {@condition 耳聋}. Nonmagical objects in the cone that aren't being held or worn take 35 ({@damage 10d6}) thunder damage."
+						"Each creature in the cone must make a {@dc 14} Constitution saving throw. On a failed save, a creature takes 17 ({@damage 5d6}) thunder damage and is {@condition 耳聾} for 1 minute. On a successful save, a creature takes half as much damage and isn't {@condition 耳聾}. Nonmagical objects in the cone that aren't being held or worn take 35 ({@damage 10d6}) thunder damage."
 					]
 				},
 				{
@@ -2306,7 +2306,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -2350,7 +2350,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -2372,17 +2372,17 @@
 						"Kostchtchie's innate spellcasting ability is Charisma (spell save {@dc 20}). He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 命令术}",
-						"{@spell 黑暗术}"
+						"{@spell 命令術}",
+						"{@spell 黑暗術}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 反制善恶}",
-							"{@spell 异界之门}",
-							"{@spell 伤害术}",
-							"{@spell 心灵遥控}",
-							"{@spell 传送术}",
-							"{@spell 御风而行}"
+							"{@spell 反制善惡}",
+							"{@spell 異界之門}",
+							"{@spell 傷害術}",
+							"{@spell 心靈遙控}",
+							"{@spell 傳送術}",
+							"{@spell 御風而行}"
 						]
 					},
 					"ability": "cha"
@@ -2493,7 +2493,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -2536,75 +2536,75 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 寒颤之触}",
-								"{@spell 修复术}",
+								"{@spell 冷顫之觸}",
+								"{@spell 修復術}",
 								"{@spell 提升抗力}",
-								"{@spell 圣焰}",
-								"{@spell 拯救濒死}",
-								"{@spell 奇术}"
+								"{@spell 聖焰}",
+								"{@spell 拯救瀕死}",
+								"{@spell 奇術}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 治疗伤势}",
-								"{@spell 侦测善恶}",
+								"{@spell 治療傷勢}",
+								"{@spell 偵測善惡}",
 								"{@spell 摹造生命}",
-								"{@spell 造成伤势}",
-								"{@spell 致病射线}"
+								"{@spell 造成傷勢}",
+								"{@spell 致病射線}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 目盲/耳聋术}",
-								"{@spell 遗体防腐}",
-								"{@spell 人类定身术}",
-								"{@spell 衰弱射线}",
-								"{@spell 灵体武器}"
+								"{@spell 目盲/耳聾術}",
+								"{@spell 遺體防腐}",
+								"{@spell 人類定身術}",
+								"{@spell 衰弱射線}",
+								"{@spell 靈體武器}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 活化死尸}",
-								"{@spell 防护法阵}",
-								"{@spell 死者交谈术}",
-								"{@spell 灵体守卫}",
-								"{@spell 吸血鬼之触}"
+								"{@spell 活化死屍}",
+								"{@spell 防護法陣}",
+								"{@spell 死者交談術}",
+								"{@spell 靈體守衛}",
+								"{@spell 吸血鬼之觸}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 放逐术}",
-								"{@spell 枯萎术}",
-								"{@spell 防死护咒}",
-								"{@spell 预言术}",
-								"{@spell 生物定位术}"
+								"{@spell 放逐術}",
+								"{@spell 枯萎術}",
+								"{@spell 防死護咒}",
+								"{@spell 預言術}",
+								"{@spell 生物定位術}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell 反活物护罩}",
-								"{@spell 死云术}",
-								"{@spell 疫病术}",
-								"{@spell 高等复原术}"
+								"{@spell 反活物護罩}",
+								"{@spell 死雲術}",
+								"{@spell 疫病術}",
+								"{@spell 高等復原術}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell 创造不死生物}",
-								"{@spell 真知术}"
+								"{@spell 創造不死生物}",
+								"{@spell 真知術}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell 圣言术}",
-								"{@spell 再生术}"
+								"{@spell 聖言術}",
+								"{@spell 再生術}"
 							]
 						}
 					},
@@ -2728,7 +2728,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -2766,7 +2766,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -2792,31 +2792,31 @@
 						"Mahadi's innate spellcasting ability is Charisma (spell save {@dc 18}, {@hit 9} to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 侦测思想}",
-						"{@spell 易容术}",
-						"{@spell 法师之手}",
-						"{@spell 次级幻象}"
+						"{@spell 偵測思想}",
+						"{@spell 易容術}",
+						"{@spell 法師之手}",
+						"{@spell 次級幻象}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell 魅惑人类}",
-							"{@spell 侦测魔法}",
+							"{@spell 魅惑人類}",
+							"{@spell 偵測魔法}",
 							"{@spell 解除魔法}",
-							"{@spell 炼狱叱喝}",
-							"{@spell 隐形术}",
-							"{@spell 强效幻影}",
-							"{@spell 死者交谈术}",
-							"{@spell 暗示术}"
+							"{@spell 煉獄叱喝}",
+							"{@spell 隱形術}",
+							"{@spell 強效幻影}",
+							"{@spell 死者交談術}",
+							"{@spell 暗示術}"
 						],
 						"1e": [
-							"{@spell 放逐术}",
-							"{@spell 创造半位面}",
-							"{@spell 支配人类}",
-							"{@spell 飞行术}",
-							"{@spell 力场监牢}",
-							"{@spell 指使术}",
-							"{@spell 异界传送}",
-							"{@spell 真知术}"
+							"{@spell 放逐術}",
+							"{@spell 創造半位面}",
+							"{@spell 支配人類}",
+							"{@spell 飛行術}",
+							"{@spell 力場監牢}",
+							"{@spell 指使術}",
+							"{@spell 異界傳送}",
+							"{@spell 真知術}"
 						]
 					},
 					"ability": "cha"
@@ -2937,34 +2937,34 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 寒颤之触} (see \"Actions\" below)",
-								"{@spell 法师之手}",
-								"{@spell 传讯术}",
-								"{@spell 魔法技俩}"
+								"{@spell 冷顫之觸} (see \"Actions\" below)",
+								"{@spell 法師之手}",
+								"{@spell 傳訊術}",
+								"{@spell 魔法技倆}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 燃烧之手}",
-								"{@spell 侦测魔法}",
-								"{@spell 致病射线} (see \"Actions\" below)",
-								"{@spell 护盾术}"
+								"{@spell 燃燒之手}",
+								"{@spell 偵測魔法}",
+								"{@spell 致病射線} (see \"Actions\" below)",
+								"{@spell 護盾術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 黑暗术}",
-								"{@spell 迷踪步}",
-								"{@spell 灼热射线} (see \"Actions\" below)"
+								"{@spell 黑暗術}",
+								"{@spell 迷蹤步}",
+								"{@spell 灼熱射線} (see \"Actions\" below)"
 							]
 						},
 						"3": {
 							"slots": 2,
 							"spells": [
-								"{@spell 活化死尸}",
-								"{@spell 火球术}"
+								"{@spell 活化死屍}",
+								"{@spell 火球術}"
 							]
 						}
 					},
@@ -3219,7 +3219,7 @@
 						"items": {
 							"name": "Bite",
 							"entries": [
-								"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}40 ({@damage 6d10 + 7}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. If the target is a creature, it is {@condition 被擒} (escape {@dc 17}). Until this grapple ends, the target is {@condition 束缚}, and the centipede can't bite another target."
+								"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}40 ({@damage 6d10 + 7}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. If the target is a creature, it is {@condition 被擒} (escape {@dc 17}). Until this grapple ends, the target is {@condition 束縛}, and the centipede can't bite another target."
 							]
 						}
 					}
@@ -3291,7 +3291,7 @@
 				{
 					"name": "Aura of Murder",
 					"entries": [
-						"As long as the night blade is not {@condition 无力}, hostile creatures within 5 feet of it gain vulnerability to piercing damage unless they have resistance or immunity to such damage."
+						"As long as the night blade is not {@condition 無力}, hostile creatures within 5 feet of it gain vulnerability to piercing damage unless they have resistance or immunity to such damage."
 					]
 				}
 			],
@@ -3542,9 +3542,9 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell 魅惑人类}",
-							"{@spell 易容术}",
-							"{@spell 圣域术}"
+							"{@spell 魅惑人類}",
+							"{@spell 易容術}",
+							"{@spell 聖域術}"
 						]
 					},
 					"ability": "cha"
@@ -3554,7 +3554,7 @@
 				{
 					"name": "Aura of Murder",
 					"entries": [
-						"As long as the reaper is not {@condition 无力}, hostile creatures within 5 feet of it gain vulnerability to piercing damage unless they have resistance or immunity to such damage."
+						"As long as the reaper is not {@condition 無力}, hostile creatures within 5 feet of it gain vulnerability to piercing damage unless they have resistance or immunity to such damage."
 					]
 				}
 			],
@@ -3574,7 +3574,7 @@
 				{
 					"name": "Shroud Self",
 					"entries": [
-						"The reaper magically turns {@condition 隐形} until the start of its next turn. This invisibility ends if the reaper makes an attack roll, makes a damage roll, or casts a spell."
+						"The reaper magically turns {@condition 隱形} until the start of its next turn. This invisibility ends if the reaper makes an attack roll, makes a damage roll, or casts a spell."
 					]
 				}
 			],
@@ -3786,25 +3786,25 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 法师之手}",
-								"{@spell 传讯术}",
-								"{@spell 魔法技俩}"
+								"{@spell 法師之手}",
+								"{@spell 傳訊術}",
+								"{@spell 魔法技倆}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 侦测魔法}",
-								"{@spell 防护善恶}",
-								"{@spell 致病射线} (see \"Actions\" below)",
-								"{@spell 护盾术}"
+								"{@spell 偵測魔法}",
+								"{@spell 防護善惡}",
+								"{@spell 致病射線} (see \"Actions\" below)",
+								"{@spell 護盾術}"
 							]
 						},
 						"2": {
 							"slots": 2,
 							"spells": [
-								"{@spell 黑暗术}",
-								"{@spell 迷踪步}"
+								"{@spell 黑暗術}",
+								"{@spell 迷蹤步}"
 							]
 						}
 					},
@@ -3911,7 +3911,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -3928,18 +3928,18 @@
 						"Smiler's innate spellcasting ability is Charisma (spell save {@dc 15}). He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 魅惑人类}",
-						"{@spell 塔莎狂笑术}"
+						"{@spell 魅惑人類}",
+						"{@spell 塔莎狂笑術}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell 困惑术}",
-							"{@spell 注目术}",
-							"{@spell 暗示术}"
+							"{@spell 困惑術}",
+							"{@spell 注目術}",
+							"{@spell 暗示術}"
 						],
 						"1e": [
 							"{@spell 幻景}",
-							"{@spell 奥图狂舞术}"
+							"{@spell 奧圖狂舞術}"
 						]
 					},
 					"ability": "cha"
@@ -4189,17 +4189,17 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 神导术}",
-								"{@spell 圣焰} (see \"Actions\" below)",
-								"{@spell 奇术}"
+								"{@spell 神導術}",
+								"{@spell 聖焰} (see \"Actions\" below)",
+								"{@spell 奇術}"
 							]
 						},
 						"1": {
 							"slots": 3,
 							"spells": [
-								"{@spell 命令术}",
-								"{@spell 侦测善恶}",
-								"{@spell 圣域术}"
+								"{@spell 命令術}",
+								"{@spell 偵測善惡}",
+								"{@spell 聖域術}"
 							]
 						}
 					},
@@ -4210,7 +4210,7 @@
 				{
 					"name": "Dark Devotion",
 					"entries": [
-						"Thurstwell has advantage on saving throws against being {@condition 魅惑} or {@condition 恐惧}."
+						"Thurstwell has advantage on saving throws against being {@condition 魅惑} or {@condition 恐懼}."
 					]
 				}
 			],
@@ -4255,7 +4255,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -4378,8 +4378,8 @@
 						"spells": {
 							"7": [
 								{
-									"replace": "{@spell 传送术}",
-									"with": "{@spell 异界传送}"
+									"replace": "{@spell 傳送術}",
+									"with": "{@spell 異界傳送}"
 								}
 							]
 						}

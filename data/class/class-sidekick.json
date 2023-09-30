@@ -551,44 +551,44 @@
 			]
 		},
 		{
-			"name": "专家协力者",
+			"name": "專家協力者",
 			"ENG_name": "Expert Sidekick",
 			"source": "TCE",
 			"page": 142,
 			"isSidekick": true,
 			"classFeatures": [
-				"协力者职业|Expert Sidekick|TCE|1",
-				"额外熟练|Expert Sidekick|TCE|1",
-				"好帮手|Expert Sidekick|TCE|1",
-				"灵巧动作|Expert Sidekick|TCE|2",
-				"专精|Expert Sidekick|TCE|3",
-				"属性值提升|Expert Sidekick|TCE|4",
-				"协同攻击|Expert Sidekick|TCE|6",
-				"反射闪避|Expert Sidekick|TCE|7",
-				"属性值提升|Expert Sidekick|TCE|8",
-				"属性值提升|Expert Sidekick|TCE|10",
-				"鼓舞协助|Expert Sidekick|TCE|11",
-				"属性值提升|Expert Sidekick|TCE|12",
+				"協力者職業|Expert Sidekick|TCE|1",
+				"額外熟練|Expert Sidekick|TCE|1",
+				"好幫手|Expert Sidekick|TCE|1",
+				"靈巧動作|Expert Sidekick|TCE|2",
+				"專精|Expert Sidekick|TCE|3",
+				"屬性值提升|Expert Sidekick|TCE|4",
+				"協同攻擊|Expert Sidekick|TCE|6",
+				"反射閃避|Expert Sidekick|TCE|7",
+				"屬性值提升|Expert Sidekick|TCE|8",
+				"屬性值提升|Expert Sidekick|TCE|10",
+				"鼓舞協助|Expert Sidekick|TCE|11",
+				"屬性值提升|Expert Sidekick|TCE|12",
 				"可靠才能|Expert Sidekick|TCE|14",
-				"属性值提升|Expert Sidekick|TCE|16",
-				"明锐心智|Expert Sidekick|TCE|18",
-				"属性值提升|Expert Sidekick|TCE|19",
-				"鼓舞协助强化|Expert Sidekick|TCE|20"
+				"屬性值提升|Expert Sidekick|TCE|16",
+				"明銳心智|Expert Sidekick|TCE|18",
+				"屬性值提升|Expert Sidekick|TCE|19",
+				"鼓舞協助強化|Expert Sidekick|TCE|20"
 			],
 			"fluff": [
 				{
-					"name": "专家协力者",
+					"name": "專家協力者",
 					"ENG_name": "Expert Sidekick",
 					"type": "section",
 					"entries": [
-						"专家是一位特定工作或学识的大师，偏爱智慧而非蛮劲。专家可以是一位斥候，一位音乐家，一位图书管理员，一个聪明的流浪儿，一位狡猾的商人，或者一名窃贼。"
+						"專家是一位特定工作或學識的大師，偏愛智慧而非蠻勁。專家可以是一位斥候，一位音樂家，一位圖書管理員，一個聰明的流浪兒，一位狡猾的商人，或者一名竊賊。"
 					],
 					"source": "TCE"
 				}
 			]
 		},
 		{
-			"name": "施法协力者",
+			"name": "施法協力者",
 			"ENG_name": "Spellcaster Sidekick",
 			"source": "TCE",
 			"page": 144,
@@ -640,7 +640,7 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"{@filter 已知戏法|spells|level=0}"
+						"{@filter 已知戲法|spells|level=0}"
 					],
 					"rows": [
 						[
@@ -707,7 +707,7 @@
 				},
 				{
 					"colLabels": [
-						"{@filter 已知法术|spells|level=!0}"
+						"{@filter 已知法術|spells|level=!0}"
 					],
 					"rows": [
 						[
@@ -773,13 +773,13 @@
 					]
 				},
 				{
-					"title": "法术位/每环",
+					"title": "法術位/每環",
 					"colLabels": [
-						"{@filter 1环|spells|level=1}",
-						"{@filter 2环|spells|level=2}",
-						"{@filter 3环|spells|level=3}",
-						"{@filter 4环|spells|level=4}",
-						"{@filter 5环|spells|level=5}"
+						"{@filter 1環|spells|level=1}",
+						"{@filter 2環|spells|level=2}",
+						"{@filter 3環|spells|level=3}",
+						"{@filter 4環|spells|level=4}",
+						"{@filter 5環|spells|level=5}"
 					],
 					"rows": [
 						[
@@ -926,63 +926,63 @@
 				}
 			],
 			"classFeatures": [
-				"协力者职业|Spellcaster Sidekick|TCE|1",
-				"额外熟练|Spellcaster Sidekick|TCE|1",
+				"協力者職業|Spellcaster Sidekick|TCE|1",
+				"額外熟練|Spellcaster Sidekick|TCE|1",
 				"施法|Spellcaster Sidekick|TCE|1",
-				"属性值提升|Spellcaster Sidekick|TCE|4",
-				"强力戏法|Spellcaster Sidekick|TCE|6",
-				"属性值提升|Spellcaster Sidekick|TCE|8",
-				"属性值提升|Spellcaster Sidekick|TCE|12",
-				"增强法术|Spellcaster Sidekick|TCE|14",
-				"属性值提升|Spellcaster Sidekick|TCE|16",
-				"属性值提升|Spellcaster Sidekick|TCE|18",
-				"专注施法|Spellcaster Sidekick|TCE|20"
+				"屬性值提升|Spellcaster Sidekick|TCE|4",
+				"強力戲法|Spellcaster Sidekick|TCE|6",
+				"屬性值提升|Spellcaster Sidekick|TCE|8",
+				"屬性值提升|Spellcaster Sidekick|TCE|12",
+				"增強法術|Spellcaster Sidekick|TCE|14",
+				"屬性值提升|Spellcaster Sidekick|TCE|16",
+				"屬性值提升|Spellcaster Sidekick|TCE|18",
+				"專注施法|Spellcaster Sidekick|TCE|20"
 			],
 			"fluff": [
 				{
-					"name": "施法协力者",
+					"name": "施法協力者",
 					"ENG_name": "Spellcaster Sidekick",
 					"type": "section",
 					"entries": [
-						"遵循魔法之道的协力者会成为施法者。协力者可能会成为一位不太专业的法师，一位祭司，一位算命者，或者以自己的方法驱使魔法的角色。"
+						"遵循魔法之道的協力者會成為施法者。協力者可能會成為一位不太專業的法師，一位祭司，一位算命者，或者以自己的方法驅使魔法的角色。"
 					],
 					"source": "TCE"
 				}
 			]
 		},
 		{
-			"name": "武者协力者",
+			"name": "武者協力者",
 			"ENG_name": "Warrior Sidekick",
 			"source": "TCE",
 			"page": 146,
 			"isSidekick": true,
 			"classFeatures": [
-				"协力者职业|Warrior Sidekick|TCE|1",
-				"额外熟练|Warrior Sidekick|TCE|1",
-				"战斗职能|Warrior Sidekick|TCE|1",
-				"回气|Warrior Sidekick|TCE|2",
-				"精通重击|Warrior Sidekick|TCE|3",
-				"属性值提升|Warrior Sidekick|TCE|4",
-				"额外攻击|Warrior Sidekick|TCE|6",
-				"备战|Warrior Sidekick|TCE|7",
-				"属性值提升|Warrior Sidekick|TCE|8",
-				"精通防御|Warrior Sidekick|TCE|10",
+				"協力者職業|Warrior Sidekick|TCE|1",
+				"額外熟練|Warrior Sidekick|TCE|1",
+				"戰鬥職能|Warrior Sidekick|TCE|1",
+				"回氣|Warrior Sidekick|TCE|2",
+				"精通重擊|Warrior Sidekick|TCE|3",
+				"屬性值提升|Warrior Sidekick|TCE|4",
+				"額外攻擊|Warrior Sidekick|TCE|6",
+				"備戰|Warrior Sidekick|TCE|7",
+				"屬性值提升|Warrior Sidekick|TCE|8",
+				"精通防禦|Warrior Sidekick|TCE|10",
 				"不屈|Warrior Sidekick|TCE|11",
-				"属性值提升|Warrior Sidekick|TCE|12",
-				"属性值提升|Warrior Sidekick|TCE|14",
-				"额外攻击强化|Warrior Sidekick|TCE|15",
-				"属性值提升|Warrior Sidekick|TCE|16",
-				"不屈强化|Warrior Sidekick|TCE|18",
-				"属性值提升|Warrior Sidekick|TCE|19",
-				"回气强化|Warrior Sidekick|TCE|20"
+				"屬性值提升|Warrior Sidekick|TCE|12",
+				"屬性值提升|Warrior Sidekick|TCE|14",
+				"額外攻擊強化|Warrior Sidekick|TCE|15",
+				"屬性值提升|Warrior Sidekick|TCE|16",
+				"不屈強化|Warrior Sidekick|TCE|18",
+				"屬性值提升|Warrior Sidekick|TCE|19",
+				"回氣強化|Warrior Sidekick|TCE|20"
 			],
 			"fluff": [
 				{
-					"name": "武者协力者",
+					"name": "武者協力者",
 					"ENG_name": "Warrior Sidekick",
 					"type": "section",
 					"entries": [
-						"一位武者协力者会在与你并肩作战时磨炼自己的武术技巧。它可能是一位士兵，一个城镇守卫，一只受过战斗训练的动物，或者任何其他在战斗中磨砺自身技艺的生物。"
+						"一位武者協力者會在與你並肩作戰時磨鍊自己的武術技巧。它可能是一位士兵，一個城鎮守衛，一隻受過戰鬥訓練的動物，或者任何其他在戰鬥中磨礪自身技藝的生物。"
 					],
 					"source": "TCE"
 				}
@@ -991,7 +991,7 @@
 	],
 	"classFeature": [
 		{
-			"name": "额外熟练",
+			"name": "額外熟練",
 			"ENG_name": "Bonus Proficiencies",
 			"source": "TCE",
 			"page": 142,
@@ -999,13 +999,13 @@
 			"classSource": "TCE",
 			"level": 1,
 			"entries": [
-				"{@i 1级专家特性}",
-				"协力者获得以下一项你所选豁免检定的熟练：敏捷，智力，或魅力。",
-				"此外，协力者获得5项你所选技能的熟练，并且它获得轻甲熟练。如果它是一个类人生物或在其资料版中具有一项简易或军用武器，它也会获得所有简易武器和两种你所选择工具的熟练。"
+				"{@i 1級專家特性}",
+				"協力者獲得以下一項你所選豁免檢定的熟練：敏捷，智力，或魅力。",
+				"此外，協力者獲得5項你所選技能的熟練，並且它獲得輕甲熟練。如果它是一個類人生物或在其資料版中具有一項簡易或軍用武器，它也會獲得所有簡易武器和兩種你所選擇工具的熟練。"
 			]
 		},
 		{
-			"name": "好帮手",
+			"name": "好幫手",
 			"ENG_name": "Helpful",
 			"source": "TCE",
 			"page": 142,
@@ -1013,12 +1013,12 @@
 			"classSource": "TCE",
 			"level": 1,
 			"entries": [
-				"{@i 1级专家特性}",
-				"协力者擅长提供恰到好处的帮助：专家能够以一个附赠动作进行{@action 协助}动作。"
+				"{@i 1級專家特性}",
+				"協力者擅長提供恰到好處的幫助：專家能夠以一個附贈動作進行{@action 協助}動作。"
 			]
 		},
 		{
-			"name": "协力者职业",
+			"name": "協力者職業",
 			"ENG_name": "Sidekick Class",
 			"source": "TCE",
 			"page": 142,
@@ -1027,12 +1027,12 @@
 			"level": 1,
 			"type": "inset",
 			"entries": [
-				"要获得专家职业，一个生物的数据板中必须至少具有一门它能说的语言。",
-				"{@note 注意：这个职业面向NPC {@variantrule sidekicks|tce}。}"
+				"要獲得專家職業，一個生物的數據板中必須至少具有一門它能說的語言。",
+				"{@note 注意：這個職業面向NPC {@variantrule sidekicks|tce}。}"
 			]
 		},
 		{
-			"name": "灵巧动作",
+			"name": "靈巧動作",
 			"ENG_name": "Cunning Action",
 			"source": "TCE",
 			"page": 142,
@@ -1040,12 +1040,12 @@
 			"classSource": "TCE",
 			"level": 2,
 			"entries": [
-				"{@i 2级专家特性}",
-				"协力者的迅捷或敏锐思维能让它迅速行动。在专家的战斗回合中，其可以用附赠动作执行使用{@action 疾走}，{@action 撤离}或{@action 躲藏}动作。"
+				"{@i 2級專家特性}",
+				"協力者的迅捷或敏銳思維能讓它迅速行動。在專家的戰鬥回合中，其可以用附贈動作執行使用{@action 疾走}，{@action 撤離}或{@action 躲藏}動作。"
 			]
 		},
 		{
-			"name": "专精",
+			"name": "專精",
 			"ENG_name": "Expertise",
 			"source": "TCE",
 			"page": 142,
@@ -1053,13 +1053,13 @@
 			"classSource": "TCE",
 			"level": 3,
 			"entries": [
-				"{@i 3级专家特性}",
-				"选择协力者的两项熟练技能。其进行所选熟练项的属性检定时可以加上双倍的熟练。",
-				"15级时，再选择两项协力者的熟练技能获得此增益。"
+				"{@i 3級專家特性}",
+				"選擇協力者的兩項熟練技能。其進行所選熟練項的屬性檢定時可以加上雙倍的熟練。",
+				"15級時，再選擇兩項協力者的熟練技能獲得此增益。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "TCE",
 			"page": 142,
@@ -1067,12 +1067,12 @@
 			"classSource": "TCE",
 			"level": 4,
 			"entries": [
-				"{@i 4级专家特性}",
-				"当协力者在此职业升至4级、8级、10级、12级、16级、19级时，协力者增加由你选择的一项自选属性值2点，或者可以增加二项自选属性值各1点。协力者不能通过这个能力将一个属性值提升至超过20。"
+				"{@i 4級專家特性}",
+				"當協力者在此職業升至4級、8級、10級、12級、16級、19級時，協力者增加由你選擇的一項自選屬性值2點，或者可以增加二項自選屬性值各1點。協力者不能透過這個能力將一個屬性值提升至超過20。"
 			]
 		},
 		{
-			"name": "协同攻击",
+			"name": "協同攻擊",
 			"ENG_name": "Coordinated Strike",
 			"source": "TCE",
 			"page": 142,
@@ -1080,12 +1080,12 @@
 			"classSource": "TCE",
 			"level": 6,
 			"entries": [
-				"{@i 6级专家特性}",
-				"协力者擅长在战斗配合进攻。当一位协力者使用好帮手特性协助一位盟友攻击一个生物时，其目标可以距离协力者最多30尺远。并且下一次协力者在当前回合结束前以一次攻击命中该生物时可以造成额外{@damage 2d6}伤害。该额外伤害类型与造成它的攻击伤害类型相同。"
+				"{@i 6級專家特性}",
+				"協力者擅長在戰鬥配合進攻。當一位協力者使用好幫手特性協助一位盟友攻擊一個生物時，其目標可以距離協力者最多30尺遠。並且下一次協力者在當前回合結束前以一次攻擊命中該生物時可以造成額外{@damage 2d6}傷害。該額外傷害類型與造成它的攻擊傷害類型相同。"
 			]
 		},
 		{
-			"name": "反射闪避",
+			"name": "反射閃避",
 			"ENG_name": "Evasion",
 			"source": "TCE",
 			"page": 142,
@@ -1093,12 +1093,12 @@
 			"classSource": "TCE",
 			"level": 7,
 			"entries": [
-				"{@i 7级专家特性}",
-				"由于特别的好运，协力者擅长于规避危险。当协力者被一个允许其进行一次敏捷豁免减半伤害的效应作为目标时，它在成功时不会受到伤害，而失败时只受到一半伤害。协力者在{@condition 无力}时不会获得该好处。"
+				"{@i 7級專家特性}",
+				"由於特別的好運，協力者擅長於規避危險。當協力者被一個允許其進行一次敏捷豁免減半傷害的效應作為目標時，它在成功時不會受到傷害，而失敗時只受到一半傷害。協力者在{@condition 無力}時不會獲得該好處。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "TCE",
 			"page": 142,
@@ -1106,12 +1106,12 @@
 			"classSource": "TCE",
 			"level": 8,
 			"entries": [
-				"{@i 8级专家特性}",
-				"当协力者在此职业升至4级、8级、10级、12级、16级、19级时，协力者增加由你选择的一项自选属性值2点，或者可以增加二项自选属性值各1点。协力者不能通过这个能力将一个属性值提升至超过20。"
+				"{@i 8級專家特性}",
+				"當協力者在此職業升至4級、8級、10級、12級、16級、19級時，協力者增加由你選擇的一項自選屬性值2點，或者可以增加二項自選屬性值各1點。協力者不能透過這個能力將一個屬性值提升至超過20。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "TCE",
 			"page": 142,
@@ -1119,12 +1119,12 @@
 			"classSource": "TCE",
 			"level": 10,
 			"entries": [
-				"{@i 10级专家特性}",
-				"当协力者在此职业升至4级、8级、10级、12级、16级、19级时，协力者增加由你选择的一项自选属性值2点，或者可以增加二项自选属性值各1点。协力者不能通过这个能力将一个属性值提升至超过20。"
+				"{@i 10級專家特性}",
+				"當協力者在此職業升至4級、8級、10級、12級、16級、19級時，協力者增加由你選擇的一項自選屬性值2點，或者可以增加二項自選屬性值各1點。協力者不能透過這個能力將一個屬性值提升至超過20。"
 			]
 		},
 		{
-			"name": "鼓舞协助",
+			"name": "鼓舞協助",
 			"ENG_name": "Inspiring Help",
 			"source": "TCE",
 			"page": 142,
@@ -1132,13 +1132,13 @@
 			"classSource": "TCE",
 			"level": 11,
 			"entries": [
-				"{@i 11级专家特性}",
-				"当协力者执行{@action 协助}动作时，受到协助的生物同时获得一枚额外加在{@dice d20}骰值上的{@dice 1d6}骰。如果掷骰的是攻击检定，则该生物可以放弃在攻击检定上加上骰值，然后在命中后的伤害中加上该骰值。",
-				"在20级时，该加值提升到{@dice 2d6}。"
+				"{@i 11級專家特性}",
+				"當協力者執行{@action 協助}動作時，受到協助的生物同時獲得一枚額外加在{@dice d20}骰值上的{@dice 1d6}骰。如果擲骰的是攻擊檢定，則該生物可以放棄在攻擊檢定上加上骰值，然後在命中後的傷害中加上該骰值。",
+				"在20級時，該加值提升到{@dice 2d6}。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "TCE",
 			"page": 142,
@@ -1146,8 +1146,8 @@
 			"classSource": "TCE",
 			"level": 12,
 			"entries": [
-				"{@i 12级专家特性}",
-				"当协力者在此职业升至4级、8级、10级、12级、16级、19级时，协力者增加由你选择的一项自选属性值2点，或者可以增加二项自选属性值各1点。协力者不能通过这个能力将一个属性值提升至超过20。"
+				"{@i 12級專家特性}",
+				"當協力者在此職業升至4級、8級、10級、12級、16級、19級時，協力者增加由你選擇的一項自選屬性值2點，或者可以增加二項自選屬性值各1點。協力者不能透過這個能力將一個屬性值提升至超過20。"
 			]
 		},
 		{
@@ -1159,12 +1159,12 @@
 			"classSource": "TCE",
 			"level": 14,
 			"entries": [
-				"{@i 14级专家特性}",
-				"协力者的技能经过精炼而更趋于完美。每当协力者进行的属性检定可以使用熟练加值时，它可以将{@dice d20}中9或以下的结果都视为10。"
+				"{@i 14級專家特性}",
+				"協力者的技能經過精煉而更趨於完美。每當協力者進行的屬性檢定可以使用熟練加值時，它可以將{@dice d20}中9或以下的結果都視為10。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "TCE",
 			"page": 142,
@@ -1172,12 +1172,12 @@
 			"classSource": "TCE",
 			"level": 16,
 			"entries": [
-				"{@i 16级专家特性}",
-				"当协力者在此职业升至4级、8级、10级、12级、16级、19级时，协力者增加由你选择的一项自选属性值2点，或者可以增加二项自选属性值各1点。协力者不能通过这个能力将一个属性值提升至超过20。"
+				"{@i 16級專家特性}",
+				"當協力者在此職業升至4級、8級、10級、12級、16級、19級時，協力者增加由你選擇的一項自選屬性值2點，或者可以增加二項自選屬性值各1點。協力者不能透過這個能力將一個屬性值提升至超過20。"
 			]
 		},
 		{
-			"name": "明锐心智",
+			"name": "明銳心智",
 			"ENG_name": "Sharp Mind",
 			"source": "TCE",
 			"page": 142,
@@ -1185,12 +1185,12 @@
 			"classSource": "TCE",
 			"level": 18,
 			"entries": [
-				"{@i 18级专家特性}",
-				"协力者获得以下一项你所选豁免检定的熟练：智力，感知或魅力。"
+				"{@i 18級專家特性}",
+				"協力者獲得以下一項你所選豁免檢定的熟練：智力，感知或魅力。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "TCE",
 			"page": 142,
@@ -1198,12 +1198,12 @@
 			"classSource": "TCE",
 			"level": 19,
 			"entries": [
-				"{@i 19级专家特性}",
-				"当协力者在此职业升至4级、8级、10级、12级、16级、19级时，协力者增加由你选择的一项自选属性值2点，或者可以增加二项自选属性值各1点。协力者不能通过这个能力将一个属性值提升至超过20。"
+				"{@i 19級專家特性}",
+				"當協力者在此職業升至4級、8級、10級、12級、16級、19級時，協力者增加由你選擇的一項自選屬性值2點，或者可以增加二項自選屬性值各1點。協力者不能透過這個能力將一個屬性值提升至超過20。"
 			]
 		},
 		{
-			"name": "鼓舞协助强化",
+			"name": "鼓舞協助強化",
 			"ENG_name": "Inspring Help Improvement",
 			"source": "TCE",
 			"page": 142,
@@ -1211,12 +1211,12 @@
 			"classSource": "TCE",
 			"level": 20,
 			"entries": [
-				"{@i 20级专家特性}",
-				"协力者的鼓舞协助的加值提升到{@dice 2d6}。"
+				"{@i 20級專家特性}",
+				"協力者的鼓舞協助的加值提升到{@dice 2d6}。"
 			]
 		},
 		{
-			"name": "额外熟练",
+			"name": "額外熟練",
 			"ENG_name": "Bonus Proficiencies",
 			"source": "TCE",
 			"page": 144,
@@ -1224,14 +1224,14 @@
 			"classSource": "TCE",
 			"level": 1,
 			"entries": [
-				"{@i 1级施法者特性}",
-				"协力者获得以下一项你所选豁免检定的熟练：智力，感知，或魅力。",
-				"此外，协力者获得以下中2项你选技能的熟练：{@skill 奥秘}、{@skill 历史}、{@skill 洞悉}、{@skill 调查}、{@skill 医疗}、{@skill 表演}、{@skill 说服}和{@skill 宗教}。",
-				"协力者获得轻甲熟练。如果它是一个类人生物或在其资料版中具有一项简易或军用武器，它也会获得所有简易武器的熟练。"
+				"{@i 1級施法者特性}",
+				"協力者獲得以下一項你所選豁免檢定的熟練：智力，感知，或魅力。",
+				"此外，協力者獲得以下中2項你選技能的熟練：{@skill 奧秘}、{@skill 歷史}、{@skill 洞悉}、{@skill 調查}、{@skill 醫療}、{@skill 表演}、{@skill 說服}和{@skill 宗教}。",
+				"協力者獲得輕甲熟練。如果它是一個類人生物或在其資料版中具有一項簡易或軍用武器，它也會獲得所有簡易武器的熟練。"
 			]
 		},
 		{
-			"name": "协力者职业",
+			"name": "協力者職業",
 			"ENG_name": "Sidekick Class",
 			"source": "TCE",
 			"page": 144,
@@ -1240,8 +1240,8 @@
 			"level": 1,
 			"type": "inset",
 			"entries": [
-				"要获得施法者职业，一个生物的数据板中必须至少具有一门它能说的语言。",
-				"{@note 注意：这个职业面向NPC {@variantrule sidekicks|tce}。}"
+				"要獲得施法者職業，一個生物的數據板中必須至少具有一門它能說的語言。",
+				"{@note 注意：這個職業面向NPC {@variantrule sidekicks|tce}。}"
 			]
 		},
 		{
@@ -1253,15 +1253,15 @@
 			"classSource": "TCE",
 			"level": 1,
 			"entries": [
-				"{@i 1级施法者特性}",
-				"协力者获得施展法术的能力（如果该生物已具有施法特质，该特性替换原本特质）。选择一项施法者职能：魔术师、治疗者或奇才。这选择将决定协力者的法术列表和使用的施法关键属性，见\"施法表格\"。",
+				"{@i 1級施法者特性}",
+				"協力者獲得施展法術的能力（如果該生物已具有施法特質，該特性替換原本特質）。選擇一項施法者職能：魔術師、治療者或奇才。這選擇將決定協力者的法術列表和使用的施法關鍵屬性，見\"施法表格\"。",
 				{
 					"type": "table",
 					"caption": "施法",
 					"colLabels": [
-						"职能",
-						"法术列表",
-						"属性"
+						"職能",
+						"法術列表",
+						"屬性"
 					],
 					"colStyles": [
 						"col-4 text-center",
@@ -1270,18 +1270,18 @@
 					],
 					"rows": [
 						[
-							"{@b 魔术师} Mage",
-							"{@filter 法师|spells|class=Wizard}",
+							"{@b 魔術師} Mage",
+							"{@filter 法師|spells|class=Wizard}",
 							"智力"
 						],
 						[
-							"{@b 治疗者} Healer",
-							"{@filter 牧师和德鲁伊|spells|class=Cleric;Druid}",
+							"{@b 治療者} Healer",
+							"{@filter 牧師和德魯伊|spells|class=Cleric;Druid}",
 							"感知"
 						],
 						[
 							"{@b 奇才} Prodigy",
-							"{@filter 吟游诗人和契术师|spells|class=Bard;Warlock}",
+							"{@filter 吟遊詩人和契術師|spells|class=Bard;Warlock}",
 							"魅力"
 						]
 					]
@@ -1291,65 +1291,65 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "法术位",
+							"name": "法術位",
 							"ENG_name": "Spell Slots",
 							"entries": [
-								"\"施法者表格\"中显示了协力者施展其施法者法术的1环及更高环阶法术位数量。施展某个法术时，协力者必须同时消耗其对应环阶或更高的法术位。已消耗的法术位可在完成长休后恢复。"
+								"\"施法者表格\"中顯示了協力者施展其施法者法術的1環及更高環階法術位數量。施展某個法術時，協力者必須同時消耗其對應環階或更高的法術位。已消耗的法術位可在完成長休後恢復。"
 							]
 						},
 						{
 							"type": "entries",
-							"name": "已知法术",
+							"name": "已知法術",
 							"ENG_name": "Spells Known",
 							"entries": [
-								"协力者习得两个戏法和一个一环法术。这里有一些每个职能1级施法者的法术推荐：",
+								"協力者習得兩個戲法和一個一環法術。這裡有一些每個職能1級施法者的法術推薦：",
 								{
 									"type": "list",
 									"style": "list-hang-notitle",
 									"items": [
 										{
 											"type": "item",
-											"name": "魔术师：",
+											"name": "魔術師：",
 											"ENG_name": "Mage:",
-											"entry": "{@spell 法师之手}, {@spell 冷冻射线}, {@spell 雷鸣波}"
+											"entry": "{@spell 法師之手}, {@spell 冷凍射線}, {@spell 雷鳴波}"
 										},
 										{
 											"type": "item",
-											"name": "治疗者：",
+											"name": "治療者：",
 											"ENG_name": "Healer:",
-											"entry": "{@spell 治疗伤势}, {@spell 神导术}, {@spell 圣焰}"
+											"entry": "{@spell 治療傷勢}, {@spell 神導術}, {@spell 聖焰}"
 										},
 										{
 											"type": "item",
 											"name": "奇才：",
 											"ENG_name": "Prodigy:",
-											"entry": "{@spell 魔能爆}, {@spell 治愈真言}, {@spell 光亮术}"
+											"entry": "{@spell 魔能爆}, {@spell 治癒真言}, {@spell 光亮術}"
 										},
-										"\"施法者表格\"的已知戏法和已知法术栏显示了协力者何时能习得由你选择的新法术。已知法术栏中的每个法术必须是协力者具有表中所示相应环阶的法术。例如，当协力者达到5级时，它能学习1个新的1环或2环法术。",
-										"此外，当协力者获得新的该职业等级时，你能选择一个它已知的法术并以一个新的法术替换它。新的法术可以是戏法，也可以一个是协力者具有对应法术位的法术。"
+										"\"施法者表格\"的已知戲法和已知法術欄顯示了協力者何時能習得由你選擇的新法術。已知法術欄中的每個法術必須是協力者具有表中所示相應環階的法術。例如，當協力者達到5級時，它能學習1個新的1環或2環法術。",
+										"此外，當協力者獲得新的該職業等級時，你能選擇一個它已知的法術並以一個新的法術替換它。新的法術可以是戲法，也可以一個是協力者具有對應法術位的法術。"
 									]
 								}
 							]
 						},
 						{
 							"type": "entries",
-							"name": "施法关键属性",
+							"name": "施法關鍵屬性",
 							"ENG_name": "Spellcasting Ability",
 							"entries": [
-								"协力者法术的施法关键属性取决于你在\"施法表格\"中的选择。",
-								"当法术提到其属性时，协力者使用其施法关键属性。此外，在确定法术豁免DC和以法术进行攻击时它会使用施法关键属性调整值。",
+								"協力者法術的施法關鍵屬性取決於你在\"施法表格\"中的選擇。",
+								"當法術提到其屬性時，協力者使用其施法關鍵屬性。此外，在確定法術豁免DC和以法術進行攻擊時它會使用施法關鍵屬性調整值。",
 								{
 									"type": "abilityDc",
-									"name": "法术",
+									"name": "法術",
 									"attributes": [
-										"施法属性"
+										"施法屬性"
 									]
 								},
 								{
 									"type": "abilityAttackMod",
-									"name": "法术",
+									"name": "法術",
 									"attributes": [
-										"施法属性"
+										"施法屬性"
 									]
 								}
 							]
@@ -1359,7 +1359,7 @@
 							"name": "施法法器",
 							"ENG_name": "Spellcasting Focus",
 							"entries": [
-								"协力者可以根据\"施法表格\"的选择来为它的法术使用一件法器。一位魔术师能够使用一件奥术法器，一位治疗者能够使用一面圣徽，而一位奇才能够使用一件奥术法器或一样{@item 乐器|PHB}。"
+								"協力者可以根據\"施法表格\"的選擇來為它的法術使用一件法器。一位魔術師能夠使用一件奧術法器，一位治療者能夠使用一面聖徽，而一位奇才能夠使用一件奧術法器或一樣{@item 樂器|PHB}。"
 							]
 						}
 					]
@@ -1367,7 +1367,7 @@
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "TCE",
 			"page": 144,
@@ -1375,12 +1375,12 @@
 			"classSource": "TCE",
 			"level": 4,
 			"entries": [
-				"{@i 4级施法者特性}",
-				"当协力者在此职业升至4级、8级、12级、16级、18级时，协力者增加由你选择的一项自选属性值2点，或者可以增加二项自选属性值各1点。协力者不能通过这个能力将一个属性值提升至超过20。"
+				"{@i 4級施法者特性}",
+				"當協力者在此職業升至4級、8級、12級、16級、18級時，協力者增加由你選擇的一項自選屬性值2點，或者可以增加二項自選屬性值各1點。協力者不能透過這個能力將一個屬性值提升至超過20。"
 			]
 		},
 		{
-			"name": "强力戏法",
+			"name": "強力戲法",
 			"ENG_name": "Potent Cantrips",
 			"source": "TCE",
 			"page": 144,
@@ -1388,12 +1388,12 @@
 			"classSource": "TCE",
 			"level": 6,
 			"entries": [
-				"{@i 6级施法者特性}",
-				"施法者施展戏法造成伤害时，可以再加上施法调整值。"
+				"{@i 6級施法者特性}",
+				"施法者施展戲法造成傷害時，可以再加上施法調整值。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "TCE",
 			"page": 144,
@@ -1401,12 +1401,12 @@
 			"classSource": "TCE",
 			"level": 8,
 			"entries": [
-				"{@i 8级施法者特性}",
-				"当协力者在此职业升至4级、8级、12级、16级、18级时，协力者增加由你选择的一项自选属性值2点，或者可以增加二项自选属性值各1点。协力者不能通过这个能力将一个属性值提升至超过20。"
+				"{@i 8級施法者特性}",
+				"當協力者在此職業升至4級、8級、12級、16級、18級時，協力者增加由你選擇的一項自選屬性值2點，或者可以增加二項自選屬性值各1點。協力者不能透過這個能力將一個屬性值提升至超過20。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "TCE",
 			"page": 144,
@@ -1414,12 +1414,12 @@
 			"classSource": "TCE",
 			"level": 12,
 			"entries": [
-				"{@i 12级施法者特性}",
-				"当协力者在此职业升至4级、8级、12级、16级、18级时，协力者增加由你选择的一项自选属性值2点，或者可以增加二项自选属性值各1点。协力者不能通过这个能力将一个属性值提升至超过20。"
+				"{@i 12級施法者特性}",
+				"當協力者在此職業升至4級、8級、12級、16級、18級時，協力者增加由你選擇的一項自選屬性值2點，或者可以增加二項自選屬性值各1點。協力者不能透過這個能力將一個屬性值提升至超過20。"
 			]
 		},
 		{
-			"name": "增强法术",
+			"name": "增強法術",
 			"ENG_name": "Empowered Spells",
 			"source": "TCE",
 			"page": 144,
@@ -1427,12 +1427,12 @@
 			"classSource": "TCE",
 			"level": 14,
 			"entries": [
-				"{@i 14级施法者特性}",
-				"选择一个魔法学派。当协力者消耗法术位施展该学派的法术时，如果法术能造成伤害或治疗生命值，它能将自己的施法关键属性调整值加到法术的伤害或者治疗骰值中。"
+				"{@i 14級施法者特性}",
+				"選擇一個魔法學派。當協力者消耗法術位施展該學派的法術時，如果法術能造成傷害或治療生命值，它能將自己的施法關鍵屬性調整值加到法術的傷害或者治療骰值中。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "TCE",
 			"page": 144,
@@ -1440,12 +1440,12 @@
 			"classSource": "TCE",
 			"level": 16,
 			"entries": [
-				"{@i 16级施法者特性}",
-				"当协力者在此职业升至4级、8级、12级、16级、18级时，协力者增加由你选择的一项自选属性值2点，或者可以增加二项自选属性值各1点。协力者不能通过这个能力将一个属性值提升至超过20。"
+				"{@i 16級施法者特性}",
+				"當協力者在此職業升至4級、8級、12級、16級、18級時，協力者增加由你選擇的一項自選屬性值2點，或者可以增加二項自選屬性值各1點。協力者不能透過這個能力將一個屬性值提升至超過20。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "TCE",
 			"page": 144,
@@ -1453,12 +1453,12 @@
 			"classSource": "TCE",
 			"level": 18,
 			"entries": [
-				"{@i 18级施法者特性}",
-				"当协力者在此职业升至4级、8级、12级、16级、18级时，协力者增加由你选择的一项自选属性值2点，或者可以增加二项自选属性值各1点。协力者不能通过这个能力将一个属性值提升至超过20。"
+				"{@i 18級施法者特性}",
+				"當協力者在此職業升至4級、8級、12級、16級、18級時，協力者增加由你選擇的一項自選屬性值2點，或者可以增加二項自選屬性值各1點。協力者不能透過這個能力將一個屬性值提升至超過20。"
 			]
 		},
 		{
-			"name": "专注施法",
+			"name": "專注施法",
 			"ENG_name": "Focused Casting",
 			"source": "TCE",
 			"page": 144,
@@ -1466,12 +1466,12 @@
 			"classSource": "TCE",
 			"level": 20,
 			"entries": [
-				"{@i 20级施法者特性}",
-				"受到伤害不会打断协力者对法术的专注。"
+				"{@i 20級施法者特性}",
+				"受到傷害不會打斷協力者對法術的專注。"
 			]
 		},
 		{
-			"name": "额外熟练",
+			"name": "額外熟練",
 			"ENG_name": "Bonus Proficiencies",
 			"source": "TCE",
 			"page": 146,
@@ -1479,14 +1479,14 @@
 			"classSource": "TCE",
 			"level": 1,
 			"entries": [
-				"{@i 1级武者特性}",
-				"协力者获得以下一项你所选豁免检定的熟练：力量，敏捷或体质。",
-				"此外，协力者获得以下中2项你选技能的熟练：{@skill 体操}、{@skill 驯兽}、{@skill 运动}、{@skill 威吓}、{@skill 自然}、{@skill 察觉}和{@skill 生存}。",
-				"协力者获得所有护甲的熟练。如果它是一个类人生物或在其资料版中具有一项简易或军用武器，它也会获得盾牌和所有简易和军用武器的熟练。"
+				"{@i 1級武者特性}",
+				"協力者獲得以下一項你所選豁免檢定的熟練：力量，敏捷或體質。",
+				"此外，協力者獲得以下中2項你選技能的熟練：{@skill 體操}、{@skill 馴獸}、{@skill 運動}、{@skill 威嚇}、{@skill 自然}、{@skill 察覺}和{@skill 生存}。",
+				"協力者獲得所有護甲的熟練。如果它是一個類人生物或在其資料版中具有一項簡易或軍用武器，它也會獲得盾牌和所有簡易和軍用武器的熟練。"
 			]
 		},
 		{
-			"name": "战斗职能",
+			"name": "戰鬥職能",
 			"ENG_name": "Martial Role",
 			"source": "TCE",
 			"page": 146,
@@ -1494,30 +1494,30 @@
 			"classSource": "TCE",
 			"level": 1,
 			"entries": [
-				"{@i 1级武者特性}",
-				"每位武者都侧重于进攻或防御的训练。从以下选项中选择一项：",
+				"{@i 1級武者特性}",
+				"每位武者都側重於進攻或防禦的訓練。從以下選項中選擇一項：",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
-							"name": "攻击手。",
+							"name": "攻擊手。",
 							"ENG_name": "Attacker.",
-							"entry": "协力者在所有攻击检定时获得+2加值。"
+							"entry": "協力者在所有攻擊檢定時獲得+2加值。"
 						},
 						{
 							"type": "item",
-							"name": "防御者。",
+							"name": "防禦者。",
 							"ENG_name": "Defender.",
-							"entry": "协力者能以反应动作反应迫使某个生物攻击武者身边5尺内除武者之外的目标时的一次攻击检定具有劣势。此时协力者必须看见攻击者。"
+							"entry": "協力者能以反應動作反應迫使某個生物攻擊武者身邊5尺內除武者之外的目標時的一次攻擊檢定具有劣勢。此時協力者必須看見攻擊者。"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "协力者职业",
+			"name": "協力者職業",
 			"ENG_name": "Sidekick Class",
 			"source": "TCE",
 			"page": 146,
@@ -1526,11 +1526,11 @@
 			"level": 1,
 			"type": "inset",
 			"entries": [
-				"{@note 注意：这个职业面向NPC {@variantrule sidekicks|tce}。}"
+				"{@note 注意：這個職業面向NPC {@variantrule sidekicks|tce}。}"
 			]
 		},
 		{
-			"name": "回气",
+			"name": "回氣",
 			"ENG_name": "Second Wind",
 			"source": "TCE",
 			"page": 146,
@@ -1538,13 +1538,13 @@
 			"classSource": "TCE",
 			"level": 2,
 			"entries": [
-				"{@i 2级武者特性}",
-				"协力者可以以一个附赠动作恢复{@dice 1d10} + 其职业等级的生命值。如果其如此做，直到其完成一次长休或短休才能再次使用。",
-				"协力者在20级时可以在休息间使用该特性2次。"
+				"{@i 2級武者特性}",
+				"協力者可以以一個附贈動作恢復{@dice 1d10} + 其職業等級的生命值。如果其如此做，直到其完成一次長休或短休才能再次使用。",
+				"協力者在20級時可以在休息間使用該特性2次。"
 			]
 		},
 		{
-			"name": "精通重击",
+			"name": "精通重擊",
 			"ENG_name": "Improved Critical",
 			"source": "TCE",
 			"page": 146,
@@ -1552,12 +1552,12 @@
 			"classSource": "TCE",
 			"level": 3,
 			"entries": [
-				"{@i 3级武者特性}",
-				"协力者的攻击在{@dice d20}掷出19或20时即可造成重击。"
+				"{@i 3級武者特性}",
+				"協力者的攻擊在{@dice d20}擲出19或20時即可造成重擊。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "TCE",
 			"page": 146,
@@ -1565,12 +1565,12 @@
 			"classSource": "TCE",
 			"level": 4,
 			"entries": [
-				"{@i 4级武者特性}",
-				"当协力者在此职业升至4级、8级、12级、14级、16级、19级时，协力者增加由你选择的一项自选属性值2点，或者可以增加二项自选属性值各1点。协力者不能通过这个能力将一个属性值提升至超过20。"
+				"{@i 4級武者特性}",
+				"當協力者在此職業升至4級、8級、12級、14級、16級、19級時，協力者增加由你選擇的一項自選屬性值2點，或者可以增加二項自選屬性值各1點。協力者不能透過這個能力將一個屬性值提升至超過20。"
 			]
 		},
 		{
-			"name": "额外攻击",
+			"name": "額外攻擊",
 			"ENG_name": "Extra Attack",
 			"source": "TCE",
 			"page": 146,
@@ -1578,14 +1578,14 @@
 			"classSource": "TCE",
 			"level": 6,
 			"entries": [
-				"{@i 6级武者特性}",
-				"每当协力者在自己回合执行{@action 攻击}动作时，协力者可以发动两次攻击，而非一次。",
-				"从15级开始，协力者可以攻击三次。",
-				"如果协力者拥有多重攻击动作，它只能在一个回合内使用额外攻击和多重攻击之一。"
+				"{@i 6級武者特性}",
+				"每當協力者在自己回合執行{@action 攻擊}動作時，協力者可以發動兩次攻擊，而非一次。",
+				"從15級開始，協力者可以攻擊三次。",
+				"如果協力者擁有多重攻擊動作，它只能在一個回合內使用額外攻擊和多重攻擊之一。"
 			]
 		},
 		{
-			"name": "备战",
+			"name": "備戰",
 			"ENG_name": "Battle Readiness",
 			"source": "TCE",
 			"page": 146,
@@ -1593,12 +1593,12 @@
 			"classSource": "TCE",
 			"level": 7,
 			"entries": [
-				"{@i 7级武者特性}",
-				"协力者的先攻检定具有优势。"
+				"{@i 7級武者特性}",
+				"協力者的先攻檢定具有優勢。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "TCE",
 			"page": 146,
@@ -1606,12 +1606,12 @@
 			"classSource": "TCE",
 			"level": 8,
 			"entries": [
-				"{@i 8级武者特性}",
-				"当协力者在此职业升至4级、8级、12级、14级、16级、19级时，协力者增加由你选择的一项自选属性值2点，或者可以增加二项自选属性值各1点。协力者不能通过这个能力将一个属性值提升至超过20。"
+				"{@i 8級武者特性}",
+				"當協力者在此職業升至4級、8級、12級、14級、16級、19級時，協力者增加由你選擇的一項自選屬性值2點，或者可以增加二項自選屬性值各1點。協力者不能透過這個能力將一個屬性值提升至超過20。"
 			]
 		},
 		{
-			"name": "精通防御",
+			"name": "精通防禦",
 			"ENG_name": "Improved Defense",
 			"source": "TCE",
 			"page": 146,
@@ -1619,8 +1619,8 @@
 			"classSource": "TCE",
 			"level": 10,
 			"entries": [
-				"{@i 10级武者特性}",
-				"协力者的AC提升1。"
+				"{@i 10級武者特性}",
+				"協力者的AC提升1。"
 			]
 		},
 		{
@@ -1632,13 +1632,13 @@
 			"classSource": "TCE",
 			"level": 11,
 			"entries": [
-				"{@i 11级武者特性}",
-				"协力者可以重掷失败的豁免检定。不过其必须采用重掷的结果。当使用此特性后，协力者必须完成一次长休才能再次使用。",
-				"从18级开始，协力者可以在两次长休之间使用两次该特性。"
+				"{@i 11級武者特性}",
+				"協力者可以重擲失敗的豁免檢定。不過其必須採用重擲的結果。當使用此特性後，協力者必須完成一次長休才能再次使用。",
+				"從18級開始，協力者可以在兩次長休之間使用兩次該特性。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "TCE",
 			"page": 146,
@@ -1646,12 +1646,12 @@
 			"classSource": "TCE",
 			"level": 12,
 			"entries": [
-				"{@i 12级武者特性}",
-				"当协力者在此职业升至4级、8级、12级、14级、16级、19级时，协力者增加由你选择的一项自选属性值2点，或者可以增加二项自选属性值各1点。协力者不能通过这个能力将一个属性值提升至超过20。"
+				"{@i 12級武者特性}",
+				"當協力者在此職業升至4級、8級、12級、14級、16級、19級時，協力者增加由你選擇的一項自選屬性值2點，或者可以增加二項自選屬性值各1點。協力者不能透過這個能力將一個屬性值提升至超過20。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "TCE",
 			"page": 146,
@@ -1659,12 +1659,12 @@
 			"classSource": "TCE",
 			"level": 14,
 			"entries": [
-				"{@i 14级武者特性}",
-				"当协力者在此职业升至4级、8级、12级、14级、16级、19级时，协力者增加由你选择的一项自选属性值2点，或者可以增加二项自选属性值各1点。协力者不能通过这个能力将一个属性值提升至超过20。"
+				"{@i 14級武者特性}",
+				"當協力者在此職業升至4級、8級、12級、14級、16級、19級時，協力者增加由你選擇的一項自選屬性值2點，或者可以增加二項自選屬性值各1點。協力者不能透過這個能力將一個屬性值提升至超過20。"
 			]
 		},
 		{
-			"name": "额外攻击强化",
+			"name": "額外攻擊強化",
 			"ENG_name": "Extra Attack Improvement",
 			"source": "TCE",
 			"page": 146,
@@ -1672,13 +1672,13 @@
 			"classSource": "TCE",
 			"level": 15,
 			"entries": [
-				"{@i 15级武者特性}",
-				"每当协力者在自己回合执行{@action 攻击}动作时，协力者可以发动三次攻击。",
-				"如果协力者拥有多重攻击动作，它只能在一个回合内使用额外攻击和多重攻击之一。"
+				"{@i 15級武者特性}",
+				"每當協力者在自己回合執行{@action 攻擊}動作時，協力者可以發動三次攻擊。",
+				"如果協力者擁有多重攻擊動作，它只能在一個回合內使用額外攻擊和多重攻擊之一。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "TCE",
 			"page": 146,
@@ -1686,12 +1686,12 @@
 			"classSource": "TCE",
 			"level": 16,
 			"entries": [
-				"{@i 16级武者特性}",
-				"当协力者在此职业升至4级、8级、12级、14级、16级、19级时，协力者增加由你选择的一项自选属性值2点，或者可以增加二项自选属性值各1点。协力者不能通过这个能力将一个属性值提升至超过20。"
+				"{@i 16級武者特性}",
+				"當協力者在此職業升至4級、8級、12級、14級、16級、19級時，協力者增加由你選擇的一項自選屬性值2點，或者可以增加二項自選屬性值各1點。協力者不能透過這個能力將一個屬性值提升至超過20。"
 			]
 		},
 		{
-			"name": "不屈强化",
+			"name": "不屈強化",
 			"ENG_name": "Indomitable Improvement",
 			"source": "TCE",
 			"page": 146,
@@ -1699,12 +1699,12 @@
 			"classSource": "TCE",
 			"level": 18,
 			"entries": [
-				"{@i 18级武者特性}",
-				"协力者可以在两次长休之间使用两次不屈。"
+				"{@i 18級武者特性}",
+				"協力者可以在兩次長休之間使用兩次不屈。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "TCE",
 			"page": 146,
@@ -1712,12 +1712,12 @@
 			"classSource": "TCE",
 			"level": 19,
 			"entries": [
-				"{@i 19级武者特性}",
-				"当协力者在此职业升至4级、8级、12级、14级、16级、19级时，协力者增加由你选择的一项自选属性值2点，或者可以增加二项自选属性值各1点。协力者不能通过这个能力将一个属性值提升至超过20。"
+				"{@i 19級武者特性}",
+				"當協力者在此職業升至4級、8級、12級、14級、16級、19級時，協力者增加由你選擇的一項自選屬性值2點，或者可以增加二項自選屬性值各1點。協力者不能透過這個能力將一個屬性值提升至超過20。"
 			]
 		},
 		{
-			"name": "回气强化",
+			"name": "回氣強化",
 			"ENG_name": "Second Wind Improvement",
 			"source": "TCE",
 			"page": 146,
@@ -1725,8 +1725,8 @@
 			"classSource": "TCE",
 			"level": 20,
 			"entries": [
-				"{@i 20级武者特性}",
-				"协力者可以在两次休息之间使用两次回气。"
+				"{@i 20級武者特性}",
+				"協力者可以在兩次休息之間使用兩次回氣。"
 			]
 		},
 		{
@@ -1762,7 +1762,7 @@
 			"classSource": "UASidekicks",
 			"level": 1,
 			"entries": [
-				"The sidekick is adept at giving well-timed assistance; the sidekick can take the {@action 协助} action as a bonus action."
+				"The sidekick is adept at giving well-timed assistance; the sidekick can take the {@action 協助} action as a bonus action."
 			]
 		},
 		{
@@ -1786,7 +1786,7 @@
 			"classSource": "UASidekicks",
 			"level": 2,
 			"entries": [
-				"Starting at 2nd level, the sidekick's agility or quick thinking allows it to act speedily. On its turn in combat, it can take the {@action 疾走}, {@action 撤离}, or {@action 躲藏} action as a bonus action."
+				"Starting at 2nd level, the sidekick's agility or quick thinking allows it to act speedily. On its turn in combat, it can take the {@action 疾走}, {@action 撤離}, or {@action 躲藏} action as a bonus action."
 			]
 		},
 		{
@@ -1833,7 +1833,7 @@
 			"classSource": "UASidekicks",
 			"level": 5,
 			"entries": [
-				"Starting at 5th level, the sidekick can attack twice, instead of once, whenever it takes the {@action 攻击} action on its turn."
+				"Starting at 5th level, the sidekick can attack twice, instead of once, whenever it takes the {@action 攻擊} action on its turn."
 			]
 		},
 		{
@@ -1855,7 +1855,7 @@
 			"classSource": "UASidekicks",
 			"level": 7,
 			"entries": [
-				"Beginning at 7th level, because of extraordinary good luck, the sidekick is skilled at avoiding certain dangers. When the sidekick is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it failed. The sidekick doesn't benefit from this feature while {@condition 无力}."
+				"Beginning at 7th level, because of extraordinary good luck, the sidekick is skilled at avoiding certain dangers. When the sidekick is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it failed. The sidekick doesn't benefit from this feature while {@condition 無力}."
 			]
 		},
 		{
@@ -2096,7 +2096,7 @@
 			"level": 1,
 			"entries": [
 				"When the sidekick joins this class, the sidekick gains proficiency in one saving throw of your choice: Wisdom, Intelligence, or Charisma.",
-				"In addition, the sidekick gains proficiency in three skills of your choice from the following list: {@skill 奥秘}, {@skill 历史}, {@skill 洞悉}, {@skill 调查}, {@skill 医疗}, {@skill 表演}, {@skill 说服}, and {@skill 宗教}. If the sidekick is a humanoid, it also gains proficiency with simple weapons and light armor."
+				"In addition, the sidekick gains proficiency in three skills of your choice from the following list: {@skill 奧秘}, {@skill 歷史}, {@skill 洞悉}, {@skill 調查}, {@skill 醫療}, {@skill 表演}, {@skill 說服}, and {@skill 宗教}. If the sidekick is a humanoid, it also gains proficiency with simple weapons and light armor."
 			]
 		},
 		{
@@ -2169,7 +2169,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "戏法",
+					"name": "戲法",
 					"entries": [
 						"At first level, the sidekick knows three cantrips of your choice from its spell list. The sidekick learns additional cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Spellcaster table."
 					]
@@ -2179,7 +2179,7 @@
 					"name": "Spell Slots",
 					"entries": [
 						"The Spellcaster table shows how many spell slots the sidekick has to cast its spellcaster spells of 1st level and higher. To cast one of these spells, the sidekick must expend a slot of the spell's level or higher. The spellcaster regains all expended spell slots when it finishes a long rest.",
-						"For example, if the sidekick knows the 1st-level spell {@spell 治疗伤势} and has a 1st-level and a 2nd-level spell slot available, it can cast the spell using either slot."
+						"For example, if the sidekick knows the 1st-level spell {@spell 治療傷勢} and has a 1st-level and a 2nd-level spell slot available, it can cast the spell using either slot."
 					]
 				},
 				{
@@ -2199,14 +2199,14 @@
 						"The sidekick uses its spellcasting ability whenever a spell refers to that ability. In addition, it uses its spellcasting ability modifier when setting the saving throw DC for a spell it casts and when making an attack roll with one.",
 						{
 							"type": "abilityDc",
-							"name": "法术",
+							"name": "法術",
 							"attributes": [
 								"spellcasting"
 							]
 						},
 						{
 							"type": "abilityAttackMod",
-							"name": "法术",
+							"name": "法術",
 							"attributes": [
 								"spellcasting"
 							]
@@ -2412,7 +2412,7 @@
 			"level": 1,
 			"entries": [
 				"At 1st level, the sidekick gains proficiency in one saving throw of your choice: Strength, Dexterity, or Constitution.",
-				"In addition, the sidekick gains proficiency in three skills of your choice from the following list: {@skill 体操}, {@skill 驯兽}, {@skill 运动}, {@skill 威吓}, {@skill 自然}, {@skill 察觉}, and {@skill 生存}. If the sidekick is a humanoid, it also gains proficiency with all armor, shields, and simple and martial weapons."
+				"In addition, the sidekick gains proficiency in three skills of your choice from the following list: {@skill 體操}, {@skill 馴獸}, {@skill 運動}, {@skill 威嚇}, {@skill 自然}, {@skill 察覺}, and {@skill 生存}. If the sidekick is a humanoid, it also gains proficiency with all armor, shields, and simple and martial weapons."
 			]
 		},
 		{
@@ -2447,7 +2447,7 @@
 			"classSource": "UASidekicks",
 			"level": 2,
 			"entries": [
-				"Beginning at 2nd level, the sidekick has advantage on Dexterity saving throws against effects that it can see, such as traps and spells. This feature doesn't work if the sidekick is {@condition 无力}."
+				"Beginning at 2nd level, the sidekick has advantage on Dexterity saving throws against effects that it can see, such as traps and spells. This feature doesn't work if the sidekick is {@condition 無力}."
 			]
 		},
 		{
@@ -2494,7 +2494,7 @@
 			"classSource": "UASidekicks",
 			"level": 5,
 			"entries": [
-				"Beginning at 5th level, the sidekick can attack twice, instead of once, whenever it takes the {@action 攻击} action on its turn.",
+				"Beginning at 5th level, the sidekick can attack twice, instead of once, whenever it takes the {@action 攻擊} action on its turn.",
 				"The number of attacks increases to three when the sidekick reaches 11th level and to four when it reaches 20th level."
 			]
 		},

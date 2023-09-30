@@ -157,23 +157,23 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 光亮术}",
-								"{@spell 法师之手}",
-								"{@spell 电爪}"
+								"{@spell 光亮術}",
+								"{@spell 法師之手}",
+								"{@spell 電爪}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 魅惑人类}",
-								"{@spell 魔法飞弹}"
+								"{@spell 魅惑人類}",
+								"{@spell 魔法飛彈}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 人类定身术}",
-								"{@spell 迷踪步}"
+								"{@spell 人類定身術}",
+								"{@spell 迷蹤步}"
 							]
 						}
 					},
@@ -271,7 +271,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -303,7 +303,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the wraith has disadvantage on attack rolls and on Wisdom ({@skill 察觉}) checks that rely on sight."
+						"While in sunlight, the wraith has disadvantage on attack rolls and on Wisdom ({@skill 察覺}) checks that rely on sight."
 					]
 				}
 			],
@@ -355,7 +355,7 @@
 				11,
 				{
 					"ac": 14,
-					"condition": "with {@spell 法师护甲}",
+					"condition": "with {@spell 法師護甲}",
 					"braces": true
 				}
 			],
@@ -397,12 +397,12 @@
 						"Nezznar can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 舞光术}"
+						"{@spell 舞光術}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 黑暗术}",
-							"{@spell 妖火术} (save {@dc 12})"
+							"{@spell 黑暗術}",
+							"{@spell 妖火術} (save {@dc 12})"
 						]
 					}
 				},
@@ -414,24 +414,24 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 法师之手}",
-								"{@spell 冷冻射线}",
-								"{@spell 电爪}"
+								"{@spell 法師之手}",
+								"{@spell 冷凍射線}",
+								"{@spell 電爪}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 法师护甲}",
-								"{@spell 魔法飞弹}",
-								"{@spell 护盾术}"
+								"{@spell 法師護甲}",
+								"{@spell 魔法飛彈}",
+								"{@spell 護盾術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 隐形术}",
-								"{@spell 暗示术}"
+								"{@spell 隱形術}",
+								"{@spell 暗示術}"
 							]
 						}
 					},

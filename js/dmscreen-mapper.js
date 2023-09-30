@@ -32,7 +32,7 @@ class DmMapper {
 			isUncappedHeight: true,
 		});
 
-		$modalInner.append(`<div class="flex-vh-center w-100 h-100"><i class="dnd-font ve-muted">加载中...</i></div>`);
+		$modalInner.append(`<div class="flex-vh-center w-100 h-100"><i class="dnd-font ve-muted">載入中...</i></div>`);
 
 		const {page, source, hash} = SearchWidget.docToPageSourceHash(chosenDoc);
 		const adventurePack = await Renderer.hover.pCacheAndGet(page, source, hash);
@@ -112,7 +112,7 @@ class DmMapperRoot extends BaseComponent {
 	render ($parent) {
 		$parent.empty();
 
-		$parent.append(`<div class="flex-vh-center w-100 h-100"><i class="dnd-font ve-muted">加载中...</i></div>`)
+		$parent.append(`<div class="flex-vh-center w-100 h-100"><i class="dnd-font ve-muted">載入中...</i></div>`)
 
 		RenderMap.$pGetRendered(this._state)
 			.then($ele => $parent.empty().append($ele))

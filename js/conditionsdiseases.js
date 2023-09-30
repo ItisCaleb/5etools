@@ -115,17 +115,17 @@ class ConditionsDiseasesPage extends ListPage {
 
 		const tabMetas = [
 			new Renderer.utils.TabButton({
-				label: "特征",
+				label: "特徵",
 				fnPopulate: buildStatsTab,
 				isVisible: true,
 			}),
 			new Renderer.utils.TabButton({
-				label: "信息",
+				label: "資訊",
 				fnPopulate: buildFluffTab,
 				isVisible: Renderer.utils.hasFluffText(it, fluffProp),
 			}),
 			new Renderer.utils.TabButton({
-				label: "图片",
+				label: "圖片",
 				fnPopulate: buildFluffTab.bind(null, true),
 				isVisible: Renderer.utils.hasFluffImages(it, fluffProp),
 			}),

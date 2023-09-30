@@ -6,7 +6,7 @@
 	},
 	"monsterFluff": [
 		{
-			"name": "阿兰寇拉鹰人",
+			"name": "阿蘭寇拉鷹人",
 			"source": "MM",
 			"entries": [
 				{
@@ -138,7 +138,7 @@
 			"ENG_name": "Acolyte"
 		},
 		{
-			"name": "成年黑龙",
+			"name": "成年黑龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Black Dragon",
@@ -203,7 +203,7 @@
 										{
 											"name": "Condition Immunities",
 											"entries": [
-												" The dracolich can't be {@condition 魅惑}, {@condition 恐惧}, {@condition 麻痹}, or {@condition 中毒}. It also doesn't suffer from {@condition 力竭}."
+												" The dracolich can't be {@condition 魅惑}, {@condition 恐懼}, {@condition 麻痺}, or {@condition 中毒}. It also doesn't suffer from {@condition 力竭}."
 											],
 											"type": "entries"
 										},
@@ -232,7 +232,7 @@
 			]
 		},
 		{
-			"name": "成年蓝龙",
+			"name": "成年藍龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Blue Dragon",
@@ -241,7 +241,7 @@
 			"ENG_name": "Adult Blue Dragon"
 		},
 		{
-			"name": "成年黄铜龙",
+			"name": "成年黃銅龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Brass Dragon",
@@ -250,7 +250,7 @@
 			"ENG_name": "Adult Brass Dragon"
 		},
 		{
-			"name": "成年青铜龙",
+			"name": "成年輕銅龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Bronze Dragon",
@@ -259,7 +259,7 @@
 			"ENG_name": "Adult Bronze Dragon"
 		},
 		{
-			"name": "成年赤铜龙",
+			"name": "成年赤銅龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Copper Dragon",
@@ -268,7 +268,7 @@
 			"ENG_name": "Adult Copper Dragon"
 		},
 		{
-			"name": "成年金龙",
+			"name": "成年金龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Gold Dragon",
@@ -277,7 +277,7 @@
 			"ENG_name": "Adult Gold Dragon"
 		},
 		{
-			"name": "成年绿龙",
+			"name": "成年綠龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Green Dragon",
@@ -286,7 +286,7 @@
 			"ENG_name": "Adult Green Dragon"
 		},
 		{
-			"name": "成年红龙",
+			"name": "成年紅龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Red Dragon",
@@ -295,7 +295,7 @@
 			"ENG_name": "Adult Red Dragon"
 		},
 		{
-			"name": "成年银龙",
+			"name": "成年銀龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Silver Dragon",
@@ -304,7 +304,7 @@
 			"ENG_name": "Adult Silver Dragon"
 		},
 		{
-			"name": "成年白龙",
+			"name": "成年白龍",
 			"source": "MM",
 			"_copy": {
 				"name": "White Dragon",
@@ -313,7 +313,7 @@
 			"ENG_name": "Adult White Dragon"
 		},
 		{
-			"name": "气元素",
+			"name": "氣元素",
 			"source": "MM",
 			"_copy": {
 				"name": "Elementals",
@@ -349,7 +349,7 @@
 			"ENG_name": "Air Elemental"
 		},
 		{
-			"name": "异特龙",
+			"name": "異特龍",
 			"source": "MM",
 			"entries": [
 				{
@@ -384,7 +384,7 @@
 			"ENG_name": "Allosaurus"
 		},
 		{
-			"name": "远古黑龙",
+			"name": "遠古黑龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Black Dragon",
@@ -393,7 +393,7 @@
 			"ENG_name": "Ancient Black Dragon"
 		},
 		{
-			"name": "远古蓝龙",
+			"name": "遠古藍龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Blue Dragon",
@@ -402,7 +402,7 @@
 			"ENG_name": "Ancient Blue Dragon"
 		},
 		{
-			"name": "远古黄铜龙",
+			"name": "遠古黃銅龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Brass Dragon",
@@ -411,7 +411,7 @@
 			"ENG_name": "Ancient Brass Dragon"
 		},
 		{
-			"name": "远古青铜龙",
+			"name": "遠古青銅龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Bronze Dragon",
@@ -420,7 +420,7 @@
 			"ENG_name": "Ancient Bronze Dragon"
 		},
 		{
-			"name": "远古赤铜龙",
+			"name": "遠古赤銅龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Copper Dragon",
@@ -429,7 +429,7 @@
 			"ENG_name": "Ancient Copper Dragon"
 		},
 		{
-			"name": "远古金龙",
+			"name": "遠古金龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Gold Dragon",
@@ -438,7 +438,7 @@
 			"ENG_name": "Ancient Gold Dragon"
 		},
 		{
-			"name": "远古绿龙",
+			"name": "遠古綠龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Green Dragon",
@@ -447,7 +447,7 @@
 			"ENG_name": "Ancient Green Dragon"
 		},
 		{
-			"name": "远古红龙",
+			"name": "遠古紅龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Red Dragon",
@@ -456,7 +456,7 @@
 			"ENG_name": "Ancient Red Dragon"
 		},
 		{
-			"name": "远古银龙",
+			"name": "遠古銀龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Silver Dragon",
@@ -465,7 +465,7 @@
 			"ENG_name": "Ancient Silver Dragon"
 		},
 		{
-			"name": "远古白龙",
+			"name": "遠古白龍",
 			"source": "MM",
 			"_copy": {
 				"name": "White Dragon",
@@ -634,7 +634,7 @@
 			]
 		},
 		{
-			"name": "甲龙",
+			"name": "甲龍",
 			"source": "MM",
 			"entries": [
 				{
@@ -704,7 +704,7 @@
 			}
 		},
 		{
-			"name": "大法师",
+			"name": "大法師",
 			"source": "MM",
 			"entries": [
 				{
@@ -750,7 +750,7 @@
 			"ENG_name": "Assassin"
 		},
 		{
-			"name": "启蒙灌木",
+			"name": "啟蒙灌木",
 			"source": "MM",
 			"entries": [
 				{
@@ -759,7 +759,7 @@
 						{
 							"type": "entries",
 							"entries": [
-								"An awakened shrub is an ordinary shrub given sentience and mobility by the {@spell 启蒙术} spell or similar magic."
+								"An awakened shrub is an ordinary shrub given sentience and mobility by the {@spell 啟蒙術} spell or similar magic."
 							]
 						}
 					]
@@ -768,7 +768,7 @@
 			"ENG_name": "Awakened Shrub"
 		},
 		{
-			"name": "启蒙树木",
+			"name": "啟蒙樹木",
 			"source": "MM",
 			"entries": [
 				{
@@ -777,7 +777,7 @@
 						{
 							"type": "entries",
 							"entries": [
-								"An awakened tree is an ordinary tree given sentience and mobility by the {@spell 启蒙术} spell or similar magic."
+								"An awakened tree is an ordinary tree given sentience and mobility by the {@spell 啟蒙術} spell or similar magic."
 							]
 						}
 					]
@@ -786,7 +786,7 @@
 			"ENG_name": "Awakened Tree"
 		},
 		{
-			"name": "斧喙鸟",
+			"name": "斧喙鳥",
 			"source": "MM",
 			"entries": [
 				{
@@ -902,7 +902,7 @@
 			"ENG_name": "Balor"
 		},
 		{
-			"name": "强盗",
+			"name": "強盜",
 			"source": "MM",
 			"entries": [
 				{
@@ -921,7 +921,7 @@
 			"ENG_name": "Bandit"
 		},
 		{
-			"name": "强盗首领",
+			"name": "強盜首領",
 			"source": "MM",
 			"entries": [
 				{
@@ -1004,7 +1004,7 @@
 			]
 		},
 		{
-			"name": "猬魔",
+			"name": "蝟魔",
 			"source": "MM",
 			"_copy": {
 				"name": "Devils",
@@ -1118,7 +1118,7 @@
 			]
 		},
 		{
-			"name": "须魔",
+			"name": "須魔",
 			"source": "MM",
 			"_copy": {
 				"name": "Devils",
@@ -1271,7 +1271,7 @@
 			]
 		},
 		{
-			"name": "狂战士",
+			"name": "狂戰士",
 			"source": "MM",
 			"entries": [
 				{
@@ -1357,7 +1357,7 @@
 			}
 		},
 		{
-			"name": "黑龙幼龙",
+			"name": "黑龍幼龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Black Dragon",
@@ -1432,7 +1432,7 @@
 			"ENG_name": "Black Pudding"
 		},
 		{
-			"name": "闪现犬",
+			"name": "閃現犬",
 			"source": "MM",
 			"entries": [
 				{
@@ -1459,7 +1459,7 @@
 			"ENG_name": "Blink Dog"
 		},
 		{
-			"name": "血鹰",
+			"name": "血鷹",
 			"source": "MM",
 			"entries": [
 				{
@@ -1554,7 +1554,7 @@
 			}
 		},
 		{
-			"name": "蓝龙幼龙",
+			"name": "藍龍幼龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Blue Dragon",
@@ -1783,7 +1783,7 @@
 			}
 		},
 		{
-			"name": "黄铜龙幼龙",
+			"name": "黃銅龍幼龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Brass Dragon",
@@ -1855,7 +1855,7 @@
 			}
 		},
 		{
-			"name": "青铜龙幼龙",
+			"name": "青銅龍幼龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Bronze Dragon",
@@ -1921,7 +1921,7 @@
 			"ENG_name": "Bugbear"
 		},
 		{
-			"name": "熊地精酋长",
+			"name": "熊地精酋長",
 			"source": "MM",
 			"_copy": {
 				"name": "Bugbear",
@@ -2417,7 +2417,7 @@
 										{
 											"name": "Blind Obedience",
 											"entries": [
-												" When its creator or possessor is on hand to command it, a golem performs flawlessly. If the golem is left without instructions or is {@condition 无力}, it continues to follow its last orders to the best of its ability. When it can't fulfill its orders, a golem might react violently-or stand and do nothing. A golem that has been given conflicting orders sometimes alternates between them."
+												" When its creator or possessor is on hand to command it, a golem performs flawlessly. If the golem is left without instructions or is {@condition 無力}, it continues to follow its last orders to the best of its ability. When it can't fulfill its orders, a golem might react violently-or stand and do nothing. A golem that has been given conflicting orders sometimes alternates between them."
 											],
 											"type": "entries"
 										},
@@ -2503,7 +2503,7 @@
 			]
 		},
 		{
-			"name": "云巨人",
+			"name": "雲巨人",
 			"source": "MM",
 			"_copy": {
 				"name": "Giants",
@@ -2572,7 +2572,7 @@
 			"ENG_name": "Cloud Giant"
 		},
 		{
-			"name": "鸡蛇兽",
+			"name": "雞蛇獸",
 			"source": "MM",
 			"entries": [
 				{
@@ -2675,7 +2675,7 @@
 			}
 		},
 		{
-			"name": "赤铜龙幼龙",
+			"name": "赤銅龍幼龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Copper Dragon",
@@ -2844,7 +2844,7 @@
 			"ENG_name": "Cultist"
 		},
 		{
-			"name": "独眼巨人",
+			"name": "獨眼巨人",
 			"source": "MM",
 			"entries": [
 				{
@@ -4199,7 +4199,7 @@
 			]
 		},
 		{
-			"name": "龙龟",
+			"name": "龍龜",
 			"source": "MM",
 			"entries": [
 				{
@@ -4372,7 +4372,7 @@
 			}
 		},
 		{
-			"name": "卓尔",
+			"name": "卓爾",
 			"source": "MM",
 			"entries": [
 				{
@@ -4488,7 +4488,7 @@
 			"ENG_name": "Drow"
 		},
 		{
-			"name": "卓尔菁英战士",
+			"name": "卓爾菁英戰士",
 			"source": "MM",
 			"_copy": {
 				"name": "Drow",
@@ -4497,7 +4497,7 @@
 			"ENG_name": "Drow Elite Warrior"
 		},
 		{
-			"name": "卓尔魔法师",
+			"name": "卓爾魔法師",
 			"source": "MM",
 			"_copy": {
 				"name": "Drow",
@@ -4515,7 +4515,7 @@
 			"ENG_name": "Drow Mage"
 		},
 		{
-			"name": "卓尔·罗丝女祭司",
+			"name": "卓爾·羅絲女祭司",
 			"source": "MM",
 			"_copy": {
 				"name": "Drow",
@@ -4541,7 +4541,7 @@
 			"ENG_name": "Drow Priestess of Lolth"
 		},
 		{
-			"name": "德鲁伊",
+			"name": "德魯伊",
 			"source": "MM",
 			"entries": [
 				{
@@ -4640,7 +4640,7 @@
 									"name": "Born of Darkness",
 									"type": "entries",
 									"entries": [
-										"The Underdark is saturated with strange magical power, which the duergar absorbed over generations of imprisonment. A duergar can increase its size and strength for a short time, becoming a powerful ogre-sized warrior. If it faces a foe it can't fight, or when spying on creatures approaching its territory, it can just as easily become {@condition 隐形} to slip away into the darkness. Eons spent in the Underdark also sharpened their {@sense 黑暗视觉}, allowing them to see twice as far as other dwarves. This keen eyesight comes at a cost, however, as a duergar's vision is compromised by sunlight."
+										"The Underdark is saturated with strange magical power, which the duergar absorbed over generations of imprisonment. A duergar can increase its size and strength for a short time, becoming a powerful ogre-sized warrior. If it faces a foe it can't fight, or when spying on creatures approaching its territory, it can just as easily become {@condition 隱形} to slip away into the darkness. Eons spent in the Underdark also sharpened their {@sense 黑暗視覺}, allowing them to see twice as far as other dwarves. This keen eyesight comes at a cost, however, as a duergar's vision is compromised by sunlight."
 									]
 								},
 								{
@@ -4667,7 +4667,7 @@
 			"ENG_name": "Duergar"
 		},
 		{
-			"name": "二元冢",
+			"name": "二元塚",
 			"source": "MM",
 			"entries": [
 				{
@@ -5068,7 +5068,7 @@
 			]
 		},
 		{
-			"name": "双头巨人",
+			"name": "雙頭巨人",
 			"source": "MM",
 			"entries": [
 				{
@@ -5216,7 +5216,7 @@
 			]
 		},
 		{
-			"name": "妖精龙(蓝)",
+			"name": "妖精龍(藍)",
 			"source": "MM",
 			"_copy": {
 				"name": "Faerie Dragon",
@@ -5225,7 +5225,7 @@
 			"ENG_name": "Faerie Dragon (Blue)"
 		},
 		{
-			"name": "妖精龙(绿)",
+			"name": "妖精龍(綠)",
 			"source": "MM",
 			"_copy": {
 				"name": "Faerie Dragon",
@@ -5234,7 +5234,7 @@
 			"ENG_name": "Faerie Dragon (Green)"
 		},
 		{
-			"name": "妖精龙(靛)",
+			"name": "妖精龍(靛)",
 			"source": "MM",
 			"_copy": {
 				"name": "Faerie Dragon",
@@ -5243,7 +5243,7 @@
 			"ENG_name": "Faerie Dragon (Indigo)"
 		},
 		{
-			"name": "妖精龙(橙)",
+			"name": "妖精龍(橙)",
 			"source": "MM",
 			"_copy": {
 				"name": "Faerie Dragon",
@@ -5252,7 +5252,7 @@
 			"ENG_name": "Faerie Dragon (Orange)"
 		},
 		{
-			"name": "妖精龙(红)",
+			"name": "妖精龍(紅)",
 			"source": "MM",
 			"_copy": {
 				"name": "Faerie Dragon",
@@ -5261,7 +5261,7 @@
 			"ENG_name": "Faerie Dragon (Red)"
 		},
 		{
-			"name": "妖精龙(紫)",
+			"name": "妖精龍(紫)",
 			"source": "MM",
 			"_copy": {
 				"name": "Faerie Dragon",
@@ -5270,7 +5270,7 @@
 			"ENG_name": "Faerie Dragon (Violet)"
 		},
 		{
-			"name": "妖精龙(黄)",
+			"name": "妖精龍(黃)",
 			"source": "MM",
 			"_copy": {
 				"name": "Faerie Dragon",
@@ -5436,7 +5436,7 @@
 									"name": "Eldritch Rejuvenation",
 									"type": "entries",
 									"entries": [
-										"A flameskull's shattered fragments reform unless they are splashed with holy water or subjected to a dispel magic or {@spell 移除诅咒} spell. If it can no longer fulfill its intended purpose, the re-formed flameskull is beholden to no one and becomes autonomous."
+										"A flameskull's shattered fragments reform unless they are splashed with holy water or subjected to a dispel magic or {@spell 移除詛咒} spell. If it can no longer fulfill its intended purpose, the re-formed flameskull is beholden to no one and becomes autonomous."
 									]
 								},
 								{
@@ -5499,7 +5499,7 @@
 										{
 											"name": "Blind Obedience",
 											"entries": [
-												" When its creator or possessor is on hand to command it, a golem performs flawlessly. If the golem is left without instructions or is {@condition 无力}, it continues to follow its last orders to the best of its ability. When it can't fulfill its orders, a golem might react violently-or stand and do nothing. A golem that has been given conflicting orders sometimes alternates between them."
+												" When its creator or possessor is on hand to command it, a golem performs flawlessly. If the golem is left without instructions or is {@condition 無力}, it continues to follow its last orders to the best of its ability. When it can't fulfill its orders, a golem might react violently-or stand and do nothing. A golem that has been given conflicting orders sometimes alternates between them."
 											],
 											"type": "entries"
 										},
@@ -5529,7 +5529,7 @@
 			"ENG_name": "Flesh Golem"
 		},
 		{
-			"name": "呋噜",
+			"name": "呋嚕",
 			"source": "MM",
 			"entries": [
 				{
@@ -5605,7 +5605,7 @@
 			]
 		},
 		{
-			"name": "飞行刀剑",
+			"name": "飛行刀劍",
 			"source": "MM",
 			"entries": [
 				{
@@ -5646,7 +5646,7 @@
 			"ENG_name": "Flying Sword"
 		},
 		{
-			"name": "废陋巨人(弗摩尔巨人)",
+			"name": "廢陋巨人(弗摩爾巨人)",
 			"source": "MM",
 			"entries": [
 				{
@@ -5893,7 +5893,7 @@
 			]
 		},
 		{
-			"name": "毒气孢子",
+			"name": "毒氣孢子",
 			"source": "MM",
 			"entries": [
 				{
@@ -5950,7 +5950,7 @@
 			"ENG_name": "Gas Spore"
 		},
 		{
-			"name": "凝胶方块",
+			"name": "凝膠方塊",
 			"source": "MM",
 			"entries": [
 				{
@@ -6105,7 +6105,7 @@
 			]
 		},
 		{
-			"name": "食尸鬼",
+			"name": "食屍鬼",
 			"source": "MM",
 			"entries": [
 				{
@@ -6442,7 +6442,7 @@
 									"name": "Mouths of Madness",
 									"type": "entries",
 									"entries": [
-										"When a gibbering mouther senses prey, its mouths begin to murmur and chatter, each with a different voice: deep or shrill, wailing or ululating, crying out in agony or ecstasy. This cacophonous gibbering overcomes the senses of any creature that hears it, causing most to flee in terror. Others are overcome with madness or stand {@condition 麻痹}, fixated on the horrific creature as it oozes forward to consume them.",
+										"When a gibbering mouther senses prey, its mouths begin to murmur and chatter, each with a different voice: deep or shrill, wailing or ululating, crying out in agony or ecstasy. This cacophonous gibbering overcomes the senses of any creature that hears it, causing most to flee in terror. Others are overcome with madness or stand {@condition 麻痺}, fixated on the horrific creature as it oozes forward to consume them.",
 										{
 											"name": "All-Consuming",
 											"entries": [
@@ -6543,7 +6543,7 @@
 			]
 		},
 		{
-			"name": "吉斯洋基骑士",
+			"name": "吉斯洋基騎士",
 			"source": "MM",
 			"_copy": {
 				"name": "Githyanki",
@@ -6552,7 +6552,7 @@
 			"ENG_name": "Githyanki Knight"
 		},
 		{
-			"name": "吉斯洋基战士",
+			"name": "吉斯洋基戰士",
 			"source": "MM",
 			"_copy": {
 				"name": "Githyanki",
@@ -6632,7 +6632,7 @@
 			]
 		},
 		{
-			"name": "吉斯泽莱武僧",
+			"name": "吉斯澤萊武僧",
 			"source": "MM",
 			"_copy": {
 				"name": "Githzerai",
@@ -6641,7 +6641,7 @@
 			"ENG_name": "Githzerai Monk"
 		},
 		{
-			"name": "吉斯泽莱泽斯修士",
+			"name": "吉斯澤萊澤斯修士",
 			"source": "MM",
 			"_copy": {
 				"name": "Githzerai",
@@ -6650,7 +6650,7 @@
 			"ENG_name": "Githzerai Zerth"
 		},
 		{
-			"name": "迷诱魔",
+			"name": "迷誘魔",
 			"source": "MM",
 			"_copy": {
 				"name": "Demons",
@@ -6686,7 +6686,7 @@
 			"ENG_name": "Glabrezu"
 		},
 		{
-			"name": "角斗士",
+			"name": "角鬥士",
 			"source": "MM",
 			"entries": [
 				{
@@ -6753,7 +6753,7 @@
 			"ENG_name": "Gnoll"
 		},
 		{
-			"name": "豺狼人·耶诺古毒牙",
+			"name": "豺狼人·耶諾古毒牙",
 			"source": "MM",
 			"entries": [
 				{
@@ -6810,7 +6810,7 @@
 			"ENG_name": "Gnoll Fang of Yeenoghu"
 		},
 		{
-			"name": "豺狼人头领",
+			"name": "豺狼人頭領",
 			"source": "MM",
 			"entries": [
 				{
@@ -6928,7 +6928,7 @@
 			"ENG_name": "Goblin"
 		},
 		{
-			"name": "地精头目",
+			"name": "地精頭目",
 			"source": "MM",
 			"_copy": {
 				"name": "Goblin",
@@ -7001,7 +7001,7 @@
 			}
 		},
 		{
-			"name": "金龙幼龙",
+			"name": "金龍幼龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Gold Dragon",
@@ -7175,8 +7175,8 @@
 												"Variant: Slaad Control Gems",
 												"As a slaad emerges from the Spawning Stone, the stone magically implants a fragment of itself in the slaad's brain. This fragment takes the form of a magic gem roughly the size and shape of a human child's fist. The gem is the same color as the slaad. Another creature can use magic to draw forth a slaad's gem and use it to subjugate the slaad. The slaad must obey whoever possesses its gem. If a slaad's gem is destroyed, the slaad can no longer be controlled in this way.",
 												"A slaad born from something other than the Spawning Stone has no gem in its brain, but it gains one if it ever comes into contact with the Spawning Stone. Slaadi on Limbo are attracted to the Spawning Stone, so most end up with a gem. A slaad with a control gem in its brain has the following additional trait.",
-												"A {@spell 高等复原术} spell cast on the slaad destroys the gem without harming the slaad.",
-												"Someone who is proficient in Wisdom ({@skill 医疗}) can remove the gem from an {@condition 无力} slaad. Each try requires 1 minute of uninterrupted work and a successful DC 20 Wisdom ({@skill 医疗}) check. Each failed attempt deals 22 ({@damage 4d10}) psychic damage to the slaad."
+												"A {@spell 高等復原術} spell cast on the slaad destroys the gem without harming the slaad.",
+												"Someone who is proficient in Wisdom ({@skill 醫療}) can remove the gem from an {@condition 無力} slaad. Each try requires 1 minute of uninterrupted work and a successful DC 20 Wisdom ({@skill 醫療}) check. Each failed attempt deals 22 ({@damage 4d10}) psychic damage to the slaad."
 											],
 											"type": "entries"
 										},
@@ -7197,7 +7197,7 @@
 										{
 											"name": "Control Gem",
 											"entries": [
-												" Implanted in the slaad's brain is a magic control gem. The slaad must obey whoever possesses the gem and is immune to being {@condition 魅惑} while so controlled. Certain spells can be used to acquire the gem. If the slaad fails its saving throw against imprisonment, the spell can transfer the gem to the spellcaster's open hand, instead of imprisoning the slaad. A {@spell 祈愿术} spell, if cast in the slaad's presence, can be worded to acquire the gem."
+												" Implanted in the slaad's brain is a magic control gem. The slaad must obey whoever possesses the gem and is immune to being {@condition 魅惑} while so controlled. Certain spells can be used to acquire the gem. If the slaad fails its saving throw against imprisonment, the spell can transfer the gem to the spellcaster's open hand, instead of imprisoning the slaad. A {@spell 祈願術} spell, if cast in the slaad's presence, can be worded to acquire the gem."
 											],
 											"type": "entries"
 										}
@@ -7297,7 +7297,7 @@
 			}
 		},
 		{
-			"name": "绿龙幼龙",
+			"name": "綠龍幼龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Green Dragon",
@@ -7378,8 +7378,8 @@
 												"Variant: Slaad Control Gems",
 												"As a slaad emerges from the Spawning Stone, the stone magically implants a fragment of itself in the slaad's brain. This fragment takes the form of a magic gem roughly the size and shape of a human child's fist. The gem is the same color as the slaad. Another creature can use magic to draw forth a slaad's gem and use it to subjugate the slaad. The slaad must obey whoever possesses its gem. If a slaad's gem is destroyed, the slaad can no longer be controlled in this way.",
 												"A slaad born from something other than the Spawning Stone has no gem in its brain, but it gains one if it ever comes into contact with the Spawning Stone. Slaadi on Limbo are attracted to the Spawning Stone, so most end up with a gem. A slaad with a control gem in its brain has the following additional trait.",
-												"A {@spell 高等复原术} spell cast on the slaad destroys the gem without harming the slaad.",
-												"Someone who is proficient in Wisdom ({@skill 医疗}) can remove the gem from an {@condition 无力} slaad. Each try requires 1 minute of uninterrupted work and a successful DC 20 Wisdom ({@skill 医疗}) check. Each failed attempt deals 22 ({@damage 4d10}) psychic damage to the slaad."
+												"A {@spell 高等復原術} spell cast on the slaad destroys the gem without harming the slaad.",
+												"Someone who is proficient in Wisdom ({@skill 醫療}) can remove the gem from an {@condition 無力} slaad. Each try requires 1 minute of uninterrupted work and a successful DC 20 Wisdom ({@skill 醫療}) check. Each failed attempt deals 22 ({@damage 4d10}) psychic damage to the slaad."
 											],
 											"type": "entries"
 										},
@@ -7400,7 +7400,7 @@
 										{
 											"name": "Control Gem",
 											"entries": [
-												" Implanted in the slaad's brain is a magic control gem. The slaad must obey whoever possesses the gem and is immune to being {@condition 魅惑} while so controlled. Certain spells can be used to acquire the gem. If the slaad fails its saving throw against imprisonment, the spell can transfer the gem to the spellcaster's open hand, instead of imprisoning the slaad. A {@spell 祈愿术} spell, if cast in the slaad's presence, can be worded to acquire the gem."
+												" Implanted in the slaad's brain is a magic control gem. The slaad must obey whoever possesses the gem and is immune to being {@condition 魅惑} while so controlled. Certain spells can be used to acquire the gem. If the slaad fails its saving throw against imprisonment, the spell can transfer the gem to the spellcaster's open hand, instead of imprisoning the slaad. A {@spell 祈願術} spell, if cast in the slaad's presence, can be worded to acquire the gem."
 											],
 											"type": "entries"
 										}
@@ -7438,7 +7438,7 @@
 									"name": "Floating Ambushers",
 									"type": "entries",
 									"entries": [
-										"A grell prefers to ambush lone creatures or stragglers, hovering silently near the ceiling of a passage or cavern until a suitable target passes below, whereupon it descends quickly and wraps its tentacles around its prey. It then floats away to its lair with the {@condition 麻痹} creature in its clutches."
+										"A grell prefers to ambush lone creatures or stragglers, hovering silently near the ceiling of a passage or cavern until a suitable target passes below, whereupon it descends quickly and wraps its tentacles around its prey. It then floats away to its lair with the {@condition 麻痺} creature in its clutches."
 									]
 								},
 								{
@@ -7522,7 +7522,7 @@
 			"ENG_name": "Grick Alpha"
 		},
 		{
-			"name": "狮鹫",
+			"name": "獅鷲",
 			"source": "MM",
 			"entries": [
 				{
@@ -7573,7 +7573,7 @@
 			"ENG_name": "Griffon"
 		},
 		{
-			"name": "石盲蛮族",
+			"name": "石盲蠻族",
 			"source": "MM",
 			"entries": [
 				{
@@ -7624,7 +7624,7 @@
 			"ENG_name": "Grimlock"
 		},
 		{
-			"name": "卫兵",
+			"name": "衛兵",
 			"source": "MM",
 			"entries": [
 				{
@@ -7835,12 +7835,12 @@
 											"type": "list",
 											"style": "list-no-bullets",
 											"items": [
-												"1st level (4 slots): {@spell 鉴定术}, {@spell 致病射线}",
-												"2nd level (3 slots): {@spell 人类定身术}, {@spell 物品定位术}",
-												"3rd level (3 slots): {@spell 降咒}, {@spell 反制法术}, {@spell 闪电束}",
-												"4th level (3 slots): {@spell 魅影杀手}, {@spell 变形术}",
-												"5th level (2 slots): {@spell 异界探知}, {@spell 探知}",
-												"6th level (1 slot): {@spell 摄心目光}"
+												"1st level (4 slots): {@spell 鑑定術}, {@spell 致病射線}",
+												"2nd level (3 slots): {@spell 人類定身術}, {@spell 物品定位術}",
+												"3rd level (3 slots): {@spell 降咒}, {@spell 反製法術}, {@spell 閃電束}",
+												"4th level (3 slots): {@spell 魅影殺手}, {@spell 變形術}",
+												"5th level (2 slots): {@spell 異界探知}, {@spell 探知}",
+												"6th level (1 slot): {@spell 攝心目光}"
 											]
 										},
 										"For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12 + the hag's Intelligence modifier, and the spell attack bonus is 4 + the hag's Intelligence modifier."
@@ -7850,7 +7850,7 @@
 									"type": "entries",
 									"name": "Hag Eye",
 									"entries": [
-										"A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and {@sense 黑暗视觉} with a radius of 60 feet. If it is destroyed, each coven member takes {@damage 3d10} psychic damage and is {@condition 目盲} for 24 hours.",
+										"A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and {@sense 黑暗視覺} with a radius of 60 feet. If it is destroyed, each coven member takes {@damage 3d10} psychic damage and is {@condition 目盲} for 24 hours.",
 										"A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while {@condition 目盲}. During the ritual, if the hags take any action other than performing the ritual, they must start over."
 									]
 								}
@@ -7939,7 +7939,7 @@
 			]
 		},
 		{
-			"name": "半红龙老兵",
+			"name": "半紅龍老兵",
 			"source": "MM",
 			"entries": [
 				"When a dragon in polymorphed form mates with another creature, the union sometimes produces half dragon offspring. A creature might also transform into a half-dragon as a result of a mad wizard's spell or a ritual bath in dragon's blood. In all these cases, the result is a creature that combines the essence of a dragon with the form of its original race. Regardless of their origins, all half-dragons have similar features and appearance, gaining special senses, resistance to destructive energy, and a breath weapon.",
@@ -7980,7 +7980,7 @@
 									"type": "entries",
 									"name": "Senses",
 									"entries": [
-										"The half-dragon gains {@sense 盲视} with a radius of 10 feet and {@sense 黑暗视觉} with a radius of 60 feet."
+										"The half-dragon gains {@sense 盲視} with a radius of 10 feet and {@sense 黑暗視覺} with a radius of 60 feet."
 									]
 								},
 								{
@@ -8203,7 +8203,7 @@
 			]
 		},
 		{
-			"name": "恐怖铠甲",
+			"name": "恐怖鎧甲",
 			"source": "MM",
 			"entries": [
 				{
@@ -8251,7 +8251,7 @@
 			"ENG_name": "Helmed Horror"
 		},
 		{
-			"name": "狂战魔",
+			"name": "狂戰魔",
 			"source": "MM",
 			"_copy": {
 				"name": "Demons",
@@ -8479,7 +8479,7 @@
 			"ENG_name": "Hobgoblin"
 		},
 		{
-			"name": "大地精队长",
+			"name": "大地精隊長",
 			"source": "MM",
 			"_copy": {
 				"name": "Hobgoblin",
@@ -8488,7 +8488,7 @@
 			"ENG_name": "Hobgoblin Captain"
 		},
 		{
-			"name": "大地精督军",
+			"name": "大地精督軍",
 			"source": "MM",
 			"_copy": {
 				"name": "Hobgoblin",
@@ -8497,7 +8497,7 @@
 			"ENG_name": "Hobgoblin Warlord"
 		},
 		{
-			"name": "荷蒙库鲁斯",
+			"name": "荷蒙庫魯斯",
 			"source": "MM",
 			"entries": [
 				{
@@ -8793,7 +8793,7 @@
 									"type": "entries",
 									"entries": [
 										"Imps are found throughout the Lower Planes, either running errands for their infernal masters, spying on rivals, or misleading and waylaying mortals. An imp will proudly serve an evil master of any kind, but it can't be relied on to carry out tasks with any speed or efficiency.",
-										"An imp can assume animal form at will, but in its natural state it resembles a diminutive red-skinned humanoid with a barbed tail, small horns, and leathery wings. It strikes while {@condition 隐形}, attacking with its poison stinger.",
+										"An imp can assume animal form at will, but in its natural state it resembles a diminutive red-skinned humanoid with a barbed tail, small horns, and leathery wings. It strikes while {@condition 隱形}, attacking with its poison stinger.",
 										"Variant: Imp Familiar",
 										"Imps can be found in the service to mortal spellcasters, acting as advisors, spies, and familiars. An imp urges its master to acts of evil, knowing the mortal's soul is a prize the imp might ultimately claim. Imps display an unusual loyalty to their masters, and an imp can be quite dangerous if its master is threatened. Some such imps have the following trait.",
 										{
@@ -8928,7 +8928,7 @@
 			]
 		},
 		{
-			"name": "钢铁魔像",
+			"name": "鋼鐵魔像",
 			"source": "MM",
 			"entries": [
 				{
@@ -8965,7 +8965,7 @@
 										{
 											"name": "Blind Obedience",
 											"entries": [
-												" When its creator or possessor is on hand to command it, a golem performs flawlessly. If the golem is left without instructions or is {@condition 无力}, it continues to follow its last orders to the best of its ability. When it can't fulfill its orders, a golem might react violently-or stand and do nothing. A golem that has been given conflicting orders sometimes alternates between them."
+												" When its creator or possessor is on hand to command it, a golem performs flawlessly. If the golem is left without instructions or is {@condition 無力}, it continues to follow its last orders to the best of its ability. When it can't fulfill its orders, a golem might react violently-or stand and do nothing. A golem that has been given conflicting orders sometimes alternates between them."
 											],
 											"type": "entries"
 										},
@@ -9089,7 +9089,7 @@
 			"ENG_name": "Kenku"
 		},
 		{
-			"name": "骑士",
+			"name": "騎士",
 			"source": "MM",
 			"entries": [
 				{
@@ -9107,7 +9107,7 @@
 			"ENG_name": "Knight"
 		},
 		{
-			"name": "狗头人",
+			"name": "狗頭人",
 			"source": "MM",
 			"entries": [
 				{
@@ -9203,7 +9203,7 @@
 			]
 		},
 		{
-			"name": "寇涛鱼人",
+			"name": "寇濤魚人",
 			"source": "MM",
 			"entries": [
 				{
@@ -9285,7 +9285,7 @@
 			"ENG_name": "Kuo-toa"
 		},
 		{
-			"name": "寇涛鱼人大祭司",
+			"name": "寇濤魚人大祭司",
 			"source": "MM",
 			"_copy": {
 				"name": "Kuo-toa",
@@ -9303,7 +9303,7 @@
 			"ENG_name": "Kuo-toa Archpriest"
 		},
 		{
-			"name": "寇涛鱼人监督者",
+			"name": "寇濤魚人監督者",
 			"source": "MM",
 			"_copy": {
 				"name": "Kuo-toa",
@@ -9312,7 +9312,7 @@
 			"ENG_name": "Kuo-toa Monitor"
 		},
 		{
-			"name": "寇涛鱼人鞭策者",
+			"name": "寇濤魚人鞭策者",
 			"source": "MM",
 			"_copy": {
 				"name": "Kuo-toa",
@@ -9346,7 +9346,7 @@
 									"type": "entries",
 									"entries": [
 										"Lamias adorn their crumbling havens with finery stolen from passing caravans, then use magic to further accentuate their lairs, masking decay with illusion. A lair's breathtaking gardens, finely decorated apartments, and numerous slaves seem at odds with its remoteness and state of ruin.",
-										"Using its intoxicating touch, a lamia weakens the minds of its enemies, making them more susceptible to its enchantment spells and turning them into its slaves. Those it beguiles with {@spell 指使术} spells are pitted against each other in elaborate contests for the lamia's amusement."
+										"Using its intoxicating touch, a lamia weakens the minds of its enemies, making them more susceptible to its enchantment spells and turning them into its slaves. Those it beguiles with {@spell 指使術} spells are pitted against each other in elaborate contests for the lamia's amusement."
 									]
 								},
 								{
@@ -9441,7 +9441,7 @@
 									"name": "Soul Sacrifices",
 									"type": "entries",
 									"entries": [
-										"A lich must periodically feed souls to its phylactery to sustain the magic preserving its body and consciousness. It does this using the {@spell 禁锢术} spell. Instead of choosing one of the normal options of the spell, the lich uses the spell to magically trap the target's body and soul inside its phylactery. The phylactery must be on the same plane as the lich for the spell to work. A lich's phylactery can hold only one creature at a time, and a dispel magic cast as a 9th-level spell upon the phylactery releases any creature imprisoned within it. A creature imprisoned in the phylactery for 24 hours is consumed and destroyed utterly, whereupon nothing short of divine intervention can restore it to life.",
+										"A lich must periodically feed souls to its phylactery to sustain the magic preserving its body and consciousness. It does this using the {@spell 禁錮術} spell. Instead of choosing one of the normal options of the spell, the lich uses the spell to magically trap the target's body and soul inside its phylactery. The phylactery must be on the same plane as the lich for the spell to work. A lich's phylactery can hold only one creature at a time, and a dispel magic cast as a 9th-level spell upon the phylactery releases any creature imprisoned within it. A creature imprisoned in the phylactery for 24 hours is consumed and destroyed utterly, whereupon nothing short of divine intervention can restore it to life.",
 										"A lich that fails or forgets to maintain its body with sacrificed souls begins to physically fall apart, and might eventually become a demilich."
 									]
 								},
@@ -9584,7 +9584,7 @@
 			"ENG_name": "Lizardfolk"
 		},
 		{
-			"name": "蜥蜴人萨满",
+			"name": "蜥蜴人薩滿",
 			"source": "MM",
 			"_copy": {
 				"name": "Lizardfolk",
@@ -9609,7 +9609,7 @@
 									"type": "entries",
 									"name": "Curse of Lycanthropy",
 									"entries": [
-										"A humanoid creature can be afflicted with the curse of lycanthropy after being wounded by a lycanthrope, or if one or both of its parents are lycanthropes. A {@spell 移除诅咒} spell can rid an afflicted lycanthrope of the curse, but a natural born lycanthrope can be freed of the curse only with a wish.",
+										"A humanoid creature can be afflicted with the curse of lycanthropy after being wounded by a lycanthrope, or if one or both of its parents are lycanthropes. A {@spell 移除詛咒} spell can rid an afflicted lycanthrope of the curse, but a natural born lycanthrope can be freed of the curse only with a wish.",
 										"A lycanthrope can either resist its curse or embrace it. By resisting the curse, a lycanthrope retains its normal alignment and personality while in humanoid form. It lives its life as it always has, burying deep the bestial urges raging inside it. However, when the full moon rises, the curse becomes too strong to resist, transforming the individual into its beast form-or into a horrible hybrid form that combines animal and humanoid traits. When the moon wanes, the beast within can be controlled once again. Especially if the cursed creature is unaware of its condition, it might not remember the events of its transformation, though those memories often haunt a lycanthrope as bloody dreams.",
 										"Some individuals see little point in fighting the curse and accept what they are. With time and experience, they learn to master their shapechanging ability and can assume beast form or hybrid form at will. Most lycanthropes that embrace their bestial natures succumb to bloodlust, becoming evil, opportunistic creatures that prey on the weak."
 									]
@@ -9670,7 +9670,7 @@
 			]
 		},
 		{
-			"name": "魔法师",
+			"name": "魔法師",
 			"source": "MM",
 			"entries": [
 				{
@@ -10091,7 +10091,7 @@
 			]
 		},
 		{
-			"name": "人鱼",
+			"name": "人魚",
 			"source": "MM",
 			"entries": [
 				{
@@ -10128,7 +10128,7 @@
 			"ENG_name": "Merfolk"
 		},
 		{
-			"name": "迈罗人鱼",
+			"name": "邁羅人魚",
 			"source": "MM",
 			"entries": [
 				{
@@ -10380,7 +10380,7 @@
 			}
 		},
 		{
-			"name": "米诺陶",
+			"name": "米諾陶",
 			"source": "MM",
 			"entries": [
 				{
@@ -10426,7 +10426,7 @@
 			"ENG_name": "Minotaur"
 		},
 		{
-			"name": "骷髅米诺陶",
+			"name": "骷髏米諾陶",
 			"source": "MM",
 			"_copy": {
 				"name": "Skeleton",
@@ -10444,7 +10444,7 @@
 			"ENG_name": "Minotaur Skeleton"
 		},
 		{
-			"name": "单元冢",
+			"name": "單元塚",
 			"source": "MM",
 			"entries": [
 				{
@@ -10753,7 +10753,7 @@
 			]
 		},
 		{
-			"name": "蕈人成体",
+			"name": "蕈人成體",
 			"source": "MM",
 			"_copy": {
 				"name": "Myconid",
@@ -10771,7 +10771,7 @@
 			"ENG_name": "Myconid Sovereign"
 		},
 		{
-			"name": "蕈人幼体",
+			"name": "蕈人幼體",
 			"source": "MM",
 			"_copy": {
 				"name": "Myconid",
@@ -10816,7 +10816,7 @@
 			"ENG_name": "Nalfeshnee"
 		},
 		{
-			"name": "枯针怪",
+			"name": "枯針怪",
 			"source": "MM",
 			"entries": [
 				{
@@ -10893,7 +10893,7 @@
 											"type": "entries",
 											"name": "Soulmongers",
 											"entries": [
-												"While a humanoid sleeps, a night hag can straddle the person ethereally and intrude upon its dreams. Any creature with {@sense 真实视觉} can see the hag's spectral form straddling its prey. The ethereal hag fills her victim's head with doubts and fears, in the hope of tricking it into performing evil acts in the waking world. The hag continues her nightly visitations until the victim finally expires in its sleep. If the hag has driven her victim to commit evil deeds, she traps its corrupted soul in her soul bag (see the \"Night Hag Items\" sidebar) for transport to Hades."
+												"While a humanoid sleeps, a night hag can straddle the person ethereally and intrude upon its dreams. Any creature with {@sense 真實視覺} can see the hag's spectral form straddling its prey. The ethereal hag fills her victim's head with doubts and fears, in the hope of tricking it into performing evil acts in the waking world. The hag continues her nightly visitations until the victim finally expires in its sleep. If the hag has driven her victim to commit evil deeds, she traps its corrupted soul in her soul bag (see the \"Night Hag Items\" sidebar) for transport to Hades."
 											]
 										},
 										{
@@ -10983,7 +10983,7 @@
 			]
 		},
 		{
-			"name": "贵族",
+			"name": "貴族",
 			"source": "MM",
 			"entries": [
 				{
@@ -11072,7 +11072,7 @@
 								{
 									"type": "entries",
 									"entries": [
-										"The elite airborne shock troops of the yugoloths, nycaloths look like muscular gargoyles. Powerful bat wings bear them swiftly aloft in battle, and the razorsharp claws of their hands and feet cut through flesh and bone with ease. A nightmarish foe, a nycaloth strikes hard and fast without warning, then teleports away. It uses its innate magic to turn {@condition 隐形} or create illusory doubles of itself, further confounding its enemies.",
+										"The elite airborne shock troops of the yugoloths, nycaloths look like muscular gargoyles. Powerful bat wings bear them swiftly aloft in battle, and the razorsharp claws of their hands and feet cut through flesh and bone with ease. A nightmarish foe, a nycaloth strikes hard and fast without warning, then teleports away. It uses its innate magic to turn {@condition 隱形} or create illusory doubles of itself, further confounding its enemies.",
 										"Nycaloths are the most loyal of the yugoloths. When they find an evil master that treats them well, they are unlikely to break their agreement unless the reward for doing so is extreme."
 									]
 								}
@@ -11093,7 +11093,7 @@
 			}
 		},
 		{
-			"name": "赭冻怪",
+			"name": "赭凍怪",
 			"source": "MM",
 			"entries": [
 				{
@@ -11246,7 +11246,7 @@
 			]
 		},
 		{
-			"name": "恶鬼",
+			"name": "惡鬼",
 			"source": "MM",
 			"entries": [
 				{
@@ -11287,7 +11287,7 @@
 			"ENG_name": "Oni"
 		},
 		{
-			"name": "兽人",
+			"name": "獸人",
 			"source": "MM",
 			"entries": [
 				{
@@ -11353,7 +11353,7 @@
 			"ENG_name": "Orc"
 		},
 		{
-			"name": "兽人·格乌什之眼",
+			"name": "獸人·格烏什之眼",
 			"source": "MM",
 			"entries": [
 				{
@@ -11427,7 +11427,7 @@
 			"ENG_name": "Orc Eye of Gruumsh"
 		},
 		{
-			"name": "兽人战酋",
+			"name": "獸人戰酋",
 			"source": "MM",
 			"entries": [
 				{
@@ -11505,7 +11505,7 @@
 			"ENG_name": "Orc War Chief"
 		},
 		{
-			"name": "魔兽人",
+			"name": "魔獸人",
 			"source": "MM",
 			"entries": [
 				{
@@ -11644,7 +11644,7 @@
 			]
 		},
 		{
-			"name": "枭熊",
+			"name": "梟熊",
 			"source": "MM",
 			"entries": [
 				{
@@ -11702,7 +11702,7 @@
 			"ENG_name": "Owlbear"
 		},
 		{
-			"name": "飞马",
+			"name": "飛馬",
 			"source": "MM",
 			"entries": [
 				{
@@ -11750,7 +11750,7 @@
 			"ENG_name": "Pegasus"
 		},
 		{
-			"name": "五元冢",
+			"name": "五元塚",
 			"source": "MM",
 			"entries": [
 				{
@@ -11885,7 +11885,7 @@
 			]
 		},
 		{
-			"name": "穿刺虫",
+			"name": "穿刺蟲",
 			"source": "MM",
 			"entries": [
 				{
@@ -12141,7 +12141,7 @@
 			"ENG_name": "Priest"
 		},
 		{
-			"name": "伪龙",
+			"name": "偽龍",
 			"source": "MM",
 			"entries": [
 				{
@@ -12276,7 +12276,7 @@
 			]
 		},
 		{
-			"name": "四元冢",
+			"name": "四元塚",
 			"source": "MM",
 			"entries": [
 				{
@@ -12341,7 +12341,7 @@
 			"ENG_name": "Quadrone"
 		},
 		{
-			"name": "泽地熊人",
+			"name": "澤地熊人",
 			"source": "MM",
 			"entries": [
 				{
@@ -12398,7 +12398,7 @@
 			"ENG_name": "Quaggoth"
 		},
 		{
-			"name": "泽地熊人孢子仆役",
+			"name": "澤地熊人孢子僕役",
 			"source": "MM",
 			"entries": [
 				{
@@ -12454,14 +12454,14 @@
 									"type": "entries",
 									"name": "Senses",
 									"entries": [
-										"The servant has {@sense 盲视} with a radius of 30 feet, and it is blind beyond this radius."
+										"The servant has {@sense 盲視} with a radius of 30 feet, and it is blind beyond this radius."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Condition Immunities",
 									"entries": [
-										"The servant can't be {@condition 目盲}, {@condition 魅惑}, {@condition 恐惧}, or {@condition 麻痹}."
+										"The servant can't be {@condition 目盲}, {@condition 魅惑}, {@condition 恐懼}, or {@condition 麻痺}."
 									]
 								},
 								{
@@ -12486,7 +12486,7 @@
 			"ENG_name": "Quaggoth Spore Servant"
 		},
 		{
-			"name": "泽地熊人·索诺祭司",
+			"name": "澤地熊人·索諾祭司",
 			"source": "MM",
 			"_copy": {
 				"name": "Quaggoth",
@@ -12687,7 +12687,7 @@
 			}
 		},
 		{
-			"name": "红龙幼龙",
+			"name": "紅龍幼龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Red Dragon",
@@ -12953,7 +12953,7 @@
 			]
 		},
 		{
-			"name": "闷窒魔毯",
+			"name": "悶窒魔毯",
 			"source": "MM",
 			"entries": [
 				{
@@ -13039,7 +13039,7 @@
 			]
 		},
 		{
-			"name": "沙华鱼人",
+			"name": "沙華魚人",
 			"source": "MM",
 			"entries": [
 				{
@@ -13091,7 +13091,7 @@
 			"ENG_name": "Sahuagin"
 		},
 		{
-			"name": "沙华鱼人男爵",
+			"name": "沙華魚人男爵",
 			"source": "MM",
 			"_copy": {
 				"name": "Sahuagin",
@@ -13109,7 +13109,7 @@
 			"ENG_name": "Sahuagin Baron"
 		},
 		{
-			"name": "沙华鱼人女祭司",
+			"name": "沙華魚人女祭司",
 			"source": "MM",
 			"_copy": {
 				"name": "Sahuagin",
@@ -13322,7 +13322,7 @@
 			}
 		},
 		{
-			"name": "阴影",
+			"name": "陰影",
 			"source": "MM",
 			"entries": [
 				{
@@ -13462,7 +13462,7 @@
 									"type": "entries",
 									"name": "Skill Proficiency: Stealth",
 									"entries": [
-										"The dragon's proficiency bonus is doubled for its Dexterity ({@skill 隐匿}) checks."
+										"The dragon's proficiency bonus is doubled for its Dexterity ({@skill 隱匿}) checks."
 									]
 								},
 								{
@@ -13483,7 +13483,7 @@
 									"type": "entries",
 									"name": "Sunlight Sensitivity",
 									"entries": [
-										"While in sunlight, the dragon has disadvantage on attack rolls, as well as on Wisdom ({@skill 察觉}) checks that rely on sight."
+										"While in sunlight, the dragon has disadvantage on attack rolls, as well as on Wisdom ({@skill 察覺}) checks that rely on sight."
 									]
 								},
 								{
@@ -13579,7 +13579,7 @@
 			]
 		},
 		{
-			"name": "构装盾卫",
+			"name": "構裝盾衛",
 			"source": "MM",
 			"entries": [
 				{
@@ -13593,7 +13593,7 @@
 									"name": "Master's Amulet",
 									"type": "entries",
 									"entries": [
-										"Every shield guardian has an amulet magically linked to it. A shield guardian can have only one corresponding amulet, and if that amulet is destroyed, the shield guardian is {@condition 无力} until a replacement amulet is created. A shield guardian's amulet is subject to direct attack if it isn't being worn or carried. It has AC 10, 10 hit points, and immunity to poison and psychic damage. Crafting an amulet requires 1 week and costs 1,000 gp in components.",
+										"Every shield guardian has an amulet magically linked to it. A shield guardian can have only one corresponding amulet, and if that amulet is destroyed, the shield guardian is {@condition 無力} until a replacement amulet is created. A shield guardian's amulet is subject to direct attack if it isn't being worn or carried. It has AC 10, 10 hit points, and immunity to poison and psychic damage. Crafting an amulet requires 1 week and costs 1,000 gp in components.",
 										"A shield guardian's solitary focus is to protect the amulet's wearer. The amulet's wearer can command the guardian to attack its enemies or to guard the wielder against attack. If an attack threatens to injure the wearer, the construct can magically absorb the blow into its own body, even at a distance.",
 										"A spellcaster can store a single spell within a shield guardian, which can then cast the spell on command or under specific conditions. Many a wizard has been rendered helpless by enemies, only to surprise those foes when its shield guardian unleashes potent magical power."
 									]
@@ -13736,7 +13736,7 @@
 			}
 		},
 		{
-			"name": "银龙幼龙",
+			"name": "銀龍幼龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Silver Dragon",
@@ -13745,7 +13745,7 @@
 			"ENG_name": "Silver Dragon Wyrmling"
 		},
 		{
-			"name": "骷髅",
+			"name": "骷髏",
 			"source": "MM",
 			"entries": [
 				{
@@ -13840,9 +13840,9 @@
 									"name": "Control Gem",
 									"type": "entries",
 									"entries": [
-										"Implanted in the slaad's brain is a magic control gem. The slaad must obey whoever possesses the gem and is immune to being {@condition 魅惑} while so controlled. Certain spells can be used to acquire the gem. If the slaad fails its saving throw against imprisonment, the spell can transfer the gem to the spellcaster's open hand, instead of imprisoning the slaad. A {@spell 祈愿术} spell, if cast in the slaad's presence, can be worded to acquire the gem.",
-										"A {@spell 高等复原术} spell cast on the slaad destroys the gem without harming the slaad.",
-										"Someone who is proficient in Wisdom ({@skill 医疗}) can remove the gem from an {@condition 无力} slaad. Each try requires 1 minute of uninterrupted work and a successful DC 20 Wisdom ({@skill 医疗}) check. Each failed attempt deals 22 ({@damage 4d10}) psychic damage to the slaad."
+										"Implanted in the slaad's brain is a magic control gem. The slaad must obey whoever possesses the gem and is immune to being {@condition 魅惑} while so controlled. Certain spells can be used to acquire the gem. If the slaad fails its saving throw against imprisonment, the spell can transfer the gem to the spellcaster's open hand, instead of imprisoning the slaad. A {@spell 祈願術} spell, if cast in the slaad's presence, can be worded to acquire the gem.",
+										"A {@spell 高等復原術} spell cast on the slaad destroys the gem without harming the slaad.",
+										"Someone who is proficient in Wisdom ({@skill 醫療}) can remove the gem from an {@condition 無力} slaad. Each try requires 1 minute of uninterrupted work and a successful DC 20 Wisdom ({@skill 醫療}) check. Each failed attempt deals 22 ({@damage 4d10}) psychic damage to the slaad."
 									]
 								}
 							]
@@ -13993,7 +13993,7 @@
 			]
 		},
 		{
-			"name": "幽灵",
+			"name": "幽靈",
 			"source": "MM",
 			"entries": [
 				{
@@ -14386,7 +14386,7 @@
 										{
 											"name": "Blind Obedience",
 											"entries": [
-												"When its creator or possessor is on hand to command it, a golem performs flawlessly. If the golem is left without instructions or is {@condition 无力}, it continues to follow its last orders to the best of its ability. When it can't fulfill its orders, a golem might react violently-or stand and do nothing. A golem that has been given conflicting orders sometimes alternates between them."
+												"When its creator or possessor is on hand to command it, a golem performs flawlessly. If the golem is left without instructions or is {@condition 無力}, it continues to follow its last orders to the best of its ability. When it can't fulfill its orders, a golem might react violently-or stand and do nothing. A golem that has been given conflicting orders sometimes alternates between them."
 											],
 											"type": "entries"
 										},
@@ -14416,7 +14416,7 @@
 			"ENG_name": "Stone Golem"
 		},
 		{
-			"name": "风暴巨人",
+			"name": "風暴巨人",
 			"source": "MM",
 			"_copy": {
 				"name": "Giants",
@@ -14553,7 +14553,7 @@
 			"ENG_name": "Swarm of Bats"
 		},
 		{
-			"name": "甲虫群",
+			"name": "甲蟲群",
 			"source": "MM",
 			"_copy": {
 				"name": "Generic Swarm",
@@ -14571,7 +14571,7 @@
 			"ENG_name": "Swarm of Centipedes"
 		},
 		{
-			"name": "昆虫群",
+			"name": "昆蟲群",
 			"source": "MM",
 			"_copy": {
 				"name": "Generic Swarm",
@@ -14589,7 +14589,7 @@
 			"ENG_name": "Swarm of Poisonous Snakes"
 		},
 		{
-			"name": "食人鱼群",
+			"name": "食人魚群",
 			"source": "MM",
 			"_copy": {
 				"name": "Generic Swarm",
@@ -14616,7 +14616,7 @@
 			"ENG_name": "Swarm of Rats"
 		},
 		{
-			"name": "渡鸦群",
+			"name": "渡鴉群",
 			"source": "MM",
 			"_copy": {
 				"name": "Generic Swarm",
@@ -14643,7 +14643,7 @@
 			"ENG_name": "Swarm of Spiders"
 		},
 		{
-			"name": "黄蜂群",
+			"name": "黃蜂群",
 			"source": "MM",
 			"_copy": {
 				"name": "Generic Swarm",
@@ -14836,7 +14836,7 @@
 			"ENG_name": "Tribal Warrior"
 		},
 		{
-			"name": "三角龙",
+			"name": "三角龍",
 			"source": "MM",
 			"entries": [
 				{
@@ -14871,7 +14871,7 @@
 			"ENG_name": "Triceratops"
 		},
 		{
-			"name": "三元冢",
+			"name": "三元塚",
 			"source": "MM",
 			"entries": [
 				{
@@ -14933,7 +14933,7 @@
 			"ENG_name": "Tridrone"
 		},
 		{
-			"name": "战蜥人",
+			"name": "戰蜥人",
 			"source": "MM",
 			"entries": [
 				{
@@ -15075,7 +15075,7 @@
 			"ENG_name": "Twig Blight"
 		},
 		{
-			"name": "霸王龙",
+			"name": "霸王龍",
 			"source": "MM",
 			"entries": [
 				{
@@ -15306,8 +15306,8 @@
 									"type": "inset",
 									"name": "Player Characters as Vampires",
 									"entries": [
-										"The game statistics of a player character transformed into a vampire spawn and then a vampire don't change, except that the character's Strength, Dexterity, and Constitution scores become 18 if they aren't higher. In addition, the character gains the vampire's damage resistances, {@sense 黑暗视觉}, traits, and actions. Attack and damage rolls for the vampire's attacks are based on Strength.",
-										"The save DC for Charm is 8 + the vampire's proficiency bonus + the vampire's Charisma modifier. The character's alignment becomes lawful evil, and the DM might take control of the character until the vampirism is reversed with a {@spell 祈愿术} spell or the character is killed and brought back to life."
+										"The game statistics of a player character transformed into a vampire spawn and then a vampire don't change, except that the character's Strength, Dexterity, and Constitution scores become 18 if they aren't higher. In addition, the character gains the vampire's damage resistances, {@sense 黑暗視覺}, traits, and actions. Attack and damage rolls for the vampire's attacks are based on Strength.",
+										"The save DC for Charm is 8 + the vampire's proficiency bonus + the vampire's Charisma modifier. The character's alignment becomes lawful evil, and the DM might take control of the character until the vampirism is reversed with a {@spell 祈願術} spell or the character is killed and brought back to life."
 									]
 								},
 								{
@@ -15516,7 +15516,7 @@
 			"ENG_name": "Vrock"
 		},
 		{
-			"name": "骷髅战马",
+			"name": "骷髏戰馬",
 			"source": "MM",
 			"_copy": {
 				"name": "Skeleton",
@@ -15577,7 +15577,7 @@
 									"type": "entries",
 									"entries": [
 										"Like most elementals, a water weird has no concept of good or evil. However, a water weird bound to a sacred or befouled source of water begins to take on the nature of that site, becoming neutral good or neutral evil.",
-										"A neutral good water weird tries to frighten away interlopers rather than kill them, while a neutral evil water weird kills its victims for pleasure and might turn against its summoner. A water weird loses its evil alignment if its waters are cleansed with a {@spell 净化饮食} spell."
+										"A neutral good water weird tries to frighten away interlopers rather than kill them, while a neutral evil water weird kills its victims for pleasure and might turn against its summoner. A water weird loses its evil alignment if its waters are cleansed with a {@spell 淨化飲食} spell."
 									]
 								},
 								{
@@ -15603,7 +15603,7 @@
 			]
 		},
 		{
-			"name": "(兽化)熊人",
+			"name": "(獸化)熊人",
 			"source": "MM",
 			"_copy": {
 				"name": "Lycanthropes",
@@ -15640,7 +15640,7 @@
 			"ENG_name": "Werebear"
 		},
 		{
-			"name": "(兽化)野猪人",
+			"name": "(獸化)野豬人",
 			"source": "MM",
 			"_copy": {
 				"name": "Lycanthropes",
@@ -15676,7 +15676,7 @@
 			"ENG_name": "Wereboar"
 		},
 		{
-			"name": "(兽化)鼠人",
+			"name": "(獸化)鼠人",
 			"source": "MM",
 			"_copy": {
 				"name": "Lycanthropes",
@@ -15713,7 +15713,7 @@
 			"ENG_name": "Wererat"
 		},
 		{
-			"name": "(兽化)虎人",
+			"name": "(獸化)虎人",
 			"source": "MM",
 			"_copy": {
 				"name": "Lycanthropes",
@@ -15750,7 +15750,7 @@
 			"ENG_name": "Weretiger"
 		},
 		{
-			"name": "(兽化)狼人",
+			"name": "(獸化)狼人",
 			"source": "MM",
 			"_copy": {
 				"name": "Lycanthropes",
@@ -15857,7 +15857,7 @@
 			}
 		},
 		{
-			"name": "白龙幼龙",
+			"name": "白龍幼龍",
 			"source": "MM",
 			"_copy": {
 				"name": "White Dragon",
@@ -15866,7 +15866,7 @@
 			"ENG_name": "White Dragon Wyrmling"
 		},
 		{
-			"name": "尸妖",
+			"name": "屍妖",
 			"source": "MM",
 			"entries": [
 				{
@@ -15972,7 +15972,7 @@
 			]
 		},
 		{
-			"name": "带翼狗头人",
+			"name": "帶翼狗頭人",
 			"source": "MM",
 			"_copy": {
 				"name": "Kobold",
@@ -16090,7 +16090,7 @@
 			]
 		},
 		{
-			"name": "飞龙",
+			"name": "飛龍",
 			"source": "MM",
 			"entries": [
 				{
@@ -16230,7 +16230,7 @@
 			]
 		},
 		{
-			"name": "蜡融妖",
+			"name": "蠟融妖",
 			"source": "MM",
 			"_copy": {
 				"name": "Demons",
@@ -16266,7 +16266,7 @@
 			"ENG_name": "Yochlol"
 		},
 		{
-			"name": "少年黑龙",
+			"name": "少年黑龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Black Dragon",
@@ -16275,7 +16275,7 @@
 			"ENG_name": "Young Black Dragon"
 		},
 		{
-			"name": "少年蓝龙",
+			"name": "少年藍龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Blue Dragon",
@@ -16284,7 +16284,7 @@
 			"ENG_name": "Young Blue Dragon"
 		},
 		{
-			"name": "少年黄铜龙",
+			"name": "少年黃銅龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Brass Dragon",
@@ -16293,7 +16293,7 @@
 			"ENG_name": "Young Brass Dragon"
 		},
 		{
-			"name": "少年青铜龙",
+			"name": "少年輕銅龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Bronze Dragon",
@@ -16302,7 +16302,7 @@
 			"ENG_name": "Young Bronze Dragon"
 		},
 		{
-			"name": "少年赤铜龙",
+			"name": "少年赤銅龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Copper Dragon",
@@ -16311,7 +16311,7 @@
 			"ENG_name": "Young Copper Dragon"
 		},
 		{
-			"name": "少年金龙",
+			"name": "少年金龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Gold Dragon",
@@ -16320,7 +16320,7 @@
 			"ENG_name": "Young Gold Dragon"
 		},
 		{
-			"name": "少年绿龙",
+			"name": "少年綠龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Green Dragon",
@@ -16329,7 +16329,7 @@
 			"ENG_name": "Young Green Dragon"
 		},
 		{
-			"name": "少年红龙",
+			"name": "少年紅龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Red Dragon",
@@ -16338,7 +16338,7 @@
 			"ENG_name": "Young Red Dragon"
 		},
 		{
-			"name": "少年幽影红龙",
+			"name": "少年幽影紅龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Shadow Dragon",
@@ -16355,7 +16355,7 @@
 			}
 		},
 		{
-			"name": "少年银龙",
+			"name": "少年銀龍",
 			"source": "MM",
 			"_copy": {
 				"name": "Silver Dragon",
@@ -16364,7 +16364,7 @@
 			"ENG_name": "Young Silver Dragon"
 		},
 		{
-			"name": "少年白龙",
+			"name": "少年白龍",
 			"source": "MM",
 			"_copy": {
 				"name": "White Dragon",
@@ -16581,7 +16581,7 @@
 			}
 		},
 		{
-			"name": "纯血蛇人",
+			"name": "純血蛇人",
 			"source": "MM",
 			"entries": [
 				{
@@ -16730,7 +16730,7 @@
 			]
 		},
 		{
-			"name": "僵尸",
+			"name": "僵屍",
 			"source": "MM",
 			"entries": [
 				{
@@ -16745,7 +16745,7 @@
 									"type": "entries",
 									"entries": [
 										"Sinister necromantic magic infuses the remains of the dead, causing them to rise as zombies that do their creator's bidding without fear or hesitation. They move with a jerky, uneven gait, clad in the moldering apparel they wore when put to rest, and carrying the stench of decay.",
-										"Most zombies are made from humanoid remains, though the flesh and bones of any formerly living creature can be imbued with a semblance of life. Necromantic magic, usually from spells, animates a zombie. Some zombies rise spontaneously when dark magic saturates an area. Once turned into a zombie, a creature can't be restored to life except by powerful magic, such as a {@spell 复活术} spell.",
+										"Most zombies are made from humanoid remains, though the flesh and bones of any formerly living creature can be imbued with a semblance of life. Necromantic magic, usually from spells, animates a zombie. Some zombies rise spontaneously when dark magic saturates an area. Once turned into a zombie, a creature can't be restored to life except by powerful magic, such as a {@spell 復活術} spell.",
 										"A zombie retains no vestiges of its former self, its mind devoid of thought and imagination. A zombie left without orders simply stands in place and rots unless something comes along that it can kill. The magic animating a zombie imbues it with evil, so left without purpose, it attacks any living creature it encounters."
 									]
 								},

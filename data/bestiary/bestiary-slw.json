@@ -65,7 +65,7 @@
 				{
 					"name": "Tools",
 					"entries": [
-						"The expert has {@item 盗贼工具|phb} and a musical instrument."
+						"The expert has {@item 盜賊工具|phb} and a musical instrument."
 					]
 				}
 			],
@@ -73,7 +73,7 @@
 				{
 					"name": "Extra Attack",
 					"entries": [
-						"The expert can attack twice, instead of once, whenever it takes the {@action 攻击} action on its turn."
+						"The expert can attack twice, instead of once, whenever it takes the {@action 攻擊} action on its turn."
 					]
 				},
 				{
@@ -121,7 +121,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -159,7 +159,7 @@
 				{
 					"name": "Sting",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d6 + 2}) piercing damage, and the target must make a {@dc 11} Constitution saving throw, taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition 中毒} for 1 hour, even after regaining hit points, and is {@condition 麻痹} while {@condition 中毒} in this way."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d6 + 2}) piercing damage, and the target must make a {@dc 11} Constitution saving throw, taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition 中毒} for 1 hour, even after regaining hit points, and is {@condition 麻痺} while {@condition 中毒} in this way."
 					]
 				}
 			],
@@ -228,38 +228,38 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 神导术}",
-								"{@spell 光亮术}",
+								"{@spell 神導術}",
+								"{@spell 光亮術}",
 								"{@spell 提升抗力}",
-								"{@spell 圣焰}"
+								"{@spell 聖焰}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 祝福术}",
-								"{@spell 治疗伤势}",
-								"{@spell 虔诚护盾}"
+								"{@spell 祝福術}",
+								"{@spell 治療傷勢}",
+								"{@spell 虔誠護盾}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 援助术}",
-								"{@spell 次级复原术}"
+								"{@spell 援助術}",
+								"{@spell 次級復原術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 防护能量}",
-								"{@spell 回生术}"
+								"{@spell 防護能量}",
+								"{@spell 回生術}"
 							]
 						},
 						"4": {
 							"slots": 1,
 							"spells": [
-								"{@spell 防死护咒}"
+								"{@spell 防死護咒}"
 							]
 						}
 					},
@@ -347,37 +347,37 @@
 						"0": {
 							"spells": [
 								"{@spell 火焰箭}",
-								"{@spell 光亮术}",
-								"{@spell 法师之手}",
-								"{@spell 次级幻象}"
+								"{@spell 光亮術}",
+								"{@spell 法師之手}",
+								"{@spell 次級幻象}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 燃烧之手}",
-								"{@spell 护盾术}",
-								"{@spell 睡眠术}"
+								"{@spell 燃燒之手}",
+								"{@spell 護盾術}",
+								"{@spell 睡眠術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 炽焰法球}",
-								"{@spell 隐形术}"
+								"{@spell 熾焰法球}",
+								"{@spell 隱形術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 火球术}",
-								"{@spell 飞行术}"
+								"{@spell 火球術}",
+								"{@spell 飛行術}"
 							]
 						},
 						"4": {
 							"slots": 1,
 							"spells": [
-								"{@spell 火墙术}"
+								"{@spell 火牆術}"
 							]
 						}
 					},
@@ -428,7 +428,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -542,7 +542,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -583,7 +583,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"Tooth-N-Claw has advantage on an attack roll against a creature if at least one of its allies is within 5 feet of the creature and the ally isn't {@condition 无力}."
+						"Tooth-N-Claw has advantage on an attack roll against a creature if at least one of its allies is within 5 feet of the creature and the ally isn't {@condition 無力}."
 					]
 				}
 			],
@@ -703,7 +703,7 @@
 				{
 					"name": "Extra Attack",
 					"entries": [
-						"The warrior can attack twice, instead of once, whenever it takes the {@action 攻击} action on its turn."
+						"The warrior can attack twice, instead of once, whenever it takes the {@action 攻擊} action on its turn."
 					]
 				},
 				{

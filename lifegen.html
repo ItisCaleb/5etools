@@ -11,7 +11,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 
-	<title>这是你的人生 - 5etools</title>
+	<title>這是你的人生 - 5etools</title>
 
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/main.css">
@@ -91,7 +91,7 @@
 		}
 
 		.btn-supp-fam::before {
-			content: "补充表细节掷骰";
+			content: "補充表細節擲骰";
 		}
 
 		.note {
@@ -120,8 +120,8 @@
 <header class="hidden-xs hidden-sm page__header">
 	<div class="container">
 
-		<h1 class="page__title">这是你的人生</h1>
-		<p class="page__subtitle">选择选项，然后点击生成。</p>
+		<h1 class="page__title">這是你的人生</h1>
+		<p class="page__subtitle">選擇選項，然後點擊生成。</p>
 	</div>
 </header>
 
@@ -135,28 +135,28 @@
 
 	<div class="row no-print">
 		<div class="form-group col-2-4">
-			<label for="race">种族</label>
-			<select class="form-control form-inline" id="race" disabled><option>加载中...</option></select>
+			<label for="race">種族</label>
+			<select class="form-control form-inline" id="race" disabled><option>載入中...</option></select>
 		</div>
 
 		<div class="form-group col-2-4">
-			<label for="cha">魅力调整值</label>
-			<select class="form-control form-inline" id="cha" disabled><option>加载中...</option></select>
+			<label for="cha">魅力調整值</label>
+			<select class="form-control form-inline" id="cha" disabled><option>載入中...</option></select>
 		</div>
 
 		<div class="form-group col-2-4">
 			<label for="race">背景</label>
-			<select class="form-control form-inline" id="background" disabled><option>加载中...</option></select>
+			<select class="form-control form-inline" id="background" disabled><option>載入中...</option></select>
 		</div>
 
 		<div class="form-group col-2-4">
-			<label for="race">职业</label>
-			<select class="form-control form-inline" id="class" disabled><option>加载中...</option></select>
+			<label for="race">職業</label>
+			<select class="form-control form-inline" id="class" disabled><option>載入中...</option></select>
 		</div>
 
 		<div class="form-group col-2-4">
-			<label for="age"><i>年龄</i></label>
-			<select class="form-control form-inline" id="age" disabled><option>加载中...</option></select>
+			<label for="age"><i>年齡</i></label>
+			<select class="form-control form-inline" id="age" disabled><option>載入中...</option></select>
 		</div>
 	</div>
 	<div class="row no-print">
@@ -166,13 +166,13 @@
 	</div>
 
 	<div class="row no-print" style="padding: 0 3em;">
-		<p>这个生成器是基于<a href="#" id="xge_link">《姗纳萨的万事指南》</a>第61-73页的规则和表格。</p>
-		<p><i>注意：以斜体显示所产生的文本内容是为了让使用变得更容易和快速，它们并不对应原本生成器中的任何表格。随你喜好忽视它们。</i></p>
+		<p>這個生成器是基於<a href="#" id="xge_link">《姍納薩的萬事指南》</a>第61-73頁的規則和表格。</p>
+		<p><i>注意：以斜體顯示所產生的文本內容是為了讓使用變得更容易和快速，它們並不對應原本生成器中的任何表格。隨你喜好忽視它們。</i></p>
 	</div>
 
 	<hr class="life__output" style="display: none; background: transparent">
 	<div class="row life__output night__shadow-big" style="display: none;">
-		<div class="wrp-sect-head"><h4>双亲</h4><button class="btn btn-xs btn-default btn-reroll" onclick="sectParents()"></button></div>
+		<div class="wrp-sect-head"><h4>雙親</h4><button class="btn btn-xs btn-default btn-reroll" onclick="sectParents()"></button></div>
 		<p id="parents"></p>
 	</div>
 	<div class="row life__output night__shadow-big" style="display: none;">
@@ -188,11 +188,11 @@
 		<p id="family"></p>
 	</div>
 	<div class="row life__output night__shadow-big" style="display: none;">
-		<div class="wrp-sect-head"><h4>个人抉择</h4><button class="btn btn-xs btn-default btn-reroll" onclick="sectPersonalDecisions()"></button></div>
+		<div class="wrp-sect-head"><h4>個人抉擇</h4><button class="btn btn-xs btn-default btn-reroll" onclick="sectPersonalDecisions()"></button></div>
 		<p id="personal"></p>
 	</div>
 	<div class="row life__output night__shadow-big" style="display: none;">
-		<div class="wrp-sect-head"><h4>职业训练</h4><button class="btn btn-xs btn-default btn-reroll" onclick="sectClassTraining()"></button></div>
+		<div class="wrp-sect-head"><h4>職業訓練</h4><button class="btn btn-xs btn-default btn-reroll" onclick="sectClassTraining()"></button></div>
 		<p id="clss"></p>
 	</div>
 	<div class="row life__output night__shadow-big" style="display: none;">

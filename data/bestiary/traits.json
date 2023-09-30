@@ -4,7 +4,7 @@
 			"name": "Awakened",
 			"source": "PHB",
 			"page": 216,
-			"ref": "{@spell 启蒙术}",
+			"ref": "{@spell 啟蒙術}",
 			"prerequisite": {
 				"size": {
 					"max": "H"
@@ -64,7 +64,7 @@
 								"name": "Swamp Camouflage",
 								"type": "entries",
 								"entries": [
-									"<$title_short_name$> has advantage on Dexterity ({@skill 隐匿}) checks made to hide in swampy terrain."
+									"<$title_short_name$> has advantage on Dexterity ({@skill 隱匿}) checks made to hide in swampy terrain."
 								]
 							},
 							{
@@ -120,13 +120,13 @@
 									"<$title_short_name$>'s innate spellcasting ability is Intelligence (spell save DC <$spell_dc__int$>). <$title_short_name$> can innately cast the following spells, requiring no material components:"
 								],
 								"will": [
-									"{@spell 回避侦测} (self only)"
+									"{@spell 迴避偵測} (self only)"
 								],
 								"daily": {
 									"1e": [
-										"{@spell 目盲/耳聋术}",
-										"{@spell 朦胧术}",
-										"{@spell 易容术}"
+										"{@spell 目盲/耳聾術}",
+										"{@spell 朦朧術}",
+										"{@spell 易容術}"
 									]
 								},
 								"ability": "int"
@@ -245,12 +245,12 @@
 									"<$title_short_name$>'s innate spellcasting ability is Charisma (spell save DC <$spell_dc__cha$>). <$title_short_name$> can innately cast the following spells, requiring no material components:"
 								],
 								"will": [
-									"{@spell 舞光术}"
+									"{@spell 舞光術}"
 								],
 								"daily": {
 									"1e": [
-										"{@spell 黑暗术}",
-										"{@spell 妖火术}"
+										"{@spell 黑暗術}",
+										"{@spell 妖火術}"
 									]
 								},
 								"ability": "cha"
@@ -269,7 +269,7 @@
 							{
 								"name": "Sunlight Sensitivity",
 								"entries": [
-									"While in sunlight, <$short_name$> has disadvantage on attack rolls, as well as on Wisdom ({@skill 察觉}) checks that rely on sight."
+									"While in sunlight, <$short_name$> has disadvantage on attack rolls, as well as on Wisdom ({@skill 察覺}) checks that rely on sight."
 								]
 							}
 						]
@@ -331,7 +331,7 @@
 							{
 								"name": "Invisibility (Recharges after a Short or Long Rest)",
 								"entries": [
-									"<$title_short_name$> magically turns {@condition 隐形} until they attack, cast a spell, or use their Enlarge, or until their concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment <$short_name$> wears or carries is invisible with them."
+									"<$title_short_name$> magically turns {@condition 隱形} until they attack, cast a spell, or use their Enlarge, or until their concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment <$short_name$> wears or carries is invisible with them."
 								]
 							}
 						]
@@ -744,7 +744,7 @@
 											{
 												"type": "item",
 												"name": "Paralyzing Breath.",
-												"entry": "The half-dragon exhales paralyzing gas in a 60-foot cone. Each creature in that area must succeed on a DC 20 Constitution saving throw or be {@condition 麻痹} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+												"entry": "The half-dragon exhales paralyzing gas in a 60-foot cone. Each creature in that area must succeed on a DC 20 Constitution saving throw or be {@condition 麻痺} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 											}
 										]
 									}
@@ -834,7 +834,7 @@
 							{
 								"name": "Nimble Escape",
 								"entries": [
-									"<$title_short_name$> can take the {@action 撤离} or {@action 躲藏} action as a bonus action on each of its turns."
+									"<$title_short_name$> can take the {@action 撤離} or {@action 躲藏} action as a bonus action on each of its turns."
 								]
 							}
 						]
@@ -1391,7 +1391,7 @@
 											{
 												"type": "item",
 												"name": "Paralyzing Breath.",
-												"entry": "The half-dragon exhales paralyzing gas in a 30-foot cone. Each creature in that area must succeed on a DC 17 Constitution saving throw or be {@condition 麻痹} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+												"entry": "The half-dragon exhales paralyzing gas in a 30-foot cone. Each creature in that area must succeed on a DC 17 Constitution saving throw or be {@condition 麻痺} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 											}
 										]
 									}
@@ -1481,13 +1481,13 @@
 							{
 								"name": "Sunlight Sensitivity",
 								"entries": [
-									"While in sunlight, <$title_short_name$> has disadvantage on attack rolls, as well as on Wisdom ({@skill 察觉}) checks that rely on sight."
+									"While in sunlight, <$title_short_name$> has disadvantage on attack rolls, as well as on Wisdom ({@skill 察覺}) checks that rely on sight."
 								]
 							},
 							{
 								"name": "Pack Tactics",
 								"entries": [
-									"<$title_short_name$> has advantage on an attack roll against a creature if at least one of their allies is within 5 feet of the creature and the ally isn't {@condition 无力}."
+									"<$title_short_name$> has advantage on an attack roll against a creature if at least one of their allies is within 5 feet of the creature and the ally isn't {@condition 無力}."
 								]
 							}
 						]
@@ -1900,7 +1900,7 @@
 											{
 												"type": "item",
 												"name": "Paralyzing Breath.",
-												"entry": "The half-dragon exhales paralyzing gas in a 15-foot cone. Each creature in that area must succeed on a DC 13 Constitution saving throw or be {@condition 麻痹} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+												"entry": "The half-dragon exhales paralyzing gas in a 15-foot cone. Each creature in that area must succeed on a DC 13 Constitution saving throw or be {@condition 麻痺} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 											}
 										]
 									}
@@ -2291,7 +2291,7 @@
 							{
 								"name": "Sunlight Sensitivity",
 								"entries": [
-									"While in sunlight, the dragon has disadvantage on attack rolls, as well as on Wisdom ({@skill 察觉}) checks that rely on sight."
+									"While in sunlight, the dragon has disadvantage on attack rolls, as well as on Wisdom ({@skill 察覺}) checks that rely on sight."
 								]
 							}
 						]
@@ -2390,7 +2390,7 @@
 							{
 								"name": "Brave",
 								"entries": [
-									"<$title_short_name$> has advantage on saving throws against being {@condition 恐惧}."
+									"<$title_short_name$> has advantage on saving throws against being {@condition 恐懼}."
 								]
 							}
 						]
@@ -2486,12 +2486,12 @@
 									"<$title_short_name$>'s innate spellcasting ability is Charisma (spell save DC <$spell_dc__cha$>). <$title_short_name$> can innately cast the following spells, requiring no material components:"
 								],
 								"will": [
-									"{@spell 奇术}"
+									"{@spell 奇術}"
 								],
 								"daily": {
 									"1e": [
-										"{@spell 黑暗术}",
-										"{@spell 炼狱叱喝}"
+										"{@spell 黑暗術}",
+										"{@spell 煉獄叱喝}"
 									]
 								},
 								"ability": "cha"

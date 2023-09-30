@@ -57,7 +57,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -174,7 +174,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -216,72 +216,72 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 酸液溅爆}",
+								"{@spell 酸液濺爆}",
 								"{@spell 火焰箭}",
-								"{@spell 光亮术}",
-								"{@spell 法师之手}",
-								"{@spell 魔法技俩}"
+								"{@spell 光亮術}",
+								"{@spell 法師之手}",
+								"{@spell 魔法技倆}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 侦测魔法}",
-								"{@spell 魔法飞弹}",
-								"{@spell 睡眠术}",
-								"{@spell 巫术箭}"
+								"{@spell 偵測魔法}",
+								"{@spell 魔法飛彈}",
+								"{@spell 睡眠術}",
+								"{@spell 巫術箭}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 疯狂冠冕}",
-								"{@spell 变巨/缩小术}",
-								"{@spell 迷踪步}"
+								"{@spell 瘋狂冠冕}",
+								"{@spell 變巨/縮小術}",
+								"{@spell 迷蹤步}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
 								"{@spell 解除魔法}",
-								"{@spell 火球术}",
-								"{@spell 闪电束}"
+								"{@spell 火球術}",
+								"{@spell 閃電束}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 枯萎术}",
-								"{@spell 艾伐黑触手}",
-								"{@spell 变形术}"
+								"{@spell 枯萎術}",
+								"{@spell 艾伐黑觸手}",
+								"{@spell 變形術}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell 死云术}",
-								"{@spell 指使术}",
+								"{@spell 死雲術}",
+								"{@spell 指使術}",
 								"{@spell 探知}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell 预置幻象}",
-								"{@spell 真知术}"
+								"{@spell 預置幻象}",
+								"{@spell 真知術}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
 								"{@spell 死亡一指}",
-								"{@spell 海市蜃楼}"
+								"{@spell 海市蜃樓}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell 律令震慑}"
+								"{@spell 律令震懾}"
 							]
 						}
 					},
@@ -298,7 +298,7 @@
 				{
 					"name": "Blessing of Mother Night",
 					"entries": [
-						"Baba Lysaga is shielded against divination magic, as though protected by a {@spell 回避侦测} spell."
+						"Baba Lysaga is shielded against divination magic, as though protected by a {@spell 迴避偵測} spell."
 					]
 				}
 			],
@@ -361,7 +361,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -413,7 +413,7 @@
 				{
 					"name": "Antimagic Susceptibility",
 					"entries": [
-						"The hut is {@condition 无力} while the magic gem that animates it is in the area of an antimagic field. If targeted by dispel magic, the hut must succeed on a Constitution saving throw against the caster's spell save DC or fall {@condition 昏迷} for 1 minute."
+						"The hut is {@condition 無力} while the magic gem that animates it is in the area of an antimagic field. If targeted by dispel magic, the hut must succeed on a Constitution saving throw against the caster's spell save DC or fall {@condition 昏迷} for 1 minute."
 					]
 				},
 				{
@@ -592,24 +592,24 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 法师之手}",
-								"{@spell 魔法技俩}",
-								"{@spell 冷冻射线}"
+								"{@spell 法師之手}",
+								"{@spell 魔法技倆}",
+								"{@spell 冷凍射線}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 致病射线}",
-								"{@spell 睡眠术}",
-								"{@spell 塔莎狂笑术}"
+								"{@spell 致病射線}",
+								"{@spell 睡眠術}",
+								"{@spell 塔莎狂笑術}"
 							]
 						},
 						"2": {
 							"slots": 2,
 							"spells": [
-								"{@spell 变造自身}",
-								"{@spell 隐形术}"
+								"{@spell 變造自身}",
+								"{@spell 隱形術}"
 							]
 						}
 					},
@@ -709,7 +709,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -762,7 +762,7 @@
 				{
 					"name": "Antimagic Susceptibility",
 					"entries": [
-						"The broom is {@condition 无力} while in the area of an antimagic field. If targeted by dispel magic, the broom must succeed on a Constitution saving throw against the caster's spell save DC or fall {@condition 昏迷} for 1 minute."
+						"The broom is {@condition 無力} while in the area of an antimagic field. If targeted by dispel magic, the broom must succeed on a Constitution saving throw against the caster's spell save DC or fall {@condition 昏迷} for 1 minute."
 					]
 				},
 				{
@@ -834,7 +834,7 @@
 						"items": {
 							"name": "Two-Headed",
 							"entries": [
-								"The mongrelfolk has advantage on Wisdom ({@skill 察觉}) checks and on saving throws against being {@condition 目盲}, {@condition 魅惑}, {@condition 耳聋}, {@condition 恐惧}, {@condition 震慑}, or knocked {@condition 昏迷}."
+								"The mongrelfolk has advantage on Wisdom ({@skill 察覺}) checks and on saving throws against being {@condition 目盲}, {@condition 魅惑}, {@condition 耳聾}, {@condition 恐懼}, {@condition 震懾}, or knocked {@condition 昏迷}."
 							]
 						}
 					}
@@ -867,7 +867,7 @@
 						"items": {
 							"name": "Keen Hearing and Smell",
 							"entries": [
-								"The mongrelfolk has advantage on Wisdom ({@skill 察觉}) checks that rely on hearing or smell."
+								"The mongrelfolk has advantage on Wisdom ({@skill 察覺}) checks that rely on hearing or smell."
 							]
 						}
 					}
@@ -1043,9 +1043,9 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 法师之手}",
-								"{@spell 魔法技俩}",
-								"{@spell 冷冻射线}"
+								"{@spell 法師之手}",
+								"{@spell 魔法技倆}",
+								"{@spell 冷凍射線}"
 							]
 						}
 					},
@@ -1122,39 +1122,39 @@
 						"0": {
 							"spells": [
 								"{@spell 火焰箭}",
-								"{@spell 光亮术}",
-								"{@spell 法师之手}",
-								"{@spell 魔法技俩}"
+								"{@spell 光亮術}",
+								"{@spell 法師之手}",
+								"{@spell 魔法技倆}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 防护善恶}",
-								"{@spell 魔法飞弹}",
-								"{@spell 护盾术}"
+								"{@spell 防護善惡}",
+								"{@spell 魔法飛彈}",
+								"{@spell 護盾術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 黑暗视觉}",
-								"{@spell 敲击术}",
-								"{@spell 镜影术}"
+								"{@spell 黑暗視覺}",
+								"{@spell 敲擊術}",
+								"{@spell 鏡影術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 锐眼术}",
-								"{@spell 闪电束}",
-								"{@spell 防护法阵}"
+								"{@spell 銳眼術}",
+								"{@spell 閃電束}",
+								"{@spell 防護法陣}"
 							]
 						},
 						"4": {
 							"slots": 1,
 							"spells": [
-								"{@spell 高等隐形术}"
+								"{@spell 高等隱形術}"
 							]
 						}
 					},
@@ -1197,7 +1197,7 @@
 				{
 					"name": "Curse (Recharges after a Long Rest)",
 					"entries": [
-						"Ezmerelda targets one creature that she can see within 30 feet of her. The target must succeed on a {@dc 14} Wisdom saving throw or be cursed. While cursed, the target has vulnerability to one type of damage of Ezmerelda's choice. The curse lasts until ended with a {@spell 高等复原术} spell, a {@spell 移除诅咒} spell, or similar magic. When the curse ends, Ezmerelda takes {@dice 3d6} psychic damage."
+						"Ezmerelda targets one creature that she can see within 30 feet of her. The target must succeed on a {@dc 14} Wisdom saving throw or be cursed. While cursed, the target has vulnerability to one type of damage of Ezmerelda's choice. The curse lasts until ended with a {@spell 高等復原術} spell, a {@spell 移除詛咒} spell, or similar magic. When the curse ends, Ezmerelda takes {@dice 3d6} psychic damage."
 					]
 				},
 				{
@@ -1288,7 +1288,7 @@
 				{
 					"ac": 5,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1336,10 +1336,10 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell 反制法术}",
-							"{@spell 疯狂冠冕}",
-							"{@spell 催眠图纹}",
-							"{@spell 心灵遥控}"
+							"{@spell 反製法術}",
+							"{@spell 瘋狂冠冕}",
+							"{@spell 催眠圖紋}",
+							"{@spell 心靈遙控}"
 						]
 					},
 					"ability": "int"
@@ -1356,7 +1356,7 @@
 				{
 					"name": "Antimagic Susceptibility",
 					"entries": [
-						"The portrait is {@condition 无力} while in the area of an antimagic field. If targeted by dispel magic, the portrait must succeed on a Constitution saving throw against the caster's spell save DC or become {@condition 昏迷} for 1 minute."
+						"The portrait is {@condition 無力} while in the area of an antimagic field. If targeted by dispel magic, the portrait must succeed on a Constitution saving throw against the caster's spell save DC or become {@condition 昏迷} for 1 minute."
 					]
 				},
 				{
@@ -1610,7 +1610,7 @@
 							{
 								"name": "Special Equipment",
 								"entries": [
-									"Kasimir wears a {@item ring of warmth} and carries a spellbook containing all the spells he has prepared plus the following spells: {@spell 秘法锁}, {@spell 通晓语言}, {@spell 人类定身术}, {@spell 鉴定术}, {@spell 物品定位术}, {@spell 回避侦测}, {@spell 变形术}, {@spell 防护善恶}, {@spell 冷冻射线}, and {@spell 石墙术}."
+									"Kasimir wears a {@item ring of warmth} and carries a spellbook containing all the spells he has prepared plus the following spells: {@spell 秘法鎖}, {@spell 通曉語言}, {@spell 人類定身術}, {@spell 鑑定術}, {@spell 物品定位術}, {@spell 迴避偵測}, {@spell 變形術}, {@spell 防護善惡}, {@spell 冷凍射線}, and {@spell 石牆術}."
 								]
 							}
 						]
@@ -1639,46 +1639,46 @@
 						"0": {
 							"spells": [
 								"{@spell 火焰箭}",
-								"{@spell 光亮术}",
-								"{@spell 法师之手}",
-								"{@spell 魔法技俩}"
+								"{@spell 光亮術}",
+								"{@spell 法師之手}",
+								"{@spell 魔法技倆}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 侦测魔法}",
-								"{@spell 法师护甲}",
-								"{@spell 魔法飞弹}",
-								"{@spell 护盾术}"
+								"{@spell 偵測魔法}",
+								"{@spell 法師護甲}",
+								"{@spell 魔法飛彈}",
+								"{@spell 護盾術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 迷踪步}",
-								"{@spell 暗示术}"
+								"{@spell 迷蹤步}",
+								"{@spell 暗示術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 反制法术}",
-								"{@spell 火球术}",
-								"{@spell 飞行术}"
+								"{@spell 反製法術}",
+								"{@spell 火球術}",
+								"{@spell 飛行術}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 高等隐形术}",
-								"{@spell 冰风暴}"
+								"{@spell 高等隱形術}",
+								"{@spell 冰風暴}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell 寒冰锥}"
+								"{@spell 寒冰錐}"
 							]
 						}
 					},
@@ -1809,32 +1809,32 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 光亮术}",
-								"{@spell 修复术}",
-								"{@spell 奇术}"
+								"{@spell 光亮術}",
+								"{@spell 修復術}",
+								"{@spell 奇術}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 命令术}",
-								"{@spell 净化饮食}",
-								"{@spell 圣域术}"
+								"{@spell 命令術}",
+								"{@spell 淨化飲食}",
+								"{@spell 聖域術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
 								"{@spell 卜筮}",
-								"{@spell 遗体防腐}",
-								"{@spell 人类定身术}"
+								"{@spell 遺體防腐}",
+								"{@spell 人類定身術}"
 							]
 						},
 						"3": {
 							"slots": 2,
 							"spells": [
-								"{@spell 活化死尸}",
-								"{@spell 创造饮食}"
+								"{@spell 活化死屍}",
+								"{@spell 創造飲食}"
 							]
 						}
 					},
@@ -2014,71 +2014,71 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 光亮术}",
-								"{@spell 修复术}",
-								"{@spell 圣焰}",
-								"{@spell 奇术}"
+								"{@spell 光亮術}",
+								"{@spell 修復術}",
+								"{@spell 聖焰}",
+								"{@spell 奇術}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 灾祸术}",
-								"{@spell 命令术}",
-								"{@spell 侦测善恶}",
-								"{@spell 防护善恶}"
+								"{@spell 災禍術}",
+								"{@spell 命令術}",
+								"{@spell 偵測善惡}",
+								"{@spell 防護善惡}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 次级复原术}",
-								"{@spell 防护毒素}",
-								"{@spell 灵体武器}"
+								"{@spell 次級復原術}",
+								"{@spell 防護毒素}",
+								"{@spell 靈體武器}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 创造饮食}",
-								"{@spell 死者交谈术}",
-								"{@spell 灵体守卫}"
+								"{@spell 創造飲食}",
+								"{@spell 死者交談術}",
+								"{@spell 靈體守衛}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 预言术}",
-								"{@spell 行动自如术}",
-								"{@spell 虔诚守卫}"
+								"{@spell 預言術}",
+								"{@spell 行動自如術}",
+								"{@spell 虔誠守衛}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell 高等复原术}",
-								"{@spell 唤醒死者}"
+								"{@spell 高等復原術}",
+								"{@spell 喚醒死者}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell 寻找捷径}",
-								"{@spell 伤害术}",
-								"{@spell 真知术}"
+								"{@spell 尋找捷徑}",
+								"{@spell 傷害術}",
+								"{@spell 真知術}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell 火焰风暴}",
-								"{@spell 再生术}"
+								"{@spell 火焰風暴}",
+								"{@spell 再生術}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell 地震术}"
+								"{@spell 地震術}"
 							]
 						}
 					},
@@ -2095,13 +2095,13 @@
 				{
 					"name": "Curse (Recharges after a Long Rest)",
 					"entries": [
-						"Madam Eva targets one creature that she can see within 30 feet of her. The target must succeed on a {@dc 17} Wisdom saving throw or be cursed. While cursed, the target is {@condition 目盲} and {@condition 耳聋}. The curse lasts until ended with a greater restoration spell, a {@spell 移除诅咒} spell, or similar magic. When the curse ends, Madam Eva takes {@dice 5d6} psychic damage."
+						"Madam Eva targets one creature that she can see within 30 feet of her. The target must succeed on a {@dc 17} Wisdom saving throw or be cursed. While cursed, the target is {@condition 目盲} and {@condition 耳聾}. The curse lasts until ended with a greater restoration spell, a {@spell 移除詛咒} spell, or similar magic. When the curse ends, Madam Eva takes {@dice 5d6} psychic damage."
 					]
 				},
 				{
 					"name": "Evil Eye (Recharges after a Short or Long Rest)",
 					"entries": [
-						"Madam Eva targets one creature that she can see within 10 feet of her and casts one of the following spells on the target (save {@dc 17}), requiring neither somatic nor material components to do so: {@spell 化兽为友}, {@spell 魅惑人类}, or {@spell 人类定身术}. If the target succeeds on the initial saving throw, Madam Eva is {@condition 目盲} until the end of her next turn. Once a target succeeds on a saving throw against this effect, it is immune to the Evil Eye power of all Vistani for 24 hours."
+						"Madam Eva targets one creature that she can see within 10 feet of her and casts one of the following spells on the target (save {@dc 17}), requiring neither somatic nor material components to do so: {@spell 化獸為友}, {@spell 魅惑人類}, or {@spell 人類定身術}. If the target succeeds on the initial saving throw, Madam Eva is {@condition 目盲} until the end of her next turn. Once a target succeeds on a saving throw against this effect, it is immune to the Evil Eye power of all Vistani for 24 hours."
 					]
 				}
 			],
@@ -2265,7 +2265,7 @@
 				{
 					"ac": 11,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -2300,10 +2300,10 @@
 						"1\u20133: Amphibious. The mongrelfolk can breathe air and water.",
 						"4\u20139: Darkvision. The mongrelfolk has darkvision out to a range of 60 feet.",
 						"10: Flight. The mongrelfolk has leathery wings and a flying speed of 40 feet.",
-						"11\u201315: Keen Hearing and Smell. The mongrelfolk has advantage on Wisdom ({@skill 察觉}) checks that rely on hearing or smell.",
+						"11\u201315: Keen Hearing and Smell. The mongrelfolk has advantage on Wisdom ({@skill 察覺}) checks that rely on hearing or smell.",
 						"16\u201317: Spider Climb. The mongrelfolk can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
 						"18\u201319: Standing Leap. The mongrelfolk's long jump is up to 20 feet and its high jump up to 10 feet, with or without a running start.",
-						"20: Two-Headed. The mongrelfolk has advantage on Wisdom ({@skill 察觉}) checks and on saving throws against being {@condition 目盲}, {@condition 魅惑}, {@condition 耳聋}, {@condition 恐惧}, {@condition 震慑}, or knocked {@condition 昏迷}."
+						"20: Two-Headed. The mongrelfolk has advantage on Wisdom ({@skill 察覺}) checks and on saving throws against being {@condition 目盲}, {@condition 魅惑}, {@condition 耳聾}, {@condition 恐懼}, {@condition 震懾}, or knocked {@condition 昏迷}."
 					]
 				},
 				{
@@ -2541,7 +2541,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -2661,7 +2661,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -2800,11 +2800,11 @@
 					"daily": {
 						"1": [
 							"{@spell 魔化武器}",
-							"{@spell 回避侦测}"
+							"{@spell 迴避偵測}"
 						],
 						"3": [
-							"{@spell 迷踪步}",
-							"{@spell 魅影驹}"
+							"{@spell 迷蹤步}",
+							"{@spell 魅影駒}"
 						]
 					},
 					"ability": "int"
@@ -2814,7 +2814,7 @@
 				{
 					"name": "Deathly Choir",
 					"entries": [
-						"Any creature within 10 feet of Rahadin that isn't protected by a {@spell 心灵屏障} spell hears in its mind the screams of the thousands of people Rahadin has killed. As a bonus action, Rahadin can force all creatures that can hear the screams to make a {@dc 16} Wisdom saving throw. Each creature takes 16 ({@damage 3d10}) psychic damage on a failed save, or half as much damage on a successful one."
+						"Any creature within 10 feet of Rahadin that isn't protected by a {@spell 心靈屏障} spell hears in its mind the screams of the thousands of people Rahadin has killed. As a bonus action, Rahadin can force all creatures that can hear the screams to make a {@dc 16} Wisdom saving throw. Each creature takes 16 ({@damage 3d10}) psychic damage on a failed save, or half as much damage on a successful one."
 					]
 				},
 				{
@@ -2949,48 +2949,48 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 神导术}",
-								"{@spell 光亮术}",
-								"{@spell 修复术}",
-								"{@spell 奇术}"
+								"{@spell 神導術}",
+								"{@spell 光亮術}",
+								"{@spell 修復術}",
+								"{@spell 奇術}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 治疗伤势}",
-								"{@spell 侦测善恶}",
-								"{@spell 防护善恶}",
-								"{@spell 圣域术}"
+								"{@spell 治療傷勢}",
+								"{@spell 偵測善惡}",
+								"{@spell 防護善惡}",
+								"{@spell 聖域術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
 								"{@spell 卜筮}",
-								"{@spell 次级复原术}",
-								"{@spell 防护毒素}"
+								"{@spell 次級復原術}",
+								"{@spell 防護毒素}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 防护法阵}",
-								"{@spell 移除诅咒}",
-								"{@spell 死者交谈术}"
+								"{@spell 防護法陣}",
+								"{@spell 移除詛咒}",
+								"{@spell 死者交談術}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 防死护咒}",
-								"{@spell 行动自如术}"
+								"{@spell 防死護咒}",
+								"{@spell 行動自如術}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell 反制善恶}"
+								"{@spell 反制善惡}"
 							]
 						}
 					},
@@ -3001,7 +3001,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"In addition to his sword cane, Rictavio wears a {@item hat of disguise} and a {@item ring of mind shielding}, and he carries a {@item spell scroll (5th level)||spell scroll} of {@spell 唤醒死者}."
+						"In addition to his sword cane, Rictavio wears a {@item hat of disguise} and a {@item ring of mind shielding}, and he carries a {@item spell scroll (5th level)||spell scroll} of {@spell 喚醒死者}."
 					]
 				},
 				{
@@ -3114,7 +3114,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -3177,29 +3177,29 @@
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 命令术}",
-								"{@spell 神恩术}",
-								"{@spell 雷霆斩}"
+								"{@spell 命令術}",
+								"{@spell 神恩術}",
+								"{@spell 雷霆斬}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 烙印斩}",
+								"{@spell 烙印斬}",
 								"{@spell 魔化武器}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 致盲斩}",
+								"{@spell 致盲斬}",
 								"{@spell 解除魔法}"
 							]
 						},
 						"4": {
 							"slots": 2,
 							"spells": [
-								"{@spell 惊震斩}"
+								"{@spell 驚震斬}"
 							]
 						}
 					},
@@ -3285,47 +3285,47 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 交友术}",
-								"{@spell 光亮术}",
-								"{@spell 法师之手}",
-								"{@spell 魔法技俩}"
+								"{@spell 交友術}",
+								"{@spell 光亮術}",
+								"{@spell 法師之手}",
+								"{@spell 魔法技倆}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 魅惑人类}",
-								"{@spell 法师护甲}",
-								"{@spell 护盾术}",
-								"{@spell 睡眠术}"
+								"{@spell 魅惑人類}",
+								"{@spell 法師護甲}",
+								"{@spell 護盾術}",
+								"{@spell 睡眠術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 迷踪步}",
-								"{@spell 暗示术}"
+								"{@spell 迷蹤步}",
+								"{@spell 暗示術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
 								"{@spell 降咒}",
-								"{@spell 魅影驹}",
-								"{@spell 吸血鬼之触}"
+								"{@spell 魅影駒}",
+								"{@spell 吸血鬼之觸}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 高等隐形术}",
-								"{@spell 石肤术}"
+								"{@spell 高等隱形術}",
+								"{@spell 石膚術}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell 支配人类}"
+								"{@spell 支配人類}"
 							]
 						}
 					},
@@ -3376,7 +3376,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -3416,7 +3416,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -3438,47 +3438,47 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 法师之手}",
-								"{@spell 魔法技俩}",
-								"{@spell 冷冻射线}"
+								"{@spell 法師之手}",
+								"{@spell 魔法技倆}",
+								"{@spell 冷凍射線}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 通晓语言}",
-								"{@spell 云雾术}",
-								"{@spell 睡眠术}"
+								"{@spell 通曉語言}",
+								"{@spell 雲霧術}",
+								"{@spell 睡眠術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 侦测思想}",
-								"{@spell 造风术}",
-								"{@spell 镜影术}"
+								"{@spell 偵測思想}",
+								"{@spell 造風術}",
+								"{@spell 鏡影術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 活化死尸}",
-								"{@spell 火球术}",
-								"{@spell 回避侦测}"
+								"{@spell 活化死屍}",
+								"{@spell 火球術}",
+								"{@spell 迴避偵測}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 枯萎术}",
-								"{@spell 高等隐形术}",
-								"{@spell 变形术}"
+								"{@spell 枯萎術}",
+								"{@spell 高等隱形術}",
+								"{@spell 變形術}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell 活化物体}",
+								"{@spell 活化物體}",
 								"{@spell 探知}"
 							]
 						}
@@ -3505,7 +3505,7 @@
 					"name": "Misty Escape",
 					"entries": [
 						"When Strahd drops to 0 hit points outside his coffin, he transforms into a cloud of mist (as in the Shapechanger trait) instead of falling {@condition 昏迷}, provided that he isn't in running water or sunlight. If he can't transform, he is destroyed.",
-						"While he has 0 hit points in mist form, he can't revert to his vampire form, and he must reach his coffin within 2 hours or be destroyed. Once in his coffin, he reverts to his vampire form. He is then {@condition 麻痹} until he regains at least 1 hit point. After 1 hour in his coffin with 0 hit points, he regains 1 hit point."
+						"While he has 0 hit points in mist form, he can't revert to his vampire form, and he must reach his coffin within 2 hours or be destroyed. Once in his coffin, he reverts to his vampire form. He is then {@condition 麻痺} until he regains at least 1 hit point. After 1 hour in his coffin with 0 hit points, he regains 1 hit point."
 					]
 				},
 				{
@@ -3526,7 +3526,7 @@
 						"Strahd has the following flaws:",
 						"{@i Forbiddance.} He can't enter a residence without an invitation from one of the occupants.",
 						"{@i Harmed by Running Water.} He takes 20 acid damage if he ends his turn in running water.",
-						"{@i Stake to the Heart.} If a piercing weapon made of wood is driven into his heart while he is {@condition 无力} in his coffin, he is {@condition 麻痹} until the stake is removed.",
+						"{@i Stake to the Heart.} If a piercing weapon made of wood is driven into his heart while he is {@condition 無力} in his coffin, he is {@condition 麻痺} until the stake is removed.",
 						"{@i Sunlight Hypersensitivity.} While in sunlight, Strahd takes 20 radiant damage at the start of his turn, and he has disadvantage on attack rolls and ability checks."
 					]
 				}
@@ -3547,7 +3547,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition 被擒} by Strahd, {@condition 无力}, or {@condition 束缚}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and Strahd regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under Strahd's control."
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition 被擒} by Strahd, {@condition 無力}, or {@condition 束縛}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and Strahd regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under Strahd's control."
 					]
 				},
 				{
@@ -3741,7 +3741,7 @@
 				{
 					"ac": 21,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -3798,7 +3798,7 @@
 				{
 					"name": "Antimagic Susceptibility",
 					"entries": [
-						"The armor is {@condition 无力} while in the area of an antimagic field. If targeted by dispel magic, the armor must succeed on a Constitution saving throw against the caster's spell save DC or fall {@condition 昏迷} for 1 minute."
+						"The armor is {@condition 無力} while in the area of an antimagic field. If targeted by dispel magic, the armor must succeed on a Constitution saving throw against the caster's spell save DC or fall {@condition 昏迷} for 1 minute."
 					]
 				},
 				{
@@ -3931,87 +3931,87 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The mad mage is an 18th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). He can cast {@spell 易容术} and {@spell 隐形术} at will and has the following wizard spells prepared:"
+						"The mad mage is an 18th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). He can cast {@spell 易容術} and {@spell 隱形術} at will and has the following wizard spells prepared:"
 					],
 					"spells": {
 						"0": {
 							"spells": [
 								"{@spell 火焰箭}",
-								"{@spell 光亮术}",
-								"{@spell 法师之手}",
-								"{@spell 魔法技俩}",
-								"{@spell 电爪}"
+								"{@spell 光亮術}",
+								"{@spell 法師之手}",
+								"{@spell 魔法技倆}",
+								"{@spell 電爪}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 侦测魔法}",
-								"{@spell 法师护甲}",
-								"{@spell 魔法飞弹}",
-								"{@spell 护盾术}"
+								"{@spell 偵測魔法}",
+								"{@spell 法師護甲}",
+								"{@spell 魔法飛彈}",
+								"{@spell 護盾術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 镜影术}",
-								"{@spell 迷踪步}",
-								"{@spell 蛛网术}"
+								"{@spell 鏡影術}",
+								"{@spell 迷蹤步}",
+								"{@spell 蛛網術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 反制法术}",
-								"{@spell 飞行术}",
-								"{@spell 闪电束}"
+								"{@spell 反製法術}",
+								"{@spell 飛行術}",
+								"{@spell 閃電束}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 魔邓肯忠犬}",
-								"{@spell 变形术}",
-								"{@spell 石肤术}"
+								"{@spell 魔鄧肯忠犬}",
+								"{@spell 變形術}",
+								"{@spell 石膚術}"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
-								"{@spell 毕格比之掌}",
-								"{@spell 寒冰锥}",
+								"{@spell 畢格比之掌}",
+								"{@spell 寒冰錐}",
 								"{@spell 探知}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell 真知术}"
+								"{@spell 真知術}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell 魔邓肯豪宅术}"
+								"{@spell 魔鄧肯豪宅術}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell 心灵屏障}"
+								"{@spell 心靈屏障}"
 							]
 						},
 						"9": {
 							"slots": 1,
 							"spells": [
-								"{@spell 时间停止}"
+								"{@spell 時間停止}"
 							]
 						}
 					},
 					"will": [
-						"{@spell 易容术}",
-						"{@spell 隐形术}"
+						"{@spell 易容術}",
+						"{@spell 隱形術}"
 					],
 					"hidden": [
 						"will"
@@ -4074,7 +4074,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -4321,7 +4321,7 @@
 				{
 					"name": "Rejuvenation",
 					"entries": [
-						"When Vladimir's body is destroyed, his soul lingers. After 24 hours, the soul inhabits and animates another corpse on the same plane of existence and regains all its hit points. While the soul is bodiless, a {@spell 祈愿术} spell can be used to force the soul to go to the afterlife and not return."
+						"When Vladimir's body is destroyed, his soul lingers. After 24 hours, the soul inhabits and animates another corpse on the same plane of existence and regains all its hit points. While the soul is bodiless, a {@spell 祈願術} spell can be used to force the soul to go to the afterlife and not return."
 					]
 				},
 				{
@@ -4365,7 +4365,7 @@
 				{
 					"name": "Vengeful Glare",
 					"entries": [
-						"Vladimir can target Strahd within 30 feet provided he can see Strahd. Strahd must make a {@dc 15} Wisdom saving throw. One a failure, Strahd is {@condition 麻痹} until Vladimir deals damage to him, or until the end of Vladimir's next turn. When the paralysis ends, Strahd is {@condition 恐惧} of Vladimir for 1 minute. Strahd can repeat the saving throw at the end of each of his turns, with disadvantage if he can see Vladimir, ending the {@condition 恐惧} condition on itself on a success."
+						"Vladimir can target Strahd within 30 feet provided he can see Strahd. Strahd must make a {@dc 15} Wisdom saving throw. One a failure, Strahd is {@condition 麻痺} until Vladimir deals damage to him, or until the end of Vladimir's next turn. When the paralysis ends, Strahd is {@condition 恐懼} of Vladimir for 1 minute. Strahd can repeat the saving throw at the end of each of his turns, with disadvantage if he can see Vladimir, ending the {@condition 恐懼} condition on itself on a success."
 					]
 				}
 			],

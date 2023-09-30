@@ -1660,7 +1660,7 @@ class SearchWidget {
 
 	static async pGetUserAdventureSearch (opts) {
 		await SearchWidget.pLoadCustomIndex("entity_Adventures", `${Renderer.get().baseUrl}data/adventures.json`, "adventure", Parser.CAT_ID_ADVENTURE, UrlUtil.PG_ADVENTURE, "adventures");
-		return SearchWidget.pGetUserEntitySearch("选择冒险", "entity_Adventures", opts);
+		return SearchWidget.pGetUserEntitySearch("選擇冒險", "entity_Adventures", opts);
 	}
 
 	static async pGetUserCreatureSearch () {
@@ -1813,7 +1813,7 @@ class SearchWidget {
 
 	static _showLoadingModal () {
 		const {$modalInner, doClose} = UiUtil.getShowModal({isPermanent: true});
-		$(`<div class="flex-vh-center w-100 h-100"><span class="dnd-font italic ve-muted">加载中...</span></div>`).appendTo($modalInner);
+		$(`<div class="flex-vh-center w-100 h-100"><span class="dnd-font italic ve-muted">載入中...</span></div>`).appendTo($modalInner);
 		return doClose;
 	}
 	// endregion

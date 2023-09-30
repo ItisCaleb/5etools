@@ -14,7 +14,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -52,7 +52,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -73,12 +73,12 @@
 						"The archon's innate spellcasting ability is Charisma (spell save {@dc 17}). The archon can innately cast the following spells, requiring only verbal components:"
 					],
 					"will": [
-						"{@spell 侦测善恶}"
+						"{@spell 偵測善惡}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 湮灭波}",
-							"{@spell 指使术}"
+							"{@spell 湮滅波}",
+							"{@spell 指使術}"
 						]
 					},
 					"ability": "cha"
@@ -208,15 +208,15 @@
 						"The felidar's innate spellcasting ability is Charisma (spell save {@dc 14}). The felidar can innately cast the following spells, requiring no components:"
 					],
 					"will": [
-						"{@spell 侦测善恶}",
-						"{@spell 光亮术}",
-						"{@spell 奇术}"
+						"{@spell 偵測善惡}",
+						"{@spell 光亮術}",
+						"{@spell 奇術}"
 					],
 					"daily": {
 						"1e": [
 							"{@spell 安定心神}",
-							"{@spell 昼明术}",
-							"{@spell 反制善恶}"
+							"{@spell 晝明術}",
+							"{@spell 反制善惡}"
 						]
 					},
 					"ability": "cha"
@@ -337,7 +337,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -382,7 +382,7 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell 操控天气}",
+							"{@spell 操控天氣}",
 							"{@spell 水下呼吸}"
 						]
 					},
@@ -391,7 +391,7 @@
 			],
 			"trait": [
 				{
-					"name": "两栖",
+					"name": "兩棲",
 					"ENG_name": "Amphibious",
 					"entries": [
 						"The kraken can breathe air and water."
@@ -414,7 +414,7 @@
 				{
 					"name": "Tentacles",
 					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 20 ft., one target. {@h}30 ({@damage 6d6 + 9}) bludgeoning damage, and the target is {@condition 被擒} (escape {@dc 17}). Until this grapple ends, the target is {@condition 束缚}."
+						"{@atk mw} {@hit 14} to hit, reach 20 ft., one target. {@h}30 ({@damage 6d6 + 9}) bludgeoning damage, and the target is {@condition 被擒} (escape {@dc 17}). Until this grapple ends, the target is {@condition 束縛}."
 					]
 				},
 				{

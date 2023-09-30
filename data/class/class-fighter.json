@@ -1,7 +1,7 @@
 {
 	"class": [
 		{
-			"name": "战士",
+			"name": "戰士",
 			"ENG_name": "Fighter",
 			"source": "PHB",
 			"page": 70,
@@ -19,7 +19,7 @@
 					"light",
 					"medium",
 					"heavy",
-					"{@item shield|phb|盾牌}"
+					"{@item 盾牌|phb|盾牌}"
 				],
 				"weapons": [
 					"simple",
@@ -46,12 +46,12 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a)一件{@item 锁子甲|phb} 或 (b)一件{@item 皮甲|phb}、一把{@item 长弓|phb}和{@item 箭(20)|phb|20支箭}",
-					"(a)一把{@filter 军用武器|items|source=phb|category=basic|type=martial weapon}和一面{@item 盾牌|phb} 或 (b)两把{@filter 军用武器|items|source=phb|category=basic|type=martial weapon}",
-					"(a)一把{@item 轻弩|phb}和{@item 弩矢(20)|phb|20支弩矢} 或 (b)二把{@item 手斧|phb}",
-					"(a)一套{@item 地城探险家套装|phb} 或 (b)一套{@item 探索者套装|phb}"
+					"(a)一件{@item 鎖子甲|phb} 或 (b)一件{@item 皮甲|phb}、一把{@item 長弓|phb}和{@item 箭(20)|phb|20枝箭}",
+					"(a)一把{@filter 軍用武器|items|source=phb|category=basic|type=martial weapon}和一面{@item 盾牌|phb} 或 (b)兩把{@filter 軍用武器|items|source=phb|category=basic|type=martial weapon}",
+					"(a)一把{@item 輕弩|phb}和{@item 弩矢(20)|phb|20支弩矢} 或 (b)二把{@item 手斧|phb}",
+					"(a)一套{@item 地城探險家套裝|phb} 或 (b)一套{@item 探索者套裝|phb}"
 				],
-				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|起始金钱}",
+				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|起始金錢}",
 				"defaultData": [
 					{
 						"a": [
@@ -121,74 +121,74 @@
 				}
 			},
 			"classFeatures": [
-				"战斗风格|Fighter||1",
+				"戰鬥風格|Fighter||1",
 				"Martial Versatility|Fighter||1|UAClassFeatureVariants",
-				"回气|Fighter||1",
+				"回氣|Fighter||1",
 				"Maneuver Versatility|Fighter||1|UAClassFeatureVariants",
-				"动作如潮|Fighter||2",
+				"動作如潮|Fighter||2",
 				{
-					"classFeature": "武术范型|Fighter||3",
+					"classFeature": "武術范型|Fighter||3",
 					"gainSubclassFeature": true
 				},
-				"属性值提升|Fighter||4",
+				"屬性值提升|Fighter||4",
 				"Proficiency Versatility|Fighter||4|UAClassFeatureVariants",
-				"替换武术|Fighter||4|TCE",
-				"额外攻击|Fighter||5",
-				"属性值提升|Fighter||6",
+				"替換武術|Fighter||4|TCE",
+				"額外攻擊|Fighter||5",
+				"屬性值提升|Fighter||6",
 				"Proficiency Versatility|Fighter||6|UAClassFeatureVariants",
 				{
-					"classFeature": "武术范型能力|Fighter||7",
+					"classFeature": "武術范型能力|Fighter||7",
 					"gainSubclassFeature": true
 				},
-				"属性值提升|Fighter||8",
+				"屬性值提升|Fighter||8",
 				"Proficiency Versatility|Fighter||8|UAClassFeatureVariants",
 				"不屈|Fighter||9",
 				{
-					"classFeature": "武术范型能力|Fighter||10",
+					"classFeature": "武術范型能力|Fighter||10",
 					"gainSubclassFeature": true
 				},
-				"额外攻击(2)|Fighter||11",
-				"属性值提升|Fighter||12",
+				"額外攻擊(2)|Fighter||11",
+				"屬性值提升|Fighter||12",
 				"Proficiency Versatility|Fighter||12|UAClassFeatureVariants",
 				"不屈(2次)|Fighter||13",
-				"属性值提升|Fighter||14",
+				"屬性值提升|Fighter||14",
 				"Proficiency Versatility|Fighter||14|UAClassFeatureVariants",
 				{
-					"classFeature": "武术范型能力|Fighter||15",
+					"classFeature": "武術范型能力|Fighter||15",
 					"gainSubclassFeature": true
 				},
-				"属性值提升|Fighter||16",
+				"屬性值提升|Fighter||16",
 				"Proficiency Versatility|Fighter||16|UAClassFeatureVariants",
-				"动作如潮(2次)|Fighter||17",
+				"動作如潮(2次)|Fighter||17",
 				"不屈(3次)|Fighter||17",
 				{
-					"classFeature": "武术范型能力|Fighter||18",
+					"classFeature": "武術范型能力|Fighter||18",
 					"gainSubclassFeature": true
 				},
-				"属性值提升|Fighter||19",
+				"屬性值提升|Fighter||19",
 				"Proficiency Versatility|Fighter||19|UAClassFeatureVariants",
-				"额外攻击(3)|Fighter||20"
+				"額外攻擊(3)|Fighter||20"
 			],
 			"subclassTitle": "Martial Archetype",
 			"subclasses": [
 				{
-					"name": "战斗大师",
+					"name": "戰鬥大師",
 					"ENG_name": "Battle Master",
-					"shortName": "战斗大师",
+					"shortName": "戰鬥大師",
 					"ENG_shortName": "Battle Master",
 					"source": "PHB",
 					"page": 73,
 					"subclassFeatures": [
-						"战斗大师|Fighter||Battle Master||3",
-						"额外战技|Fighter||Battle Master||7",
-						"额外卓越骰|Fighter||Battle Master||7",
+						"戰鬥大師|Fighter||Battle Master||3",
+						"額外戰技|Fighter||Battle Master||7",
+						"額外卓越骰|Fighter||Battle Master||7",
 						"知己知彼|Fighter||Battle Master||7",
-						"额外战技|Fighter||Battle Master||10",
-						"精通战斗卓越(d10)|Fighter||Battle Master||10",
-						"额外战技|Fighter||Battle Master||15",
-						"额外卓越骰|Fighter||Battle Master||15",
-						"顽强|Fighter||Battle Master||15",
-						"精通战斗卓越(d12)|Fighter||Battle Master||18"
+						"額外戰技|Fighter||Battle Master||10",
+						"精通戰鬥卓越(d10)|Fighter||Battle Master||10",
+						"額外戰技|Fighter||Battle Master||15",
+						"額外卓越骰|Fighter||Battle Master||15",
+						"頑強|Fighter||Battle Master||15",
+						"精通戰鬥卓越(d12)|Fighter||Battle Master||18"
 					]
 				},
 				{
@@ -201,16 +201,16 @@
 					"srd": true,
 					"subclassFeatures": [
 						"勇士|Fighter||Champion||3",
-						"运动健将|Fighter||Champion||7",
-						"额外战斗风格|Fighter||Champion||10",
-						"卓越重击|Fighter||Champion||15",
-						"生还者|Fighter||Champion||18"
+						"運動健將|Fighter||Champion||7",
+						"額外戰鬥風格|Fighter||Champion||10",
+						"卓越重擊|Fighter||Champion||15",
+						"生還者|Fighter||Champion||18"
 					]
 				},
 				{
-					"name": "魔能骑士",
+					"name": "魔能騎士",
 					"ENG_name": "Eldritch Knight",
-					"shortName": "魔能骑士",
+					"shortName": "魔能騎士",
 					"ENG_shortName": "Eldritch Knight",
 					"source": "PHB",
 					"page": 74,
@@ -264,14 +264,14 @@
 						{
 							"subclasses": [
 								{
-									"name": "魔能骑士",
+									"name": "魔能騎士",
 									"ENG_name": "Eldritch Knight",
 									"source": "PHB"
 								}
 							],
 							"colLabels": [
-								"{@filter 已知戏法|spells|level=0|subclass=Fighter: Eldritch Knight}",
-								"{@filter 已知法术|spells|subclass=Fighter: Eldritch Knight}"
+								"{@filter 已知戲法|spells|level=0|subclass=Fighter: Eldritch Knight}",
+								"{@filter 已知法術|spells|subclass=Fighter: Eldritch Knight}"
 							],
 							"rows": [
 								[
@@ -357,19 +357,19 @@
 							]
 						},
 						{
-							"title": "法术位/每环",
+							"title": "法術位/每環",
 							"subclasses": [
 								{
-									"name": "魔能骑士",
+									"name": "魔能騎士",
 									"ENG_name": "Eldritch Knight",
 									"source": "PHB"
 								}
 							],
 							"colLabels": [
-								"{@filter 1环|spells|level=1|subclass=Fighter: Eldritch Knight}",
-								"{@filter 2环|spells|level=2|subclass=Fighter: Eldritch Knight}",
-								"{@filter 3环|spells|level=3|subclass=Fighter: Eldritch Knight}",
-								"{@filter 4环|spells|level=4|subclass=Fighter: Eldritch Knight}"
+								"{@filter 1環|spells|level=1|subclass=Fighter: Eldritch Knight}",
+								"{@filter 2環|spells|level=2|subclass=Fighter: Eldritch Knight}",
+								"{@filter 3環|spells|level=3|subclass=Fighter: Eldritch Knight}",
+								"{@filter 4環|spells|level=4|subclass=Fighter: Eldritch Knight}"
 							],
 							"rows": [
 								[
@@ -496,26 +496,26 @@
 						}
 					],
 					"subclassFeatures": [
-						"魔能骑士|Fighter||Eldritch Knight||3",
-						"战争魔法|Fighter||Eldritch Knight||7",
-						"魔能打击|Fighter||Eldritch Knight||10",
-						"秘法冲锋|Fighter||Eldritch Knight||15",
-						"精通战争魔法|Fighter||Eldritch Knight||18"
+						"魔能騎士|Fighter||Eldritch Knight||3",
+						"戰爭魔法|Fighter||Eldritch Knight||7",
+						"魔能打擊|Fighter||Eldritch Knight||10",
+						"秘法衝鋒|Fighter||Eldritch Knight||15",
+						"精通戰爭魔法|Fighter||Eldritch Knight||18"
 					]
 				},
 				{
-					"name": "紫龙骑士（旗将）",
+					"name": "紫龍騎士（旗將）",
 					"ENG_name": "Purple Dragon Knight (Banneret)",
-					"shortName": "紫龙骑士（旗将）",
+					"shortName": "紫龍騎士（旗將）",
 					"ENG_shortName": "Purple Dragon Knight (Banneret)",
 					"source": "SCAG",
 					"page": 128,
 					"subclassFeatures": [
-						"紫龙骑士（旗将）|Fighter||Purple Dragon Knight (Banneret)|SCAG|3",
+						"紫龍騎士（旗將）|Fighter||Purple Dragon Knight (Banneret)|SCAG|3",
 						"皇家特使|Fighter||Purple Dragon Knight (Banneret)|SCAG|7",
-						"振奋之潮|Fighter||Purple Dragon Knight (Banneret)|SCAG|10",
-						"意志壁垒|Fighter||Purple Dragon Knight (Banneret)|SCAG|15",
-						"振奋之潮|Fighter||Purple Dragon Knight (Banneret)|SCAG|18"
+						"振奮之潮|Fighter||Purple Dragon Knight (Banneret)|SCAG|10",
+						"意志壁壘|Fighter||Purple Dragon Knight (Banneret)|SCAG|15",
+						"振奮之潮|Fighter||Purple Dragon Knight (Banneret)|SCAG|18"
 					]
 				},
 				{
@@ -674,26 +674,26 @@
 						"魔射手|Fighter||Arcane Archer|XGE|3",
 						"魔法箭矢|Fighter||Arcane Archer|XGE|7",
 						"曲射|Fighter||Arcane Archer|XGE|7",
-						"额外秘法射击选项|Fighter||Arcane Archer|XGE|7",
-						"额外秘法射击选项|Fighter||Arcane Archer|XGE|10",
-						"常备射击|Fighter||Arcane Archer|XGE|15",
-						"额外秘法射击选项|Fighter||Arcane Archer|XGE|15",
-						"额外秘法射击选项|Fighter||Arcane Archer|XGE|18"
+						"額外秘法射擊選項|Fighter||Arcane Archer|XGE|7",
+						"額外秘法射擊選項|Fighter||Arcane Archer|XGE|10",
+						"常備射擊|Fighter||Arcane Archer|XGE|15",
+						"額外秘法射擊選項|Fighter||Arcane Archer|XGE|15",
+						"額外秘法射擊選項|Fighter||Arcane Archer|XGE|18"
 					]
 				},
 				{
-					"name": "骑兵",
+					"name": "騎兵",
 					"ENG_name": "Cavalier",
-					"shortName": "骑兵",
+					"shortName": "騎兵",
 					"ENG_shortName": "Cavalier",
 					"source": "XGE",
 					"page": 30,
 					"subclassFeatures": [
-						"骑兵|Fighter||Cavalier|XGE|3",
-						"防护战术|Fighter||Cavalier|XGE|7",
-						"坚守战线|Fighter||Cavalier|XGE|10",
-						"勇猛冲锋|Fighter||Cavalier|XGE|15",
-						"警戒防卫者|Fighter||Cavalier|XGE|18"
+						"騎兵|Fighter||Cavalier|XGE|3",
+						"防護戰術|Fighter||Cavalier|XGE|7",
+						"堅守戰線|Fighter||Cavalier|XGE|10",
+						"勇猛衝鋒|Fighter||Cavalier|XGE|15",
+						"警戒防衛者|Fighter||Cavalier|XGE|18"
 					]
 				},
 				{
@@ -706,9 +706,9 @@
 					"subclassFeatures": [
 						"武士|Fighter||Samurai|XGE|3",
 						"典雅侍臣|Fighter||Samurai|XGE|7",
-						"不懈战魂|Fighter||Samurai|XGE|10",
-						"迅捷打击|Fighter||Samurai|XGE|15",
-						"回光返照|Fighter||Samurai|XGE|18"
+						"不懈戰魂|Fighter||Samurai|XGE|10",
+						"迅捷打擊|Fighter||Samurai|XGE|15",
+						"迴光返照|Fighter||Samurai|XGE|18"
 					]
 				},
 				{
@@ -754,18 +754,18 @@
 					]
 				},
 				{
-					"name": "回音骑士",
+					"name": "回音騎士",
 					"ENG_name": "Echo Knight",
-					"shortName": "回音骑士",
+					"shortName": "回音騎士",
 					"ENG_shortName": "Echo Knight",
 					"source": "EGW",
 					"page": 183,
 					"subclassFeatures": [
-						"回音骑士|Fighter||Echo Knight|EGW|3",
+						"回音騎士|Fighter||Echo Knight|EGW|3",
 						"回音化身|Fighter||Echo Knight|EGW|7",
-						"阴影殉道者|Fighter||Echo Knight|EGW|10",
-						"回收潜能|Fighter||Echo Knight|EGW|15",
-						"一人成军|Fighter||Echo Knight|EGW|18"
+						"陰影殉道者|Fighter||Echo Knight|EGW|10",
+						"回收潛能|Fighter||Echo Knight|EGW|15",
+						"一人成軍|Fighter||Echo Knight|EGW|18"
 					]
 				},
 				{
@@ -783,35 +783,35 @@
 					]
 				},
 				{
-					"name": "灵能武士",
+					"name": "靈能武士",
 					"ENG_name": "Psi Warrior",
-					"shortName": "灵能武士",
+					"shortName": "靈能武士",
 					"ENG_shortName": "Psi Warrior",
 					"source": "TCE",
 					"page": 42,
 					"subclassFeatures": [
-						"灵能武士|Fighter||Psi Warrior|TCE|3",
-						"念力擅长|Fighter||Psi Warrior|TCE|7",
-						"意念守护|Fighter||Psi Warrior|TCE|10",
-						"壁垒之力|Fighter||Psi Warrior|TCE|15",
-						"念力宗师|Fighter||Psi Warrior|TCE|18"
+						"靈能武士|Fighter||Psi Warrior|TCE|3",
+						"念力擅長|Fighter||Psi Warrior|TCE|7",
+						"意念守護|Fighter||Psi Warrior|TCE|10",
+						"壁壘之力|Fighter||Psi Warrior|TCE|15",
+						"念力宗師|Fighter||Psi Warrior|TCE|18"
 					]
 				},
 				{
-					"name": "符文骑士",
+					"name": "符文騎士",
 					"ENG_name": "Rune Knight",
-					"shortName": "符文骑士",
+					"shortName": "符文騎士",
 					"ENG_shortName": "Rune Knight",
 					"source": "TCE",
 					"page": 44,
 					"subclassFeatures": [
-						"符文骑士|Fighter||Rune Knight|TCE|3",
+						"符文騎士|Fighter||Rune Knight|TCE|3",
 						"符文之盾|Fighter||Rune Knight|TCE|7",
-						"额外符文已知|Fighter||Rune Knight|TCE|7",
-						"奇伟身躯|Fighter||Rune Knight|TCE|10",
-						"额外符文已知|Fighter||Rune Knight|TCE|10",
-						"符文大师|Fighter||Rune Knight|TCE|15",
-						"额外符文已知|Fighter||Rune Knight|TCE|15",
+						"額外符文已知|Fighter||Rune Knight|TCE|7",
+						"奇偉身軀|Fighter||Rune Knight|TCE|10",
+						"額外符文已知|Fighter||Rune Knight|TCE|10",
+						"符文大師|Fighter||Rune Knight|TCE|15",
+						"額外符文已知|Fighter||Rune Knight|TCE|15",
 						"符文主宰|Fighter||Rune Knight|TCE|18"
 					]
 				}
@@ -1110,7 +1110,7 @@
 	],
 	"classFeature": [
 		{
-			"name": "战斗风格",
+			"name": "戰鬥風格",
 			"ENG_name": "Fighting Style",
 			"source": "PHB",
 			"page": 72,
@@ -1119,7 +1119,7 @@
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"你采用一种特殊的战斗风格以作为你的专业。从下列选项中选择一种。你不能获得相同的战斗风格选项超过一次，即使你有机会再选择它也一样。",
+				"你採用一種特殊的戰鬥風格以作為你的專業。從下列選項中選擇一種。你不能獲得相同的戰鬥風格選項超過一次，即使你有機會再選擇它也一樣。",
 				{
 					"type": "options",
 					"count": 1,
@@ -1134,15 +1134,15 @@
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "防御"
+							"optionalfeature": "防禦"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "决斗"
+							"optionalfeature": "決鬥"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "巨武战斗"
+							"optionalfeature": "巨武戰鬥"
 						},
 						{
 							"type": "refOptionalfeature",
@@ -1150,15 +1150,15 @@
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "守护"
+							"optionalfeature": "守護"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "坑道斗士|UALightDarkUnderdark"
+							"optionalfeature": "坑道鬥士|UALightDarkUnderdark"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "双武器战斗"
+							"optionalfeature": "雙武器戰鬥"
 						},
 						{
 							"type": "refOptionalfeature",
@@ -1186,7 +1186,7 @@
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "拦截|TCE"
+							"optionalfeature": "攔截|TCE"
 						},
 						{
 							"type": "refOptionalfeature",
@@ -1194,11 +1194,11 @@
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "投掷武器战斗|TCE"
+							"optionalfeature": "投擲武器戰鬥|TCE"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "徒手格斗|TCE"
+							"optionalfeature": "徒手格鬥|TCE"
 						}
 					]
 				}
@@ -1231,7 +1231,7 @@
 			]
 		},
 		{
-			"name": "回气",
+			"name": "回氣",
 			"ENG_name": "Second Wind",
 			"source": "PHB",
 			"page": 72,
@@ -1240,12 +1240,12 @@
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"你拥有有限的充沛精力让你得以利用于保护自己不受伤害。在你的回合，你可以使用一个附赠动作以回复等同于{@dice 1d10} + 你的战士等级的生命值。",
-				"一旦你使用此能力，你必须完成一次短休或长休后才能再使用它。"
+				"你擁有有限的充沛精力讓你得以利用於保護自己不受傷害。在你的回合，你可以使用一個附贈動作以回復等同於{@dice 1d10} + 你的戰士等級的生命值。",
+				"一旦你使用此能力，你必須完成一次短休或長休後才能再使用它。"
 			]
 		},
 		{
-			"name": "动作如潮",
+			"name": "動作如潮",
 			"ENG_name": "Action Surge",
 			"source": "PHB",
 			"page": 72,
@@ -1254,12 +1254,12 @@
 			"classSource": "PHB",
 			"level": 2,
 			"entries": [
-				"从2级开始，你可以短暂地驱策自己超越你的极限。在你的回合，你可以在你原本的动作和可能的附赠动作之后，另外再采取一次额外的动作。",
-				"一旦你使用此能力，你必须完成一次短休或长休后才能再使用它。从17级开始，你可以在一次休息前使用它二次，但同个回合只能使用一次。"
+				"從2級開始，你可以短暫地驅策自己超越你的極限。在你的回合，你可以在你原本的動作和可能的附贈動作之後，另外再採取一次額外的動作。",
+				"一旦你使用此能力，你必須完成一次短休或長休後才能再使用它。從17級開始，你可以在一次休息前使用它二次，但同個回合只能使用一次。"
 			]
 		},
 		{
-			"name": "武术范型",
+			"name": "武術范型",
 			"ENG_name": "Martial Archetype",
 			"source": "PHB",
 			"page": 72,
@@ -1268,11 +1268,11 @@
 			"classSource": "PHB",
 			"level": 3,
 			"entries": [
-				"在3级时，你从可选列表中选择一种你致力在你战斗风格和技巧中达成的范型。你所选择的范型将在3级、7级、10级、15级、和18级时赋予你新的能力。"
+				"在3級時，你從可選列表中選擇一種你致力在你戰鬥風格和技巧中達成的范型。你所選擇的范型將在3級、7級、10級、15級、和18級時賦予你新的能力。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "PHB",
 			"page": 72,
@@ -1281,12 +1281,12 @@
 			"classSource": "PHB",
 			"level": 4,
 			"entries": [
-				"当你在此职业升至4级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能通过这个能力将一个属性值提升至超过20。",
-				"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
+				"當你在此職業升至4級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
+				"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
 			]
 		},
 		{
-			"name": "替换武术",
+			"name": "替換武術",
 			"ENG_name": "Martial Versatility",
 			"source": "TCE",
 			"page": 41,
@@ -1295,13 +1295,13 @@
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 4级战士 {@variantrule 可选职业特性|tce|可选特性}}",
-				"当你的战士职业等级到达能让你获得属性值提升的特性时，你能进行以下一项改变。这种变化代表着你改变了武术训练和练习的重点：",
+				"{@i 4級戰士 {@variantrule 可選職業特性|tce|可選特性}}",
+				"當你的戰士職業等級到達能讓你獲得屬性值提升的特性時，你能進行以下一項改變。這種變化代表著你改變了武術訓練和練習的重點：",
 				{
 					"type": "list",
 					"items": [
-						"用一个战士可用的{@filter 战斗风格|optionalfeatures|feature type=FS:F}替换原有的一个战斗风格。",
-						"如果你通过{@class 战士|phb|战斗大师|Battle Master|phb|2-0}范型掌握了{@filter 战技|optionalfeatures|feature type=MV:B}，你可以将你的一个已知战技替换为一个不同的战技。"
+						"用一個戰士可用的{@filter 戰鬥風格|optionalfeatures|feature type=FS:F}替換原有的一個戰鬥風格。",
+						"如果你通過{@class 戰士|phb|戰鬥大師|Battle Master|phb|2-0}范型掌握了{@filter 戰技|optionalfeatures|feature type=MV:B}，你可以將你的一個已知戰技替換為一個不同的戰技。"
 					]
 				}
 			]
@@ -1321,7 +1321,7 @@
 			]
 		},
 		{
-			"name": "额外攻击",
+			"name": "額外攻擊",
 			"ENG_name": "Extra Attack",
 			"source": "PHB",
 			"page": 72,
@@ -1330,12 +1330,12 @@
 			"classSource": "PHB",
 			"level": 5,
 			"entries": [
-				"从5级开始，每当你在自己回合执行{@action 攻击}动作时，你可以发动两次攻击，而非一次。",
-				"当你在此职业升至11级时，攻击的次数增加到三，且当你在此职业升至20级时，攻击的次数增加到四。"
+				"從5級開始，每當你在自己回合執行{@action 攻擊}動作時，你可以發動兩次攻擊，而非一次。",
+				"當你在此職業升至11級時，攻擊的次數增加到三，且當你在此職業升至20級時，攻擊的次數增加到四。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "PHB",
 			"page": 72,
@@ -1344,8 +1344,8 @@
 			"classSource": "PHB",
 			"level": 6,
 			"entries": [
-				"当你在此职业升至6级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能通过这个能力将一个属性值提升至超过20。",
-				"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
+				"當你在此職業升至6級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
+				"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
 			]
 		},
 		{
@@ -1363,7 +1363,7 @@
 			]
 		},
 		{
-			"name": "武术范型能力",
+			"name": "武術范型能力",
 			"ENG_name": "Martial Archetype feature",
 			"source": "PHB",
 			"page": 72,
@@ -1372,11 +1372,11 @@
 			"classSource": "PHB",
 			"level": 7,
 			"entries": [
-				"在7级时，你获得一个由你武术范型所赋予的能力。"
+				"在7級時，你獲得一個由你武術范型所賦予的能力。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "PHB",
 			"page": 72,
@@ -1385,8 +1385,8 @@
 			"classSource": "PHB",
 			"level": 8,
 			"entries": [
-				"当你在此职业升至8级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能通过这个能力将一个属性值提升至超过20。",
-				"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
+				"當你在此職業升至8級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
+				"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
 			]
 		},
 		{
@@ -1413,12 +1413,12 @@
 			"classSource": "PHB",
 			"level": 9,
 			"entries": [
-				"从9级开始，你可以在你一次失败的豁免检定中重骰。若你这么做，你必须使用新的掷骰结果，且你直到完成一次长休之前都不能再使用此能力。",
-				"从13级开始，你可以在长休之间使用此能力二次，且从17级开始，你可以在长休之间使用此能力三次。"
+				"從9級開始，你可以在你一次失敗的豁免檢定中重骰。若你這麼做，你必須使用新的擲骰結果，且你直到完成一次長休之前都不能再使用此能力。",
+				"從13級開始，你可以在長休之間使用此能力二次，且從17級開始，你可以在長休之間使用此能力三次。"
 			]
 		},
 		{
-			"name": "武术范型能力",
+			"name": "武術范型能力",
 			"ENG_name": "Martial Archetype feature",
 			"source": "PHB",
 			"page": 72,
@@ -1427,11 +1427,11 @@
 			"classSource": "PHB",
 			"level": 10,
 			"entries": [
-				"在10级时，你获得一个由你武术范型所赋予的能力。"
+				"在10級時，你獲得一個由你武術范型所賦予的能力。"
 			]
 		},
 		{
-			"name": "额外攻击(2)",
+			"name": "額外攻擊(2)",
 			"ENG_name": "Extra Attack (2)",
 			"source": "PHB",
 			"page": 72,
@@ -1440,11 +1440,11 @@
 			"classSource": "PHB",
 			"level": 11,
 			"entries": [
-				"从11级开始，每当你在你的回合采取{@action 攻击}动作，你可以攻击三次。"
+				"從11級開始，每當你在你的回合採取{@action 攻擊}動作，你可以攻擊三次。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "PHB",
 			"page": 72,
@@ -1453,8 +1453,8 @@
 			"classSource": "PHB",
 			"level": 12,
 			"entries": [
-				"当你在此职业升至12级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能通过这个能力将一个属性值提升至超过20。",
-				"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
+				"當你在此職業升至12級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
+				"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
 			]
 		},
 		{
@@ -1481,11 +1481,11 @@
 			"classSource": "PHB",
 			"level": 13,
 			"entries": [
-				"在13级时，你可以在长休之间使用不屈二次。"
+				"在13級時，你可以在長休之間使用不屈二次。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "PHB",
 			"page": 72,
@@ -1494,8 +1494,8 @@
 			"classSource": "PHB",
 			"level": 14,
 			"entries": [
-				"当你在此职业升至14级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能通过这个能力将一个属性值提升至超过20。",
-				"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
+				"當你在此職業升至14級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
+				"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
 			]
 		},
 		{
@@ -1513,7 +1513,7 @@
 			]
 		},
 		{
-			"name": "武术范型能力",
+			"name": "武術范型能力",
 			"ENG_name": "Martial Archetype feature",
 			"source": "PHB",
 			"page": 72,
@@ -1522,11 +1522,11 @@
 			"classSource": "PHB",
 			"level": 15,
 			"entries": [
-				"在15级时，你获得一个由你武术范型所赋予的能力。"
+				"在15級時，你獲得一個由你武術范型所賦予的能力。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "PHB",
 			"page": 72,
@@ -1535,8 +1535,8 @@
 			"classSource": "PHB",
 			"level": 16,
 			"entries": [
-				"当你在此职业升至16级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能通过这个能力将一个属性值提升至超过20。",
-				"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
+				"當你在此職業升至16級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
+				"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
 			]
 		},
 		{
@@ -1554,7 +1554,7 @@
 			]
 		},
 		{
-			"name": "动作如潮(2次)",
+			"name": "動作如潮(2次)",
 			"ENG_name": "Action Surge (two uses)",
 			"source": "PHB",
 			"page": 72,
@@ -1563,7 +1563,7 @@
 			"classSource": "PHB",
 			"level": 17,
 			"entries": [
-				"在17级时，你可以在一次休息前使用动作如潮二次，但同个回合只能使用一次。"
+				"在17級時，你可以在一次休息前使用動作如潮二次，但同個回合只能使用一次。"
 			]
 		},
 		{
@@ -1576,11 +1576,11 @@
 			"classSource": "PHB",
 			"level": 17,
 			"entries": [
-				"在17级时，你可以在长休之间使用不屈三次。"
+				"在17級時，你可以在長休之間使用不屈三次。"
 			]
 		},
 		{
-			"name": "武术范型能力",
+			"name": "武術范型能力",
 			"ENG_name": "Martial Archetype feature",
 			"source": "PHB",
 			"page": 72,
@@ -1589,11 +1589,11 @@
 			"classSource": "PHB",
 			"level": 18,
 			"entries": [
-				"在18级时，你获得一个由你武术范型所赋予的能力。"
+				"在18級時，你獲得一個由你武術范型所賦予的能力。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "PHB",
 			"page": 72,
@@ -1602,8 +1602,8 @@
 			"classSource": "PHB",
 			"level": 19,
 			"entries": [
-				"当你在此职业升至19级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能通过这个能力将一个属性值提升至超过20。",
-				"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
+				"當你在此職業升至19級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
+				"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
 			]
 		},
 		{
@@ -1621,7 +1621,7 @@
 			]
 		},
 		{
-			"name": "额外攻击(3)",
+			"name": "額外攻擊(3)",
 			"ENG_name": "Extra Attack (3)",
 			"source": "PHB",
 			"page": 72,
@@ -1630,13 +1630,13 @@
 			"classSource": "PHB",
 			"level": 20,
 			"entries": [
-				"从20级开始，每当你在你的回合采取{@action 攻击}动作，你可以攻击四次。"
+				"從20級開始，每當你在你的回合採取{@action 攻擊}動作，你可以攻擊四次。"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "回音骑士",
+			"name": "回音騎士",
 			"ENG_name": "Echo Knight",
 			"source": "EGW",
 			"page": 183,
@@ -1646,19 +1646,19 @@
 			"subclassSource": "EGW",
 			"level": 3,
 			"entries": [
-				"作为克灵王朝 Kryn Dynasty 的一种神秘并且令人忌惮的前线斗士，回音骑士掌握并运用秘迹 dunamis 的技艺，召唤未能成为现实的众多时间线里的消逝之影，来在协助他们战斗。在自身力量的回音的围绕下，他们冲锋陷阵姿态宛如凶猛来袭的阴影集群。",
+				"作為克靈王朝 Kryn Dynasty 的一種神秘並且令人忌憚的前線鬥士，回音騎士掌握並運用秘跡 dunamis 的技藝，召喚未能成為現實的眾多時間線裡的消逝之影，來在協助他們戰鬥。在自身力量的回音的圍繞下，他們衝鋒陷陣姿態宛如兇猛來襲的陰影集群。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "显现回音|Fighter||Echo Knight|EGW|3"
+					"subclassFeature": "顯現回音|Fighter||Echo Knight|EGW|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "释放化身|Fighter||Echo Knight|EGW|3"
+					"subclassFeature": "釋放化身|Fighter||Echo Knight|EGW|3"
 				}
 			]
 		},
 		{
-			"name": "显现回音",
+			"name": "顯現回音",
 			"ENG_name": "Manifest Echo",
 			"source": "EGW",
 			"page": 183,
@@ -1669,22 +1669,22 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级回音骑士特性}",
-				"你能使用一个附赠动作来在你可见的15尺内，一处尚未被占据的空间处，魔法地显现一个你自身的回音。该回音是魔法的，半透明的，形如你的黑白形象，回音持续直到被摧毁、你用一个附赠动作消解、显现另一个回音，或你处于{@condition 无力}状态。",
-				"你的回音的AC值为 14 + 你的熟练加值，生命值为1，并免疫所有状态。回音需要进行豁免时，使用你的相应豁免的调整值。它的体型和你一样，并且会占据空间。在你的回合时，你能精神性地命令回音朝任意方向移动至多30尺（无需动作）。如果你的回音在你的回合结束时远离你超过30尺，那么它会被摧毁。",
+				"{@i 3級回音騎士特性}",
+				"你能使用一個附贈動作來在你可見的15尺內，一處尚未被占據的空間處，魔法地顯現一個你自身的回音。該回音是魔法的，半透明的，形如你的黑白形象，回音持續直到被摧毀、你用一個附贈動作消解、顯現另一個回音，或你處於{@condition 無力}狀態。",
+				"你的回音的AC值為 14 + 你的熟練加值，生命值為1，並免疫所有狀態。回音需要進行豁免時，使用你的相應豁免的調整值。它的體型和你一樣，並且會占據空間。在你的回合時，你能精神性地命令回音朝任意方向移動至多30尺（無需動作）。如果你的回音在你的回合結束時遠離你超過30尺，那麼它會被摧毀。",
 				"你能按照以下方法使用回音：",
 				{
 					"type": "list",
 					"items": [
-						"使用一个附赠动作，你能消耗15尺的速度进行传送，魔法性地与你的回音交换位置，无论回音与你之间的距离如何。",
-						"当你在你的回合里进行{@action 攻击}动作时，你用该动作进行的任何攻击可以用你或回音的空间作为源点。每一次攻击的源点都由你决定。",
-						"当一个位于你的回音5尺内且你可见的生物尝试远离回音至少5尺时，你能用你的反应动作来对该生物进行一次借机攻击，就如同你位于回音的空间上一样。"
+						"使用一個附贈動作，你能消耗15尺的速度進行傳送，魔法性地與你的回音交換位置，無論回音與你之間的距離如何。",
+						"當你在你的回合裡進行{@action 攻擊}動作時，你用該動作進行的任何攻擊可以用你或回音的空間作為源點。每一次攻擊的源點都由你決定。",
+						"當一個位於你的回音5尺內且你可見的生物嘗試遠離回音至少5尺時，你能用你的反應動作來對該生物進行一次藉機攻擊，就如同你位於回音的空間上一樣。"
 					]
 				}
 			]
 		},
 		{
-			"name": "释放化身",
+			"name": "釋放化身",
 			"ENG_name": "Unleash Incarnation",
 			"source": "EGW",
 			"page": 183,
@@ -1695,9 +1695,9 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级回音骑士特性}",
-				"你能增强你回音的狂怒。无论何时你进行{@action 攻击}动作，你能在回音的位置上进行一次额外的近战攻击。",
-				"你能使用本特性的次数等于你的体质调整值（最少1次）。当你完成一次长休后，你恢复所有已消耗的使用次数。"
+				"{@i 3級回音騎士特性}",
+				"你能增強你回音的狂怒。無論何時你進行{@action 攻擊}動作，你能在回音的位置上進行一次額外的近戰攻擊。",
+				"你能使用本特性的次數等於你的體質調整值（最少1次）。當你完成一次長休後，你恢復所有已消耗的使用次數。"
 			]
 		},
 		{
@@ -1712,12 +1712,12 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"{@i 7级回音骑士特性}",
-				"你能暂时地将你的意识转移到回音上。使用一个动作，你能用你的回音的双眼和双耳来视物与聆听。在这期间，你的本体处于{@condition 耳聋}和{@condition 目盲}。你能维持这种效果至多10分钟，并且你能随时终止该效果（无需动作）。当你用这种方法操纵回音时，它能远离你至多1000尺而不被摧毁。你能维持这种效果至多10分钟，并且你能随时终止该效果（无需动作）。当你用这种方法操纵回音时，它能远离你至多1000尺而不被摧毁。"
+				"{@i 7級回音騎士特性}",
+				"你能暫時地將你的意識轉移到回音上。使用一個動作，你能用你的回音的雙眼和雙耳來視物與聆聽。在這期間，你的本體處於{@condition 耳聾}和{@condition 目盲}。你能維持這種效果至多10分鐘，並且你能隨時終止該效果（無需動作）。當你用這種方法操縱回音時，它能遠離你至多1000尺而不被摧毀。你能維持這種效果至多10分鐘，並且你能隨時終止該效果（無需動作）。當你用這種方法操縱回音時，它能遠離你至多1000尺而不被摧毀。"
 			]
 		},
 		{
-			"name": "阴影殉道者",
+			"name": "陰影殉道者",
 			"ENG_name": "Shadow Martyr",
 			"source": "EGW",
 			"page": 183,
@@ -1728,13 +1728,13 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10级回音骑士特性}",
-				"在一个除你以外的，且你可见的生物受到攻击前，你能让你的回音冲向该生物。在攻击检定投掷前，你能用你的反应动作来传送回音到目标生物周围5尺内，尚未被占据的空间。触发该反应的攻击检定将由你的回音代为承受。",
-				"一旦你使用本特性，直到你完成一次短休或长休前，你不能再次使用。"
+				"{@i 10級回音騎士特性}",
+				"在一個除你以外的，且你可見的生物受到攻擊前，你能讓你的回音衝向該生物。在攻擊檢定投擲前，你能用你的反應動作來傳送回音到目標生物周圍5尺內，尚未被占據的空間。觸發該反應的攻擊檢定將由你的回音代為承受。",
+				"一旦你使用本特性，直到你完成一次短休或長休前，你不能再次使用。"
 			]
 		},
 		{
-			"name": "回收潜能",
+			"name": "回收潛能",
 			"ENG_name": "Reclaim Potential",
 			"source": "EGW",
 			"page": 183,
@@ -1745,13 +1745,13 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"{@i 15级回音骑士特性}",
-				"你已经学会吸收你回音上转瞬即逝的魔力。当你的一个回音因承受伤害而被摧毁，而你也没有临时生命值时，你能够获得等量于{@dice 2d6} + 你的体质调整值的临时生命值。",
-				"你能使用本特性的次数等于你的体质调整值（最少1次）。当你完成一次长休后，你恢复所有已消耗的使用次数。"
+				"{@i 15級回音騎士特性}",
+				"你已經學會吸收你回音上轉瞬即逝的魔力。當你的一個回音因承受傷害而被摧毀，而你也沒有臨時生命值時，你能夠獲得等量於{@dice 2d6} + 你的體質調整值的臨時生命值。",
+				"你能使用本特性的次數等於你的體質調整值（最少1次）。當你完成一次長休後，你恢復所有已消耗的使用次數。"
 			]
 		},
 		{
-			"name": "一人成军",
+			"name": "一人成軍",
 			"ENG_name": "Legion of One",
 			"source": "EGW",
 			"page": 183,
@@ -1762,13 +1762,13 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18级回音骑士特性}",
-				"当你用一个附赠动作使用显现回音时，你能创造两个回音，并且这些回音能够共存。如果你尝试创造第三个回音，那么前面的两个回音就会被摧毁。你能够在其中一个回音的位置上进行的所有事情都能用另一个回音进行替换。",
-				"此外，当你投掷先攻时，如果你的释放化身特性没有剩余可用次数，那么你重获一次释放化身的使用次数。"
+				"{@i 18級回音騎士特性}",
+				"當你用一個附贈動作使用顯現回音時，你能創造兩個回音，並且這些回音能夠共存。如果你嘗試創造第三個回音，那麼前面的兩個回音就會被摧毀。你能夠在其中一個回音的位置上進行的所有事情都能用另一個回音進行替換。",
+				"此外，當你投擲先攻時，如果你的釋放化身特性沒有剩餘可用次數，那麼你重獲一次釋放化身的使用次數。"
 			]
 		},
 		{
-			"name": "战斗大师",
+			"name": "戰鬥大師",
 			"ENG_name": "Battle Master",
 			"source": "PHB",
 			"page": 73,
@@ -1778,18 +1778,18 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
-				"那些致力达成战斗大师范型的人们磨练着代代相传的武术技巧。对于战斗大师而言，战斗是一门学问，有时甚至囊括了战斗以外的专业，像是武器锻造和书法等等。并非所有战士都能吸收那些反映在战斗大师范型中的历史、理论、和艺术等学问，但那些能做到的都是拥有出色技巧和知识的全方位战士。",
+				"那些致力達成戰鬥大師範型的人們磨練著代代相傳的武術技巧。對於戰鬥大師而言，戰鬥是一門學問，有時甚至囊括了戰鬥以外的專業，像是武器鍛造和書法等等。並非所有戰士都能吸收那些反映在戰鬥大師範型中的歷史、理論、和藝術等學問，但那些能做到的都是擁有出色技巧和知識的全方位戰士。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "战争学徒|Fighter||Battle Master||3"
+					"subclassFeature": "戰爭學徒|Fighter||Battle Master||3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "战斗卓越|Fighter||Battle Master||3"
+					"subclassFeature": "戰鬥卓越|Fighter||Battle Master||3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "战技|Fighter||Battle Master||3"
+					"subclassFeature": "戰技|Fighter||Battle Master||3"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -1797,12 +1797,12 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "战技选项|Fighter||Battle Master||3|TCE"
+					"subclassFeature": "戰技選項|Fighter||Battle Master||3|TCE"
 				}
 			]
 		},
 		{
-			"name": "战斗卓越",
+			"name": "戰鬥卓越",
 			"ENG_name": "Combat Superiority",
 			"source": "PHB",
 			"page": 73,
@@ -1813,18 +1813,18 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级战斗大师特性}",
-				"你学会各种战技，并借由被称作卓越骰的特殊骰子驱动它们。",
+				"{@i 3級戰鬥大師特性}",
+				"你學會各種戰技，並藉由被稱作卓越骰的特殊骰子驅動它們。",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "战技",
+							"name": "戰技",
 							"ENG_name": "Maneuvers",
 							"entries": [
-								"你学会三个自选战技，参见下列「战技」条目。许多战技将以某些方式强化一次攻击。你只能为每次攻击使用一种战技。",
-								"你将在7级、10级、和15级时学会二个额外的战技。每次你学会新的战技时，你也可以将一个你已知的战技取代成另一个不同的战技。"
+								"你學會三個自選戰技，參見下列「戰技」條目。許多戰技將以某些方式強化一次攻擊。你只能為每次攻擊使用一種戰技。",
+								"你將在7級、10級、和15級時學會二個額外的戰技。每次你學會新的戰技時，你也可以將一個你已知的戰技取代成另一個不同的戰技。"
 							]
 						}
 					]
@@ -1837,8 +1837,8 @@
 							"name": "卓越骰",
 							"ENG_name": "Superiority Dice",
 							"entries": [
-								"你拥有四颗卓越骰，这四颗卓越骰为{@dice d8}。卓越骰将在你使用战技时被花费。你在完成一次短休或长休后恢复你花费掉的卓越骰。",
-								"你将在7级、和15级时再获得一颗卓越骰。"
+								"你擁有四顆卓越骰，這四顆卓越骰為{@dice d8}。卓越骰將在你使用戰技時被花費。你在完成一次短休或長休後恢復你花費掉的卓越骰。",
+								"你將在7級、和15級時再獲得一顆卓越骰。"
 							]
 						}
 					]
@@ -1848,13 +1848,13 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "豁免检定",
+							"name": "豁免檢定",
 							"ENG_name": "Saving Throws",
 							"entries": [
-								"你的部分战技会要求你的目标进行一次豁免检定以对抗战技的效果。这个豁免检定DC的计算方式如下：",
+								"你的部分戰技會要求你的目標進行一次豁免檢定以對抗戰技的效果。這個豁免檢定DC的計算方式如下：",
 								{
 									"type": "abilityDc",
-									"name": "战技",
+									"name": "戰技",
 									"ENG_name": "Maneuver",
 									"attributes": [
 										"str",
@@ -1868,7 +1868,7 @@
 			]
 		},
 		{
-			"name": "战技选项",
+			"name": "戰技選項",
 			"ENG_name": "Maneuver Options",
 			"source": "TCE",
 			"page": 41,
@@ -1880,8 +1880,8 @@
 			"isClassFeatureVariant": true,
 			"header": 1,
 			"entries": [
-				"{@i 3级战士 {@variantrule 可选职业特性|tce|可选特性}}",
-				"如果你能够使用战技，以下战技将加入可选列表。使用战技的能力可以通过战斗大师武术范型、卓越技巧战斗风格或战技专家专长来获得。",
+				"{@i 3級戰士 {@variantrule 可選職業特性|tce|可選特性}}",
+				"如果你能夠使用戰技，以下戰技將加入可選列表。使用戰技的能力可以通過戰鬥大師武術范型、卓越技巧戰鬥風格或戰技專家專長來獲得。",
 				{
 					"type": "entries",
 					"entries": [
@@ -1890,11 +1890,11 @@
 							"entries": [
 								{
 									"type": "refOptionalfeature",
-									"optionalfeature": "突袭|TCE"
+									"optionalfeature": "突襲|TCE"
 								},
 								{
 									"type": "refOptionalfeature",
-									"optionalfeature": "诱饵战术|TCE"
+									"optionalfeature": "誘餌戰術|TCE"
 								},
 								{
 									"type": "refOptionalfeature",
@@ -1902,19 +1902,19 @@
 								},
 								{
 									"type": "refOptionalfeature",
-									"optionalfeature": "领导风范|TCE"
+									"optionalfeature": "領導風範|TCE"
 								},
 								{
 									"type": "refOptionalfeature",
-									"optionalfeature": "擒拿击|TCE"
+									"optionalfeature": "擒拿擊|TCE"
 								},
 								{
 									"type": "refOptionalfeature",
-									"optionalfeature": "快手投掷|TCE"
+									"optionalfeature": "快手投擲|TCE"
 								},
 								{
 									"type": "refOptionalfeature",
-									"optionalfeature": "战术预估|TCE"
+									"optionalfeature": "戰術預估|TCE"
 								}
 							]
 						}
@@ -1977,7 +1977,7 @@
 			]
 		},
 		{
-			"name": "战技",
+			"name": "戰技",
 			"ENG_name": "Maneuvers",
 			"source": "PHB",
 			"page": 73,
@@ -1988,59 +1988,59 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级战斗大师特性}",
-				"以下战技按英文字母顺序排列。",
+				"{@i 3級戰鬥大師特性}",
+				"以下戰技按英文字母順序排列。",
 				{
 					"type": "options",
 					"count": 3,
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "指挥官奇袭"
+							"optionalfeature": "指揮官奇襲"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "缴械击"
+							"optionalfeature": "繳械擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "扰乱击"
+							"optionalfeature": "擾亂擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "躲闪步伐"
+							"optionalfeature": "躲閃步伐"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "诡诈击"
+							"optionalfeature": "詭詐擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "挑衅击"
+							"optionalfeature": "挑釁擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "突刺击"
+							"optionalfeature": "突刺擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "灵动击"
+							"optionalfeature": "靈動擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "恐吓击"
+							"optionalfeature": "恐嚇擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "格挡"
+							"optionalfeature": "格擋"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "精准击"
+							"optionalfeature": "精準擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "推撞击"
+							"optionalfeature": "推撞擊"
 						},
 						{
 							"type": "refOptionalfeature",
@@ -2048,22 +2048,22 @@
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "反击"
+							"optionalfeature": "反擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "横扫击"
+							"optionalfeature": "橫掃擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "绊摔击"
+							"optionalfeature": "絆摔擊"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "战争学徒",
+			"name": "戰爭學徒",
 			"ENG_name": "Student of War",
 			"source": "PHB",
 			"page": 73,
@@ -2074,12 +2074,12 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级战斗大师特性}",
-				"你获得一种你所选的{@filter 工匠工具|items|source=phb|category=basic|type=artisan tool}的熟练。"
+				"{@i 3級戰鬥大師特性}",
+				"你獲得一種你所選的{@filter 工匠工具|items|source=phb|category=basic|type=artisan tool}的熟練。"
 			]
 		},
 		{
-			"name": "额外战技",
+			"name": "額外戰技",
 			"ENG_name": "Additional Maneuvers",
 			"source": "PHB",
 			"page": 73,
@@ -2090,12 +2090,12 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"{@i 7级战斗大师特性}",
-				"你学会二个你所选择的额外战技。"
+				"{@i 7級戰鬥大師特性}",
+				"你學會二個你所選擇的額外戰技。"
 			]
 		},
 		{
-			"name": "额外卓越骰",
+			"name": "額外卓越骰",
 			"ENG_name": "Additional Superiority Die",
 			"source": "PHB",
 			"page": 73,
@@ -2106,8 +2106,8 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"{@i 7级战斗大师特性}",
-				"你获得一颗额外的卓越骰。"
+				"{@i 7級戰鬥大師特性}",
+				"你獲得一顆額外的卓越骰。"
 			]
 		},
 		{
@@ -2122,24 +2122,24 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"{@i 7级战斗大师特性}",
-				"若你花费至少1分钟的时间在战斗外观察另一个生物或与之交互，则你可以得知某些关于它能力的情报。DM将会告诉你在下列两个你所选择的项目中，该生物的能力是与你相同、强于你、或是弱于你：",
+				"{@i 7級戰鬥大師特性}",
+				"若你花費至少1分鐘的時間在戰鬥外觀察另一個生物或與之交互，則你可以得知某些關於它能力的情報。DM將會告訴你在下列兩個你所選擇的項目中，該生物的能力是與你相同、強於你、或是弱於你：",
 				{
 					"type": "list",
 					"items": [
-						"力量属性值",
-						"敏捷属性值",
-						"体质属性值",
-						"护甲等级",
-						"当前生命值",
-						"总职业等级（若有）",
-						"战士职业等级（若有）"
+						"力量屬性值",
+						"敏捷屬性值",
+						"體質屬性值",
+						"護甲等級",
+						"當前生命值",
+						"總職業等級（若有）",
+						"戰士職業等級（若有）"
 					]
 				}
 			]
 		},
 		{
-			"name": "额外战技",
+			"name": "額外戰技",
 			"ENG_name": "Additional Maneuvers",
 			"source": "PHB",
 			"page": 73,
@@ -2150,12 +2150,12 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10级战斗大师特性}",
-				"你学会二个你所选择的额外战技。"
+				"{@i 10級戰鬥大師特性}",
+				"你學會二個你所選擇的額外戰技。"
 			]
 		},
 		{
-			"name": "精通战斗卓越(d10)",
+			"name": "精通戰鬥卓越(d10)",
 			"ENG_name": "Improved Combat Superiority (d10)",
 			"source": "PHB",
 			"page": 73,
@@ -2166,12 +2166,12 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10级战斗大师特性}",
-				"你的卓越骰变更为{@dice d10}。"
+				"{@i 10級戰鬥大師特性}",
+				"你的卓越骰變更為{@dice d10}。"
 			]
 		},
 		{
-			"name": "额外战技",
+			"name": "額外戰技",
 			"ENG_name": "Additional Maneuvers",
 			"source": "PHB",
 			"page": 73,
@@ -2182,12 +2182,12 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"{@i 15级战斗大师特性}",
-				"你学会二个你所选择的额外战技。"
+				"{@i 15級戰鬥大師特性}",
+				"你學會二個你所選擇的額外戰技。"
 			]
 		},
 		{
-			"name": "额外卓越骰",
+			"name": "額外卓越骰",
 			"ENG_name": "Additional Superiority Die",
 			"source": "PHB",
 			"page": 73,
@@ -2198,12 +2198,12 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"{@i 15级战斗大师特性}",
-				"你获得一颗额外的卓越骰。"
+				"{@i 15級戰鬥大師特性}",
+				"你獲得一顆額外的卓越骰。"
 			]
 		},
 		{
-			"name": "顽强",
+			"name": "頑強",
 			"ENG_name": "Relentless",
 			"source": "PHB",
 			"page": 73,
@@ -2214,12 +2214,12 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"{@i 15级战斗大师特性}",
-				"当你掷先攻时且已经没有剩下的卓越骰时，你获得一颗卓越骰。"
+				"{@i 15級戰鬥大師特性}",
+				"當你擲先攻時且已經沒有剩下的卓越骰時，你獲得一顆卓越骰。"
 			]
 		},
 		{
-			"name": "精通战斗卓越(d12)",
+			"name": "精通戰鬥卓越(d12)",
 			"ENG_name": "Improved Combat Superiority (d12)",
 			"source": "PHB",
 			"page": 73,
@@ -2230,8 +2230,8 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18级战斗大师特性}",
-				"你的卓越骰变更为{@dice d12}。"
+				"{@i 18級戰鬥大師特性}",
+				"你的卓越骰變更為{@dice d12}。"
 			]
 		},
 		{
@@ -2246,15 +2246,15 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"entries": [
-				"勇士范型专注于发展纯粹的身体能力，将其磨练到完美。那些仿效于此范型的人们结合严格的训练和卓越的身体素质以造成最致命的打击。",
+				"勇士范型專注於發展純粹的身體能力，將其磨練到完美。那些仿效於此范型的人們結合嚴格的訓練和卓越的身體素質以造成最致命的打擊。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "强化重击|Fighter||Champion||3"
+					"subclassFeature": "強化重擊|Fighter||Champion||3"
 				}
 			]
 		},
 		{
-			"name": "强化重击",
+			"name": "強化重擊",
 			"ENG_name": "Improved Critical",
 			"source": "PHB",
 			"page": 72,
@@ -2266,12 +2266,12 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级勇士特性}",
-				"你的武器攻击将在骰出19或20时造成重击。"
+				"{@i 3級勇士特性}",
+				"你的武器攻擊將在骰出19或20時造成重擊。"
 			]
 		},
 		{
-			"name": "运动健将",
+			"name": "運動健將",
 			"ENG_name": "Remarkable Athlete",
 			"source": "PHB",
 			"page": 72,
@@ -2283,13 +2283,13 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"{@i 7级勇士特性}",
-				"你可以将你熟练加值的一半（向上取整）加入任何你尚未加入熟练加值的力量、敏捷、或体质检定中。",
-				"此外，当你进行助跑跳远时，你可以跨越的距离将增加等同于你力量调整值的尺数。"
+				"{@i 7級勇士特性}",
+				"你可以將你熟練加值的一半（向上取整）加入任何你尚未加入熟練加值的力量、敏捷、或體質檢定中。",
+				"此外，當你進行助跑跳遠時，你可以跨越的距離將增加等同於你力量調整值的尺數。"
 			]
 		},
 		{
-			"name": "额外战斗风格",
+			"name": "額外戰鬥風格",
 			"ENG_name": "Additional Fighting Style",
 			"source": "PHB",
 			"page": 72,
@@ -2301,12 +2301,12 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10级勇士特性}",
-				"你可以从战斗风格的职业能力中选择第二个选项。"
+				"{@i 10級勇士特性}",
+				"你可以從戰鬥風格的職業能力中選擇第二個選項。"
 			]
 		},
 		{
-			"name": "卓越重击",
+			"name": "卓越重擊",
 			"ENG_name": "Superior Critical",
 			"source": "PHB",
 			"page": 72,
@@ -2318,12 +2318,12 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"{@i 15级勇士特性}",
-				"你的武器攻击将在骰出18~20时造成重击。"
+				"{@i 15級勇士特性}",
+				"你的武器攻擊將在骰出18~20時造成重擊。"
 			]
 		},
 		{
-			"name": "生还者",
+			"name": "生還者",
 			"ENG_name": "Survivor",
 			"source": "PHB",
 			"page": 72,
@@ -2335,12 +2335,12 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18级勇士特性}",
-				"你领悟了战斗中的强韧的巅峰。在你的每个回合开始时，若你剩余的生命值不超过最大值的一半，则你回复等同于5 + 你的体质调整值的生命值。你并不会在生命值为零时获得这个好处。"
+				"{@i 18級勇士特性}",
+				"你領悟了戰鬥中的強韌的巔峰。在你的每個回合開始時，若你剩餘的生命值不超過最大值的一半，則你回復等同於5 + 你的體質調整值的生命值。你並不會在生命值為零時獲得這個好處。"
 			]
 		},
 		{
-			"name": "魔能骑士",
+			"name": "魔能騎士",
 			"ENG_name": "Eldritch Knight",
 			"source": "PHB",
 			"page": 74,
@@ -2357,7 +2357,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "武器联结|Fighter||Eldritch Knight||3"
+					"subclassFeature": "武器聯結|Fighter||Eldritch Knight||3"
 				}
 			]
 		},
@@ -2373,13 +2373,13 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级魔能骑士特性}",
-				"你以施放法术的能力增进了你的战斗实力。请参阅{@book 第十章|PHB|10}以了解关于施法的规则，以及第十一章以查阅{@filter 法师法术列表|spells|class=wizard}。",
+				"{@i 3級魔能騎士特性}",
+				"你以施放法術的能力增進了你的戰鬥實力。請參閱{@book 第十章|PHB|10}以了解關於施法的規則，以及第十一章以查閱{@filter 法師法術列表|spells|class=wizard}。",
 				{
 					"type": "entries",
-					"name": "戏法",
+					"name": "戲法",
 					"entries": [
-						"你学会二个从{@filter 法师法术列表|spells|class=wizard}自选的戏法。你将在10级时学会一个额外的法师戏法。"
+						"你學會二個從{@filter 法師法術列表|spells|class=wizard}自選的戲法。你將在10級時學會一個額外的法師戲法。"
 					]
 				},
 				{
@@ -2387,10 +2387,10 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "法术位",
+							"name": "法術位",
 							"entries": [
-								"魔能骑士施法表中显示了你有多少个法术位可以用来施放你一环或更高环的{@filter 法师法术|spells|class=wizard}。要施放其中一个法术，你必须消耗一个与该法术环阶相同或更高的法术位。你在完成一次长休后恢复所有你花费掉的法术位。",
-								"举例来说，如果你知晓一个1环法术{@spell 护盾术}，且你拥有一个1环和一个2环的法术位，则你可以使用其中任意一个法术位来施放{@spell 护盾术}。"
+								"魔能騎士施法表中顯示了你有多少個法術位可以用來施放你一環或更高環的{@filter 法師法術|spells|class=wizard}。要施放其中一個法術，你必須消耗一個與該法術環階相同或更高的法術位。你在完成一次長休後恢復所有你花費掉的法術位。",
+								"舉例來說，如果你知曉一個1環法術{@spell 護盾術}，且你擁有一個1環和一個2環的法術位，則你可以使用其中任意一個法術位來施放{@spell 護盾術}。"
 							]
 						}
 					]
@@ -2400,12 +2400,12 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "一环或更高环的已知法术",
+							"name": "一環或更高環的已知法術",
 							"entries": [
-								"你知晓三个从法师法术列表中自选的1环法术，其中二个必须从法师法术列表中的防护系和塑能系法术中选择。",
-								"魔能骑士施法表中的已知法术字段显示了你会在何时学习到新的1环或更高环的法师法术。每个这些法术都必须是一个防护系或塑能系法术，且环阶也必须符合你所拥有法术位的环阶。举例来说，当你在此职业升至7级时，你可以学习一个新的1环或2环法术。",
-								"你在8级、14级、和20级时所学会的法术可以来自任何魔法学派。",
-								"每当你提升这个职业的等级时，你可以从法师法术列表中挑选一个法术来取代一个你目前已知的法师法术。新法术的环阶必须符合你所拥有法术位的环阶，且它必须是一个防护系或塑能系法术，除非你取代的法术是你在3级、8级、14级、或20级时所获得的来自任意魔法学派的法术。"
+								"你知曉三個從法師法術列表中自選的1環法術，其中二個必須從法師法術列表中的防護系和塑能系法術中選擇。",
+								"魔能騎士施法表中的已知法術欄位顯示了你會在何時學習到新的1環或更高環的法師法術。每個這些法術都必須是一個防護系或塑能系法術，且環階也必須符合你所擁有法術位的環階。舉例來說，當你在此職業升至7級時，你可以學習一個新的1環或2環法術。",
+								"你在8級、14級、和20級時所學會的法術可以來自任何魔法學派。",
+								"每當你提升這個職業的等級時，你可以從法師法術列表中挑選一個法術來取代一個你目前已知的法師法術。新法術的環階必須符合你所擁有法術位的環階，且它必須是一個防護系或塑能系法術，除非你取代的法術是你在3級、8級、14級、或20級時所獲得的來自任意魔法學派的法術。"
 							]
 						}
 					]
@@ -2415,19 +2415,19 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "施法属性",
+							"name": "施法屬性",
 							"entries": [
 								"Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.",
 								{
 									"type": "abilityDc",
-									"name": "法术",
+									"name": "法術",
 									"attributes": [
 										"int"
 									]
 								},
 								{
 									"type": "abilityAttackMod",
-									"name": "法术",
+									"name": "法術",
 									"attributes": [
 										"int"
 									]
@@ -2439,7 +2439,7 @@
 			]
 		},
 		{
-			"name": "武器联结",
+			"name": "武器聯結",
 			"ENG_name": "Weapon Bond",
 			"source": "PHB",
 			"page": 74,
@@ -2450,14 +2450,14 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级魔能骑士特性}",
-				"你学会一个用以在你和一把武器间创造出魔法联结的仪式。施展这个仪式的过程需要1小时，且可以在短休期间被施展。这把武器必须在整个仪式的过程中处于你的触及范围内，且在仪式结束时，你触碰该武器并创造出联结。",
-				"一旦你与一把武器创建联结，则除非你处于{@condition 无力}状态，否则你的联结武器不会被缴械。若该武器与你处于相同的存在位面，你可以在你的回合以一个附赠动作召唤该武器，使它瞬间被传送到你手中。",
-				"你可以有最多二把联结武器，但在只能以附赠动作一次召唤一把。若你尝试与第三把武器创建联结，则你必须打破与另外两把其中之一的联结。"
+				"{@i 3級魔能騎士特性}",
+				"你學會一個用以在你和一把武器間創造出魔法聯結的儀式。施展這個儀式的過程需要1小時，且可以在短休期間被施展。這把武器必須在整個儀式的過程中處於你的觸及範圍內，且在儀式結束時，你觸碰該武器並創造出聯結。",
+				"一旦你與一把武器創建聯結，則除非你處於{@condition 無力}狀態，否則你的聯結武器不會被繳械。若該武器與你處於相同的存在位面，你可以在你的回合以一個附贈動作召喚該武器，使它瞬間被傳送到你手中。",
+				"你可以有最多二把聯結武器，但在只能以附贈動作一次召喚一把。若你嘗試與第三把武器創建聯結，則你必須打破與另外兩把其中之一的聯結。"
 			]
 		},
 		{
-			"name": "战争魔法",
+			"name": "戰爭魔法",
 			"ENG_name": "War Magic",
 			"source": "PHB",
 			"page": 74,
@@ -2468,12 +2468,12 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"{@i 7级魔能骑士特性}",
-				"当你使用你的动作以施放一个戏法，你能够以一个附赠动作进行一次武器攻击。"
+				"{@i 7級魔能騎士特性}",
+				"當你使用你的動作以施放一個戲法，你能夠以一個附贈動作進行一次武器攻擊。"
 			]
 		},
 		{
-			"name": "魔能打击",
+			"name": "魔能打擊",
 			"ENG_name": "Eldritch Strike",
 			"source": "PHB",
 			"page": 74,
@@ -2484,12 +2484,12 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10级魔能骑士特性}",
-				"你学会如何让你的武器打击削弱一个生物对你法术的抗性。当你以一次武器攻击命中一个生物，直到你的下个回合结束之前，该生物在下一次对抗你所施放法术时所进行的豁免检定将具有劣势。"
+				"{@i 10級魔能騎士特性}",
+				"你學會如何讓你的武器打擊削弱一個生物對你法術的抗性。當你以一次武器攻擊命中一個生物，直到你的下個回合結束之前，該生物在下一次對抗你所施放法術時所進行的豁免檢定將具有劣勢。"
 			]
 		},
 		{
-			"name": "秘法冲锋",
+			"name": "秘法衝鋒",
 			"ENG_name": "Arcane Charge",
 			"source": "PHB",
 			"page": 74,
@@ -2500,12 +2500,12 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"{@i 15级魔能骑士特性}",
-				"你可以在使用你的动作如潮能力时，传送最多30尺距离到一处你所能看见的未被占据空间。你可以在进行额外动作之前或之后传送。"
+				"{@i 15級魔能騎士特性}",
+				"你可以在使用你的動作如潮能力時，傳送最多30尺距離到一處你所能看見的未被占據空間。你可以在進行額外動作之前或之後傳送。"
 			]
 		},
 		{
-			"name": "精通战争魔法",
+			"name": "精通戰爭魔法",
 			"ENG_name": "Improved War Magic",
 			"source": "PHB",
 			"page": 74,
@@ -2516,12 +2516,12 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18级魔能骑士特性}",
-				"当你使用你的动作以施放一个法术，你能够以一个附赠动作进行一次武器攻击。"
+				"{@i 18級魔能騎士特性}",
+				"當你使用你的動作以施放一個法術，你能夠以一個附贈動作進行一次武器攻擊。"
 			]
 		},
 		{
-			"name": "紫龙骑士（旗将）",
+			"name": "紫龍騎士（旗將）",
 			"ENG_name": "Purple Dragon Knight (Banneret)",
 			"source": "SCAG",
 			"page": 128,
@@ -2531,22 +2531,22 @@
 			"subclassSource": "SCAG",
 			"level": 3,
 			"entries": [
-				"{@i 3级紫龙骑士（旗将）特性}",
-				"紫龙骑士是一群来自科米尔王国的战士。承诺于守护君王，它们对抗着来自王国疆域外的邪恶。他们的任务是作为游骑兵巡游祖国的土地，靠着判断、勇敢、以及忠诚以指引他们击败为恶者。",
-				"一名紫龙骑士能透过在战斗中的英勇表现以激励他人心中的崇高。在小村庄内，仅仅是一名骑士的存在就足以让兽人和土匪们放弃而另寻其他猎物。单独的骑士仅仅是一名技艺娴熟的战士，而当一名骑士领导着一队盟友，则即使是装备最差的民兵也将被转变成一队凶猛的军队。",
-				"骑士倾向于透过行动，而非话语带领众人。当骑士带头冲锋进攻时，骑士那勇敢的行动将唤醒友军那深藏于心中，就连自己也未曾想过的强大勇气和信念。",
+				"{@i 3級紫龍騎士（旗將）特性}",
+				"紫龍騎士是一群來自科米爾王國的戰士。承諾於守護君王，它們對抗著來自王國疆域外的邪惡。他們的任務是作為遊騎兵巡遊祖國的土地，靠著判斷、勇敢、以及忠誠以指引他們擊敗為惡者。",
+				"一名紫龍騎士能透過在戰鬥中的英勇表現以激勵他人心中的崇高。在小村莊內，僅僅是一名騎士的存在就足以讓獸人和土匪們放棄而另尋其他獵物。單獨的騎士僅僅是一名技藝嫻熟的戰士，而當一名騎士領導著一隊盟友，則即使是裝備最差的民兵也將被轉變成一隊兇猛的軍隊。",
+				"騎士傾向於透過行動，而非話語帶領眾人。當騎士帶頭衝鋒進攻時，騎士那勇敢的行動將喚醒友軍那深藏於心中，就連自己也未曾想過的強大勇氣和信念。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "限制：骑士爵位|Fighter||Purple Dragon Knight (Banneret)|SCAG|3"
+					"subclassFeature": "限制：騎士爵位|Fighter||Purple Dragon Knight (Banneret)|SCAG|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "鼓舞战吼|Fighter||Purple Dragon Knight (Banneret)|SCAG|3"
+					"subclassFeature": "鼓舞戰吼|Fighter||Purple Dragon Knight (Banneret)|SCAG|3"
 				}
 			]
 		},
 		{
-			"name": "鼓舞战吼",
+			"name": "鼓舞戰吼",
 			"ENG_name": "Rallying Cry",
 			"source": "SCAG",
 			"page": 128,
@@ -2557,13 +2557,13 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级紫龙骑士（旗将）特性}",
-				"你学会如何激励你的盟友们战胜他们过去的伤害。",
-				"当你使用你的回气能力，你可以选择最多三个距离你60尺内且与你同盟的生物。只要他们可以看见或听见你，他们将各自回复等同于你战士等级的生命值。"
+				"{@i 3級紫龍騎士（旗將）特性}",
+				"你學會如何激勵你的盟友們戰勝他們過去的傷害。",
+				"當你使用你的回氣能力，你可以選擇最多三個距離你60尺內且與你同盟的生物。只要他們可以看見或聽見你，他們將各自回復等同於你戰士等級的生命值。"
 			]
 		},
 		{
-			"name": "限制：骑士爵位",
+			"name": "限制：騎士爵位",
 			"ENG_name": "Restriction: Knighthood",
 			"source": "SCAG",
 			"page": 128,
@@ -2574,9 +2574,9 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级紫龙骑士（旗将）特性}",
-				"紫龙骑士绑定于科米尔骑士爵位中的一个特别阶级。",
-				"若你想在其他战役设置或想塑造一个不同于紫龙骑士的军阀，「旗将」将作为这个范型的通用称呼。"
+				"{@i 3級紫龍騎士（旗將）特性}",
+				"紫龍騎士綁定於科米爾騎士爵位中的一個特別階級。",
+				"若你想在其他戰役設置或想塑造一個不同於紫龍騎士的軍閥，「旗將」將作為這個范型的通用稱呼。"
 			]
 		},
 		{
@@ -2591,14 +2591,14 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"{@i 7级紫龙骑士（旗将）特性}",
-				"紫龙骑士作为科米尔王室的外交特使。地位显赫的骑士们被认为其举止应当优雅。",
-				"在7级时，你获得{@skill 说服}技能的熟练。若你已经熟练于它，则你可以选择获得下列其中一个技能的熟练：{@skill 驯兽}、{@skill 洞悉}、{@skill 威吓}或{@skill 表演}。",
-				"你的熟练加值在你进行任何使用{@skill 说服}技能的属性检定时变为两倍。无论你是否通过此能力获得该技能的熟练，你都能享有这个好处。"
+				"{@i 7級紫龍騎士（旗將）特性}",
+				"紫龍騎士作為科米爾王室的外交特使。地位顯赫的騎士們被認為其舉止應當優雅。",
+				"在7級時，你獲得{@skill 說服}技能的熟練。若你已經熟練於它，則你可以選擇獲得下列其中一個技能的熟練：{@skill 馴獸}、{@skill 洞悉}、{@skill 威嚇}或{@skill 表演}。",
+				"你的熟練加值在你進行任何使用{@skill 說服}技能的屬性檢定時變為兩倍。無論你是否透過此能力獲得該技能的熟練，你都能享有這個好處。"
 			]
 		},
 		{
-			"name": "振奋之潮",
+			"name": "振奮之潮",
 			"ENG_name": "Inspiring Surge",
 			"source": "SCAG",
 			"page": 128,
@@ -2609,13 +2609,13 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10级紫龙骑士（旗将）特性}",
-				"当你使用你的动作如潮能力，你可以选择一个距离你60尺内且与你同盟的生物。只要它可以看见或听见你，该生物就能够以它的反应进行一次近战或远程武器攻击。",
-				"从18级开始·你可以选择二个距离你60尺内且与你同盟的生物，而非一个。"
+				"{@i 10級紫龍騎士（旗將）特性}",
+				"當你使用你的動作如潮能力，你可以選擇一個距離你60尺內且與你同盟的生物。只要它可以看見或聽見你，該生物就能夠以它的反應進行一次近戰或遠程武器攻擊。",
+				"從18級開始·你可以選擇二個距離你60尺內且與你同盟的生物，而非一個。"
 			]
 		},
 		{
-			"name": "意志壁垒",
+			"name": "意志壁壘",
 			"ENG_name": "Bulwark",
 			"source": "SCAG",
 			"page": 128,
@@ -2626,12 +2626,12 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"{@i 15级紫龙骑士（旗将）特性}",
-				"你可以将你不屈能力的好处扩展到一个盟友身上。当你决定使用不屈能力以重骰一次智力、感知、或魅力豁免检定，且你不处于{@condition 无力}状态时，你可以选择一个距离你60尺内，且在对抗相同效果的豁免检定中失败的盟友。若该生物可以看见或听见你，则它也可以重骰它的豁免检定，且必须使用新的掷骰结果。"
+				"{@i 15級紫龍騎士（旗將）特性}",
+				"你可以將你不屈能力的好處擴展到一個盟友身上。當你決定使用不屈能力以重骰一次智力、感知、或魅力豁免檢定，且你不處於{@condition 無力}狀態時，你可以選擇一個距離你60尺內，且在對抗相同效果的豁免檢定中失敗的盟友。若該生物可以看見或聽見你，則它也可以重骰它的豁免檢定，且必須使用新的擲骰結果。"
 			]
 		},
 		{
-			"name": "振奋之潮",
+			"name": "振奮之潮",
 			"ENG_name": "Inspiring Surge",
 			"source": "SCAG",
 			"page": 128,
@@ -2642,12 +2642,12 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18级紫龙骑士（旗将）特性}",
-				"你可以选择二个距离你60尺内且与你同盟的生物，而非一个。"
+				"{@i 18級紫龍騎士（旗將）特性}",
+				"你可以選擇二個距離你60尺內且與你同盟的生物，而非一個。"
 			]
 		},
 		{
-			"name": "灵能武士",
+			"name": "靈能武士",
 			"ENG_name": "Psi Warrior",
 			"source": "TCE",
 			"page": 42,
@@ -2657,16 +2657,16 @@
 			"subclassSource": "TCE",
 			"level": 3,
 			"entries": [
-				"觉醒了内在心灵力量的灵能战士使用灌注灵能力量的武器攻击、念力鞭挞和灵能屏障来强化自己肉体力量的战士。很多吉斯洋基人受训成为这样的战士，一些极度自律的高等精灵也会这么做。在艾伯伦的世界中，许多年轻的离梦人（kalashtar）梦想着成为灵能武士。",
-				"作为一个灵能武士，你必须通过极度的自律来磨砺灵能力量，在一个大师的指导下觉醒，或在一个学院中精进对于灵能粉尘化为武器或盾牌力量的掌握。",
+				"覺醒了內在心靈力量的靈能戰士使用灌注靈能力量的武器攻擊、念力鞭撻和靈能屏障來強化自己肉體力量的戰士。很多吉斯洋基人受訓成為這樣的戰士，一些極度自律的高等精靈也會這麼做。在艾伯倫的世界中，許多年輕的離夢人（kalashtar）夢想著成為靈能武士。",
+				"作為一個靈能武士，你必須透過極度的自律來磨礪靈能力量，在一個大師的指導下覺醒，或在一個學院中精進對於靈能粉塵化為武器或盾牌力量的掌握。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "灵能力量|Fighter||Psi Warrior|TCE|3"
+					"subclassFeature": "靈能力量|Fighter||Psi Warrior|TCE|3"
 				}
 			]
 		},
 		{
-			"name": "灵能力量",
+			"name": "靈能力量",
 			"ENG_name": "Psionic Power",
 			"source": "TCE",
 			"page": 42,
@@ -2677,22 +2677,22 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级灵能武士特性}",
-				"你内心拥有一个灵能力量的源泉。这股能量表现为每个{@dice d6}的灵能骰。你拥有两倍熟练加值的灵能骰数量，且它们为你所拥有的各种心灵异能提供能量，详情如下。",
-				"你在使用一些能力时需要消耗灵能骰，如异能描述中所述，如果一些异能在你的灵能骰全部掷完后还需要你使用一个灵能骰，你就不能使用该异能。你可以在完成一次长休后恢复所有已使用的灵能骰。此外，你可以使用一个附赠动作重新获得一个已使用的灵能骰，但你在完成一次短休或长休之前不能再次获得。",
-				"当你在此职业升级到特定等级时，你的灵能骰大小有所增长：5级（{@dice d8}），11级（{@dice d10}），17级（{@dice d12}）。",
-				"可以在以下异能使用你的灵能骰。",
+				"{@i 3級靈能武士特性}",
+				"你內心擁有一個靈能力量的源泉。這股能量表現為每個{@dice d6}的靈能骰。你擁有兩倍熟練加值的靈能骰數量，且它們為你所擁有的各種心靈異能提供能量，詳情如下。",
+				"你在使用一些能力時需要消耗靈能骰，如異能描述中所述，如果一些異能在你的靈能骰全部擲完後還需要你使用一個靈能骰，你就不能使用該異能。你可以在完成一次長休後恢復所有已使用的靈能骰。此外，你可以使用一個附贈動作重新獲得一個已使用的靈能骰，但你在完成一次短休或長休之前不能再次獲得。",
+				"當你在此職業升級到特定等級時，你的靈能骰大小有所增長：5級（{@dice d8}），11級（{@dice d10}），17級（{@dice d12}）。",
+				"可以在以下異能使用你的靈能骰。",
 				{
 					"type": "options",
 					"style": "list-hang-notitle",
 					"entries": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "庇护力场|Fighter|TCE|Psi Warrior|TCE|3"
+							"subclassFeature": "庇護力場|Fighter|TCE|Psi Warrior|TCE|3"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "灵能击打|Fighter|TCE|Psi Warrior|TCE|3"
+							"subclassFeature": "靈能擊打|Fighter|TCE|Psi Warrior|TCE|3"
 						},
 						{
 							"type": "refSubclassFeature",
@@ -2703,7 +2703,7 @@
 			]
 		},
 		{
-			"name": "念力擅长",
+			"name": "念力擅長",
 			"ENG_name": "Telekinetic Adept",
 			"source": "TCE",
 			"page": 42,
@@ -2714,15 +2714,15 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"{@i 7级灵能武士特性}",
-				"你已经掌握了使用念力异能的新方式，细节如下。",
+				"{@i 7級靈能武士特性}",
+				"你已經掌握了使用念力異能的新方式，細節如下。",
 				{
 					"type": "options",
 					"style": "list-hang-notitle",
 					"entries": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "灵力跃动|Fighter|TCE|Psi Warrior|TCE|7"
+							"subclassFeature": "靈力躍動|Fighter|TCE|Psi Warrior|TCE|7"
 						},
 						{
 							"type": "refSubclassFeature",
@@ -2733,7 +2733,7 @@
 			]
 		},
 		{
-			"name": "意念守护",
+			"name": "意念守護",
 			"ENG_name": "Guarded Mind",
 			"source": "TCE",
 			"page": 42,
@@ -2744,12 +2744,12 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10级灵能武士特性}",
-				"被灵能力量沐浴的你，意念得到增强。你对于心灵伤害有抗性。此外，如果你在你的回合开始时处于{@condition 魅惑}或{@condition 恐惧}的状态，你可以消耗一个灵能骰并结束这些状态对你的影响。"
+				"{@i 10級靈能武士特性}",
+				"被靈能力量沐浴的你，意念得到增強。你對於心靈傷害有抗性。此外，如果你在你的回合開始時處於{@condition 魅惑}或{@condition 恐懼}的狀態，你可以消耗一個靈能骰並結束這些狀態對你的影響。"
 			]
 		},
 		{
-			"name": "壁垒之力",
+			"name": "壁壘之力",
 			"ENG_name": "Bulwark of Force",
 			"source": "TCE",
 			"page": 42,
@@ -2760,13 +2760,13 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"{@i 15级灵能武士特性}",
-				"你可以使用念力庇护你自己和其他人。你可以使用一个附赠动作选择一些可包括你在内且30尺对你可见生物，数量等于你的智力调整值（最少为1）。每个被选中的生物获得一分钟的半掩蔽状态，该状态将会在你{@condition 无力}时提前结束。",
-				"每当你使用这个附赠动作，你无法再次使用该特性直到你完成一次长休，除非你消耗一个灵能骰来再次使用该特性。"
+				"{@i 15級靈能武士特性}",
+				"你可以使用念力庇護你自己和其他人。你可以使用一個附贈動作選擇一些可包括你在內且30尺對你可見生物，數量等於你的智力調整值（最少為1）。每個被選中的生物獲得一分鐘的半掩蔽狀態，該狀態將會在你{@condition 無力}時提前結束。",
+				"每當你使用這個附贈動作，你無法再次使用該特性直到你完成一次長休，除非你消耗一個靈能骰來再次使用該特性。"
 			]
 		},
 		{
-			"name": "念力宗师",
+			"name": "念力宗師",
 			"ENG_name": "Telekinetic Master",
 			"source": "TCE",
 			"page": 42,
@@ -2777,13 +2777,13 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18级灵能武士特性}",
-				"你用意念移动生物和物体的能力无人能及。你可以在无需施法材料的情况下施展{@spell 心灵遥控}，此时你的施法关键属性为智力。在你的每一个对该法术维持专注的回合，包括你使用它的回合，你可以使用一个附赠动作进行一次武器攻击。",
-				"每当你使用以特性施放此法术，你无法再次使用该特性直到你完成一次长休，除非你消耗一个灵能骰来再次使用该特性。"
+				"{@i 18級靈能武士特性}",
+				"你用意念移動生物和物體的能力無人能及。你可以在無需施法材料的情況下施展{@spell 心靈遙控}，此時你的施法關鍵屬性為智力。在你的每一個對該法術維持專注的回合，包括你使用它的回合，你可以使用一個附贈動作進行一次武器攻擊。",
+				"每當你使用以特性施放此法術，你無法再次使用該特性直到你完成一次長休，除非你消耗一個靈能骰來再次使用該特性。"
 			]
 		},
 		{
-			"name": "符文骑士",
+			"name": "符文騎士",
 			"ENG_name": "Rune Knight",
 			"source": "TCE",
 			"page": 44,
@@ -2793,10 +2793,10 @@
 			"subclassSource": "TCE",
 			"level": 3,
 			"entries": [
-				"符文骑士使用超自然符文和沿袭于远古巨人传统的力量来增强他们的威能。在任何一个巨人家族中，符文切割者随处可见，并且你很可能直接或间接地从这样一个神秘的工匠那里学到了你的方法。无论你是在山丘或洞穴中发现了巨人的雕刻艺术；跟从贤者研习符文；或是亲自和巨人会面，你研究巨人的工艺并学会了如何使用魔法符文来增强你的装备。",
+				"符文騎士使用超自然符文和沿襲於遠古巨人傳統的力量來增強他們的威能。在任何一個巨人家族中，符文切割者隨處可見，並且你很可能直接或間接地從這樣一個神秘的工匠那裡學到了你的方法。無論你是在山丘或洞穴中發現了巨人的雕刻藝術；跟從賢者研習符文；或是親自和巨人會面，你研究巨人的工藝並學會了如何使用魔法符文來增強你的裝備。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "额外熟练项|Fighter||Rune Knight|TCE|3"
+					"subclassFeature": "額外熟練項|Fighter||Rune Knight|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -2809,7 +2809,7 @@
 			]
 		},
 		{
-			"name": "额外熟练项",
+			"name": "額外熟練項",
 			"ENG_name": "Bonus Proficiencies",
 			"source": "TCE",
 			"page": 44,
@@ -2820,8 +2820,8 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级符文骑士特性}",
-				"你获得对于{@item 铁匠工具|PHB}的熟练项，并且你学会了说、读和写{@language Giant}。"
+				"{@i 3級符文騎士特性}",
+				"你獲得對於{@item 鐵匠工具|PHB}的熟練項，並且你學會了說、讀和寫{@language Giant}。"
 			]
 		},
 		{
@@ -2836,17 +2836,17 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级符文骑士特性}",
-				"你已经学会了如何使用巨人之力灌注自身。你可以使用一个附赠动作，魔法性地获得以下能力，持续一分钟：",
+				"{@i 3級符文騎士特性}",
+				"你已經學會了如何使用巨人之力灌注自身。你可以使用一個附贈動作，魔法性地獲得以下能力，持續一分鐘：",
 				{
 					"type": "list",
 					"items": [
-						"如果你的体型小于大型，你和你所穿戴的所有物品一起变为大型。如果你缺少变为大型的空间，则你的体型无法发生变化。",
-						"你在力量检定和力量豁免检定上获得优势。",
-						"你的每回合内一次，你的武器攻击或徒手打击可以在击中后对目标造成额外{@damage 1d6}的伤害。"
+						"如果你的體型小於大型，你和你所穿戴的所有物品一起變為大型。如果你缺少變為大型的空間，則你的體型無法發生變化。",
+						"你在力量檢定和力量豁免檢定上獲得優勢。",
+						"你的每回合內一次，你的武器攻擊或徒手打擊可以在擊中後對目標造成額外{@damage 1d6}的傷害。"
 					]
 				},
-				"该特性的可使用次数等于你的熟练加值，且你可以在完成一次长休之后恢复所有已使用的次数。"
+				"該特性的可使用次數等於你的熟練加值，且你可以在完成一次長休之後恢復所有已使用的次數。"
 			]
 		},
 		{
@@ -2861,15 +2861,15 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级符文骑士特性}",
-				"你可以使用魔法符文来增强你的装备。你可以从下列的被描述的符文当中，选择并学会两个符文，且每当你在此职业中升一级，你可以从此特性中选择一个不同的符文来替换一个你已知的符文。当你达到特定的职业等级，你可以学会更多的符文，具体数量如\"符文已知表\"所示。",
-				"每当你完成了一次长休，你可以接触数量等于你已知符文数物品，并在每个物品上铭刻不同的符文。符合条件的物品必须为一把武器、一套盔甲、一面盾牌、一件首饰或者任何其他你可以穿着或手持的物品。你的符文会保留在物品上直到你完成一次长休，且一件物品同时只能承载你的一个符文。",
+				"{@i 3級符文騎士特性}",
+				"你可以使用魔法符文來增強你的裝備。你可以從下列的被描述的符文當中，選擇並學會兩個符文，且每當你在此職業中升一級，你可以從此特性中選擇一個不同的符文來替換一個你已知的符文。當你達到特定的職業等級，你可以學會更多的符文，具體數量如\"符文已知表\"所示。",
+				"每當你完成了一次長休，你可以接觸數量等於你已知符文數物品，並在每個物品上銘刻不同的符文。符合條件的物品必須為一把武器、一套盔甲、一面盾牌、一件首飾或者任何其他你可以穿著或手持的物品。你的符文會保留在物品上直到你完成一次長休，且一件物品同時只能承載你的一個符文。",
 				{
 					"type": "table",
 					"caption": "符文已知",
 					"colLabels": [
-						"战士等级",
-						"符文数量"
+						"戰士等級",
+						"符文數量"
 					],
 					"colStyles": [
 						"col-6 text-center",
@@ -2894,14 +2894,14 @@
 						]
 					]
 				},
-				"当你研习符文时，下列的符文成为了你的可选项。如果一个符文具有等级需求，你的战士等级必须达到相应等级才能研习该符文。如果一个符文需要通过豁免检定，你的符文魔法的豁免DC等于8 + 你的熟练加值 + 你的体质调整值。",
+				"當你研習符文時，下列的符文成為了你的可選項。如果一個符文具有等級需求，你的戰士等級必須達到相應等級才能研習該符文。如果一個符文需要通過豁免檢定，你的符文魔法的豁免DC等於8 + 你的熟練加值 + 你的體質調整值。",
 				{
 					"type": "options",
 					"count": 2,
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "云之符文|TCE"
+							"optionalfeature": "雲之符文|TCE"
 						},
 						{
 							"type": "refOptionalfeature",
@@ -2918,19 +2918,19 @@
 						{
 							"type": "refOptionalfeature",
 							"optionalfeature": "山丘符文|TCE",
-							"name": "山丘符文（7级或更高）"
+							"name": "山丘符文（7級或更高）"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "风暴符文|TCE",
-							"name": "风暴符文（7级或更高）"
+							"optionalfeature": "風暴符文|TCE",
+							"name": "風暴符文（7級或更高）"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "额外符文已知",
+			"name": "額外符文已知",
 			"ENG_name": "Additional Rune Known",
 			"source": "TCE",
 			"page": 44,
@@ -2941,8 +2941,8 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"{@i 7级符文骑士特性}",
-				"你习得一个额外的符文。"
+				"{@i 7級符文騎士特性}",
+				"你習得一個額外的符文。"
 			]
 		},
 		{
@@ -2957,13 +2957,13 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"{@i 7级符文骑士特性}",
-				"你学会了激活你的符文魔法来保护你的盟友。当另一个60尺内且对你可见的生物被一次攻击检定命中，你可以使用一个反应动作来强迫攻击者重新掷{@dice d20}并采用新的攻击检定结果。",
-				"该特性的可使用次数等于你的熟练加值，且你可以在完成一次长休之后恢复所有已使用的次数。"
+				"{@i 7級符文騎士特性}",
+				"你學會了啟用你的符文魔法來保護你的盟友。當另一個60尺內且對你可見的生物被一次攻擊檢定命中，你可以使用一個反應動作來強迫攻擊者重新擲{@dice d20}並採用新的攻擊檢定結果。",
+				"該特性的可使用次數等於你的熟練加值，且你可以在完成一次長休之後恢復所有已使用的次數。"
 			]
 		},
 		{
-			"name": "额外符文已知",
+			"name": "額外符文已知",
 			"ENG_name": "Additional Rune Known",
 			"source": "TCE",
 			"page": 44,
@@ -2974,12 +2974,12 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10级符文骑士特性}",
-				"你习得一个额外的符文。"
+				"{@i 10級符文騎士特性}",
+				"你習得一個額外的符文。"
 			]
 		},
 		{
-			"name": "奇伟身躯",
+			"name": "奇偉身軀",
 			"ENG_name": "Great Stature",
 			"source": "TCE",
 			"page": 44,
@@ -2990,13 +2990,13 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10级符文骑士特性}",
-				"符文的魔力永久性的改变了你。当你获得该特性时，掷{@dice 3d4}。你的身高增加该骰结果的英寸数。",
-				"此外，你的巨人之力特性造成的额外伤害提高至{@dice 1d8}。"
+				"{@i 10級符文騎士特性}",
+				"符文的魔力永久性的改變了你。當你獲得該特性時，擲{@dice 3d4}。你的身高增加該骰結果的英寸數。",
+				"此外，你的巨人之力特性造成的額外傷害提高至{@dice 1d8}。"
 			]
 		},
 		{
-			"name": "额外符文已知",
+			"name": "額外符文已知",
 			"ENG_name": "Additional Rune Known",
 			"source": "TCE",
 			"page": 44,
@@ -3007,12 +3007,12 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"{@i 15级符文骑士特性}",
-				"你习得一个额外的符文。"
+				"{@i 15級符文騎士特性}",
+				"你習得一個額外的符文。"
 			]
 		},
 		{
-			"name": "符文大师",
+			"name": "符文大師",
 			"ENG_name": "Master of Runes",
 			"source": "TCE",
 			"page": 44,
@@ -3023,8 +3023,8 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"{@i 15级符文骑士特性}",
-				"你可以对每个你在符文雕刻者特性中已知的符文激活两次，而不是一次，且你可以在完成一次短休或长休之后恢复所有已使用的次数。"
+				"{@i 15級符文騎士特性}",
+				"你可以對每個你在符文雕刻者特性中已知的符文啟用兩次，而不是一次，且你可以在完成一次短休或長休之後恢復所有已使用的次數。"
 			]
 		},
 		{
@@ -3039,8 +3039,8 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18级符文骑士特性}",
-				"你学会增强你对于符文力量的转换。因此，你的巨人之力特性造成的额外伤害提高至{@dice 1d10}。此外，当你使用该特性时，你的体型变为巨型，且当你保持该尺寸时，你的触及提高5尺。"
+				"{@i 18級符文騎士特性}",
+				"你學會增強你對於符文力量的轉換。因此，你的巨人之力特性造成的額外傷害提高至{@dice 1d10}。此外，當你使用該特性時，你的體型變為巨型，且當你保持該尺寸時，你的觸及提高5尺。"
 			]
 		},
 		{
@@ -3211,7 +3211,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 15th-level Psi Knight feature}",
-				"You can shield yourself and others with telekinetic force. As a bonus action, you can choose creatures, which can include you, that you can see within 30 feet of you, up to a number of creatures equal to your Intelligence modifier (minimum of one creature). Each of the chosen creatures is protected by half cover for 1 minute or until you're {@condition 无力}. Once you use this feature, you can't do so again until you finish a long rest, unless you decrease your Psionic Talent die by one die size to use this feature again."
+				"You can shield yourself and others with telekinetic force. As a bonus action, you can choose creatures, which can include you, that you can see within 30 feet of you, up to a number of creatures equal to your Intelligence modifier (minimum of one creature). Each of the chosen creatures is protected by half cover for 1 minute or until you're {@condition 無力}. Once you use this feature, you can't do so again until you finish a long rest, unless you decrease your Psionic Talent die by one die size to use this feature again."
 			]
 		},
 		{
@@ -3226,7 +3226,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 18th-level Psi Knight feature}",
-				"Your ability to move creatures and objects with your mind is matched by few. If your Psionic Talent die is available, you can cast the {@spell 心灵遥控} spell, requiring no components. Your spellcasting ability for the spell is Intelligence. When you cast this spell, your Psionic Talent die decreases by one die size."
+				"Your ability to move creatures and objects with your mind is matched by few. If your Psionic Talent die is available, you can cast the {@spell 心靈遙控} spell, requiring no components. Your spellcasting ability for the spell is Intelligence. When you cast this spell, your Psionic Talent die decreases by one die size."
 			]
 		},
 		{
@@ -3358,7 +3358,7 @@
 			"header": 1,
 			"entries": [
 				"At 3rd level, you learn a few skills relating to the typical duties of an Arcane Archer. You learn to understand magical theory and develop survival skills for wandering the wilds.",
-				"You gain proficiency in two of the following skills of your choice: {@skill 奥秘}, {@skill 运动}, {@skill 自然}, {@skill 察觉}, {@skill 隐匿}, and {@skill 生存}."
+				"You gain proficiency in two of the following skills of your choice: {@skill 奧秘}, {@skill 運動}, {@skill 自然}, {@skill 察覺}, {@skill 隱匿}, and {@skill 生存}."
 			]
 		},
 		{
@@ -3491,7 +3491,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level, mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed. In addition, you have advantage on saving throws made to avoid falling off your mount. If you fall off it, you can automatically land on your feet if you aren't {@condition 无力} and you fall less than 10 feet."
+				"Starting at 3rd level, mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed. In addition, you have advantage on saving throws made to avoid falling off your mount. If you fall off it, you can automatically land on your feet if you aren't {@condition 無力} and you fall less than 10 feet."
 			]
 		},
 		{
@@ -3505,7 +3505,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, you excel at foiling attacks and protecting your allies by menacing your foes. When you hit a creature with a melee weapon attack, the target is marked by you until the end of your next turn. A creature ignores this effect if the creature can't be {@condition 恐惧}.",
+				"At 3rd level, you excel at foiling attacks and protecting your allies by menacing your foes. When you hit a creature with a melee weapon attack, the target is marked by you until the end of your next turn. A creature ignores this effect if the creature can't be {@condition 恐懼}.",
 				"The marked target has disadvantage on any attack roll against a creature other than you or someone else who marked it.",
 				"If a target marked by you is within 5 feet of you on its turn and it moves at least 1 foot or makes an attack that suffers disadvantage from this feature, you can make one melee weapon attack against it using your reaction. This attack roll has advantage, and if it hits, the attack's weapon deals extra damage to the target equal to your fighter level.",
 				"You can make this special attack even if you have already expended your reaction this round, but not if you have already used your reaction this turn. You can make this attack three times, and you regain all expended uses of it when you finish a short or long rest."
@@ -3522,7 +3522,7 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"At 7th level, you gain proficiency in two of the following skills of your choice: {@skill 驯兽}, {@skill 历史}, {@skill 洞悉}, {@skill 说服}, or {@skill 宗教}. Alternatively, you learn one language of your choice."
+				"At 7th level, you gain proficiency in two of the following skills of your choice: {@skill 馴獸}, {@skill 歷史}, {@skill 洞悉}, {@skill 說服}, or {@skill 宗教}. Alternatively, you learn one language of your choice."
 			]
 		},
 		{
@@ -3612,7 +3612,7 @@
 			"header": 2,
 			"entries": [
 				"Starting at 7th level, your discipline and attention to detail allow you to excel in social situations that require strict adherence to etiquette. You can add your Wisdom modifier to any Charisma check you make to persuade or please a noble or anyone else of high social station.",
-				"You also gain proficiency in the {@skill 历史}, {@skill 洞悉}, or {@skill 说服} skill (choose one). Alternatively, you learn one language of your choice."
+				"You also gain proficiency in the {@skill 歷史}, {@skill 洞悉}, or {@skill 說服} skill (choose one). Alternatively, you learn one language of your choice."
 			]
 		},
 		{
@@ -3708,8 +3708,8 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Starting at 7th level, you excel at picking out hidden enemies and other threats. You can take the {@action 搜寻} action as a bonus action.",
-				"You also gain proficiency in the {@skill 察觉}, {@skill 调查}, or {@skill 生存} skill (choose one)."
+				"Starting at 7th level, you excel at picking out hidden enemies and other threats. You can take the {@action 搜尋} action as a bonus action.",
+				"You also gain proficiency in the {@skill 察覺}, {@skill 調查}, or {@skill 生存} skill (choose one)."
 			]
 		},
 		{
@@ -3752,7 +3752,7 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"Starting at 18th level, you are ever ready to spring into action. If you take the {@action 攻击} action on your first turn of a combat, you can make one additional ranged weapon attack as part of that action."
+				"Starting at 18th level, you are ever ready to spring into action. If you take the {@action 攻擊} action on your first turn of a combat, you can make one additional ranged weapon attack as part of that action."
 			]
 		},
 		{
@@ -3796,7 +3796,7 @@
 			"header": 1,
 			"entries": [
 				"{@i 3rd-level Rune Knight feature}",
-				"You gain proficiency with {@item 铁匠工具|PHB}, and you learn to speak, read, and write {@language Giant}."
+				"You gain proficiency with {@item 鐵匠工具|PHB}, and you learn to speak, read, and write {@language Giant}."
 			]
 		},
 		{
@@ -4011,7 +4011,7 @@
 			"header": 1,
 			"entries": [
 				"{@i 3rd-level Psychic Warrior feature}",
-				"You learn the {@spell 法师之手} cantrip. You can cast it without components, and you can make the spectral hand {@condition 隐形}. Intelligence is your spellcasting ability for this spell."
+				"You learn the {@spell 法師之手} cantrip. You can cast it without components, and you can make the spectral hand {@condition 隱形}. Intelligence is your spellcasting ability for this spell."
 			]
 		},
 		{
@@ -4057,7 +4057,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 10th-level Psychic Warrior feature}",
-				"When you take the {@action 攻击} action, you can forgo one of your attacks to project a bastion of psionic power in a 10-foot radius around yourself. It lasts for 1 minute or until you're {@condition 无力}. For the duration, you and your allies in that area gain the benefits of half cover and have advantage on Strength saving throws.",
+				"When you take the {@action 攻擊} action, you can forgo one of your attacks to project a bastion of psionic power in a 10-foot radius around yourself. It lasts for 1 minute or until you're {@condition 無力}. For the duration, you and your allies in that area gain the benefits of half cover and have advantage on Strength saving throws.",
 				"Once you use this feature, you can't do so again until you finish a long rest or until after you use your Second Wind feature."
 			]
 		},
@@ -4089,7 +4089,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 18th-level Psychic Warrior feature}",
-				"The power of your mind suffuses your entire being, making you a nigh-unstoppable force on the battlefield. Using your reaction when you take damage, you can give yourself the following benefits for 1 minute or until you're {@condition 无力}:",
+				"The power of your mind suffuses your entire being, making you a nigh-unstoppable force on the battlefield. Using your reaction when you take damage, you can give yourself the following benefits for 1 minute or until you're {@condition 無力}:",
 				{
 					"type": "list",
 					"items": [
@@ -4137,7 +4137,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this archetype at 3rd level, you gain proficiency in two of the following skills of your choice: {@skill 奥秘}, {@skill 历史}, {@skill 洞悉}, {@skill 调查}, {@skill 自然}, or {@skill 察觉}. You can choose to gain proficiency with {@item 盗贼工具|phb} in place of one skill choice."
+				"When you choose this archetype at 3rd level, you gain proficiency in two of the following skills of your choice: {@skill 奧秘}, {@skill 歷史}, {@skill 洞悉}, {@skill 調查}, {@skill 自然}, or {@skill 察覺}. You can choose to gain proficiency with {@item 盜賊工具|phb} in place of one skill choice."
 			]
 		},
 		{
@@ -4178,7 +4178,7 @@
 										"When you make a weapon attack against a creature, you can expend one superiority die to add it to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of the attack are applied.",
 										"When you damage a creature with a weapon attack, you can expend one superiority die to add it to the damage roll. You can use this ability after rolling damage. If the attack causes the target to make a Constitution saving throw to maintain concentration, it has disadvantage on that save.",
 										"When you make an Intelligence, a Wisdom, or a Charisma saving throw, you can expend one superiority die to add it to the roll. You can use this feature only before you learn if the save succeeded or failed.",
-										"When you make a Wisdom ({@skill 察觉}) check to detect a hidden creature or object, or a Wisdom ({@skill 洞悉}) check to determine if someone is lying to you, you can expend one superiority die to add it to the roll. You can use this feature after seeing the total but before learning if you succeeded or failed."
+										"When you make a Wisdom ({@skill 察覺}) check to detect a hidden creature or object, or a Wisdom ({@skill 洞悉}) check to determine if someone is lying to you, you can expend one superiority die to add it to the roll. You can use this feature after seeing the total but before learning if you succeeded or failed."
 									]
 								}
 							]
@@ -4198,7 +4198,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, your study of the supernatural gives you a limited ability to use magic. You can cast {@spell 侦测魔法} as a ritual. You can cast {@spell 防护善恶}, but you cannot cast it again with this feature until you finish a long rest. Wisdom is your spellcasting ability for these spells.",
+				"At 3rd level, your study of the supernatural gives you a limited ability to use magic. You can cast {@spell 偵測魔法} as a ritual. You can cast {@spell 防護善惡}, but you cannot cast it again with this feature until you finish a long rest. Wisdom is your spellcasting ability for these spells.",
 				"In addition, you gain the ability to speak one of the following languages of your choice: {@language Abyssal}, {@language Celestial}, or {@language Infernal}."
 			]
 		},
@@ -4294,7 +4294,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this archetype at 3rd level, you gain proficiency in two of the following skills of your choice: {@skill 驯兽}, {@skill 洞悉}, {@skill 表演}, or {@skill 说服}. You can choose to gain one tool proficiency in place of one skill proficiency."
+				"When you choose this archetype at 3rd level, you gain proficiency in two of the following skills of your choice: {@skill 馴獸}, {@skill 洞悉}, {@skill 表演}, or {@skill 說服}. You can choose to gain one tool proficiency in place of one skill proficiency."
 			]
 		},
 		{
@@ -4451,7 +4451,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this archetype at 3rd level, you gain proficiency in three of the following skills of your choice: {@skill 体操}, {@skill 运动}, {@skill 调查}, {@skill 医疗}, {@skill 自然}, {@skill 察觉}, {@skill 隐匿}, or {@skill 生存}. You can choose to gain proficiency with {@item 盗贼工具|phb} in place of one skill choice."
+				"When you choose this archetype at 3rd level, you gain proficiency in three of the following skills of your choice: {@skill 體操}, {@skill 運動}, {@skill 調查}, {@skill 醫療}, {@skill 自然}, {@skill 察覺}, {@skill 隱匿}, or {@skill 生存}. You can choose to gain proficiency with {@item 盜賊工具|phb} in place of one skill choice."
 			]
 		},
 		{
@@ -4489,7 +4489,7 @@
 								{
 									"type": "list",
 									"items": [
-										"When you make a check that allows you to apply your proficiency in {@skill 运动}, {@skill 自然}, {@skill 察觉}, {@skill 隐匿}, or {@skill 生存}, you can expend one superiority die to bolster the check. Add half the number rolled on the superiority die (rounding up) to your check. You apply this bonus after making the check but before learning if it was successful.",
+										"When you make a check that allows you to apply your proficiency in {@skill 運動}, {@skill 自然}, {@skill 察覺}, {@skill 隱匿}, or {@skill 生存}, you can expend one superiority die to bolster the check. Add half the number rolled on the superiority die (rounding up) to your check. You apply this bonus after making the check but before learning if it was successful.",
 										"When you make a weapon attack against a creature, you can expend one superiority die to add it to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of the attack are applied.",
 										"If you are hit by an attack while wearing light or medium armor, you can expend one superiority die as a reaction, adding the number rolled to your AC. If the attack still hits, you take half damage from it."
 									]
@@ -4637,7 +4637,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this archetype at 3rd level, you gain proficiency in one of the following skills of your choice: {@skill 驯兽}, {@skill 历史}, {@skill 洞悉}, {@skill 表演}, or {@skill 说服}. Alternatively, you learn one language of your choice."
+				"When you choose this archetype at 3rd level, you gain proficiency in one of the following skills of your choice: {@skill 馴獸}, {@skill 歷史}, {@skill 洞悉}, {@skill 表演}, or {@skill 說服}. Alternatively, you learn one language of your choice."
 			]
 		},
 		{
@@ -4651,7 +4651,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level, your mastery as a rider becomes apparent. You have advantage on saving throws made to avoid falling off your mount. If you fall off your mount and descend no more than 10 feet, you can land on your feet if you're not {@condition 无力}.",
+				"Starting at 3rd level, your mastery as a rider becomes apparent. You have advantage on saving throws made to avoid falling off your mount. If you fall off your mount and descend no more than 10 feet, you can land on your feet if you're not {@condition 無力}.",
 				"Finally, mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed."
 			]
 		},
@@ -4826,7 +4826,7 @@
 			"header": 1,
 			"entries": [
 				"At 3rd level, you learn to unleash special magical effects with some of your shots. When you gain this feature, you learn two Arcane Shot options of your choice (see the \"Arcane Shot Options\" section below).",
-				"Once per turn when you fire a magic arrow from a shortbow or longbow as part of the {@action 攻击} action, you can apply one of your Arcane Shot options to that arrow. You decide to use the option when the arrow hits, unless the option doesn't involve an attack roll. You have two uses of this ability, and you regain all expended uses of it when you finish a short or long rest.",
+				"Once per turn when you fire a magic arrow from a shortbow or longbow as part of the {@action 攻擊} action, you can apply one of your Arcane Shot options to that arrow. You decide to use the option when the arrow hits, unless the option doesn't involve an attack roll. You have two uses of this ability, and you regain all expended uses of it when you finish a short or long rest.",
 				"You gain an additional Arcane Shot option of your choice when you reach certain levels in this class: 7th, 10th, 15th, and 18th level. Each option also improves when you become an 18th-level fighter."
 			]
 		},
@@ -4894,7 +4894,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, you learn magical theory or some of the secrets of nature\u2014typical for practitioners of this elven martial tradition. You gain proficiency in either the {@skill 奥秘} or {@skill 自然} skill."
+				"At 3rd level, you learn magical theory or some of the secrets of nature\u2014typical for practitioners of this elven martial tradition. You gain proficiency in either the {@skill 奧秘} or {@skill 自然} skill."
 			]
 		},
 		{
@@ -5124,23 +5124,23 @@
 			"subclassSource": "XGE",
 			"level": 3,
 			"entries": [
-				"魔射手钻研着那将魔法编入攻击以产生超自然效果的独特精灵箭技。魔射手是精灵中最精锐的战士。他们会驻足守望着精灵领域的疆界，锐眼紧盯着入侵者，并射出灌注魔法的箭矢以在怪物和入侵者闯入精灵的居住地之前击溃它们。在几个世纪以来，这种精灵箭技也已经被其他能够在秘法才能和弓道中找到平衡的种族所习得。",
+				"魔射手鑽研著那將魔法編入攻擊以產生超自然效果的獨特精靈箭技。魔射手是精靈中最精銳的戰士。他們會駐足守望著精靈領域的疆界，銳眼緊盯著入侵者，並射出灌注魔法的箭矢以在怪物和入侵者闖入精靈的居住地之前擊潰它們。在幾個世紀以來，這種精靈箭技也已經被其他能夠在秘法才能和弓道中找到平衡的種族所習得。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "魔射手学识|Fighter||Arcane Archer|XGE|3"
+					"subclassFeature": "魔射手學識|Fighter||Arcane Archer|XGE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "秘法射击|Fighter||Arcane Archer|XGE|3"
+					"subclassFeature": "秘法射擊|Fighter||Arcane Archer|XGE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "秘法射击选项|Fighter||Arcane Archer|XGE|3"
+					"subclassFeature": "秘法射擊選項|Fighter||Arcane Archer|XGE|3"
 				}
 			]
 		},
 		{
-			"name": "魔射手学识",
+			"name": "魔射手學識",
 			"ENG_name": "Arcane Archer Lore",
 			"source": "XGE",
 			"page": 28,
@@ -5151,12 +5151,12 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级魔射手特性}",
-				"通常为了成为这个精灵军事传统的实践者，你习得魔法理论或一部分的自然奥秘\u2014。你选择获得{@skill 奥秘}或{@skill 自然}技能的熟练，且你选择习得{@spell 魔法技俩}或{@spell 德鲁伊伎俩}戏法。"
+				"{@i 3級魔射手特性}",
+				"通常為了成為這個精靈軍事傳統的實踐者，你習得魔法理論或一部分的自然奧秘\u2014。你選擇獲得{@skill 奧秘}或{@skill 自然}技能的熟練，且你選擇習得{@spell 魔法技倆}或{@spell 德魯伊伎倆}戲法。"
 			]
 		},
 		{
-			"name": "秘法射击",
+			"name": "秘法射擊",
 			"ENG_name": "Arcane Shot",
 			"source": "XGE",
 			"page": 28,
@@ -5167,14 +5167,14 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级魔射手特性}",
-				"你习得在你其中一些射击中释放出特别的魔法效果。当你获得此能力时，你习得二个由你选择的秘法射击选项（参见下列的「秘法射击选项」）。",
-				"每个回合一次，当你使用{@item 短弓|phb}或{@item 长弓|phb}并作为{@action 攻击}动作的一部份射出一发箭矢，你可以将你的其中一个秘法射击选项应用于该箭矢。除非该选项不涉及攻击检定，否则你可以在箭矢命中一个生物时才决定是否使用该选项。你可以使用这个能力二次，且你在完成一次短休或长休后恢复所有你花费掉的次数。",
-				"你将在升至7级、10级、15级、和18级时获得一个额外的秘法射击选项。每个选项也都会在你成为一名18级战士时获得强化。"
+				"{@i 3級魔射手特性}",
+				"你習得在你其中一些射擊中釋放出特別的魔法效果。當你獲得此能力時，你習得二個由你選擇的秘法射擊選項（參見下列的「秘法射擊選項」）。",
+				"每個回合一次，當你使用{@item 短弓|phb}或{@item 長弓|phb}並作為{@action 攻擊}動作的一部份射出一發箭矢，你可以將你的其中一個秘法射擊選項應用於該箭矢。除非該選項不涉及攻擊檢定，否則你可以在箭矢命中一個生物時才決定是否使用該選項。你可以使用這個能力二次，且你在完成一次短休或長休後恢復所有你花費掉的次數。",
+				"你將在升至7級、10級、15級、和18級時獲得一個額外的秘法射擊選項。每個選項也都會在你成為一名18級戰士時獲得強化。"
 			]
 		},
 		{
-			"name": "秘法射击选项",
+			"name": "秘法射擊選項",
 			"ENG_name": "Arcane Shot Options",
 			"source": "XGE",
 			"page": 28,
@@ -5185,12 +5185,12 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级魔射手特性}",
-				"秘法射击能力让你得以在特定等级时选择选项。这些选项将在以下按照字母顺序排列呈现。它们全都是魔法效果，且每个选项都各自对应着一个魔法学派。",
-				"若某个选项要求进行一次豁免检定，则你的秘法射击豁免检定DC的计算方式如下：",
+				"{@i 3級魔射手特性}",
+				"秘法射擊能力讓你得以在特定等級時選擇選項。這些選項將在以下按照字母順序排列呈現。它們全都是魔法效果，且每個選項都各自對應著一個魔法學派。",
+				"若某個選項要求進行一次豁免檢定，則你的秘法射擊豁免檢定DC的計算方式如下：",
 				{
 					"type": "abilityDc",
-					"name": "秘法射击",
+					"name": "秘法射擊",
 					"attributes": [
 						"int"
 					]
@@ -5217,7 +5217,7 @@
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "纠缠箭|XGE"
+							"optionalfeature": "糾纏箭|XGE"
 						},
 						{
 							"type": "refOptionalfeature",
@@ -5225,7 +5225,7 @@
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "追踪箭|XGE"
+							"optionalfeature": "追蹤箭|XGE"
 						},
 						{
 							"type": "refOptionalfeature",
@@ -5236,7 +5236,7 @@
 			]
 		},
 		{
-			"name": "额外秘法射击选项",
+			"name": "額外秘法射擊選項",
 			"ENG_name": "Additional Arcane Shot Option",
 			"source": "XGE",
 			"page": 28,
@@ -5247,8 +5247,8 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"{@i 7级魔射手特性}",
-				"当你升至7级时，你获得一个你所选择的秘法射击选项。"
+				"{@i 7級魔射手特性}",
+				"當你升至7級時，你獲得一個你所選擇的秘法射擊選項。"
 			]
 		},
 		{
@@ -5263,8 +5263,8 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"{@i 7级魔射手特性}",
-				"你学会如何将偏离的箭矢导向一个新的目标。当你使用魔法箭矢进行一次攻击检定并失手时，你可以使用一个附赠动作以对一个距离原本目标60尺内的不同目标重骰该攻击检定。"
+				"{@i 7級魔射手特性}",
+				"你學會如何將偏離的箭矢導向一個新的目標。當你使用魔法箭矢進行一次攻擊檢定並失手時，你可以使用一個附贈動作以對一個距離原本目標60尺內的不同目標重骰該攻擊檢定。"
 			]
 		},
 		{
@@ -5279,12 +5279,12 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"{@i 7级魔射手特性}",
-				"你获得将魔法注入箭矢的能力。每当你使用{@item 短弓|phb}或{@item 长弓|phb}射出一发非魔法箭矢，你可以使其在克服对非魔法攻击和伤害的抗性和免疫时被视作魔法箭矢。这个魔法将在它命中目标或失手时立刻从箭矢上消退。"
+				"{@i 7級魔射手特性}",
+				"你獲得將魔法注入箭矢的能力。每當你使用{@item 短弓|phb}或{@item 長弓|phb}射出一發非魔法箭矢，你可以使其在克服對非魔法攻擊和傷害的抗性和免疫時被視作魔法箭矢。這個魔法將在它命中目標或失手時立刻從箭矢上消退。"
 			]
 		},
 		{
-			"name": "额外秘法射击选项",
+			"name": "額外秘法射擊選項",
 			"ENG_name": "Additional Arcane Shot Option",
 			"source": "XGE",
 			"page": 28,
@@ -5295,12 +5295,12 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10级魔射手特性}",
-				"当你升至10级时，你获得一个你所选择的秘法射击选项。"
+				"{@i 10級魔射手特性}",
+				"當你升至10級時，你獲得一個你所選擇的秘法射擊選項。"
 			]
 		},
 		{
-			"name": "额外秘法射击选项",
+			"name": "額外秘法射擊選項",
 			"ENG_name": "Additional Arcane Shot Option",
 			"source": "XGE",
 			"page": 28,
@@ -5311,12 +5311,12 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"{@i 15级魔射手特性}",
-				"当你升至15级时，你获得一个你所选择的秘法射击选项。"
+				"{@i 15級魔射手特性}",
+				"當你升至15級時，你獲得一個你所選擇的秘法射擊選項。"
 			]
 		},
 		{
-			"name": "常备射击",
+			"name": "常備射擊",
 			"ENG_name": "Ever-Ready Shot",
 			"source": "XGE",
 			"page": 28,
@@ -5327,12 +5327,12 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"{@i 15级魔射手特性}",
-				"每当战斗开始时，你都可以使用你的魔法箭术。当你骰先攻时且秘法射击已经没有剩下的使用次数，则你恢复一次使用次数。"
+				"{@i 15級魔射手特性}",
+				"每當戰鬥開始時，你都可以使用你的魔法箭術。當你骰先攻時且秘法射擊已經沒有剩下的使用次數，則你恢復一次使用次數。"
 			]
 		},
 		{
-			"name": "额外秘法射击选项",
+			"name": "額外秘法射擊選項",
 			"ENG_name": "Additional Arcane Shot Option",
 			"source": "XGE",
 			"page": 28,
@@ -5343,12 +5343,12 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18级魔射手特性}",
-				"当你升至18级时，你获得一个你所选择的秘法射击选项。每个秘法射击选项也都会在你成为一名18级战士时获得强化。"
+				"{@i 18級魔射手特性}",
+				"當你升至18級時，你獲得一個你所選擇的秘法射擊選項。每個秘法射擊選項也都會在你成為一名18級戰士時獲得強化。"
 			]
 		},
 		{
-			"name": "骑兵",
+			"name": "騎兵",
 			"ENG_name": "Cavalier",
 			"source": "XGE",
 			"page": 30,
@@ -5358,23 +5358,23 @@
 			"subclassSource": "XGE",
 			"level": 3,
 			"entries": [
-				"这种范型擅长于骑乘作战。通常出身贵族，并在宫廷成长，骑兵既能在家乡领导骑兵队冲锋陷阵，也能在国宴中侃侃而谈。骑兵们也学习如何保护那些他们负责的人们不受伤害，并经常作为他们长官或弱者的保护者。被迫于惩奸除恶或赢取荣耀，许多这些战士选择离开他们安逸的生活，展开他们的光荣冒险。",
+				"這種范型擅長於騎乘作戰。通常出身貴族，並在宮廷成長，騎兵既能在家鄉領導騎兵隊衝鋒陷陣，也能在國宴中侃侃而談。騎兵們也學習如何保護那些他們負責的人們不受傷害，並經常作為他們長官或弱者的保護者。被迫於懲奸除惡或贏取榮耀，許多這些戰士選擇離開他們安逸的生活，展開他們的光榮冒險。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "额外熟练|Fighter||Cavalier|XGE|3"
+					"subclassFeature": "額外熟練|Fighter||Cavalier|XGE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "生而为骑|Fighter||Cavalier|XGE|3"
+					"subclassFeature": "生而為騎|Fighter||Cavalier|XGE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "坚定印记|Fighter||Cavalier|XGE|3"
+					"subclassFeature": "堅定印記|Fighter||Cavalier|XGE|3"
 				}
 			]
 		},
 		{
-			"name": "额外熟练",
+			"name": "額外熟練",
 			"ENG_name": "Bonus Proficiency",
 			"source": "XGE",
 			"page": 30,
@@ -5385,12 +5385,12 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级骑兵特性}",
-				"你获得下列其中一个你所选择技能的熟练：{@skill 驯兽}、{@skill 历史}、{@skill 洞悉}、{@skill 表演}或{@skill 说服}。或者，你学会一个你所选择的语言。"
+				"{@i 3級騎兵特性}",
+				"你獲得下列其中一個你所選擇技能的熟練：{@skill 馴獸}、{@skill 歷史}、{@skill 洞悉}、{@skill 表演}或{@skill 說服}。或者，你學會一個你所選擇的語言。"
 			]
 		},
 		{
-			"name": "生而为骑",
+			"name": "生而為騎",
 			"ENG_name": "Born to the Saddle",
 			"source": "XGE",
 			"page": 30,
@@ -5401,13 +5401,13 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级骑兵特性}",
-				"你作为骑兵的专业变得显而易见。你在进行避免从你的坐骑摔落的豁免检定中具有优势。若你从你的坐骑摔落且落下不超过10尺距离，只要你不处于{@condition 无力}状态，你就可以双脚着地。",
-				"最后，乘上或骑下一个生物只花费你5尺的移动速度，而非你移动速度的一半。"
+				"{@i 3級騎兵特性}",
+				"你作為騎兵的專業變得顯而易見。你在進行避免從你的坐騎摔落的豁免檢定中具有優勢。若你從你的坐騎摔落且落下不超過10尺距離，只要你不處於{@condition 無力}狀態，你就可以雙腳著地。",
+				"最後，乘上或騎下一個生物只花費你5尺的移動速度，而非你移動速度的一半。"
 			]
 		},
 		{
-			"name": "坚定印记",
+			"name": "堅定印記",
 			"ENG_name": "Unwavering Mark",
 			"source": "XGE",
 			"page": 30,
@@ -5418,15 +5418,15 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级骑兵特性}",
-				"你可以威胁你的敌人，挫败它们的攻击并为伤害他人而惩罚它们。当你以一次近战武器攻击命中一个生物，你可以标记该生物直到你的下个回合结束。这个效果会在你陷入{@condition 无力}状态、你死亡、或者其他人标记该生物时提早结束。",
-				"当一个被标记的生物距离你5尺内，它将在任何不以你为目标的攻击检定中具有劣势。",
-				"此外，若一个被你标记的生物对你以外的任何对象造成伤害，你可以在你的下个回合以一个附赠动作对该被标记的生物进行一次特殊的近战武器攻击。你在该攻击检定中具有优势，且若命中，该攻击的武器将对目标造成等同于你战士等级一半的额外伤害。",
-				"无论你标记了多少生物，你能够进行这个特殊攻击的次数等同于你的力量调整值（最少一次），且你在完成一次长休后恢复所有你花费掉的次数。"
+				"{@i 3級騎兵特性}",
+				"你可以威脅你的敵人，挫敗它們的攻擊並為傷害他人而懲罰它們。當你以一次近戰武器攻擊命中一個生物，你可以標記該生物直到你的下個回合結束。這個效果會在你陷入{@condition 無力}狀態、你死亡、或者其他人標記該生物時提早結束。",
+				"當一個被標記的生物距離你5尺內，它將在任何不以你為目標的攻擊檢定中具有劣勢。",
+				"此外，若一個被你標記的生物對你以外的任何對象造成傷害，你可以在你的下個回合以一個附贈動作對該被標記的生物進行一次特殊的近戰武器攻擊。你在該攻擊檢定中具有優勢，且若命中，該攻擊的武器將對目標造成等同於你戰士等級一半的額外傷害。",
+				"無論你標記了多少生物，你能夠進行這個特殊攻擊的次數等同於你的力量調整值（最少一次），且你在完成一次長休後恢復所有你花費掉的次數。"
 			]
 		},
 		{
-			"name": "防护战术",
+			"name": "防護戰術",
 			"ENG_name": "Warding Maneuver",
 			"source": "XGE",
 			"page": 30,
@@ -5437,13 +5437,13 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"{@i 7级骑兵特性}",
-				"你学会抵御对你、你的坐骑、或其他附近生物直接进行的攻击。若你或一个距离你5尺内且你所能看见的生物被一次攻击命中，且若你正持用一把近战武器或盾牌，则你能够以一个反应骰一颗{@dice 1d8}。骰这颗骰子，并将骰出来的数字加入目标对该次攻击的AC中。若该攻击仍然命中，则目标对该次攻击的伤害将具有抗性。",
-				"你可以使用这个能力的次数等同于你的体质调整值（最少一次），且你在完成一次长休后恢复所有你花费掉的次数。"
+				"{@i 7級騎兵特性}",
+				"你學會抵禦對你、你的坐騎、或其他附近生物直接進行的攻擊。若你或一個距離你5尺內且你所能看見的生物被一次攻擊命中，且若你正持用一把近戰武器或盾牌，則你能夠以一個反應骰一顆{@dice 1d8}。骰這顆骰子，並將骰出來的數字加入目標對該次攻擊的AC中。若該攻擊仍然命中，則目標對該次攻擊的傷害將具有抗性。",
+				"你可以使用這個能力的次數等同於你的體質調整值（最少一次），且你在完成一次長休後恢復所有你花費掉的次數。"
 			]
 		},
 		{
-			"name": "坚守战线",
+			"name": "堅守戰線",
 			"ENG_name": "Hold the Line",
 			"source": "XGE",
 			"page": 30,
@@ -5454,12 +5454,12 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10级骑兵特性}",
-				"你成为了封锁你敌人行动的专家。处于你触及范围内的生物将在移动5尺或以上距离时引发来自你的借机攻击，且若你以一次借机攻击命中一个生物，目标的移动速度将被归零直到该回合结束。"
+				"{@i 10級騎兵特性}",
+				"你成為了封鎖你敵人行動的專家。處於你觸及範圍內的生物將在移動5尺或以上距離時引發來自你的藉機攻擊，且若你以一次藉機攻擊命中一個生物，目標的移動速度將被歸零直到該回合結束。"
 			]
 		},
 		{
-			"name": "勇猛冲锋",
+			"name": "勇猛衝鋒",
 			"ENG_name": "Ferocious Charger",
 			"source": "XGE",
 			"page": 30,
@@ -5470,12 +5470,12 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"{@i 15级骑兵特性}",
-				"无论你是否乘骑，你都可以撞倒你的敌人。若你在攻击一个生物之前直线移动至少10尺，且该攻击命中，则目标必须成功通过一次力量豁免（DC为8 + 你的熟练加值 + 你的力量调整值），否则被击倒{@condition 伏地}。你在每个你的回合只能使用这个能力一次。"
+				"{@i 15級騎兵特性}",
+				"無論你是否乘騎，你都可以撞倒你的敵人。若你在攻擊一個生物之前直線移動至少10尺，且該攻擊命中，則目標必須成功通過一次力量豁免（DC為8 + 你的熟練加值 + 你的力量調整值），否則被擊倒{@condition 伏地}。你在每個你的回合只能使用這個能力一次。"
 			]
 		},
 		{
-			"name": "警戒防卫者",
+			"name": "警戒防衛者",
 			"ENG_name": "Vigilant Defender",
 			"source": "XGE",
 			"page": 30,
@@ -5486,8 +5486,8 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18级骑兵特性}",
-				"你能以超凡警戒回应危险。在战斗中，你得到一个你可以在每个生物的回合（除了你的回合以外）采取一次的特殊反应。你只能使用这个特殊反应以进行一次借机攻击，且你不能在你采取你正常反应的同个回合使用它。"
+				"{@i 18級騎兵特性}",
+				"你能以超凡警戒回應危險。在戰鬥中，你得到一個你可以在每個生物的回合（除了你的回合以外）採取一次的特殊反應。你只能使用這個特殊反應以進行一次藉機攻擊，且你不能在你採取你正常反應的同個回合使用它。"
 			]
 		},
 		{
@@ -5501,19 +5501,19 @@
 			"subclassSource": "XGE",
 			"level": 3,
 			"entries": [
-				"武士是一种以坚决战斗意志击溃敌人的战士。武士的信念几乎坚不可摧，且挡在武士道路前的敌人只有两种选择：投降，或者死战方休。",
+				"武士是一種以堅決戰鬥意志擊潰敵人的戰士。武士的信念幾乎堅不可摧，且擋在武士道路前的敵人只有兩種選擇：投降，或者死戰方休。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "额外熟练|Fighter||Samurai|XGE|3"
+					"subclassFeature": "額外熟練|Fighter||Samurai|XGE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "战斗之魂|Fighter||Samurai|XGE|3"
+					"subclassFeature": "戰鬥之魂|Fighter||Samurai|XGE|3"
 				}
 			]
 		},
 		{
-			"name": "额外熟练",
+			"name": "額外熟練",
 			"ENG_name": "Bonus Proficiency",
 			"source": "XGE",
 			"page": 31,
@@ -5524,12 +5524,12 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级武士特性}",
-				"你获得下列其中一个你所选择技能的熟练：{@skill 历史}、{@skill 洞悉}、{@skill 表演}或{@skill 说服}。或者，你学会一个你所选择的语言。"
+				"{@i 3級武士特性}",
+				"你獲得下列其中一個你所選擇技能的熟練：{@skill 歷史}、{@skill 洞悉}、{@skill 表演}或{@skill 說服}。或者，你學會一個你所選擇的語言。"
 			]
 		},
 		{
-			"name": "战斗之魂",
+			"name": "戰鬥之魂",
 			"ENG_name": "Fighting Spirit",
 			"source": "XGE",
 			"page": 31,
@@ -5540,9 +5540,9 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3级武士特性}",
-				"你在战斗中的强烈气势可以保护你并助你一击必中。在你的回合以一个附赠动作，你可以让你自己在该回合结束前的武器攻击检定都具有优势。当你这么做时，你同时获得5点临时生命值。这个临时生命值的数量将会在你本职业升至特定等级时增加，10级时增加至10点，15级时增加至15。",
-				"你可以使用这个能力三次，且你在完成一次长休后恢复所有你花费掉的次数。"
+				"{@i 3級武士特性}",
+				"你在戰鬥中的強烈氣勢可以保護你並助你一擊必中。在你的回合以一個附贈動作，你可以讓你自己在該回合結束前的武器攻擊檢定都具有優勢。當你這麼做時，你同時獲得5點臨時生命值。這個臨時生命值的數量將會在你本職業升至特定等級時增加，10級時增加至10點，15級時增加至15。",
+				"你可以使用這個能力三次，且你在完成一次長休後恢復所有你花費掉的次數。"
 			]
 		},
 		{
@@ -5557,13 +5557,13 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"{@i 7级武士特性}",
-				"你的修养和对细节的专注让你得以在社交场合崭露头角。每当你进行一次魅力（{@skill 说服}）检定时，你将在该检定中获得等同于你感知调整值的加值。",
-				"你的自我控制能力同时也让你获得了感知豁免的熟练。若你已经拥有此熟练，则你可以改为获得智力豁免或魅力豁免的熟练（由你选择）。"
+				"{@i 7級武士特性}",
+				"你的修養和對細節的專注讓你得以在社交場合嶄露頭角。每當你進行一次魅力（{@skill 說服}）檢定時，你將在該檢定中獲得等同於你感知調整值的加值。",
+				"你的自我控制能力同時也讓你獲得了感知豁免的熟練。若你已經擁有此熟練，則你可以改為獲得智力豁免或魅力豁免的熟練（由你選擇）。"
 			]
 		},
 		{
-			"name": "不懈战魂",
+			"name": "不懈戰魂",
 			"ENG_name": "Tireless Spirit",
 			"source": "XGE",
 			"page": 31,
@@ -5574,12 +5574,12 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10级武士特性}",
-				"当你骰先攻时且战斗之魂已经没有剩下的使用次数，则你恢复一次使用次数。"
+				"{@i 10級武士特性}",
+				"當你骰先攻時且戰鬥之魂已經沒有剩下的使用次數，則你恢復一次使用次數。"
 			]
 		},
 		{
-			"name": "迅捷打击",
+			"name": "迅捷打擊",
 			"ENG_name": "Rapid Strike",
 			"source": "XGE",
 			"page": 31,
@@ -5590,12 +5590,12 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"{@i 15级武士特性}",
-				"你学会以准确度换取快速打击的方式。若你在你的回合采取{@action 攻击}动作，且在对其中一个目标所进行的一次攻击检定中具有优势，你可以放弃该检定的优势，并作为同个动作的一部份对该目标进行一次额外的武器攻击。你每回合可以这么做不超过一次。"
+				"{@i 15級武士特性}",
+				"你學會以準確度換取快速打擊的方式。若你在你的回合採取{@action 攻擊}動作，且在對其中一個目標所進行的一次攻擊檢定中具有優勢，你可以放棄該檢定的優勢，並作為同個動作的一部份對該目標進行一次額外的武器攻擊。你每回合可以這麼做不超過一次。"
 			]
 		},
 		{
-			"name": "回光返照",
+			"name": "迴光返照",
 			"ENG_name": "Strength before Death",
 			"source": "XGE",
 			"page": 31,
@@ -5606,13 +5606,13 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18级武士特性}",
-				"你的战斗意志可以延后死亡的支配。若你受到将你生命值归零但没有当场杀死你的伤害，你可以使用你的反应以延后陷入{@condition 昏迷}的时机，且你可以中断当前的回合并立刻进行一个额外的回合。当你在这个额外回合期间的拥有0点生命值，受到伤害仍然会如往常一样导致一次失败的死亡豁免，且三次死亡豁免失败仍然会杀死你。当这个额外回合结束时，若你的生命值依旧为0点，你将陷入{@condition 昏迷}。",
-				"一旦你使用此能力，直到你完成一次长休之前你都不能再使用它。"
+				"{@i 18級武士特性}",
+				"你的戰鬥意志可以延後死亡的支配。若你受到將你生命值歸零但沒有當場殺死你的傷害，你可以使用你的反應以延後陷入{@condition 昏迷}的時機，且你可以中斷當前的回合併立刻進行一個額外的回合。當你在這個額外回合期間的擁有0點生命值，受到傷害仍然會如往常一樣導致一次失敗的死亡豁免，且三次死亡豁免失敗仍然會殺死你。當這個額外回合結束時，若你的生命值依舊為0點，你將陷入{@condition 昏迷}。",
+				"一旦你使用此能力，直到你完成一次長休之前你都不能再使用它。"
 			]
 		},
 		{
-			"name": "庇护力场",
+			"name": "庇護力場",
 			"ENG_name": "Protective Field",
 			"source": "TCE",
 			"page": 42,
@@ -5622,11 +5622,11 @@
 			"subclassSource": "TCE",
 			"level": 3,
 			"entries": [
-				"当你或者另一个对你30尺内可见的生物受到伤害，你可以使用一个反应动作消耗一枚灵能骰，对其降低等同于灵能骰骰出的数值加你的智力调整值的伤害（最小为1），如同你创造了一面瞬间的念力盾牌。"
+				"當你或者另一個對你30尺內可見的生物受到傷害，你可以使用一個反應動作消耗一枚靈能骰，對其降低等同於靈能骰骰出的數值加你的智力調整值的傷害（最小為1），如同你創造了一面瞬間的念力盾牌。"
 			]
 		},
 		{
-			"name": "灵能击打",
+			"name": "靈能擊打",
 			"ENG_name": "Psionic Strike",
 			"source": "TCE",
 			"page": 42,
@@ -5636,7 +5636,7 @@
 			"subclassSource": "TCE",
 			"level": 3,
 			"entries": [
-				"你可以用灵能驱动你的武器。你的每回合一次，当你击中并对30尺以内的目标造成武器伤害，你可以立即消耗一个灵能骰，对目标造成等同于灵能骰骰出的数值加你的智力调整值的力场伤害。"
+				"你可以用靈能驅動你的武器。你的每回合一次，當你擊中並對30尺以內的目標造成武器傷害，你可以立即消耗一個靈能骰，對目標造成等同於靈能骰骰出的數值加你的智力調整值的力場傷害。"
 			]
 		},
 		{
@@ -5650,11 +5650,11 @@
 			"subclassSource": "TCE",
 			"level": 3,
 			"entries": [
-				"你可以用意念移动一个物体或生物。你可以使用一个动作选中一个最多大型的物体或一个除你以外的自愿生物。如果目标在对你30尺内且可视，你可以将其移动至多30尺至一个对你可见的空地。另外，如果目标是一个小物件，你可以从你的手中给出或收回。无论采取哪种方式，你都可以或水平、或垂直、或两者都使用地移动它。当你使用该异能时，你无法再使用该能力直到你完成一次短休或长休，除非你消耗一个灵能骰来再次使用该异能。"
+				"你可以用意念移動一個物體或生物。你可以使用一個動作選中一個最多大型的物體或一個除你以外的自願生物。如果目標在對你30尺內且可視，你可以將其移動至多30尺至一個對你可見的空地。另外，如果目標是一個小物件，你可以從你的手中給出或收回。無論採取哪種方式，你都可以或水平、或垂直、或兩者都使用地移動它。當你使用該異能時，你無法再使用該能力直到你完成一次短休或長休，除非你消耗一個靈能骰來再次使用該異能。"
 			]
 		},
 		{
-			"name": "灵力跃动",
+			"name": "靈力躍動",
 			"ENG_name": "Psi-Powered Leap.",
 			"source": "TCE",
 			"page": 42,
@@ -5664,7 +5664,7 @@
 			"subclassSource": "TCE",
 			"level": 7,
 			"entries": [
-				"你可以使用一个附赠动作用你的意志来驱使你的身体。你获得等同于两倍步行速度的飞行速度直到该回合结束。每当你使用这个附赠动作，你无法再次使用该异能直到你完成一次短休或长休，除非你消耗一个灵能骰来再次使用该异能。"
+				"你可以使用一個附贈動作用你的意志來驅使你的身體。你獲得等同於兩倍步行速度的飛行速度直到該回合結束。每當你使用這個附贈動作，你無法再次使用該異能直到你完成一次短休或長休，除非你消耗一個靈能骰來再次使用該異能。"
 			]
 		},
 		{
@@ -5678,7 +5678,7 @@
 			"subclassSource": "TCE",
 			"level": 7,
 			"entries": [
-				"当你使用灵能击打对一个目标造成伤害时，你可以使目标进行一次力量豁免来对抗DC等于8 + 你的熟练加值 + 你的智力调整值。如果豁免失败，你可以将目标击倒{@condition 伏地}或者将其在任意方向水平移动至多10尺。"
+				"當你使用靈能擊打對一個目標造成傷害時，你可以使目標進行一次力量豁免來對抗DC等於8 + 你的熟練加值 + 你的智力調整值。如果豁免失敗，你可以將目標擊倒{@condition 伏地}或者將其在任意方向水平移動至多10尺。"
 			]
 		}
 	]

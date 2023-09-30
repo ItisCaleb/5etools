@@ -4,9 +4,9 @@ class PageFilterBackgrounds extends PageFilter {
 	constructor () {
 		super();
 
-		this._skillFilter = new Filter({header: "Skill Proficiencies", headerName: "技能熟练", displayFn: StrUtil.toTitleCase});
-		this._toolFilter = new Filter({header: "Tool Proficiencies", headerName: "工具熟练", displayFn: StrUtil.toTitleCase});
-		this._languageFilter = new Filter({header: "Language Proficiencies", headerName: "工具熟练", displayFn: it => it === "anyStandard" ? "Any Standard" : StrUtil.toTitleCase(it)});
+		this._skillFilter = new Filter({header: "Skill Proficiencies", headerName: "技能熟練", displayFn: StrUtil.toTitleCase});
+		this._toolFilter = new Filter({header: "Tool Proficiencies", headerName: "工具熟練", displayFn: StrUtil.toTitleCase});
+		this._languageFilter = new Filter({header: "Language Proficiencies", headerName: "工具熟練", displayFn: it => it === "anyStandard" ? "Any Standard" : StrUtil.toTitleCase(it)});
 		this._miscFilter = new Filter({header: "Miscellaneous", headerName: "", items: ["Has Info", "Has Images", "SRD"], isSrdFilter: true});
 	}
 

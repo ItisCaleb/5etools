@@ -40,7 +40,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -73,7 +73,7 @@
 				{
 					"name": "Two Heads",
 					"entries": [
-						"The ettin has advantage on Wisdom (Perception) checks and on saving throws against being {@condition 目盲}, {@condition 魅惑}, {@condition 耳聋}, {@condition 恐惧}, {@condition 震慑}, and knocked {@condition 昏迷}."
+						"The ettin has advantage on Wisdom (Perception) checks and on saving throws against being {@condition 目盲}, {@condition 魅惑}, {@condition 耳聾}, {@condition 恐懼}, {@condition 震懾}, and knocked {@condition 昏迷}."
 					]
 				},
 				{
@@ -117,14 +117,14 @@
 				{
 					"name": "Gaze",
 					"entries": [
-						"The ettin turns its magical gaze toward one creature that it can see within 120 feet of it. That target must make a {@dc 14} Wisdom saving throw. Unless the target is {@condition 无力}, it can avert its eyes to avoid the gaze and to automatically succeed on the save. If the target does so, it can't see the ettin until the start of the ettin's next turn. If the target looks at the ettin in the meantime, it must immediately make the save.",
+						"The ettin turns its magical gaze toward one creature that it can see within 120 feet of it. That target must make a {@dc 14} Wisdom saving throw. Unless the target is {@condition 無力}, it can avert its eyes to avoid the gaze and to automatically succeed on the save. If the target does so, it can't see the ettin until the start of the ettin's next turn. If the target looks at the ettin in the meantime, it must immediately make the save.",
 						"If the target fails the save, it suffers one of the following effects of the ettin's choice or at random:"
 					]
 				},
 				{
 					"name": "Beguiling Gaze",
 					"entries": [
-						"The target is {@condition 震慑} until the start of the ettin's next turn or until the ettin is no longer within line of sight."
+						"The target is {@condition 震懾} until the start of the ettin's next turn or until the ettin is no longer within line of sight."
 					]
 				},
 				{
@@ -187,7 +187,7 @@
 						"items": {
 							"name": "Keen Hearing and Sight",
 							"entries": [
-								"Andras advantage on Wisdom ({@skill 察觉}) checks that rely on hearing or sight."
+								"Andras advantage on Wisdom ({@skill 察覺}) checks that rely on hearing or sight."
 							]
 						}
 					},
@@ -297,15 +297,15 @@
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 诱捕打击}",
+								"{@spell 誘捕打擊}",
 								"{@spell 棘刺雹}",
-								"{@spell 猎人印记}"
+								"{@spell 獵人印記}"
 							]
 						},
 						"2": {
 							"slots": 2,
 							"spells": [
-								"{@spell 动植物定位术}"
+								"{@spell 動植物定位術}"
 							]
 						}
 					},
@@ -404,7 +404,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -473,7 +473,7 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 光亮术}"
+								"{@spell 光亮術}"
 							]
 						}
 					},
@@ -484,7 +484,7 @@
 				{
 					"name": "Petrifying Gaze",
 					"entries": [
-						"When a creature that can see the medusa's eyes starts its turn within 30 feet of the medusa, the medusa can force it to make a {@dc 14} Constitution saving throw if the medusa isn't {@condition 无力} and can see the creature. If the saving throw fails by 5 or more, the creature is instantly {@condition 石化}. Otherwise, a creature that fails the save begins to turn to metal, wood, or porcelain (the medusa's choice) and is {@condition 束缚}. The {@condition 束缚} creature must repeat the saving throw at the end of its next turn, becoming {@condition 石化} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the  {@spell 高等复原术} spell or other magic.",
+						"When a creature that can see the medusa's eyes starts its turn within 30 feet of the medusa, the medusa can force it to make a {@dc 14} Constitution saving throw if the medusa isn't {@condition 無力} and can see the creature. If the saving throw fails by 5 or more, the creature is instantly {@condition 石化}. Otherwise, a creature that fails the save begins to turn to metal, wood, or porcelain (the medusa's choice) and is {@condition 束縛}. The {@condition 束縛} creature must repeat the saving throw at the end of its next turn, becoming {@condition 石化} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the  {@spell 高等復原術} spell or other magic.",
 						"Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the medusa until the start of its next turn, when it can avert its eyes again. If the creature looks at the medusa in the meantime, it must immediately make the save.",
 						"If the medusa sees itself reflected on a polished surface within 30 feet of it and in an area of bright light, the medusa is, due to its curse, affected by its own gaze."
 					]
@@ -514,7 +514,7 @@
 						"items": {
 							"name": "Pacifying Spores (3/Day)",
 							"entries": [
-								"Grandfather Oak ejects spores at one creature it can see within 5 feet of it. The target must succeed on a {@dc 17} Constitution saving throw or be {@condition 震慑} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+								"Grandfather Oak ejects spores at one creature it can see within 5 feet of it. The target must succeed on a {@dc 17} Constitution saving throw or be {@condition 震懾} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 							]
 						}
 					}
@@ -736,27 +736,27 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 舞光术}",
-								"{@spell 光亮术}",
-								"{@spell 传讯术}",
-								"{@spell 电爪}"
+								"{@spell 舞光術}",
+								"{@spell 光亮術}",
+								"{@spell 傳訊術}",
+								"{@spell 電爪}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 通晓语言}",
-								"{@spell 治疗伤势}",
-								"{@spell 油腻术}",
-								"{@spell 鉴定术}"
+								"{@spell 通曉語言}",
+								"{@spell 治療傷勢}",
+								"{@spell 油膩術}",
+								"{@spell 鑑定術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 侦测思想}",
-								"{@spell 隐形术}",
-								"{@spell 灼热金属}"
+								"{@spell 偵測思想}",
+								"{@spell 隱形術}",
+								"{@spell 灼熱金屬}"
 							]
 						},
 						"3": {
@@ -764,21 +764,21 @@
 							"spells": [
 								"{@spell 解除魔法}",
 								"{@spell flame arrows|XGE}",
-								"{@spell 催眠图纹}"
+								"{@spell 催眠圖紋}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
 								"{@spell 鬼斧神工}",
-								"{@spell 塑石术}",
-								"{@spell 石肤术}"
+								"{@spell 塑石術}",
+								"{@spell 石膚術}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell 造物术}"
+								"{@spell 造物術}"
 							]
 						}
 					},
@@ -863,7 +863,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -901,12 +901,12 @@
 						"The neo-otyugh's innate spellcasting ability is Intelligence (spell save {@dc 12}). It can innately cast the following spells, requiring no components:"
 					],
 					"will": [
-						"{@spell 侦测思想}"
+						"{@spell 偵測思想}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 命令术}",
-							"{@spell 人类定身术}"
+							"{@spell 命令術}",
+							"{@spell 人類定身術}"
 						]
 					},
 					"ability": "int"
@@ -936,13 +936,13 @@
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 15 ft., one target. {@h}10 ({@damage 1d10 + 5}) bludgeoning damage. If the target is Large or smaller, it is {@condition 被擒} (escape {@dc 16}) and {@condition 束缚} until the grapple ends. The neo-otyugh has two tentacles, each of which can grapple one target."
+						"{@atk mw} {@hit 8} to hit, reach 15 ft., one target. {@h}10 ({@damage 1d10 + 5}) bludgeoning damage. If the target is Large or smaller, it is {@condition 被擒} (escape {@dc 16}) and {@condition 束縛} until the grapple ends. The neo-otyugh has two tentacles, each of which can grapple one target."
 					]
 				},
 				{
 					"name": "Tentacle Slam",
 					"entries": [
-						"The neo-otyugh slams creatures {@condition 被擒} by it into each other or a solid surface. Each creature must succeed on a {@dc 16} Constitution saving throw or take 15 ({@damage 3d6 + 5}) bludgeoning damage and be {@condition 震慑} until the end of the neo-otyugh's next turn. On a successful save, the target takes half the bludgeoning damage and isn't {@condition 震慑}."
+						"The neo-otyugh slams creatures {@condition 被擒} by it into each other or a solid surface. Each creature must succeed on a {@dc 16} Constitution saving throw or take 15 ({@damage 3d6 + 5}) bludgeoning damage and be {@condition 震懾} until the end of the neo-otyugh's next turn. On a successful save, the target takes half the bludgeoning damage and isn't {@condition 震懾}."
 					]
 				}
 			],
@@ -1019,7 +1019,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1098,7 +1098,7 @@
 				{
 					"name": "Brave",
 					"entries": [
-						"Sir Ursas has advantage on saving throws against being {@condition 恐惧}."
+						"Sir Ursas has advantage on saving throws against being {@condition 恐懼}."
 					]
 				},
 				{
@@ -1394,49 +1394,49 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 光亮术}",
-								"{@spell 修复术}",
-								"{@spell 传讯术}",
-								"{@spell 电爪}"
+								"{@spell 光亮術}",
+								"{@spell 修復術}",
+								"{@spell 傳訊術}",
+								"{@spell 電爪}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 警报术}",
-								"{@spell 治疗伤势}",
-								"{@spell 鉴定术}",
-								"{@spell 致病射线}"
+								"{@spell 警報術}",
+								"{@spell 治療傷勢}",
+								"{@spell 鑑定術}",
+								"{@spell 致病射線}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 隐形术}",
-								"{@spell 马友夫强酸箭}",
-								"{@spell 蛛网术}"
+								"{@spell 隱形術}",
+								"{@spell 馬友夫強酸箭}",
+								"{@spell 蛛網術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
 								"{@spell 解除魔法}",
-								"{@spell 加速术}",
-								"{@spell 臭云术}"
+								"{@spell 加速術}",
+								"{@spell 臭雲術}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 枯萎术}",
-								"{@spell 魔邓肯忠犬}",
-								"{@spell 欧提路克魔封法球}"
+								"{@spell 枯萎術}",
+								"{@spell 魔鄧肯忠犬}",
+								"{@spell 歐提路克魔封法球}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell 死云术}"
+								"{@spell 死雲術}"
 							]
 						}
 					},
@@ -1539,7 +1539,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1626,7 +1626,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1663,7 +1663,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -1690,7 +1690,7 @@
 				{
 					"name": "Freedom of Movement",
 					"entries": [
-						"The thessalkraken ignores difficult terrain, and magical effects can't reduce its speed or cause it to be {@condition 束缚}. It can spend 5 feet of movement to escape from nonmagical restraints or being {@condition 被擒}."
+						"The thessalkraken ignores difficult terrain, and magical effects can't reduce its speed or cause it to be {@condition 束縛}. It can spend 5 feet of movement to escape from nonmagical restraints or being {@condition 被擒}."
 					]
 				}
 			],
@@ -1704,14 +1704,14 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}20 ({@damage 3d8 + 7}) piercing damage plus 5 ({@damage 1d10}) acid damage. If the target is a Medium or smaller creature {@condition 被擒} by the thessalkraken, that creature is swallowed, and the grapple ends. While swallowed, the creature is {@condition 目盲} and {@condition 束缚}, it has total cover against attacks and other effects outside the thessalkraken, and it takes 21 ({@damage 6d6}) acid damage at the start of each of the thessalkraken's turns.",
-						"If the thessalkraken takes 35 damage or more on a single turn from a creature inside it, it must succeed on a {@dc 23} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition 伏地} in a space within 10 feet of the thessalkraken. If the thessalkraken dies, a swallowed creature is no longer {@condition 束缚} by it and can escape from the corpse using 10 feet of movement, exiting {@condition 伏地}."
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}20 ({@damage 3d8 + 7}) piercing damage plus 5 ({@damage 1d10}) acid damage. If the target is a Medium or smaller creature {@condition 被擒} by the thessalkraken, that creature is swallowed, and the grapple ends. While swallowed, the creature is {@condition 目盲} and {@condition 束縛}, it has total cover against attacks and other effects outside the thessalkraken, and it takes 21 ({@damage 6d6}) acid damage at the start of each of the thessalkraken's turns.",
+						"If the thessalkraken takes 35 damage or more on a single turn from a creature inside it, it must succeed on a {@dc 23} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition 伏地} in a space within 10 feet of the thessalkraken. If the thessalkraken dies, a swallowed creature is no longer {@condition 束縛} by it and can escape from the corpse using 10 feet of movement, exiting {@condition 伏地}."
 					]
 				},
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 20 ft., one target. {@h}17 ({@damage 3d6 + 7}) slashing damage, and the target is {@condition 被擒} (escape {@dc 16}). Until this grapple ends, the target is {@condition 束缚}. The thessalkraken has ten tentacles, each of which can grapple one target."
+						"{@atk mw} {@hit 12} to hit, reach 20 ft., one target. {@h}17 ({@damage 3d6 + 7}) slashing damage, and the target is {@condition 被擒} (escape {@dc 16}). Until this grapple ends, the target is {@condition 束縛}. The thessalkraken has ten tentacles, each of which can grapple one target."
 					]
 				},
 				{
@@ -1831,7 +1831,7 @@
 				{
 					"ac": 12,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1865,7 +1865,7 @@
 				{
 					"name": "Two Heads",
 					"entries": [
-						"The two-headed crocodile has advantage on Wisdom (Perception) checks and on saving throws against being {@condition 目盲}, {@condition 魅惑}, {@condition 耳聋}, {@condition 恐惧}, {@condition 震慑}, and knocked {@condition 昏迷}."
+						"The two-headed crocodile has advantage on Wisdom (Perception) checks and on saving throws against being {@condition 目盲}, {@condition 魅惑}, {@condition 耳聾}, {@condition 恐懼}, {@condition 震懾}, and knocked {@condition 昏迷}."
 					]
 				},
 				{
@@ -1885,7 +1885,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage, and the target is {@condition 被擒} (escape {@dc 12}). Until this grapple ends, the target is {@condition 束缚}, and that head of the crocodile can't bite another target."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage, and the target is {@condition 被擒} (escape {@dc 12}). Until this grapple ends, the target is {@condition 束縛}, and that head of the crocodile can't bite another target."
 					]
 				}
 			],
@@ -1919,7 +1919,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1948,7 +1948,7 @@
 				{
 					"name": "Two Heads",
 					"entries": [
-						"The two-headed owlbear has advantage on Wisdom (Perception) checks and on saving throws against being {@condition 目盲}, {@condition 魅惑}, {@condition 耳聋}, {@condition 恐惧}, {@condition 震慑}, and knocked {@condition 昏迷}."
+						"The two-headed owlbear has advantage on Wisdom (Perception) checks and on saving throws against being {@condition 目盲}, {@condition 魅惑}, {@condition 耳聾}, {@condition 恐懼}, {@condition 震懾}, and knocked {@condition 昏迷}."
 					]
 				},
 				{

@@ -30,7 +30,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -160,7 +160,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -204,14 +204,14 @@
 						"The nullifier's innate spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 反制法术} (see \"Reactions\" below)",
-						"{@spell 侦测魔法}",
+						"{@spell 反製法術} (see \"Reactions\" below)",
+						"{@spell 偵測魔法}",
 						"{@spell 解除魔法}",
-						"{@spell 识破隐形}"
+						"{@spell 識破隱形}"
 					],
 					"daily": {
 						"1": [
-							"{@spell 反魔法结界}"
+							"{@spell 反魔法結界}"
 						]
 					},
 					"ability": "cha"
@@ -222,8 +222,8 @@
 					"name": "Horrid Gnashing",
 					"entries": [
 						"The nullifier's mouths gnash incoherently while it can see any enemies. Each creature that starts its turn within 20 feet of the nullifier and can hear it must make a {@dc 16} Wisdom saving throw. Unless the save succeeds, the creature rolls a {@dice d8} to determine what it does during the current turn:",
-						"1-4: The creature is {@condition 震慑} until the end of the turn.",
-						"5-6: The creature is {@condition 恐惧} until the end of the turn and uses its movement to get as far as possible from the nullifier.",
+						"1-4: The creature is {@condition 震懾} until the end of the turn.",
+						"5-6: The creature is {@condition 恐懼} until the end of the turn and uses its movement to get as far as possible from the nullifier.",
 						"7-8: The creature doesn't move, and it uses its action to make one melee attack against a random creature (other than itself) if one is within reach. It otherwise does nothing."
 					]
 				},
@@ -305,7 +305,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -579,11 +579,11 @@
 				{
 					"name": "Innate Spellcasting (1/Day)",
 					"headerEntries": [
-						"The blood hunter can innately cast {@spell 脆弱诅咒}. Its innate spellcasting ability is Intelligence."
+						"The blood hunter can innately cast {@spell 脆弱詛咒}. Its innate spellcasting ability is Intelligence."
 					],
 					"ability": "int",
 					"will": [
-						"{@spell 脆弱诅咒}"
+						"{@spell 脆弱詛咒}"
 					],
 					"hidden": [
 						"will"
@@ -690,7 +690,7 @@
 				},
 				{
 					"ac": 15,
-					"condition": "with {@spell 法师护甲}",
+					"condition": "with {@spell 法師護甲}",
 					"braces": true
 				}
 			],
@@ -725,15 +725,15 @@
 					"will": [
 						"{@spell 魔能爆}",
 						"{@spell 摹造生命}",
-						"{@spell 法师护甲}",
-						"{@spell 法师之手}"
+						"{@spell 法師護甲}",
+						"{@spell 法師之手}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 魅惑人类}",
-							"{@spell 脆弱诅咒}",
-							"{@spell 人类定身术}",
-							"{@spell 隐形术}"
+							"{@spell 魅惑人類}",
+							"{@spell 脆弱詛咒}",
+							"{@spell 人類定身術}",
+							"{@spell 隱形術}"
 						]
 					},
 					"ability": "cha"
@@ -784,7 +784,7 @@
 				{
 					"name": "Zone of Calamity (Costs 2 Actions)",
 					"entries": [
-						"A 15-foot-radius sphere of magical confusion extends from a point Bol'bara can see within 60 feet of her and spreads around corners. Each creature that starts its turn in that area is treated as if targeted by the {@spell 困惑术} spell (save {@dc 12}). The sphere lasts as long as Bol'bara maintains concentration, up to 1 minute (as if concentrating on a spell)."
+						"A 15-foot-radius sphere of magical confusion extends from a point Bol'bara can see within 60 feet of her and spreads around corners. Each creature that starts its turn in that area is treated as if targeted by the {@spell 困惑術} spell (save {@dc 12}). The sphere lasts as long as Bol'bara maintains concentration, up to 1 minute (as if concentrating on a spell)."
 					]
 				}
 			],
@@ -826,7 +826,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -946,7 +946,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The crawler has advantage on an attack roll against a creature if at least one of the crawler's allies is within 5 feet of the creature and the ally isn't {@condition 无力}."
+						"The crawler has advantage on an attack roll against a creature if at least one of the crawler's allies is within 5 feet of the creature and the ally isn't {@condition 無力}."
 					]
 				}
 			],
@@ -960,7 +960,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}4 ({@damage 1d4 + 2}) piercing damage and the target must succeed on a {@dc 11} Wisdom saving throw or become {@condition 恐惧} until the start of the crawler's next turn."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}4 ({@damage 1d4 + 2}) piercing damage and the target must succeed on a {@dc 11} Wisdom saving throw or become {@condition 恐懼} until the start of the crawler's next turn."
 					]
 				},
 				{
@@ -1019,7 +1019,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1144,7 +1144,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1219,7 +1219,7 @@
 				{
 					"name": "Psychedelic Orb",
 					"entries": [
-						"The seer hurls a glimmering orb at one creature it can see within 120 of it. The target must succeed on a {@dc 19} Wisdom saving throw or take 27 ({@damage 5d10}) psychic damage and suffer a random condition until the start of the seer's next turn. Roll a {@dice d6} for the condition: (1-2) {@condition 目盲}, (3-4) {@condition 恐惧}, or (5-6) {@condition 震慑}."
+						"The seer hurls a glimmering orb at one creature it can see within 120 of it. The target must succeed on a {@dc 19} Wisdom saving throw or take 27 ({@damage 5d10}) psychic damage and suffer a random condition until the start of the seer's next turn. Roll a {@dice d6} for the condition: (1-2) {@condition 目盲}, (3-4) {@condition 恐懼}, or (5-6) {@condition 震懾}."
 					]
 				}
 			],
@@ -1276,7 +1276,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1351,14 +1351,14 @@
 				{
 					"name": "Barbed Tentacles",
 					"entries": [
-						"{@atk mw} {@hit 13} to hit, reach 10 ft., one creature. {@h}25 ({@damage 5d6 + 8}) piercing damage, and the target is {@condition 被擒} (escape {@dc 18}). Until this grapple ends, the target is {@condition 束缚}. The tentacles can grapple only one creature at a time."
+						"{@atk mw} {@hit 13} to hit, reach 10 ft., one creature. {@h}25 ({@damage 5d6 + 8}) piercing damage, and the target is {@condition 被擒} (escape {@dc 18}). Until this grapple ends, the target is {@condition 束縛}. The tentacles can grapple only one creature at a time."
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}30 ({@damage 5d8 + 8}) piercing damage. If the target is a Large or smaller creature, it must succeed on a {@dc 18} Dexterity saving throw or be swallowed by the worm. A swallowed creature is {@condition 目盲} and {@condition 束缚}, has total cover against attacks and other effects outside the worm, and takes 21 ({@damage 6d6}) fire damage at the start of each of the worm's turns.",
-						"If the worm takes 30 damage or more on a single turn from a creature inside it, the worm must succeed on a {@dc 21} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition 伏地} in a space within 10 feet of the worm. If the worm dies, a swallowed creature is no longer {@condition 束缚} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition 伏地}."
+						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}30 ({@damage 5d8 + 8}) piercing damage. If the target is a Large or smaller creature, it must succeed on a {@dc 18} Dexterity saving throw or be swallowed by the worm. A swallowed creature is {@condition 目盲} and {@condition 束縛}, has total cover against attacks and other effects outside the worm, and takes 21 ({@damage 6d6}) fire damage at the start of each of the worm's turns.",
+						"If the worm takes 30 damage or more on a single turn from a creature inside it, the worm must succeed on a {@dc 21} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition 伏地} in a space within 10 feet of the worm. If the worm dies, a swallowed creature is no longer {@condition 束縛} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition 伏地}."
 					]
 				}
 			],
@@ -1522,7 +1522,7 @@
 				{
 					"name": "Freezing Stare",
 					"entries": [
-						"The zombie targets one creature it can see within 60 feet of it. The target must succeed on a {@dc 17} Constitution saving throw or take 35 ({@damage 10d6}) cold damage and be {@condition 麻痹} until the end of its next turn."
+						"The zombie targets one creature it can see within 60 feet of it. The target must succeed on a {@dc 17} Constitution saving throw or take 35 ({@damage 10d6}) cold damage and be {@condition 麻痺} until the end of its next turn."
 					]
 				}
 			],
@@ -1569,7 +1569,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1633,14 +1633,14 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 15} to hit, reach 10 ft., one target. {@h}22 ({@damage 3d8 + 9}) piercing damage plus 10 ({@damage 3d6}) cold damage. If the target is a Large or smaller creature, it must succeed on a {@dc 20} Dexterity saving throw or be swallowed by the worm. A swallowed creature is {@condition 目盲} and {@condition 束缚}, has total cover against attacks and other effects outside the worm, and takes 10 ({@damage 3d6}) acid damage and 10 ({@damage 3d6}) cold damage at the start of each of the worm's turns.",
+						"{@atk mw} {@hit 15} to hit, reach 10 ft., one target. {@h}22 ({@damage 3d8 + 9}) piercing damage plus 10 ({@damage 3d6}) cold damage. If the target is a Large or smaller creature, it must succeed on a {@dc 20} Dexterity saving throw or be swallowed by the worm. A swallowed creature is {@condition 目盲} and {@condition 束縛}, has total cover against attacks and other effects outside the worm, and takes 10 ({@damage 3d6}) acid damage and 10 ({@damage 3d6}) cold damage at the start of each of the worm's turns.",
 						"If the worm takes 30 damage or more on a single turn from a creature inside it, the worm must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition 伏地} in a space within 10 feet of the worm."
 					]
 				},
 				{
 					"name": "Trill",
 					"entries": [
-						"The frost worm emits a haunting cry. Each creature within 60 feet of the worm that can hear it must succeed on a {@dc 20} Wisdom saving throw or be {@condition 震慑} for 1 minute. A creature can repeat the saving throw each time it takes damage and at the end of each of its turns, ending the effect on itself on a success. Once a creature successfully saves against this effect, or if this effect ends for it, that creature is immune to the Trill of all frost worms for the next 24 hours. Frost worms are immune to this effect."
+						"The frost worm emits a haunting cry. Each creature within 60 feet of the worm that can hear it must succeed on a {@dc 20} Wisdom saving throw or be {@condition 震懾} for 1 minute. A creature can repeat the saving throw each time it takes damage and at the end of each of its turns, ending the effect on itself on a success. Once a creature successfully saves against this effect, or if this effect ends for it, that creature is immune to the Trill of all frost worms for the next 24 hours. Frost worms are immune to this effect."
 					]
 				}
 			],
@@ -1686,7 +1686,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1714,7 +1714,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -1824,7 +1824,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1899,13 +1899,13 @@
 				{
 					"name": "Snatch",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one Medium or smaller creature. {@h}13 ({@damage 2d6 + 6}) slashing damage plus 7 ({@damage 2d6}) necrotic damage, and the target is {@condition 被擒} (escape {@dc 17}). While {@condition 被擒} in this way, the target is {@condition 束缚}."
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one Medium or smaller creature. {@h}13 ({@damage 2d6 + 6}) slashing damage plus 7 ({@damage 2d6}) necrotic damage, and the target is {@condition 被擒} (escape {@dc 17}). While {@condition 被擒} in this way, the target is {@condition 束縛}."
 					]
 				},
 				{
 					"name": "Shriek {@recharge}",
 					"entries": [
-						"The gloomstalker emits a terrible shriek. Each enemy within 60 feet of the gloomstalker that can hear it must succeed on a {@dc 13} Constitution saving throw or be {@condition 麻痹} until the end of the enemy's next turn."
+						"The gloomstalker emits a terrible shriek. Each enemy within 60 feet of the gloomstalker that can hear it must succeed on a {@dc 13} Constitution saving throw or be {@condition 麻痺} until the end of the enemy's next turn."
 					]
 				}
 			],
@@ -1952,7 +1952,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1989,7 +1989,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The wolf has advantage on attack rolls against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't {@condition 无力}."
+						"The wolf has advantage on attack rolls against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't {@condition 無力}."
 					]
 				}
 			],
@@ -2048,7 +2048,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				},
 				{
@@ -2098,7 +2098,7 @@
 					"name": "Massive Frame",
 					"entries": [
 						"The tortoise can carry up to 20,000 pounds of weight atop its shell, but moves at half speed if the weight exceeds 10,000 pounds. Medium or smaller creatures can move underneath the tortoise while it's not {@condition 伏地}.",
-						"Any creature under the tortoise when it falls {@condition 伏地} is {@condition 被擒} (escape {@dc 18}). Until the grapple ends, the creature is {@condition 伏地} and {@condition 束缚}."
+						"Any creature under the tortoise when it falls {@condition 伏地} is {@condition 被擒} (escape {@dc 18}). Until the grapple ends, the creature is {@condition 伏地} and {@condition 束縛}."
 					]
 				}
 			],
@@ -2383,7 +2383,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't {@condition 无力}."
+						"The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't {@condition 無力}."
 					]
 				},
 				{
@@ -2444,7 +2444,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -2480,32 +2480,32 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 德鲁伊伎俩}",
-								"{@spell 次级幻象}",
-								"{@spell 电爪}"
+								"{@spell 德魯伊伎倆}",
+								"{@spell 次級幻象}",
+								"{@spell 電爪}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 治疗伤势}",
-								"{@spell 云雾术}",
-								"{@spell 雷鸣波}"
+								"{@spell 治療傷勢}",
+								"{@spell 雲霧術}",
+								"{@spell 雷鳴波}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 人类定身术}",
-								"{@spell 镜影术}",
-								"{@spell 迷踪步}"
+								"{@spell 人類定身術}",
+								"{@spell 鏡影術}",
+								"{@spell 迷蹤步}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
 								"{@spell 解除魔法}",
-								"{@spell 闪电束} (see \"Actions\" below)",
+								"{@spell 閃電束} (see \"Actions\" below)",
 								"{@spell 雪雨暴}"
 							]
 						}
@@ -2573,7 +2573,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -2661,12 +2661,12 @@
 						"Mossback Steward's innate spellcasting ability is Wisdom (spell save {@dc 15}). It can innately cast the following spells, requiring no material components."
 					],
 					"will": [
-						"{@spell 交友术}"
+						"{@spell 交友術}"
 					],
 					"rest": {
 						"1": [
-							"{@spell 暗示术}",
-							"{@spell 预言术}"
+							"{@spell 暗示術}",
+							"{@spell 預言術}"
 						]
 					}
 				}
@@ -2702,7 +2702,7 @@
 				{
 					"ac": 12,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -2736,7 +2736,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -2782,7 +2782,7 @@
 				{
 					"name": "Siphon Life {@recharge 4}",
 					"entries": [
-						"The nergaliid magically draws the life from a humanoid it can see within 40 feet of it. The target must make a {@dc 15} Wisdom saving throw. An {@condition 无力} target fails the save automatically. On a failed save, the creature takes 10 ({@damage 3d6}) psychic damage, and the nergaliid gains temporary hit points equal to the damage taken. On a successful save, the target takes half as much damage, and the nergaliid doesn't gain temporary hit points. If this damage kills the target, its body rises at the end of the nergaliid's current turn as a husk zombie (see earlier in this chapter)."
+						"The nergaliid magically draws the life from a humanoid it can see within 40 feet of it. The target must make a {@dc 15} Wisdom saving throw. An {@condition 無力} target fails the save automatically. On a failed save, the creature takes 10 ({@damage 3d6}) psychic damage, and the nergaliid gains temporary hit points equal to the damage taken. On a successful save, the target takes half as much damage, and the nergaliid doesn't gain temporary hit points. If this damage kills the target, its body rises at the end of the nergaliid's current turn as a husk zombie (see earlier in this chapter)."
 					]
 				}
 			],
@@ -2913,31 +2913,31 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 光亮术}",
-								"{@spell 圣焰}",
-								"{@spell 拯救濒死}"
+								"{@spell 光亮術}",
+								"{@spell 聖焰}",
+								"{@spell 拯救瀕死}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 命令术}",
-								"{@spell 治疗伤势}",
-								"{@spell 光导箭}"
+								"{@spell 命令術}",
+								"{@spell 治療傷勢}",
+								"{@spell 光導箭}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 次级复原术}",
-								"{@spell 灵体武器}"
+								"{@spell 次級復原術}",
+								"{@spell 靈體武器}"
 							]
 						},
 						"3": {
 							"slots": 2,
 							"spells": [
 								"{@spell 解除魔法}",
-								"{@spell 回生术}"
+								"{@spell 回生術}"
 							]
 						}
 					},
@@ -2992,7 +2992,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -3031,16 +3031,16 @@
 					],
 					"will": [
 						"{@spell 魔能爆} (see \"Actions\" below)",
-						"{@spell 次级幻象}"
+						"{@spell 次級幻象}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 艾嘉西斯之铠}",
-							"{@spell 哈达之臂}",
-							"{@spell 反制法术}",
-							"{@spell 疯狂冠冕}",
-							"{@spell 隐形术}",
-							"{@spell 哈达之欲}"
+							"{@spell 艾嘉西斯之鎧}",
+							"{@spell 哈達之臂}",
+							"{@spell 反製法術}",
+							"{@spell 瘋狂冠冕}",
+							"{@spell 隱形術}",
+							"{@spell 哈達之慾}"
 						]
 					},
 					"ability": "cha"
@@ -3082,7 +3082,7 @@
 				{
 					"name": "Sword of Fathoms",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) slashing damage, and if the target is a creature, it must succeed on a {@dc 13} Constitution saving throw or begin choking. The choking creature is {@condition 无力} until the end of its next turn, when the effect ends on it."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) slashing damage, and if the target is a creature, it must succeed on a {@dc 13} Constitution saving throw or begin choking. The choking creature is {@condition 無力} until the end of its next turn, when the effect ends on it."
 					]
 				},
 				{
@@ -3158,7 +3158,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -3196,7 +3196,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -3220,13 +3220,13 @@
 						"The sea fury's innate spellcasting ability is Charisma (spell save {@dc 16}, {@hit 8} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 巫术箭}"
+						"{@spell 巫術箭}"
 					],
 					"daily": {
 						"1e": [
 							"{@spell 降咒}",
-							"{@spell 恐惧术}",
-							"{@spell 雷鸣波}"
+							"{@spell 恐懼術}",
+							"{@spell 雷鳴波}"
 						]
 					},
 					"ability": "cha"
@@ -3268,7 +3268,7 @@
 				{
 					"name": "Death Glare",
 					"entries": [
-						"The sea fury targets one {@condition 恐惧} creature it can see within 30 feet of it. The target must succeed on a {@dc 16} Wisdom saving throw or drop to 0 hit points."
+						"The sea fury targets one {@condition 恐懼} creature it can see within 30 feet of it. The target must succeed on a {@dc 16} Wisdom saving throw or drop to 0 hit points."
 					]
 				}
 			],
@@ -3276,13 +3276,13 @@
 				{
 					"name": "As Water",
 					"entries": [
-						"The sea fury transforms into a wave of foaming seawater, along with whatever it is wearing or carrying, and moves up to its speed without provoking opportunity attacks. While in this form, it can't be {@condition 被擒} or {@condition 束缚}. It reverts to its true form at the end of this movement."
+						"The sea fury transforms into a wave of foaming seawater, along with whatever it is wearing or carrying, and moves up to its speed without provoking opportunity attacks. While in this form, it can't be {@condition 被擒} or {@condition 束縛}. It reverts to its true form at the end of this movement."
 					]
 				},
 				{
 					"name": "Fearsome Apparition (Costs 2 Actions)",
 					"entries": [
-						"The sea fury conjures an apparition of one of its dead sisters, which appears in an unoccupied space the sea fury can see within 30 feet of it. Enemies of the sea fury that can see the apparition must succeed on a {@dc 16} Wisdom saving throw or be {@condition 恐惧} of it until it vanishes at the end of the sea fury's next turn."
+						"The sea fury conjures an apparition of one of its dead sisters, which appears in an unoccupied space the sea fury can see within 30 feet of it. Enemies of the sea fury that can see the apparition must succeed on a {@dc 16} Wisdom saving throw or be {@condition 恐懼} of it until it vanishes at the end of the sea fury's next turn."
 					]
 				},
 				{
@@ -3407,7 +3407,7 @@
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage. If the target is a creature other than an undead, it must succeed on a {@dc 12} Constitution saving throw or be {@condition 麻痹} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage. If the target is a creature other than an undead, it must succeed on a {@dc 12} Constitution saving throw or be {@condition 麻痺} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -3577,30 +3577,30 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 燃火术}",
+								"{@spell 燃火術}",
 								"{@spell 提升抗力}",
-								"{@spell 荆棘之鞭}"
+								"{@spell 荊棘之鞭}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 纠缠术}",
-								"{@spell 云雾术}"
+								"{@spell 糾纏術}",
+								"{@spell 雲霧術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 目盲/耳聋术}",
-								"{@spell 荆棘丛生}"
+								"{@spell 目盲/耳聾術}",
+								"{@spell 荊棘叢生}"
 							]
 						},
 						"3": {
 							"slots": 2,
 							"spells": [
-								"{@spell 活化死尸}",
-								"{@spell 召唤动物} (reptiles only)"
+								"{@spell 活化死屍}",
+								"{@spell 召喚動物} (reptiles only)"
 							]
 						}
 					},
@@ -3646,7 +3646,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -3685,7 +3685,7 @@
 				{
 					"name": "Petrifying Secretions",
 					"entries": [
-						"A creature must make a {@dc 13} Constitution saving throw if it hits the basilisk with a weapon attack while within 5 feet of it or if it starts its turn {@condition 被擒} by the basilisk. Unless the save succeeds, the creature magically begins to turn to stone and is {@condition 束缚}, and it must repeat the saving throw at the end of its next turn. On a successful save, the effect ends. On a failure, the creature is {@condition 石化}."
+						"A creature must make a {@dc 13} Constitution saving throw if it hits the basilisk with a weapon attack while within 5 feet of it or if it starts its turn {@condition 被擒} by the basilisk. Unless the save succeeds, the creature magically begins to turn to stone and is {@condition 束縛}, and it must repeat the saving throw at the end of its next turn. On a successful save, the effect ends. On a failure, the creature is {@condition 石化}."
 					]
 				}
 			],
@@ -3777,7 +3777,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -3810,7 +3810,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -3848,7 +3848,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 13} to hit, reach 5 ft., one creature. {@h}21 ({@damage 2d12 + 8}) piercing damage, and the target is {@condition 被擒} (escape {@dc 21}). Until this grapple ends, the target is {@condition 束缚}, and the udaak can't bite another target."
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one creature. {@h}21 ({@damage 2d12 + 8}) piercing damage, and the target is {@condition 被擒} (escape {@dc 21}). Until this grapple ends, the target is {@condition 束縛}, and the udaak can't bite another target."
 					]
 				},
 				{
@@ -3860,8 +3860,8 @@
 				{
 					"name": "Swallow",
 					"entries": [
-						"The udaak makes one bite attack against a Large or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. A swallowed creature is {@condition 目盲} and {@condition 束缚}, it has total cover against attacks and other effects outside the udaak, and it takes 21 ({@damage 6d6}) acid damage at the start of each of the udaak's turns.",
-						"If the udaak takes 30 damage or more on a single turn from a creature inside it, the udaak must succeed on a {@dc 21} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition 伏地} in a space within 10 feet of the udaak. If the udaak dies, a swallowed creature is no longer {@condition 束缚} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition 伏地}."
+						"The udaak makes one bite attack against a Large or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. A swallowed creature is {@condition 目盲} and {@condition 束縛}, it has total cover against attacks and other effects outside the udaak, and it takes 21 ({@damage 6d6}) acid damage at the start of each of the udaak's turns.",
+						"If the udaak takes 30 damage or more on a single turn from a creature inside it, the udaak must succeed on a {@dc 21} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition 伏地} in a space within 10 feet of the udaak. If the udaak dies, a swallowed creature is no longer {@condition 束縛} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition 伏地}."
 					]
 				}
 			],
@@ -3908,7 +3908,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],

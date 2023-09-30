@@ -4,12 +4,12 @@ const utB = require("./util-book-reference");
 
 const index = utB.UtilBookReference.getIndex(
 	{
-		name: "快速参照",
+		name: "快速參照",
 		id: "bookref-quick",
 		tag: "quickref",
 	},
 	{
-		name: "DM参照",
+		name: "DM參照",
 		id: "bookref-dmscreen",
 		tag: "dmref",
 	},

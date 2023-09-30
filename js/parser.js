@@ -18,13 +18,13 @@ Parser._parse_bToA = function (abMap, b) {
 };
 
 Parser.attrChooseToFull = function (attList) {
-	if (attList.length === 1) return `${Parser.attAbvToFull(attList[0])} 调整值`;
+	if (attList.length === 1) return `${Parser.attAbvToFull(attList[0])} 調整值`;
 	else {
 		const attsTemp = [];
 		for (let i = 0; i < attList.length; ++i) {
 			attsTemp.push(Parser.attAbvToFull(attList[i]));
 		}
-		return `${attsTemp.join(" 或 ")}调整值（由你决定）`;
+		return `${attsTemp.join(" 或 ")}調整值（由你決定）`;
 	}
 };
 
@@ -354,24 +354,24 @@ Parser.SKILL_TO_ATB_ABV = {
 	"intimidation": "cha",
 	"performance": "cha",
 	"persuasion": "cha",
-	"运动": "str",
-	"体操": "dex",
+	"運動": "str",
+	"體操": "dex",
 	"巧手": "dex",
-	"隐匿": "dex",
-	"奥秘": "int",
-	"历史": "int",
-	"调查": "int",
+	"隱匿": "dex",
+	"奧秘": "int",
+	"歷史": "int",
+	"調查": "int",
 	"自然": "int",
 	"宗教": "int",
-	"驯兽": "wis",
+	"馴獸": "wis",
 	"洞悉": "wis",
-	"医疗": "wis",
-	"察觉": "wis",
+	"醫療": "wis",
+	"察覺": "wis",
 	"生存": "wis",
-	"欺瞒": "cha",
-	"威吓": "cha",
+	"欺瞞": "cha",
+	"威嚇": "cha",
 	"表演": "cha",
-	"说服": "cha",
+	"說服": "cha",
 };
 
 Parser.skillToAbilityAbv = function (skill) {
@@ -818,9 +818,9 @@ Parser.skillProficienciesToFull = function (skillProficiencies) {
 		if (~ixChoose) {
 			const chObj = skProf.choose;
 			if (chObj.from.length === 18) {
-				chooseStack.push(`选择任意${chObj.count ? chObj.count : "1"}个技能`);
+				chooseStack.push(`選擇任意${chObj.count ? chObj.count : "1"}個技能`);
 			} else {
-				chooseStack.push(`从${chObj.from.map(it => Renderer.get().render(`{@skill ${Parser.SkillToDisplay(it)}}`)).joinConjunct("、", "和")}中选择${chObj.count || 1}个`);
+				chooseStack.push(`從${chObj.from.map(it => Renderer.get().render(`{@skill ${Parser.SkillToDisplay(it)}}`)).joinConjunct("、", "和")}中選擇${chObj.count || 1}個`);
 			}
 		}
 
@@ -879,8 +879,8 @@ Parser.getOrdinalForm = function (i) {
 };
 
 Parser.spLevelToFull = function (level) {
-	if (level === 0) return "戏法";
-	else return `${level}环`;
+	if (level === 0) return "戲法";
+	else return `${level}環`;
 };
 
 Parser.getArticle = function (str) {
@@ -890,7 +890,7 @@ Parser.getArticle = function (str) {
 };
 
 Parser.spLevelToFullLevelText = function (level, dash) {
-	return `${Parser.spLevelToFull(level)}${(level === 0 ? "s" : `${dash ? "-" : " "}环`)}`;
+	return `${Parser.spLevelToFull(level)}${(level === 0 ? "s" : `${dash ? "-" : " "}環`)}`;
 };
 
 Parser.spLevelToSpellPoints = function (lvl) {
@@ -922,7 +922,7 @@ Parser.spLevelSchoolMetaToFull = function (level, school, meta, subschools) {
 	if (metaArr.length || (subschools && subschools.length)) {
 		const metaAndSubschoolPart = [
 			(subschools || []).map(sub => Parser.spSchoolAbvToFull(sub)).join("、"),
-			metaArr.map(meta => meta === "ritual" ? "仪式" : meta).join("、"),
+			metaArr.map(meta => meta === "ritual" ? "儀式" : meta).join("、"),
 		].filter(Boolean).join("；").toLowerCase();
 		return `${levelSchoolStr} (${metaAndSubschoolPart})`;
 	}
@@ -934,8 +934,8 @@ Parser.spTimeListToFull = function (times, isStripTags) {
 };
 
 Parser.getTimeToFull = function (time) {
-	let unit = (time.unit === "action" || time.unit === "bonus" || time.unit === "reaction") ? "个" : "";
-	return `${time.number ? `${time.number} ${unit}` : ""}${time.unit === "bonus" ? "附赠动作" : Parser.translateKeyToDisplay(time.unit)}${time.number > 1 ? "" : ""}`;
+	let unit = (time.unit === "action" || time.unit === "bonus" || time.unit === "reaction") ? "個" : "";
+	return `${time.number ? `${time.number} ${unit}` : ""}${time.unit === "bonus" ? "附贈動作" : Parser.translateKeyToDisplay(time.unit)}${time.number > 1 ? "" : ""}`;
 };
 
 RNG_SPECIAL = "special";
@@ -954,19 +954,19 @@ RNG_UNLIMITED_SAME_PLANE = "plane";
 RNG_TOUCH = "touch";
 Parser.SP_RANGE_TYPE_TO_FULL = {
 	[RNG_SPECIAL]: "特殊",
-	[RNG_POINT]: "点",
-	[RNG_LINE]: "直线",
-	[RNG_CUBE]: "立方体",
-	[RNG_CONE]: "锥形",
-	[RNG_RADIUS]: "半径",
-	[RNG_SPHERE]: "球体",
-	[RNG_HEMISPHERE]: "半球体",
-	[RNG_CYLINDER]: "圆柱体",
+	[RNG_POINT]: "點",
+	[RNG_LINE]: "直線",
+	[RNG_CUBE]: "立方體",
+	[RNG_CONE]: "錐形",
+	[RNG_RADIUS]: "半徑",
+	[RNG_SPHERE]: "球體",
+	[RNG_HEMISPHERE]: "半球體",
+	[RNG_CYLINDER]: "圓柱體",
 	[RNG_SELF]: "自身",
-	[RNG_SIGHT]: "视线",
-	[RNG_UNLIMITED]: "无限",
-	[RNG_UNLIMITED_SAME_PLANE]: "同位面无限",
-	[RNG_TOUCH]: "触碰",
+	[RNG_SIGHT]: "視線",
+	[RNG_UNLIMITED]: "無限",
+	[RNG_UNLIMITED_SAME_PLANE]: "同位面無限",
+	[RNG_TOUCH]: "觸碰",
 };
 
 Parser.spRangeTypeToFull = function (range) {
@@ -977,7 +977,7 @@ UNT_FEET = "feet";
 UNT_MILES = "miles";
 Parser.SP_DIST_TYPE_TO_FULL = {
 	[UNT_FEET]: "尺",
-	[UNT_MILES]: "里",
+	[UNT_MILES]: "裏",
 	[RNG_SELF]: Parser.SP_RANGE_TYPE_TO_FULL[RNG_SELF],
 	[RNG_TOUCH]: Parser.SP_RANGE_TYPE_TO_FULL[RNG_TOUCH],
 	[RNG_SIGHT]: Parser.SP_RANGE_TYPE_TO_FULL[RNG_SIGHT],
@@ -1078,13 +1078,13 @@ Parser.spRangeToFull._renderPoint = function (range) {
 };
 Parser.spRangeToFull._renderArea = function (range) {
 	const size = range.distance;
-	return `自身 (${size.amount}${Parser.getSingletonUnit(size.type)}${Parser.spRangeToFull._getAreaStyleString(range)}${range.type === RNG_CYLINDER ? `${size.amountSecondary != null && size.typeSecondary != null ? `, ${size.amountSecondary}-${Parser.getSingletonUnit(size.typeSecondary)}高` : ""} 圆柱体` : ""})`;
+	return `自身 (${size.amount}${Parser.getSingletonUnit(size.type)}${Parser.spRangeToFull._getAreaStyleString(range)}${range.type === RNG_CYLINDER ? `${size.amountSecondary != null && size.typeSecondary != null ? `, ${size.amountSecondary}-${Parser.getSingletonUnit(size.typeSecondary)}高` : ""} 圓柱體` : ""})`;
 };
 Parser.spRangeToFull._getAreaStyleString = function (range) {
 	switch (range.type) {
-		case RNG_SPHERE: return " 半径";
-		case RNG_HEMISPHERE: return `-半径 ${Parser.spRangeTypeToFull(range.type)}`;
-		case RNG_CYLINDER: return "-半径";
+		case RNG_SPHERE: return " 半徑";
+		case RNG_HEMISPHERE: return `-半徑 ${Parser.spRangeTypeToFull(range.type)}`;
+		case RNG_CYLINDER: return "-半徑";
 		default: return ` ${Parser.spRangeTypeToFull(range.type)}`;
 	}
 };
@@ -1094,7 +1094,7 @@ Parser.getSingletonUnit = function (unit, isShort) {
 		case UNT_FEET:
 			return isShort ? "ft." : "尺";
 		case UNT_MILES:
-			return isShort ? "mi." : "里";
+			return isShort ? "mi." : "裏";
 		default: {
 			const fromBrew = MiscUtil.get(BrewUtil.homebrewMeta, "spellDistanceUnits", unit, "singular");
 			if (fromBrew) return fromBrew;
@@ -1131,13 +1131,13 @@ Parser.DIST_TYPES = [
 ];
 
 Parser.spComponentsToFull = function (comp, level) {
-	if (!comp) return "无";
+	if (!comp) return "無";
 	const out = [];
-	if (comp.v) out.push("声音");
-	if (comp.s) out.push("姿势");
+	if (comp.v) out.push("聲音");
+	if (comp.s) out.push("姿勢");
 	if (comp.m != null) out.push(`材料${comp.m !== true ? ` (${comp.m.text != null ? comp.m.text : comp.m})` : ""}`);
 	if (comp.r) out.push(`R (${level} gp)`);
-	return out.join("、") || "无";
+	return out.join("、") || "無";
 };
 
 Parser.SP_END_TYPE_TO_FULL = {
@@ -1158,7 +1158,7 @@ Parser.spDurationToFull = function (dur) {
 			case "instant":
 				return `即效${d.condition ? ` (${d.condition})` : ""}`;
 			case "timed":
-				return `${d.concentration ? "专注，" : ""}${d.concentration ? "" : d.duration.upTo ? "" : ""}${d.concentration || d.duration.upTo ? "至多 " : ""}${d.duration.amount} ${d.duration.amount === 1 ? Parser.translateKeyToDisplay(d.duration.type) : Parser.translateKeyToDisplay(d.duration.type)}`;
+				return `${d.concentration ? "專注，" : ""}${d.concentration ? "" : d.duration.upTo ? "" : ""}${d.concentration || d.duration.upTo ? "至多 " : ""}${d.duration.amount} ${d.duration.amount === 1 ? Parser.translateKeyToDisplay(d.duration.type) : Parser.translateKeyToDisplay(d.duration.type)}`;
 			case "permanent": {
 				if (d.ends) {
 					const endsToJoin = d.ends.map(m => Parser.spEndTypeToFull(m));
@@ -1170,7 +1170,7 @@ Parser.spDurationToFull = function (dur) {
 			}
 		}
 	});
-	return `${outParts.joinConjunct(hasSubOr ? "；" : "、", "或")}${dur.length > 1 ? " （见下文）" : ""}`;
+	return `${outParts.joinConjunct(hasSubOr ? "；" : "、", "或")}${dur.length > 1 ? " （見下文）" : ""}`;
 };
 
 Parser.DURATION_TYPES = [
@@ -1202,7 +1202,7 @@ Parser.spMainClassesToFull = function (fromClassList, textOnly = false) {
 		.map(c => ({hash: UrlUtil.URL_TO_HASH_BUILDER[UrlUtil.PG_CLASSES](c), c}))
 		.filter(it => !ExcludeUtil.isInitialised || !ExcludeUtil.isExcluded(it.hash, "class", it.c.source))
 		.sort((a, b) => SortUtil.ascSort(a.c.name, b.c.name))
-		.map(it => textOnly ? Parser.ClassToDisplay(it.c.name) : `<a title="${it.c.definedInSource ? `职业资源` : "资源"}: ${Parser.sourceJsonToFull(it.c.source)}${it.c.definedInSource ? `. Spell list defined in: ${Parser.sourceJsonToFull(it.c.definedInSource)}.` : ""}" href="${UrlUtil.PG_CLASSES}#${it.hash}">${Parser.ClassToDisplay(it.c.name)}</a>`)
+		.map(it => textOnly ? Parser.ClassToDisplay(it.c.name) : `<a title="${it.c.definedInSource ? `職業資源` : "資源"}: ${Parser.sourceJsonToFull(it.c.source)}${it.c.definedInSource ? `. Spell list defined in: ${Parser.sourceJsonToFull(it.c.definedInSource)}.` : ""}" href="${UrlUtil.PG_CLASSES}#${it.hash}">${Parser.ClassToDisplay(it.c.name)}</a>`)
 		.join("、") || "";
 };
 
@@ -1237,15 +1237,15 @@ Parser._spSubclassItem = function (fromSubclass, textOnly, subclassLookup) {
 		? Parser.SubclassToDisplay(`${sc.name}_${c.name}${sc.subSubclass ? ` (${sc.subSubclass})` : ""}`)
 		: Parser.SubclassToDisplay(`${sc.name}${sc.subSubclass ? ` (${sc.subSubclass})` : ""}`);
 	if (textOnly) return text;
-	const classPart = `<a href="${UrlUtil.PG_CLASSES}#${UrlUtil.URL_TO_HASH_BUILDER[UrlUtil.PG_CLASSES](c)}" title="资源：${Parser.sourceJsonToFull(c.source)}">${Parser.ClassToDisplay(c.name)}</a>`;
+	const classPart = `<a href="${UrlUtil.PG_CLASSES}#${UrlUtil.URL_TO_HASH_BUILDER[UrlUtil.PG_CLASSES](c)}" title="資源：${Parser.sourceJsonToFull(c.source)}">${Parser.ClassToDisplay(c.name)}</a>`;
 	const fromLookup = subclassLookup ? MiscUtil.get(subclassLookup, c.source, c.name, sc.source, sc.name) : null;
-	if (fromLookup) return `<a class="italic" href="${UrlUtil.PG_CLASSES}#${UrlUtil.URL_TO_HASH_BUILDER[UrlUtil.PG_CLASSES](c)}${HASH_PART_SEP}${UrlUtil.getClassesPageStatePart({subclass: {shortName: sc.name, source: sc.source}})}" title="资源：${Parser.sourceJsonToFull(fromSubclass.subclass.source)}">${text}</a> ${classPart}`;
-	else return `<span class="italic" title="资源：${Parser.sourceJsonToFull(fromSubclass.subclass.source)}">${text}</span> ${classPart}`;
+	if (fromLookup) return `<a class="italic" href="${UrlUtil.PG_CLASSES}#${UrlUtil.URL_TO_HASH_BUILDER[UrlUtil.PG_CLASSES](c)}${HASH_PART_SEP}${UrlUtil.getClassesPageStatePart({subclass: {shortName: sc.name, source: sc.source}})}" title="資源：${Parser.sourceJsonToFull(fromSubclass.subclass.source)}">${text}</a> ${classPart}`;
+	else return `<span class="italic" title="資源：${Parser.sourceJsonToFull(fromSubclass.subclass.source)}">${text}</span> ${classPart}`;
 };
 
 Parser.SPELL_ATTACK_TYPE_TO_FULL = {};
-Parser.SPELL_ATTACK_TYPE_TO_FULL["M"] = "近战";
-Parser.SPELL_ATTACK_TYPE_TO_FULL["R"] = "远程";
+Parser.SPELL_ATTACK_TYPE_TO_FULL["M"] = "近戰";
+Parser.SPELL_ATTACK_TYPE_TO_FULL["R"] = "遠程";
 Parser.SPELL_ATTACK_TYPE_TO_FULL["O"] = "其他/不明";
 
 Parser.spAttackTypeToFull = function (type) {
@@ -1348,8 +1348,8 @@ Parser.monCrToFull = function (cr, {xp = null, isMythic = false} = {}) {
 		return `${cr} (${xp} XP${isMythic ? `, or ${Parser.crToXp(cr, {isDouble: true})} XP as a mythic encounter` : ""})`;
 	} else {
 		const stack = [Parser.monCrToFull(cr.cr, {xp: cr.xp, isMythic})];
-		if (cr.lair) stack.push(`当遭遇于巢穴时 ${Parser.monCrToFull(cr.lair)}`);
-		if (cr.coven) stack.push(`当作为鬼婆集会一员时 ${Parser.monCrToFull(cr.coven)}`);
+		if (cr.lair) stack.push(`當遭遇於巢穴時 ${Parser.monCrToFull(cr.lair)}`);
+		if (cr.coven) stack.push(`當作為鬼婆集會一員時 ${Parser.monCrToFull(cr.coven)}`);
 		return stack.joinConjunct("、", "或");
 	}
 };
@@ -1413,30 +1413,30 @@ Parser.getFullCondImm = function (condImm, isPlainText) {
 };
 
 Parser.MON_SENSE_TAG_TO_FULL = {
-	"B": "盲视",
-	"D": "黑暗视觉",
-	"SD": "高级黑暗视觉",
-	"T": "震颤感知",
-	"U": "真实视觉",
+	"B": "盲視",
+	"D": "黑暗視覺",
+	"SD": "高級黑暗視覺",
+	"T": "震顫感知",
+	"U": "真實視覺",
 };
 Parser.monSenseTagToFull = function (tag) {
 	return Parser._parse_aToB(Parser.MON_SENSE_TAG_TO_FULL, tag);
 };
 
 Parser.MON_SPELLCASTING_TAG_TO_FULL = {
-	"P": "灵能",
+	"P": "靈能",
 	"I": "天生",
-	"F": "限定型态",
+	"F": "限定型態",
 	"S": "共享",
-	"CA": "职业，奇械师",
-	"CB": "职业，吟游诗人",
-	"CC": "职业，牧师",
-	"CD": "职业，德鲁伊",
-	"CP": "职业，圣武士",
-	"CR": "职业，游侠",
-	"CS": "职业，术士",
-	"CL": "职业，契术师",
-	"CW": "职业，法师",
+	"CA": "職業，奇械師",
+	"CB": "職業，吟遊詩人",
+	"CC": "職業，牧師",
+	"CD": "職業，德魯伊",
+	"CP": "職業，聖武士",
+	"CR": "職業，遊俠",
+	"CS": "職業，術士",
+	"CL": "職業，契術師",
+	"CW": "職業，法師",
 };
 Parser.monSpellcastingTagToFull = function (tag) {
 	return Parser._parse_aToB(Parser.MON_SPELLCASTING_TAG_TO_FULL, tag);
@@ -1515,15 +1515,15 @@ Parser.prereqSpellToFull = function (spell) {
 	if (spell) {
 		const [text, suffix] = spell.split("#");
 		if (!suffix) return Renderer.get().render(`{@spell ${spell}}`);
-		else if (suffix === "c") return Renderer.get().render(`{@spell ${text}} 戏法`);
-		else if (suffix === "x") return Renderer.get().render("{@spell 脆弱诅咒} 法术 或 能施加诅咒的契术师能力");
+		else if (suffix === "c") return Renderer.get().render(`{@spell ${text}} 戲法`);
+		else if (suffix === "x") return Renderer.get().render("{@spell 脆弱詛咒} 法術 或 能施加詛咒的契術師能力");
 	} else return VeCt.STR_NONE;
 };
 
 Parser.prereqPactToFull = function (pact) {
-	if (pact === "Chain") return "锁链魔契";
-	if (pact === "Tome") return "书卷魔契";
-	if (pact === "Blade") return "锋刃魔契";
+	if (pact === "Chain") return "鎖鏈魔契";
+	if (pact === "Tome") return "書卷魔契";
+	if (pact === "Blade") return "鋒刃魔契";
 	if (pact === "Talisman") return "符之魔契";
 	return pact;
 };
@@ -1537,22 +1537,22 @@ Parser.prereqPatronToShort = function (patron) {
 
 // NOTE: These need to be reflected in omnidexer.js to be indexed
 Parser.OPT_FEATURE_TYPE_TO_FULL = {
-	AI: "奇械师注法",
-	ED: "四象法门",
-	EI: "魔能祈唤",
+	AI: "奇械師注法",
+	ED: "四象法門",
+	EI: "魔能祈喚",
 	MM: "超魔法",
 	"MV": "Maneuver",
-	"MV:B": "战技, 战斗大师",
-	"MV:C2-UA": "战技, 骑兵 V2 (UA)",
-	"AS:V1-UA": "秘法射击, V1 (UA)",
-	"AS:V2-UA": "秘法射击, V2 (UA)",
-	"AS": "秘法射击",
+	"MV:B": "戰技, 戰鬥大師",
+	"MV:C2-UA": "戰技, 騎兵 V2 (UA)",
+	"AS:V1-UA": "秘法射擊, V1 (UA)",
+	"AS:V2-UA": "秘法射擊, V2 (UA)",
+	"AS": "秘法射擊",
 	OTH: "其他",
-	"FS:F": "战斗风格; 战士",
-	"FS:B": "战斗风格; 吟游诗人",
-	"FS:P": "战斗风格; 圣武士",
-	"FS:R": "战斗风格; 游侠",
-	"PB": "契约恩赐",
+	"FS:F": "戰鬥風格; 戰士",
+	"FS:B": "戰鬥風格; 吟遊詩人",
+	"FS:P": "戰鬥風格; 聖武士",
+	"FS:R": "戰鬥風格; 遊俠",
+	"PB": "契約恩賜",
 	"OR": "Onomancy Resonant",
 	"RN": "Rune Knight Rune",
 	"AF": "Alchemical Formula",
@@ -1594,22 +1594,22 @@ Parser.alignmentAbvToFull = function (alignment) {
 			case "N":
 				return "中立";
 			case "NX":
-				return "中立(守序/混乱轴)";
+				return "中立(守序/混亂軸)";
 			case "NY":
-				return "中立(善良/邪恶轴)";
+				return "中立(善良/邪惡軸)";
 			case "C":
-				return "混乱";
+				return "混亂";
 			case "G":
 				return "善良";
 			case "E":
-				return "邪恶";
+				return "邪惡";
 			// "special" values
 			case "U":
-				return "无阵营";
+				return "無陣營";
 			case "A":
-				return "任意阵营";
+				return "任意陣營";
 			case "NO ALIGNMENT":
-				return "无阵营";
+				return "無陣營";
 		}
 		return alignment;
 	}
@@ -1633,16 +1633,16 @@ Parser.alignmentListToFull = function (alignList) {
 		}
 		// longer arrays should have a custom mapping
 		if (alignList.length === 5) {
-			if (!alignList.includes("G")) return "任意非善良阵营";
-			if (!alignList.includes("E")) return "任意非邪恶阵营";
-			if (!alignList.includes("L")) return "任意非守序阵营";
-			if (!alignList.includes("C")) return "任意非混乱阵营";
+			if (!alignList.includes("G")) return "任意非善良陣營";
+			if (!alignList.includes("E")) return "任意非邪惡陣營";
+			if (!alignList.includes("L")) return "任意非守序陣營";
+			if (!alignList.includes("C")) return "任意非混亂陣營";
 		}
 		if (alignList.length === 4) {
-			if (!alignList.includes("L") && !alignList.includes("NX")) return "任意混乱阵营";
-			if (!alignList.includes("G") && !alignList.includes("NY")) return "任意邪恶阵营";
-			if (!alignList.includes("C") && !alignList.includes("NX")) return "任意守序阵营";
-			if (!alignList.includes("E") && !alignList.includes("NY")) return "任意善良阵营";
+			if (!alignList.includes("L") && !alignList.includes("NX")) return "任意混亂陣營";
+			if (!alignList.includes("G") && !alignList.includes("NY")) return "任意邪惡陣營";
+			if (!alignList.includes("C") && !alignList.includes("NX")) return "任意守序陣營";
+			if (!alignList.includes("E") && !alignList.includes("NY")) return "任意善良陣營";
 		}
 		throw new Error(`Unmapped alignment: ${JSON.stringify(alignList)}`);
 	}
@@ -1711,54 +1711,54 @@ Parser.CAT_ID_RECIPES = 48;
 
 Parser.CAT_ID_TO_FULL = {};
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_CREATURE] = "怪物";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_SPELL] = "法术";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_SPELL] = "法術";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_BACKGROUND] = "背景";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ITEM] = "物品";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_CLASS] = "职业";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_CONDITION] = "状态";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_FEAT] = "专长";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ELDRITCH_INVOCATION] = "魔能祈唤";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_PSIONIC] = "灵能";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_RACE] = "种族";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_OTHER_REWARD] = "其他奖励";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_VARIANT_OPTIONAL_RULE] = "变体/可选规则";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ADVENTURE] = "冒险";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_CLASS] = "職業";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_CONDITION] = "狀態";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_FEAT] = "專長";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ELDRITCH_INVOCATION] = "魔能祈喚";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_PSIONIC] = "靈能";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_RACE] = "種族";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_OTHER_REWARD] = "其他獎勵";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_VARIANT_OPTIONAL_RULE] = "變體/可選規則";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ADVENTURE] = "冒險";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_DEITY] = "神祇";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_OBJECT] = "物件";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_TRAP] = "陷阱";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_HAZARD] = "危险";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_QUICKREF] = "快速参考";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_CULT] = "异教";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_HAZARD] = "危險";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_QUICKREF] = "快速參考";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_CULT] = "異教";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_BOON] = "恩惠";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_DISEASE] = "疾病";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_METAMAGIC] = "超魔法";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_MANEUVER_BATTLEMASTER] = "战技；战斗大师";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_MANEUVER_BATTLEMASTER] = "戰技；戰鬥大師";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_TABLE] = "表格";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_TABLE_GROUP] = "表格";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_MANEUVER_CAVALIER] = "战技；骑兵";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ARCANE_SHOT] = "秘法射击";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_OPTIONAL_FEATURE_OTHER] = "可选特性";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_FIGHTING_STYLE] = "战斗风格";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_CLASS_FEATURE] = "职业特性";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_VEHICLE] = "载具";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_PACT_BOON] = "契约恩赐";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ELEMENTAL_DISCIPLINE] = "四象法门";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_MANEUVER_CAVALIER] = "戰技；騎兵";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ARCANE_SHOT] = "秘法射擊";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_OPTIONAL_FEATURE_OTHER] = "可選特性";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_FIGHTING_STYLE] = "戰鬥風格";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_CLASS_FEATURE] = "職業特性";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_VEHICLE] = "載具";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_PACT_BOON] = "契約恩賜";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ELEMENTAL_DISCIPLINE] = "四象法門";
 Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ARTIFICER_INFUSION] = "注法";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_SHIP_UPGRADE] = "船只升级";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_INFERNAL_WAR_MACHINE_UPGRADE] = "炼狱战争机器升级";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ONOMANCY_RESONANT] = "真名言灵";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_RUNE_KNIGHT_RUNE] = "符文骑士符文";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ALCHEMICAL_FORMULA] = "炼金师公式";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_MANEUVER] = "战技";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_SUBCLASS] = "子职";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_SUBCLASS_FEATURE] = "子职特性";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ACTION] = "动作";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_LANGUAGE] = "语言";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_BOOK] = "书籍";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_PAGE] = "页面";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_LEGENDARY_GROUP] = "传奇组";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_CHAR_CREATION_OPTIONS] = "角色创建选项";
-Parser.CAT_ID_TO_FULL[Parser.CAT_ID_RECIPES] = "食谱";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_SHIP_UPGRADE] = "船只升級";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_INFERNAL_WAR_MACHINE_UPGRADE] = "煉獄戰爭機器升級";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ONOMANCY_RESONANT] = "真名言靈";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_RUNE_KNIGHT_RUNE] = "符文騎士符文";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ALCHEMICAL_FORMULA] = "煉金師公式";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_MANEUVER] = "戰技";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_SUBCLASS] = "子職";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_SUBCLASS_FEATURE] = "子職特性";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_ACTION] = "動作";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_LANGUAGE] = "語言";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_BOOK] = "書籍";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_PAGE] = "頁面";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_LEGENDARY_GROUP] = "傳奇組";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_CHAR_CREATION_OPTIONS] = "角色創建選項";
+Parser.CAT_ID_TO_FULL[Parser.CAT_ID_RECIPES] = "食譜";
 
 Parser.pageCategoryToFull = function (catId) {
 	return Parser._parse_aToB(Parser.CAT_ID_TO_FULL, catId);
@@ -1934,13 +1934,13 @@ Parser.trapHazTypeToFull = function (type) {
 };
 
 Parser.TRAP_HAZARD_TYPE_TO_FULL = {
-	MECH: "机械陷阱",
+	MECH: "機械陷阱",
 	MAG: "魔法陷阱",
-	SMPL: "简易陷阱",
-	CMPX: "复杂陷阱",
+	SMPL: "簡易陷阱",
+	CMPX: "複雜陷阱",
 	HAZ: "危害物",
-	WTH: "天气",
-	ENV: "环境危害",
+	WTH: "天氣",
+	ENV: "環境危害",
 	WLD: "野外危害",
 	GEN: "通用",
 	EST: "Eldritch Storm",
@@ -1951,10 +1951,10 @@ Parser.tierToFullLevel = function (tier) {
 };
 
 Parser.TIER_TO_FULL_LEVEL = {};
-Parser.TIER_TO_FULL_LEVEL[1] = "level 1\u20144级";
-Parser.TIER_TO_FULL_LEVEL[2] = "level 5\u201410级";
-Parser.TIER_TO_FULL_LEVEL[3] = "level 11\u201416级";
-Parser.TIER_TO_FULL_LEVEL[4] = "level 17\u201420级";
+Parser.TIER_TO_FULL_LEVEL[1] = "level 1\u20144級";
+Parser.TIER_TO_FULL_LEVEL[2] = "level 5\u201410級";
+Parser.TIER_TO_FULL_LEVEL[3] = "level 11\u201416級";
+Parser.TIER_TO_FULL_LEVEL[4] = "level 17\u201420級";
 
 Parser.threatToFull = function (threat) {
 	return Parser._parse_aToB(Parser.THREAT_TO_FULL, threat);
@@ -1962,7 +1962,7 @@ Parser.threatToFull = function (threat) {
 
 Parser.THREAT_TO_FULL = {};
 Parser.THREAT_TO_FULL[1] = "中等";
-Parser.THREAT_TO_FULL[2] = "危险";
+Parser.THREAT_TO_FULL[2] = "危險";
 Parser.THREAT_TO_FULL[3] = "致命";
 
 Parser.trapInitToFull = function (init) {
@@ -1970,13 +1970,13 @@ Parser.trapInitToFull = function (init) {
 };
 
 Parser.TRAP_INIT_TO_FULL = {};
-Parser.TRAP_INIT_TO_FULL[1] = "先攻顺序10";
-Parser.TRAP_INIT_TO_FULL[2] = "先攻顺序20";
-Parser.TRAP_INIT_TO_FULL[3] = "先攻顺序20 和 先攻顺序10";
+Parser.TRAP_INIT_TO_FULL[1] = "先攻順序10";
+Parser.TRAP_INIT_TO_FULL[2] = "先攻順序20";
+Parser.TRAP_INIT_TO_FULL[3] = "先攻順序20 和 先攻順序10";
 
 Parser.ATK_TYPE_TO_FULL = {};
-Parser.ATK_TYPE_TO_FULL["MW"] = "近战武器攻击";
-Parser.ATK_TYPE_TO_FULL["RW"] = "远程武器攻击";
+Parser.ATK_TYPE_TO_FULL["MW"] = "近戰武器攻擊";
+Parser.ATK_TYPE_TO_FULL["RW"] = "遠程武器攻擊";
 
 Parser.bookOrdinalToAbv = (ordinal, preNoSuff) => {
 	if (ordinal === undefined) return "";
@@ -2032,12 +2032,12 @@ Parser.SP_TM_MINS = "minute";
 Parser.SP_TM_HRS = "hour";
 Parser.SP_TIME_SINGLETONS = [Parser.SP_TM_ACTION, Parser.SP_TM_B_ACTION, Parser.SP_TM_REACTION, Parser.SP_TM_ROUND];
 Parser.SP_TIME_TO_FULL = {
-	[Parser.SP_TM_ACTION]: "动作",
-	[Parser.SP_TM_B_ACTION]: "附赠动作",
-	[Parser.SP_TM_REACTION]: "反应",
-	[Parser.SP_TM_ROUND]: "轮",
-	[Parser.SP_TM_MINS]: "分钟",
-	[Parser.SP_TM_HRS]: "小时",
+	[Parser.SP_TM_ACTION]: "動作",
+	[Parser.SP_TM_B_ACTION]: "附贈動作",
+	[Parser.SP_TM_REACTION]: "反應",
+	[Parser.SP_TM_ROUND]: "輪",
+	[Parser.SP_TM_MINS]: "分鐘",
+	[Parser.SP_TM_HRS]: "小時",
 };
 Parser.spTimeUnitToFull = function (timeUnit) {
 	return Parser._parse_aToB(Parser.SP_TIME_TO_FULL, timeUnit);
@@ -2062,15 +2062,15 @@ Parser.spTimeToShort = function (time, isHtml) {
 		: `${time.number} ${isHtml ? `<span class="ve-small">` : ""}${Parser.spTimeUnitToAbv(time.unit)}${isHtml ? `</span>` : ""}${time.condition ? "*" : ""}`;
 };
 
-SKL_ABJ = "防护";
+SKL_ABJ = "防護";
 SKL_EVO = "塑能";
 SKL_ENC = "惑控";
-SKL_ILL = "幻术";
-SKL_DIV = "预言";
-SKL_NEC = "死灵";
-SKL_TRA = "变化";
+SKL_ILL = "幻術";
+SKL_DIV = "預言";
+SKL_NEC = "死靈";
+SKL_TRA = "變化";
 SKL_CON = "咒法";
-SKL_PSI = "灵能";
+SKL_PSI = "靈能";
 
 Parser.SP_SCHOOL_ABV_TO_FULL = {};
 Parser.SP_SCHOOL_ABV_TO_FULL[SKL_ABV_ABJ] = SKL_ABJ;
@@ -2084,20 +2084,20 @@ Parser.SP_SCHOOL_ABV_TO_FULL[SKL_ABV_CON] = SKL_CON;
 Parser.SP_SCHOOL_ABV_TO_FULL[SKL_ABV_PSI] = SKL_PSI;
 
 Parser.SP_SCHOOL_ABV_TO_SHORT = {};
-Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_ABJ] = "防护";
+Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_ABJ] = "防護";
 Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_EVO] = "塑能";
 Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_ENC] = "惑控";
-Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_ILL] = "幻术";
-Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_DIV] = "预言";
-Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_NEC] = "死灵";
-Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_TRA] = "变化";
+Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_ILL] = "幻術";
+Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_DIV] = "預言";
+Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_NEC] = "死靈";
+Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_TRA] = "變化";
 Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_CON] = "咒法";
-Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_PSI] = "灵能";
+Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_PSI] = "靈能";
 
 Parser.ATB_ABV_TO_FULL = {
 	"str": "力量",
 	"dex": "敏捷",
-	"con": "体质",
+	"con": "體質",
 	"int": "智力",
 	"wis": "感知",
 	"cha": "魅力",
@@ -2119,17 +2119,17 @@ TP_PLANT = "plant";
 TP_UNDEAD = "undead";
 Parser.MON_TYPES = [TP_ABERRATION, TP_BEAST, TP_CELESTIAL, TP_CONSTRUCT, TP_DRAGON, TP_ELEMENTAL, TP_FEY, TP_FIEND, TP_GIANT, TP_HUMANOID, TP_MONSTROSITY, TP_OOZE, TP_PLANT, TP_UNDEAD];
 Parser.MON_TYPE_TO_PLURAL = {};
-Parser.MON_TYPE_TO_PLURAL[TP_ABERRATION] = "异怪";
-Parser.MON_TYPE_TO_PLURAL[TP_BEAST] = "野兽";
+Parser.MON_TYPE_TO_PLURAL[TP_ABERRATION] = "異怪";
+Parser.MON_TYPE_TO_PLURAL[TP_BEAST] = "野獸";
 Parser.MON_TYPE_TO_PLURAL[TP_CELESTIAL] = "天界生物";
-Parser.MON_TYPE_TO_PLURAL[TP_CONSTRUCT] = "构装体";
-Parser.MON_TYPE_TO_PLURAL[TP_DRAGON] = "龙";
+Parser.MON_TYPE_TO_PLURAL[TP_CONSTRUCT] = "構裝體";
+Parser.MON_TYPE_TO_PLURAL[TP_DRAGON] = "龍";
 Parser.MON_TYPE_TO_PLURAL[TP_ELEMENTAL] = "元素";
-Parser.MON_TYPE_TO_PLURAL[TP_FEY] = "精类";
+Parser.MON_TYPE_TO_PLURAL[TP_FEY] = "精類";
 Parser.MON_TYPE_TO_PLURAL[TP_FIEND] = "邪魔";
 Parser.MON_TYPE_TO_PLURAL[TP_GIANT] = "巨人";
-Parser.MON_TYPE_TO_PLURAL[TP_HUMANOID] = "类人生物";
-Parser.MON_TYPE_TO_PLURAL[TP_MONSTROSITY] = "怪兽";
+Parser.MON_TYPE_TO_PLURAL[TP_HUMANOID] = "類人生物";
+Parser.MON_TYPE_TO_PLURAL[TP_MONSTROSITY] = "怪獸";
 Parser.MON_TYPE_TO_PLURAL[TP_OOZE] = "泥怪";
 Parser.MON_TYPE_TO_PLURAL[TP_PLANT] = "植物";
 Parser.MON_TYPE_TO_PLURAL[TP_UNDEAD] = "不死生物";
@@ -2195,14 +2195,14 @@ Parser.XP_CHART_ALT = {
 };
 
 Parser.ARMOR_ABV_TO_FULL = {
-	"轻": "light",
+	"輕": "light",
 	"中": "medium",
 	"重": "heavy",
 };
 
 Parser.WEAPON_ABV_TO_FULL = {
-	"简易": "simple",
-	"军用": "martial",
+	"簡易": "simple",
+	"軍用": "martial",
 };
 
 Parser.CONDITION_TO_COLOR = {
@@ -2417,95 +2417,95 @@ SRC_UA2021DO = `${SRC_UA_PREFIX}2021DraconicOptions`;
 
 SRC_3PP_SUFFIX = " 3pp";
 
-AL_PREFIX = "冒险者联盟：";
+AL_PREFIX = "冒險者聯盟：";
 AL_PREFIX_SHORT = "AL: ";
 PS_PREFIX = "Plane Shift: ";
 PS_PREFIX_SHORT = "PS: ";
 UA_PREFIX = "Unearthed Arcana: ";
 UA_PREFIX_SHORT = "UA: ";
-TftYP_NAME = "深水龙门阵";
+TftYP_NAME = "深水龍門陣";
 
 Parser.SOURCE_JSON_TO_FULL = {};
-Parser.SOURCE_JSON_TO_FULL[SRC_CoS] = "施特拉德的诅咒";
+Parser.SOURCE_JSON_TO_FULL[SRC_CoS] = "施特拉德的詛咒";
 Parser.SOURCE_JSON_TO_FULL[SRC_DMG] = "地下城主指南";
-Parser.SOURCE_JSON_TO_FULL[SRC_EEPC] = "邪恶元素玩家指南";
-Parser.SOURCE_JSON_TO_FULL[SRC_EET] = "邪恶元素：饰品";
-Parser.SOURCE_JSON_TO_FULL[SRC_HotDQ] = "龙后的宝山";
-Parser.SOURCE_JSON_TO_FULL[SRC_LMoP] = "凡戴尔的失落矿坑";
-Parser.SOURCE_JSON_TO_FULL[SRC_Mag] = "龙杂志";
-Parser.SOURCE_JSON_TO_FULL[SRC_MM] = "怪物图鉴";
-Parser.SOURCE_JSON_TO_FULL[SRC_OotA] = "逃离深渊";
-Parser.SOURCE_JSON_TO_FULL[SRC_PHB] = "玩家手册";
-Parser.SOURCE_JSON_TO_FULL[SRC_PotA] = "毁灭亲王";
-Parser.SOURCE_JSON_TO_FULL[SRC_RoT] = "提亚玛特的崛起";
-Parser.SOURCE_JSON_TO_FULL[SRC_RoTOS] = "提亚玛特的崛起；在线增刊";
-Parser.SOURCE_JSON_TO_FULL[SRC_SCAG] = "剑湾冒险指南";
-Parser.SOURCE_JSON_TO_FULL[SRC_SKT] = "风暴君王之雷霆";
-Parser.SOURCE_JSON_TO_FULL[SRC_ToA] = "湮灭之墓";
-Parser.SOURCE_JSON_TO_FULL[SRC_ToD] = "龙族暴政";
-Parser.SOURCE_JSON_TO_FULL[SRC_TTP] = "龟人扩充包";
+Parser.SOURCE_JSON_TO_FULL[SRC_EEPC] = "邪惡元素玩家指南";
+Parser.SOURCE_JSON_TO_FULL[SRC_EET] = "邪惡元素：飾品";
+Parser.SOURCE_JSON_TO_FULL[SRC_HotDQ] = "龍後的寶山";
+Parser.SOURCE_JSON_TO_FULL[SRC_LMoP] = "凡戴爾的失落礦坑";
+Parser.SOURCE_JSON_TO_FULL[SRC_Mag] = "龍雜誌";
+Parser.SOURCE_JSON_TO_FULL[SRC_MM] = "怪物圖鑑";
+Parser.SOURCE_JSON_TO_FULL[SRC_OotA] = "逃離深淵";
+Parser.SOURCE_JSON_TO_FULL[SRC_PHB] = "玩家手冊";
+Parser.SOURCE_JSON_TO_FULL[SRC_PotA] = "毀滅親王";
+Parser.SOURCE_JSON_TO_FULL[SRC_RoT] = "提亞瑪特的崛起";
+Parser.SOURCE_JSON_TO_FULL[SRC_RoTOS] = "提亞瑪特的崛起；在線增刊";
+Parser.SOURCE_JSON_TO_FULL[SRC_SCAG] = "劍灣冒險指南";
+Parser.SOURCE_JSON_TO_FULL[SRC_SKT] = "風暴君王之雷霆";
+Parser.SOURCE_JSON_TO_FULL[SRC_ToA] = "湮滅之墓";
+Parser.SOURCE_JSON_TO_FULL[SRC_ToD] = "龍族暴政";
+Parser.SOURCE_JSON_TO_FULL[SRC_TTP] = "龜人擴充包";
 Parser.SOURCE_JSON_TO_FULL[SRC_TYP] = TftYP_NAME;
-Parser.SOURCE_JSON_TO_FULL[SRC_TYP_AtG] = `${TftYP_NAME}：挑战巨人`;
-Parser.SOURCE_JSON_TO_FULL[SRC_TYP_DiT] = `${TftYP_NAME}：死于赛尔`;
-Parser.SOURCE_JSON_TO_FULL[SRC_TYP_TFoF] = `${TftYP_NAME}：愤怒熔炉`;
-Parser.SOURCE_JSON_TO_FULL[SRC_TYP_THSoT] = `${TftYP_NAME}：隐秘圣坛`;
-Parser.SOURCE_JSON_TO_FULL[SRC_TYP_TSC] = `${TftYP_NAME}：暗无天日`;
+Parser.SOURCE_JSON_TO_FULL[SRC_TYP_AtG] = `${TftYP_NAME}：挑戰巨人`;
+Parser.SOURCE_JSON_TO_FULL[SRC_TYP_DiT] = `${TftYP_NAME}：死於賽爾`;
+Parser.SOURCE_JSON_TO_FULL[SRC_TYP_TFoF] = `${TftYP_NAME}：憤怒熔爐`;
+Parser.SOURCE_JSON_TO_FULL[SRC_TYP_THSoT] = `${TftYP_NAME}：隱秘聖壇`;
+Parser.SOURCE_JSON_TO_FULL[SRC_TYP_TSC] = `${TftYP_NAME}：暗無天日`;
 Parser.SOURCE_JSON_TO_FULL[SRC_TYP_ToH] = `${TftYP_NAME}：恐怖墓穴`;
 Parser.SOURCE_JSON_TO_FULL[SRC_TYP_WPM] = `${TftYP_NAME}：白羽山`;
-Parser.SOURCE_JSON_TO_FULL[SRC_VGM] = "瓦罗的怪物指南";
-Parser.SOURCE_JSON_TO_FULL[SRC_XGE] = "姗纳萨的万事指南";
+Parser.SOURCE_JSON_TO_FULL[SRC_VGM] = "瓦羅的怪物指南";
+Parser.SOURCE_JSON_TO_FULL[SRC_XGE] = "姍納薩的萬事指南";
 Parser.SOURCE_JSON_TO_FULL[SRC_OGA] = "一蛙之上";
-Parser.SOURCE_JSON_TO_FULL[SRC_MTF] = "魔邓肯的众敌卷册";
-Parser.SOURCE_JSON_TO_FULL[SRC_WDH] = "深水城：龙金飞劫";
-Parser.SOURCE_JSON_TO_FULL[SRC_WDMM] = "深水城：疯法师的地下城";
-Parser.SOURCE_JSON_TO_FULL[SRC_GGR] = "拉尼卡的公会长指南";
-Parser.SOURCE_JSON_TO_FULL[SRC_KKW] = "追捕克仑可";
-Parser.SOURCE_JSON_TO_FULL[SRC_LLK] = "夸力许的失落实验室";
-Parser.SOURCE_JSON_TO_FULL[SRC_GoS] = "盐沼幽魂";
-Parser.SOURCE_JSON_TO_FULL[SRC_AI] = "艾奎兹玄有限责任公司";
-Parser.SOURCE_JSON_TO_FULL[SRC_OoW] = "位面游荡仪";
+Parser.SOURCE_JSON_TO_FULL[SRC_MTF] = "魔鄧肯的眾敵卷冊";
+Parser.SOURCE_JSON_TO_FULL[SRC_WDH] = "深水城：龍金飛劫";
+Parser.SOURCE_JSON_TO_FULL[SRC_WDMM] = "深水城：瘋法師的地下城";
+Parser.SOURCE_JSON_TO_FULL[SRC_GGR] = "拉尼卡的公會長指南";
+Parser.SOURCE_JSON_TO_FULL[SRC_KKW] = "追捕克侖可";
+Parser.SOURCE_JSON_TO_FULL[SRC_LLK] = "夸力許的失落實驗室";
+Parser.SOURCE_JSON_TO_FULL[SRC_GoS] = "鹽沼幽魂";
+Parser.SOURCE_JSON_TO_FULL[SRC_AI] = "艾奎茲玄有限責任公司";
+Parser.SOURCE_JSON_TO_FULL[SRC_OoW] = "位面遊蕩儀";
 Parser.SOURCE_JSON_TO_FULL[SRC_ESK] = "起始包";
-Parser.SOURCE_JSON_TO_FULL[SRC_DIP] = "冰塔峰之龙";
-Parser.SOURCE_JSON_TO_FULL[SRC_HftT] = "寻找特萨尔蛇蜥";
-Parser.SOURCE_JSON_TO_FULL[SRC_DC] = "神圣的争夺";
-Parser.SOURCE_JSON_TO_FULL[SRC_SLW] = "风暴领主之怒";
-Parser.SOURCE_JSON_TO_FULL[SRC_SDW] = "沉睡巨龙醒转";
-Parser.SOURCE_JSON_TO_FULL[SRC_BGDIA] = "博德之门：坠入阿弗纳斯";
-Parser.SOURCE_JSON_TO_FULL[SRC_LR] = "洛卡鱼人崛起";
-Parser.SOURCE_JSON_TO_FULL[SRC_AL] = "冒险者联盟";
-Parser.SOURCE_JSON_TO_FULL[SRC_SAC] = "智者建言手册";
-Parser.SOURCE_JSON_TO_FULL[SRC_ERLW] = "艾伯伦：从终末战争复苏";
-Parser.SOURCE_JSON_TO_FULL[SRC_EFR] = "艾伯伦：失落的圣物";
-Parser.SOURCE_JSON_TO_FULL[SRC_RMBRE] = "瑞克与莫蒂：BRE";
-Parser.SOURCE_JSON_TO_FULL[SRC_RMR] = "龙与地下城 vs. 瑞克与莫蒂：基础规则";
-Parser.SOURCE_JSON_TO_FULL[SRC_MFF] = "魔邓肯邪魔开本";
+Parser.SOURCE_JSON_TO_FULL[SRC_DIP] = "冰塔峰之龍";
+Parser.SOURCE_JSON_TO_FULL[SRC_HftT] = "尋找特薩爾蛇蜥";
+Parser.SOURCE_JSON_TO_FULL[SRC_DC] = "神聖的爭奪";
+Parser.SOURCE_JSON_TO_FULL[SRC_SLW] = "風暴領主之怒";
+Parser.SOURCE_JSON_TO_FULL[SRC_SDW] = "沉睡巨龍醒轉";
+Parser.SOURCE_JSON_TO_FULL[SRC_BGDIA] = "博德之門：墜入阿弗納斯";
+Parser.SOURCE_JSON_TO_FULL[SRC_LR] = "洛卡魚人崛起";
+Parser.SOURCE_JSON_TO_FULL[SRC_AL] = "冒險者聯盟";
+Parser.SOURCE_JSON_TO_FULL[SRC_SAC] = "智者建言手冊";
+Parser.SOURCE_JSON_TO_FULL[SRC_ERLW] = "艾伯倫：從終末戰爭復甦";
+Parser.SOURCE_JSON_TO_FULL[SRC_EFR] = "艾伯倫：失落的聖物";
+Parser.SOURCE_JSON_TO_FULL[SRC_RMBRE] = "瑞克與莫蒂：BRE";
+Parser.SOURCE_JSON_TO_FULL[SRC_RMR] = "龍與地下城 vs. 瑞克與莫蒂：基礎規則";
+Parser.SOURCE_JSON_TO_FULL[SRC_MFF] = "魔鄧肯邪魔開本";
 Parser.SOURCE_JSON_TO_FULL[SRC_AWM] = "Adventure with Muk";
-Parser.SOURCE_JSON_TO_FULL[SRC_IMR] = "重建炼狱机器";
-Parser.SOURCE_JSON_TO_FULL[SRC_SADS] = "蓝宝石周年纪念骰套组";
-Parser.SOURCE_JSON_TO_FULL[SRC_EGW] = "荒洲探险家指南";
-Parser.SOURCE_JSON_TO_FULL[SRC_EGW_ToR] = "复仇之潮";
-Parser.SOURCE_JSON_TO_FULL[SRC_EGW_DD] = "危险计划";
-Parser.SOURCE_JSON_TO_FULL[SRC_EGW_FS] = "封冻恶疾";
-Parser.SOURCE_JSON_TO_FULL[SRC_EGW_US] = "恶客自来";
-Parser.SOURCE_JSON_TO_FULL[SRC_MOT] = "塞洛斯的神话奥德赛";
-Parser.SOURCE_JSON_TO_FULL[SRC_IDRotF] = "冰风谷：冰霜少女的雾凇";
-Parser.SOURCE_JSON_TO_FULL[SRC_TCE] = "塔莎的万象坩锅";
-Parser.SOURCE_JSON_TO_FULL[SRC_VRGR] = "范·里希腾的鸦阁指南";
+Parser.SOURCE_JSON_TO_FULL[SRC_IMR] = "重建煉獄機器";
+Parser.SOURCE_JSON_TO_FULL[SRC_SADS] = "藍寶石周年紀念骰套組";
+Parser.SOURCE_JSON_TO_FULL[SRC_EGW] = "荒洲探險家指南";
+Parser.SOURCE_JSON_TO_FULL[SRC_EGW_ToR] = "復仇之潮";
+Parser.SOURCE_JSON_TO_FULL[SRC_EGW_DD] = "危險計劃";
+Parser.SOURCE_JSON_TO_FULL[SRC_EGW_FS] = "封凍惡疾";
+Parser.SOURCE_JSON_TO_FULL[SRC_EGW_US] = "惡客自來";
+Parser.SOURCE_JSON_TO_FULL[SRC_MOT] = "塞洛斯的神話奧德賽";
+Parser.SOURCE_JSON_TO_FULL[SRC_IDRotF] = "冰風谷：冰霜少女的霧凇";
+Parser.SOURCE_JSON_TO_FULL[SRC_TCE] = "塔莎的萬象坩鍋";
+Parser.SOURCE_JSON_TO_FULL[SRC_VRGR] = "范·里希騰的鴉閣指南";
 Parser.SOURCE_JSON_TO_FULL[SRC_HoL] = "The House of Lament";
 Parser.SOURCE_JSON_TO_FULL[SRC_SCREEN] = "地下城主帷幕";
-Parser.SOURCE_JSON_TO_FULL[SRC_SCREEN_WILDERNESS_KIT] = "DM屏风：荒野套件";
+Parser.SOURCE_JSON_TO_FULL[SRC_SCREEN_WILDERNESS_KIT] = "DM屏風：荒野套件";
 Parser.SOURCE_JSON_TO_FULL[SRC_HEROES_FEAST] = "英雄盛宴";
-Parser.SOURCE_JSON_TO_FULL[SRC_CM] = "烛堡秘辛";
-Parser.SOURCE_JSON_TO_FULL[SRC_ALCoS] = `${AL_PREFIX}施特拉德的诅咒`;
-Parser.SOURCE_JSON_TO_FULL[SRC_ALEE] = `${AL_PREFIX}邪恶元素`;
-Parser.SOURCE_JSON_TO_FULL[SRC_ALRoD] = `${AL_PREFIX}恶魔狂怒`;
-Parser.SOURCE_JSON_TO_FULL[SRC_PSA] = `${PS_PREFIX}阿芒凯`;
+Parser.SOURCE_JSON_TO_FULL[SRC_CM] = "燭堡秘辛";
+Parser.SOURCE_JSON_TO_FULL[SRC_ALCoS] = `${AL_PREFIX}施特拉德的詛咒`;
+Parser.SOURCE_JSON_TO_FULL[SRC_ALEE] = `${AL_PREFIX}邪惡元素`;
+Parser.SOURCE_JSON_TO_FULL[SRC_ALRoD] = `${AL_PREFIX}惡魔狂怒`;
+Parser.SOURCE_JSON_TO_FULL[SRC_PSA] = `${PS_PREFIX}阿芒凱`;
 Parser.SOURCE_JSON_TO_FULL[SRC_PSI] = `${PS_PREFIX}依尼翠`;
-Parser.SOURCE_JSON_TO_FULL[SRC_PSK] = `${PS_PREFIX}卡拉德许`;
-Parser.SOURCE_JSON_TO_FULL[SRC_PSZ] = `${PS_PREFIX}赞迪卡`;
-Parser.SOURCE_JSON_TO_FULL[SRC_PSX] = `${PS_PREFIX}依夏兰`;
-Parser.SOURCE_JSON_TO_FULL[SRC_PSD] = `${PS_PREFIX}多明纳里亚`;
-Parser.SOURCE_JSON_TO_FULL[SRC_UAA] = `${UA_PREFIX}奇械师`;
+Parser.SOURCE_JSON_TO_FULL[SRC_PSK] = `${PS_PREFIX}卡拉德許`;
+Parser.SOURCE_JSON_TO_FULL[SRC_PSZ] = `${PS_PREFIX}讚迪卡`;
+Parser.SOURCE_JSON_TO_FULL[SRC_PSX] = `${PS_PREFIX}依夏蘭`;
+Parser.SOURCE_JSON_TO_FULL[SRC_PSD] = `${PS_PREFIX}多明納里亞`;
+Parser.SOURCE_JSON_TO_FULL[SRC_UAA] = `${UA_PREFIX}奇械師`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UAEAG] = `${UA_PREFIX}Eladrin and Gith`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UAEBB] = `${UA_PREFIX}Eberron`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UAFFR] = `${UA_PREFIX}Feats for Races`;
@@ -2551,7 +2551,7 @@ Parser.SOURCE_JSON_TO_FULL[SRC_UARoR] = `${UA_PREFIX}Races of Ravnica`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UAWGE] = "Wayfinder's Guide to Eberron";
 Parser.SOURCE_JSON_TO_FULL[SRC_UAOSS] = `${UA_PREFIX}Of Ships and the Sea`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UASIK] = `${UA_PREFIX}Sidekicks`;
-Parser.SOURCE_JSON_TO_FULL[SRC_UAAR] = `${UA_PREFIX}奇械师再制`;
+Parser.SOURCE_JSON_TO_FULL[SRC_UAAR] = `${UA_PREFIX}奇械師再製`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UABAM] = `${UA_PREFIX}Barbarian and Monk`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UASAW] = `${UA_PREFIX}Sorcerer and Warlock`;
 Parser.SOURCE_JSON_TO_FULL[SRC_UABAP] = `${UA_PREFIX}Bard and Paladin`;
@@ -3087,101 +3087,101 @@ Parser.ITEM_TYPE_JSON_TO_ABV = {
 };
 
 Parser.DMGTYPE_JSON_TO_FULL = {
-	"A": "强酸",
-	"B": "钝击",
-	"C": "冷冻",
+	"A": "強酸",
+	"B": "鈍擊",
+	"C": "冷凍",
 	"F": "火焰",
-	"O": "力场",
-	"L": "闪电",
-	"N": "黯蚀",
+	"O": "力場",
+	"L": "閃電",
+	"N": "黯蝕",
 	"P": "穿刺",
 	"I": "毒素",
-	"Y": "心灵",
+	"Y": "心靈",
 	"R": "光耀",
-	"S": "挥砍",
-	"T": "雷鸣",
+	"S": "揮砍",
+	"T": "雷鳴",
 };
 
 Parser.DMG_TYPES = ["acid", "bludgeoning", "cold", "fire", "force", "lightning", "necrotic", "piercing", "poison", "psychic", "radiant", "slashing", "thunder"];
 Parser.CONDITIONS = ["blinded", "charmed", "deafened", "exhaustion", "frightened", "grappled", "incapacitated", "invisible", "paralyzed", "petrified", "poisoned", "prone", "restrained", "stunned", "unconscious"];
 
 Parser.SKILL_JSON_TO_FULL = {
-	"体操": [
-		"你的敏捷（体操）检定涵盖了你在各种棘手情况下站稳的企图，例如在冰面上奔跑、在拉紧的绳索上保持平衡、或在剧烈摇晃的甲板上维持直立。DM也可能会要求一次敏捷（体操）检定以决定你能否做出体操体操，包括前翻、侧翻、空翻、后翻等等。",
+	"體操": [
+		"你的敏捷（體操）檢定涵蓋了你在各種棘手情況下站穩的企圖，例如在冰面上奔跑、在拉緊的繩索上保持平衡、或在劇烈搖晃的甲板上維持直立。DM也可能會要求一次敏捷（體操）檢定以決定你能否做出體操體操，包括前翻、側翻、空翻、後翻等等。",
 	],
-	"驯兽": [
-		"每当不确定你是否能够安抚家畜、使坐骑不受惊吓、或推断出动物的意图时，DM可能会要求一次感知（驯兽）检定。当你尝试控制你的坐骑进行一些危险动作时，你也需要进行一次感知（驯兽）检定。",
+	"馴獸": [
+		"每當不確定你是否能夠安撫家畜、使坐騎不受驚嚇、或推斷出動物的意圖時，DM可能會要求一次感知（馴獸）檢定。當你嘗試控制你的坐騎進行一些危險動作時，你也需要進行一次感知（馴獸）檢定。",
 	],
-	"奥秘": [
-		"你的智力（奥秘）检定被用以衡量你回忆关于法术、魔法物品、奥秘符文、魔法传统、位面存在、以及位面居民等相关知识的能力。",
+	"奧秘": [
+		"你的智力（奧秘）檢定被用以衡量你回憶關於法術、魔法物品、奧秘符文、魔法傳統、位面存在、以及位面居民等相關知識的能力。",
 	],
-	"运动": [
-		"你的力量（运动）检定涵盖了各种当你在攀爬、跳跃、或游泳时会遭遇的困难情况。例子包括以下行动：",
+	"運動": [
+		"你的力量（運動）檢定涵蓋了各種當你在攀爬、跳躍、或游泳時會遭遇的困難情況。例子包括以下行動：",
 		{
 			"type": "list",
 			"items": [
-				"你尝试攀爬一座陡峭或光滑的峭壁、在攀登墙壁时避开危险、或在有东西想把你击落的情况下抓紧壁面。",
-				"你尝试跳出一段超远的距离、或在跳跃途中展现一段特技动作。",
-				"你拼命尝试在凶险激流、风暴浪涛、或长满层层海草的水域中游泳或维持漂浮。或者另一个生物试着将你推或拉入水中、或做出其他任何影响你游泳的行动。",
+				"你嘗試攀爬一座陡峭或光滑的峭壁、在攀登牆壁時避開危險、或在有東西想把你擊落的情況下抓緊壁面。",
+				"你嘗試跳出一段超遠的距離、或在跳躍途中展現一段特技動作。",
+				"你拚命嘗試在凶險激流、風暴浪濤、或長滿層層海草的水域中游泳或維持漂浮。或者另一個生物試著將你推或拉入水中、或做出其他任何影響你游泳的行動。",
 			],
 		},
 	],
-	"欺瞒": [
-		"你的魅力（欺瞒）检定决定你是否能可信地隐瞒真相、无论是通过口头言语或你的行动。从模棱两可地误导某人到撒下弥天大谎，欺瞒可以涵盖几乎所有行为。典型的情况包括尝试用话术影响守卫、欺骗商人、从赌局赢取金钱、通过易容冒充某人、用虚妄的保证缓和某人的怀疑、或者在撒大谎时维持扑克脸等等。",
+	"欺瞞": [
+		"你的魅力（欺瞞）檢定決定你是否能可信地隱瞞真相、無論是通過口頭言語或你的行動。從模稜兩可地誤導某人到撒下彌天大謊，欺瞞可以涵蓋幾乎所有行為。典型的情況包括嘗試用話術影響守衛、欺騙商人、從賭局贏取金錢、通過易容冒充某人、用虛妄的保證緩和某人的懷疑、或者在撒大謊時維持撲克臉等等。",
 	],
-	"历史": [
-		"你的智力（历史）检定被用以衡量你回忆关于历史事件、传奇人物、古老王国、昔日纠纷、近代战争、以及失落文明等相关知识的能力。",
+	"歷史": [
+		"你的智力（歷史）檢定被用以衡量你回憶關於歷史事件、傳奇人物、古老王國、昔日糾紛、近代戰爭、以及失落文明等相關知識的能力。",
 	],
 	"洞悉": [
-		"你的感知（洞悉）检定决定你是否能办别另一个生物真正的意图，例如辨别谎言或是预测某人的下一步。这样做涉及了从对方的身体语言、说话习惯、以及态度转变等行为中搜集线索。",
+		"你的感知（洞悉）檢定決定你是否能辦別另一個生物真正的意圖，例如辨別謊言或是預測某人的下一步。這樣做涉及了從對方的身體語言、說話習慣、以及態度轉變等行為中搜集線索。",
 	],
-	"威吓": [
-		"当你尝试通过威胁、敌意行为、肉体暴力来影响他人时，DM可能会要求你进行一次魅力（威吓）检定。例子包括从囚犯口中逼供情报、迫使街头混混从冲突中退让、或者使用破瓶的利口让某个正轻蔑冷笑着的大臣相信自己该重新考虑一下。",
+	"威嚇": [
+		"當你嘗試通過威脅、敵意行為、肉體暴力來影響他人時，DM可能會要求你進行一次魅力（威嚇）檢定。例子包括從囚犯口中逼供情報、迫使街頭混混從衝突中退讓、或者使用破瓶的利口讓某個正輕蔑冷笑著的大臣相信自己該重新考慮一下。",
 	],
-	"调查": [
-		"当你四处查探线索并基于这些线索进行推理时，你进行一次智力（调查）检定。你可能会因此推断出某个隐藏物体的位置、从伤口的外观判断它是什么武器造成的、或找出某个隧道中可能导致坍方的结构性弱点。为了寻找隐藏的知识片段而钻研古卷也可能会需要一次智力（调查）检定。",
+	"調查": [
+		"當你四處查探線索並基於這些線索進行推理時，你進行一次智力（調查）檢定。你可能會因此推斷出某個隱藏物體的位置、從傷口的外觀判斷它是什麼武器造成的、或找出某個隧道中可能導致坍方的結構性弱點。為了尋找隱藏的知識片段而鑽研古卷也可能會需要一次智力（調查）檢定。",
 	],
-	"医疗": [
-		"一次感知（医疗）检定能让你尝试稳定一个濒死同伴的伤势或者诊断疾病。",
+	"醫療": [
+		"一次感知（醫療）檢定能讓你嘗試穩定一個瀕死同伴的傷勢或者診斷疾病。",
 	],
 	"自然": [
-		"你的智力（自然）检定被用以衡量你回忆关于地势、动植物、气候、以及自然周期等相关知识的能力。",
+		"你的智力（自然）檢定被用以衡量你回憶關於地勢、動植物、氣候、以及自然週期等相關知識的能力。",
 	],
-	"察觉": [
-		"你的感知（察觉）检定让你能够通过看、听、或其他方式来发现某些东西的存在。它代表着你对周围环境的总体意识以及你感官的敏锐度。", "举例来说，你可以会尝试聆听门后的对话、在敞开的窗户下窃听、或听见在森林中悄声移动的怪物。或者，你可能会试着看见被屏蔽或容易看走眼的东西，无论它们是在前路埋伏的兽人、躲在暗巷里的混混、还是从紧闭的暗门门鏠中透出的烛光。",
+	"察覺": [
+		"你的感知（察覺）檢定讓你能夠通過看、聽、或其他方式來發現某些東西的存在。它代表著你對周圍環境的總體意識以及你感官的敏銳度。", "舉例來說，你可以會嘗試聆聽門後的對話、在敞開的窗戶下竊聽、或聽見在森林中悄聲移動的怪物。或者，你可能會試著看見被屏蔽或容易看走眼的東西，無論它們是在前路埋伏的獸人、躲在暗巷裡的混混、還是從緊閉的暗門門鏠中透出的燭光。",
 	],
 	"表演": [
-		"你的魅力（表演）检定决定你能多好地用音乐、舞蹈、演剧、说书、或其他方式来娱乐观众。",
+		"你的魅力（表演）檢定決定你能多好地用音樂、舞蹈、演劇、說書、或其他方式來娛樂觀眾。",
 	],
-	"说服": [
-		"当你尝试圆滑地、优雅地、或善意地影响某人或某群人时，DM可能会要求你进行一次魅力（说服）检定。通常来说，你会在真诚地行事时使用说服以培养友谊，做出真挚的请求，或展示恰当的礼仪。说服他人的例子包括说服宫廷大臣让你的队伍晋见国王、协谈敌对部族之间的和平、或者鼓舞激励村民群众。",
+	"說服": [
+		"當你嘗試圓滑地、優雅地、或善意地影響某人或某群人時，DM可能會要求你進行一次魅力（說服）檢定。通常來說，你會在真誠地行事時使用說服以培養友誼，做出真摯的請求，或展示恰當的禮儀。說服他人的例子包括說服宮廷大臣讓你的隊伍晉見國王、協談敵對部族之間的和平、或者鼓舞激勵村民群眾。",
 	],
 	"宗教": [
-		"你的智力（宗教）检定被用以衡量你回忆关于神祇、仪式和祈祷、宗教阶级、圣徽、以及秘密异教的惯例等相关知识的能力。",
+		"你的智力（宗教）檢定被用以衡量你回憶關於神祇、儀式和祈禱、宗教階級、聖徽、以及秘密異教的慣例等相關知識的能力。",
 	],
 	"巧手": [
-		"每当你尝试表演晃眼花招或巧手，像是把某个东西放在他人身上或将一件东西藏在自已身上，进行一次敏捷（巧手）检定。DM可能也会要求你进行敏捷（巧手）检定以决定你是否能从他人的钱包中偷出钱币、或从他人的口袋摸出某个东西。",
+		"每當你嘗試表演晃眼花招或巧手，像是把某個東西放在他人身上或將一件東西藏在自己身上，進行一次敏捷（巧手）檢定。DM可能也會要求你進行敏捷（巧手）檢定以決定你是否能從他人的錢包中偷出錢幣、或從他人的口袋摸出某個東西。",
 	],
-	"隐匿": [
-		"当你尝试隐藏自己以躲避敌人、从守卫身边溜过去、不被注意的潜逃、或无声无息地偷偷接近某人时，进行一次敏捷（隐匿）检定。",
+	"隱匿": [
+		"當你嘗試隱藏自己以躲避敵人、從守衛身邊溜過去、不被注意的潛逃、或無聲無息地偷偷接近某人時，進行一次敏捷（隱匿）檢定。",
 	],
 	"生存": [
-		"DM可能会要求你进行一次感知（生存）检定以追寻踪迹、狩猎野味、带领你的队伍穿越冰原、辨识枭头熊生活于附近的征兆、预测天气、或者避开流沙以及其他自然危险。",
+		"DM可能會要求你進行一次感知（生存）檢定以追尋蹤跡、狩獵野味、帶領你的隊伍穿越冰原、辨識梟頭熊生活於附近的徵兆、預測天氣、或者避開流沙以及其他自然危險。",
 	],
 };
 
 Parser.SENSE_JSON_TO_FULL = {
-	"盲视": [
-		"具有盲视的生物即使不依赖视觉也可以感知其周遭特定半径范围内的环境。没有眼睛的生物（像是泥怪）、以及具有回声定位或高敏感官的生物（像是蝙蝠和真龙）都具有这种感官。",
+	"盲視": [
+		"具有盲視的生物即使不依賴視覺也可以感知其周遭特定半徑範圍內的環境。沒有眼睛的生物（像是泥怪）、以及具有回聲定位或高敏感官的生物（像是蝙蝠和真龍）都具有這種感官。",
 	],
-	"黑暗视觉": [
-		"奇幻游戏世界中的许多生物，特别是那些居住于地底的生物，都具有黑暗视觉。在特定半径范围内，具有黑暗视觉的生物可以将微光光照视作明亮光照，并将黑暗环境视作微光光照，因此黑暗环境对于这些生物而言仅会被轻度遮蔽。然而，这些生物无法辨别黑暗中的颜色，而只能看到灰黑的轮廓。",
+	"黑暗視覺": [
+		"奇幻遊戲世界中的許多生物，特別是那些居住於地底的生物，都具有黑暗視覺。在特定半徑範圍內，具有黑暗視覺的生物可以將微光光照視作明亮光照，並將黑暗環境視作微光光照，因此黑暗環境對於這些生物而言僅會被輕度遮蔽。然而，這些生物無法辨別黑暗中的顏色，而只能看到灰黑的輪廓。",
 	],
-	"震颤感知": [
-		"只要具有震颤感知的生物与震动来源都接触着相同的地表或物质，该生物可以感知并精准定位其特定半径范围内的震动来源。震颤感知并不能被用以侦测飞行或虚体生物。许多掘穴生物，像是掘地虫和土巨怪，都具有这种特殊的感官。",
+	"震顫感知": [
+		"只要具有震顫感知的生物與震動來源都接觸著相同的地表或物質，該生物可以感知並精準定位其特定半徑範圍內的震動來源。震顫感知並不能被用以偵測飛行或虛體生物。許多掘穴生物，像是掘地蟲和土巨怪，都具有這種特殊的感官。",
 	],
-	"真实视觉": [
-		"具有真实视觉的生物在特定半径范围内，可以看透普通或魔法黑暗、看见隐形的生物和物体、自动侦测出视觉幻象并成功通过对抗它们的豁免检定、并看穿变形者或被魔法变形的生物的原始型态。此外，这些生物也可以看见位于乙太位面的事物。",
+	"真實視覺": [
+		"具有真實視覺的生物在特定半徑範圍內，可以看透普通或魔法黑暗、看見隱形的生物和物體、自動偵測出視覺幻象並成功通過對抗它們的豁免檢定、並看穿變形者或被魔法變形的生物的原始型態。此外，這些生物也可以看見位於乙太位面的事物。",
 	],
 };
 

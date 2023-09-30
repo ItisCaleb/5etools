@@ -41,7 +41,7 @@ class StyleSwitcher {
 			}
 		}
 
-		StyleSwitcher._setButtonText("夜晚模式切换", this.getDayNightButtonText(style));
+		StyleSwitcher._setButtonText("夜晚模式切換", this.getDayNightButtonText(style));
 
 		StyleSwitcher.storage.setItem(StyleSwitcher._STORAGE_DAY_NIGHT, this.currentStylesheet);
 	}
@@ -56,7 +56,7 @@ class StyleSwitcher {
 
 	getDayNightButtonText () {
 		switch (this.currentStylesheet) {
-			case StyleSwitcher._STYLE_NIGHT_ALT: return "白昼模式";
+			case StyleSwitcher._STYLE_NIGHT_ALT: return "白晝模式";
 			case StyleSwitcher._STYLE_DAY: return "夜晚模式";
 			case StyleSwitcher._STYLE_NIGHT: return "夜晚模式 (Alt)";
 		}
@@ -122,7 +122,7 @@ class StyleSwitcher {
 				document.documentElement.appendChild(eleScript);
 			}
 		}
-		StyleSwitcher._setButtonText("wideModeToggle", isActive ? "禁用宽幅模式" : "启用宽幅模式 (实验功能)");
+		StyleSwitcher._setButtonText("wideModeToggle", isActive ? "禁用寬幅模式" : "啟用寬幅模式 (實驗功能)");
 		StyleSwitcher.storage.setItem(StyleSwitcher._STORAGE_WIDE, isActive);
 	}
 

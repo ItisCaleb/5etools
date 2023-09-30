@@ -814,7 +814,7 @@
 									"type": "entries",
 									"name": "Manshoon Simulacrum",
 									"entries": [
-										"Manshoon uses the {@spell 拟像术} spell to create a magical duplicate of himself as needed. He has customized the spell to increase his simulacrum's hit points at the expense of its spellcasting ability.",
+										"Manshoon uses the {@spell 擬像術} spell to create a magical duplicate of himself as needed. He has customized the spell to increase his simulacrum's hit points at the expense of its spellcasting ability.",
 										"Manshoon can have only one simulacrum at any given time, and he uses it as a subordinate to command his Zhentarim minions in the field. If his simulacrum is destroyed, Manshoon creates another. Each simulacrum has the statistics of Manshoon, with these changes:",
 										{
 											"type": "list",
@@ -854,7 +854,7 @@
 								{
 									"type": "entries",
 									"entries": [
-										"Manshoon uses the {@spell 拟像术} spell to create a magical duplicate of himself as needed. He has customized the spell to increase his simulacrum's hit points at the expense of its spellcasting ability.",
+										"Manshoon uses the {@spell 擬像術} spell to create a magical duplicate of himself as needed. He has customized the spell to increase his simulacrum's hit points at the expense of its spellcasting ability.",
 										"Manshoon can have only one simulacrum at any given time, and he uses it as a subordinate to command his Zhentarim minions in the field. If his simulacrum is destroyed, Manshoon creates another. Each simulacrum has the statistics of Manshoon, with these changes:",
 										{
 											"type": "list",
@@ -1061,7 +1061,7 @@
 											"name": "Constructed Nature",
 											"type": "entries",
 											"entries": [
-												"A nimblewright doesn't require air, food, drink, or sleep. Damage it takes can be repaired with {@spell 修复术} spells, but a nimblewright reduced to 0 hit points is permanently destroyed."
+												"A nimblewright doesn't require air, food, drink, or sleep. Damage it takes can be repaired with {@spell 修復術} spells, but a nimblewright reduced to 0 hit points is permanently destroyed."
 											]
 										}
 									]

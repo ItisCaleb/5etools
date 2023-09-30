@@ -16,7 +16,7 @@ const ListUtil = {
 		const helpText = [];
 
 		if (listOpts.isBindFindHotkey && !ListUtil._isFindHotkeyBound) {
-			helpText.push(`快捷键：f.`);
+			helpText.push(`快捷鍵：f.`);
 
 			$(document.body).on("keypress", (e) => {
 				if (!EventUtil.noModifierKeys(e) || EventUtil.isInInput(e)) return;
@@ -58,7 +58,7 @@ const ListUtil = {
 		if (ListUtil._firstInit) {
 			ListUtil._firstInit = false;
 			const $headDesc = $(`.page__subtitle`);
-			$headDesc.html(`${$headDesc.html()}按下J/K以巡览列${ListUtil._isPreviewable ? `，按下M以扩展显示` : ""}。`);
+			$headDesc.html(`${$headDesc.html()}按下J/K以巡覽列${ListUtil._isPreviewable ? `，按下M以擴展顯示` : ""}。`);
 			ListUtil._initList_bindWindowHandlers();
 		}
 
@@ -288,7 +288,7 @@ const ListUtil = {
 				if (!ListUtil.isSublisted(Hist.lastLoadedId, data)) ListUtil.pDoSublistAdd(Hist.lastLoadedId, {doFinalize: true, data});
 				else ListUtil.pDoSublistRemove(Hist.lastLoadedId, {doFinalize: true, data});
 			})
-			.title("钉选(开/关)");
+			.title("釘選(開/關)");
 	},
 
 	genericAddButtonHandler (evt, options = {}) {
@@ -695,7 +695,7 @@ const ListUtil = {
 
 		const subActions = [
 			new ContextUtil.Action(
-				"弹窗",
+				"跳出視窗",
 				(evt, userData) => {
 					const {ele, selection} = userData;
 					ListUtil._handleGenericContextMenuClick_pDoMassPopout(evt, ele, selection)
@@ -717,23 +717,23 @@ const ListUtil = {
 			),
 			null,
 			new ContextUtil.Action(
-				"列表掷骰",
+				"列表擲骰",
 				() => ListUtil._rollSubListed(),
 			),
 			null,
 			new ContextUtil.Action(
-				"发送到 DM 帷幕",
+				"發送到 DM 帷幕",
 				() => ListUtil._pDoSendSublistToDmScreen(),
 			),
 			ExtensionUtil.ACTIVE
 				? new ContextUtil.Action(
-					"发送到 Foundry",
+					"發送到 Foundry",
 					() => ListUtil._pDoSendSublistToFoundry(),
 				)
 				: undefined,
 			null,
 			new ContextUtil.Action(
-				"下载 JSON 数据",
+				"下載 JSON 數據",
 				() => ListUtil._handleJsonDownload(),
 			),
 		].filter(it => it !== undefined);
@@ -745,9 +745,9 @@ const ListUtil = {
 			const list = ListUtil.getExportableSublist();
 			const len = list.items.length;
 			await StorageUtil.pSet(VeCt.STORAGE_DMSCREEN_TEMP_SUBLIST, {page: UrlUtil.getCurrentPage(), list});
-			JqueryUtil.doToast(`${len} 个标注内容将在你下次访问时载入 DM 帷幕。`)
+			JqueryUtil.doToast(`${len} 個標註內容將在你下次訪問時載入 DM 帷幕。`)
 		} catch (e) {
-			JqueryUtil.doToast(`失败！ ${VeCt.STR_SEE_CONSOLE}`);
+			JqueryUtil.doToast(`失敗！ ${VeCt.STR_SEE_CONSOLE}`);
 			setTimeout(() => { throw e; })
 		}
 	},
@@ -773,7 +773,7 @@ const ListUtil = {
 			await ExtensionUtil._doSend("entity", {page, entity: toSend});
 		}
 
-		JqueryUtil.doToast(`尝试发送 ${len} 条项目到 Foundry 之中。`);
+		JqueryUtil.doToast(`嘗試發送 ${len} 條項目到 Foundry 之中。`);
 	},
 
 	async _handleGenericContextMenuClick_pDoMassPopout (evt, ele, selection) {
@@ -832,7 +832,7 @@ const ListUtil = {
 
 			if ($eles.length <= 1) {
 				JqueryUtil.doToast({
-					content: "条目数量不足以掷骰！",
+					content: "條目數量不足以擲骰！",
 					type: "danger",
 				});
 				return ListUtil._isRolling = false;
@@ -934,10 +934,10 @@ const ListUtil = {
 			});
 			return DataUtil.getCsv(headers, rows);
 		}
-		const $btnCsv = $(`<button class="btn btn-primary mr-3">下载 CSV</button>`).click(() => {
+		const $btnCsv = $(`<button class="btn btn-primary mr-3">下載 CSV</button>`).click(() => {
 			DataUtil.userDownloadText(`${title}.csv`, getAsCsv());
 		}).appendTo($pnlBtns);
-		const $btnCopy = $(`<button class="btn btn-primary">复制 CSV 到剪贴板</button>`).click(async () => {
+		const $btnCopy = $(`<button class="btn btn-primary">複製 CSV 到剪貼板</button>`).click(async () => {
 			await MiscUtil.pCopyTextToClipboard(getAsCsv());
 			JqueryUtil.showCopiedEffect($btnCopy);
 		}).appendTo($pnlBtns);
@@ -961,13 +961,13 @@ const ListUtil = {
 	},
 
 	addListShowHide () {
-		$(`#filter-search-group`).find(`#reset`).before(`<button class="btn btn-default" id="hidesearch">隐藏</button>`);
-		$(`#contentwrapper`).prepend(`<div class="col-12" id="showsearch"><button class="btn btn-block btn-default btn-xs" type="button">显示筛选器</button><br></div>`);
+		$(`#filter-search-group`).find(`#reset`).before(`<button class="btn btn-default" id="hidesearch">隱藏</button>`);
+		$(`#contentwrapper`).prepend(`<div class="col-12" id="showsearch"><button class="btn btn-block btn-default btn-xs" type="button">顯示篩選器</button><br></div>`);
 
 		const $wrpList = $(`#listcontainer`);
 		const $wrpBtnShowSearch = $("div#showsearch");
 		const $btnHideSearch = $("button#hidesearch");
-		$btnHideSearch.title("隐藏搜索栏和条目列表");
+		$btnHideSearch.title("隱藏搜索欄和條目列表");
 		// collapse/expand search button
 		$btnHideSearch.click(function () {
 			$wrpList.hide();

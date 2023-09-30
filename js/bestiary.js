@@ -445,7 +445,7 @@ class BestiaryPage extends ListPage {
 		profBonusDiceBtn.click(function () {
 			if (window.PROF_DICE_MODE === PROF_MODE_DICE) {
 				window.PROF_DICE_MODE = PROF_MODE_BONUS;
-				this.innerHTML = "使用熟练骰";
+				this.innerHTML = "使用熟練骰";
 				$("#pagecontent").find(`span.render-roller, span.dc-roller`).each(function () {
 					const $this = $(this);
 					$this.attr("mode", "");
@@ -453,7 +453,7 @@ class BestiaryPage extends ListPage {
 				});
 			} else {
 				window.PROF_DICE_MODE = PROF_MODE_DICE;
-				this.innerHTML = "使用熟练加值";
+				this.innerHTML = "使用熟練加值";
 				$("#pagecontent").find(`span.render-roller, span.dc-roller`).each(function () {
 					const $this = $(this);
 					$this.attr("mode", "dice");
@@ -810,7 +810,7 @@ class BestiaryPage extends ListPage {
 			const $headerControls = isImageTab ? null : (() => {
 				const actions = [
 					new ContextUtil.Action(
-						"以 JSON 格式复制",
+						"以 JSON 格式複製",
 						async () => {
 							const fluffEntries = await pGetFluffEntries();
 							MiscUtil.pCopyTextToClipboard(JSON.stringify(fluffEntries, null, "\t"));
@@ -818,7 +818,7 @@ class BestiaryPage extends ListPage {
 						},
 					),
 					new ContextUtil.Action(
-						"以 Markdown 格式复制",
+						"以 Markdown 格式複製",
 						async () => {
 							const fluffEntries = await pGetFluffEntries();
 							const rendererMd = RendererMarkdown.get().setFirstSection(true);
@@ -847,7 +847,7 @@ class BestiaryPage extends ListPage {
 		// reset tabs
 		const tabMetas = [
 			new Renderer.utils.TabButton({
-				label: "数据块",
+				label: "數據塊",
 				fnChange: () => {
 					$wrpBtnProf.append(this._$btnProf);
 					$(`#float-token`).show();
@@ -856,7 +856,7 @@ class BestiaryPage extends ListPage {
 				isVisible: true,
 			}),
 			new Renderer.utils.TabButton({
-				label: "信息",
+				label: "資訊",
 				fnChange: () => {
 					this._$btnProf = $wrpBtnProf.children().length ? $wrpBtnProf.children().detach() : this._$btnProf;
 					$(`#float-token`).hide();
@@ -865,7 +865,7 @@ class BestiaryPage extends ListPage {
 				isVisible: Renderer.utils.hasFluffText(mon, "monsterFluff"),
 			}),
 			new Renderer.utils.TabButton({
-				label: "图片",
+				label: "圖片",
 				fnChange: () => {
 					this._$btnProf = $wrpBtnProf.children().length ? $wrpBtnProf.children().detach() : this._$btnProf;
 					$(`#float-token`).hide();
@@ -1064,7 +1064,7 @@ function onSublistChange () {
 	_$totalCr = _$totalCr || $(`#totalcr`);
 	const xp = EncounterBuilderUtils.calculateListEncounterXp(encounterBuilder.lastPartyMeta);
 	const monCount = ListUtil.sublist.items.map(it => it.values.count).reduce((a, b) => a + b, 0);
-	_$totalCr.html(`${monCount} 个生物；${xp.baseXp.toLocaleString()} XP (<span class="help" title="调整后的遭遇经验值">遭遇</span>：${(xp.adjustedXp).toLocaleString()} XP)`);
+	_$totalCr.html(`${monCount} 個生物；${xp.baseXp.toLocaleString()} XP (<span class="help" title="調整後的遭遇經驗值">遭遇</span>：${(xp.adjustedXp).toLocaleString()} XP)`);
 	if (encounterBuilder.isActive()) encounterBuilder.updateDifficulty();
 	else encounterBuilder.doSaveState();
 }

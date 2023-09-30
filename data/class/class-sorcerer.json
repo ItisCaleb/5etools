@@ -1,7 +1,7 @@
 {
 	"class": [
 		{
-			"name": "术士",
+			"name": "術士",
 			"ENG_name": "Sorcerer",
 			"source": "PHB",
 			"page": 99,
@@ -62,11 +62,11 @@
 			],
 			"startingProficiencies": {
 				"weapons": [
-					"{@item dagger|phb|匕首}",
-					"{@item dart|phb|飞镖}",
-					"{@item sling|phb|投石索}",
-					"{@item quarterstaff|phb|长棍}",
-					"{@item light crossbow|phb|轻弩}"
+					"{@item 匕首|phb|匕首}",
+					"{@item 飛鏢|phb|飛鏢}",
+					"{@item 投石索|phb|投石索}",
+					"{@item 長棍|phb|長棍}",
+					"{@item 輕弩|phb|輕弩}"
 				],
 				"skills": [
 					{
@@ -87,12 +87,12 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a)一把{@item 轻弩|phb}和{@item 弩矢(20)|phb|20支弩矢} 或 (b)任意一把{@filter 简易武器|items|source=phb|category=basic|type=simple weapon}",
-					"(a)一个{@item 材料包|phb} 或 (b)一个{@item 奥术法器|phb}",
-					"(a)一套{@item 地城探险家套装|phb} 或 (b)一套{@item 探索者套装|phb}",
+					"(a)一把{@item 輕弩|phb}和{@item 弩矢(20)|phb|20支弩矢} 或 (b)任意一把{@filter 簡易武器|items|source=phb|category=basic|type=simple weapon}",
+					"(a)一個{@item 材料包|phb} 或 (b)一個{@item 奧術法器|phb}",
+					"(a)一套{@item 地城探險家套裝|phb} 或 (b)一套{@item 探索者套裝|phb}",
 					"二把{@item 匕首|phb}"
 				],
-				"goldAlternative": "{@dice 3d4 × 10|3d4 × 10|起始金钱}",
+				"goldAlternative": "{@dice 3d4 × 10|3d4 × 10|起始金錢}",
 				"defaultData": [
 					{
 						"a": [
@@ -139,7 +139,7 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"术法点"
+						"術法點"
 					],
 					"rows": [
 						[
@@ -206,8 +206,8 @@
 				},
 				{
 					"colLabels": [
-						"{@filter 已知戏法|spells|level=0|class=Sorcerer}",
-						"{@filter 已知法术|spells|class=Sorcerer}"
+						"{@filter 已知戲法|spells|level=0|class=Sorcerer}",
+						"{@filter 已知法術|spells|class=Sorcerer}"
 					],
 					"rows": [
 						[
@@ -293,17 +293,17 @@
 					]
 				},
 				{
-					"title": "法术位/每环",
+					"title": "法術位/每環",
 					"colLabels": [
-						"{@filter 1环|spells|level=1|class=Sorcerer}",
-						"{@filter 2环|spells|level=2|class=Sorcerer}",
-						"{@filter 3环|spells|level=3|class=Sorcerer}",
-						"{@filter 4环|spells|level=4|class=Sorcerer}",
-						"{@filter 5环|spells|level=5|class=Sorcerer}",
-						"{@filter 6环|spells|level=6|class=Sorcerer}",
-						"{@filter 7环|spells|level=7|class=Sorcerer}",
-						"{@filter 8环|spells|level=8|class=Sorcerer}",
-						"{@filter 9环|spells|level=9|class=Sorcerer}"
+						"{@filter 1環|spells|level=1|class=Sorcerer}",
+						"{@filter 2環|spells|level=2|class=Sorcerer}",
+						"{@filter 3環|spells|level=3|class=Sorcerer}",
+						"{@filter 4環|spells|level=4|class=Sorcerer}",
+						"{@filter 5環|spells|level=5|class=Sorcerer}",
+						"{@filter 6環|spells|level=6|class=Sorcerer}",
+						"{@filter 7環|spells|level=7|class=Sorcerer}",
+						"{@filter 8環|spells|level=8|class=Sorcerer}",
+						"{@filter 9環|spells|level=9|class=Sorcerer}"
 					],
 					"rows": [
 						[
@@ -532,58 +532,58 @@
 			"classFeatures": [
 				"施法|Sorcerer||1",
 				{
-					"classFeature": "术法起源|Sorcerer||1",
+					"classFeature": "術法起源|Sorcerer||1",
 					"gainSubclassFeature": true
 				},
 				"Spell Versatility|Sorcerer||1|UAClassFeatureVariants",
-				"魔力泉涌|Sorcerer||2",
+				"魔力泉湧|Sorcerer||2",
 				"Font of Magic Options|Sorcerer||2|UAClassFeatureVariants",
 				"超魔法|Sorcerer||3",
 				"Metamagic Options|Sorcerer||3|UAClassFeatureVariants",
-				"超魔法选项|Sorcerer||3|TCE",
-				"属性值提升|Sorcerer||4",
+				"超魔法選項|Sorcerer||3|TCE",
+				"屬性值提升|Sorcerer||4",
 				"Proficiency Versatility|Sorcerer||4|UAClassFeatureVariants",
-				"术法变换|Sorcerer||4|TCE",
+				"術法變換|Sorcerer||4|TCE",
 				"魔法指引|Sorcerer||5|TCE",
 				{
-					"classFeature": "术法起源能力|Sorcerer||6",
+					"classFeature": "術法起源能力|Sorcerer||6",
 					"gainSubclassFeature": true
 				},
-				"属性值提升|Sorcerer||8",
+				"屬性值提升|Sorcerer||8",
 				"Proficiency Versatility|Sorcerer||8|UAClassFeatureVariants",
 				"超魔法|Sorcerer||10",
-				"属性值提升|Sorcerer||12",
+				"屬性值提升|Sorcerer||12",
 				"Proficiency Versatility|Sorcerer||12|UAClassFeatureVariants",
 				{
-					"classFeature": "术法起源能力|Sorcerer||14",
+					"classFeature": "術法起源能力|Sorcerer||14",
 					"gainSubclassFeature": true
 				},
-				"属性值提升|Sorcerer||16",
+				"屬性值提升|Sorcerer||16",
 				"Proficiency Versatility|Sorcerer||16|UAClassFeatureVariants",
 				"超魔法|Sorcerer||17",
 				{
-					"classFeature": "术法起源能力|Sorcerer||18",
+					"classFeature": "術法起源能力|Sorcerer||18",
 					"gainSubclassFeature": true
 				},
-				"属性值提升|Sorcerer||19",
+				"屬性值提升|Sorcerer||19",
 				"Proficiency Versatility|Sorcerer||19|UAClassFeatureVariants",
-				"术法复原|Sorcerer||20"
+				"術法復原|Sorcerer||20"
 			],
 			"subclassTitle": "Sorcerous Origin",
 			"subclasses": [
 				{
-					"name": "龙族血脉",
+					"name": "龍族血脈",
 					"ENG_name": "Draconic Bloodline",
-					"shortName": "龙族血脉",
+					"shortName": "龍族血脈",
 					"ENG_shortName": "Draconic",
 					"source": "PHB",
 					"page": 102,
 					"srd": true,
 					"subclassFeatures": [
-						"龙族血脉|Sorcerer||Draconic||1",
-						"元素亲和|Sorcerer||Draconic||6",
-						"龙之翼|Sorcerer||Draconic||14",
-						"真龙威仪|Sorcerer||Draconic||18"
+						"龍族血脈|Sorcerer||Draconic||1",
+						"元素親和|Sorcerer||Draconic||6",
+						"龍之翼|Sorcerer||Draconic||14",
+						"真龍威儀|Sorcerer||Draconic||18"
 					]
 				},
 				{
@@ -595,9 +595,9 @@
 					"page": 103,
 					"subclassFeatures": [
 						"狂野魔法|Sorcerer||Wild||1",
-						"窜改运气|Sorcerer||Wild||6",
+						"竄改運氣|Sorcerer||Wild||6",
 						"控制混沌|Sorcerer||Wild||14",
-						"法术轰击|Sorcerer||Wild||18"
+						"法術轟擊|Sorcerer||Wild||18"
 					]
 				},
 				{
@@ -740,9 +740,9 @@
 					]
 				},
 				{
-					"name": "神圣之魂",
+					"name": "神聖之魂",
 					"ENG_name": "Divine Soul",
-					"shortName": "神圣之魂",
+					"shortName": "神聖之魂",
 					"ENG_shortName": "Divine",
 					"source": "XGE",
 					"page": 50,
@@ -789,10 +789,10 @@
 						}
 					],
 					"subclassFeatures": [
-						"神圣之魂|Sorcerer||Divine Soul|XGE|1",
-						"强效治疗|Sorcerer||Divine Soul|XGE|6",
+						"神聖之魂|Sorcerer||Divine Soul|XGE|1",
+						"強效治療|Sorcerer||Divine Soul|XGE|6",
 						"超凡之翼|Sorcerer||Divine Soul|XGE|14",
-						"神秘痊愈|Sorcerer||Divine Soul|XGE|18"
+						"神秘痊癒|Sorcerer||Divine Soul|XGE|18"
 					]
 				},
 				{
@@ -813,15 +813,15 @@
 					],
 					"subclassFeatures": [
 						"幽影魔法|Sorcerer||Shadow|XGE|1",
-						"凶兆猎犬|Sorcerer||Shadow|XGE|6",
+						"凶兆獵犬|Sorcerer||Shadow|XGE|6",
 						"幽影漫步|Sorcerer||Shadow|XGE|14",
-						"暗影型态|Sorcerer||Shadow|XGE|18"
+						"暗影型態|Sorcerer||Shadow|XGE|18"
 					]
 				},
 				{
-					"name": "暴风术法",
+					"name": "暴風術法",
 					"ENG_name": "Storm Sorcery",
-					"shortName": "暴风术法",
+					"shortName": "暴風術法",
 					"ENG_shortName": "Storm",
 					"source": "XGE",
 					"page": 51,
@@ -832,11 +832,11 @@
 						}
 					],
 					"subclassFeatures": [
-						"暴风术法|Sorcerer||Storm|XGE|1",
-						"暴风之心|Sorcerer||Storm|XGE|6",
-						"暴风导向|Sorcerer||Storm|XGE|6",
-						"暴风狂怒|Sorcerer||Storm|XGE|14",
-						"清风之魂|Sorcerer||Storm|XGE|18"
+						"暴風術法|Sorcerer||Storm|XGE|1",
+						"暴風之心|Sorcerer||Storm|XGE|6",
+						"暴風導向|Sorcerer||Storm|XGE|6",
+						"暴風狂怒|Sorcerer||Storm|XGE|14",
+						"清風之魂|Sorcerer||Storm|XGE|18"
 					]
 				},
 				{
@@ -944,9 +944,9 @@
 					]
 				},
 				{
-					"name": "畸变心智",
+					"name": "畸變心智",
 					"ENG_name": "Aberrant Mind",
-					"shortName": "畸变心智",
+					"shortName": "畸變心智",
 					"ENG_shortName": "Aberrant Mind",
 					"source": "TCE",
 					"page": 66,
@@ -978,17 +978,17 @@
 						}
 					],
 					"subclassFeatures": [
-						"畸变心智|Sorcerer||Aberrant Mind|TCE|1",
-						"灵能术法|Sorcerer||Aberrant Mind|TCE|6",
-						"心灵防御|Sorcerer||Aberrant Mind|TCE|6",
-						"血肉启示|Sorcerer||Aberrant Mind|TCE|14",
+						"畸變心智|Sorcerer||Aberrant Mind|TCE|1",
+						"靈能術法|Sorcerer||Aberrant Mind|TCE|6",
+						"心靈防禦|Sorcerer||Aberrant Mind|TCE|6",
+						"血肉啟示|Sorcerer||Aberrant Mind|TCE|14",
 						"扭曲爆裂|Sorcerer||Aberrant Mind|TCE|18"
 					]
 				},
 				{
-					"name": "时械之魂",
+					"name": "時械之魂",
 					"ENG_name": "Clockwork Soul",
-					"shortName": "时械之魂",
+					"shortName": "時械之魂",
 					"ENG_shortName": "Clockwork Soul",
 					"source": "TCE",
 					"page": 68,
@@ -1019,10 +1019,10 @@
 						}
 					],
 					"subclassFeatures": [
-						"时械之魂|Sorcerer||Clockwork Soul|TCE|1",
+						"時械之魂|Sorcerer||Clockwork Soul|TCE|1",
 						"律令之壁|Sorcerer||Clockwork Soul|TCE|6",
-						"序列意识|Sorcerer||Clockwork Soul|TCE|14",
-						"时械矩阵|Sorcerer||Clockwork Soul|TCE|18"
+						"序列意識|Sorcerer||Clockwork Soul|TCE|14",
+						"時械矩陣|Sorcerer||Clockwork Soul|TCE|18"
 					]
 				}
 			],
@@ -1062,7 +1062,7 @@
 									"type": "entries",
 									"name": "Quick Build",
 									"entries": [
-										"You can make a sorcerer quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Constitution. Second, choose the hermit background. Third, choose the {@spell 光亮术}, {@spell 魔法技俩}, {@spell 冷冻射线}, and {@spell 电爪} cantrips, along with the 1st-level spells {@spell 护盾术} and {@spell 魔法飞弹}."
+										"You can make a sorcerer quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Constitution. Second, choose the hermit background. Third, choose the {@spell 光亮術}, {@spell 魔法技倆}, {@spell 冷凍射線}, and {@spell 電爪} cantrips, along with the 1st-level spells {@spell 護盾術} and {@spell 魔法飛彈}."
 									]
 								}
 							]
@@ -1398,7 +1398,7 @@
 	],
 	"classFeature": [
 		{
-			"name": "术法起源",
+			"name": "術法起源",
 			"ENG_name": "Sorcerous Origin",
 			"source": "PHB",
 			"page": 99,
@@ -1407,8 +1407,8 @@
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"从可选的起源列表中选择一个术法起源，它代表着你天生魔法力量的来源。",
-				"你的选择会在1级、6级、14级、和18级的时候赋予你新的能力。"
+				"從可選的起源列表中選擇一個術法起源，它代表著你天生魔法力量的來源。",
+				"你的選擇會在1級、6級、14級、和18級的時候賦予你新的能力。"
 			]
 		},
 		{
@@ -1434,46 +1434,46 @@
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"过去的一个事件、或者你双亲或先祖的血脉，在你身上留下了不可磨灭的印记，使你充满了奥秘魔法。不论其起源如何，这种魔法泉源驱动着你的法术。请参阅{@book 第十章|PHB|10}以了解关于施法的规则，以及第十一章以查阅{@filter 术士法术列表|spells|class=sorcerer}。",
+				"過去的一個事件、或者你雙親或先祖的血脈，在你身上留下了不可磨滅的印記，使你充滿了奧秘魔法。不論其起源如何，這種魔法泉源驅動著你的法術。請參閱{@book 第十章|PHB|10}以了解關於施法的規則，以及第十一章以查閱{@filter 術士法術列表|spells|class=sorcerer}。",
 				{
 					"type": "entries",
-					"name": "戏法",
+					"name": "戲法",
 					"entries": [
-						"在1级时，你知晓四个从{@filter 术士法术列表|spells|class=sorcerer}自选的戏法。你将在升至更高的术士等级时学会额外的术士戏法：在4级的时候学会第5个戏法，在10级的时候学会第6个。"
+						"在1級時，你知曉四個從{@filter 術士法術列表|spells|class=sorcerer}自選的戲法。你將在升至更高的術士等級時學會額外的術士戲法：在4級的時候學會第5個戲法，在10級的時候學會第6個。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "法术位",
+					"name": "法術位",
 					"entries": [
-						"术士表中显示了你有多少个法术位可以用来施放你一环或更高环的{@filter 术士法术|spells|class=sorcerer}。要施放其中一个术士法术，你必须消耗一个与该法术环阶相同或更高的法术位。你在完成一次长休后恢复所有你花费掉的法术位。",
-						"举例来说，如果你知晓一个1环的{@spell 燃烧之手}法术，且你拥有一个1环和一个2环的法术位，则你可以使用其中任意一个法术位来施放{@spell 燃烧之手}。"
+						"術士表中顯示了你有多少個法術位可以用來施放你一環或更高環的{@filter 術士法術|spells|class=sorcerer}。要施放其中一個術士法術，你必須消耗一個與該法術環階相同或更高的法術位。你在完成一次長休後恢復所有你花費掉的法術位。",
+						"舉例來說，如果你知曉一個1環的{@spell 燃燒之手}法術，且你擁有一個1環和一個2環的法術位，則你可以使用其中任意一個法術位來施放{@spell 燃燒之手}。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "一环或更高环的已知法术",
+					"name": "一環或更高環的已知法術",
 					"entries": [
-						"你知晓二个从术士法术列表中自选的1环法术。",
-						"你将在提升至在每个除了第12,14,16,18,19,和20级的术士等级时，习得一个新的术士法术。每个这些法术的环阶都必须符合你所拥有法术位的环阶。举例来说，当你在此职业升至3级时，你可以学习一个新的1环或2环法术。",
-						"此外，当你提升这个职业的等级时，你可以从术士的法术列表中挑选一个法术来取代一个你目前已知的法术，而它的环阶也必须符合你所拥有法术位的环阶。"
+						"你知曉二個從術士法術列表中自選的1環法術。",
+						"你將在提升至在每個除了第12,14,16,18,19,和20級的術士等級時，習得一個新的術士法術。每個這些法術的環階都必須符合你所擁有法術位的環階。舉例來說，當你在此職業升至3級時，你可以學習一個新的1環或2環法術。",
+						"此外，當你提升這個職業的等級時，你可以從術士的法術列表中挑選一個法術來取代一個你目前已知的法術，而它的環階也必須符合你所擁有法術位的環階。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "施法属性",
+					"name": "施法屬性",
 					"entries": [
-						"因为你魔法的力量依赖于你将自己的意志投射于世界的能力，魅力是你施展术士法术的施法属性。每当法术提及你的施法属性时，你将使用你的魅力。此外，当决定你术士法术的豁免DC、以及使用术士法术进行攻击检定时，你使用你的魅力调整值。",
+						"因為你魔法的力量依賴於你將自己的意志投射於世界的能力，魅力是你施展術士法術的施法屬性。每當法術提及你的施法屬性時，你將使用你的魅力。此外，當決定你術士法術的豁免DC、以及使用術士法術進行攻擊檢定時，你使用你的魅力調整值。",
 						{
 							"type": "abilityDc",
-							"name": "法术",
+							"name": "法術",
 							"attributes": [
 								"cha"
 							]
 						},
 						{
 							"type": "abilityAttackMod",
-							"name": "法术",
+							"name": "法術",
 							"attributes": [
 								"cha"
 							]
@@ -1484,13 +1484,13 @@
 					"type": "entries",
 					"name": "施法法器",
 					"entries": [
-						"你可以使用一个{@item 奥术法器|phb}（第五章），来作为你施放术士法术的法器。"
+						"你可以使用一個{@item 奧術法器|phb}（第五章），來作為你施放術士法術的法器。"
 					]
 				}
 			]
 		},
 		{
-			"name": "易变施法",
+			"name": "易變施法",
 			"ENG_name": "Flexible Casting",
 			"source": "PHB",
 			"page": 99,
@@ -1500,18 +1500,18 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"你可以使用你的术法点以获得额外的法术位，或牺牲法术位以获得额外的术法点。随着你升至更高的等级，你将学会其他使用你术法点的方式。",
+				"你可以使用你的術法點以獲得額外的法術位，或犧牲法術位以獲得額外的術法點。隨著你升至更高的等級，你將學會其他使用你術法點的方式。",
 				{
 					"type": "entries",
-					"name": "创造法术位",
+					"name": "創造法術位",
 					"entries": [
-						"你可以在你的回合以一个附赠动作将尚未消耗的术法点转变成一个法术位。被创造出来的法术位将在长休结束时消失。创造法术位表中显示了创造各环阶的法术位所需要消耗的术法点。你可以创造出不超过5环的法术位。",
+						"你可以在你的回合以一個附贈動作將尚未消耗的術法點轉變成一個法術位。被創造出來的法術位將在長休結束時消失。創造法術位表中顯示了創造各環階的法術位所需要消耗的術法點。你可以創造出不超過5環的法術位。",
 						{
 							"type": "table",
-							"caption": "创造法术位",
+							"caption": "創造法術位",
 							"colLabels": [
-								"法术位环阶",
-								"术法点消耗"
+								"法術位環階",
+								"術法點消耗"
 							],
 							"colStyles": [
 								"col-6 text-center",
@@ -1519,23 +1519,23 @@
 							],
 							"rows": [
 								[
-									"1环",
+									"1環",
 									"2"
 								],
 								[
-									"2环",
+									"2環",
 									"3"
 								],
 								[
-									"3环",
+									"3環",
 									"5"
 								],
 								[
-									"4环",
+									"4環",
 									"6"
 								],
 								[
-									"5环",
+									"5環",
 									"7"
 								]
 							]
@@ -1544,15 +1544,15 @@
 				},
 				{
 					"type": "entries",
-					"name": "将法术位转化为术法点",
+					"name": "將法術位轉化為術法點",
 					"entries": [
-						"在你的回合以一个附赠动作，你可以消耗一个法术位以获得等同于该法术位环阶数量的术法点。"
+						"在你的回合以一個附贈動作，你可以消耗一個法術位以獲得等同於該法術位環階數量的術法點。"
 					]
 				}
 			]
 		},
 		{
-			"name": "魔力泉涌",
+			"name": "魔力泉湧",
 			"ENG_name": "Font of Magic",
 			"source": "PHB",
 			"page": 99,
@@ -1561,18 +1561,18 @@
 			"classSource": "PHB",
 			"level": 2,
 			"entries": [
-				"在2级时，你挖掘出深埋于你体内的魔力涌泉。这道魔力涌泉以术法点的形式呈现，让你得以创造多种魔法效果。",
+				"在2級時，你挖掘出深埋於你體內的魔力湧泉。這道魔力湧泉以術法點的形式呈現，讓你得以創造多種魔法效果。",
 				{
 					"type": "entries",
-					"name": "术法点",
+					"name": "術法點",
 					"ENG_name": "Sorcery Points",
 					"entries": [
-						"你拥有2点术法点，且你每提升一级就能再额外获得一点，并在20级时达到最大值20点。你所拥有的术法点永远无法超过表格中对应你当前等级的数值。你在完成一次长休后恢复所有你花费掉的术法点。"
+						"你擁有2點術法點，且你每提升一級就能再額外獲得一點，並在20級時達到最大值20點。你所擁有的術法點永遠無法超過表格中對應你當前等級的數值。你在完成一次長休後恢復所有你花費掉的術法點。"
 					]
 				},
 				{
 					"type": "refClassFeature",
-					"classFeature": "易变施法|Sorcerer||2"
+					"classFeature": "易變施法|Sorcerer||2"
 				}
 			]
 		},
@@ -1611,50 +1611,50 @@
 			"classSource": "PHB",
 			"level": 3,
 			"entries": [
-				"在3级时，你获得扭曲你的法术以使其符合你需求的能力。你获得下列超魔法选项中的二个。你将在10级和17级时再各获得一个。",
-				"除非另有说明，否则你只能在你施放一个法术时对其使用一个超魔法选项。",
+				"在3級時，你獲得扭曲你的法術以使其符合你需求的能力。你獲得下列超魔法選項中的二個。你將在10級和17級時再各獲得一個。",
+				"除非另有說明，否則你只能在你施放一個法術時對其使用一個超魔法選項。",
 				{
 					"type": "options",
 					"count": 2,
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "谨慎法术"
+							"optionalfeature": "謹慎法術"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "远程法术"
+							"optionalfeature": "遠程法術"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "强效法术"
+							"optionalfeature": "強效法術"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "延时法术"
+							"optionalfeature": "延時法術"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "升阶法术"
+							"optionalfeature": "升階法術"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "瞬发法术"
+							"optionalfeature": "瞬發法術"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "精妙法术"
+							"optionalfeature": "精妙法術"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "孪生法术"
+							"optionalfeature": "孿生法術"
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "超魔法选项",
+			"name": "超魔法選項",
 			"ENG_name": "Metamagic Options",
 			"source": "TCE",
 			"page": 65,
@@ -1663,18 +1663,18 @@
 			"level": 3,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 3级术士 {@variantrule 可选职业特性|tce|可选特性}}",
-				"当你选择超魔法选项时，你能够选择以下超魔法选项。",
+				"{@i 3級術士 {@variantrule 可選職業特性|tce|可選特性}}",
+				"當你選擇超魔法選項時，你能夠選擇以下超魔法選項。",
 				{
 					"type": "options",
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "追踪法术|TCE"
+							"optionalfeature": "追蹤法術|TCE"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "转化法术|TCE"
+							"optionalfeature": "轉化法術|TCE"
 						}
 					]
 				}
@@ -1711,7 +1711,7 @@
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "PHB",
 			"page": 99,
@@ -1720,8 +1720,8 @@
 			"classSource": "PHB",
 			"level": 4,
 			"entries": [
-				"当你在此职业升至4级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能通过这个能力将一个属性值提升至超过20。",
-				"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
+				"當你在此職業升至4級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
+				"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
 			]
 		},
 		{
@@ -1739,7 +1739,7 @@
 			]
 		},
 		{
-			"name": "术法变换",
+			"name": "術法變換",
 			"ENG_name": "Sorcerous Versatility",
 			"source": "TCE",
 			"page": 65,
@@ -1748,13 +1748,13 @@
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 4级术士{@variantrule 可选职业特性|tce|可选特性}}",
-				"每当你通过提升术士等级获得属性值提升时，你可以进行以下一种行为，代表着你内在的法力流向了新的途径：",
+				"{@i 4級術士{@variantrule 可選職業特性|tce|可選特性}}",
+				"每當你通過提升術士等級獲得屬性值提升時，你可以進行以下一種行為，代表著你內在的法力流向了新的途徑：",
 				{
 					"type": "list",
 					"items": [
-						"用另一个你能够选择的{@filter 超魔法选项|optionalfeatures|Feature Type=MM}替换你当前的一个超魔法选项。",
-						"用另一个你能够从{@filter 术士法术列表|spells|level=0|class=Sorcerer}中选择的戏法替换你当前已知的一个术士戏法。"
+						"用另一個你能夠選擇的{@filter 超魔法選項|optionalfeatures|Feature Type=MM}替換你當前的一個超魔法選項。",
+						"用另一個你能夠從{@filter 術士法術列表|spells|level=0|class=Sorcerer}中選擇的戲法替換你當前已知的一個術士戲法。"
 					]
 				}
 			]
@@ -1769,12 +1769,12 @@
 			"level": 5,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 5级术士 {@variantrule 可选职业特性|tce|可选特性}}",
-				"你能够挖掘内在的魔力源泉，从失败中召唤成功。当你进行一次属性检定并失败时，你可以使用1术法点重投{@dice d20}。你必须使用重投的结果。此举可能使该检定改为成功。"
+				"{@i 5級術士 {@variantrule 可選職業特性|tce|可選特性}}",
+				"你能夠挖掘內在的魔力源泉，從失敗中召喚成功。當你進行一次屬性檢定並失敗時，你可以使用1術法點重投{@dice d20}。你必須使用重投的結果。此舉可能使該檢定改為成功。"
 			]
 		},
 		{
-			"name": "术法起源能力",
+			"name": "術法起源能力",
 			"ENG_name": "Sorcerous Origin feature",
 			"source": "PHB",
 			"page": 99,
@@ -1783,11 +1783,11 @@
 			"classSource": "PHB",
 			"level": 6,
 			"entries": [
-				"在6级时，你获得一个由你术法起源所赋予的能力。"
+				"在6級時，你獲得一個由你術法起源所賦予的能力。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "PHB",
 			"page": 99,
@@ -1796,8 +1796,8 @@
 			"classSource": "PHB",
 			"level": 8,
 			"entries": [
-				"当你在此职业升至8级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能通过这个能力将一个属性值提升至超过20。",
-				"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
+				"當你在此職業升至8級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
+				"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
 			]
 		},
 		{
@@ -1824,11 +1824,11 @@
 			"classSource": "PHB",
 			"level": 10,
 			"entries": [
-				"在10级时，你习得一个额外的超魔法选项。"
+				"在10級時，你習得一個額外的超魔法選項。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "PHB",
 			"page": 99,
@@ -1837,8 +1837,8 @@
 			"classSource": "PHB",
 			"level": 12,
 			"entries": [
-				"当你在此职业升至12级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能通过这个能力将一个属性值提升至超过20。",
-				"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
+				"當你在此職業升至12級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
+				"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
 			]
 		},
 		{
@@ -1856,7 +1856,7 @@
 			]
 		},
 		{
-			"name": "术法起源能力",
+			"name": "術法起源能力",
 			"ENG_name": "Sorcerous Origin feature",
 			"source": "PHB",
 			"page": 99,
@@ -1865,11 +1865,11 @@
 			"classSource": "PHB",
 			"level": 14,
 			"entries": [
-				"在14级时，你获得一个由你术法起源所赋予的能力。"
+				"在14級時，你獲得一個由你術法起源所賦予的能力。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "PHB",
 			"page": 99,
@@ -1878,8 +1878,8 @@
 			"classSource": "PHB",
 			"level": 16,
 			"entries": [
-				"当你在此职业升至16级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能通过这个能力将一个属性值提升至超过20。",
-				"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
+				"當你在此職業升至16級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
+				"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
 			]
 		},
 		{
@@ -1906,11 +1906,11 @@
 			"classSource": "PHB",
 			"level": 17,
 			"entries": [
-				"在17级时，你习得一个额外的超魔法选项。"
+				"在17級時，你習得一個額外的超魔法選項。"
 			]
 		},
 		{
-			"name": "术法起源能力",
+			"name": "術法起源能力",
 			"ENG_name": "Sorcerous Origin feature",
 			"source": "PHB",
 			"page": 99,
@@ -1919,11 +1919,11 @@
 			"classSource": "PHB",
 			"level": 18,
 			"entries": [
-				"在18级时，你获得一个由你术法起源所赋予的能力。"
+				"在18級時，你獲得一個由你術法起源所賦予的能力。"
 			]
 		},
 		{
-			"name": "属性值提升",
+			"name": "屬性值提升",
 			"ENG_name": "Ability Score Improvement",
 			"source": "PHB",
 			"page": 99,
@@ -1932,8 +1932,8 @@
 			"classSource": "PHB",
 			"level": 19,
 			"entries": [
-				"当你在此职业升至19级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能通过这个能力将一个属性值提升至超过20。",
-				"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
+				"當你在此職業升至19級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
+				"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
 			]
 		},
 		{
@@ -1951,7 +1951,7 @@
 			]
 		},
 		{
-			"name": "术法复原",
+			"name": "術法復原",
 			"ENG_name": "Sorcerous Restoration",
 			"source": "PHB",
 			"page": 99,
@@ -1960,7 +1960,7 @@
 			"classSource": "PHB",
 			"level": 20,
 			"entries": [
-				"在20级时，每当你完成一次短休，你将恢复4点花费掉的术法点。"
+				"在20級時，每當你完成一次短休，你將恢復4點花費掉的術法點。"
 			]
 		},
 		{
@@ -2002,7 +2002,7 @@
 	],
 	"subclassFeature": [
 		{
-			"name": "龙族血脉",
+			"name": "龍族血脈",
 			"ENG_name": "Draconic Bloodline",
 			"source": "PHB",
 			"page": 102,
@@ -2013,19 +2013,19 @@
 			"subclassSource": "PHB",
 			"level": 1,
 			"entries": [
-				"你的天生魔法来自于与你或你祖先那与龙族魔法交缠的血脉。大多数情况下，这种起源的术士可以追溯其血统到久远以前与龙族交易、或有着龙族双亲的强大术士。某些这类血脉在世界上相当知名，但绝大部分都不为人知。任何术士都可能因为契约或其他因素，而成为一条崭新血脉的开端。",
+				"你的天生魔法來自於與你或你祖先那與龍族魔法交纏的血脈。大多數情況下，這種起源的術士可以追溯其血統到久遠以前與龍族交易、或有著龍族雙親的強大術士。某些這類血脈在世界上相當知名，但絕大部分都不為人知。任何術士都可能因為契約或其他因素，而成為一條嶄新血脈的開端。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "龙族血统|Sorcerer||Draconic||1"
+					"subclassFeature": "龍族血統|Sorcerer||Draconic||1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "龙族韧性|Sorcerer||Draconic||1"
+					"subclassFeature": "龍族韌性|Sorcerer||Draconic||1"
 				}
 			]
 		},
 		{
-			"name": "龙族韧性",
+			"name": "龍族韌性",
 			"ENG_name": "Draconic Resilience",
 			"source": "PHB",
 			"page": 102,
@@ -2037,13 +2037,13 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1级龙族血脉特性}",
-				"因为魔法在你体内流动，你龙族血统的物理特征开始浮现。你的生命值最大值增加1点，且每当你在本职业提升等级时都会再增加1点。",
-				"此外，你一部份的肌肤将会被轻薄、龙族般的光滑鳞片给覆盖。当你未穿戴护甲时，你的AC等于13 + 你的敏捷调整值。"
+				"{@i 1級龍族血脈特性}",
+				"因為魔法在你體內流動，你龍族血統的物理特徵開始浮現。你的生命值最大值增加1點，且每當你在本職業提升等級時都會再增加1點。",
+				"此外，你一部份的肌膚將會被輕薄、龍族般的光滑鱗片給覆蓋。當你未穿戴護甲時，你的AC等於13 + 你的敏捷調整值。"
 			]
 		},
 		{
-			"name": "龙族血统",
+			"name": "龍族血統",
 			"ENG_name": "Dragon Ancestor",
 			"source": "PHB",
 			"page": 102,
@@ -2055,14 +2055,14 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1级龙族血脉特性}",
-				"你选择一个龙种作为你的血统。各龙种对应的伤害类型将会在你往后获得的能力中被使用。",
+				"{@i 1級龍族血脈特性}",
+				"你選擇一個龍種作為你的血統。各龍種對應的傷害類型將會在你往後獲得的能力中被使用。",
 				{
 					"type": "table",
-					"caption": "龙族血统",
+					"caption": "龍族血統",
 					"colLabels": [
-						"龙种",
-						"伤害类型"
+						"龍種",
+						"傷害類型"
 					],
 					"colStyles": [
 						"col-6 text-center",
@@ -2070,52 +2070,52 @@
 					],
 					"rows": [
 						[
-							"黑龙",
-							"{@filter 强酸|spells|damage type=acid}"
+							"黑龍",
+							"{@filter 強酸|spells|damage type=acid}"
 						],
 						[
-							"蓝龙",
-							"{@filter 闪电|spells|damage type=lightning}"
+							"藍龍",
+							"{@filter 閃電|spells|damage type=lightning}"
 						],
 						[
-							"黄铜龙",
+							"黃銅龍",
 							"{@filter 火焰|spells|damage type=fire}"
 						],
 						[
-							"青铜龙",
-							"{@filter 闪电|spells|damage type=lightning}"
+							"青銅龍",
+							"{@filter 閃電|spells|damage type=lightning}"
 						],
 						[
-							"赤铜龙",
-							"{@filter 强酸|spells|damage type=acid}"
+							"赤銅龍",
+							"{@filter 強酸|spells|damage type=acid}"
 						],
 						[
-							"金龙",
+							"金龍",
 							"{@filter 火焰|spells|damage type=fire}"
 						],
 						[
-							"绿龙",
+							"綠龍",
 							"{@filter 毒素|spells|damage type=poison}"
 						],
 						[
-							"红龙",
+							"紅龍",
 							"{@filter 火焰|spells|damage type=fire}"
 						],
 						[
-							"银龙",
-							"{@filter 冷冻|spells|damage type=cold}"
+							"銀龍",
+							"{@filter 冷凍|spells|damage type=cold}"
 						],
 						[
-							"白龙",
-							"{@filter 冷冻|spells|damage type=cold}"
+							"白龍",
+							"{@filter 冷凍|spells|damage type=cold}"
 						]
 					]
 				},
-				"你能够说、读、写龙语。此外，每当你在与龙族交互时进行魅力检定，若你的熟练加值能适用于该检定，你的熟练加值变为二倍。"
+				"你能夠說、讀、寫龍語。此外，每當你在與龍族交互時進行魅力檢定，若你的熟練加值能適用於該檢定，你的熟練加值變為二倍。"
 			]
 		},
 		{
-			"name": "元素亲和",
+			"name": "元素親和",
 			"ENG_name": "Elemental Affinity",
 			"source": "PHB",
 			"page": 102,
@@ -2127,12 +2127,12 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6级龙族血脉特性}",
-				"当你施放一个会造成与你龙族血统对应伤害类型相同的伤害的法术时，你可以将你的魅力调整值加入该法术的其中一个伤害骰中。在此同时，你可以消耗1点术法点以获得对该伤害类型的抗性长达1小时。"
+				"{@i 6級龍族血脈特性}",
+				"當你施放一個會造成與你龍族血統對應傷害類型相同的傷害的法術時，你可以將你的魅力調整值加入該法術的其中一個傷害骰中。在此同時，你可以消耗1點術法點以獲得對該傷害類型的抗性長達1小時。"
 			]
 		},
 		{
-			"name": "龙之翼",
+			"name": "龍之翼",
 			"ENG_name": "Dragon Wings",
 			"source": "PHB",
 			"page": 102,
@@ -2144,13 +2144,13 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14级龙族血脉特性}",
-				"你获得从你背后长出一对龙翼的能力，获得等同于你当下速度的飞行速度。你可以在你的回合以一个附赠动作创造这对龙翼。它们会持续直到你在你的回合以一个附赠动作解消它们。",
-				"你无法在你穿戴护甲时操作这对龙翼，除非该护甲是为了容纳它们而被打造。此外，未被设计于容纳你龙翼的服装将在你操作龙翼的时候被破坏。"
+				"{@i 14級龍族血脈特性}",
+				"你獲得從你背後長出一對龍翼的能力，獲得等同於你當下速度的飛行速度。你可以在你的回合以一個附贈動作創造這對龍翼。它們會持續直到你在你的回合以一個附贈動作解消它們。",
+				"你無法在你穿戴護甲時操作這對龍翼，除非該護甲是為了容納它們而被打造。此外，未被設計於容納你龍翼的服裝將在你操作龍翼的時候被破壞。"
 			]
 		},
 		{
-			"name": "真龙威仪",
+			"name": "真龍威儀",
 			"ENG_name": "Draconic Presence",
 			"source": "PHB",
 			"page": 102,
@@ -2162,8 +2162,8 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18级龙族血脉特性}",
-				"你可以引导来自你龙族血统的骇人威仪，使你周遭的人们因而被震撼或{@condition 恐惧}。以一个动作，你可以消耗5点术法点以汲取这种力量，并散发出一道距离60尺范围，令人敬畏或恐惧的灵光（由你选择）。持续1分钟或直到你失去你的专注（如同你施放一个专注法术），每个在这道灵光中开始它回合的敌意生物必须成功通过一次感知豁免，否则在这道灵光结束前被{@condition 魅惑}（若你选择敬畏效果）或{@condition 恐惧}（若你选择恐惧效果）。一个成功通过此豁免检定的生物将在接下来的24小时内免疫你的灵光。"
+				"{@i 18級龍族血脈特性}",
+				"你可以引導來自你龍族血統的駭人威儀，使你周遭的人們因而被震撼或{@condition 恐懼}。以一個動作，你可以消耗5點術法點以汲取這種力量，並散發出一道距離60尺範圍，令人敬畏或恐懼的靈光（由你選擇）。持續1分鐘或直到你失去你的專注（如同你施放一個專注法術），每個在這道靈光中開始它回合的敵意生物必須成功通過一次感知豁免，否則在這道靈光結束前被{@condition 魅惑}（若你選擇敬畏效果）或{@condition 恐懼}（若你選擇恐懼效果）。一個成功透過此豁免檢定的生物將在接下來的24小時內免疫你的靈光。"
 			]
 		},
 		{
@@ -2177,19 +2177,19 @@
 			"subclassSource": "PHB",
 			"level": 1,
 			"entries": [
-				"你的天生魔法来自于潜伏于创造秩序之下的狂野混沌之力。你也许曾暴露于某种形式的原初魔力之下，也许穿越了一扇位面传送门到混沌海、元素位面、或者神秘的遥远国度。也许你曾被一个强大的精类生物祝福、或被一名恶魔所标记。又或者你的魔法仅仅是你诞生时侥幸获得，并没有显著的原因或理由。无论其来源为何，这道混乱魔力在你体内翻涌着，等待着被以任何方式释放出来。",
+				"你的天生魔法來自於潛伏於創造秩序之下的狂野混沌之力。你也許曾暴露於某種形式的原初魔力之下，也許穿越了一扇位面傳送門到混沌海、元素位面、或者神秘的遙遠國度。也許你曾被一個強大的精類生物祝福、或被一名惡魔所標記。又或者你的魔法僅僅是你誕生時僥倖獲得，並沒有顯著的原因或理由。無論其來源為何，這道混亂魔力在你體內翻湧著，等待著被以任何方式釋放出來。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "狂野魔法浪涌|Sorcerer||Wild||1"
+					"subclassFeature": "狂野魔法浪湧|Sorcerer||Wild||1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "混乱之潮|Sorcerer||Wild||1"
+					"subclassFeature": "混亂之潮|Sorcerer||Wild||1"
 				}
 			]
 		},
 		{
-			"name": "混乱之潮",
+			"name": "混亂之潮",
 			"ENG_name": "Tides of Chaos",
 			"source": "PHB",
 			"page": 103,
@@ -2200,13 +2200,13 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1级狂野魔法特性}",
-				"你可以操作几率和混乱之力以在一次攻击检定、属性检定、或豁免检定中获得优势。一旦你这么做，你必须在完成一次长休后才能再使用此能力。",
-				"在你重新获得使用混乱之潮的能力之前，DM可以紧接你施放一个1环或更高环的术士法术后要求你掷骰使用狂野魔法浪涌表。接着你恢复使用混乱之潮的能力。"
+				"{@i 1級狂野魔法特性}",
+				"你可以操作機率和混亂之力以在一次攻擊檢定、屬性檢定、或豁免檢定中獲得優勢。一旦你這麼做，你必須在完成一次長休後才能再使用此能力。",
+				"在你重新獲得使用混亂之潮的能力之前，DM可以緊接你施放一個1環或更高環的術士法術後要求你擲骰使用狂野魔法浪湧表。接著你恢復使用混亂之潮的能力。"
 			]
 		},
 		{
-			"name": "狂野魔法浪涌",
+			"name": "狂野魔法浪湧",
 			"ENG_name": "Wild Magic Surge",
 			"source": "PHB",
 			"page": 103,
@@ -2217,12 +2217,12 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1级狂野魔法特性}",
-				"你的施法可以释放出未经驯服的魔法浪涌。紧接在你施放一个1环或更高环的术士法术，DM可以要求你骰一颗{@dice d20}。若你骰出了1，则掷骰使用狂野魔法浪涌表以创造出一个随机的魔法效果。一道狂野魔法浪涌在每回合可以发生一次。",
-				"若狂野魔法效果为一个法术，则它太过狂野以至于它无法被超魔法影响。若它原本需要专注，则它在这个情况下也不需要专注；该法术将持续到它的完整持续时间。",
+				"{@i 1級狂野魔法特性}",
+				"你的施法可以釋放出未經馴服的魔法浪湧。緊接在你施放一個1環或更高環的術士法術，DM可以要求你骰一顆{@dice d20}。若你骰出了1，則擲骰使用狂野魔法浪湧表以創造出一個隨機的魔法效果。一道狂野魔法浪湧在每回合可以發生一次。",
+				"若狂野魔法效果為一個法術，則它太過狂野以至於它無法被超魔法影響。若它原本需要專注，則它在這個情況下也不需要專注；該法術將持續到它的完整持續時間。",
 				{
 					"type": "table",
-					"caption": "狂野魔法浪涌",
+					"caption": "狂野魔法浪湧",
 					"colLabels": [
 						"{@dice d100}",
 						"效果"
@@ -2234,203 +2234,203 @@
 					"rows": [
 						[
 							"01-02",
-							"在接下来一分钟内，你在你的每个回合开始时骰这张表，并在后续的掷骰中无视骰到这个项目的掷骰结果。"
+							"在接下來一分鐘內，你在你的每個回合開始時骰這張表，並在後續的擲骰中無視骰到這個項目的擲骰結果。"
 						],
 						[
 							"03-04",
-							"在接下来一分钟内，若任何{@condition 隐形}生物处于你的视线范围内，则你可以看见它。"
+							"在接下來一分鐘內，若任何{@condition 隱形}生物處於你的視線範圍內，則你可以看見它。"
 						],
 						[
 							"05-06",
-							"一个DM所选择并控制的魔冢出现在距离你5尺内的一处未被占据空间，并在1分钟后消失。"
+							"一個DM所選擇並控制的魔塚出現在距離你5尺內的一處未被占據空間，並在1分鐘後消失。"
 						],
 						[
 							"07-08",
-							"你以3环法术，以你自己为中心施放{@spell 火球术}。"
+							"你以3環法術，以你自己為中心施放{@spell 火球術}。"
 						],
 						[
 							"09-10",
-							"你以5环法术施放{@spell 魔法飞弹}。"
+							"你以5環法術施放{@spell 魔法飛彈}。"
 						],
 						[
 							"11-12",
-							"骰一颗{@dice d10}。你的身高改变等同于掷骰结果的寸数。若掷骰结果为奇数，你的身高变矮。若掷骰结果为偶数，你的身高变高。"
+							"骰一顆{@dice d10}。你的身高改變等同於擲骰結果的寸數。若擲骰結果為奇數，你的身高變矮。若擲骰結果為偶數，你的身高變高。"
 						],
 						[
 							"13-14",
-							"你以自己为中心施放{@spell 困惑术}。"
+							"你以自己為中心施放{@spell 困惑術}。"
 						],
 						[
 							"15-16",
-							"在接下来一分钟内，你在你的每个回合开始时回复5点生命值。"
+							"在接下來一分鐘內，你在你的每個回合開始時回復5點生命值。"
 						],
 						[
 							"17-18",
-							"你的脸上长出大把羽毛组成的长须。一旦你打了喷嚏，这些羽毛将从你脸上被炸飞出去。"
+							"你的臉上長出大把羽毛組成的長鬚。一旦你打了噴嚏，這些羽毛將從你臉上被炸飛出去。"
 						],
 						[
 							"19-20",
-							"你以自己为中心施放{@spell 油腻术}。"
+							"你以自己為中心施放{@spell 油膩術}。"
 						],
 						[
 							"21-22",
-							"所有生物在对抗你在接下来一分钟内所施放的下一个涉及豁免检定的法术时，所进行的豁免检定具有劣势。"
+							"所有生物在對抗你在接下來一分鐘內所施放的下一個涉及豁免檢定的法術時，所進行的豁免檢定具有劣勢。"
 						],
 						[
 							"23-24",
-							"你的肌肤变成有着鲜艳渐层的蓝色。一个{@spell 移除诅咒}法术可以终止此效果。"
+							"你的肌膚變成有著鮮艷漸層的藍色。一個{@spell 移除詛咒}法術可以終止此效果。"
 						],
 						[
 							"25-26",
-							"一颗眼睛将在接下来一分钟内出现在你的额头上。"
+							"一顆眼睛將在接下來一分鐘內出現在你的額頭上。"
 						],
 						[
 							"27-28",
-							"在接下来一分钟内，你所有施法时间为1个动作的法术，其施法时间变成1个附赠动作。"
+							"在接下來一分鐘內，你所有施法時間為1個動作的法術，其施法時間變成1個附贈動作。"
 						],
 						[
 							"29-30",
-							"你传送最远60尺距离到一处你所选且你能看见的一处未被占据空间。"
+							"你傳送最遠60尺距離到一處你所選且你能看見的一處未被占據空間。"
 						],
 						[
 							"31-32",
-							"你被传送到星界直到你的下个回合结束，在那之后你将回到你先前所占据的空间，或若该空间被占据，则回到离该处最近的一处未被占据空间。"
+							"你被傳送到星界直到你的下個回合結束，在那之後你將回到你先前所占據的空間，或若該空間被占據，則回到離該處最近的一處未被占據空間。"
 						],
 						[
 							"33-34",
-							"在接下来一分钟内你所施放的下一个伤害法术的伤害取最大值。"
+							"在接下來一分鐘內你所施放的下一個傷害法術的傷害取最大值。"
 						],
 						[
 							"35-36",
-							"骰一颗{@dice d10}。你的年龄改变等同于掷骰结果的年数。若掷骰结果为奇数，你变年轻（最小一岁）。若掷骰结果为偶数，你变得更老。"
+							"骰一顆{@dice d10}。你的年齡改變等同於擲骰結果的年數。若擲骰結果為奇數，你變年輕（最小一歲）。若擲骰結果為偶數，你變得更老。"
 						],
 						[
 							"37-38",
-							"{@dice 1d6}个由DM控制的{@creature 呋噜|MM}出现在距离你60尺内的未被占据空间，且对你感到{@condition 恐惧}。它们将在1分钟后消失。"
+							"{@dice 1d6}個由DM控制的{@creature 呋嚕|MM}出現在距離你60尺內的未被占據空間，且對你感到{@condition 恐懼}。它們將在1分鐘後消失。"
 						],
 						[
 							"39-40",
-							"你回复{@dice 2d10}点生命值。"
+							"你回復{@dice 2d10}點生命值。"
 						],
 						[
 							"41-42",
-							"你变成一个盆栽植物直到你的下个回合开始。当变成盆栽植物时，你处于{@condition 无力}状态且对所有伤害易伤。若你的生命值归零，你的盆栽将被破坏，且你恢复原本的型态。"
+							"你變成一個盆栽植物直到你的下個回合開始。當變成盆栽植物時，你處於{@condition 無力}狀態且對所有傷害易傷。若你的生命值歸零，你的盆栽將被破壞，且你恢復原本的型態。"
 						],
 						[
 							"43-44",
-							"在接下来一分钟内，你可以在你的每个回合以一个附赠动作传送最远20尺距离。"
+							"在接下來一分鐘內，你可以在你的每個回合以一個附贈動作傳送最遠20尺距離。"
 						],
 						[
 							"45-46",
-							"你对你自己施放{@spell 浮空术}。"
+							"你對你自己施放{@spell 浮空術}。"
 						],
 						[
 							"47-48",
-							"一个由DM控制的{@creature 独角兽}出现在距离你5尺内的一个空间，并在1分钟后消失。"
+							"一個由DM控制的{@creature 獨角獸}出現在距離你5尺內的一個空間，並在1分鐘後消失。"
 						],
 						[
 							"49-50",
-							"你在接下来一分钟内无法说话。每当你尝试说话时，粉红色的泡泡将从你口中飘出。"
+							"你在接下來一分鐘內無法說話。每當你嘗試說話時，粉紅色的泡泡將從你口中飄出。"
 						],
 						[
 							"51-52",
-							"一道灵体似的护盾在接下来一分钟内漂浮于你附近，使你的AC获得+2加值，并让你免疫于{@spell 魔法飞弹}。"
+							"一道靈體似的護盾在接下來一分鐘內漂浮於你附近，使你的AC獲得+2加值，並讓你免疫於{@spell 魔法飛彈}。"
 						],
 						[
 							"53-54",
-							"你在接下来的{@dice 5d6}天内免疫于酒精导致的酒醉状态。"
+							"你在接下來的{@dice 5d6}天內免疫於酒精導致的酒醉狀態。"
 						],
 						[
 							"55-56",
-							"你的头发掉光，但在24小时内重新长回来。"
+							"你的頭髮掉光，但在24小時內重新長回來。"
 						],
 						[
 							"57-58",
-							"在接下来一分钟内，任何你所碰触，且未被其他生物穿戴或携带的可燃物体都将熊熊燃烧。"
+							"在接下來一分鐘內，任何你所碰觸，且未被其他生物穿戴或攜帶的可燃物體都將熊熊燃燒。"
 						],
 						[
 							"59-60",
-							"你恢复你花费掉最低环阶的法术位。"
+							"你恢復你花費掉最低環階的法術位。"
 						],
 						[
 							"61-62",
-							"在接下来一分钟内，你在说话时必须用吼的。"
+							"在接下來一分鐘內，你在說話時必須用吼的。"
 						],
 						[
 							"63-64",
-							"你以你自己为中心施放{@spell 云雾术}。"
+							"你以你自己為中心施放{@spell 雲霧術}。"
 						],
 						[
 							"65-66",
-							"最多三个你所选择距离你30尺内的生物受到{@dice 4d10}闪电伤害。"
+							"最多三個你所選擇距離你30尺內的生物受到{@dice 4d10}閃電傷害。"
 						],
 						[
 							"67-68",
-							"你因离你最近的生物而陷入{@condition 恐惧}状态，持续直到你的下个回合结束。"
+							"你因離你最近的生物而陷入{@condition 恐懼}狀態，持續直到你的下個回合結束。"
 						],
 						[
 							"69-70",
-							"每个距离你30尺内的生物在接下来一分钟内变得{@condition 隐形}。作用于一个生物的隐形状态会在它攻击或施放法术时结束。"
+							"每個距離你30尺內的生物在接下來一分鐘內變得{@condition 隱形}。作用於一個生物的隱形狀態會在它攻擊或施放法術時結束。"
 						],
 						[
 							"71-72",
-							"你在接下来一分钟内获得对所有伤害的抗性。"
+							"你在接下來一分鐘內獲得對所有傷害的抗性。"
 						],
 						[
 							"73-74",
-							"一个距离你60尺内的随机生物将陷入{@condition 中毒}状态长达{@dice 1d4}小时。"
+							"一個距離你60尺內的隨機生物將陷入{@condition 中毒}狀態長達{@dice 1d4}小時。"
 						],
 						[
 							"75-76",
-							"你在接下来一分钟内发出30尺半径的明亮光照。任何在距离你5尺内结束它回合的生物将陷入{@condition 目盲}状态直到它的下个回合结束。"
+							"你在接下來一分鐘內發出30尺半徑的明亮光照。任何在距離你5尺內結束它回合的生物將陷入{@condition 目盲}狀態直到它的下個回合結束。"
 						],
 						[
 							"77-78",
-							"你对你自己施放{@spell 变形术}。若你在该豁免检定中失败，你将在法术的持续时间内被变成一只绵羊。"
+							"你對你自己施放{@spell 變形術}。若你在該豁免檢定中失敗，你將在法術的持續時間內被變成一隻綿羊。"
 						],
 						[
 							"79-80",
-							"幻影蝴蝶和花瓣在接下来一分钟内于你10尺内翩翩飞舞于空中。"
+							"幻影蝴蝶和花瓣在接下來一分鐘內於你10尺內翩翩飛舞於空中。"
 						],
 						[
 							"81-82",
-							"你可以立刻采取一个额外的动作。"
+							"你可以立刻採取一個額外的動作。"
 						],
 						[
 							"83-84",
-							"每个距离你30尺内的生物受到{@dice 1d10}黯蚀伤害。你回复等同于所造成黯蚀伤害总和的生命值。"
+							"每個距離你30尺內的生物受到{@dice 1d10}黯蝕傷害。你回復等同於所造成黯蝕傷害總和的生命值。"
 						],
 						[
 							"85-86",
-							"你施放{@spell 镜影术}。"
+							"你施放{@spell 鏡影術}。"
 						],
 						[
 							"87-88",
-							"你对一个距离你60尺内的随机生物施放{@spell 飞行术}。"
+							"你對一個距離你60尺內的隨機生物施放{@spell 飛行術}。"
 						],
 						[
 							"89-90",
-							"你在接下来一分钟内变得{@condition 隐形}。在这段时间内，其他生物无法听见你。这个隐形状态会在你攻击或施放法术时结束。"
+							"你在接下來一分鐘內變得{@condition 隱形}。在這段時間內，其他生物無法聽見你。這個隱形狀態會在你攻擊或施放法術時結束。"
 						],
 						[
 							"91-92",
-							"若你在接下来一分钟内死亡，你将立刻复活，如同被施放了{@spell 转生术}法术。"
+							"若你在接下來一分鐘內死亡，你將立刻復活，如同被施放了{@spell 轉生術}法術。"
 						],
 						[
 							"93-94",
-							"你的体型在接下来一分钟内增加一级。"
+							"你的體型在接下來一分鐘內增加一級。"
 						],
 						[
 							"95-96",
-							"你和所有距离你30尺内的生物在接下来一分钟内获得对穿刺伤害的易伤。"
+							"你和所有距離你30尺內的生物在接下來一分鐘內獲得對穿刺傷害的易傷。"
 						],
 						[
 							"97-98",
-							"你在接下来一分钟内被模糊缥缈的音乐环绕。"
+							"你在接下來一分鐘內被模糊縹緲的音樂環繞。"
 						],
 						[
 							"99-00",
-							"你恢复所有你花费掉的术法点。"
+							"你恢復所有你花費掉的術法點。"
 						]
 					],
 					"data": {
@@ -2440,7 +2440,7 @@
 			]
 		},
 		{
-			"name": "窜改运气",
+			"name": "竄改運氣",
 			"ENG_name": "Bend Luck",
 			"source": "PHB",
 			"page": 103,
@@ -2451,8 +2451,8 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6级狂野魔法特性}",
-				"你拥有通过你狂野魔法来扭曲命运的能力。当另一个你所能看见的生物进行一次攻击检定、属性检定、或豁免检定时，你可以使用你的反应并消耗2点术法点，骰{@dice 1d4}并将掷骰结果作为加值或减值（由你决定）加入该生物的检定结果。你可以在该生物掷骰后，但在任何该检定的效果生效之前这么做。"
+				"{@i 6級狂野魔法特性}",
+				"你擁有透過你狂野魔法來扭曲命運的能力。當另一個你所能看見的生物進行一次攻擊檢定、屬性檢定、或豁免檢定時，你可以使用你的反應並消耗2點術法點，骰{@dice 1d4}並將擲骰結果作為加值或減值（由你決定）加入該生物的檢定結果。你可以在該生物擲骰後，但在任何該檢定的效果生效之前這麼做。"
 			]
 		},
 		{
@@ -2467,12 +2467,12 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14级狂野魔法特性}",
-				"你获得了对于你狂野魔法浪涌的些微控制。每当你掷骰使用狂野魔法浪涌表时，你可以重骰二次并使用其中一个掷骰结果。"
+				"{@i 14級狂野魔法特性}",
+				"你獲得了對於你狂野魔法浪湧的些微控制。每當你擲骰使用狂野魔法浪湧表時，你可以重骰二次並使用其中一個擲骰結果。"
 			]
 		},
 		{
-			"name": "法术轰击",
+			"name": "法術轟擊",
 			"ENG_name": "Spell Bombardment",
 			"source": "PHB",
 			"page": 103,
@@ -2483,8 +2483,8 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18级狂野魔法特性}",
-				"你法术的伤害性能量明显加剧。当你会一个法术掷骰决定伤害，且其中任何一颗骰子骰出了最大的骰面，则从这些骰子中选择一颗，重骰它并将其掷骰结果加到伤害中。你在每个回合只能使用此能力一次。"
+				"{@i 18級狂野魔法特性}",
+				"你法術的傷害性能量明顯加劇。當你會一個法術擲骰決定傷害，且其中任何一顆骰子骰出了最大的骰面，則從這些骰子中選擇一顆，重骰它並將其擲骰結果加到傷害中。你在每個回合只能使用此能力一次。"
 			]
 		},
 		{
@@ -2561,7 +2561,7 @@
 			]
 		},
 		{
-			"name": "畸变心智",
+			"name": "畸變心智",
 			"ENG_name": "Aberrant Mind",
 			"source": "TCE",
 			"page": 66,
@@ -2571,11 +2571,11 @@
 			"subclassSource": "TCE",
 			"level": 1,
 			"entries": [
-				"某种外来的影响曾经用它的卷须将你的意识缠绕裹拢，给予了你灵能之力。如今，你能够使用这股力量触碰他人的内心，或是用它操控多元宇宙的魔法能量颠复你周遭的世界。这种力量会从你身上如希望的灯塔一般照耀着旁人吗？抑或是使你成为恐惧之源，使他人得见你怪异的力量，受你的心灵所伤害呢？",
-				"作为一名畸变心智术士，你能决定如何获得你的能力。这是你与生俱来的吗？还是后来发生的某件事使你展现出卓越的灵能？参考异常起源表以了解你可能的力量来源。",
+				"某種外來的影響曾經用它的卷鬚將你的意識纏繞裹攏，給予了你靈能之力。如今，你能夠使用這股力量觸碰他人的內心，或是用它操控多元宇宙的魔法能量顛復你周遭的世界。這種力量會從你身上如希望的燈塔一般照耀著旁人嗎？抑或是使你成為恐懼之源，使他人得見你怪異的力量，受你的心靈所傷害呢？",
+				"作為一名畸變心智術士，你能決定如何獲得你的能力。這是你與生俱來的嗎？還是後來發生的某件事使你展現出卓越的靈能？參考異常起源表以了解你可能的力量來源。",
 				{
 					"type": "table",
-					"caption": "畸变起源",
+					"caption": "畸變起源",
 					"colLabels": [
 						"d6",
 						"Origin"
@@ -2587,42 +2587,42 @@
 					"rows": [
 						[
 							"1",
-							"你曾暴露在遥远国度扭曲的影响之下。你坚信着有触须在你身上生长，但其他人都看不到。"
+							"你曾暴露在遙遠國度扭曲的影響之下。你堅信著有觸鬚在你身上生長，但其他人都看不到。"
 						],
 						[
 							"2",
-							"一阵来自星界的灵能之风将心灵异能灌入你的体内。现在，当你使用这股力量时，你的身边会有微弱的光点闪烁。"
+							"一陣來自星界的靈能之風將心靈異能灌入你的體內。現在，當你使用這股力量時，你的身邊會有微弱的光點閃爍。"
 						],
 						[
 							"3",
-							"你曾受到底栖魔鱼的支配，它的力量在你的脑海中留下了一个精神碎片。"
+							"你曾受到底棲魔魚的支配，它的力量在你的腦海中留下了一個精神碎片。"
 						],
 						[
 							"4",
-							"你被植入了一只夺心魔蝌蚪，但蜕变一直没能完成。现在，其灵能力已经被你占为已有。当你使用灵能时，你的身体里会冒出奇怪的粘液。"
+							"你被植入了一隻奪心魔蝌蚪，但蛻變一直沒能完成。現在，其靈能力已經被你占為已有。當你使用靈能時，你的身體裡會冒出奇怪的黏液。"
 						],
 						[
 							"5",
-							"小时候，你有一个想象中的朋友，它看上去像是呋噜或是一只奇怪的鸭嘴兽形生物。某天，它赠与你灵能的力量，但它最终不再止步于想象。"
+							"小時候，你有一個想像中的朋友，它看起來像是呋嚕或是一隻奇怪的鴨嘴獸形生物。某天，它贈與你靈能的力量，但它最終不再止步於想像。"
 						],
 						[
 							"6",
-							"你的噩梦向你透露了真相：你的灵能不是来源于自身，而是从你未能成功出世的孪生兄弟/姐妹处抽取来的！"
+							"你的噩夢向你透露了真相：你的靈能不是來源於自身，而是從你未能成功出世的孿生兄弟/姐妹處抽取來的！"
 						]
 					]
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "灵能法术|Sorcerer||Aberrant Mind|TCE|1"
+					"subclassFeature": "靈能法術|Sorcerer||Aberrant Mind|TCE|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "传心谈话|Sorcerer||Aberrant Mind|TCE|1"
+					"subclassFeature": "傳心談話|Sorcerer||Aberrant Mind|TCE|1"
 				}
 			]
 		},
 		{
-			"name": "灵能法术",
+			"name": "靈能法術",
 			"ENG_name": "Psionic Spells",
 			"source": "TCE",
 			"page": 66,
@@ -2633,15 +2633,15 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1级畸变心智特性}",
-				"当你达到相应的术士等级时，你习得下表中的额外法术。这些法术对你而言视为术士法术，且不受术士表上已知法术一栏的数量限制。",
-				"每当你提升术士等级时，你可以选择一个环数相同的新法术来替换你因此特性习得的一个法术。该法术必须为{@filter 术士、契术师或法师法术列表中的一个预言系或惑控系法术|spells|class=sorcerer;warlock;wizard|school=D;E|level=1;2;3;4;5}。",
+				"{@i 1級畸變心智特性}",
+				"當你達到相應的術士等級時，你習得下表中的額外法術。這些法術對你而言視為術士法術，且不受術士表上已知法術一欄的數量限制。",
+				"每當你提升術士等級時，你可以選擇一個環數相同的新法術來替換你因此特性習得的一個法術。該法術必須為{@filter 術士、契術師或法師法術列表中的一個預言系或惑控系法術|spells|class=sorcerer;warlock;wizard|school=D;E|level=1;2;3;4;5}。",
 				{
 					"type": "table",
-					"caption": "灵能法术",
+					"caption": "靈能法術",
 					"colLabels": [
-						"术士等级",
-						"法术"
+						"術士等級",
+						"法術"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -2650,30 +2650,30 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell 哈达之臂}, {@spell 噪音暗语}, {@spell 心灵之楔|tce}"
+							"{@spell 哈達之臂}, {@spell 噪音暗語}, {@spell 心靈之楔|tce}"
 						],
 						[
 							"3rd",
-							"{@spell 安定心神}, {@spell 侦测思想}"
+							"{@spell 安定心神}, {@spell 偵測思想}"
 						],
 						[
 							"5th",
-							"{@spell 哈达之欲}, {@spell 短讯术}"
+							"{@spell 哈達之慾}, {@spell 簡訊術}"
 						],
 						[
 							"7th",
-							"{@spell 艾伐黑触手}, {@spell 异怪召唤术|TCE}"
+							"{@spell 艾伐黑觸手}, {@spell 異怪召喚術|TCE}"
 						],
 						[
 							"9th",
-							"{@spell 拉瑞心灵联结}, {@spell 心灵遥控}"
+							"{@spell 拉瑞心靈聯結}, {@spell 心靈遙控}"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "传心谈话",
+			"name": "傳心談話",
 			"ENG_name": "Telepathic Speech",
 			"source": "TCE",
 			"page": 66,
@@ -2684,13 +2684,13 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1级畸变心智特性}",
-				"1级起，你能够在自己与他人的意识中构建一道心灵感应的链接。以一个附赠动作，你可以选择30尺内一个你可见的生物，只要你与其距离的里数不超过你的魅力调整值（至少1里），你与其能够通过心灵感应方式进行交流。你们必须使用对方知晓的语言进行心灵交流才能使其理解你通过心灵感应传达的话语。",
-				"心灵感应的链接持续等同于你术士等级的分钟数。当你{@condition 无力}或死亡，或你使用此能力与其他生物构建链接时，其提前结束。"
+				"{@i 1級畸變心智特性}",
+				"1級起，你能夠在自己與他人的意識中構建一道心靈感應的連結。以一個附贈動作，你可以選擇30尺內一個你可見的生物，只要你與其距離的裡數不超過你的魅力調整值（至少1里），你與其能夠透過心靈感應方式進行交流。你們必須使用對方知曉的語言進行心靈交流才能使其理解你通過心靈感應傳達的話語。",
+				"心靈感應的連結持續等同於你術士等級的分鐘數。當你{@condition 無力}或死亡，或你使用此能力與其他生物構建連結時，其提前結束。"
 			]
 		},
 		{
-			"name": "灵能术法",
+			"name": "靈能術法",
 			"ENG_name": "Psionic Sorcery",
 			"source": "TCE",
 			"page": 66,
@@ -2701,13 +2701,13 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6级畸变心智特性}",
-				"6级起，当你施放一个你通过灵能法术特性知晓的法术时，你可以改为使用等同于该法术环数数量的术法点而非消耗法术位施放该法术。你依然可以用法术位正常施放这些法术。",
-				"当你通过此能力施放法术时，你无视该法术施法需要的语言成分或姿势成分。你同时无视该法术需要的不会消耗的材料成分。"
+				"{@i 6級畸變心智特性}",
+				"6級起，當你施放一個你通過靈能法術特性知曉的法術時，你可以改為使用等同於該法術環數數量的術法點而非消耗法術位施放該法術。你依然可以用法術位正常施放這些法術。",
+				"當你通過此能力施放法術時，你無視該法術施法需要的語言成分或姿勢成分。你同時無視該法術需要的不會消耗的材料成分。"
 			]
 		},
 		{
-			"name": "心灵防御",
+			"name": "心靈防禦",
 			"ENG_name": "Psychic Defenses",
 			"source": "TCE",
 			"page": 66,
@@ -2718,12 +2718,12 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6级畸变心智特性}",
-				"6级起，你对心灵伤害获得抗力。此外，你在对抗{@condition 魅惑}或{@condition 恐惧}的豁免检定上获得优势。"
+				"{@i 6級畸變心智特性}",
+				"6級起，你對心靈傷害獲得抗力。此外，你在對抗{@condition 魅惑}或{@condition 恐懼}的豁免檢定上獲得優勢。"
 			]
 		},
 		{
-			"name": "血肉启示",
+			"name": "血肉啟示",
 			"ENG_name": "Revelation in Flesh",
 			"source": "TCE",
 			"page": 66,
@@ -2734,15 +2734,15 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14级畸变心智特性}",
-				"14级起，你能够释放出潜藏在你内部扭曲的真实形态。以一个附赠动作，你使用至少1术法点以魔法性地转变形态，持续10分钟。你每因此使用了1术法点，你便可以在转变形态期间选择并获得以下一种增益：",
+				"{@i 14級畸變心智特性}",
+				"14級起，你能夠釋放出潛藏在你內部扭曲的真實形態。以一個附贈動作，你使用至少1術法點以魔法性地轉變形態，持續10分鐘。你每因此使用了1術法點，你便可以在轉變形態期間選擇並獲得以下一種增益：",
 				{
 					"type": "list",
 					"items": [
-						"你能看见60尺内的{@condition 隐形}生物，前提是其对你不为全遮蔽。",
-						"你获得等同于你行走速度的飞行速度，并能停留在空中。当你飞行时，你的皮肤表面流出发光的粘液或是散发出超凡脱俗的光芒。",
-						"你获得等同于你两倍行走速度的游泳速度，且你能在水下呼吸。此外，腮从你的脖子上长出来，或从耳后呈扇状翻出，你的手指变成蹼趾，或有卷曲的细毛从你的衣服底下翻腾而出。",
-						"你的身体和你携带的装备都变得柔韧粘滑。你能够轻松穿过最窄1寸宽的狭窄空间而不用挤进去，且你可以消耗5尺移动速度以逃离非魔法的{@condition 束缚}或{@condition 被擒}。"
+						"你能看見60尺內的{@condition 隱形}生物，前提是其對你不為全遮蔽。",
+						"你獲得等同於你行走速度的飛行速度，並能停留在空中。當你飛行時，你的皮膚表面流出發光的黏液或是散發出超凡脫俗的光芒。",
+						"你獲得等同於你兩倍行走速度的游泳速度，且你能在水下呼吸。此外，腮從你的脖子上長出來，或從耳後呈扇狀翻出，你的手指變成蹼趾，或有捲曲的細毛從你的衣服底下翻騰而出。",
+						"你的身體和你攜帶的裝備都變得柔韌黏滑。你能夠輕鬆穿過最窄1寸寬的狹窄空間而不用擠進去，且你可以消耗5尺移動速度以逃離非魔法的{@condition 束縛}或{@condition 被擒}。"
 					]
 				}
 			]
@@ -2759,13 +2759,13 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18级畸变心智特性}",
-				"18级起，你能够解放你异质的力量，从而制造扭曲空间的异常现象。以一个动作，你可以传送到120尺内你可见的一个未被占据的位置，然后你消失位置30尺内的生物必须进行一次力量豁免，失败受{@damage 3d10}力场伤害并被立即拉向你原本的位置或最近的一个未被占据的位置，成功半伤且不受拉扯。",
-				"一旦你使用了此能力，你在完成一次长休息之前必须消耗5术法点以再次使用此能力。"
+				"{@i 18級畸變心智特性}",
+				"18級起，你能夠解放你異質的力量，從而製造扭曲空間的異常現象。以一個動作，你可以傳送到120尺內你可見的一個未被占據的位置，然後你消失位置30尺內的生物必須進行一次力量豁免，失敗受{@damage 3d10}力場傷害並被立即拉向你原本的位置或最近的一個未被占據的位置，成功半傷且不受拉扯。",
+				"一旦你使用了此能力，你在完成一次長休息之前必須消耗5術法點以再次使用此能力。"
 			]
 		},
 		{
-			"name": "时械之魂",
+			"name": "時械之魂",
 			"ENG_name": "Clockwork Soul",
 			"source": "TCE",
 			"page": 68,
@@ -2775,19 +2775,19 @@
 			"subclassSource": "TCE",
 			"level": 1,
 			"entries": [
-				"一股力量，一股源自宇宙本身的秩序力量，从机械境\u2014\u2014\u2014\u2014或其他类似的位面之中产生，并扩散到你的灵魂之中，使你充满了魔力。你或你宗族中的某个人也许已经卷入到魔冢这种居住在机械境的秩序生命的阴谋之中。又或许，你的先祖甚至参与过魔冢长征。无论是何种起源，秩序的力量也许对旁人来说有些奇怪，但于你而言，它是一个宏伟而璀璨的系统的一部分。",
+				"一股力量，一股源自宇宙本身的秩序力量，從機械境\u2014\u2014\u2014\u2014或其他類似的位面之中產生，並擴散到你的靈魂之中，使你充滿了魔力。你或你宗族中的某個人也許已經捲入到魔塚這種居住在機械境的秩序生命的陰謀之中。又或許，你的先祖甚至參與過魔塚長征。無論是何種起源，秩序的力量也許對旁人來說有些奇怪，但於你而言，它是一個宏偉而璀璨的系統的一部分。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "时械法术|Sorcerer||Clockwork Soul|TCE|1"
+					"subclassFeature": "時械法術|Sorcerer||Clockwork Soul|TCE|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "归复平衡|Sorcerer||Clockwork Soul|TCE|1"
+					"subclassFeature": "歸復平衡|Sorcerer||Clockwork Soul|TCE|1"
 				}
 			]
 		},
 		{
-			"name": "时械法术",
+			"name": "時械法術",
 			"ENG_name": "Clockwork Magic",
 			"source": "TCE",
 			"page": 68,
@@ -2798,15 +2798,15 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1级时械之魂特性}",
-				"当你达到相应的术士等级时，你习得下表中的额外法术。这些法术对你而言视为术士法术，且不受术士表上已知法术一栏的数量限制。",
-				"每当你提升术士等级时，你可以选择一个环数相同的新法术来替换你因此特性习得的一个法术。该法术必须为{@filter 术士、契术师或法师法术列表中的一个防护系或变化系法术|spells|class=sorcerer;warlock;wizard|school=A;T|level=1;2;3;4;5}。",
+				"{@i 1級時械之魂特性}",
+				"當你達到相應的術士等級時，你習得下表中的額外法術。這些法術對你而言視為術士法術，且不受術士表上已知法術一欄的數量限制。",
+				"每當你提升術士等級時，你可以選擇一個環數相同的新法術來替換你因此特性習得的一個法術。該法術必須為{@filter 術士、契術師或法師法術列表中的一個防護系或變化系法術|spells|class=sorcerer;warlock;wizard|school=A;T|level=1;2;3;4;5}。",
 				{
 					"type": "table",
-					"caption": "时械法术",
+					"caption": "時械法術",
 					"colLabels": [
-						"术士等级",
-						"法术"
+						"術士等級",
+						"法術"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -2815,33 +2815,33 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell 警报术}, {@spell 防护善恶}"
+							"{@spell 警報術}, {@spell 防護善惡}"
 						],
 						[
 							"3rd",
-							"{@spell 援助术}, {@spell 次级复原术}"
+							"{@spell 援助術}, {@spell 次級復原術}"
 						],
 						[
 							"5th",
-							"{@spell 解除魔法}, {@spell 防护能量}"
+							"{@spell 解除魔法}, {@spell 防護能量}"
 						],
 						[
 							"7th",
-							"{@spell 行动自如术}, {@spell 构装体召唤术|TCE}"
+							"{@spell 行動自如術}, {@spell 構裝體召喚術|TCE}"
 						],
 						[
 							"9th",
-							"{@spell 高等复原术}, {@spell 力墙术}"
+							"{@spell 高等復原術}, {@spell 力牆術}"
 						]
 					]
 				},
-				"此外，你可以从秩序显迹表格中选择或掷骰决定一种你在施法时显现出与秩序之联系的方式。",
+				"此外，你可以從秩序顯跡表格中選擇或擲骰決定一種你在施法時顯現出與秩序之聯繫的方式。",
 				{
 					"type": "table",
-					"caption": "秩序显迹",
+					"caption": "秩序顯跡",
 					"colLabels": [
 						"d6",
-						"显迹"
+						"顯跡"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -2850,34 +2850,34 @@
 					"rows": [
 						[
 							"1",
-							"幽灵般的虚幻齿轮在你身后旋转。"
+							"幽靈般的虛幻齒輪在你身後旋轉。"
 						],
 						[
 							"2",
-							"时钟的指针出现在你的眼中。"
+							"時鐘的指針出現在你的眼中。"
 						],
 						[
 							"3",
-							"你的皮肤发出如黄铜般的金属光泽。"
+							"你的皮膚發出如黃銅般的金屬光澤。"
 						],
 						[
 							"4",
-							"你的体表浮动着方程式和几何图形。"
+							"你的體表浮動著方程式和幾何圖形。"
 						],
 						[
 							"5",
-							"你的法器短暂地变化成小巧的机械装置。"
+							"你的法器短暫地變化成小巧的機械裝置。"
 						],
 						[
 							"6",
-							"你和那些受到你法术影响的生物都会听到齿轮的滴答声或是钟表的响铃。"
+							"你和那些受到你法術影響的生物都會聽到齒輪的滴答聲或是鐘錶的響鈴。"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "归复平衡",
+			"name": "歸復平衡",
 			"ENG_name": "Restore Balance",
 			"source": "TCE",
 			"page": 68,
@@ -2888,9 +2888,9 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1级时械之魂特性}",
-				"1级起，你与绝对秩序之位面的联系使你能重整混沌的时刻。当你60尺内一个你可见的生物即将进行一次具有优势或劣势的{@dice d20}检定时，你可以用反应使其免受优势或劣势的影响。",
-				"你可以使用此能力的次数等同于你的熟练加值。每当你完成一次长休息，你重新获得已消耗的使用次数。                "
+				"{@i 1級時械之魂特性}",
+				"1級起，你與絕對秩序之位面的聯繫使你能重整混沌的時刻。當你60尺內一個你可見的生物即將進行一次具有優勢或劣勢的{@dice d20}檢定時，你可以用反應使其免受優勢或劣勢的影響。",
+				"你可以使用此能力的次數等同於你的熟練加值。每當你完成一次長休息，你重新獲得已消耗的使用次數。                "
 			]
 		},
 		{
@@ -2905,13 +2905,13 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6级时械之魂特性}",
-				"6级起，你可以利用事物的壮丽联系为一个生物激发闪烁的秩序之盾。以一个动作，你可以使用1至5术法点创造出一个环绕你或30尺内一个你可见的生物的魔法屏障。此屏障持续存在直到你完成一次长休息或直至你再次使用此能力。",
-				"屏障具有等同于你所消耗术法点数量的{@dice d8}骰。当被守护的生物受到伤害时，其可以消耗任意数量的这些d8骰，并使该伤害减少掷出结果的数值。"
+				"{@i 6級時械之魂特性}",
+				"6級起，你可以利用事物的壯麗聯繫為一個生物激發閃爍的秩序之盾。以一個動作，你可以使用1至5術法點創造出一個環繞你或30尺內一個你可見的生物的魔法屏障。此屏障持續存在直到你完成一次長休息或直至你再次使用此能力。",
+				"屏障具有等同於你所消耗術法點數量的{@dice d8}骰。當被守護的生物受到傷害時，其可以消耗任意數量的這些d8骰，並使該傷害減少擲出結果的數值。"
 			]
 		},
 		{
-			"name": "序列意识",
+			"name": "序列意識",
 			"ENG_name": "Trance of Order",
 			"source": "TCE",
 			"page": 68,
@@ -2922,13 +2922,13 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14级时械之魂特性}",
-				"14级起，你获得了将你的意识和机械境无尽的计算达成同步的能力。以一个附赠动作，你可以在1分钟内进入此种状态。在此期间，对你进行的攻击免受优势的影响，且每当你进行一次攻击检定、属性检定或豁免检定时，你可以将{@dice d20}掷出的9或以下的数值视为10。",
-				"一旦你使用了此能力，你在完成一次长休息之前必须消耗5术法点以再次使用此能力。"
+				"{@i 14級時械之魂特性}",
+				"14級起，你獲得了將你的意識和機械境無盡的計算達成同步的能力。以一個附贈動作，你可以在1分鐘內進入此種狀態。在此期間，對你進行的攻擊免受優勢的影響，且每當你進行一次攻擊檢定、屬性檢定或豁免檢定時，你可以將{@dice d20}擲出的9或以下的數值視為10。",
+				"一旦你使用了此能力，你在完成一次長休息之前必須消耗5術法點以再次使用此能力。"
 			]
 		},
 		{
-			"name": "时械矩阵",
+			"name": "時械矩陣",
 			"ENG_name": "Clockwork Cavalcade",
 			"source": "TCE",
 			"page": 68,
@@ -2939,17 +2939,17 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18级时械之魂特性}",
-				"18级起，你召唤出秩序的精魂以抹除周遭的混乱。以一个动作，你在以你为中心30尺立方空间的范围内召唤出精魂。这些精魂看起来像是魔冢或你选择的其他构装体，没有实体也不能摧毁，并在消失前使立方范围内产生以下效应：",
+				"{@i 18級時械之魂特性}",
+				"18級起，你召喚出秩序的精魂以抹除周遭的混亂。以一個動作，你在以你為中心30尺立方空間的範圍內召喚出精魂。這些精魂看起來像是魔塚或你選擇的其他構裝體，沒有實體也不能摧毀，並在消失前使立方範圍內產生以下效應：",
 				{
 					"type": "list",
 					"items": [
-						"精魂合计提供至多回复100生命值，由你随意分配给范围内任意数量的生物。",
-						"范围内受到伤害的物件被立即修复。",
-						"你选择范围内任意数量的生物或物件，其承受的任何6环或以下的法术结束。"
+						"精魂合計提供至多回復100生命值，由你隨意分配給範圍內任意數量的生物。",
+						"範圍內受到傷害的物件被立即修復。",
+						"你選擇範圍內任意數量的生物或物件，其承受的任何6環或以下的法術結束。"
 					]
 				},
-				"　一旦你使用了此能力，你在完成一次长休息之前必须消耗7术法点以再次使用此能力。"
+				"　一旦你使用了此能力，你在完成一次長休息之前必須消耗7術法點以再次使用此能力。"
 			]
 		},
 		{
@@ -3115,7 +3115,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You can see any {@condition 隐形} creature within 60 feet of you, provided it isn't behind total cover.",
+						"You can see any {@condition 隱形} creature within 60 feet of you, provided it isn't behind total cover.",
 						"You gain a flying speed equal to your walking speed, and you can hover.",
 						"You gain a swimming speed equal to twice your walking speed, and you can breathe underwater.",
 						"Your body, along with any equipment you are wearing or carrying, becomes pliable. You can move through any space as narrow as 1 inch without squeezing, and you can spend 5 feet of movement to escape from nonmagical restraints or being {@condition 被擒}."
@@ -3135,7 +3135,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 18th-level Psionic Soul feature}",
-				"If your Psionic Talent die is available, you can unleash your psionic power in a crackling aura of psychic energy; as a bonus action, you can magically radiate this transparent, 30-foot-radius aura for 1 minute or until you're {@condition 无力} or lose the use of your Psionic Talent die.",
+				"If your Psionic Talent die is available, you can unleash your psionic power in a crackling aura of psychic energy; as a bonus action, you can magically radiate this transparent, 30-foot-radius aura for 1 minute or until you're {@condition 無力} or lose the use of your Psionic Talent die.",
 				"Whenever a creature starts its turn in the aura or moves into it for the first time on a turn, you can roll your Psionic Talent die and deal psychic damage to the creature, equaling the number rolled plus your Charisma modifier. If the creature takes any of this damage, its speed is halved until the start of its next turn."
 			]
 		},
@@ -3226,23 +3226,23 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell 警报术}, {@spell 防护善恶}"
+							"{@spell 警報術}, {@spell 防護善惡}"
 						],
 						[
 							"3rd",
-							"{@spell 寻找陷阱}, {@spell 灼热金属}"
+							"{@spell 尋找陷阱}, {@spell 灼熱金屬}"
 						],
 						[
 							"5th",
-							"{@spell 反制法术}, {@spell 守卫铭文}"
+							"{@spell 反製法術}, {@spell 守衛銘文}"
 						],
 						[
 							"7th",
-							"{@spell 秘法眼}, {@spell 欧提路克魔封法球}"
+							"{@spell 秘法眼}, {@spell 歐提路克魔封法球}"
 						],
 						[
 							"9th",
-							"{@spell 活化物体}, {@spell 力墙术}"
+							"{@spell 活化物體}, {@spell 力牆術}"
 						]
 					]
 				}
@@ -3382,33 +3382,33 @@
 					"rows": [
 						[
 							"{@creature Cloud Giant}",
-							"{@spell 云雾术}, {@spell 次级幻象}",
-							"{@spell 隐形术}"
+							"{@spell 雲霧術}, {@spell 次級幻象}",
+							"{@spell 隱形術}"
 						],
 						[
 							"{@creature Fire Giant}",
-							"{@spell 燃烧之手}, {@spell 火焰箭}",
-							"{@spell 炽焰法球}"
+							"{@spell 燃燒之手}, {@spell 火焰箭}",
+							"{@spell 熾焰法球}"
 						],
 						[
 							"{@creature Frost Giant}",
-							"{@spell 艾嘉西斯之铠}, {@spell 冷冻射线}",
-							"{@spell 人类定身术}"
+							"{@spell 艾嘉西斯之鎧}, {@spell 冷凍射線}",
+							"{@spell 人類定身術}"
 						],
 						[
 							"{@creature Hill Giant}",
-							"{@spell 英雄气概}, {@spell 橡棍术}",
-							"{@spell 变巨/缩小术}"
+							"{@spell 英雄氣概}, {@spell 橡棍術}",
+							"{@spell 變巨/縮小術}"
 						],
 						[
 							"{@creature Stone Giant}",
-							"{@spell 纠缠术}, {@spell 提升抗力}",
-							"{@spell 荆棘丛生}"
+							"{@spell 糾纏術}, {@spell 提升抗力}",
+							"{@spell 荊棘叢生}"
 						],
 						[
 							"{@creature Storm Giant}",
-							"{@spell 电爪}, {@spell 雷鸣波}",
-							"{@spell 造风术}"
+							"{@spell 電爪}, {@spell 雷鳴波}",
+							"{@spell 造風術}"
 						]
 					]
 				}
@@ -3444,7 +3444,7 @@
 					"type": "entries",
 					"name": "Frost Giant",
 					"entries": [
-						"Immediately after you cast any of your Mark of the Ordning spells, you gain temporary hit points equal to your Constitution modifier (minimum of 1). But if the spell is {@spell 艾嘉西斯之铠}, you instead increase its temporary hit points by an amount equal to your Constitution modifier (minimum of 1)."
+						"Immediately after you cast any of your Mark of the Ordning spells, you gain temporary hit points equal to your Constitution modifier (minimum of 1). But if the spell is {@spell 艾嘉西斯之鎧}, you instead increase its temporary hit points by an amount equal to your Constitution modifier (minimum of 1)."
 					]
 				},
 				{
@@ -3482,7 +3482,7 @@
 			"header": 2,
 			"entries": [
 				"Starting at 14th level, you gain the ability to channel the souls of your ancestors into your physical form. When you start casting a sorcerer spell on your turn and expend a spell slot, you can increase your size by one category\u2014from Medium to Large, for example.",
-				"This increase lasts for 1 minute. It ends early if you die or are {@condition 无力}. Until it ends, you enjoy the following benefits:",
+				"This increase lasts for 1 minute. It ends early if you die or are {@condition 無力}. Until it ends, you enjoy the following benefits:",
 				{
 					"type": "list",
 					"items": [
@@ -3582,7 +3582,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"From 1st level, you have {@sense 黑暗视觉} with a range of 60 feet. You can cast {@spell 黑暗术} by spending 1 sorcery point. You can see through any {@spell 黑暗术} spell you cast using this ability."
+				"From 1st level, you have {@sense 黑暗視覺} with a range of 60 feet. You can cast {@spell 黑暗術} by spending 1 sorcery point. You can see through any {@spell 黑暗術} spell you cast using this ability."
 			]
 		},
 		{
@@ -3710,7 +3710,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Beginning at 6th level, you can attack twice, instead of once, whenever you take the {@action 攻击} action on your turn."
+				"Beginning at 6th level, you can attack twice, instead of once, whenever you take the {@action 攻擊} action on your turn."
 			]
 		},
 		{
@@ -3777,7 +3777,7 @@
 			"header": 1,
 			"entries": [
 				"Your link to the divine allows you to learn spells normally associated with the cleric class. When your Spellcasting feature lets you learn a sorcerer cantrip or a sorcerer spell of 1st level or higher, you can choose the new spell from the cleric spell list, in addition to the sorcerer spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you.",
-				"You also learn the {@spell 治疗伤势} spell, which does not count against your number of sorcerer spells known."
+				"You also learn the {@spell 治療傷勢} spell, which does not count against your number of sorcerer spells known."
 			]
 		},
 		{
@@ -3821,7 +3821,7 @@
 			"header": 2,
 			"entries": [
 				"At 14th level, your divine essence causes you to undergo a minor physical transformation. Your appearance takes on an otherworldly version of one of the following qualities (your choice): beautiful, youthful, kind, or imposing.",
-				"In addition, as a bonus action, you can manifest a pair of spectral wings from your back. The wings last until you're {@condition 无力} or you dismiss them as a bonus action. While the wings are present, you have a flying speed of 30 feet."
+				"In addition, as a bonus action, you can manifest a pair of spectral wings from your back. The wings last until you're {@condition 無力} or you dismiss them as a bonus action. While the wings are present, you have a flying speed of 30 feet."
 			]
 		},
 		{
@@ -4289,7 +4289,7 @@
 			"header": 1,
 			"entries": [
 				"At 1st level, your connection to stone gives you extra fortitude. Your hit point maximum increases by 1, and it increases by 1 again whenever you gain a level in this class.",
-				"As an action, you can gain a base AC of 13 + your Constitution modifier if you aren't wearing armor, and your skin assumes a stony appearance. This effect lasts until you end it as a bonus action, you are {@condition 无力}, or you don armor other than a shield."
+				"As an action, you can gain a base AC of 13 + your Constitution modifier if you aren't wearing armor, and your skin assumes a stony appearance. This effect lasts until you end it as a bonus action, you are {@condition 無力}, or you don armor other than a shield."
 			]
 		},
 		{
@@ -4318,19 +4318,19 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell 强迫决斗}, {@spell 炽炎斩}, {@spell 雷霆斩}, {@spell 激愤斩}"
+							"{@spell 強迫決鬥}, {@spell 熾炎斬}, {@spell 雷霆斬}, {@spell 激憤斬}"
 						],
 						[
 							"2nd",
-							"{@spell 烙印斩}, {@spell 魔化武器}"
+							"{@spell 烙印斬}, {@spell 魔化武器}"
 						],
 						[
 							"3rd",
-							"{@spell 致盲斩}, {@spell 元素武器}"
+							"{@spell 致盲斬}, {@spell 元素武器}"
 						],
 						[
 							"4th",
-							"{@spell 惊震斩}"
+							"{@spell 驚震斬}"
 						]
 					]
 				}
@@ -4348,7 +4348,7 @@
 			"header": 2,
 			"entries": [
 				"Starting at 6th level, your command of earth magic grows stronger, allowing you to harness it for your allies' protection.",
-				"As a bonus action, you can grant an aegis to one allied creature you can see within 60 feet of you. The aegis is a dim, gray aura of earth magic that protects the target. Any bludgeoning, piercing, or slashing damage the target takes is reduced by 2 + your sorcerer level divided by 4. This effect lasts for 1 minute, until you use it again, or until you are {@condition 无力}.",
+				"As a bonus action, you can grant an aegis to one allied creature you can see within 60 feet of you. The aegis is a dim, gray aura of earth magic that protects the target. Any bludgeoning, piercing, or slashing damage the target takes is reduced by 2 + your sorcerer level divided by 4. This effect lasts for 1 minute, until you use it again, or until you are {@condition 無力}.",
 				"In addition, when a creature you can see within 60 feet of you hits the protected target with a melee attack, you can use your reaction to teleport to an unoccupied space you can see within 5 feet of the attacker. You can teleport only if you and the attacker are on the same surface. You can then make one melee weapon attack against the attacker. If that attack hits, it deals an extra {@damage 1d10} force damage. This extra damage increases to {@dice 2d10} at 11th level and {@dice 3d10} at 17th level."
 			]
 		},
@@ -4421,7 +4421,7 @@
 			"header": 1,
 			"entries": [
 				"{@i 1st-level Aberrant Mind feature}",
-				"At 1st level, you gain the ability to use a bonus action to magically create a telepathic link with one creature you can see within 30 feet of you. Until the link ends, you can telepathically speak to the target through the link, and if it understands at least one language, it can speak telepathically to you. The link lasts for 10 minutes, and it ends early if you are {@condition 无力} or die, or if you use another bonus action to break the link or to establish this link with a different creature."
+				"At 1st level, you gain the ability to use a bonus action to magically create a telepathic link with one creature you can see within 30 feet of you. Until the link ends, you can telepathically speak to the target through the link, and if it understands at least one language, it can speak telepathically to you. The link lasts for 10 minutes, and it ends early if you are {@condition 無力} or die, or if you use another bonus action to break the link or to establish this link with a different creature."
 			]
 		},
 		{
@@ -4451,23 +4451,23 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell 哈达之臂}, {@spell 噪音暗语}"
+							"{@spell 哈達之臂}, {@spell 噪音暗語}"
 						],
 						[
 							"3rd",
-							"{@spell 安定心神}, {@spell 侦测思想}"
+							"{@spell 安定心神}, {@spell 偵測思想}"
 						],
 						[
 							"5th",
-							"{@spell 哈达之欲}, {@spell 短讯术}"
+							"{@spell 哈達之慾}, {@spell 簡訊術}"
 						],
 						[
 							"7th",
-							"{@spell 强迫术}, {@spell 艾伐黑触手}"
+							"{@spell 強迫術}, {@spell 艾伐黑觸手}"
 						],
 						[
 							"9th",
-							"{@spell 修改记忆}, {@spell 拉瑞心灵联结}"
+							"{@spell 修改記憶}, {@spell 拉瑞心靈聯結}"
 						]
 					]
 				}
@@ -4530,7 +4530,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 6th-level Aberrant Mind feature}",
-				"At 6th level, you gain resistance to psychic damage, and you have advantage on saving throws against being {@condition 魅惑} or {@condition 恐惧}."
+				"At 6th level, you gain resistance to psychic damage, and you have advantage on saving throws against being {@condition 魅惑} or {@condition 恐懼}."
 			]
 		},
 		{
@@ -4552,7 +4552,7 @@
 						"You gain a swimming speed equal to your walking speed and the ability to breathe water. Gills grow from your neck or fan out from behind your ears, your fingers become webbed, or you grow lashing cilia that extend through your clothing.",
 						"You gain a flying speed equal to your walking speed and can hover. As you fly, your skin glistens with mucus.",
 						"Your body, along with any equipment you are wearing or carrying, becomes slimy and pliable. You can move through any space as narrow as 1 inch without squeezing, and you can spend 5 feet of movement to escape from nonmagical restraints or being {@condition 被擒}.",
-						"Your eyes turn black or become writhing sensory tendrils. You are aware of the location of any hidden or {@condition 隐形} creature within 60 feet of you."
+						"Your eyes turn black or become writhing sensory tendrils. You are aware of the location of any hidden or {@condition 隱形} creature within 60 feet of you."
 					]
 				}
 			]
@@ -4621,23 +4621,23 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell 云雾术}, {@spell 雷鸣波}"
+							"{@spell 雲霧術}, {@spell 雷鳴波}"
 						],
 						[
 							"3rd",
-							"{@spell 造风术}, {@spell 浮空术}"
+							"{@spell 造風術}, {@spell 浮空術}"
 						],
 						[
 							"5th",
-							"{@spell 召雷术}, {@spell 雪雨暴}"
+							"{@spell 召雷術}, {@spell 雪雨暴}"
 						],
 						[
 							"7th",
-							"{@spell 召唤次级元素生物}*, {@spell 冰风暴}"
+							"{@spell 召喚次級元素生物}*, {@spell 冰風暴}"
 						],
 						[
 							"9th",
-							"{@spell 召唤元素生物}**"
+							"{@spell 召喚元素生物}**"
 						]
 					],
 					"footnotes": [
@@ -4720,7 +4720,7 @@
 			]
 		},
 		{
-			"name": "神圣之魂",
+			"name": "神聖之魂",
 			"ENG_name": "Divine Soul",
 			"source": "XGE",
 			"page": 50,
@@ -4730,22 +4730,22 @@
 			"subclassSource": "XGE",
 			"level": 1,
 			"entries": [
-				"有时候充斥于术士体内的魔力火花是来自于一种闪耀于灵魂中神性泉源。拥有着这种祝福灵魂，代表你的天生魔法可能来自一个与某种神性存在有所联系，遥远而强大家族。也许你的祖先曾是一名天使，变成了凡人并奉神之名被遣来战斗。",
-				"或者，你的出生可能符合了一个古老的预言，表明你作为诸神的仆从或神圣魔法的器皿。",
-				"一个具有天生魅力的神圣之魂术士，会被某些宗教派系视为威胁。作为一个能行使神圣力量的局外人，一个神圣之魂术士可以通过声称与神之间的直接联系来颠覆现有的秩序。",
-				"在某些文化中，只有那些拥有神圣之魂力量的人们才能统御宗教势力。在这些国度，教会的地位仅由少数血脉给支配，代代相传。",
+				"有時候充斥於術士體內的魔力火花是來自於一種閃耀於靈魂中神性泉源。擁有著這種祝福靈魂，代表你的天生魔法可能來自一個與某種神性存在有所聯繫，遙遠而強大家族。也許你的祖先曾是一名天使，變成了凡人並奉神之名被遣來戰鬥。",
+				"或者，你的出生可能符合了一個古老的預言，表明你作為諸神的僕從或神聖魔法的器皿。",
+				"一個具有天生魅力的神聖之魂術士，會被某些宗教派系視為威脅。作為一個能行使神聖力量的局外人，一個神聖之魂術士可以透過聲稱與神之間的直接聯繫來顛覆現有的秩序。",
+				"在某些文化中，只有那些擁有神聖之魂力量的人們才能統御宗教勢力。在這些國度，教會的地位僅由少數血脈給支配，代代相傳。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "神圣魔法|Sorcerer||Divine Soul|XGE|1"
+					"subclassFeature": "神聖魔法|Sorcerer||Divine Soul|XGE|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "诸神眷顾|Sorcerer||Divine Soul|XGE|1"
+					"subclassFeature": "諸神眷顧|Sorcerer||Divine Soul|XGE|1"
 				}
 			]
 		},
 		{
-			"name": "神圣魔法",
+			"name": "神聖魔法",
 			"ENG_name": "Divine Magic",
 			"source": "XGE",
 			"page": 50,
@@ -4756,14 +4756,14 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1级神圣之魂特性}",
-				"你与神性之间的联系让你得以学习来自牧师职业的法术。当你的施法特性让你学习或取代一个术士戏法、或一个1环或更高环的术士法术时，你可以从牧师法术列表或术士法术列表中选择新的法术。你仍然必须遵从选择法术的所有其它限制，且它对你而言视作术士法术。",
-				"此外，为你神圣能量的源头选择一种倾向：善良、邪恶、守序、混乱、中立。你基于该倾向学习一个额外的法术，如下表所示。它对你而言视作术士法术，但并不会计入你已知术士法术的数量中。若你之后想取代该法术，则你必须以一个来自牧师法术列表的法术取代它。",
+				"{@i 1級神聖之魂特性}",
+				"你與神性之間的聯繫讓你得以學習來自牧師職業的法術。當你的施法特性讓你學習或取代一個術士戲法、或一個1環或更高環的術士法術時，你可以從牧師法術列表或術士法術列表中選擇新的法術。你仍然必須遵從選擇法術的所有其它限制，且它對你而言視作術士法術。",
+				"此外，為你神聖能量的源頭選擇一種傾向：善良、邪惡、守序、混亂、中立。你基於該傾向學習一個額外的法術，如下表所示。它對你而言視作術士法術，但並不會計入你已知術士法術的數量中。若你之後想取代該法術，則你必須以一個來自牧師法術列表的法術取代它。",
 				{
 					"type": "table",
 					"colLabels": [
-						"倾向",
-						"法术"
+						"傾向",
+						"法術"
 					],
 					"colStyles": [
 						"col-5",
@@ -4772,30 +4772,30 @@
 					"rows": [
 						[
 							"善良",
-							"{@spell 治疗伤势}"
+							"{@spell 治療傷勢}"
 						],
 						[
-							"邪恶",
-							"{@spell 造成伤势}"
+							"邪惡",
+							"{@spell 造成傷勢}"
 						],
 						[
 							"守序",
-							"{@spell 祝福术}"
+							"{@spell 祝福術}"
 						],
 						[
-							"混乱",
-							"{@spell 灾祸术}"
+							"混亂",
+							"{@spell 災禍術}"
 						],
 						[
 							"中立",
-							"{@spell 防护善恶}"
+							"{@spell 防護善惡}"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "诸神眷顾",
+			"name": "諸神眷顧",
 			"ENG_name": "Favored by the Gods",
 			"source": "XGE",
 			"page": 50,
@@ -4806,12 +4806,12 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1级神圣之魂特性}",
-				"神圣能量守护着你的命运。若你在一次豁免检定中失败、或在一次攻击检定中失手，你可以骰{@dice 2d4}并将其掷骰结果加入检定的总和中，并可能因此改变检定结果。一旦你使用此能力，你直到完成一次短休或长休前都不能再使用它。"
+				"{@i 1級神聖之魂特性}",
+				"神聖能量守護著你的命運。若你在一次豁免檢定中失敗、或在一次攻擊檢定中失手，你可以骰{@dice 2d4}並將其擲骰結果加入檢定的總和中，並可能因此改變檢定結果。一旦你使用此能力，你直到完成一次短休或長休前都不能再使用它。"
 			]
 		},
 		{
-			"name": "强效治疗",
+			"name": "強效治療",
 			"ENG_name": "Empowered Healing",
 			"source": "XGE",
 			"page": 50,
@@ -4822,8 +4822,8 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6级神圣之魂特性}",
-				"奔驰于你体内的神圣能量可以强化治疗法术。每当你或一个距离你5尺内的盟友掷骰决定一个法术所回复的生命值数值时，只要你并非处于{@condition 无力}状态，你就可以消耗1点术法点以重骰任意数量的这些骰子一次。你每个回合只能使用此能力一次。"
+				"{@i 6級神聖之魂特性}",
+				"奔馳於你體內的神聖能量可以強化治療法術。每當你或一個距離你5尺內的盟友擲骰決定一個法術所回復的生命值數值時，只要你並非處於{@condition 無力}狀態，你就可以消耗1點術法點以重骰任意數量的這些骰子一次。你每個回合只能使用此能力一次。"
 			]
 		},
 		{
@@ -4838,13 +4838,13 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14级神圣之魂特性}",
-				"你可以使用一个附赠动作以从你背后展现出一对灵体翅膀。当这对翅膀存在时，你拥有30尺的飞行速度。这对翅膀会持续存在直到你陷入{@condition 无力}状态、死亡、或你以一个附赠动作解消它们。",
-				"你为你神圣魔法能力所选择的倾向，将会决定这对灵体翅膀的外观：善良或守序则为鹰翼、邪恶或混乱则为蝙蝠翅膀、中立则为蜻蜓翅膀。"
+				"{@i 14級神聖之魂特性}",
+				"你可以使用一個附贈動作以從你背後展現出一對靈體翅膀。當這對翅膀存在時，你擁有30尺的飛行速度。這對翅膀會持續存在直到你陷入{@condition 無力}狀態、死亡、或你以一個附贈動作解消它們。",
+				"你為你神聖魔法能力所選擇的傾向，將會決定這對靈體翅膀的外觀：善良或守序則為鷹翼、邪惡或混亂則為蝙蝠翅膀、中立則為蜻蜓翅膀。"
 			]
 		},
 		{
-			"name": "神秘痊愈",
+			"name": "神秘痊癒",
 			"ENG_name": "Unearthly Recovery",
 			"source": "XGE",
 			"page": 50,
@@ -4855,9 +4855,9 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18级神圣之魂特性}",
-				"你获得克服严重伤势的能力。当你只剩下少于一半的生命值时，以一个附赠动作，你可以回复等同于你生命值最大值一半的生命值。",
-				"一旦你使用此能力，直到你完成一次长休前都不能再使用它。"
+				"{@i 18級神聖之魂特性}",
+				"你獲得克服嚴重傷勢的能力。當你只剩下少於一半的生命值時，以一個附贈動作，你可以回復等同於你生命值最大值一半的生命值。",
+				"一旦你使用此能力，直到你完成一次長休前都不能再使用它。"
 			]
 		},
 		{
@@ -4871,14 +4871,14 @@
 			"subclassSource": "XGE",
 			"level": 1,
 			"entries": [
-				"身为影之造物，你的天生魔法来自堕影冥界本身。或许你能追溯你的家系到一个来自该处的存在，又或者你曾暴露于堕影冥界的可怕能量之下并被其转化。",
-				"幽影魔法的力量在你的身体表征上蒙上了一层怪异的帷幕。维持着你的生命火花因压抑而模糊，仿佛它在与深入你灵魂的黑暗能量对抗而挣扎生存。根据你的选择，你可以从幽影术士怪异特征表中为你的角色挑选或掷骰决定一个怪异特征。",
+				"身為影之造物，你的天生魔法來自墮影冥界本身。或許你能追溯你的家繫到一個來自該處的存在，又或者你曾暴露於墮影冥界的可怕能量之下並被其轉化。",
+				"幽影魔法的力量在你的身體表徵上蒙上了一層怪異的帷幕。維持著你的生命火花因壓抑而模糊，彷彿它在與深入你靈魂的黑暗能量對抗而掙扎生存。根據你的選擇，你可以從幽影術士怪異特徵表中為你的角色挑選或擲骰決定一個怪異特徵。",
 				{
 					"type": "table",
-					"caption": "幽影术士怪异特征",
+					"caption": "幽影術士怪異特徵",
 					"colLabels": [
 						"d6",
-						"怪异特征"
+						"怪異特徵"
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -4887,27 +4887,27 @@
 					"rows": [
 						[
 							"1",
-							"你摸起来永远如冰般寒冷。"
+							"你摸起來永遠如冰般寒冷。"
 						],
 						[
 							"2",
-							"当你熟睡时，你像是没有在呼吸（但你仍需要呼吸以维生）。"
+							"當你熟睡時，你像是沒有在呼吸（但你仍需要呼吸以維生）。"
 						],
 						[
 							"3",
-							"你鲜少流血，即使受到重伤也一样。"
+							"你鮮少流血，即使受到重傷也一樣。"
 						],
 						[
 							"4",
-							"你的心跳每一分钟才脉动一下。这件事有时候也会让你惊讶。"
+							"你的心跳每一分鐘才脈動一下。這件事有時候也會讓你驚訝。"
 						],
 						[
 							"5",
-							"你难以记住活着的生物和尸体应该被差别待遇。"
+							"你難以記住活著的生物和屍體應該被差別待遇。"
 						],
 						[
 							"6",
-							"你上周，眨眼，只眨了一次。"
+							"你上週，眨眼，只眨了一次。"
 						]
 					]
 				},
@@ -4917,7 +4917,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "终焉之力|Sorcerer||Shadow|XGE|1"
+					"subclassFeature": "終焉之力|Sorcerer||Shadow|XGE|1"
 				}
 			]
 		},
@@ -4933,13 +4933,13 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1级幽影魔法特性}",
-				"你具有120尺范围的{@sense 黑暗视觉}。",
-				"当你在本职业升至3级时，你习得{@spell 黑暗术}法术，且它不会计入你的已知术士法术数量中。此外，你可以借由消耗2点术法点或一个法术位来施放它。若你通过术法点施放它，你可以看透由此法术创造出来的黑暗。"
+				"{@i 1級幽影魔法特性}",
+				"你具有120尺範圍的{@sense 黑暗視覺}。",
+				"當你在本職業升至3級時，你習得{@spell 黑暗術}法術，且它不會計入你的已知術士法術數量中。此外，你可以藉由消耗2點術法點或一個法術位來施放它。若你通過術法點施放它，你可以看透由此法術創造出來的黑暗。"
 			]
 		},
 		{
-			"name": "终焉之力",
+			"name": "終焉之力",
 			"ENG_name": "Strength of the Grave",
 			"source": "XGE",
 			"page": 50,
@@ -4950,13 +4950,13 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1级幽影魔法特性}",
-				"你处于生与死之间模糊状态的存在使你难以被击败。当伤害将你的生命值归零时，你可以进行一次魅力豁免（DC 5 + 所受到的伤害）。若豁免成功，你改为将你的生命值减少至1。若你是因为光耀伤害或暴击而导致生命值归零，则你不能使用此能力。",
-				"在该豁免检定成功后，你直到完成一次长休之前都不能再使用此能力。"
+				"{@i 1級幽影魔法特性}",
+				"你處於生與死之間模糊狀態的存在使你難以被擊敗。當傷害將你的生命值歸零時，你可以進行一次魅力豁免（DC 5 + 所受到的傷害）。若豁免成功，你改為將你的生命值減少至1。若你是因為光耀傷害或暴擊而導致生命值歸零，則你不能使用此能力。",
+				"在該豁免檢定成功後，你直到完成一次長休之前都不能再使用此能力。"
 			]
 		},
 		{
-			"name": "凶兆猎犬",
+			"name": "凶兆獵犬",
 			"ENG_name": "Hound of Ill Omen",
 			"source": "XGE",
 			"page": 50,
@@ -4967,18 +4967,18 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6级幽影魔法特性}",
-				"你获得呼唤出一个咆啸着的黑暗生物以侵扰你敌人的能力。以一个附赠动作，你可以消耗3点术法点以用魔法召唤出一个凶兆猎犬，并指定一个距离你120尺内且你所能看见的生物作为目标。这个猎犬使用{@creature 恐狼}的数据（参见《怪物图鉴》或《玩家手册》的附录C），但有以下的改变：",
+				"{@i 6級幽影魔法特性}",
+				"你獲得呼喚出一個咆嘯著的黑暗生物以侵擾你敵人的能力。以一個附贈動作，你可以消耗3點術法點以用魔法召喚出一個凶兆獵犬，並指定一個距離你120尺內且你所能看見的生物作為目標。這個獵犬使用{@creature 恐狼}的數據（參見《怪物圖鑑》或《玩家手冊》的附錄C），但有以下的改變：",
 				{
 					"type": "list",
 					"items": [
-						"猎犬的体型为中型，而非大型；且它被视作怪兽，而非野兽。",
-						"它在出现时拥有等同于你术士等级一半的临时生命值。",
-						"它可以如同穿过困难地形一样移动穿过其他生物和物体。若猎犬在一个物体内结束它的回合，猎犬将受到5点力场伤害。",
-						"在它的回合开始时，猎犬将自动知晓它目标的所在位置。若该目标在躲藏中，则它对猎犬而言不再视为躲藏中。"
+						"獵犬的體型為中型，而非大型；且它被視作怪獸，而非野獸。",
+						"它在出現時擁有等同於你術士等級一半的臨時生命值。",
+						"它可以如同穿過困難地形一樣移動穿過其他生物和物體。若獵犬在一個物體內結束它的回合，獵犬將受到5點力場傷害。",
+						"在它的回合開始時，獵犬將自動知曉它目標的所在位置。若該目標在躲藏中，則它對獵犬而言不再視為躲藏中。"
 					]
 				},
-				"猎犬会出现在距离目标30尺内你所选择的一处未被占据空间。为猎犬骰先攻。在它的回合，它只能通过最直接的路径移向它的目标，且它只能使用它的动作以攻击它的目标。猎犬可以进行借机攻击，但只能以它的目标为攻击对象。此外，当猎犬距离目标5尺内，目标在对抗你所施放的任何法术的豁免检定中具有劣势。猎犬会在它的生命值归零、它目标的生命值归零、或者5分钟之后消失。"
+				"獵犬會出現在距離目標30尺內你所選擇的一處未被占據空間。為獵犬骰先攻。在它的回合，它只能通過最直接的路徑移向它的目標，且它只能使用它的動作以攻擊它的目標。獵犬可以進行藉機攻擊，但只能以它的目標為攻擊對象。此外，當獵犬距離目標5尺內，目標在對抗你所施放的任何法術的豁免檢定中具有劣勢。獵犬會在它的生命值歸零、它目標的生命值歸零、或者5分鐘之後消失。"
 			]
 		},
 		{
@@ -4993,12 +4993,12 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14级幽影魔法特性}",
-				"你获得从阴影间穿梭的能力。当你处于微光光照或黑暗环境中，以一个附赠动作，你可以用魔法传送最多120尺距离到一处你所能看见，且同样处于微光光照或黑暗环境中的未被占据空间。"
+				"{@i 14級幽影魔法特性}",
+				"你獲得從陰影間穿梭的能力。當你處於微光光照或黑暗環境中，以一個附贈動作，你可以用魔法傳送最多120尺距離到一處你所能看見，且同樣處於微光光照或黑暗環境中的未被占據空間。"
 			]
 		},
 		{
-			"name": "暗影型态",
+			"name": "暗影型態",
 			"ENG_name": "Umbral Form",
 			"source": "XGE",
 			"page": 50,
@@ -5009,13 +5009,13 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18级幽影魔法特性}",
-				"你可以消耗6点术法点并以一个附赠动作魔法地将自己转变为幽影型态。当处于此型态，你对除了力场和光耀伤害以外的所有伤害具有抗性，且你可以如同穿过困难地形一样移动穿过其他生物和物体。若你在一个物体内结束它的回合，你将受到5点力场伤害。",
-				"你能维持此型态长达1分钟。它会在你陷入{@condition 无力}状态、你死亡、或你以一个附赠动作解消它时提早结束。"
+				"{@i 18級幽影魔法特性}",
+				"你可以消耗6點術法點並以一個附贈動作魔法地將自己轉變為幽影型態。當處於此型態，你對除了力場和光耀傷害以外的所有傷害具有抗性，且你可以如同穿過困難地形一樣移動穿過其他生物和物體。若你在一個物體內結束它的回合，你將受到5點力場傷害。",
+				"你能維持此型態長達1分鐘。它會在你陷入{@condition 無力}狀態、你死亡、或你以一個附贈動作解消它時提早結束。"
 			]
 		},
 		{
-			"name": "暴风术法",
+			"name": "暴風術法",
 			"ENG_name": "Storm Sorcery",
 			"source": "XGE",
 			"page": 51,
@@ -5025,20 +5025,20 @@
 			"subclassSource": "XGE",
 			"level": 1,
 			"entries": [
-				"你的天生魔法来自于气元素的力量。许多拥有这种力量的人可以追溯其魔法到一次暴雨导致的濒死经验、或可能你在一阵狂风呼啸中诞生，而那狂风是如此强大以至于人们至今仍传诵着它的故事，又或者，你的家系可能受到了像是气巨灵之类的气元素生物影响。无论是哪种情况，暴风魔法都已充斥于你体内。",
-				"暴风术士在船队中是无价的成员。他们的魔法让他们得以驾驭周遭区域风和气象。他们的能力也被证明在对抗沙华鱼人、海盗、或其他水生威胁时相当有效。",
+				"你的天生魔法來自於氣元素的力量。許多擁有這種力量的人可以追溯其魔法到一次暴雨導致的瀕死經驗、或可能你在一陣狂風呼嘯中誕生，而那狂風是如此強大以至於人們至今仍傳誦著它的故事，又或者，你的家系可能受到了像是氣巨靈之類的氣元素生物影響。無論是哪種情況，暴風魔法都已充斥於你體內。",
+				"暴風術士在船隊中是無價的成員。他們的魔法讓他們得以駕馭周遭區域風和氣象。他們的能力也被證明在對抗沙華魚人、海盜、或其他水生威脅時相當有效。",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "风语者|Sorcerer||Storm|XGE|1"
+					"subclassFeature": "風語者|Sorcerer||Storm|XGE|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "风暴魔法|Sorcerer||Storm|XGE|1"
+					"subclassFeature": "風暴魔法|Sorcerer||Storm|XGE|1"
 				}
 			]
 		},
 		{
-			"name": "风暴魔法",
+			"name": "風暴魔法",
 			"ENG_name": "Tempestuous Magic",
 			"source": "XGE",
 			"page": 51,
@@ -5049,12 +5049,12 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1级暴风术法特性}",
-				"紧接在你施放一个1环或更高环的法术之前或之后，你可以在你的回合使用一个附赠动作以使元素之气形成的旋转阵风短暂地环绕着你。这么做让你得以飞行最多10尺距离，而不会引发借机攻击。"
+				"{@i 1級暴風術法特性}",
+				"緊接在你施放一個1環或更高環的法術之前或之後，你可以在你的回合使用一個附贈動作以使元素之氣形成的旋轉陣風短暫地環繞著你。這麼做讓你得以飛行最多10尺距離，而不會引發藉機攻擊。"
 			]
 		},
 		{
-			"name": "风语者",
+			"name": "風語者",
 			"ENG_name": "Wind Speaker",
 			"source": "XGE",
 			"page": 51,
@@ -5065,12 +5065,12 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1级暴风术法特性}",
-				"你所支配的奥法魔力充盈着气之元素。你可以说、读、写{@language Primordial}。知晓这个语言让你得以理解使用其同源语系的生物，并让它们理解你所说的话。其同源语系为：{@language Aquan}, {@language Auran}, {@language Ignan} 和 {@language Terran}。"
+				"{@i 1級暴風術法特性}",
+				"你所支配的奧法魔力充盈著氣之元素。你可以說、讀、寫{@language Primordial}。知曉這個語言讓你得以理解使用其同源語系的生物，並讓它們理解你所說的話。其同源語係為：{@language Aquan}, {@language Auran}, {@language Ignan} 和 {@language Terran}。"
 			]
 		},
 		{
-			"name": "暴风之心",
+			"name": "暴風之心",
 			"ENG_name": "Heart of the Storm",
 			"source": "XGE",
 			"page": 51,
@@ -5081,12 +5081,12 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6级暴风术法特性}",
-				"你获得对闪电和雷鸣伤害的抗性。此外，每当你开始施放一个1环或更高环，且会造成闪电或雷鸣伤害的法术时，暴风魔法将从你身上迸发而出。这阵迸发会使距离你10尺内你所选且你能看见的所有生物受到等同于你术士等级一半的闪电或雷鸣伤害（每次此能力发动时选择）。"
+				"{@i 6級暴風術法特性}",
+				"你獲得對閃電和雷鳴傷害的抗性。此外，每當你開始施放一個1環或更高環，且會造成閃電或雷鳴傷害的法術時，暴風魔法將從你身上迸發而出。這陣迸發會使距離你10尺內你所選且你能看見的所有生物受到等同於你術士等級一半的閃電或雷鳴傷害（每次此能力發動時選擇）。"
 			]
 		},
 		{
-			"name": "暴风导向",
+			"name": "暴風導向",
 			"ENG_name": "Storm Guide",
 			"source": "XGE",
 			"page": 51,
@@ -5097,14 +5097,14 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6级暴风术法特性}",
-				"你获得巧妙控制你周遭天气的能力。",
-				"若正在下雨，你可以使用一个动作，让以你为中心20尺半径球体内的空间停止降雨。你能够以一个附赠动作中止这个效果。",
-				"若正在刮风，你可以在每轮以一个附赠动作选择以你为中心100尺半径球体内的阵风吹向你所选的方向。这阵风会向着该方向吹拂直到你的下个回合结束。此能力并不会改变风速。"
+				"{@i 6級暴風術法特性}",
+				"你獲得巧妙控制你周遭天氣的能力。",
+				"若正在下雨，你可以使用一個動作，讓以你為中心20尺半徑球體內的空間停止降雨。你能夠以一個附贈動作中止這個效果。",
+				"若正在颳風，你可以在每輪以一個附贈動作選擇以你為中心100尺半徑球體內的陣風吹向你所選的方向。這陣風會向著該方向吹拂直到你的下個回合結束。此能力並不會改變風速。"
 			]
 		},
 		{
-			"name": "暴风狂怒",
+			"name": "暴風狂怒",
 			"ENG_name": "Storm's Fury",
 			"source": "XGE",
 			"page": 51,
@@ -5115,12 +5115,12 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14级暴风术法特性}",
-				"当你被一次近战攻击命中时，你可以使用你的反应以对攻击者造成闪电伤害。此伤害等同于你的术士等级。攻击者同时必须进行一次对抗你术士法术豁免DC的力量豁免。若豁免失败，攻击者将被直线推离你最远20尺的距离。"
+				"{@i 14級暴風術法特性}",
+				"當你被一次近戰攻擊命中時，你可以使用你的反應以對攻擊者造成閃電傷害。此傷害等同於你的術士等級。攻擊者同時必須進行一次對抗你術士法術豁免DC的力量豁免。若豁免失敗，攻擊者將被直線推離你最遠20尺的距離。"
 			]
 		},
 		{
-			"name": "清风之魂",
+			"name": "清風之魂",
 			"ENG_name": "Wind Soul",
 			"source": "XGE",
 			"page": 51,
@@ -5131,9 +5131,9 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18级暴风术法特性}",
-				"你获得对闪电和雷鸣伤害的免疫。",
-				"你也获得魔法性的60尺飞行速度。以一个动作，你可以降低你的飞行速度至30尺，持续1小时，并选择数量最多等同于3 + 你魅力调整值的生物。所选生物将获得魔法性的30尺飞行速度，持续1小时。一旦你通过这个方式降低你的飞行速度，你直到完成一次短休或长休之前都不能再这么做。"
+				"{@i 18級暴風術法特性}",
+				"你獲得對閃電和雷鳴傷害的免疫。",
+				"你也獲得魔法性的60尺飛行速度。以一個動作，你可以降低你的飛行速度至30尺，持續1小時，並選擇數量最多等同於3 + 你魅力調整值的生物。所選生物將獲得魔法性的30尺飛行速度，持續1小時。一旦你透過這個方式降低你的飛行速度，你直到完成一次短休或長休之前都不能再這麼做。"
 			]
 		}
 	]

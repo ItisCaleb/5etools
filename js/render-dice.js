@@ -110,7 +110,7 @@ Renderer.dice = {
 			Renderer.dice._showBox();
 			Renderer.dice._$iptRoll.focus();
 		});
-		const $head = $(`<div class="head-roll"><span class="hdr-roll">掷骰</span><span class="delete-icon glyphicon glyphicon-remove"></span></div>`)
+		const $head = $(`<div class="head-roll"><span class="hdr-roll">擲骰</span><span class="delete-icon glyphicon glyphicon-remove"></span></div>`)
 			.on("click", () => {
 				if (!Renderer.dice._panel) Renderer.dice._hideBox();
 			});
@@ -547,7 +547,7 @@ Renderer.dice = {
 			const userPb = await InputUiUtil.pGetUserNumber({
 				min: 0,
 				int: true,
-				title: "输入熟练加值",
+				title: "輸入熟練加值",
 				default: 2,
 				storageKey_default: "dice.playerProficiencyBonus",
 				isGlobal_default: true,

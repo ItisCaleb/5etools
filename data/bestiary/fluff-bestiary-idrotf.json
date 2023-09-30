@@ -204,7 +204,7 @@
 									"type": "entries",
 									"name": "Companions",
 									"entries": [
-										"Avarice has a pair of loyal {@creature Gargoyle||gargoyles} named Gargle and Gurgle who serve her as bodyguards and scouts. Avarice uses her {@spell 拉瑞心灵联结} spell to stay in telepathic contact with her gargoyles before sending them off on any mission. Avarice also has the support of the Knights of the Black Sword, if she needs to call on their talents."
+										"Avarice has a pair of loyal {@creature Gargoyle||gargoyles} named Gargle and Gurgle who serve her as bodyguards and scouts. Avarice uses her {@spell 拉瑞心靈聯結} spell to stay in telepathic contact with her gargoyles before sending them off on any mission. Avarice also has the support of the Knights of the Black Sword, if she needs to call on their talents."
 									]
 								},
 								{
@@ -218,7 +218,7 @@
 									"type": "entries",
 									"name": "Spellbook",
 									"entries": [
-										"Avarice's spellbook has white leather covers and vellum pages. The tiefling's personal sigil is burned into the front cover. The book contains the spells Avarice has prepared plus the following additional spells: {@spell 燃烧之手}, {@spell 寒冰锥}, {@spell 寻获魔宠}, {@spell 冰风暴}, {@spell 闪电束}, {@spell 通天绳}, {@spell 雷鸣波}, {@spell 巧舌术}, {@spell 火墙术}, and {@spell 力墙术}."
+										"Avarice's spellbook has white leather covers and vellum pages. The tiefling's personal sigil is burned into the front cover. The book contains the spells Avarice has prepared plus the following additional spells: {@spell 燃燒之手}, {@spell 寒冰錐}, {@spell 尋獲魔寵}, {@spell 冰風暴}, {@spell 閃電束}, {@spell 通天繩}, {@spell 雷鳴波}, {@spell 巧舌術}, {@spell 火牆術}, and {@spell 力牆術}."
 									]
 								}
 							]
@@ -340,7 +340,7 @@
 											"name": "Chardalyn Weapons",
 											"entries": [
 												"A chardalyn berserker wields one or more weapons made wholly or partly out of chardalyn that has been tainted by demonic magic. Battleaxes, flails, javelins, and spears are favored weapons, though other weapons are possible.",
-												"A character who claims one or more of these weapons can be corrupted by them. Each day at dawn, roll a {@dice d6} for each such weapon in the character's possession. On a roll of 1, the character must succeed on a DC 13 Charisma saving throw or become an evil NPC under the DM's control, unless the character is evil already. This alignment change can be undone by any magic that ends a curse, but after ten days, it can be reversed only by a {@spell 祈愿术} spell or divine intervention.",
+												"A character who claims one or more of these weapons can be corrupted by them. Each day at dawn, roll a {@dice d6} for each such weapon in the character's possession. On a roll of 1, the character must succeed on a DC 13 Charisma saving throw or become an evil NPC under the DM's control, unless the character is evil already. This alignment change can be undone by any magic that ends a curse, but after ten days, it can be reversed only by a {@spell 祈願術} spell or divine intervention.",
 												"A creature wounded by one of these chardalyn weapons can feel a sudden sickness creep over them, but it passes quickly."
 											]
 										},
@@ -597,14 +597,14 @@
 									"type": "entries",
 									"name": "Dzaan's Simulacrum",
 									"entries": [
-										"Unbeknownst to his executioners, Dzaan had used a {@item spell scroll} of {@spell 拟像术} to create a copy of himself. This simulacrum dwells in the sunken Netherese spire, waiting for its creator to return.",
-										"The simulacrum, which looks and acts like Dzaan, has half of Dzaan's hit points and can't regain expended spell slots. It has wasted its 3rd-level spell slots trying to reach Dzaan with {@spell 短讯术} spells, to no avail, and has expended other spell slots to help it survive the perils of the spire. It uses its remaining spell slots sparingly.",
+										"Unbeknownst to his executioners, Dzaan had used a {@item spell scroll} of {@spell 擬像術} to create a copy of himself. This simulacrum dwells in the sunken Netherese spire, waiting for its creator to return.",
+										"The simulacrum, which looks and acts like Dzaan, has half of Dzaan's hit points and can't regain expended spell slots. It has wasted its 3rd-level spell slots trying to reach Dzaan with {@spell 簡訊術} spells, to no avail, and has expended other spell slots to help it survive the perils of the spire. It uses its remaining spell slots sparingly.",
 										"The sunken Netherese tower contains a special room that can transform the simulacrum into a real person\u2014or any magical illusion into the real thing, for that matter. If this change occurs, the simulacrum effectively becomes a {@creature Dzaan|IDRotF|clone of Dzaan}, authentic in every way. Dzaan's stat block and abilities change as follows:",
 										{
 											"type": "list",
 											"items": [
 												"He has spell slots appropriate for a 9th-level wizard (four 1st-level spell slots, three 2nd- through 4th-level spell slots, and one 5th-level spell slot), but he lacks a spellbook and therefore can't change his list of prepared spells.",
-												"If he finishes a long rest, he has the following additional spell slots, which allow him to cast the indicated spells: 3rd level (3 slots): {@spell 火球术}, {@spell 短讯术}, {@spell 缓速术} 4th level (3 slots): {@spell 秘法眼}, {@spell 困惑术} 5th level (1 slot): {@spell 活化物体}",
+												"If he finishes a long rest, he has the following additional spell slots, which allow him to cast the indicated spells: 3rd level (3 slots): {@spell 火球術}, {@spell 簡訊術}, {@spell 緩速術} 4th level (3 slots): {@spell 秘法眼}, {@spell 困惑術} 5th level (1 slot): {@spell 活化物體}",
 												"His hit point maximum becomes 49 ({@dice 9d8 + 9}), and his challenge rating becomes 2 (450 XP). His challenge rating becomes 4 (1,100 XP) if he finishes a long rest and regains his expended spells."
 											]
 										}
@@ -695,7 +695,7 @@
 											"type": "entries",
 											"name": "Awakened Companions",
 											"entries": [
-												"A frost druid is often accompanied by one or more beasts, shrubs, or evergreen trees that it has made sentient using the {@spell 启蒙术} spell. These druids favor polar bears and reindeer (use the {@creature elk} stat block in the {@book Monster Manual|MM}) as companions, and such creatures typically share the druid's disposition."
+												"A frost druid is often accompanied by one or more beasts, shrubs, or evergreen trees that it has made sentient using the {@spell 啟蒙術} spell. These druids favor polar bears and reindeer (use the {@creature elk} stat block in the {@book Monster Manual|MM}) as companions, and such creatures typically share the druid's disposition."
 											]
 										},
 										{
@@ -1068,7 +1068,7 @@
 													"type": "list",
 													"items": [
 														"A creature that eats the heart gains the ability to regenerate for the next 24 hours, regaining 5 hit points at the start of each of its turns. If the creature takes acid or fire damage, this trait doesn't function at the start of its next turn. The creature dies only if it starts its turn with 0 hit points and doesn't regenerate.",
-														"If buried in the ground under a foot or more of earth, the heart melts away and summons a blizzard like that created by the {@spell 操控天气} spell. It takes 10 minutes for the heart to melt and the blizzard to form. The blizzard lasts for 8 hours.",
+														"If buried in the ground under a foot or more of earth, the heart melts away and summons a blizzard like that created by the {@spell 操控天氣} spell. It takes 10 minutes for the heart to melt and the blizzard to form. The blizzard lasts for 8 hours.",
 														"A hag or similar creature can perform a ritual that turns the heart into a magical talisman that acts like a patch of brown mold (see \"{@hazard Brown Mold}\" in the {@book Dungeon Master's Guide|DMG}). This effect lasts until the heart is destroyed.",
 														"A creature proficient with alchemist's supplies can squeeze enough residual fluid out of the heart to mix with other alchemical ingredients, creating one {@item Potion of Cold Resistance||potion of resistance (cold)}. It takes 1 hour to create this potion. "
 													]
@@ -1282,7 +1282,7 @@
 				{
 					"type": "entries",
 					"entries": [
-						"A living blade of disaster is a {@spell 灾厄之刃|TCE} spell (see appendix D) with a wicked will of its own. It looks like a floating, black planar rift in the shape of a sword. Like a demon, it craves destruction.",
+						"A living blade of disaster is a {@spell 災厄之刃|TCE} spell (see appendix D) with a wicked will of its own. It looks like a floating, black planar rift in the shape of a sword. Like a demon, it craves destruction.",
 						"Areas of wild magic and sites that have been ravaged by powerful eldritch forces can give rise to spell effects that become living beings. These so-called living spells haunt the places where they were created, subsisting on ambient magical energy."
 					]
 				}
@@ -1304,7 +1304,7 @@
 				{
 					"type": "entries",
 					"entries": [
-						"A living demiplane is a {@spell 创造半位面} spell that has become vaguely self-aware. It is a shadowy rectangle, 5 feet wide and 10 feet high, which creeps along flat, solid surfaces and groans softly when it moves.",
+						"A living demiplane is a {@spell 創造半位面} spell that has become vaguely self-aware. It is a shadowy rectangle, 5 feet wide and 10 feet high, which creeps along flat, solid surfaces and groans softly when it moves.",
 						"When a living demiplane encounters a creature small enough to fit through its doorway, it tries to pull that creature into itself, then deposits the victim in an extradimensional chamber.",
 						"Areas of wild magic and sites that have been ravaged by powerful eldritch forces can give rise to spell effects that become living beings. These so-called living spells haunt the places where they were created, subsisting on ambient magical energy."
 					]
@@ -1388,27 +1388,27 @@
 							"entries": [
 								"Nass Lantomir was an apprentice of Zelenn the White, one of five archmages who oversee the Arcane Brotherhood. Nass and Zelenn's relationship started off well, but in recent years it has become painfully obvious to Zelenn that Nass has been slow to master the arcane tradition of divination. Zelenn's suggestion that Nass leave the Hosttower of the Arcane and gain experience abroad left Nass feeling unwanted. After much thought, however, Nass came around to the idea. She could put her magic to the test and carve out a name for herself.",
 								"As she was preparing to leave the Hosttower, Nass overheard her master talking to another wizard about a covert expedition to Icewind Dale being undertaken to seek out long-lost magic from a bygone empire. Rather than carry out her original plan, Nass followed her fellow wizards to Icewind Dale. She caught up to them in Bryn Shander and made her presence known, claiming she was sent by her master to aid the expedition with her divinations. Egos and frayed nerves caused the group to split up shortly thereafter, with each wizard determined to succeed alone.",
-								"One night while the others slept, Nass stole a {@item Professor Skant|IDRotF|professor orb} (see {@adventure appendix D|IDRotF|22|{@item Professor Orb|WDMM}}) from one of her fellow wizards, Vellynne Harpell. Two of Vellynne's kobold companions witnessed the theft, and Nass killed them with {@spell 马友夫强酸箭} spells before fleeing with the orb.",
+								"One night while the others slept, Nass stole a {@item Professor Skant|IDRotF|professor orb} (see {@adventure appendix D|IDRotF|22|{@item Professor Orb|WDMM}}) from one of her fellow wizards, Vellynne Harpell. Two of Vellynne's kobold companions witnessed the theft, and Nass killed them with {@spell 馬友夫強酸箭} spells before fleeing with the orb.",
 								"Nass fled Ten-Towns and headed toward the Sea of Moving Ice, hoping to find a tome called {@item The Codicil of White|IDRotF}, a book of magic and lore composed by servants of Auril the Frostmaiden. The Arcane Brotherhood believes that this book tells how to reach a lost city of magic entombed in the ice. Before she could obtain the book, Nass perished. She now exists as a ghost, unable to rest until she finds the book. Characters who come upon Nass's frozen remains also find her spellbook and the orb she stole from Vellynne.",
 								{
 									"type": "entries",
 									"name": "Familiar",
 									"entries": [
-										"Nass's magical familiar, a white arctic weasel acclimated to cold weather named Zelennor, watches over the wizard's frozen remains. It uses the {@creature weasel} stat block in the {@book Monster Manual|MM} but is a fey instead of a beast. If Zelennor is reduced to 0 hit points, Nass's ghost is unable to cast the {@spell 寻获魔宠} spell in order to get it back."
+										"Nass's magical familiar, a white arctic weasel acclimated to cold weather named Zelennor, watches over the wizard's frozen remains. It uses the {@creature weasel} stat block in the {@book Monster Manual|MM} but is a fey instead of a beast. If Zelennor is reduced to 0 hit points, Nass's ghost is unable to cast the {@spell 尋獲魔寵} spell in order to get it back."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Spellcasting",
 									"entries": [
-										"As a ghost, Nass can cast the spells she prepared prior to her death\u2014except that the ghost can't cast spells that require material components, which limits its options. Its list of prepared spells shows only those spells it can cast. Although it has no 2nd-level spells available, the ghost can use its 2nd-level spell slots to cast upgraded versions of the {@spell 雷鸣波} spell."
+										"As a ghost, Nass can cast the spells she prepared prior to her death\u2014except that the ghost can't cast spells that require material components, which limits its options. Its list of prepared spells shows only those spells it can cast. Although it has no 2nd-level spells available, the ghost can use its 2nd-level spell slots to cast upgraded versions of the {@spell 雷鳴波} spell."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Spellbook",
 									"entries": [
-										"The wooden covers of Nass's spellbook are bound in nothic hide, and silver clasps hold the book shut. Nass's personal sigil is inscribed on the spine, which also bears the title Lantomir's Traveling Libram. The tome contains the following spells: {@spell 锐眼术}, {@spell 匕首之云}, {@spell 反制法术}, {@spell 侦测魔法}, {@spell 侦测思想}, {@spell 寻获魔宠}, {@spell 马友夫强酸箭}, {@spell 谭森浮碟术}, and {@spell 雷鸣波}."
+										"The wooden covers of Nass's spellbook are bound in nothic hide, and silver clasps hold the book shut. Nass's personal sigil is inscribed on the spine, which also bears the title Lantomir's Traveling Libram. The tome contains the following spells: {@spell 銳眼術}, {@spell 匕首之雲}, {@spell 反製法術}, {@spell 偵測魔法}, {@spell 偵測思想}, {@spell 尋獲魔寵}, {@spell 馬友夫強酸箭}, {@spell 譚森浮碟術}, and {@spell 雷鳴波}."
 									]
 								}
 							]
@@ -1737,8 +1737,8 @@
 									"type": "entries",
 									"name": "Companions",
 									"entries": [
-										"Since arriving in Icewind Dale, Vellynne has secured the services of six {@creature Icewind Kobold|IDRotF|Icewind kobolds} that act as her valets and guides. Two of them were killed by a {@spell 马友夫强酸箭} spell (cast by Vellynne's rival, Nass Lantomir), but Vellynne animated their corpses, turning them into zombies.",
-										"If she is wounded, Vellynne can cast {@spell 吸血鬼之触} and use the spell to regain hit points at the kobolds' expense."
+										"Since arriving in Icewind Dale, Vellynne has secured the services of six {@creature Icewind Kobold|IDRotF|Icewind kobolds} that act as her valets and guides. Two of them were killed by a {@spell 馬友夫強酸箭} spell (cast by Vellynne's rival, Nass Lantomir), but Vellynne animated their corpses, turning them into zombies.",
+										"If she is wounded, Vellynne can cast {@spell 吸血鬼之觸} and use the spell to regain hit points at the kobolds' expense."
 									]
 								},
 								{
@@ -1752,7 +1752,7 @@
 									"type": "entries",
 									"name": "Spellbook",
 									"entries": [
-										"Vellynne's spellbook has black leather covers around pages of ragged parchment, all wrapped in a crimson sash. The necromancer's personal sigil is written in goat's blood on the title page. The tome contains the spells Vellynne has prepared plus the following additional spells: {@spell 降咒}, {@spell 目盲/耳聋术}, {@spell 摹造生命}, {@spell 寻获魔宠}, {@spell 魔化武器}, {@spell 变形术}, {@spell 防护善恶}, {@spell 移除诅咒}, {@spell 护盾术}, and {@spell 谭森浮碟术}."
+										"Vellynne's spellbook has black leather covers around pages of ragged parchment, all wrapped in a crimson sash. The necromancer's personal sigil is written in goat's blood on the title page. The tome contains the spells Vellynne has prepared plus the following additional spells: {@spell 降咒}, {@spell 目盲/耳聾術}, {@spell 摹造生命}, {@spell 尋獲魔寵}, {@spell 魔化武器}, {@spell 變形術}, {@spell 防護善惡}, {@spell 移除詛咒}, {@spell 護盾術}, and {@spell 譚森浮碟術}."
 									]
 								}
 							]

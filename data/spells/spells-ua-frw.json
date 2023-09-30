@@ -363,7 +363,7 @@
 				}
 			],
 			"entries": [
-				"You propel a lance of psionic disruption into the mind of one creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target takes {@damage 3d6} psychic damage, and it can use its action only to {@action 疾走} or {@action 撤离} on its next turn. On a successful save, the target takes half as much damage, and this spell doesn't limit its action options."
+				"You propel a lance of psionic disruption into the mind of one creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target takes {@damage 3d6} psychic damage, and it can use its action only to {@action 疾走} or {@action 撤離} on its next turn. On a successful save, the target takes half as much damage, and this spell doesn't limit its action options."
 			],
 			"entriesHigherLevel": [
 				{
@@ -516,7 +516,7 @@
 				}
 			],
 			"entries": [
-				"You overload the mind of one creature you can see within range, filling its psyche with discordant emotions. The target must make an Intelligence saving throw. On a failed save, the target takes {@damage 12d6} psychic damage and is {@condition 震慑} for 1 minute. On a successful save, the target takes half as much damage and isn't stunned.",
+				"You overload the mind of one creature you can see within range, filling its psyche with discordant emotions. The target must make an Intelligence saving throw. On a failed save, the target takes {@damage 12d6} psychic damage and is {@condition 震懾} for 1 minute. On a successful save, the target takes half as much damage and isn't stunned.",
 				"The stunned target can make an Intelligence saving throw at the end of each of its turns. On a successful save, the spell ends on the target."
 			],
 			"damageInflict": [

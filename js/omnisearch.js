@@ -6,7 +6,7 @@ class Omnisearch {
 
 		const $nav = $(`#navbar`);
 
-		this._$iptSearch = $(`<input class="form-control search omni__input" placeholder="${this._PLACEHOLDER_TEXT}" title="快捷键：F. 免责声明：不一定真的达到全域搜索，请谨慎使用。">`).disableSpellcheck();
+		this._$iptSearch = $(`<input class="form-control search omni__input" placeholder="${this._PLACEHOLDER_TEXT}" title="快捷鍵：F. 免責聲明：不一定真的達到全域搜索，請謹慎使用。">`).disableSpellcheck();
 		const $searchSubmit = $(`<button class="btn btn-default omni__submit" tabindex="-1"><span class="glyphicon glyphicon-search"></span></button>`);
 
 		this._$searchInputWrapper = $$`
@@ -234,7 +234,7 @@ class Omnisearch {
 
 		if (this._$btnToggleUa) this._$btnToggleUa.detach();
 		else {
-			this._$btnToggleUa = $(`<button class="btn btn-default btn-xs mr-2" title="筛选 UA 及其他非官方资源结果" tabindex="-1">包括 UA 等资源</button>`)
+			this._$btnToggleUa = $(`<button class="btn btn-default btn-xs mr-2" title="篩選 UA 及其他非官方資源結果" tabindex="-1">包括 UA 等資源</button>`)
 				.on("click", () => this._state.isShowUa = !this._state.isShowUa);
 
 			const hkIsUa = () => {
@@ -247,7 +247,7 @@ class Omnisearch {
 
 		if (this._$btnToggleBlacklisted) this._$btnToggleBlacklisted.detach();
 		else {
-			this._$btnToggleBlacklisted = $(`<button class="btn btn-default btn-xs mr-2" title="筛选已被拉入黑名单的内容结果" tabindex="-1">包括黑名单资源</button>`)
+			this._$btnToggleBlacklisted = $(`<button class="btn btn-default btn-xs mr-2" title="篩選已被拉入黑名單的內容結果" tabindex="-1">包括黑名單資源</button>`)
 				.on("click", async () => this._state.isShowBlacklisted = !this._state.isShowBlacklisted);
 
 			const hkIsBlacklisted = () => {
@@ -261,7 +261,7 @@ class Omnisearch {
 
 		this._$searchOut.empty();
 
-		const $btnHelp = $(`<button class="btn btn-default btn-xs" title="帮助"><span class="glyphicon glyphicon-info-sign"></span></button>`)
+		const $btnHelp = $(`<button class="btn btn-default btn-xs" title="幫助"><span class="glyphicon glyphicon-info-sign"></span></button>`)
 			.click(() => this.doShowHelp());
 
 		this._$searchOut.append($(`<div class="text-right"/>`).append([this._$btnToggleUa, this._$btnToggleBlacklisted, $btnHelp]));
@@ -304,7 +304,7 @@ class Omnisearch {
 				});
 				$pgControls.append($prv);
 			} else ($pgControls.append(`<span class="omni__paginate-left">`));
-			$pgControls.append(`<span class="paginate-count">${page + 1}/${Math.ceil(results.length / this._MAX_RESULTS)} 页 （${results.length} 条结果）</span>`);
+			$pgControls.append(`<span class="paginate-count">${page + 1}/${Math.ceil(results.length / this._MAX_RESULTS)} 頁 （${results.length} 條結果）</span>`);
 			if (results.length - (page * this._MAX_RESULTS) > this._MAX_RESULTS) {
 				const $nxt = $(`<span class="omni__paginate-right has-results-right omni__paginate-ctrl"><span class="glyphicon glyphicon-chevron-right"></span></span>`).on("click", () => {
 					page++;
@@ -482,12 +482,12 @@ class Omnisearch {
 
 	static doShowHelp () {
 		const {$modalInner} = UiUtil.getShowModal({
-			title: "帮助",
+			title: "幫助",
 			isMinHeight0: true,
 		});
 
 		$modalInner.append(`
-			<p>支持以下搜索语法：</p>
+			<p>支持以下搜索語法：</p>
 			<ul>
 				<li><code>in:&lt;category&gt;</code> where <code>&lt;category&gt;</code> can be &quot;spell&quot;, &quot;item&quot;, &quot;bestiary&quot;, etc.</li>
 				<li><code>source:&lt;abbreviation&gt;</code> where <code>&lt;abbreviation&gt;</code> is an abbreviated source/book name (&quot;PHB&quot;, &quot;MM&quot;, etc.)</li>

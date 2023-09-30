@@ -26,7 +26,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -62,7 +62,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The drake has advantage on an attack roll against a creature if at least one of the drake's allies is within 5 feet of the creature and the ally isn't {@condition 无力}."
+						"The drake has advantage on an attack roll against a creature if at least one of the drake's allies is within 5 feet of the creature and the ally isn't {@condition 無力}."
 					]
 				},
 				{
@@ -119,7 +119,7 @@
 				13,
 				{
 					"ac": 16,
-					"condition": "with {@spell 法师护甲}",
+					"condition": "with {@spell 法師護甲}",
 					"braces": true
 				}
 			],
@@ -164,35 +164,35 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 法师之手}",
-								"{@spell 魔法技俩}",
-								"{@spell 冷冻射线}",
-								"{@spell 电爪}"
+								"{@spell 法師之手}",
+								"{@spell 魔法技倆}",
+								"{@spell 冷凍射線}",
+								"{@spell 電爪}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 云雾术}",
-								"{@spell 魔法飞弹}",
-								"{@spell 护盾术}",
-								"{@spell 雷鸣波}"
+								"{@spell 雲霧術}",
+								"{@spell 魔法飛彈}",
+								"{@spell 護盾術}",
+								"{@spell 雷鳴波}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 隐形术}",
-								"{@spell 迷踪步}",
-								"{@spell 灼热射线}"
+								"{@spell 隱形術}",
+								"{@spell 迷蹤步}",
+								"{@spell 灼熱射線}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 反制法术}",
+								"{@spell 反製法術}",
 								"{@spell 解除魔法}",
-								"{@spell 火球术}"
+								"{@spell 火球術}"
 							]
 						}
 					},
@@ -203,7 +203,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Azbara has two {@item spell scroll (1st level)||scrolls} of {@spell 法师护甲}."
+						"Azbara has two {@item spell scroll (1st level)||scrolls} of {@spell 法師護甲}."
 					]
 				},
 				{
@@ -311,8 +311,8 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell 云雾术}",
-							"{@spell 浮空术}"
+							"{@spell 雲霧術}",
+							"{@spell 浮空術}"
 						]
 					}
 				},
@@ -324,33 +324,33 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 光亮术}",
-								"{@spell 法师之手}",
-								"{@spell 魔法技俩}"
+								"{@spell 光亮術}",
+								"{@spell 法師之手}",
+								"{@spell 魔法技倆}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 侦测魔法}",
-								"{@spell 鉴定术}",
-								"{@spell 魔法飞弹}",
-								"{@spell 护盾术}"
+								"{@spell 偵測魔法}",
+								"{@spell 鑑定術}",
+								"{@spell 魔法飛彈}",
+								"{@spell 護盾術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 造风术}",
-								"{@spell 迷踪步}",
+								"{@spell 造風術}",
+								"{@spell 迷蹤步}",
 								"{@spell 粉碎音波}"
 							]
 						},
 						"3": {
 							"slots": 2,
 							"spells": [
-								"{@spell 飞行术}",
-								"{@spell 闪电束}"
+								"{@spell 飛行術}",
+								"{@spell 閃電束}"
 							]
 						}
 					},
@@ -361,7 +361,7 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"Blagothkus has advantage on Wisdom ({@skill 察觉}) checks that rely on smell."
+						"Blagothkus has advantage on Wisdom ({@skill 察覺}) checks that rely on smell."
 					]
 				}
 			],
@@ -572,7 +572,7 @@
 				{
 					"name": "Dragon Fanatic",
 					"entries": [
-						"The dragonclaw has advantage on saving throws against being {@condition 魅惑} or {@condition 恐惧}. While the dragonclaw can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, the dragonclaw ignores the effects of being {@condition 魅惑} or {@condition 恐惧}."
+						"The dragonclaw has advantage on saving throws against being {@condition 魅惑} or {@condition 恐懼}. While the dragonclaw can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, the dragonclaw ignores the effects of being {@condition 魅惑} or {@condition 恐懼}."
 					]
 				},
 				{
@@ -584,7 +584,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The dragonclaw has advantage on an attack roll against a creature if at least one of the dragonclaw's allies is within 5 feet of the creature and the ally isn't {@condition 无力}."
+						"The dragonclaw has advantage on an attack roll against a creature if at least one of the dragonclaw's allies is within 5 feet of the creature and the ally isn't {@condition 無力}."
 					]
 				}
 			],
@@ -691,7 +691,7 @@
 				{
 					"name": "Dragon Fanatic",
 					"entries": [
-						"The dragonwing has advantage on saving throws against being {@condition 魅惑} or {@condition 恐惧}. While the dragonwing can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, the dragonwing ignores the effects of being {@condition 魅惑} or {@condition 恐惧}."
+						"The dragonwing has advantage on saving throws against being {@condition 魅惑} or {@condition 恐懼}. While the dragonwing can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, the dragonwing ignores the effects of being {@condition 魅惑} or {@condition 恐懼}."
 					]
 				},
 				{
@@ -709,7 +709,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The dragonwing has advantage on an attack roll against a creature if at least one of the dragonwing's allies is within 5 feet of the creature and the ally isn't {@condition 无力}."
+						"The dragonwing has advantage on an attack roll against a creature if at least one of the dragonwing's allies is within 5 feet of the creature and the ally isn't {@condition 無力}."
 					]
 				}
 			],
@@ -817,24 +817,24 @@
 						"0": {
 							"spells": [
 								"{@spell 火焰箭}",
-								"{@spell 魔法技俩}",
-								"{@spell 电爪}"
+								"{@spell 魔法技倆}",
+								"{@spell 電爪}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell 大步奔行}",
-								"{@spell 魔法飞弹}",
-								"{@spell 护盾术}",
-								"{@spell 雷鸣波}"
+								"{@spell 魔法飛彈}",
+								"{@spell 護盾術}",
+								"{@spell 雷鳴波}"
 							]
 						},
 						"2": {
 							"slots": 2,
 							"spells": [
 								"{@spell 魔化武器}",
-								"{@spell 迷踪步}"
+								"{@spell 迷蹤步}"
 							]
 						}
 					},
@@ -975,33 +975,33 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 光亮术}",
-								"{@spell 圣焰}",
-								"{@spell 奇术}"
+								"{@spell 光亮術}",
+								"{@spell 聖焰}",
+								"{@spell 奇術}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 命令术}",
-								"{@spell 治疗伤势}",
-								"{@spell 治愈真言}",
-								"{@spell 圣域术}"
+								"{@spell 命令術}",
+								"{@spell 治療傷勢}",
+								"{@spell 治癒真言}",
+								"{@spell 聖域術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
 								"{@spell 安定心神}",
-								"{@spell 人类定身术}",
-								"{@spell 灵体武器}"
+								"{@spell 人類定身術}",
+								"{@spell 靈體武器}"
 							]
 						},
 						"3": {
 							"slots": 2,
 							"spells": [
-								"{@spell 群体治愈真言}",
-								"{@spell 灵体守卫}"
+								"{@spell 群體治癒真言}",
+								"{@spell 靈體守衛}"
 							]
 						}
 					},
@@ -1072,7 +1072,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1214,18 +1214,18 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 法师之手}",
-								"{@spell 次级幻象}",
-								"{@spell 魔法技俩}",
-								"{@spell 冷冻射线}"
+								"{@spell 法師之手}",
+								"{@spell 次級幻象}",
+								"{@spell 魔法技倆}",
+								"{@spell 冷凍射線}"
 							]
 						},
 						"1": {
 							"slots": 3,
 							"spells": [
-								"{@spell 魅惑人类}",
-								"{@spell 七彩喷射}",
-								"{@spell 易容术}",
+								"{@spell 魅惑人類}",
+								"{@spell 七彩噴射}",
+								"{@spell 易容術}",
 								"{@spell 大步奔行}"
 							]
 						}
@@ -1559,32 +1559,32 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 德鲁伊伎俩}",
-								"{@spell 神导术}",
-								"{@spell 毒气喷洒}"
+								"{@spell 德魯伊伎倆}",
+								"{@spell 神導術}",
+								"{@spell 毒氣噴灑}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 治疗伤势}",
-								"{@spell 纠缠术}",
-								"{@spell 治愈真言}",
-								"{@spell 雷鸣波}"
+								"{@spell 治療傷勢}",
+								"{@spell 糾纏術}",
+								"{@spell 治癒真言}",
+								"{@spell 雷鳴波}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 树肤术}",
-								"{@spell 野兽知觉}",
-								"{@spell 荆棘丛生}"
+								"{@spell 樹膚術}",
+								"{@spell 野獸知覺}",
+								"{@spell 荊棘叢生}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 植物滋长}",
+								"{@spell 植物滋長}",
 								"{@spell 水面行走}"
 							]
 						}
@@ -1594,7 +1594,7 @@
 			],
 			"trait": [
 				{
-					"name": "两栖",
+					"name": "兩棲",
 					"ENG_name": "Amphibious",
 					"entries": [
 						"Pharblex can breathe air and water."
@@ -1615,7 +1615,7 @@
 				{
 					"name": "Swamp Camouflage",
 					"entries": [
-						"Pharblex has advantage on Dexterity ({@skill 隐匿}) checks made to hide in swampy terrain."
+						"Pharblex has advantage on Dexterity ({@skill 隱匿}) checks made to hide in swampy terrain."
 					]
 				}
 			],
@@ -1711,7 +1711,7 @@
 				13,
 				{
 					"ac": 16,
-					"condition": "with {@spell 法师护甲}",
+					"condition": "with {@spell 法師護甲}",
 					"braces": true
 				}
 			],
@@ -1757,54 +1757,54 @@
 						"0": {
 							"spells": [
 								"{@spell 火焰箭}",
-								"{@spell 次级幻象}",
-								"{@spell 魔法技俩}",
-								"{@spell 电爪}"
+								"{@spell 次級幻象}",
+								"{@spell 魔法技倆}",
+								"{@spell 電爪}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell 幻色法球}",
-								"{@spell 七彩喷射}",
-								"{@spell 法师护甲}",
-								"{@spell 魔法飞弹}"
+								"{@spell 七彩噴射}",
+								"{@spell 法師護甲}",
+								"{@spell 魔法飛彈}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 侦测思想}",
-								"{@spell 镜影术}",
+								"{@spell 偵測思想}",
+								"{@spell 鏡影術}",
 								"{@spell 魅影之力}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 反制法术}",
-								"{@spell 火球术}",
-								"{@spell 强效幻影}"
+								"{@spell 反製法術}",
+								"{@spell 火球術}",
+								"{@spell 強效幻影}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 困惑术}",
-								"{@spell 高等隐形术}"
+								"{@spell 困惑術}",
+								"{@spell 高等隱形術}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell 假象术}",
-								"{@spell 伪装术}"
+								"{@spell 假象術}",
+								"{@spell 偽裝術}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell 法术无效结界}"
+								"{@spell 法術無效結界}"
 							]
 						}
 					},
@@ -1815,7 +1815,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Rath has a {@item staff of fire}, and scrolls of {@spell 次元门}, {@spell 羽落术}, and {@spell 火球术}."
+						"Rath has a {@item staff of fire}, and scrolls of {@spell 次元門}, {@spell 羽落術}, and {@spell 火球術}."
 					]
 				}
 			],
@@ -1933,7 +1933,7 @@
 					]
 				},
 				{
-					"name": "两栖",
+					"name": "兩棲",
 					"ENG_name": "Amphibious",
 					"entries": [
 						"Rezmir can breathe air and water."
@@ -2119,47 +2119,47 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 神导术}",
+								"{@spell 神導術}",
 								"{@spell 提升抗力}",
-								"{@spell 奇术}"
+								"{@spell 奇術}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 命令术}",
-								"{@spell 治疗伤势}",
-								"{@spell 治愈真言}",
-								"{@spell 造成伤势}"
+								"{@spell 命令術}",
+								"{@spell 治療傷勢}",
+								"{@spell 治癒真言}",
+								"{@spell 造成傷勢}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 目盲/耳聋术}",
-								"{@spell 次级复原术}",
-								"{@spell 灵体武器} (spear)"
+								"{@spell 目盲/耳聾術}",
+								"{@spell 次級復原術}",
+								"{@spell 靈體武器} (spear)"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
 								"{@spell 解除魔法}",
-								"{@spell 群体治愈真言}",
-								"{@spell 短讯术}"
+								"{@spell 群體治癒真言}",
+								"{@spell 簡訊術}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 防死护咒}",
-								"{@spell 行动自如术}"
+								"{@spell 防死護咒}",
+								"{@spell 行動自如術}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell 疫病虫群}"
+								"{@spell 疫病蟲群}"
 							]
 						}
 					},
@@ -2241,7 +2241,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -2273,7 +2273,7 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"The troll has advantage on Wisdom ({@skill 察觉}) checks that rely on smell."
+						"The troll has advantage on Wisdom ({@skill 察覺}) checks that rely on smell."
 					]
 				},
 				{

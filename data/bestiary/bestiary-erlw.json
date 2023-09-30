@@ -29,7 +29,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -88,7 +88,7 @@
 				{
 					"name": "Alien Mind",
 					"entries": [
-						"If a creature tries to read Belashyrra's thoughts or deals psychic damage to it, that creature must succeed on a {@dc 22} Intelligence saving throw or be {@condition 震慑} for 1 minute. The {@condition 震慑} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"If a creature tries to read Belashyrra's thoughts or deals psychic damage to it, that creature must succeed on a {@dc 22} Intelligence saving throw or be {@condition 震懾} for 1 minute. The {@condition 震懾} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -300,19 +300,19 @@
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 命令术}",
-								"{@spell 强迫决斗}",
-								"{@spell 炼狱叱喝}",
-								"{@spell 激愤斩}"
+								"{@spell 命令術}",
+								"{@spell 強迫決鬥}",
+								"{@spell 煉獄叱喝}",
+								"{@spell 激憤斬}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 烙印斩}",
-								"{@spell 疯狂冠冕}",
-								"{@spell 黑暗术}",
-								"{@spell 寻获坐骑}",
+								"{@spell 烙印斬}",
+								"{@spell 瘋狂冠冕}",
+								"{@spell 黑暗術}",
+								"{@spell 尋獲坐騎}",
 								"{@spell 魔化武器}"
 							]
 						}
@@ -453,7 +453,7 @@
 				{
 					"name": "Unsettling Visage (Recharges after a Short or Long Rest)",
 					"entries": [
-						"Each creature within 30 feet of the changeling must succeed on a {@dc 13} Wisdom saving throw or be {@condition 恐惧} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"Each creature within 30 feet of the changeling must succeed on a {@dc 13} Wisdom saving throw or be {@condition 恐懼} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -523,7 +523,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The clawfoot has advantage on an attack roll against a creature if at least one of the clawfoot's allies is within 5 feet of the creature and the ally isn't {@condition 无力}."
+						"The clawfoot has advantage on an attack roll against a creature if at least one of the clawfoot's allies is within 5 feet of the creature and the ally isn't {@condition 無力}."
 					]
 				},
 				{
@@ -666,7 +666,7 @@
 				{
 					"name": "Evasion",
 					"entries": [
-						"If the dolgaunt is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the dolgaunt instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. It can't use this trait if it's {@condition 无力}."
+						"If the dolgaunt is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the dolgaunt instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. It can't use this trait if it's {@condition 無力}."
 					]
 				},
 				{
@@ -773,7 +773,7 @@
 				{
 					"name": "Dual Consciousness",
 					"entries": [
-						"The dolgrim has advantage on saving throws against being {@condition 目盲}, {@condition 魅惑}, {@condition 耳聋}, {@condition 恐惧}, {@condition 震慑}, and knocked {@condition 昏迷}."
+						"The dolgrim has advantage on saving throws against being {@condition 目盲}, {@condition 魅惑}, {@condition 耳聾}, {@condition 恐懼}, {@condition 震懾}, and knocked {@condition 昏迷}."
 					]
 				}
 			],
@@ -840,7 +840,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -888,17 +888,17 @@
 						"The hag's spellcasting ability is Charisma (spell save {@dc 15}). She can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 侦测魔法}",
-						"{@spell 易容术}"
+						"{@spell 偵測魔法}",
+						"{@spell 易容術}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell 托梦术}",
-							"{@spell 催眠图纹}",
-							"{@spell 睡眠术} ({@dice 9d8})"
+							"{@spell 託夢術}",
+							"{@spell 催眠圖紋}",
+							"{@spell 睡眠術} ({@dice 9d8})"
 						],
 						"1e": [
-							"{@spell 通晓传奇}",
+							"{@spell 通曉傳奇}",
 							"{@spell 探知}"
 						]
 					},
@@ -989,7 +989,7 @@
 				{
 					"ac": 21,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1047,7 +1047,7 @@
 				{
 					"name": "Alien Mind",
 					"entries": [
-						"If a creature tries to read Dyrrn's thoughts or deals psychic damage to it, that creature must succeed on a {@dc 23} Intelligence saving throw or be {@condition 震慑} for 1 minute. The {@condition 震慑} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"If a creature tries to read Dyrrn's thoughts or deals psychic damage to it, that creature must succeed on a {@dc 23} Intelligence saving throw or be {@condition 震懾} for 1 minute. The {@condition 震懾} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -1085,7 +1085,7 @@
 				{
 					"name": "Tentacle Whip",
 					"entries": [
-						"{@atk mw} {@hit 15} to hit, reach 10 ft., one target. {@h}24 ({@damage 3d10 + 8}) slashing damage. If the target is a Medium or smaller creature, it is {@condition 被擒} (escape {@dc 23}), pulled into an unoccupied space within 5 feet of Dyrrn, and must succeed on a {@dc 23} Intelligence saving throw or be {@condition 震慑} until this grapple ends. Dyrrn can't use the same tentacle whip on another target until this grapple ends. Dyrrn has two tentacle whips."
+						"{@atk mw} {@hit 15} to hit, reach 10 ft., one target. {@h}24 ({@damage 3d10 + 8}) slashing damage. If the target is a Medium or smaller creature, it is {@condition 被擒} (escape {@dc 23}), pulled into an unoccupied space within 5 feet of Dyrrn, and must succeed on a {@dc 23} Intelligence saving throw or be {@condition 震懾} until this grapple ends. Dyrrn can't use the same tentacle whip on another target until this grapple ends. Dyrrn has two tentacle whips."
 					]
 				},
 				{
@@ -1098,7 +1098,7 @@
 				{
 					"name": "Extract Brain",
 					"entries": [
-						"{@atk mw} {@hit 15} to hit, reach 5 ft., one {@condition 无力} creature {@condition 被擒} by Dyrrn. {@h}55 ({@damage 10d10}) piercing damage. If this damage reduces the target to 0 hit points, Dyrrn kills the target by extracting and devouring its brain."
+						"{@atk mw} {@hit 15} to hit, reach 5 ft., one {@condition 無力} creature {@condition 被擒} by Dyrrn. {@h}55 ({@damage 10d10}) piercing damage. If this damage reduces the target to 0 hit points, Dyrrn kills the target by extracting and devouring its brain."
 					]
 				}
 			],
@@ -1118,7 +1118,7 @@
 				{
 					"name": "Mind Blast (Costs 3 Actions)",
 					"entries": [
-						"Dyrrn magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a {@dc 23} Intelligence saving throw or take 30 ({@damage 5d8 + 8}) psychic damage and be {@condition 震慑} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"Dyrrn magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a {@dc 23} Intelligence saving throw or take 30 ({@damage 5d8 + 8}) psychic damage and be {@condition 震懾} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -1331,7 +1331,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1381,17 +1381,17 @@
 						"The quori's spellcasting ability is Intelligence (spell save {@dc 16}). It can innately cast the following spells, requiring no components:"
 					],
 					"will": [
-						"{@spell 魅惑人类}"
+						"{@spell 魅惑人類}"
 					],
 					"daily": {
 						"1": [
-							"{@spell 支配人类}",
-							"{@spell 托梦术}"
+							"{@spell 支配人類}",
+							"{@spell 託夢術}"
 						],
 						"3e": [
-							"{@spell 侦测思想}",
-							"{@spell 易容术}",
-							"{@spell 暗示术}"
+							"{@spell 偵測思想}",
+							"{@spell 易容術}",
+							"{@spell 暗示術}"
 						]
 					},
 					"ability": "int"
@@ -1419,8 +1419,8 @@
 				{
 					"name": "Possession {@recharge}",
 					"entries": [
-						"One humanoid that the quori can see within 5 feet of it must succeed on a {@dc 16} Charisma saving throw or be possessed by the quori; the quori then disappears, and the target is {@condition 无力} and loses control of its body. The quori now controls the body but doesn't deprive the target of awareness. The quori can't be targeted by any attack, spell, or other effect, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being {@condition 魅惑} and {@condition 恐惧}. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
-						"The possession lasts until the body drops to 0 hit points, the quori ends it as a bonus action, or the quori is forced out by an effect like the {@spell 反制善恶} spell. When the possession ends, the quori reappears in an unoccupied space within 5 feet of the body. The target is immune to this quori's Possession for 24 hours after succeeding on the saving throw or after the possession ends."
+						"One humanoid that the quori can see within 5 feet of it must succeed on a {@dc 16} Charisma saving throw or be possessed by the quori; the quori then disappears, and the target is {@condition 無力} and loses control of its body. The quori now controls the body but doesn't deprive the target of awareness. The quori can't be targeted by any attack, spell, or other effect, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being {@condition 魅惑} and {@condition 恐懼}. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
+						"The possession lasts until the body drops to 0 hit points, the quori ends it as a bonus action, or the quori is forced out by an effect like the {@spell 反制善惡} spell. When the possession ends, the quori reappears in an unoccupied space within 5 feet of the body. The target is immune to this quori's Possession for 24 hours after succeeding on the saving throw or after the possession ends."
 					]
 				}
 			],
@@ -1479,7 +1479,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell 法师护甲}",
+					"condition": "with {@spell 法師護甲}",
 					"braces": true
 				}
 			],
@@ -1525,16 +1525,16 @@
 						"The Inspired's spellcasting ability is Intelligence (spell save {@dc 13}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 法师之手}",
-						"{@spell 恶毒嘲笑} (see \"Actions\" below)"
+						"{@spell 法師之手}",
+						"{@spell 惡毒嘲笑} (see \"Actions\" below)"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 魅惑人类}",
-							"{@spell 噪音暗语}",
-							"{@spell 脆弱诅咒}",
-							"{@spell 人类定身术}",
-							"{@spell 法师护甲}"
+							"{@spell 魅惑人類}",
+							"{@spell 噪音暗語}",
+							"{@spell 脆弱詛咒}",
+							"{@spell 人類定身術}",
+							"{@spell 法師護甲}"
 						]
 					},
 					"ability": "int"
@@ -1582,7 +1582,7 @@
 									"type": "entries",
 									"name": "Suggestion (3/Day)",
 									"entries": [
-										"The Inspired can cast the {@spell 暗示术} spell (spell save {@dc 13}), requiring no material components."
+										"The Inspired can cast the {@spell 暗示術} spell (spell save {@dc 13}), requiring no material components."
 									]
 								}
 							]
@@ -1615,7 +1615,7 @@
 									"type": "entries",
 									"name": "Fear (1/Day)",
 									"entries": [
-										"The Inspired can cast the {@spell 恐惧术} spell (spell save {@dc 13}), requiring no material components."
+										"The Inspired can cast the {@spell 恐懼術} spell (spell save {@dc 13}), requiring no material components."
 									]
 								}
 							]
@@ -1659,7 +1659,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1754,7 +1754,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1801,7 +1801,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -1832,10 +1832,10 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell 锐眼术}",
-							"{@spell 困惑术}",
-							"{@spell 托梦术}",
-							"{@spell 摄心目光}"
+							"{@spell 銳眼術}",
+							"{@spell 困惑術}",
+							"{@spell 託夢術}",
+							"{@spell 攝心目光}"
 						]
 					},
 					"ability": "cha"
@@ -1845,7 +1845,7 @@
 				{
 					"name": "All-Around Vision",
 					"entries": [
-						"The quori can't be surprised while it isn't {@condition 无力}."
+						"The quori can't be surprised while it isn't {@condition 無力}."
 					]
 				},
 				{
@@ -1884,7 +1884,7 @@
 					"name": "Mind Seed (1/Day)",
 					"entries": [
 						"The quori touches one humanoid, which must succeed on a {@dc 21} Intelligence saving throw or be cursed. The curse lasts until it's removed by a remove curse or greater restoration spell.",
-						"The cursed target suffers 1 level of {@condition 力竭} every 24 hours, and finishing a long rest doesn't reduce its {@condition 力竭}. If the cursed target reaches {@condition 力竭} level 6, it doesn't die; it instead becomes a thrall under the quori's control, and all its {@condition 力竭} is removed. Only the {@spell 祈愿术} spell can free the thrall from this control."
+						"The cursed target suffers 1 level of {@condition 力竭} every 24 hours, and finishing a long rest doesn't reduce its {@condition 力竭}. If the cursed target reaches {@condition 力竭} level 6, it doesn't die; it instead becomes a thrall under the quori's control, and all its {@condition 力竭} is removed. Only the {@spell 祈願術} spell can free the thrall from this control."
 					]
 				},
 				{
@@ -1896,8 +1896,8 @@
 				{
 					"name": "Possession {@recharge}",
 					"entries": [
-						"One humanoid that the quori can see within 5 feet of it must succeed on a {@dc 21} Charisma saving throw or be possessed by the quori; the quori then disappears, and the target is {@condition 无力} and loses control of its body. The quori now controls the body but doesn't deprive the target of awareness. The quori can't be targeted by any attack, spell, or other effect, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being {@condition 魅惑} and {@condition 恐惧}. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
-						"The possession lasts until the body drops to 0 hit points, the quori ends it as a bonus action, or the quori is forced out by an effect like the {@spell 反制善恶} spell. When the possession ends, the quori reappears in an unoccupied space within 5 feet of the body. The target is immune to this quori's Possession for 24 hours after succeeding on the saving throw or after the possession ends."
+						"One humanoid that the quori can see within 5 feet of it must succeed on a {@dc 21} Charisma saving throw or be possessed by the quori; the quori then disappears, and the target is {@condition 無力} and loses control of its body. The quori now controls the body but doesn't deprive the target of awareness. The quori can't be targeted by any attack, spell, or other effect, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being {@condition 魅惑} and {@condition 恐懼}. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
+						"The possession lasts until the body drops to 0 hit points, the quori ends it as a bonus action, or the quori is forced out by an effect like the {@spell 反制善惡} spell. When the possession ends, the quori reappears in an unoccupied space within 5 feet of the body. The target is immune to this quori's Possession for 24 hours after succeeding on the saving throw or after the possession ends."
 					]
 				}
 			],
@@ -2078,7 +2078,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The soldier has advantage on an attack roll against a creature if at least one of the soldier's allies is within 5 feet of the creature and the ally isn't {@condition 无力}."
+						"The soldier has advantage on an attack roll against a creature if at least one of the soldier's allies is within 5 feet of the creature and the ally isn't {@condition 無力}."
 					]
 				},
 				{
@@ -2158,7 +2158,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -2204,7 +2204,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -2234,62 +2234,62 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 寒颤之触} (see \"Actions\" below)",
+								"{@spell 冷顫之觸} (see \"Actions\" below)",
 								"{@spell 火焰箭}",
-								"{@spell 法师之手}",
-								"{@spell 魔法技俩}",
-								"{@spell 冷冻射线}"
+								"{@spell 法師之手}",
+								"{@spell 魔法技倆}",
+								"{@spell 冷凍射線}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 魔法飞弹}",
-								"{@spell 护盾术}",
-								"{@spell 睡眠术}"
+								"{@spell 魔法飛彈}",
+								"{@spell 護盾術}",
+								"{@spell 睡眠術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 朦胧术}",
-								"{@spell 侦测思想}",
-								"{@spell 镜影术}"
+								"{@spell 朦朧術}",
+								"{@spell 偵測思想}",
+								"{@spell 鏡影術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 活化死尸}",
-								"{@spell 反制法术}",
-								"{@spell 火球术}",
-								"{@spell 飞行术}",
-								"{@spell 闪电束}"
+								"{@spell 活化死屍}",
+								"{@spell 反製法術}",
+								"{@spell 火球術}",
+								"{@spell 飛行術}",
+								"{@spell 閃電束}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 枯萎术}",
-								"{@spell 困惑术}",
-								"{@spell 变形术}"
+								"{@spell 枯萎術}",
+								"{@spell 困惑術}",
+								"{@spell 變形術}"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
-								"{@spell 死云术}",
-								"{@spell 寒冰锥}",
-								"{@spell 怪物定身术}",
+								"{@spell 死雲術}",
+								"{@spell 寒冰錐}",
+								"{@spell 怪物定身術}",
 								"{@spell 探知}"
 							]
 						},
 						"6": {
 							"slots": 2,
 							"spells": [
-								"{@spell 连环闪电}",
-								"{@spell 死亡之环}",
-								"{@spell 创造不死生物}",
+								"{@spell 連環閃電}",
+								"{@spell 死亡之環}",
+								"{@spell 創造不死生物}",
 								"{@spell 探知}"
 							]
 						},
@@ -2297,22 +2297,22 @@
 							"slots": 2,
 							"spells": [
 								"{@spell 死亡一指}",
-								"{@spell 力场监牢}",
-								"{@spell 虹光喷射}"
+								"{@spell 力場監牢}",
+								"{@spell 虹光噴射}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell 焚云术}",
-								"{@spell 迷宫术}"
+								"{@spell 焚雲術}",
+								"{@spell 迷宮術}"
 							]
 						},
 						"9": {
 							"slots": 1,
 							"spells": [
 								"{@spell 律令死亡}",
-								"{@spell 时间停止}"
+								"{@spell 時間停止}"
 							]
 						}
 					},
@@ -2349,7 +2349,7 @@
 				{
 					"name": "Paralyzing Claw",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 5 ft., one creature. {@h}13 ({@damage 3d6 + 3}) slashing damage plus 10 ({@damage 3d6}) cold damage, and the target must succeed on a {@dc 20} Constitution saving throw or be {@condition 麻痹} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one creature. {@h}13 ({@damage 3d6 + 3}) slashing damage plus 10 ({@damage 3d6}) cold damage, and the target must succeed on a {@dc 20} Constitution saving throw or be {@condition 麻痺} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -2376,7 +2376,7 @@
 				{
 					"name": "Frightening Presence (Costs 2 Actions)",
 					"entries": [
-						"Illmarrow targets up to three creatures she can see within 30 feet of her. Each target must succeed on a {@dc 20} Wisdom saving throw or be {@condition 恐惧} for 1 minute. A {@condition 恐惧} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to Illmarrow's Frightening Presence for the next 24 hours."
+						"Illmarrow targets up to three creatures she can see within 30 feet of her. Each target must succeed on a {@dc 20} Wisdom saving throw or be {@condition 恐懼} for 1 minute. A {@condition 恐懼} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to Illmarrow's Frightening Presence for the next 24 hours."
 					]
 				},
 				{
@@ -2441,7 +2441,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -2470,7 +2470,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -2546,7 +2546,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -2575,7 +2575,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -2661,7 +2661,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -2690,7 +2690,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -2807,11 +2807,11 @@
 						"The magewright's spellcasting ability is Intelligence (spell save {@dc 12}). To cast one of its rituals, the magewright must provide additional material components whose value in gold pieces is 20 times the spell's level. These components are consumed when the ritual is finished. The magewright knows the following spells:"
 					],
 					"will": [
-						"{@spell 法师之手}",
-						"{@spell 魔法技俩}"
+						"{@spell 法師之手}",
+						"{@spell 魔法技倆}"
 					],
 					"ritual": [
-						"{@spell 敲击术}"
+						"{@spell 敲擊術}"
 					],
 					"ability": "int"
 				}
@@ -2895,7 +2895,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -2921,18 +2921,18 @@
 					],
 					"will": [
 						"{@spell 幻色法球} (see \"Actions\" below)",
-						"{@spell 侦测思想}",
-						"{@spell 易容术}"
+						"{@spell 偵測思想}",
+						"{@spell 易容術}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 放逐斩}",
-							"{@spell 湮灭波}",
-							"{@spell 飞行术}",
-							"{@spell 群体暗示术}",
-							"{@spell 惊震斩}",
-							"{@spell 暗示术}",
-							"{@spell 真知术}"
+							"{@spell 放逐斬}",
+							"{@spell 湮滅波}",
+							"{@spell 飛行術}",
+							"{@spell 群體暗示術}",
+							"{@spell 驚震斬}",
+							"{@spell 暗示術}",
+							"{@spell 真知術}"
 						]
 					},
 					"ability": "cha"
@@ -3024,7 +3024,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -3063,7 +3063,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -3084,18 +3084,18 @@
 						"The radiant idol's spellcasting ability is Charisma (spell save {@dc 17}). The radiant idol can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 魅惑人类}",
-						"{@spell 治疗伤势}",
-						"{@spell 易容术}",
-						"{@spell 奇术}"
+						"{@spell 魅惑人類}",
+						"{@spell 治療傷勢}",
+						"{@spell 易容術}",
+						"{@spell 奇術}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 通神术}",
-							"{@spell 支配人类}",
-							"{@spell 疫病虫群}",
-							"{@spell 群体暗示术}",
-							"{@spell 唤醒死者}"
+							"{@spell 通神術}",
+							"{@spell 支配人類}",
+							"{@spell 疫病蟲群}",
+							"{@spell 群體暗示術}",
+							"{@spell 喚醒死者}"
 						]
 					},
 					"ability": "cha"
@@ -3105,7 +3105,7 @@
 				{
 					"name": "Aura of False Divinity",
 					"entries": [
-						"A creature that starts its turn within 30 feet of the radiant idol must make a {@dc 17} Wisdom saving throw, provided the radiant idol isn't {@condition 无力}. On a failed save, the creature is {@condition 魅惑} by the radiant idol. A creature {@condition 魅惑} in this way can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once it succeeds on the saving throw, a creature is immune to this radiant idol's Aura of False Divinity for 24 hours."
+						"A creature that starts its turn within 30 feet of the radiant idol must make a {@dc 17} Wisdom saving throw, provided the radiant idol isn't {@condition 無力}. On a failed save, the creature is {@condition 魅惑} by the radiant idol. A creature {@condition 魅惑} in this way can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once it succeeds on the saving throw, a creature is immune to this radiant idol's Aura of False Divinity for 24 hours."
 					]
 				},
 				{
@@ -3185,7 +3185,7 @@
 				{
 					"ac": 23,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				},
 				{
@@ -3237,7 +3237,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -3261,15 +3261,15 @@
 						"Rak Tulkhesh's spellcasting ability is Charisma (spell save {@dc 24}). He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 侦测思想}",
+						"{@spell 偵測思想}",
 						"{@spell 解除魔法}",
-						"{@spell 灵体守卫}"
+						"{@spell 靈體守衛}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 放逐斩}",
-							"{@spell 致盲斩}",
-							"{@spell 惊震斩}"
+							"{@spell 放逐斬}",
+							"{@spell 致盲斬}",
+							"{@spell 驚震斬}"
 						]
 					},
 					"ability": "cha"
@@ -3490,7 +3490,7 @@
 				{
 					"ac": 22,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -3541,7 +3541,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -3565,29 +3565,29 @@
 						"Sul Khatesh's spellcasting ability is Intelligence (spell save {@dc 26}, {@hit 18} to hit with spell attacks). She can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 反制法术}",
-						"{@spell 侦测魔法}",
-						"{@spell 侦测思想}",
+						"{@spell 反製法術}",
+						"{@spell 偵測魔法}",
+						"{@spell 偵測思想}",
 						"{@spell 解除魔法}",
-						"{@spell 摄心目光}",
-						"{@spell 火球术}",
-						"{@spell 闪电束}",
-						"{@spell 护盾术}"
+						"{@spell 攝心目光}",
+						"{@spell 火球術}",
+						"{@spell 閃電束}",
+						"{@spell 護盾術}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell 连环闪电}",
-							"{@spell 创造不死生物}",
-							"{@spell 托梦术}",
-							"{@spell 怪物定身术}",
-							"{@spell 群体暗示术}",
+							"{@spell 連環閃電}",
+							"{@spell 創造不死生物}",
+							"{@spell 託夢術}",
+							"{@spell 怪物定身術}",
+							"{@spell 群體暗示術}",
 							"{@spell 探知}"
 						],
 						"1e": [
-							"{@spell 预视术}",
-							"{@spell 异界之门}",
+							"{@spell 預視術}",
+							"{@spell 異界之門}",
 							"{@spell 律令死亡}",
-							"{@spell 传送术}"
+							"{@spell 傳送術}"
 						]
 					},
 					"ability": "int"
@@ -3662,7 +3662,7 @@
 				{
 					"name": "Maddening Secrets (Costs 3 Actions)",
 					"entries": [
-						"Sul Khatesh whispers an arcane secret into the mind of a creature she can see within 60 feet of her. The target must succeed on a {@dc 26} Wisdom saving throw or expend one of its spell slots of 3rd level or lower and deal 26 ({@damage 4d12}) force damage to each creature within 30 feet of it. A creature that fails the saving throw but can't expend a spell slot is instead {@condition 震慑} until the end of its next turn."
+						"Sul Khatesh whispers an arcane secret into the mind of a creature she can see within 60 feet of her. The target must succeed on a {@dc 26} Wisdom saving throw or expend one of its spell slots of 3rd level or lower and deal 26 ({@damage 4d12}) force damage to each creature within 30 feet of it. A creature that fails the saving throw but can't expend a spell slot is instead {@condition 震懾} until the end of its next turn."
 					]
 				}
 			],
@@ -3853,7 +3853,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -3909,48 +3909,48 @@
 						"0": {
 							"spells": [
 								"{@spell 火焰箭} (see \"Actions\" below)",
-								"{@spell 法师之手}",
-								"{@spell 修复术}",
-								"{@spell 魔法技俩}"
+								"{@spell 法師之手}",
+								"{@spell 修復術}",
+								"{@spell 魔法技倆}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 脚底抹油}",
-								"{@spell 圣域术}",
-								"{@spell 雷鸣波}"
+								"{@spell 腳底抹油}",
+								"{@spell 聖域術}",
+								"{@spell 雷鳴波}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 朦胧术}",
-								"{@spell 灼热金属}",
-								"{@spell 灼热射线}",
-								"{@spell 识破隐形}"
+								"{@spell 朦朧術}",
+								"{@spell 灼熱金屬}",
+								"{@spell 灼熱射線}",
+								"{@spell 識破隱形}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
 								"{@spell 解除魔法}",
-								"{@spell 飞行术}",
-								"{@spell 加速术}"
+								"{@spell 飛行術}",
+								"{@spell 加速術}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 行动自如术}",
-								"{@spell 魔邓肯忠犬}"
+								"{@spell 行動自如術}",
+								"{@spell 魔鄧肯忠犬}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell 活化物体}",
-								"{@spell 力墙术}"
+								"{@spell 活化物體}",
+								"{@spell 力牆術}"
 							]
 						}
 					},
@@ -4079,7 +4079,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -4127,11 +4127,11 @@
 						"The quori's spellcasting ability is Charisma (spell save {@dc 14}). It can innately cast the following spells, requiring no components:"
 					],
 					"will": [
-						"{@spell 魅惑人类}"
+						"{@spell 魅惑人類}"
 					],
 					"daily": {
 						"1": [
-							"{@spell 恐惧术}"
+							"{@spell 恐懼術}"
 						]
 					},
 					"ability": "cha"
@@ -4159,14 +4159,14 @@
 				{
 					"name": "Stinger",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 10 ft., one creature. {@h}8 ({@damage 1d10 + 3}) piercing damage plus 10 ({@damage 3d6}) psychic damage, and the target must succeed on a {@dc 14} Wisdom saving throw or be {@condition 恐惧} of the quori for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one creature. {@h}8 ({@damage 1d10 + 3}) piercing damage plus 10 ({@damage 3d6}) psychic damage, and the target must succeed on a {@dc 14} Wisdom saving throw or be {@condition 恐懼} of the quori for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
 					"name": "Possession {@recharge}",
 					"entries": [
-						"One humanoid that the quori can see within 5 feet of it must succeed on a {@dc 14} Charisma saving throw or be possessed by the quori; the quori then disappears, and the target is {@condition 无力} and loses control of its body. The quori now controls the body but doesn't deprive the target of awareness. The quori can't be targeted by any attack, spell, or other effect, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being {@condition 魅惑} and {@condition 恐惧}. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
-						"The possession lasts until the body drops to 0 hit points, the quori ends it as a bonus action, or the quori is forced out by an effect like the {@spell 反制善恶} spell. When the possession ends, the quori reappears in an unoccupied space within 5 feet of the body. The target is immune to this quori's Possession for 24 hours after succeeding on the saving throw or after the possession ends."
+						"One humanoid that the quori can see within 5 feet of it must succeed on a {@dc 14} Charisma saving throw or be possessed by the quori; the quori then disappears, and the target is {@condition 無力} and loses control of its body. The quori now controls the body but doesn't deprive the target of awareness. The quori can't be targeted by any attack, spell, or other effect, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being {@condition 魅惑} and {@condition 恐懼}. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
+						"The possession lasts until the body drops to 0 hit points, the quori ends it as a bonus action, or the quori is forced out by an effect like the {@spell 反制善惡} spell. When the possession ends, the quori reappears in an unoccupied space within 5 feet of the body. The target is immune to this quori's Possession for 24 hours after succeeding on the saving throw or after the possession ends."
 					]
 				}
 			],
@@ -4220,7 +4220,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -4281,19 +4281,19 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 神导术}",
-								"{@spell 修复术}",
-								"{@spell 圣焰}",
-								"{@spell 拯救濒死}",
-								"{@spell 奇术}"
+								"{@spell 神導術}",
+								"{@spell 修復術}",
+								"{@spell 聖焰}",
+								"{@spell 拯救瀕死}",
+								"{@spell 奇術}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 祝福术}",
-								"{@spell 命令术}",
-								"{@spell 造水/枯水术}"
+								"{@spell 祝福術}",
+								"{@spell 命令術}",
+								"{@spell 造水/枯水術}"
 							]
 						},
 						"2": {
@@ -4301,44 +4301,44 @@
 							"spells": [
 								"{@spell 卜筮}",
 								"{@spell 安定心神}",
-								"{@spell 人类定身术}"
+								"{@spell 人類定身術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 昼明术}",
+								"{@spell 晝明術}",
 								"{@spell 解除魔法}",
-								"{@spell 灵体守卫}"
+								"{@spell 靈體守衛}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 放逐术}",
-								"{@spell 预言术}",
-								"{@spell 虔诚守卫}"
+								"{@spell 放逐術}",
+								"{@spell 預言術}",
+								"{@spell 虔誠守衛}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell 反制善恶}",
-								"{@spell 焰击术} (see \"Actions\" below)",
+								"{@spell 反制善惡}",
+								"{@spell 焰擊術} (see \"Actions\" below)",
 								"{@spell 探知}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell 禁制术}",
-								"{@spell 异界盟友}"
+								"{@spell 禁制術}",
+								"{@spell 異界盟友}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell 异界传送}"
+								"{@spell 異界傳送}"
 							]
 						}
 					},
@@ -4484,7 +4484,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -4648,7 +4648,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -4799,7 +4799,7 @@
 				{
 					"ac": 23,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -4834,7 +4834,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -4880,7 +4880,7 @@
 				{
 					"name": "Towering Terror",
 					"entries": [
-						"Any enemy outside the colossus that starts its turn within 30 feet of it must succeed on a {@dc 26} Wisdom saving throw or be {@condition 恐惧} until the start of the enemy's next turn. If the enemy's saving throw is successful, it is immune to this colossus's Towering Terror for the next 24 hours."
+						"Any enemy outside the colossus that starts its turn within 30 feet of it must succeed on a {@dc 26} Wisdom saving throw or be {@condition 恐懼} until the start of the enemy's next turn. If the enemy's saving throw is successful, it is immune to this colossus's Towering Terror for the next 24 hours."
 					]
 				}
 			],
@@ -4906,7 +4906,7 @@
 				{
 					"name": "Stomp",
 					"entries": [
-						"The colossus stomps one of its feet at a point on the ground within 20 feet of it. Any creature in a 20-foot-radius, 20-foot-high cylinder centered on this point must succeed on a {@dc 26} Dexterity saving throw or take 33 ({@damage 6d10}) bludgeoning damage and fall {@condition 伏地}. Until the colossus uses its Stomp again or moves, the creature is {@condition 束缚}. While {@condition 束缚} in this way, the creature (or another creature within 5 feet of it) can use its action to make a {@dc 26} Strength check. On a success, the creature relocates to an unoccupied space of its choice within 5 feet of the colossus and is no longer {@condition 束缚}.",
+						"The colossus stomps one of its feet at a point on the ground within 20 feet of it. Any creature in a 20-foot-radius, 20-foot-high cylinder centered on this point must succeed on a {@dc 26} Dexterity saving throw or take 33 ({@damage 6d10}) bludgeoning damage and fall {@condition 伏地}. Until the colossus uses its Stomp again or moves, the creature is {@condition 束縛}. While {@condition 束縛} in this way, the creature (or another creature within 5 feet of it) can use its action to make a {@dc 26} Strength check. On a success, the creature relocates to an unoccupied space of its choice within 5 feet of the colossus and is no longer {@condition 束縛}.",
 						"Structures, as well as nonmagical objects that are neither being worn nor carried, take the same amount of damage if they are in the cylinder (no save)."
 					]
 				},
@@ -5069,7 +5069,7 @@
 				{
 					"ac": 20,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -5220,7 +5220,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -5245,12 +5245,12 @@
 						"The rakshasa's innate spellcasting ability is Charisma (spell save {@dc 11}). The rakshasa can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 侦测思想}",
-						"{@spell 易容术}"
+						"{@spell 偵測思想}",
+						"{@spell 易容術}"
 					],
 					"daily": {
 						"1": [
-							"{@spell 护盾术}"
+							"{@spell 護盾術}"
 						]
 					},
 					"ability": "cha"

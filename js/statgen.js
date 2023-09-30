@@ -55,7 +55,7 @@ class StatGenPage {
 				buttons: [
 					{
 						html: `<span class="glyphicon glyphicon-upload"></span>`,
-						title: "从文件加载",
+						title: "從文件載入",
 						pFnClick: async () => {
 							const jsons = await DataUtil.pUserUpload({fileType: "statgen"});
 							if (!jsons?.length) return;
@@ -69,7 +69,7 @@ class StatGenPage {
 				buttons: [
 					{
 						html: `<span class="glyphicon glyphicon-magnet"></span>`,
-						title: "复制链接",
+						title: "複製連結",
 						pFnClick: async (evt, $btn) => {
 							const encoded = `${window.location.href.split("#")[0]}#pointbuy${HASH_PART_SEP}${encodeURIComponent(JSON.stringify(this._statGenUi.getSaveableState()))}`;
 							await MiscUtil.pCopyTextToClipboard(encoded);

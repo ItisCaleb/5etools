@@ -166,7 +166,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell 法师护甲}",
+					"condition": "with {@spell 法師護甲}",
 					"braces": true
 				}
 			],
@@ -216,47 +216,47 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 交友术}",
-								"{@spell 法师之手}",
-								"{@spell 修复术}",
-								"{@spell 传讯术}"
+								"{@spell 交友術}",
+								"{@spell 法師之手}",
+								"{@spell 修復術}",
+								"{@spell 傳訊術}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 魅惑人类}",
-								"{@spell 法师护甲}",
-								"{@spell 魔法飞弹}"
+								"{@spell 魅惑人類}",
+								"{@spell 法師護甲}",
+								"{@spell 魔法飛彈}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 人类定身术}",
-								"{@spell 隐形术}",
-								"{@spell 暗示术}"
+								"{@spell 人類定身術}",
+								"{@spell 隱形術}",
+								"{@spell 暗示術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 火球术}",
-								"{@spell 加速术}",
-								"{@spell 巧舌术}"
+								"{@spell 火球術}",
+								"{@spell 加速術}",
+								"{@spell 巧舌術}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 困惑术}",
-								"{@spell 石肤术}"
+								"{@spell 困惑術}",
+								"{@spell 石膚術}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell 怪物定身术}"
+								"{@spell 怪物定身術}"
 							]
 						}
 					},
@@ -407,7 +407,7 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"The rat has advantage on Wisdom ({@skill 察觉}) checks that rely on smell."
+						"The rat has advantage on Wisdom ({@skill 察覺}) checks that rely on smell."
 					]
 				}
 			],
@@ -460,7 +460,7 @@
 				10,
 				{
 					"ac": 13,
-					"condition": "with {@spell 法师护甲}",
+					"condition": "with {@spell 法師護甲}",
 					"braces": true
 				}
 			],
@@ -504,41 +504,41 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 剑刃防护}",
-								"{@spell 光亮术}",
-								"{@spell 法师之手}",
-								"{@spell 传讯术}"
+								"{@spell 劍刃防護}",
+								"{@spell 光亮術}",
+								"{@spell 法師之手}",
+								"{@spell 傳訊術}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 通晓语言}",
-								"{@spell 鉴定术}",
-								"{@spell 侦测魔法}",
-								"{@spell 法师护甲}",
-								"{@spell 护盾术}"
+								"{@spell 通曉語言}",
+								"{@spell 鑑定術}",
+								"{@spell 偵測魔法}",
+								"{@spell 法師護甲}",
+								"{@spell 護盾術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 侦测思想}",
-								"{@spell 暗示术}"
+								"{@spell 偵測思想}",
+								"{@spell 暗示術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 锐眼术}",
-								"{@spell 短讯术}"
+								"{@spell 銳眼術}",
+								"{@spell 簡訊術}"
 							]
 						},
 						"4": {
 							"slots": 1,
 							"spells": [
-								"{@spell 生物定位术}",
-								"{@spell 欧提路克魔封法球}"
+								"{@spell 生物定位術}",
+								"{@spell 歐提路克魔封法球}"
 							]
 						}
 					},
@@ -633,7 +633,7 @@
 				{
 					"name": "Brave",
 					"entries": [
-						"Bepis has advantage on saving throws against being {@condition 恐惧}."
+						"Bepis has advantage on saving throws against being {@condition 恐懼}."
 					]
 				}
 			],
@@ -708,13 +708,13 @@
 				{
 					"name": "Evasion",
 					"entries": [
-						"If the Black Viper is subjected to an effect that allows her to make a Dexterity saving throw to take only half damage, she instead takes no damage if she succeeds on the saving throw, and only half damage if she fails. She can't use this trait if she's {@condition 无力}."
+						"If the Black Viper is subjected to an effect that allows her to make a Dexterity saving throw to take only half damage, she instead takes no damage if she succeeds on the saving throw, and only half damage if she fails. She can't use this trait if she's {@condition 無力}."
 					]
 				},
 				{
 					"name": "Sneak Attack (1/Turn)",
 					"entries": [
-						"The Black Viper deals an extra 14 ({@dice 4d6}) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the Black Viper that isn't {@condition 无力} and the Black Viper doesn't have disadvantage on the attack roll."
+						"The Black Viper deals an extra 14 ({@dice 4d6}) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the Black Viper that isn't {@condition 無力} and the Black Viper doesn't have disadvantage on the attack roll."
 					]
 				}
 			],
@@ -884,55 +884,55 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 法师之手}",
-								"{@spell 修复术}",
-								"{@spell 次级幻象}",
-								"{@spell 恶毒嘲笑}"
+								"{@spell 法師之手}",
+								"{@spell 修復術}",
+								"{@spell 次級幻象}",
+								"{@spell 惡毒嘲笑}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 治疗伤势}",
-								"{@spell 易容术}",
-								"{@spell 睡眠术}"
+								"{@spell 治療傷勢}",
+								"{@spell 易容術}",
+								"{@spell 睡眠術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 疯狂冠冕}",
-								"{@spell 隐形术}",
-								"{@spell 暗示术}"
+								"{@spell 瘋狂冠冕}",
+								"{@spell 隱形術}",
+								"{@spell 暗示術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 回避侦测}",
-								"{@spell 短讯术}",
-								"{@spell 巧舌术}"
+								"{@spell 迴避偵測}",
+								"{@spell 簡訊術}",
+								"{@spell 巧舌術}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 强迫术}",
-								"{@spell 行动自如术}",
-								"{@spell 变形术}"
+								"{@spell 強迫術}",
+								"{@spell 行動自如術}",
+								"{@spell 變形術}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell 支配人类}",
-								"{@spell 高等复原术}"
+								"{@spell 支配人類}",
+								"{@spell 高等復原術}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell 奥图狂舞术}"
+								"{@spell 奧圖狂舞術}"
 							]
 						}
 					},
@@ -1031,7 +1031,7 @@
 				{
 					"ac": 12,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1192,13 +1192,13 @@
 						"The drow's spellcasting ability is Charisma (spell save {@dc 12}) It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 舞光术}"
+						"{@spell 舞光術}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 黑暗术}",
-							"{@spell 妖火术}",
-							"{@spell 浮空术} (self only)"
+							"{@spell 黑暗術}",
+							"{@spell 妖火術}",
+							"{@spell 浮空術} (self only)"
 						]
 					},
 					"ability": "cha"
@@ -1466,7 +1466,7 @@
 						"Embric's spellcasting ability is Constitution ({@hit 4} to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 燃火术}"
+						"{@spell 燃火術}"
 					],
 					"ability": "con"
 				}
@@ -1562,16 +1562,16 @@
 						"0": {
 							"spells": [
 								"{@spell 火焰箭}",
-								"{@spell 修复术}",
-								"{@spell 魔法技俩}"
+								"{@spell 修復術}",
+								"{@spell 魔法技倆}"
 							]
 						},
 						"1": {
 							"slots": 2,
 							"spells": [
-								"{@spell 燃烧之手}",
-								"{@spell 易容术}",
-								"{@spell 护盾术}"
+								"{@spell 燃燒之手}",
+								"{@spell 易容術}",
+								"{@spell 護盾術}"
 							]
 						}
 					},
@@ -1636,7 +1636,7 @@
 				11,
 				{
 					"ac": 16,
-					"condition": "with {@spell 树肤术}",
+					"condition": "with {@spell 樹膚術}",
 					"braces": true
 				}
 			],
@@ -1677,25 +1677,25 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 德鲁伊伎俩}",
-								"{@spell 燃火术}",
-								"{@spell 橡棍术}"
+								"{@spell 德魯伊伎倆}",
+								"{@spell 燃火術}",
+								"{@spell 橡棍術}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 纠缠术}",
+								"{@spell 糾纏術}",
 								"{@spell 大步奔行}",
-								"{@spell 动物交谈术}",
-								"{@spell 雷鸣波}"
+								"{@spell 動物交談術}",
+								"{@spell 雷鳴波}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 动物信使}",
-								"{@spell 树肤术}"
+								"{@spell 動物信使}",
+								"{@spell 樹膚術}"
 							]
 						}
 					},
@@ -1820,7 +1820,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1867,7 +1867,7 @@
 				{
 					"name": "Antimagic Susceptibility",
 					"entries": [
-						"The staff is {@condition 无力} while in the area of an antimagic field. If targeted by dispel magic, the staff must succeed on a Constitution saving throw against the caster's spell save DC or fall {@condition 昏迷} for 1 minute."
+						"The staff is {@condition 無力} while in the area of an antimagic field. If targeted by dispel magic, the staff must succeed on a Constitution saving throw against the caster's spell save DC or fall {@condition 昏迷} for 1 minute."
 					]
 				},
 				{
@@ -2076,16 +2076,16 @@
 						"0": {
 							"spells": [
 								"{@spell 火焰箭}",
-								"{@spell 修复术}",
-								"{@spell 魔法技俩}"
+								"{@spell 修復術}",
+								"{@spell 魔法技倆}"
 							]
 						},
 						"1": {
 							"slots": 2,
 							"spells": [
-								"{@spell 燃烧之手}",
-								"{@spell 易容术}",
-								"{@spell 护盾术}"
+								"{@spell 燃燒之手}",
+								"{@spell 易容術}",
+								"{@spell 護盾術}"
 							]
 						}
 					},
@@ -2182,7 +2182,7 @@
 				{
 					"ac": 22,
 					"from": [
-						"无甲防御"
+						"無甲防禦"
 					]
 				}
 			],
@@ -2229,35 +2229,35 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 神导术}",
-								"{@spell 光亮术}",
-								"{@spell 圣焰}",
-								"{@spell 拯救濒死}"
+								"{@spell 神導術}",
+								"{@spell 光亮術}",
+								"{@spell 聖焰}",
+								"{@spell 拯救瀕死}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 侦测善恶}",
-								"{@spell 治愈真言}",
-								"{@spell 圣域术}",
-								"{@spell 虔诚护盾}"
+								"{@spell 偵測善惡}",
+								"{@spell 治癒真言}",
+								"{@spell 聖域術}",
+								"{@spell 虔誠護盾}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
 								"{@spell 安定心神}",
-								"{@spell 治愈祈祷}",
-								"{@spell 沉默术}"
+								"{@spell 治癒祈禱}",
+								"{@spell 沉默術}"
 							]
 						},
 						"3": {
 							"slots": 2,
 							"spells": [
-								"{@spell 防护能量}",
-								"{@spell 移除诅咒}",
-								"{@spell 短讯术}"
+								"{@spell 防護能量}",
+								"{@spell 移除詛咒}",
+								"{@spell 簡訊術}"
 							]
 						}
 					},
@@ -2268,7 +2268,7 @@
 				{
 					"name": "Evasion",
 					"entries": [
-						"If Hlam is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, he instead takes no damage if he succeeds on the saving throw, and only half damage if he fails. He can't use this trait if he's {@condition 无力}."
+						"If Hlam is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, he instead takes no damage if he succeeds on the saving throw, and only half damage if he fails. He can't use this trait if he's {@condition 無力}."
 					]
 				},
 				{
@@ -2297,7 +2297,7 @@
 						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}12 ({@dice 1d10 + 7}) bludgeoning, magic damage. If the target is a creature, Hlam can choose one of the following additional effects:",
 						"The target must succeed on a {@dc 18} Strength saving throw or drop one item it is holding (Hlam's choice).",
 						"The target must succeed on a {@dc 18} Dexterity saving throw or be knocked {@condition 伏地}.",
-						"The target must succeed on a {@dc 18} Constitution saving throw or be {@condition 震慑} until the end of Hlam's next turn."
+						"The target must succeed on a {@dc 18} Constitution saving throw or be {@condition 震懾} until the end of Hlam's next turn."
 					]
 				},
 				{
@@ -2349,7 +2349,7 @@
 				{
 					"name": "Invisibility (Costs 3 Actions)",
 					"entries": [
-						"Hlam becomes {@condition 隐形} until the end of his next turn. The effect ends if Hlam attacks or casts a spell."
+						"Hlam becomes {@condition 隱形} until the end of his next turn. The effect ends if Hlam attacks or casts a spell."
 					]
 				}
 			],
@@ -2552,57 +2552,57 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 光亮术}",
-								"{@spell 修复术}",
-								"{@spell 圣焰}",
-								"{@spell 拯救濒死}"
+								"{@spell 光亮術}",
+								"{@spell 修復術}",
+								"{@spell 聖焰}",
+								"{@spell 拯救瀕死}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 神恩术}",
-								"{@spell 光导箭}",
-								"{@spell 治愈真言}",
-								"{@spell 虔诚护盾}"
+								"{@spell 神恩術}",
+								"{@spell 光導箭}",
+								"{@spell 治癒真言}",
+								"{@spell 虔誠護盾}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 次级复原术}",
+								"{@spell 次級復原術}",
 								"{@spell 魔化武器}",
-								"{@spell 人类定身术}",
-								"{@spell 沉默术}",
-								"{@spell 灵体武器}"
+								"{@spell 人類定身術}",
+								"{@spell 沉默術}",
+								"{@spell 靈體武器}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 希望信标}",
-								"{@spell 十字军斗篷}",
+								"{@spell 希望信標}",
+								"{@spell 十字軍斗篷}",
 								"{@spell 解除魔法}",
-								"{@spell 回生术}",
-								"{@spell 灵体守卫}",
+								"{@spell 回生術}",
+								"{@spell 靈體守衛}",
 								"{@spell 水面行走}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 放逐术}",
-								"{@spell 行动自如术}",
-								"{@spell 虔诚守卫}",
-								"{@spell 石肤术}"
+								"{@spell 放逐術}",
+								"{@spell 行動自如術}",
+								"{@spell 虔誠守衛}",
+								"{@spell 石膚術}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell 焰击术}",
-								"{@spell 群体治疗伤势}",
-								"{@spell 怪物定身术}"
+								"{@spell 焰擊術}",
+								"{@spell 群體治療傷勢}",
+								"{@spell 怪物定身術}"
 							]
 						}
 					},
@@ -2838,7 +2838,7 @@
 						"Jandar's spellcasting ability is Charisma. He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 奇术}"
+						"{@spell 奇術}"
 					],
 					"ability": "cha"
 				},
@@ -2850,24 +2850,24 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 光亮术}",
-								"{@spell 圣焰}",
-								"{@spell 奇术}"
+								"{@spell 光亮術}",
+								"{@spell 聖焰}",
+								"{@spell 奇術}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 命令术}",
-								"{@spell 造成伤势}",
-								"{@spell 虔诚护盾}"
+								"{@spell 命令術}",
+								"{@spell 造成傷勢}",
+								"{@spell 虔誠護盾}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 人类定身术}",
-								"{@spell 灵体武器}"
+								"{@spell 人類定身術}",
+								"{@spell 靈體武器}"
 							]
 						}
 					},
@@ -2878,7 +2878,7 @@
 				{
 					"name": "Dark Devotion",
 					"entries": [
-						"Jandar has advantage on saving throws against being {@condition 魅惑} or {@condition 恐惧}."
+						"Jandar has advantage on saving throws against being {@condition 魅惑} or {@condition 恐懼}."
 					]
 				}
 			],
@@ -2994,13 +2994,13 @@
 						"Jarlaxle's innate spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks) He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 舞光术}"
+						"{@spell 舞光術}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 黑暗术}",
-							"{@spell 妖火术}",
-							"{@spell 浮空术} (self only)"
+							"{@spell 黑暗術}",
+							"{@spell 妖火術}",
+							"{@spell 浮空術} (self only)"
 						]
 					},
 					"ability": "cha"
@@ -3016,7 +3016,7 @@
 				{
 					"name": "Evasion",
 					"entries": [
-						"If he is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, Jarlaxle instead takes no damage if he succeeds on the saving throw, and only half damage if he fails. He can't use this trait if he's {@condition 无力}."
+						"If he is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, Jarlaxle instead takes no damage if he succeeds on the saving throw, and only half damage if he fails. He can't use this trait if he's {@condition 無力}."
 					]
 				},
 				{
@@ -3040,7 +3040,7 @@
 				{
 					"name": "Sneak Attack (1/Turn)",
 					"entries": [
-						"Jarlaxle deals an extra 24 ({@dice 7d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Jarlaxle's that isn't {@condition 无力} and Jarlaxle doesn't have disadvantage on the attack roll."
+						"Jarlaxle deals an extra 24 ({@dice 7d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Jarlaxle's that isn't {@condition 無力} and Jarlaxle doesn't have disadvantage on the attack roll."
 					]
 				},
 				{
@@ -3182,7 +3182,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell 法师护甲}",
+					"condition": "with {@spell 法師護甲}",
 					"braces": true
 				}
 			],
@@ -3225,46 +3225,46 @@
 						"0": {
 							"spells": [
 								"{@spell 火焰箭}",
-								"{@spell 光亮术}",
-								"{@spell 法师之手}",
-								"{@spell 魔法技俩}"
+								"{@spell 光亮術}",
+								"{@spell 法師之手}",
+								"{@spell 魔法技倆}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 侦测魔法}",
-								"{@spell 法师护甲}",
-								"{@spell 魔法飞弹}",
-								"{@spell 护盾术}"
+								"{@spell 偵測魔法}",
+								"{@spell 法師護甲}",
+								"{@spell 魔法飛彈}",
+								"{@spell 護盾術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 迷踪步}",
-								"{@spell 暗示术}"
+								"{@spell 迷蹤步}",
+								"{@spell 暗示術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 反制法术}",
-								"{@spell 火球术}",
-								"{@spell 短讯术}"
+								"{@spell 反製法術}",
+								"{@spell 火球術}",
+								"{@spell 簡訊術}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 高等隐形术}",
-								"{@spell 冰风暴}"
+								"{@spell 高等隱形術}",
+								"{@spell 冰風暴}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell 寒冰锥}"
+								"{@spell 寒冰錐}"
 							]
 						}
 					},
@@ -3369,25 +3369,25 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 交友术}",
-								"{@spell 法师之手}",
-								"{@spell 恶毒嘲笑}"
+								"{@spell 交友術}",
+								"{@spell 法師之手}",
+								"{@spell 惡毒嘲笑}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 魅惑人类}",
-								"{@spell 治愈真言}",
-								"{@spell 英雄气概}",
-								"{@spell 睡眠术}",
-								"{@spell 雷鸣波}"
+								"{@spell 魅惑人類}",
+								"{@spell 治癒真言}",
+								"{@spell 英雄氣概}",
+								"{@spell 睡眠術}",
+								"{@spell 雷鳴波}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 隐形术}",
+								"{@spell 隱形術}",
 								"{@spell 粉碎音波}"
 							]
 						}
@@ -3496,7 +3496,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -3670,78 +3670,78 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 光亮术}",
-								"{@spell 法师之手}",
-								"{@spell 次级幻象}",
-								"{@spell 魔法技俩}",
-								"{@spell 冷冻射线}"
+								"{@spell 光亮術}",
+								"{@spell 法師之手}",
+								"{@spell 次級幻象}",
+								"{@spell 魔法技倆}",
+								"{@spell 冷凍射線}"
 							]
 						},
 						"1": {
 							"spells": [
-								"{@spell 侦测魔法}",
-								"{@spell 易容术}",
-								"{@spell 魔法飞弹}",
-								"{@spell 护盾术}"
+								"{@spell 偵測魔法}",
+								"{@spell 易容術}",
+								"{@spell 魔法飛彈}",
+								"{@spell 護盾術}"
 							]
 						},
 						"2": {
 							"spells": [
-								"{@spell 侦测思想}",
-								"{@spell 隐形术}",
-								"{@spell 迷踪步}"
+								"{@spell 偵測思想}",
+								"{@spell 隱形術}",
+								"{@spell 迷蹤步}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 反制法术}",
-								"{@spell 飞行术}",
-								"{@spell 短讯术}",
-								"{@spell 巧舌术}"
+								"{@spell 反製法術}",
+								"{@spell 飛行術}",
+								"{@spell 簡訊術}",
+								"{@spell 巧舌術}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 放逐术}",
-								"{@spell 高等隐形术}",
-								"{@spell 欧提路克魔封法球}"
+								"{@spell 放逐術}",
+								"{@spell 高等隱形術}",
+								"{@spell 歐提路克魔封法球}"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
-								"{@spell 寒冰锥}",
-								"{@spell 指使术}",
-								"{@spell 拉瑞心灵联结}"
+								"{@spell 寒冰錐}",
+								"{@spell 指使術}",
+								"{@spell 拉瑞心靈聯結}"
 							]
 						},
 						"6": {
 							"slots": 2,
 							"spells": [
-								"{@spell 法术无效结界}",
-								"{@spell 群体暗示术}"
+								"{@spell 法術無效結界}",
+								"{@spell 群體暗示術}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell 虹光喷射}",
-								"{@spell 传送术}"
+								"{@spell 虹光噴射}",
+								"{@spell 傳送術}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell 弱智术}",
-								"{@spell 律令震慑}"
+								"{@spell 弱智術}",
+								"{@spell 律令震懾}"
 							]
 						},
 						"9": {
 							"slots": 1,
 							"spells": [
-								"{@spell 时间停止}"
+								"{@spell 時間停止}"
 							]
 						}
 					},
@@ -3772,7 +3772,7 @@
 				{
 					"name": "Silver Hair",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d6}) force damage, and the target must succeed on a {@dc 19} Constitution saving throw or be {@condition 麻痹} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d6}) force damage, and the target must succeed on a {@dc 19} Constitution saving throw or be {@condition 麻痺} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -3784,7 +3784,7 @@
 				{
 					"name": "Spellfire (Recharges after a Long Rest)",
 					"entries": [
-						"Magical, heatless, silver fire harmlessly erupts from Laeral and surrounds her until she is {@condition 无力} or until she uses an action to quench it. She gains one of the following benefits of her choice, which lasts until the silver fire ends:",
+						"Magical, heatless, silver fire harmlessly erupts from Laeral and surrounds her until she is {@condition 無力} or until she uses an action to quench it. She gains one of the following benefits of her choice, which lasts until the silver fire ends:",
 						{
 							"type": "list",
 							"items": [
@@ -3798,8 +3798,8 @@
 						{
 							"type": "list",
 							"items": [
-								"Cast the {@spell 治疗伤势} spell. The target regains {@dice 1d8 + 5} hit points. After Laeral takes this action, roll a {@dice d6}. On a roll of 1, the silver fire disappears.",
-								"Cast the {@spell 回生术} spell without material components. After Laeral takes this action, roll a {@dice d6}. On a roll of 1-2, the silver fire disappears.",
+								"Cast the {@spell 治療傷勢} spell. The target regains {@dice 1d8 + 5} hit points. After Laeral takes this action, roll a {@dice d6}. On a roll of 1, the silver fire disappears.",
+								"Cast the {@spell 回生術} spell without material components. After Laeral takes this action, roll a {@dice d6}. On a roll of 1-2, the silver fire disappears.",
 								"Release a 60-foot line of silver fire that is 5 feet wide or a 30-foot cone of silver fire. Objects in the area that aren't being worn or carried take 26 ({@damage 4d12}) fire damage. Each creature in the area must succeed on a {@dc 21} Dexterity saving throw, taking 26 ({@damage 4d12}) fire damage on a failed save, or half as much damage on a successful one. After Laeral takes this action, roll a {@dice d6}. On a roll of 1-3, the silver fire disappears."
 							]
 						}
@@ -3912,7 +3912,7 @@
 						"Laiba's spellcasting ability is Charisma. She can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 奇术}"
+						"{@spell 奇術}"
 					],
 					"ability": "cha"
 				},
@@ -3924,24 +3924,24 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 光亮术}",
-								"{@spell 圣焰}",
-								"{@spell 奇术}"
+								"{@spell 光亮術}",
+								"{@spell 聖焰}",
+								"{@spell 奇術}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 命令术}",
-								"{@spell 造成伤势}",
-								"{@spell 虔诚护盾}"
+								"{@spell 命令術}",
+								"{@spell 造成傷勢}",
+								"{@spell 虔誠護盾}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 人类定身术}",
-								"{@spell 灵体武器}"
+								"{@spell 人類定身術}",
+								"{@spell 靈體武器}"
 							]
 						}
 					},
@@ -3952,7 +3952,7 @@
 				{
 					"name": "Dark Devotion",
 					"entries": [
-						"Laiba has advantage on saving throws against being {@condition 魅惑} or {@condition 恐惧}."
+						"Laiba has advantage on saving throws against being {@condition 魅惑} or {@condition 恐懼}."
 					]
 				}
 			],
@@ -4020,7 +4020,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell 法师护甲}",
+					"condition": "with {@spell 法師護甲}",
 					"braces": true
 				}
 			],
@@ -4061,46 +4061,46 @@
 						"0": {
 							"spells": [
 								"{@spell 火焰箭}",
-								"{@spell 光亮术}",
-								"{@spell 法师之手}",
-								"{@spell 魔法技俩}"
+								"{@spell 光亮術}",
+								"{@spell 法師之手}",
+								"{@spell 魔法技倆}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 侦测魔法}",
-								"{@spell 法师护甲}",
-								"{@spell 魔法飞弹}",
-								"{@spell 护盾术}"
+								"{@spell 偵測魔法}",
+								"{@spell 法師護甲}",
+								"{@spell 魔法飛彈}",
+								"{@spell 護盾術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 迷踪步}",
-								"{@spell 暗示术}"
+								"{@spell 迷蹤步}",
+								"{@spell 暗示術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 活化死尸}",
-								"{@spell 火球术}",
-								"{@spell 飞行术}"
+								"{@spell 活化死屍}",
+								"{@spell 火球術}",
+								"{@spell 飛行術}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 枯萎术}",
-								"{@spell 冰风暴}"
+								"{@spell 枯萎術}",
+								"{@spell 冰風暴}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell 寒冰锥}"
+								"{@spell 寒冰錐}"
 							]
 						}
 					},
@@ -4117,7 +4117,7 @@
 				{
 					"name": "Brave",
 					"entries": [
-						"Losser has advantage on saving throws against being {@condition 恐惧}."
+						"Losser has advantage on saving throws against being {@condition 恐懼}."
 					]
 				}
 			],
@@ -4260,7 +4260,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell 法师护甲}",
+					"condition": "with {@spell 法師護甲}",
 					"braces": true
 				}
 			],
@@ -4301,46 +4301,46 @@
 						"0": {
 							"spells": [
 								"{@spell 火焰箭}",
-								"{@spell 光亮术}",
-								"{@spell 法师之手}",
-								"{@spell 魔法技俩}"
+								"{@spell 光亮術}",
+								"{@spell 法師之手}",
+								"{@spell 魔法技倆}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 侦测魔法}",
-								"{@spell 法师护甲}",
-								"{@spell 魔法飞弹}",
-								"{@spell 护盾术}"
+								"{@spell 偵測魔法}",
+								"{@spell 法師護甲}",
+								"{@spell 魔法飛彈}",
+								"{@spell 護盾術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 迷踪步}",
-								"{@spell 暗示术}"
+								"{@spell 迷蹤步}",
+								"{@spell 暗示術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 反制法术}",
-								"{@spell 火球术}",
-								"{@spell 飞行术}"
+								"{@spell 反製法術}",
+								"{@spell 火球術}",
+								"{@spell 飛行術}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 高等隐形术}",
-								"{@spell 冰风暴}"
+								"{@spell 高等隱形術}",
+								"{@spell 冰風暴}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell 寒冰锥}"
+								"{@spell 寒冰錐}"
 							]
 						}
 					},
@@ -4357,7 +4357,7 @@
 				{
 					"name": "Brave",
 					"entries": [
-						"Manafret has advantage on saving throws against being {@condition 恐惧}."
+						"Manafret has advantage on saving throws against being {@condition 恐懼}."
 					]
 				}
 			],
@@ -4461,78 +4461,78 @@
 						"0": {
 							"spells": [
 								"{@spell 火焰箭}",
-								"{@spell 光亮术}",
-								"{@spell 法师之手}",
-								"{@spell 魔法技俩}",
-								"{@spell 电爪}"
+								"{@spell 光亮術}",
+								"{@spell 法師之手}",
+								"{@spell 魔法技倆}",
+								"{@spell 電爪}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 侦测魔法}",
-								"{@spell 法师护甲}",
-								"{@spell 魔法飞弹}",
-								"{@spell 护盾术}"
+								"{@spell 偵測魔法}",
+								"{@spell 法師護甲}",
+								"{@spell 魔法飛彈}",
+								"{@spell 護盾術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 侦测思想}",
-								"{@spell 镜影术}",
-								"{@spell 迷踪步}"
+								"{@spell 偵測思想}",
+								"{@spell 鏡影術}",
+								"{@spell 迷蹤步}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 反制法术}",
-								"{@spell 闪电束}",
-								"{@spell 短讯术}"
+								"{@spell 反製法術}",
+								"{@spell 閃電束}",
+								"{@spell 簡訊術}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 火焰护盾}",
-								"{@spell 高等隐形术}",
-								"{@spell 变形术}"
+								"{@spell 火焰護盾}",
+								"{@spell 高等隱形術}",
+								"{@spell 變形術}"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
-								"{@spell 毕格比之掌}",
+								"{@spell 畢格比之掌}",
 								"{@spell 探知}",
-								"{@spell 力墙术}"
+								"{@spell 力牆術}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell 石化术}",
-								"{@spell 法术无效结界}"
+								"{@spell 石化術}",
+								"{@spell 法術無效結界}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
 								"{@spell 死亡一指}",
-								"{@spell 拟像术}"
+								"{@spell 擬像術}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell 弱智术}",
-								"{@spell 心灵屏障}"
+								"{@spell 弱智術}",
+								"{@spell 心靈屏障}"
 							]
 						},
 						"9": {
 							"slots": 1,
 							"spells": [
-								"{@spell 禁锢术}",
+								"{@spell 禁錮術}",
 								"{@spell 律令死亡}"
 							]
 						}
@@ -4663,51 +4663,51 @@
 						"0": {
 							"spells": [
 								"{@spell 火焰箭}",
-								"{@spell 光亮术}",
-								"{@spell 法师之手}",
-								"{@spell 魔法技俩}",
-								"{@spell 电爪}"
+								"{@spell 光亮術}",
+								"{@spell 法師之手}",
+								"{@spell 魔法技倆}",
+								"{@spell 電爪}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 侦测魔法}",
-								"{@spell 法师护甲}",
-								"{@spell 魔法飞弹}",
-								"{@spell 护盾术}"
+								"{@spell 偵測魔法}",
+								"{@spell 法師護甲}",
+								"{@spell 魔法飛彈}",
+								"{@spell 護盾術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 侦测思想}",
-								"{@spell 镜影术}",
-								"{@spell 迷踪步}"
+								"{@spell 偵測思想}",
+								"{@spell 鏡影術}",
+								"{@spell 迷蹤步}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 反制法术}",
-								"{@spell 闪电束}",
-								"{@spell 短讯术}"
+								"{@spell 反製法術}",
+								"{@spell 閃電束}",
+								"{@spell 簡訊術}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 火焰护盾}",
-								"{@spell 高等隐形术}",
-								"{@spell 变形术}"
+								"{@spell 火焰護盾}",
+								"{@spell 高等隱形術}",
+								"{@spell 變形術}"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
-								"{@spell 毕格比之掌}",
+								"{@spell 畢格比之掌}",
 								"{@spell 探知}",
-								"{@spell 力墙术}"
+								"{@spell 力牆術}"
 							]
 						}
 					},
@@ -4893,7 +4893,7 @@
 				11,
 				{
 					"ac": 16,
-					"condition": "with {@spell 树肤术}",
+					"condition": "with {@spell 樹膚術}",
 					"braces": true
 				}
 			],
@@ -4933,25 +4933,25 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 德鲁伊伎俩}",
-								"{@spell 燃火术}",
-								"{@spell 橡棍术}"
+								"{@spell 德魯伊伎倆}",
+								"{@spell 燃火術}",
+								"{@spell 橡棍術}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 纠缠术}",
+								"{@spell 糾纏術}",
 								"{@spell 大步奔行}",
-								"{@spell 动物交谈术}",
-								"{@spell 雷鸣波}"
+								"{@spell 動物交談術}",
+								"{@spell 雷鳴波}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 动物信使}",
-								"{@spell 树肤术}"
+								"{@spell 動物信使}",
+								"{@spell 樹膚術}"
 							]
 						}
 					},
@@ -5176,13 +5176,13 @@
 				{
 					"name": "Evasion",
 					"entries": [
-						"If he is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, Mirt instead takes no damage if he succeeds on the saving throw, and only half damage if he fails. He can't use this trait if he's {@condition 无力}."
+						"If he is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, Mirt instead takes no damage if he succeeds on the saving throw, and only half damage if he fails. He can't use this trait if he's {@condition 無力}."
 					]
 				},
 				{
 					"name": "Sneak Attack (1/Turn)",
 					"entries": [
-						"Mirt deals an extra 14 ({@dice 4d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Mirt's that isn't {@condition 无力} and Mirt doesn't have disadvantage on the attack roll."
+						"Mirt deals an extra 14 ({@dice 4d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Mirt's that isn't {@condition 無力} and Mirt doesn't have disadvantage on the attack roll."
 					]
 				}
 			],
@@ -5257,7 +5257,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell 法师护甲}",
+					"condition": "with {@spell 法師護甲}",
 					"braces": true
 				}
 			],
@@ -5296,13 +5296,13 @@
 						"Nar'l's innate spellcasting ability is Charisma. He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 舞光术}"
+						"{@spell 舞光術}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 黑暗术}",
-							"{@spell 妖火术}",
-							"{@spell 浮空术} (self only)"
+							"{@spell 黑暗術}",
+							"{@spell 妖火術}",
+							"{@spell 浮空術} (self only)"
 						]
 					},
 					"ability": "cha"
@@ -5315,47 +5315,47 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 法师之手}",
-								"{@spell 次级幻象}",
-								"{@spell 毒气喷洒}",
-								"{@spell 冷冻射线}"
+								"{@spell 法師之手}",
+								"{@spell 次級幻象}",
+								"{@spell 毒氣噴灑}",
+								"{@spell 冷凍射線}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 法师护甲}",
-								"{@spell 魔法飞弹}",
-								"{@spell 护盾术}",
-								"{@spell 巫术箭}"
+								"{@spell 法師護甲}",
+								"{@spell 魔法飛彈}",
+								"{@spell 護盾術}",
+								"{@spell 巫術箭}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 变造自身}",
-								"{@spell 迷踪步}",
-								"{@spell 蛛网术}"
+								"{@spell 變造自身}",
+								"{@spell 迷蹤步}",
+								"{@spell 蛛網術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 短讯术}",
-								"{@spell 闪电束}"
+								"{@spell 簡訊術}",
+								"{@spell 閃電束}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 艾伐黑触手}",
-								"{@spell 高等隐形术}"
+								"{@spell 艾伐黑觸手}",
+								"{@spell 高等隱形術}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell 死云术}"
+								"{@spell 死雲術}"
 							]
 						}
 					},
@@ -5495,7 +5495,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -5530,7 +5530,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -5678,7 +5678,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"Noska has advantage on an attack roll against a creature if at least one of Noska's allies is within 5 feet of the creature and the ally isn't {@condition 无力}."
+						"Noska has advantage on an attack roll against a creature if at least one of Noska's allies is within 5 feet of the creature and the ally isn't {@condition 無力}."
 					]
 				},
 				{
@@ -5784,7 +5784,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -6017,7 +6017,7 @@
 				{
 					"name": "Dark Devotion",
 					"entries": [
-						"The cultist has advantage on saving throws against being {@condition 魅惑} or {@condition 恐惧}."
+						"The cultist has advantage on saving throws against being {@condition 魅惑} or {@condition 恐懼}."
 					]
 				}
 			],
@@ -6099,16 +6099,16 @@
 						"0": {
 							"spells": [
 								"{@spell 火焰箭}",
-								"{@spell 修复术}",
-								"{@spell 魔法技俩}"
+								"{@spell 修復術}",
+								"{@spell 魔法技倆}"
 							]
 						},
 						"1": {
 							"slots": 2,
 							"spells": [
-								"{@spell 燃烧之手}",
-								"{@spell 易容术}",
-								"{@spell 护盾术}"
+								"{@spell 燃燒之手}",
+								"{@spell 易容術}",
+								"{@spell 護盾術}"
 							]
 						}
 					},
@@ -6167,7 +6167,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell 法师护甲}",
+					"condition": "with {@spell 法師護甲}",
 					"braces": true
 				}
 			],
@@ -6215,63 +6215,63 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 舞光术}",
-								"{@spell 法师之手}",
-								"{@spell 修复术}",
-								"{@spell 传讯术}",
-								"{@spell 冷冻射线}"
+								"{@spell 舞光術}",
+								"{@spell 法師之手}",
+								"{@spell 修復術}",
+								"{@spell 傳訊術}",
+								"{@spell 冷凍射線}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 警报术}",
-								"{@spell 法师护甲}",
-								"{@spell 魔法飞弹}",
-								"{@spell 护盾术}"
+								"{@spell 警報術}",
+								"{@spell 法師護甲}",
+								"{@spell 魔法飛彈}",
+								"{@spell 護盾術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 秘法锁}",
-								"{@spell 隐形术}"
+								"{@spell 秘法鎖}",
+								"{@spell 隱形術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 反制法术}",
+								"{@spell 反製法術}",
 								"{@spell 解除魔法}",
-								"{@spell 火球术}"
+								"{@spell 火球術}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 放逐术}",
-								"{@spell 石肤术}"
+								"{@spell 放逐術}",
+								"{@spell 石膚術}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell 寒冰锥}",
-								"{@spell 力墙术}"
+								"{@spell 寒冰錐}",
+								"{@spell 力牆術}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell 石化术}",
-								"{@spell 法术无效结界}"
+								"{@spell 石化術}",
+								"{@spell 法術無效結界}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell 徽记术}",
-								"{@spell 传送术}"
+								"{@spell 徽記術}",
+								"{@spell 傳送術}"
 							]
 						}
 					},
@@ -6459,7 +6459,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell 法师护甲}",
+					"condition": "with {@spell 法師護甲}",
 					"braces": true
 				}
 			],
@@ -6505,46 +6505,46 @@
 						"0": {
 							"spells": [
 								"{@spell 火焰箭}",
-								"{@spell 光亮术}",
-								"{@spell 法师之手}",
-								"{@spell 魔法技俩}"
+								"{@spell 光亮術}",
+								"{@spell 法師之手}",
+								"{@spell 魔法技倆}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 侦测魔法}",
-								"{@spell 法师护甲}",
-								"{@spell 魔法飞弹}",
-								"{@spell 护盾术}"
+								"{@spell 偵測魔法}",
+								"{@spell 法師護甲}",
+								"{@spell 魔法飛彈}",
+								"{@spell 護盾術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 迷踪步}",
-								"{@spell 暗示术}"
+								"{@spell 迷蹤步}",
+								"{@spell 暗示術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 反制法术}",
-								"{@spell 火球术}",
-								"{@spell 飞行术}"
+								"{@spell 反製法術}",
+								"{@spell 火球術}",
+								"{@spell 飛行術}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 高等隐形术}",
-								"{@spell 冰风暴}"
+								"{@spell 高等隱形術}",
+								"{@spell 冰風暴}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell 寒冰锥}"
+								"{@spell 寒冰錐}"
 							]
 						}
 					},
@@ -6763,7 +6763,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -6795,7 +6795,7 @@
 				{
 					"name": "Brave",
 					"entries": [
-						"The Shard Shunner has advantage on saving throws against being {@condition 恐惧}."
+						"The Shard Shunner has advantage on saving throws against being {@condition 恐懼}."
 					]
 				}
 			],
@@ -6871,7 +6871,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell 法师护甲}",
+					"condition": "with {@spell 法師護甲}",
 					"braces": true
 				}
 			],
@@ -6919,46 +6919,46 @@
 						"0": {
 							"spells": [
 								"{@spell 火焰箭}",
-								"{@spell 光亮术}",
-								"{@spell 法师之手}",
-								"{@spell 魔法技俩}"
+								"{@spell 光亮術}",
+								"{@spell 法師之手}",
+								"{@spell 魔法技倆}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 侦测魔法}",
-								"{@spell 法师护甲}",
-								"{@spell 魔法飞弹}",
-								"{@spell 护盾术}"
+								"{@spell 偵測魔法}",
+								"{@spell 法師護甲}",
+								"{@spell 魔法飛彈}",
+								"{@spell 護盾術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 迷踪步}",
-								"{@spell 暗示术}"
+								"{@spell 迷蹤步}",
+								"{@spell 暗示術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 反制法术}",
-								"{@spell 火球术}",
-								"{@spell 飞行术}"
+								"{@spell 反製法術}",
+								"{@spell 火球術}",
+								"{@spell 飛行術}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 高等隐形术}",
-								"{@spell 冰风暴}"
+								"{@spell 高等隱形術}",
+								"{@spell 冰風暴}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell 寒冰锥}"
+								"{@spell 寒冰錐}"
 							]
 						}
 					},
@@ -7066,13 +7066,13 @@
 						"Soluun's spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 舞光术}"
+						"{@spell 舞光術}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 黑暗术}",
-							"{@spell 妖火术}",
-							"{@spell 浮空术} (self only)"
+							"{@spell 黑暗術}",
+							"{@spell 妖火術}",
+							"{@spell 浮空術} (self only)"
 						]
 					},
 					"ability": "cha"
@@ -7286,7 +7286,7 @@
 				{
 					"ac": 12,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -7898,7 +7898,7 @@
 						"Tissina's spellcasting ability is Charisma. She can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 奇术}"
+						"{@spell 奇術}"
 					],
 					"ability": "cha"
 				},
@@ -7910,24 +7910,24 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 光亮术}",
-								"{@spell 圣焰}",
-								"{@spell 奇术}"
+								"{@spell 光亮術}",
+								"{@spell 聖焰}",
+								"{@spell 奇術}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 命令术}",
-								"{@spell 造成伤势}",
-								"{@spell 虔诚护盾}"
+								"{@spell 命令術}",
+								"{@spell 造成傷勢}",
+								"{@spell 虔誠護盾}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 人类定身术}",
-								"{@spell 灵体武器}"
+								"{@spell 人類定身術}",
+								"{@spell 靈體武器}"
 							]
 						}
 					},
@@ -7938,7 +7938,7 @@
 				{
 					"name": "Dark Devotion",
 					"entries": [
-						"Tissina has advantage on saving throws against being {@condition 魅惑} or {@condition 恐惧}."
+						"Tissina has advantage on saving throws against being {@condition 魅惑} or {@condition 恐懼}."
 					]
 				}
 			],
@@ -8059,7 +8059,7 @@
 				{
 					"name": "Sneak Attack (1/Turn)",
 					"entries": [
-						"Urstul deals an extra 14 ({@dice 4d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Urstul that isn't {@condition 无力} and Urstul doesn't have disadvantage on the attack roll."
+						"Urstul deals an extra 14 ({@dice 4d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Urstul that isn't {@condition 無力} and Urstul doesn't have disadvantage on the attack roll."
 					]
 				}
 			],
@@ -8127,7 +8127,7 @@
 				14,
 				{
 					"ac": 17,
-					"condition": "with {@spell 法师护甲}",
+					"condition": "with {@spell 法師護甲}",
 					"braces": true
 				}
 			],
@@ -8176,78 +8176,78 @@
 						"0": {
 							"spells": [
 								"{@spell 火焰箭}",
-								"{@spell 光亮术}",
-								"{@spell 法师之手}",
-								"{@spell 传讯术}",
-								"{@spell 魔法技俩}"
+								"{@spell 光亮術}",
+								"{@spell 法師之手}",
+								"{@spell 傳訊術}",
+								"{@spell 魔法技倆}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 侦测魔法}",
-								"{@spell 鉴定术}",
-								"{@spell 法师护甲}",
-								"{@spell 雷鸣波}"
+								"{@spell 偵測魔法}",
+								"{@spell 鑑定術}",
+								"{@spell 法師護甲}",
+								"{@spell 雷鳴波}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 隐形术}",
-								"{@spell 迷踪步}",
-								"{@spell 蛛网术}"
+								"{@spell 隱形術}",
+								"{@spell 迷蹤步}",
+								"{@spell 蛛網術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 反制法术}",
-								"{@spell 飞行术}",
-								"{@spell 短讯术}"
+								"{@spell 反製法術}",
+								"{@spell 飛行術}",
+								"{@spell 簡訊術}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 放逐术}",
-								"{@spell 火焰护盾}",
-								"{@spell 石肤术}"
+								"{@spell 放逐術}",
+								"{@spell 火焰護盾}",
+								"{@spell 石膚術}"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
-								"{@spell 毕格比之掌}",
-								"{@spell 指使术}",
-								"{@spell 心灵遥控}"
+								"{@spell 畢格比之掌}",
+								"{@spell 指使術}",
+								"{@spell 心靈遙控}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell 连环闪电}",
-								"{@spell 法术无效结界}"
+								"{@spell 連環閃電}",
+								"{@spell 法術無效結界}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell 力场监牢}",
-								"{@spell 虹光喷射}"
+								"{@spell 力場監牢}",
+								"{@spell 虹光噴射}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell 反魔法结界}",
-								"{@spell 律令震慑}"
+								"{@spell 反魔法結界}",
+								"{@spell 律令震懾}"
 							]
 						},
 						"9": {
 							"slots": 1,
 							"spells": [
-								"{@spell 禁锢术}"
+								"{@spell 禁錮術}"
 							]
 						}
 					},
@@ -8270,7 +8270,7 @@
 				{
 					"name": "Staff Spells",
 					"entries": [
-						"While holding the blackstaff, Vajra can use an action to expend 1 or more of its charges to cast one of the following spells from it, using her spell save DC and spell attack bonus: {@spell 寒冰锥} (5 charges), {@spell 火球术} (5th-level version, 5 charges), {@spell 法术无效结界} (6 charges), {@spell 怪物定身术} (5 charges), {@spell 浮空术} (2 charges), {@spell 闪电束} (5th-level version, 5 charges), {@spell 魔法飞弹} (1 charge), {@spell 衰弱射线} (1 charge), or {@spell 力墙术} (5 charges)."
+						"While holding the blackstaff, Vajra can use an action to expend 1 or more of its charges to cast one of the following spells from it, using her spell save DC and spell attack bonus: {@spell 寒冰錐} (5 charges), {@spell 火球術} (5th-level version, 5 charges), {@spell 法術無效結界} (6 charges), {@spell 怪物定身術} (5 charges), {@spell 浮空術} (2 charges), {@spell 閃電束} (5th-level version, 5 charges), {@spell 魔法飛彈} (1 charge), {@spell 衰弱射線} (1 charge), or {@spell 力牆術} (5 charges)."
 					]
 				}
 			],
@@ -8365,31 +8365,31 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 光亮术}",
-								"{@spell 圣焰}",
-								"{@spell 奇术}"
+								"{@spell 光亮術}",
+								"{@spell 聖焰}",
+								"{@spell 奇術}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 治疗伤势}",
-								"{@spell 光导箭}",
-								"{@spell 圣域术}"
+								"{@spell 治療傷勢}",
+								"{@spell 光導箭}",
+								"{@spell 聖域術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 次级复原术}",
-								"{@spell 灵体武器}"
+								"{@spell 次級復原術}",
+								"{@spell 靈體武器}"
 							]
 						},
 						"3": {
 							"slots": 2,
 							"spells": [
 								"{@spell 解除魔法}",
-								"{@spell 灵体守卫}"
+								"{@spell 靈體守衛}"
 							]
 						}
 					},
@@ -8510,79 +8510,79 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 神导术}",
-								"{@spell 光亮术}",
-								"{@spell 修复术}",
-								"{@spell 拯救濒死}",
-								"{@spell 奇术}"
+								"{@spell 神導術}",
+								"{@spell 光亮術}",
+								"{@spell 修復術}",
+								"{@spell 拯救瀕死}",
+								"{@spell 奇術}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 魅惑人类}",
-								"{@spell 命令术}",
-								"{@spell 侦测魔法}",
-								"{@spell 易容术}",
-								"{@spell 防护善恶}",
-								"{@spell 圣域术}"
+								"{@spell 魅惑人類}",
+								"{@spell 命令術}",
+								"{@spell 偵測魔法}",
+								"{@spell 易容術}",
+								"{@spell 防護善惡}",
+								"{@spell 聖域術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
 								"{@spell 卜筮}",
-								"{@spell 次级复原术}",
-								"{@spell 镜影术}",
-								"{@spell 行踪无迹}",
-								"{@spell 灵体武器}"
+								"{@spell 次級復原術}",
+								"{@spell 鏡影術}",
+								"{@spell 行蹤無跡}",
+								"{@spell 靈體武器}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 闪现术}",
-								"{@spell 锐眼术}",
+								"{@spell 閃現術}",
+								"{@spell 銳眼術}",
 								"{@spell 解除魔法}",
-								"{@spell 防护法阵}",
-								"{@spell 防护能量}"
+								"{@spell 防護法陣}",
+								"{@spell 防護能量}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 放逐术}",
-								"{@spell 次元门}",
-								"{@spell 预言术}",
-								"{@spell 行动自如术}",
-								"{@spell 变形术}"
+								"{@spell 放逐術}",
+								"{@spell 次元門}",
+								"{@spell 預言術}",
+								"{@spell 行動自如術}",
+								"{@spell 變形術}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell 支配人类}",
-								"{@spell 焰击术}",
-								"{@spell 修改记忆}",
-								"{@spell 疫病虫群}"
+								"{@spell 支配人類}",
+								"{@spell 焰擊術}",
+								"{@spell 修改記憶}",
+								"{@spell 疫病蟲群}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell 治愈术}"
+								"{@spell 治癒術}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell 圣言术}"
+								"{@spell 聖言術}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell 地震术}"
+								"{@spell 地震術}"
 							]
 						}
 					},
@@ -8625,7 +8625,7 @@
 				{
 					"name": "Cloak of Shadows (2/Day)",
 					"entries": [
-						"Victoro becomes {@condition 隐形} until the end of his next turn. He becomes visible early immediately after he attacks or casts a spell."
+						"Victoro becomes {@condition 隱形} until the end of his next turn. He becomes visible early immediately after he attacks or casts a spell."
 					]
 				},
 				{
@@ -8705,7 +8705,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -8931,7 +8931,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"Yagra has advantage on an attack roll against a creature if at least one of her allies is within 5 feet of the creature and the ally isn't {@condition 无力}."
+						"Yagra has advantage on an attack roll against a creature if at least one of her allies is within 5 feet of the creature and the ally isn't {@condition 無力}."
 					]
 				},
 				{
@@ -9124,7 +9124,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The thug has advantage on an attack roll against a creature if at least one of the thug's allies is within 5 feet of the creature and the ally isn't {@condition 无力}."
+						"The thug has advantage on an attack roll against a creature if at least one of the thug's allies is within 5 feet of the creature and the ally isn't {@condition 無力}."
 					]
 				},
 				{
@@ -9234,7 +9234,7 @@
 				{
 					"name": "Brave",
 					"entries": [
-						"The adept has advantage on any saving throws against being {@condition 恐惧}."
+						"The adept has advantage on any saving throws against being {@condition 恐懼}."
 					]
 				},
 				{
@@ -9260,7 +9260,7 @@
 							"items": [
 								"The target must succeed on a {@dc 13} Strength saving throw or drop one item it is holding (adept's choice).",
 								"The target must succeed on a {@dc 13} Dexterity saving throw or be knocked {@condition 伏地}.",
-								"The target must succeed on a {@dc 13} Constitution saving throw or be {@condition 震慑} until the end of the adept's next turn."
+								"The target must succeed on a {@dc 13} Constitution saving throw or be {@condition 震懾} until the end of the adept's next turn."
 							]
 						}
 					]
@@ -9369,22 +9369,22 @@
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 命令术}",
-								"{@spell 防护善恶}",
-								"{@spell 雷霆斩}"
+								"{@spell 命令術}",
+								"{@spell 防護善惡}",
+								"{@spell 雷霆斬}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 烙印斩}",
-								"{@spell 寻获坐骑}"
+								"{@spell 烙印斬}",
+								"{@spell 尋獲坐騎}"
 							]
 						},
 						"3": {
 							"slots": 2,
 							"spells": [
-								"{@spell 致盲斩}",
+								"{@spell 致盲斬}",
 								"{@spell 解除魔法}"
 							]
 						}
@@ -9414,7 +9414,7 @@
 				{
 					"name": "Dreadful Aspect (Recharges after a Short or Long Rest)",
 					"entries": [
-						"Ziraj exudes magical menace. Each enemy within 30 feet of him must succeed on a {@dc 13} Wisdom saving throw or be {@condition 恐惧} for 1 minute of Ziraj. If a {@condition 恐惧} enemy ends its turn more than 30 feet away from Ziraj, the enemy can repeat the saving throw, ending the effect on itself on a success."
+						"Ziraj exudes magical menace. Each enemy within 30 feet of him must succeed on a {@dc 13} Wisdom saving throw or be {@condition 恐懼} for 1 minute of Ziraj. If a {@condition 恐懼} enemy ends its turn more than 30 feet away from Ziraj, the enemy can repeat the saving throw, ending the effect on itself on a success."
 					]
 				}
 			],

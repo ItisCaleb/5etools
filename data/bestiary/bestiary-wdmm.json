@@ -132,7 +132,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -171,7 +171,7 @@
 					"name": "Wielder Domination",
 					"entries": [
 						"A creature can grab the staff out of the air with a successful grapple check against the staff, and grappling the staff does not reduce the creature's speed. Any creature that successfully grapples the staff must succeed on a {@dc 12} Charisma saving throw or be {@condition 魅惑} by the staff until the staff is no longer in its grasp. While the creature is {@condition 魅惑}, the staff can issue commands to it, which the creature does its best to obey. The creature can repeat the saving throw each time it takes damage, ending the effect on itself on a success. A creature that successfully resists the staff's control can't be {@condition 魅惑} by it for 24 hours.",
-						"A creature holding the staff that isn't {@condition 魅惑} by it can use an action to attempt to break the staff over a knee or against a solid surface, doing so with a successful {@dc 17} Strength ({@skill 运动}) check. Breaking the staff in this manner destroys it."
+						"A creature holding the staff that isn't {@condition 魅惑} by it can use an action to attempt to break the staff over a knee or against a solid surface, doing so with a successful {@dc 17} Strength ({@skill 運動}) check. Breaking the staff in this manner destroys it."
 					]
 				}
 			],
@@ -179,7 +179,7 @@
 				{
 					"name": "Staff of Frost",
 					"entries": [
-						"The staff has 10 charges. It can expend 1 or more of its charges to cast one of the following spells (save {@dc 12}): {@spell 寒冰锥} (5 charges), {@spell 云雾术} (1 charge), {@spell 冰风暴} (4 charges), or {@spell 冰墙术} (4 charges). It regains {@dice 1d6 + 4} expended charges daily at dawn. If the staff expends its last charge, roll a {@dice d20}. On a 1, the staff turns to water and is destroyed."
+						"The staff has 10 charges. It can expend 1 or more of its charges to cast one of the following spells (save {@dc 12}): {@spell 寒冰錐} (5 charges), {@spell 雲霧術} (1 charge), {@spell 冰風暴} (4 charges), or {@spell 冰牆術} (4 charges). It regains {@dice 1d6 + 4} expended charges daily at dawn. If the staff expends its last charge, roll a {@dice d20}. On a 1, the staff turns to water and is destroyed."
 					]
 				},
 				{
@@ -365,87 +365,87 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Arcturia is an 18th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 20}, {@hit 12} to hit with spell attacks). Arcturia can cast {@spell 变造自身} at will and has the following wizard spells prepared:"
+						"Arcturia is an 18th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 20}, {@hit 12} to hit with spell attacks). Arcturia can cast {@spell 變造自身} at will and has the following wizard spells prepared:"
 					],
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 法师之手}",
-								"{@spell 魔法技俩}",
-								"{@spell 冷冻射线}"
+								"{@spell 法師之手}",
+								"{@spell 魔法技倆}",
+								"{@spell 冷凍射線}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 侦测魔法}",
-								"{@spell 魔法飞弹}",
-								"{@spell 护盾术}",
-								"{@spell 雷鸣波}"
+								"{@spell 偵測魔法}",
+								"{@spell 魔法飛彈}",
+								"{@spell 護盾術}",
+								"{@spell 雷鳴波}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 侦测思想}",
-								"{@spell 变巨/缩小术}",
-								"{@spell 马友夫强酸箭}",
-								"{@spell 镜影术}"
+								"{@spell 偵測思想}",
+								"{@spell 變巨/縮小術}",
+								"{@spell 馬友夫強酸箭}",
+								"{@spell 鏡影術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 反制法术}",
+								"{@spell 反製法術}",
 								"{@spell 解除魔法}",
-								"{@spell 火球术}",
-								"{@spell 缓速术}"
+								"{@spell 火球術}",
+								"{@spell 緩速術}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 枯萎术}",
-								"{@spell 变形术}"
+								"{@spell 枯萎術}",
+								"{@spell 變形術}"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
-								"{@spell 活化物体}",
-								"{@spell 心灵遥控}"
+								"{@spell 活化物體}",
+								"{@spell 心靈遙控}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell 解离术}",
-								"{@spell 石化术}"
+								"{@spell 解離術}",
+								"{@spell 石化術}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell 重力反转}",
-								"{@spell 传送术}"
+								"{@spell 重力反轉}",
+								"{@spell 傳送術}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell 弱智术}",
-								"{@spell 迷宫术}"
+								"{@spell 弱智術}",
+								"{@spell 迷宮術}"
 							]
 						},
 						"9": {
 							"slots": 1,
 							"spells": [
-								"{@spell 完全变形术}"
+								"{@spell 完全變形術}"
 							]
 						}
 					},
 					"will": [
-						"{@spell 变造自身}"
+						"{@spell 變造自身}"
 					],
 					"hidden": [
 						"will"
@@ -483,12 +483,12 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell 警报术}",
-							"{@spell 侦测魔法}",
-							"{@spell 气化形体}",
-							"{@spell 迷踪步}",
-							"{@spell 穿墙术}",
-							"{@spell 识破隐形}"
+							"{@spell 警報術}",
+							"{@spell 偵測魔法}",
+							"{@spell 氣化形體}",
+							"{@spell 迷蹤步}",
+							"{@spell 穿牆術}",
+							"{@spell 識破隱形}"
 						]
 					},
 					"ability": "cha"
@@ -588,75 +588,75 @@
 						"0": {
 							"spells": [
 								"{@spell 火焰箭}",
-								"{@spell 光亮术}",
-								"{@spell 法师之手}",
-								"{@spell 魔法技俩}",
-								"{@spell 电爪}"
+								"{@spell 光亮術}",
+								"{@spell 法師之手}",
+								"{@spell 魔法技倆}",
+								"{@spell 電爪}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 侦测魔法}",
-								"{@spell 鉴定术}",
-								"{@spell 法师护甲}*",
-								"{@spell 魔法飞弹}"
+								"{@spell 偵測魔法}",
+								"{@spell 鑑定術}",
+								"{@spell 法師護甲}*",
+								"{@spell 魔法飛彈}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 侦测思想}",
-								"{@spell 镜影术}",
-								"{@spell 迷踪步}"
+								"{@spell 偵測思想}",
+								"{@spell 鏡影術}",
+								"{@spell 迷蹤步}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 反制法术}",
-								"{@spell 飞行术}",
-								"{@spell 闪电束}"
+								"{@spell 反製法術}",
+								"{@spell 飛行術}",
+								"{@spell 閃電束}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 变形术}",
-								"{@spell 火焰护盾}",
-								"{@spell 石肤术}*"
+								"{@spell 變形術}",
+								"{@spell 火焰護盾}",
+								"{@spell 石膚術}*"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
-								"{@spell 寒冰锥}",
+								"{@spell 寒冰錐}",
 								"{@spell 探知}",
-								"{@spell 力墙术}"
+								"{@spell 力牆術}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell 法术无效结界}"
+								"{@spell 法術無效結界}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell 传送术}"
+								"{@spell 傳送術}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell 心灵屏障}*"
+								"{@spell 心靈屏障}*"
 							]
 						},
 						"9": {
 							"slots": 1,
 							"spells": [
-								"{@spell 时间停止}"
+								"{@spell 時間停止}"
 							]
 						}
 					},
@@ -729,7 +729,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -875,7 +875,7 @@
 							"type": "entries",
 							"name": "Tied Down",
 							"entries": [
-								"While lashed to the floor, the creature is {@condition 伏地} and {@condition 束缚}. It also suffers from two levels of {@condition 力竭}."
+								"While lashed to the floor, the creature is {@condition 伏地} and {@condition 束縛}. It also suffers from two levels of {@condition 力竭}."
 							]
 						}
 					}
@@ -892,7 +892,7 @@
 				{
 					"name": "Tentacles",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 10 ft., one creature. {@h}4 ({@damage 1d4 + 2}) poison damage, and the target must succeed on a {@dc 13} Constitution saving throw or be {@condition 中毒} for 1 minute. Until this poison ends, the target is {@condition 麻痹}. The target can repeat the saving throw at the end of each of its turns, ending the poison on itself on a success."
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one creature. {@h}4 ({@damage 1d4 + 2}) poison damage, and the target must succeed on a {@dc 13} Constitution saving throw or be {@condition 中毒} for 1 minute. Until this poison ends, the target is {@condition 麻痺}. The target can repeat the saving throw at the end of each of its turns, ending the poison on itself on a success."
 					]
 				},
 				{
@@ -957,7 +957,7 @@
 				14,
 				{
 					"ac": 17,
-					"condition": "with {@spell 法师护甲}",
+					"condition": "with {@spell 法師護甲}",
 					"braces": true
 				}
 			],
@@ -985,75 +985,75 @@
 						"0": {
 							"spells": [
 								"{@spell 火焰箭}",
-								"{@spell 光亮术}",
-								"{@spell 法师之手}",
-								"{@spell 魔法技俩}",
-								"{@spell 电爪}"
+								"{@spell 光亮術}",
+								"{@spell 法師之手}",
+								"{@spell 魔法技倆}",
+								"{@spell 電爪}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 侦测魔法}",
-								"{@spell 鉴定术}",
-								"{@spell 法师护甲}*",
-								"{@spell 魔法飞弹}"
+								"{@spell 偵測魔法}",
+								"{@spell 鑑定術}",
+								"{@spell 法師護甲}*",
+								"{@spell 魔法飛彈}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 侦测思想}",
-								"{@spell 镜影术}",
-								"{@spell 迷踪步}"
+								"{@spell 偵測思想}",
+								"{@spell 鏡影術}",
+								"{@spell 迷蹤步}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 反制法术}",
-								"{@spell 飞行术}",
-								"{@spell 闪电束}"
+								"{@spell 反製法術}",
+								"{@spell 飛行術}",
+								"{@spell 閃電束}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 魅影杀手}",
-								"{@spell 火焰护盾}",
-								"{@spell 石肤术}*"
+								"{@spell 魅影殺手}",
+								"{@spell 火焰護盾}",
+								"{@spell 石膚術}*"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
-								"{@spell 寒冰锥}",
+								"{@spell 寒冰錐}",
 								"{@spell 探知}",
-								"{@spell 力墙术}"
+								"{@spell 力牆術}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell 法术无效结界}"
+								"{@spell 法術無效結界}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell 传送术}"
+								"{@spell 傳送術}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell 心灵屏障}*"
+								"{@spell 心靈屏障}*"
 							]
 						},
 						"9": {
 							"slots": 1,
 							"spells": [
-								"{@spell 时间停止}"
+								"{@spell 時間停止}"
 							]
 						}
 					},
@@ -1215,7 +1215,7 @@
 							{
 								"name": "Merged Heads",
 								"entries": [
-									"The duergar has advantage on Wisdom ({@skill 察觉}) checks and on saving throws against being {@condition 魅惑}, {@condition 恐惧}, {@condition 震慑}, and knocked {@condition 昏迷}."
+									"The duergar has advantage on Wisdom ({@skill 察覺}) checks and on saving throws against being {@condition 魅惑}, {@condition 恐懼}, {@condition 震懾}, and knocked {@condition 昏迷}."
 								]
 							}
 						]
@@ -1273,15 +1273,15 @@
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 命令术}",
-								"{@spell 强迫决斗}",
-								"{@spell 炽炎斩}"
+								"{@spell 命令術}",
+								"{@spell 強迫決鬥}",
+								"{@spell 熾炎斬}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 人类定身术}",
+								"{@spell 人類定身術}",
 								"{@spell 魔化武器}"
 							]
 						},
@@ -1295,14 +1295,14 @@
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 生物定位术}",
-								"{@spell 惊震斩}"
+								"{@spell 生物定位術}",
+								"{@spell 驚震斬}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell 湮灭波} (necrotic)"
+								"{@spell 湮滅波} (necrotic)"
 							]
 						}
 					},
@@ -1449,71 +1449,71 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 法师之手}",
-								"{@spell 魔法技俩}",
-								"{@spell 冷冻射线}"
+								"{@spell 法師之手}",
+								"{@spell 魔法技倆}",
+								"{@spell 冷凍射線}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 侦测魔法}",
-								"{@spell 魔法飞弹}",
-								"{@spell 护盾术}",
-								"{@spell 雷鸣波}"
+								"{@spell 偵測魔法}",
+								"{@spell 魔法飛彈}",
+								"{@spell 護盾術}",
+								"{@spell 雷鳴波}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 侦测思想}",
-								"{@spell 隐形术}",
-								"{@spell 马友夫强酸箭}",
-								"{@spell 镜影术}"
+								"{@spell 偵測思想}",
+								"{@spell 隱形術}",
+								"{@spell 馬友夫強酸箭}",
+								"{@spell 鏡影術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 活化死尸}",
-								"{@spell 反制法术}",
+								"{@spell 活化死屍}",
+								"{@spell 反製法術}",
 								"{@spell 解除魔法}",
-								"{@spell 火球术}"
+								"{@spell 火球術}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 枯萎术}",
-								"{@spell 次元门}"
+								"{@spell 枯萎術}",
+								"{@spell 次元門}"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
-								"{@spell 死云术}",
+								"{@spell 死雲術}",
 								"{@spell 探知}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell 解离术}",
-								"{@spell 法术无效结界}"
+								"{@spell 解離術}",
+								"{@spell 法術無效結界}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
 								"{@spell 死亡一指}",
-								"{@spell 力场监牢}"
+								"{@spell 力場監牢}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
 								"{@spell 支配怪物}",
-								"{@spell 律令震慑}"
+								"{@spell 律令震懾}"
 							]
 						},
 						"9": {
@@ -1750,8 +1750,8 @@
 							{
 								"name": "Invisibility (Recharges after a Short or Long Rest)",
 								"entries": [
-									"The mummy lord magically turns {@condition 隐形} for up to 1 hour or until it attacks, it casts a spell, it uses its Enlarge, or its concentration is broken (as if concentrating on a spell). Any equipment the mummy lord wears or carries is {@condition 隐形} with it.",
-									"The stalagmite in the northwest alcove is hollow and serves as Gorka Tharn's sarcophagus. The mummy lord is lodged inside the stalagmite's funnel-shaped interior. When it awakens, the mummy lord uses a {@spell 塑石术} spell to create an opening large enough for it to emerge. It destroys any intruders in its lair, then returns to its sarcophagus and its slumber.",
+									"The mummy lord magically turns {@condition 隱形} for up to 1 hour or until it attacks, it casts a spell, it uses its Enlarge, or its concentration is broken (as if concentrating on a spell). Any equipment the mummy lord wears or carries is {@condition 隱形} with it.",
+									"The stalagmite in the northwest alcove is hollow and serves as Gorka Tharn's sarcophagus. The mummy lord is lodged inside the stalagmite's funnel-shaped interior. When it awakens, the mummy lord uses a {@spell 塑石術} spell to create an opening large enough for it to emerge. It destroys any intruders in its lair, then returns to its sarcophagus and its slumber.",
 									"At the bottom of the stalagmite's hollow cavity, four 1-foot-tall clay urns contain Gorka Tharn's preserved internal organs, including the mummy lord's shriveled heart. Only by destroying the heart can the characters prevent the mummy lord from rejuvenating. The heart is a Tiny object with AC 5, 25 hit points, and immunity to all damage except fire."
 								]
 							}
@@ -1772,51 +1772,51 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 圣焰}",
-								"{@spell 奇术}"
+								"{@spell 聖焰}",
+								"{@spell 奇術}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 命令术}",
-								"{@spell 光导箭}",
-								"{@spell 虔诚护盾}"
+								"{@spell 命令術}",
+								"{@spell 光導箭}",
+								"{@spell 虔誠護盾}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 人类定身术}",
-								"{@spell 沉默术}",
-								"{@spell 灵体武器}"
+								"{@spell 人類定身術}",
+								"{@spell 沉默術}",
+								"{@spell 靈體武器}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 活化死尸}",
+								"{@spell 活化死屍}",
 								"{@spell 解除魔法}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 塑石术}",
-								"{@spell 虔诚守卫}"
+								"{@spell 塑石術}",
+								"{@spell 虔誠守衛}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell 疫病术}",
-								"{@spell 疫病虫群}"
+								"{@spell 疫病術}",
+								"{@spell 疫病蟲群}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell 伤害术}"
+								"{@spell 傷害術}"
 							]
 						}
 					},
@@ -1900,7 +1900,7 @@
 				14,
 				{
 					"ac": 17,
-					"condition": "with {@spell 法师护甲}",
+					"condition": "with {@spell 法師護甲}",
 					"braces": true
 				}
 			],
@@ -1954,99 +1954,99 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Halaster is a 20th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 22}, {@hit 14} to hit with spell attacks). He can cast {@spell 易容术} and {@spell 隐形术} at will. He can cast {@spell 飞行术} and {@spell 闪电束} once each without expending a spell slot, but can't do so again until he finishes a short or long rest. Halaster has the following wizard spells prepared:"
+						"Halaster is a 20th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 22}, {@hit 14} to hit with spell attacks). He can cast {@spell 易容術} and {@spell 隱形術} at will. He can cast {@spell 飛行術} and {@spell 閃電束} once each without expending a spell slot, but can't do so again until he finishes a short or long rest. Halaster has the following wizard spells prepared:"
 					],
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 舞光术}",
+								"{@spell 舞光術}",
 								"{@spell 火焰箭}",
-								"{@spell 光亮术}",
-								"{@spell 法师之手}",
-								"{@spell 魔法技俩}"
+								"{@spell 光亮術}",
+								"{@spell 法師之手}",
+								"{@spell 魔法技倆}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 法师护甲}",
-								"{@spell 魔法飞弹}",
-								"{@spell 护盾术}",
-								"{@spell 无声幻影}"
+								"{@spell 法師護甲}",
+								"{@spell 魔法飛彈}",
+								"{@spell 護盾術}",
+								"{@spell 無聲幻影}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 秘法锁}",
-								"{@spell 匕首之云}",
-								"{@spell 黑暗视觉}",
-								"{@spell 敲击术}"
+								"{@spell 秘法鎖}",
+								"{@spell 匕首之雲}",
+								"{@spell 黑暗視覺}",
+								"{@spell 敲擊術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 反制法术}",
+								"{@spell 反製法術}",
 								"{@spell 解除魔法}",
-								"{@spell 火球术}"
+								"{@spell 火球術}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 困惑术}",
+								"{@spell 困惑術}",
 								"{@spell 幻景}",
-								"{@spell 变形术}"
+								"{@spell 變形術}"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
-								"{@spell 毕格比之掌}",
-								"{@spell 指使术}",
-								"{@spell 力墙术}"
+								"{@spell 畢格比之掌}",
+								"{@spell 指使術}",
+								"{@spell 力牆術}"
 							]
 						},
 						"6": {
 							"slots": 2,
 							"spells": [
-								"{@spell 连环闪电}",
-								"{@spell 法术无效结界}",
-								"{@spell 预置幻象}"
+								"{@spell 連環閃電}",
+								"{@spell 法術無效結界}",
+								"{@spell 預置幻象}"
 							]
 						},
 						"7": {
 							"slots": 2,
 							"spells": [
 								"{@spell 死亡一指}",
-								"{@spell 徽记术}",
-								"{@spell 传送术}"
+								"{@spell 徽記術}",
+								"{@spell 傳送術}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell 迷宫术}",
-								"{@spell 心灵屏障}"
+								"{@spell 迷宮術}",
+								"{@spell 心靈屏障}"
 							]
 						},
 						"9": {
 							"slots": 1,
 							"spells": [
 								"{@spell 流星爆}",
-								"{@spell 祈愿术}"
+								"{@spell 祈願術}"
 							]
 						}
 					},
 					"will": [
-						"{@spell 易容术}",
-						"{@spell 隐形术}"
+						"{@spell 易容術}",
+						"{@spell 隱形術}"
 					],
 					"daily": {
 						"1": [
-							"{@spell 飞行术}",
-							"{@spell 闪电束}"
+							"{@spell 飛行術}",
+							"{@spell 閃電束}"
 						]
 					},
 					"hidden": [
@@ -2060,7 +2060,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Halaster wears a robe of eyes that lets him see in all directions, gives him darkvision out to a range of 120 feet, grants advantage on Wisdom (Perception) checks that rely on sight, and allows him to see {@condition 隐形} creatures and objects, as well as into the Ethereal Plane, out to a range of 120 feet.",
+						"Halaster wears a robe of eyes that lets him see in all directions, gives him darkvision out to a range of 120 feet, grants advantage on Wisdom (Perception) checks that rely on sight, and allows him to see {@condition 隱形} creatures and objects, as well as into the Ethereal Plane, out to a range of 120 feet.",
 						"Halaster wields a blast scepter (a very rare magic item that requires attunement). It can be used as an arcane focus. Whoever is attuned to the blast scepter gains resistance to fire and lightning damage and can, as an action, use it to cast thunderwave as a 4th-level spell (save {@dc 16}) without expending a spell slot.",
 						"Halaster also wears a horned ring (a very rare magic item that requires attunement), which allows an attuned wearer to ignore Undermountain's magical restrictions (see \"Alterations to Magic\")."
 					]
@@ -2167,7 +2167,7 @@
 						"items": {
 							"name": "Spell Immunity",
 							"entries": [
-								"The Halaster horror is immune to the {@spell 寒冰锥}, {@spell 解离术}, and {@spell 火球术} spells."
+								"The Halaster horror is immune to the {@spell 寒冰錐}, {@spell 解離術}, and {@spell 火球術} spells."
 							]
 						}
 					}
@@ -2284,7 +2284,7 @@
 				{
 					"name": "Magical Properties",
 					"entries": [
-						"A creature that uses an action to touch the living snail gains 6 temporary hit points that last for 24 hours. Any creature or object that touches the living snail also gains the benefit of a {@spell 移除诅咒} spell. The snail loses these magical properties if it dies."
+						"A creature that uses an action to touch the living snail gains 6 temporary hit points that last for 24 hours. Any creature or object that touches the living snail also gains the benefit of a {@spell 移除詛咒} spell. The snail loses these magical properties if it dies."
 					]
 				},
 				{
@@ -2381,7 +2381,7 @@
 				{
 					"name": "Invisibility (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The ooze magically turns {@condition 隐形} for up to 1 hour until it attacks, it uses its Enlarge, or its concentration is broken (as if concentrating on a spell)."
+						"The ooze magically turns {@condition 隱形} for up to 1 hour until it attacks, it uses its Enlarge, or its concentration is broken (as if concentrating on a spell)."
 					]
 				}
 			],
@@ -2412,17 +2412,17 @@
 						"The pudding's spellcasting ability is Intelligence (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It can cast the following spells, requiring no components:"
 					],
 					"will": [
-						"{@spell 舞光术}",
-						"{@spell 法师之手}"
+						"{@spell 舞光術}",
+						"{@spell 法師之手}"
 					],
 					"daily": {
 						"1": [
-							"{@spell 马友夫强酸箭}"
+							"{@spell 馬友夫強酸箭}"
 						],
 						"3e": [
-							"{@spell 黑暗术}",
-							"{@spell 妖火术}",
-							"{@spell 护盾术}"
+							"{@spell 黑暗術}",
+							"{@spell 妖火術}",
+							"{@spell 護盾術}"
 						]
 					},
 					"ability": "int"
@@ -2602,51 +2602,51 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 神导术}",
-								"{@spell 修复术}",
+								"{@spell 神導術}",
+								"{@spell 修復術}",
 								"{@spell 提升抗力}",
-								"{@spell 奇术}"
+								"{@spell 奇術}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 灾祸术}",
-								"{@spell 命令术}",
-								"{@spell 造成伤势}",
-								"{@spell 致病射线}"
+								"{@spell 災禍術}",
+								"{@spell 命令術}",
+								"{@spell 造成傷勢}",
+								"{@spell 致病射線}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 目盲/耳聋术}",
-								"{@spell 衰弱射线}",
-								"{@spell 灵体武器}"
+								"{@spell 目盲/耳聾術}",
+								"{@spell 衰弱射線}",
+								"{@spell 靈體武器}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 活化死尸}",
+								"{@spell 活化死屍}",
 								"{@spell 降咒}",
 								"{@spell 解除魔法}",
-								"{@spell 灵体守卫}"
+								"{@spell 靈體守衛}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 枯萎术}",
-								"{@spell 防死护咒}",
-								"{@spell 预言术}"
+								"{@spell 枯萎術}",
+								"{@spell 防死護咒}",
+								"{@spell 預言術}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell 反活物护罩}",
-								"{@spell 湮灭波}"
+								"{@spell 反活物護罩}",
+								"{@spell 湮滅波}"
 							]
 						}
 					},
@@ -2883,7 +2883,7 @@
 				{
 					"name": "Invisibility",
 					"entries": [
-						"The unseen servant is {@condition 隐形}."
+						"The unseen servant is {@condition 隱形}."
 					]
 				}
 			],
@@ -3033,7 +3033,7 @@
 						"spells": {
 							"0": {
 								"spells": [
-									"{@spell 冷冻射线}"
+									"{@spell 冷凍射線}"
 								]
 							}
 						}
@@ -3093,8 +3093,8 @@
 						"spells": {
 							"4": [
 								{
-									"replace": "{@spell 放逐术}",
-									"with": "{@spell 次元门}"
+									"replace": "{@spell 放逐術}",
+									"with": "{@spell 次元門}"
 								}
 							]
 						}
@@ -3137,7 +3137,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -3208,7 +3208,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -3256,58 +3256,58 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 舞光术}",
-								"{@spell 法师之手}",
-								"{@spell 魔法技俩}",
-								"{@spell 冷冻射线}",
-								"{@spell 电爪}"
+								"{@spell 舞光術}",
+								"{@spell 法師之手}",
+								"{@spell 魔法技倆}",
+								"{@spell 冷凍射線}",
+								"{@spell 電爪}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 脚底抹油}",
-								"{@spell 云雾术}",
-								"{@spell 魔法飞弹}",
-								"{@spell 护盾术}"
+								"{@spell 腳底抹油}",
+								"{@spell 雲霧術}",
+								"{@spell 魔法飛彈}",
+								"{@spell 護盾術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 黑暗术}",
-								"{@spell 敲击术}",
-								"{@spell 识破隐形}",
-								"{@spell 蛛行术}"
+								"{@spell 黑暗術}",
+								"{@spell 敲擊術}",
+								"{@spell 識破隱形}",
+								"{@spell 蛛行術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 活化死尸}",
-								"{@spell 反制法术}",
-								"{@spell 闪电束}"
+								"{@spell 活化死屍}",
+								"{@spell 反製法術}",
+								"{@spell 閃電束}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 高等隐形术}",
-								"{@spell 变形术}"
+								"{@spell 高等隱形術}",
+								"{@spell 變形術}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell 活化物体}",
-								"{@spell 力墙术}"
+								"{@spell 活化物體}",
+								"{@spell 力牆術}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell 创造不死生物}",
-								"{@spell 石化术}"
+								"{@spell 創造不死生物}",
+								"{@spell 石化術}"
 							]
 						},
 						"7": {
@@ -3430,13 +3430,13 @@
 											"type": "item",
 											"name": "1. Paralyzing Ray.",
 											"style": "italic",
-											"entry": "The targeted creature must succeed on a {@dc 14} Constitution saving throw or be {@condition 麻痹} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+											"entry": "The targeted creature must succeed on a {@dc 14} Constitution saving throw or be {@condition 麻痺} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 										},
 										{
 											"type": "item",
 											"name": "2. Fear Ray.",
 											"style": "italic",
-											"entry": "The targeted creature must succeed on a {@dc 14} Wisdom saving throw or be {@condition 恐惧} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+											"entry": "The targeted creature must succeed on a {@dc 14} Wisdom saving throw or be {@condition 恐懼} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 										},
 										{
 											"type": "item",
@@ -3486,20 +3486,20 @@
 						"spells": {
 							"3": [
 								{
-									"replace": "{@spell 飞行术}",
-									"with": "{@spell 活化死尸}"
+									"replace": "{@spell 飛行術}",
+									"with": "{@spell 活化死屍}"
 								}
 							],
 							"4": [
 								{
-									"replace": "{@spell 放逐术}",
-									"with": "{@spell 枯萎术}"
+									"replace": "{@spell 放逐術}",
+									"with": "{@spell 枯萎術}"
 								}
 							],
 							"5": [
 								{
 									"replace": "{@spell 探知}",
-									"with": "{@spell 拉瑞心灵联结}"
+									"with": "{@spell 拉瑞心靈聯結}"
 								}
 							]
 						}
@@ -3675,13 +3675,13 @@
 				{
 					"name": "Invisible in Water",
 					"entries": [
-						"The weird is {@condition 隐形} while fully immersed in toxic brew."
+						"The weird is {@condition 隱形} while fully immersed in toxic brew."
 					]
 				},
 				{
 					"name": "Brew Bound",
 					"entries": [
-						"The weird dies if forced to leave the basin of toxic brew it inhabits, or if a {@spell 净化饮食} spell is cast on the brew."
+						"The weird dies if forced to leave the basin of toxic brew it inhabits, or if a {@spell 淨化飲食} spell is cast on the brew."
 					]
 				},
 				{
@@ -3785,12 +3785,12 @@
 								{
 									"type": "item",
 									"name": "Fear Ray.",
-									"entry": "The target must succeed on a {@dc 15} Wisdom saving throw or be {@condition 恐惧} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+									"entry": "The target must succeed on a {@dc 15} Wisdom saving throw or be {@condition 恐懼} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 								},
 								{
 									"type": "item",
 									"name": "Paralyzing Ray.",
-									"entry": "The target must succeed on a {@dc 15} Constitution saving throw or be {@condition 麻痹} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+									"entry": "The target must succeed on a {@dc 15} Constitution saving throw or be {@condition 麻痺} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 								}
 							]
 						}
@@ -3862,13 +3862,13 @@
 				{
 					"name": "Lesser Magic",
 					"entries": [
-						"The behir casts {@spell 七彩喷射} or {@spell 睡眠术}, requiring no components."
+						"The behir casts {@spell 七彩噴射} or {@spell 睡眠術}, requiring no components."
 					]
 				},
 				{
 					"name": "Greater Magic (Costs 2 Actions)",
 					"entries": [
-						"The behir casts {@spell 隐形术} or {@spell 迷踪步}, requiring no components."
+						"The behir casts {@spell 隱形術} or {@spell 迷蹤步}, requiring no components."
 					]
 				}
 			],
@@ -3887,7 +3887,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -3917,7 +3917,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -4041,7 +4041,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -4220,7 +4220,7 @@
 				{
 					"name": "Lightning Turret",
 					"entries": [
-						"A character can try to plug the nozzle of a lightning turret with a 10-pound rock or similar object, doing so with a successful {@dc 15} Strength (Athletics) check. A plugged turret can't shoot lightning until a creature uses an action to try to clear the obstruction, which requires another successful {@dc 15} Strength ({@skill 运动}) check. Shockerstomper has no ability to clear an obstruction itself."
+						"A character can try to plug the nozzle of a lightning turret with a 10-pound rock or similar object, doing so with a successful {@dc 15} Strength (Athletics) check. A plugged turret can't shoot lightning until a creature uses an action to try to clear the obstruction, which requires another successful {@dc 15} Strength ({@skill 運動}) check. Shockerstomper has no ability to clear an obstruction itself."
 					]
 				}
 			],
@@ -4377,7 +4377,7 @@
 										{
 											"type": "item",
 											"name": "Paralyzing Breath.",
-											"entry": "The dragon exhales paralyzing gas in a 60-foot cone. Each creature in that area must succeed on a DC 20 Constitution saving throw or be {@condition 麻痹} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+											"entry": "The dragon exhales paralyzing gas in a 60-foot cone. Each creature in that area must succeed on a DC 20 Constitution saving throw or be {@condition 麻痺} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 										}
 									]
 								}
@@ -4652,27 +4652,27 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 法师之手}"
+								"{@spell 法師之手}"
 							]
 						},
 						"1": {
 							"slots": 3,
 							"spells": [
-								"{@spell 魔法飞弹}",
-								"{@spell 护盾术}"
+								"{@spell 魔法飛彈}",
+								"{@spell 護盾術}"
 							]
 						},
 						"2": {
 							"slots": 2,
 							"spells": [
-								"{@spell 朦胧术}",
-								"{@spell 炽焰法球}"
+								"{@spell 朦朧術}",
+								"{@spell 熾焰法球}"
 							]
 						},
 						"3": {
 							"slots": 1,
 							"spells": [
-								"{@spell 闪电束}"
+								"{@spell 閃電束}"
 							]
 						}
 					},
@@ -4728,70 +4728,70 @@
 						"0": {
 							"spells": [
 								"{@spell 火焰箭}",
-								"{@spell 法师之手}",
-								"{@spell 魔法技俩}"
+								"{@spell 法師之手}",
+								"{@spell 魔法技倆}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 侦测魔法}",
-								"{@spell 魔法飞弹}",
-								"{@spell 护盾术}"
+								"{@spell 偵測魔法}",
+								"{@spell 魔法飛彈}",
+								"{@spell 護盾術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 朦胧术}",
-								"{@spell 侦测思想}",
-								"{@spell 迷踪步}",
+								"{@spell 朦朧術}",
+								"{@spell 偵測思想}",
+								"{@spell 迷蹤步}",
 								"{@spell 粉碎音波}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 反制法术}",
+								"{@spell 反製法術}",
 								"{@spell 解除魔法}",
-								"{@spell 火球术}",
-								"{@spell 加速术}"
+								"{@spell 火球術}",
+								"{@spell 加速術}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 枯萎术}",
-								"{@spell 高等隐形术}"
+								"{@spell 枯萎術}",
+								"{@spell 高等隱形術}"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
-								"{@spell 活化物体}",
-								"{@spell 毕格比之掌}",
+								"{@spell 活化物體}",
+								"{@spell 畢格比之掌}",
 								"{@spell 探知}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell 连环闪电}",
-								"{@spell 法术无效结界}"
+								"{@spell 連環閃電}",
+								"{@spell 法術無效結界}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
 								"{@spell 死亡一指}",
-								"{@spell 力场监牢}"
+								"{@spell 力場監牢}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell 焚云术}",
-								"{@spell 律令震慑}"
+								"{@spell 焚雲術}",
+								"{@spell 律令震懾}"
 							]
 						},
 						"9": {
@@ -4922,8 +4922,8 @@
 						"spells": {
 							"4": [
 								{
-									"replace": "{@spell 放逐术}",
-									"with": "{@spell 欧提路克魔封法球}"
+									"replace": "{@spell 放逐術}",
+									"with": "{@spell 歐提路克魔封法球}"
 								}
 							]
 						}
@@ -4976,8 +4976,8 @@
 						"spells": {
 							"4": [
 								{
-									"replace": "{@spell 放逐术}",
-									"with": "{@spell 困惑术}"
+									"replace": "{@spell 放逐術}",
+									"with": "{@spell 困惑術}"
 								}
 							]
 						}
@@ -5065,7 +5065,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -5083,7 +5083,7 @@
 				{
 					"name": "Echolocation (Bat or Hybrid Form Only)",
 					"entries": [
-						"The werebat has blindsight out to a range of 60 feet as long as it's not {@condition 耳聋}."
+						"The werebat has blindsight out to a range of 60 feet as long as it's not {@condition 耳聾}."
 					]
 				},
 				{
@@ -5260,8 +5260,8 @@
 						"spells": {
 							"4": [
 								{
-									"replace": "{@spell 放逐术}",
-									"with": "{@spell 生物定位术}"
+									"replace": "{@spell 放逐術}",
+									"with": "{@spell 生物定位術}"
 								}
 							]
 						}
@@ -5359,7 +5359,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -5393,7 +5393,7 @@
 					"name": "Misty Escape",
 					"entries": [
 						"When he drops to 0 hit points outside his resting place, Zorak transforms into a cloud of mist (as in the Shapechanger trait) instead of falling {@condition 昏迷}, provided that he isn't in sunlight or running water. If he can't transform, he is destroyed.",
-						"While he has 0 hit points in mist form, he can't revert to his vampire form, and he must reach his resting place within 2 hours or be destroyed. Once in his resting place, he reverts to his vampire form. He is then {@condition 麻痹} until he regains at least 1 hit point. After spending 1 hour in his resting place with 0 hit points, he regains 1 hit point."
+						"While he has 0 hit points in mist form, he can't revert to his vampire form, and he must reach his resting place within 2 hours or be destroyed. Once in his resting place, he reverts to his vampire form. He is then {@condition 麻痺} until he regains at least 1 hit point. After spending 1 hour in his resting place with 0 hit points, he regains 1 hit point."
 					]
 				},
 				{
@@ -5414,7 +5414,7 @@
 						"Zorak has the following flaws:",
 						"{@i Forbiddance.} Zorak can't enter a residence without an invitation from one of the occupants.",
 						"{@i Harmed by Running Water.} Zorak takes 20 acid damage if he ends his turn in running water.",
-						"{@i Stake to the Heart.} If a piercing weapon made of wood is driven into Zorak's heart while Zorak is {@condition 无力} in his resting place, Zorak is {@condition 麻痹} until the stake is removed.",
+						"{@i Stake to the Heart.} If a piercing weapon made of wood is driven into Zorak's heart while Zorak is {@condition 無力} in his resting place, Zorak is {@condition 麻痺} until the stake is removed.",
 						"{@i Sunlight Hypersensitivity.} Zorak takes 20 radiant damage when he starts his turn in sunlight. While in sunlight, he has disadvantage on attack rolls and ability checks."
 					]
 				}
@@ -5447,7 +5447,7 @@
 				{
 					"name": "Bite (Bat or Vampire Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition 被擒} by Zorak, {@condition 无力}, or {@condition 束缚}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and Zorak regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces his hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under Zorak's control."
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition 被擒} by Zorak, {@condition 無力}, or {@condition 束縛}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and Zorak regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces his hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under Zorak's control."
 					]
 				},
 				{
@@ -5542,8 +5542,8 @@
 						"spells": {
 							"4": [
 								{
-									"replace": "{@spell 放逐术}",
-									"with": "{@spell 困惑术}"
+									"replace": "{@spell 放逐術}",
+									"with": "{@spell 困惑術}"
 								}
 							]
 						}

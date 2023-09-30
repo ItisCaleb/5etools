@@ -35,35 +35,35 @@
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "谨慎法术"
+							"optionalfeature": "謹慎法術"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "远程法术"
+							"optionalfeature": "遠程法術"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "强效法术"
+							"optionalfeature": "強效法術"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "延时法术"
+							"optionalfeature": "延時法術"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "升阶法术"
+							"optionalfeature": "升階法術"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "瞬发法术"
+							"optionalfeature": "瞬發法術"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "精妙法术"
+							"optionalfeature": "精妙法術"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "孪生法术"
+							"optionalfeature": "孿生法術"
 						},
 						{
 							"type": "refOptionalfeature",
@@ -79,11 +79,11 @@
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "追踪法术|TCE"
+							"optionalfeature": "追蹤法術|TCE"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "转化法术|TCE"
+							"optionalfeature": "轉化法術|TCE"
 						}
 					]
 				}
@@ -118,35 +118,35 @@
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "谨慎法术"
+							"optionalfeature": "謹慎法術"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "远程法术"
+							"optionalfeature": "遠程法術"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "强效法术"
+							"optionalfeature": "強效法術"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "延时法术"
+							"optionalfeature": "延時法術"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "升阶法术"
+							"optionalfeature": "升階法術"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "瞬发法术"
+							"optionalfeature": "瞬發法術"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "精妙法术"
+							"optionalfeature": "精妙法術"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "孪生法术"
+							"optionalfeature": "孿生法術"
 						},
 						{
 							"type": "refOptionalfeature",
@@ -162,11 +162,11 @@
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "追踪法术|TCE"
+							"optionalfeature": "追蹤法術|TCE"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "转化法术|TCE"
+							"optionalfeature": "轉化法術|TCE"
 						}
 					]
 				}
@@ -185,35 +185,35 @@
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "谨慎法术"
+							"optionalfeature": "謹慎法術"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "远程法术"
+							"optionalfeature": "遠程法術"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "强效法术"
+							"optionalfeature": "強效法術"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "延时法术"
+							"optionalfeature": "延時法術"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "升阶法术"
+							"optionalfeature": "升階法術"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "瞬发法术"
+							"optionalfeature": "瞬發法術"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "精妙法术"
+							"optionalfeature": "精妙法術"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "孪生法术"
+							"optionalfeature": "孿生法術"
 						},
 						{
 							"type": "refOptionalfeature",
@@ -229,11 +229,11 @@
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "追踪法术|TCE"
+							"optionalfeature": "追蹤法術|TCE"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "转化法术|TCE"
+							"optionalfeature": "轉化法術|TCE"
 						}
 					]
 				}
@@ -596,51 +596,51 @@
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "指挥官奇袭"
+							"optionalfeature": "指揮官奇襲"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "缴械击"
+							"optionalfeature": "繳械擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "扰乱击"
+							"optionalfeature": "擾亂擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "躲闪步伐"
+							"optionalfeature": "躲閃步伐"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "诡诈击"
+							"optionalfeature": "詭詐擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "挑衅击"
+							"optionalfeature": "挑釁擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "突刺击"
+							"optionalfeature": "突刺擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "灵动击"
+							"optionalfeature": "靈動擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "恐吓击"
+							"optionalfeature": "恐嚇擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "格挡"
+							"optionalfeature": "格擋"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "精准击"
+							"optionalfeature": "精準擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "推撞击"
+							"optionalfeature": "推撞擊"
 						},
 						{
 							"type": "refOptionalfeature",
@@ -648,15 +648,15 @@
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "反击"
+							"optionalfeature": "反擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "横扫击"
+							"optionalfeature": "橫掃擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "绊摔击"
+							"optionalfeature": "絆摔擊"
 						},
 						{
 							"type": "refOptionalfeature",
@@ -688,11 +688,11 @@
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "突袭|TCE"
+							"optionalfeature": "突襲|TCE"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "诱饵战术|TCE"
+							"optionalfeature": "誘餌戰術|TCE"
 						},
 						{
 							"type": "refOptionalfeature",
@@ -700,19 +700,19 @@
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "领导风范|TCE"
+							"optionalfeature": "領導風範|TCE"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "擒拿击|TCE"
+							"optionalfeature": "擒拿擊|TCE"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "快手投掷|TCE"
+							"optionalfeature": "快手投擲|TCE"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "战术预估|TCE"
+							"optionalfeature": "戰術預估|TCE"
 						}
 					]
 				}
@@ -733,51 +733,51 @@
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "指挥官奇袭"
+							"optionalfeature": "指揮官奇襲"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "缴械击"
+							"optionalfeature": "繳械擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "扰乱击"
+							"optionalfeature": "擾亂擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "躲闪步伐"
+							"optionalfeature": "躲閃步伐"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "诡诈击"
+							"optionalfeature": "詭詐擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "挑衅击"
+							"optionalfeature": "挑釁擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "突刺击"
+							"optionalfeature": "突刺擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "灵动击"
+							"optionalfeature": "靈動擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "恐吓击"
+							"optionalfeature": "恐嚇擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "格挡"
+							"optionalfeature": "格擋"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "精准击"
+							"optionalfeature": "精準擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "推撞击"
+							"optionalfeature": "推撞擊"
 						},
 						{
 							"type": "refOptionalfeature",
@@ -785,15 +785,15 @@
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "反击"
+							"optionalfeature": "反擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "横扫击"
+							"optionalfeature": "橫掃擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "绊摔击"
+							"optionalfeature": "絆摔擊"
 						},
 						{
 							"type": "refOptionalfeature",
@@ -825,11 +825,11 @@
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "突袭|TCE"
+							"optionalfeature": "突襲|TCE"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "诱饵战术|TCE"
+							"optionalfeature": "誘餌戰術|TCE"
 						},
 						{
 							"type": "refOptionalfeature",
@@ -837,19 +837,19 @@
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "领导风范|TCE"
+							"optionalfeature": "領導風範|TCE"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "擒拿击|TCE"
+							"optionalfeature": "擒拿擊|TCE"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "快手投掷|TCE"
+							"optionalfeature": "快手投擲|TCE"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "战术预估|TCE"
+							"optionalfeature": "戰術預估|TCE"
 						}
 					]
 				}
@@ -870,51 +870,51 @@
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "指挥官奇袭"
+							"optionalfeature": "指揮官奇襲"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "缴械击"
+							"optionalfeature": "繳械擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "扰乱击"
+							"optionalfeature": "擾亂擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "躲闪步伐"
+							"optionalfeature": "躲閃步伐"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "诡诈击"
+							"optionalfeature": "詭詐擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "挑衅击"
+							"optionalfeature": "挑釁擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "突刺击"
+							"optionalfeature": "突刺擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "灵动击"
+							"optionalfeature": "靈動擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "恐吓击"
+							"optionalfeature": "恐嚇擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "格挡"
+							"optionalfeature": "格擋"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "精准击"
+							"optionalfeature": "精準擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "推撞击"
+							"optionalfeature": "推撞擊"
 						},
 						{
 							"type": "refOptionalfeature",
@@ -922,15 +922,15 @@
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "反击"
+							"optionalfeature": "反擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "横扫击"
+							"optionalfeature": "橫掃擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "绊摔击"
+							"optionalfeature": "絆摔擊"
 						},
 						{
 							"type": "refOptionalfeature",
@@ -962,11 +962,11 @@
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "突袭|TCE"
+							"optionalfeature": "突襲|TCE"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "诱饵战术|TCE"
+							"optionalfeature": "誘餌戰術|TCE"
 						},
 						{
 							"type": "refOptionalfeature",
@@ -974,19 +974,19 @@
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "领导风范|TCE"
+							"optionalfeature": "領導風範|TCE"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "擒拿击|TCE"
+							"optionalfeature": "擒拿擊|TCE"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "快手投掷|TCE"
+							"optionalfeature": "快手投擲|TCE"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "战术预估|TCE"
+							"optionalfeature": "戰術預估|TCE"
 						}
 					]
 				}
@@ -1007,51 +1007,51 @@
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "指挥官奇袭"
+							"optionalfeature": "指揮官奇襲"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "缴械击"
+							"optionalfeature": "繳械擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "扰乱击"
+							"optionalfeature": "擾亂擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "躲闪步伐"
+							"optionalfeature": "躲閃步伐"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "诡诈击"
+							"optionalfeature": "詭詐擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "挑衅击"
+							"optionalfeature": "挑釁擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "突刺击"
+							"optionalfeature": "突刺擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "灵动击"
+							"optionalfeature": "靈動擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "恐吓击"
+							"optionalfeature": "恐嚇擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "格挡"
+							"optionalfeature": "格擋"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "精准击"
+							"optionalfeature": "精準擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "推撞击"
+							"optionalfeature": "推撞擊"
 						},
 						{
 							"type": "refOptionalfeature",
@@ -1059,15 +1059,15 @@
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "反击"
+							"optionalfeature": "反擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "横扫击"
+							"optionalfeature": "橫掃擊"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "绊摔击"
+							"optionalfeature": "絆摔擊"
 						},
 						{
 							"type": "refOptionalfeature",
@@ -1099,11 +1099,11 @@
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "突袭|TCE"
+							"optionalfeature": "突襲|TCE"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "诱饵战术|TCE"
+							"optionalfeature": "誘餌戰術|TCE"
 						},
 						{
 							"type": "refOptionalfeature",
@@ -1111,19 +1111,19 @@
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "领导风范|TCE"
+							"optionalfeature": "領導風範|TCE"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "擒拿击|TCE"
+							"optionalfeature": "擒拿擊|TCE"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "快手投掷|TCE"
+							"optionalfeature": "快手投擲|TCE"
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "战术预估|TCE"
+							"optionalfeature": "戰術預估|TCE"
 						}
 					]
 				}

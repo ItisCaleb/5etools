@@ -21,26 +21,26 @@ class PageFilterOptionalFeatures extends PageFilter {
 
 		this._typeFilter = new Filter({
 			header: "Feature Type",
-			headerName: "能力类型",
+			headerName: "能力類型",
 			items: [],
 			displayFn: Parser.optFeatureTypeToFull,
 			itemSortFn: PageFilterOptionalFeatures._filterFeatureTypeSort,
 		});
 		this._pactFilter = new Filter({
 			header: "Pact Boon",
-			headerName: "契约恩赐",
+			headerName: "契約恩賜",
 			items: [],
 			displayFn: Parser.prereqPactToFull,
 		});
 		this._patronFilter = new Filter({
 			header: "Otherworldly Patron",
-			headerName: "异界宗主",
+			headerName: "異界宗主",
 			items: [],
 			displayFn: Parser.prereqPatronToShort,
 		});
 		this._spellFilter = new Filter({
 			header: "Spell",
-			headerName: "法术",
+			headerName: "法術",
 			items: [],
 			displayFn: StrUtil.toTitleCase,
 		});
@@ -50,13 +50,13 @@ class PageFilterOptionalFeatures extends PageFilter {
 		});
 		this._levelFilter = new Filter({
 			header: "Level",
-			headerName: "等级",
+			headerName: "等級",
 			itemSortFn: SortUtil.ascSortNumericalSuffix,
 			nests: [],
 		});
 		this._prerequisiteFilter = new MultiFilter({
 			header: "Prerequisite",
-			headerName: "先决条件",
+			headerName: "先決條件",
 			filters: [
 				this._pactFilter,
 				this._patronFilter,

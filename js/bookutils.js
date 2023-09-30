@@ -289,7 +289,7 @@ class BookUtil {
 			const href = ~BookUtil.curRender.chapter
 				? this._getHrefShowAll(bookId)
 				: `#${UrlUtil.encodeForHash(bookId)}`;
-			const $btnEntireBook = $(`<a href="${href}" class="btn btn-xs btn-default no-print ${~BookUtil.curRender.chapter ? "" : "active"}" title="警告：速度较慢">查看整本${this._getTypeTitleInCn(BookUtil.contentType)}</a>`);
+			const $btnEntireBook = $(`<a href="${href}" class="btn btn-xs btn-default no-print ${~BookUtil.curRender.chapter ? "" : "active"}" title="警告：速度較慢">查看整本${this._getTypeTitleInCn(BookUtil.contentType)}</a>`);
 
 			if (BookUtil._isNarrow == null) {
 				const saved = StorageUtil.syncGetForPage("narrowMode");
@@ -301,7 +301,7 @@ class BookUtil {
 				$btnToggleNarrow.toggleClass("active", BookUtil._isNarrow);
 				$(`#pagecontent`).toggleClass(`bk__stats--narrow`, BookUtil._isNarrow);
 			};
-			const $btnToggleNarrow = $(`<button class="btn btn-xs btn-default" title="切换窄框阅读宽度"><span class="glyphicon glyphicon-resize-small"/></button>`)
+			const $btnToggleNarrow = $(`<button class="btn btn-xs btn-default" title="切換窄框閱讀寬度"><span class="glyphicon glyphicon-resize-small"/></button>`)
 				.click(() => {
 					BookUtil._isNarrow = !BookUtil._isNarrow;
 					hdlNarrowUpdate();
@@ -310,7 +310,7 @@ class BookUtil {
 			hdlNarrowUpdate();
 
 			$$`<div class="no-print flex-v-center btn-group">${$btnEntireBook}${$btnToggleNarrow}</div>`.appendTo($wrpControls);
-		} else $(`<button class="btn btn-xs btn-default no-print">回到顶端</button>`).click(() => MiscUtil.scrollPageTop()).appendTo($wrpControls);
+		} else $(`<button class="btn btn-xs btn-default no-print">回到頂端</button>`).click(() => MiscUtil.scrollPageTop()).appendTo($wrpControls);
 
 		const showNxt = ~ixChapter && ixChapter < data.length - 1;
 		BookUtil.curRender.controls.$btnsNxt = BookUtil.curRender.controls.$btnsNxt || [];
@@ -533,7 +533,7 @@ class BookUtil {
 	static async _booksHashChange_pHandleFound ({fromIndex, homebrewData, bookId, hashParts, $contents}) {
 		document.title = `${fromIndex.name} - 5etools`;
 		$(`.book-head-header`).html(this._booksHashChange_getCleanName(fromIndex.name));
-		$(`.book-head-message`).html("浏览内容。按下F以搜索，按下G以前往指定页数。");
+		$(`.book-head-message`).html("瀏覽內容。按下F以搜索，按下G以前往指定頁數。");
 		await this._pLoadChapter(fromIndex, bookId, hashParts, homebrewData, $contents);
 		NavBar.highlightCurrentPage();
 	}
@@ -583,17 +583,17 @@ class BookUtil {
 
 	static _getAllTitle () {
 		switch (BookUtil.contentType) {
-			case "adventure": return "所有冒险";
-			case "book": return "所有书籍";
+			case "adventure": return "所有冒險";
+			case "book": return "所有書籍";
 			default: throw new Error(`Unhandled book content type: "${BookUtil.contentType}"`);
 		}
 	}
 
 	static _getTypeTitleInCn () {
 		switch (BookUtil.contentType) {
-			case "adventure": return "冒险";
-			case "book": return "书籍";
-			case "document": return "文档";
+			case "adventure": return "冒險";
+			case "book": return "書籍";
+			case "document": return "文件";
 			default: throw new Error(`Unhandled book content type: "${BookUtil.contentType}"`);
 		}
 	}
@@ -648,7 +648,7 @@ class BookUtil {
 			});
 
 		const $results = $(`<div class="f-all-out">`);
-		const $srch = $(`<input class="form-control" placeholder="${isPageMode ? "跳转到页码..." : "搜寻文本..."}">`)
+		const $srch = $(`<input class="form-control" placeholder="${isPageMode ? "跳轉到頁碼..." : "搜尋文本..."}">`)
 			.on("keydown", (e) => {
 				e.stopPropagation();
 
@@ -779,7 +779,7 @@ class BookUtil {
 					<span class="name">${book.name}</span>
 				</a>
 				<div class="flex-v-center">
-					<a href="${this._getHrefShowAll(book.id)}" class="bk__contents_show_all px-2 py-1p flex-v-center lst__wrp-cells lst__row-inner" title="查看整本${this._getTypeTitleInCn(BookUtil.contentType)} （警告：速度较慢）">
+					<a href="${this._getHrefShowAll(book.id)}" class="bk__contents_show_all px-2 py-1p flex-v-center lst__wrp-cells lst__row-inner" title="查看整本${this._getTypeTitleInCn(BookUtil.contentType)} （警告：速度較慢）">
 						<span class="glyphicon glyphicon glyphicon-book" style="top: 0;"/>
 					</a>
 					${BookUtil.curRender.$btnToggleExpandAll}

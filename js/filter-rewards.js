@@ -4,7 +4,7 @@ const displayRewardType = function(item){
 	switch(item){
 		case "Blessing": return "祝福";
 		case "Boon": return "恩惠";
-		case "Charm": return "护咒";
+		case "Charm": return "護咒";
 		default: return item;
 	};
 }
@@ -16,7 +16,7 @@ class PageFilterRewards extends PageFilter {
 		this._sourceFilter = new SourceFilter();
 		this._typeFilter = new Filter({
 			header: "Type",
-			headerName: "类型",
+			headerName: "類型",
 			items: [
 				"Blessing",
 				"Boon",

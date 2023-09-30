@@ -580,7 +580,7 @@ class ActionTag {
 			const replaceAs = `${mAction[1]}{@action ${ptTag}}${ptTrailing}`;
 
 			strMod = `${strMod.slice(0, mAction.index)}${replaceAs}${strMod.slice(ixMatchEnd, strMod.length)}`
-				.replace(/{@action 攻击} (and|or) damage roll/g, "Attack $1 damage roll")
+				.replace(/{@action 攻擊} (and|or) damage roll/g, "Attack $1 damage roll")
 			;
 
 			mAction.index += replaceAs.length - 1;

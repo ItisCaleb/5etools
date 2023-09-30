@@ -47,7 +47,7 @@
 					"(a) a {@item light crossbow|phb} and {@item crossbow bolts (20)|phb|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
 					"(a) a {@item scholar's pack|phb} or (b) an {@item explorer's pack|phb}"
 				],
-				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|起始金钱}",
+				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|起始金錢}",
 				"defaultData": [
 					{
 						"a": [
@@ -554,7 +554,7 @@
 					"type": "entries",
 					"name": "Psychic Focus",
 					"entries": [
-						"You can focus psionic energy on one of your psionic disciplines to draw ongoing benefits from it. As a bonus action, you can choose one of your psionic disciplines and gain its psychic focus benefit, which is detailed in that discipline's description. The benefit lasts until you are {@condition 无力} or until you use another bonus action to choose a different focus benefit.",
+						"You can focus psionic energy on one of your psionic disciplines to draw ongoing benefits from it. As a bonus action, you can choose one of your psionic disciplines and gain its psychic focus benefit, which is detailed in that discipline's description. The benefit lasts until you are {@condition 無力} or until you use another bonus action to choose a different focus benefit.",
 						"You can have only one psychic focus benefit at a time, and using the psychic focus of one discipline doesn't limit your ability to use other disciplines."
 					]
 				},
@@ -1019,7 +1019,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Starting at 3rd level, you project an inspiring aura. While you aren't {@condition 无力}, each ally within 30 feet of you who can see you gains a +2 bonus to initiative rolls."
+				"Starting at 3rd level, you project an inspiring aura. While you aren't {@condition 無力}, each ally within 30 feet of you who can see you gains a +2 bonus to initiative rolls."
 			]
 		},
 		{
@@ -1033,7 +1033,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Beginning at 6th level, you project an aura of resilience. While you aren't {@condition 无力}, each ally within 30 feet of you who can see you regains additional hit points equal to your Intelligence modifier (minimum of 0) whenever they regain hit points from a psionic discipline."
+				"Beginning at 6th level, you project an aura of resilience. While you aren't {@condition 無力}, each ally within 30 feet of you who can see you regains additional hit points equal to your Intelligence modifier (minimum of 0) whenever they regain hit points from a psionic discipline."
 			]
 		},
 		{
@@ -1047,7 +1047,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, you project an aura of speed. While you aren't {@condition 无力}, any ally within 30 feet of you who can see you can take the {@action 疾走} action as a bonus action."
+				"Starting at 14th level, you project an aura of speed. While you aren't {@condition 無力}, any ally within 30 feet of you who can see you can take the {@action 疾走} action as a bonus action."
 			]
 		},
 		{
@@ -1083,7 +1083,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you gain proficiency with two of the following skills of your choice: {@skill 驯兽}, {@skill 欺瞒}, {@skill 洞悉}, {@skill 威吓}, {@skill 调查}, {@skill 察觉}, and {@skill 说服}."
+				"At 1st level, you gain proficiency with two of the following skills of your choice: {@skill 馴獸}, {@skill 欺瞞}, {@skill 洞悉}, {@skill 威嚇}, {@skill 調查}, {@skill 察覺}, and {@skill 說服}."
 			]
 		},
 		{
@@ -1382,7 +1382,7 @@
 			"entries": [
 				"Starting at 1st level, you gain the ability to manifest a blade of psychic energy. As a bonus action, you create scintillating knives of energy that project from both of your fists. You can't hold anything in your hands while manifesting these blades. You can dismiss them as a bonus action.",
 				"For you, a soul knife is a martial melee weapon with the light and finesse properties. It deals {@damage 1d8} psychic damage on a hit.",
-				"As a bonus action, you can prepare to use the blades to parry; you gain a +2 bonus to AC until the start of your next turn or until you are {@condition 无力}."
+				"As a bonus action, you can prepare to use the blades to parry; you gain a +2 bonus to AC until the start of your next turn or until you are {@condition 無力}."
 			]
 		},
 		{
@@ -1499,7 +1499,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you gain proficiency with two of the following skills of your choice: {@skill 驯兽}, {@skill 奥秘}, {@skill 历史}, {@skill 洞悉}, {@skill 医疗}, {@skill 自然}, {@skill 察觉}, {@skill 宗教}, or {@skill 生存}."
+				"At 1st level, you gain proficiency with two of the following skills of your choice: {@skill 馴獸}, {@skill 奧秘}, {@skill 歷史}, {@skill 洞悉}, {@skill 醫療}, {@skill 自然}, {@skill 察覺}, {@skill 宗教}, or {@skill 生存}."
 			]
 		},
 		{

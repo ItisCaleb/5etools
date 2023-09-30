@@ -727,19 +727,19 @@ class PageFilterRaces extends PageFilter {
 	constructor () {
 		super();
 
-		this._sizeFilter = new Filter({header: "Size", headerName: "体型", displayFn: Parser.sizeAbvToFull, itemSortFn: PageFilterRaces.filterAscSortSize});
+		this._sizeFilter = new Filter({header: "Size", headerName: "體型", displayFn: Parser.sizeAbvToFull, itemSortFn: PageFilterRaces.filterAscSortSize});
 		this._asiFilter = new AbilityScoreFilter({
 			header: "Ability Bonus (Including Subrace)",
-			headerName: "属性加值 (包括亚种)",
+			headerName: "屬性加值 (包括亞種)",
 		});
 		this._asiFilterLegacy = new Filter({
 			header: "Ability Bonus (Including Subrace) (Legacy)",
-			headerName: "属性加值 (包括亚种) (传统)",
+			headerName: "屬性加值 (包括亞種) (傳統)",
 			items: [
 				"Player Choice",
 				"任意力量增加",
 				"任意敏捷增加",
-				"任意体质增加",
+				"任意體質增加",
 				"任意智力增加",
 				"任意感知增加",
 				"任意魅力增加",
@@ -747,8 +747,8 @@ class PageFilterRaces extends PageFilter {
 				"力量+1",
 				"敏捷+2",
 				"敏捷+1",
-				"体质+2",
-				"体质+1",
+				"體質+2",
+				"體質+1",
 				"智力+2",
 				"智力+1",
 				"感知+2",
@@ -758,7 +758,7 @@ class PageFilterRaces extends PageFilter {
 			],
 			itemSortFn: PageFilterRaces.filterAscSortAsi,
 		});
-		this._baseRaceFilter = new Filter({header: "Base Race", headerName: "基本种族"});
+		this._baseRaceFilter = new Filter({header: "Base Race", headerName: "基本種族"});
 		this._speedFilter = new Filter(
 			{
 				header: "Speed",
@@ -794,22 +794,22 @@ class PageFilterRaces extends PageFilter {
 			],
 			displayFn: function (t) {
 				switch (t) {
-					case "NPC Race": 		return "NPC种族";
-					case "Monstrous Race":	return "怪物种族";
-					case "Armor Proficiency": 	return "护甲熟练";
-					case "Skill Proficiency": 	return "技能熟练";
-					case "Tool Proficiency": 	return "工具熟练";
-					case "Weapon Proficiency": 	return "武器熟练";
-					case "Darkvision": 			return "黑暗视觉";
-					case "Superior Darkvision": return "高级黑暗视觉";
-					case "Natural Armor": 		return "天生护甲";
-					case "Damage Resistance": 	return "伤害抗性";
+					case "NPC Race": 		return "NPC種族";
+					case "Monstrous Race":	return "怪物種族";
+					case "Armor Proficiency": 	return "護甲熟練";
+					case "Skill Proficiency": 	return "技能熟練";
+					case "Tool Proficiency": 	return "工具熟練";
+					case "Weapon Proficiency": 	return "武器熟練";
+					case "Darkvision": 			return "黑暗視覺";
+					case "Superior Darkvision": return "高級黑暗視覺";
+					case "Natural Armor": 		return "天生護甲";
+					case "Damage Resistance": 	return "傷害抗性";
 					case "Spellcasting": 		return "施法";
-					case "Unarmed Strike": 		return "徒手打击";
-					case "Amphibious": 			return "两栖";
-					case "Powerful Build": 		return "强健体格";
-					case "Dragonmark": 			return "龙纹";
-					case "Improved Resting": 	return "修整强化";
+					case "Unarmed Strike": 		return "徒手打擊";
+					case "Amphibious": 			return "兩棲";
+					case "Powerful Build": 		return "強健體格";
+					case "Dragonmark": 			return "龍紋";
+					case "Improved Resting": 	return "修整強化";
 					default: return t;
 				}
 			},
@@ -819,7 +819,7 @@ class PageFilterRaces extends PageFilter {
 		});
 		this._languageFilter = new Filter({
 			header: "Languages",
-			headerName: "语言",
+			headerName: "語言",
 			displayFn: Parser.LanguageToDisplay,
 			items: [
 				"Abyssal",
@@ -884,7 +884,7 @@ class PageFilterRaces extends PageFilter {
 			if (race.ability.some(it => it.choose)) race._fAbility.push("Player Choice");
 		} else race._fAbility = [];
 
-		const ability = race.ability ? Renderer.getAbilityData(race.ability) : {asTextShort: "无"};
+		const ability = race.ability ? Renderer.getAbilityData(race.ability) : {asTextShort: "無"};
 		race._slAbility = ability.asTextShort;
 	}
 

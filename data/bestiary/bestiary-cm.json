@@ -26,7 +26,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -123,7 +123,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -349,7 +349,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"无甲防御"
+						"無甲防禦"
 					]
 				}
 			],
@@ -426,7 +426,7 @@
 				{
 					"name": "Thunder Strike",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) thunder damage, and if the target is a creature, it must succeed on a {@dc 17} Constitution saving throw or be {@condition 耳聋} and {@condition 震慑} until the start of Bak Mei's next turn."
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) thunder damage, and if the target is a creature, it must succeed on a {@dc 17} Constitution saving throw or be {@condition 耳聾} and {@condition 震懾} until the start of Bak Mei's next turn."
 					]
 				},
 				{
@@ -507,7 +507,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -629,7 +629,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -787,7 +787,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -855,7 +855,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -956,7 +956,7 @@
 				{
 					"ac": 20,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1154,7 +1154,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1194,7 +1194,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -1302,7 +1302,7 @@
 				{
 					"name": "Dreadful Glare",
 					"entries": [
-						"The fungal servant targets one creature it can see within 60 feet of it. If the target can see the fungal servant, it must succeed on a {@dc 16} Wisdom saving throw against this magic or become {@condition 恐惧} until the end of the fungal servant's next turn. If the target fails the saving throw by 5 or more, it is also {@condition 麻痹} for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all fungal servants for the next 24 hours."
+						"The fungal servant targets one creature it can see within 60 feet of it. If the target can see the fungal servant, it must succeed on a {@dc 16} Wisdom saving throw against this magic or become {@condition 恐懼} until the end of the fungal servant's next turn. If the target fails the saving throw by 5 or more, it is also {@condition 麻痺} for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all fungal servants for the next 24 hours."
 					]
 				}
 			],
@@ -1322,7 +1322,7 @@
 				{
 					"name": "Blasphemous Word (Costs 2 Actions)",
 					"entries": [
-						"The fungal servant utters a blasphemous word. Each non-undead creature within 10 feet of the fungal servant that can hear the magical utterance must succeed on a {@dc 16} Constitution saving throw or be {@condition 震慑} until the end of the fungal servant's next turn."
+						"The fungal servant utters a blasphemous word. Each non-undead creature within 10 feet of the fungal servant that can hear the magical utterance must succeed on a {@dc 16} Constitution saving throw or be {@condition 震懾} until the end of the fungal servant's next turn."
 					]
 				},
 				{
@@ -1334,7 +1334,7 @@
 				{
 					"name": "Whirlwind of Spores (Costs 2 Actions)",
 					"entries": [
-						"The fungal servant magically transforms into a whirlwind of spores, moves up to 60 feet, and reverts to its normal form. While in whirlwind form, the fungal servant is immune to all damage, and it can't be {@condition 被擒}, {@condition 石化}, knocked {@condition 伏地}, {@condition 束缚}, or {@condition 震慑}. Equipment worn or carried by the fungal servant remain in its possession."
+						"The fungal servant magically transforms into a whirlwind of spores, moves up to 60 feet, and reverts to its normal form. While in whirlwind form, the fungal servant is immune to all damage, and it can't be {@condition 被擒}, {@condition 石化}, knocked {@condition 伏地}, {@condition 束縛}, or {@condition 震懾}. Equipment worn or carried by the fungal servant remain in its possession."
 					]
 				}
 			],
@@ -1530,7 +1530,7 @@
 				{
 					"name": "Tongue",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one Medium or smaller creature. {@h}The target is {@condition 被擒} (escape {@dc 12}). Until this grapple ends, the target is {@condition 束缚}, and the grippli can't grab another creature."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one Medium or smaller creature. {@h}The target is {@condition 被擒} (escape {@dc 12}). Until this grapple ends, the target is {@condition 束縛}, and the grippli can't grab another creature."
 					]
 				},
 				{
@@ -1589,7 +1589,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1720,7 +1720,7 @@
 				{
 					"name": "Invisible Passage",
 					"entries": [
-						"The hag magically turns {@condition 隐形} until she attacks or casts a spell, or until her concentration ends (as if concentrating on a spell). While {@condition 隐形}, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is {@condition 隐形} with her."
+						"The hag magically turns {@condition 隱形} until she attacks or casts a spell, or until her concentration ends (as if concentrating on a spell). While {@condition 隱形}, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is {@condition 隱形} with her."
 					]
 				}
 			],
@@ -1762,7 +1762,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"无甲防御"
+						"無甲防禦"
 					]
 				}
 			],
@@ -1858,7 +1858,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"无甲防御"
+						"無甲防禦"
 					]
 				}
 			],
@@ -1915,7 +1915,7 @@
 				{
 					"name": "Force Strike",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) force damage, and if the target is a creature, it must succeed on a {@dc 15} Constitution saving throw or be {@condition 震慑} until the of Jade Tigress's next turn."
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) force damage, and if the target is a creature, it must succeed on a {@dc 15} Constitution saving throw or be {@condition 震懾} until the of Jade Tigress's next turn."
 					]
 				},
 				{
@@ -2107,7 +2107,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -2203,7 +2203,7 @@
 				{
 					"ac": 20,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -2621,7 +2621,7 @@
 				{
 					"name": "Shield (1st-Level Spell; 3/Day)",
 					"entries": [
-						"When the sage is hit by an attack or targeted by a magic missile spell, it calls forth an {@condition 隐形} barrier of magical force that protects it. Until the start of its next turn, the sage has a +5 bonus to AC, including against the triggering attack, and it takes no damage from magic missile."
+						"When the sage is hit by an attack or targeted by a magic missile spell, it calls forth an {@condition 隱形} barrier of magical force that protects it. Until the start of its next turn, the sage has a +5 bonus to AC, including against the triggering attack, and it takes no damage from magic missile."
 					]
 				}
 			],
@@ -2799,13 +2799,13 @@
 				{
 					"name": "Paralyzing Breath",
 					"entries": [
-						"Miirym exhales paralyzing gas in a 90-foot cone. Each creature in that area must succeed on a {@dc 21} Constitution saving throw or be {@condition 麻痹} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"Miirym exhales paralyzing gas in a 90-foot cone. Each creature in that area must succeed on a {@dc 21} Constitution saving throw or be {@condition 麻痺} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
 					"name": "Frightful Presence",
 					"entries": [
-						"Each creature of Miirym's choice that is within 120 feet of her and aware of her must succeed on a {@dc 21} Wisdom saving throw or become {@condition 恐惧} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Miirym's Frightful Presence for the next 24 hours."
+						"Each creature of Miirym's choice that is within 120 feet of her and aware of her must succeed on a {@dc 21} Wisdom saving throw or become {@condition 恐懼} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Miirym's Frightful Presence for the next 24 hours."
 					]
 				}
 			],
@@ -2874,7 +2874,7 @@
 				{
 					"ac": 12,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -3142,7 +3142,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -3191,7 +3191,7 @@
 				{
 					"name": "Constrict",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 5 ft., one Large or smaller creature. {@h}17 ({@damage 2d10 + 6}) bludgeoning damage plus 17 ({@damage 2d10 + 6}) slashing damage. The target is {@condition 被擒} (escape {@dc 16}) if the behir isn't already constricting a creature, and the target is {@condition 束缚} until this grapple ends."
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one Large or smaller creature. {@h}17 ({@damage 2d10 + 6}) bludgeoning damage plus 17 ({@damage 2d10 + 6}) slashing damage. The target is {@condition 被擒} (escape {@dc 16}) if the behir isn't already constricting a creature, and the target is {@condition 束縛} until this grapple ends."
 					]
 				},
 				{
@@ -3203,9 +3203,9 @@
 				{
 					"name": "Swallow",
 					"entries": [
-						"The behir makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is {@condition 目盲} and {@condition 束缚}, it has total cover against attacks and other effects outside the behir, and it takes 21 ({@damage 6d6}) acid damage at the start of each of the behir's turns. A behir can have only one creature swallowed at a time.",
+						"The behir makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is {@condition 目盲} and {@condition 束縛}, it has total cover against attacks and other effects outside the behir, and it takes 21 ({@damage 6d6}) acid damage at the start of each of the behir's turns. A behir can have only one creature swallowed at a time.",
 						"Any creature swallowed by a parasite-infested behir must succeed on a {@dc 19} Constitution saving throw at the start of each of the behir's turns or be feasted upon by blood parasites, taking 36 ({@damage 8d8}) necrotic damage on a failed save, or half as much damage on a successful save. This damage is in addition to the damage caused by the behir's digestive acids.",
-						"If the behir takes 30 damage or more on a single turn from the swallowed creature, the behir must succeed on a {@dc 14} Constitution saving throw at the end of that turn or regurgitate the creature, which falls {@condition 伏地} in a space within 10 feet of the behir. If the behir dies, a swallowed creature is no longer {@condition 束缚} by it and can escape from the corpse by using 15 feet of movement, exiting {@condition 伏地}."
+						"If the behir takes 30 damage or more on a single turn from the swallowed creature, the behir must succeed on a {@dc 14} Constitution saving throw at the end of that turn or regurgitate the creature, which falls {@condition 伏地} in a space within 10 feet of the behir. If the behir dies, a swallowed creature is no longer {@condition 束縛} by it and can escape from the corpse by using 15 feet of movement, exiting {@condition 伏地}."
 					]
 				}
 			],
@@ -3327,7 +3327,7 @@
 				{
 					"name": "Dark Devotion",
 					"entries": [
-						"Ram Sugar has advantage on saving throws against being {@condition 魅惑} or {@condition 恐惧}."
+						"Ram Sugar has advantage on saving throws against being {@condition 魅惑} or {@condition 恐懼}."
 					]
 				}
 			],
@@ -3469,7 +3469,7 @@
 				{
 					"name": "Shield (1st-Level Spell; 3/Day)",
 					"entries": [
-						"When the sage is hit by an attack or targeted by a magic missile spell, it calls forth an {@condition 隐形} barrier of magical force that protects it. Until the start of its next turn, the sage has a +5 bonus to AC, including against the triggering attack, and it takes no damage from magic missile."
+						"When the sage is hit by an attack or targeted by a magic missile spell, it calls forth an {@condition 隱形} barrier of magical force that protects it. Until the start of its next turn, the sage has a +5 bonus to AC, including against the triggering attack, and it takes no damage from magic missile."
 					]
 				}
 			],
@@ -3497,7 +3497,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -3714,7 +3714,7 @@
 				{
 					"name": "Howling Babble {@recharge}",
 					"entries": [
-						"Shemshime targets one creature it can see within 30 feet of it. The creature must make a {@dc 13} Wisdom saving throw. On a failed save, it takes 21 ({@damage 4d8 + 3}) psychic damage and is {@condition 震慑} until the end of its next turn. On a successful save, it takes half as much damage and isn't {@condition 震慑}."
+						"Shemshime targets one creature it can see within 30 feet of it. The creature must make a {@dc 13} Wisdom saving throw. On a failed save, it takes 21 ({@damage 4d8 + 3}) psychic damage and is {@condition 震懾} until the end of its next turn. On a successful save, it takes half as much damage and isn't {@condition 震懾}."
 					]
 				}
 			],
@@ -3744,7 +3744,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -3812,7 +3812,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 10 ({@damage 3d6}) lightning damage, and if the target is a creature, it must succeed on a {@dc 15} Constitution saving throw or be {@condition 震慑} until the end of its next turn."
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 10 ({@damage 3d6}) lightning damage, and if the target is a creature, it must succeed on a {@dc 15} Constitution saving throw or be {@condition 震懾} until the end of its next turn."
 					]
 				}
 			],
@@ -3869,7 +3869,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"无甲防御"
+						"無甲防禦"
 					]
 				}
 			],
@@ -3923,7 +3923,7 @@
 				{
 					"name": "Force Strike",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) force damage, and if the target is a creature, it must succeed on a {@dc 15} Constitution saving throw or be {@condition 震慑} until the start of Steel Crane's next turn."
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) force damage, and if the target is a creature, it must succeed on a {@dc 15} Constitution saving throw or be {@condition 震懾} until the start of Steel Crane's next turn."
 					]
 				},
 				{
@@ -4087,7 +4087,7 @@
 				{
 					"ac": 12,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -4183,7 +4183,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -4223,7 +4223,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -4331,7 +4331,7 @@
 				{
 					"name": "Dreadful Glare",
 					"entries": [
-						"Valin targets one creature she can see within 60 feet of her. If the target can see Valin, it must succeed on a {@dc 16} Wisdom saving throw against this magic or become {@condition 恐惧} until the end of Valin's next turn. If the target fails the saving throw by 5 or more, it is also {@condition 麻痹} for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies and mummy lords for the next 24 hours."
+						"Valin targets one creature she can see within 60 feet of her. If the target can see Valin, it must succeed on a {@dc 16} Wisdom saving throw against this magic or become {@condition 恐懼} until the end of Valin's next turn. If the target fails the saving throw by 5 or more, it is also {@condition 麻痺} for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies and mummy lords for the next 24 hours."
 					]
 				}
 			],
@@ -4351,7 +4351,7 @@
 				{
 					"name": "Blasphemous Word (Costs 2 Actions)",
 					"entries": [
-						"Valin utters a blasphemous word. Each non-undead creature within 10 feet of Valin that can hear the magical utterance must succeed on a {@dc 16} Constitution saving throw or be {@condition 震慑} until the end of Valin's next turn."
+						"Valin utters a blasphemous word. Each non-undead creature within 10 feet of Valin that can hear the magical utterance must succeed on a {@dc 16} Constitution saving throw or be {@condition 震懾} until the end of Valin's next turn."
 					]
 				},
 				{
@@ -4363,7 +4363,7 @@
 				{
 					"name": "Whirlwind of Sand (Costs 2 Actions)",
 					"entries": [
-						"Valin magically transforms into a whirlwind of sand, moves up to 60 feet, and reverts to her normal form. While in whirlwind form, Valin is immune to all damage, and it can't be {@condition 被擒}, {@condition 石化}, knocked {@condition 伏地}, {@condition 束缚}, or {@condition 震慑}. Equipment worn or carried by Valin remain in her possession."
+						"Valin magically transforms into a whirlwind of sand, moves up to 60 feet, and reverts to her normal form. While in whirlwind form, Valin is immune to all damage, and it can't be {@condition 被擒}, {@condition 石化}, knocked {@condition 伏地}, {@condition 束縛}, or {@condition 震懾}. Equipment worn or carried by Valin remain in her possession."
 					]
 				}
 			],
@@ -4760,7 +4760,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -4855,7 +4855,7 @@
 				{
 					"name": "Frightful Presence",
 					"entries": [
-						"Each creature of Zikzokrishka's choice that is within 120 feet of the Zikzokrishka and aware of it must succeed on a {@dc 18} Wisdom saving throw or become {@condition 恐惧} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the Zikzokrishka's Frightful Presence for the next 24 hours."
+						"Each creature of Zikzokrishka's choice that is within 120 feet of the Zikzokrishka and aware of it must succeed on a {@dc 18} Wisdom saving throw or become {@condition 恐懼} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the Zikzokrishka's Frightful Presence for the next 24 hours."
 					]
 				},
 				{

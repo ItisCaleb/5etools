@@ -21,7 +21,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -62,7 +62,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the chupacabra has disadvantage on attack rolls, as well as on Wisdom ({@skill 察觉}) checks that rely on sight."
+						"While in sunlight, the chupacabra has disadvantage on attack rolls, as well as on Wisdom ({@skill 察覺}) checks that rely on sight."
 					]
 				}
 			],
@@ -76,7 +76,7 @@
 				{
 					"name": "Drain Blood",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature that is {@condition 伏地}, {@condition 无力}, or {@condition 束缚}. {@h}5 ({@damage 1d6 + 2}) necrotic damage. The target must succeed on a {@dc 13} Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken, and the chupacabra regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature that is {@condition 伏地}, {@condition 無力}, or {@condition 束縛}. {@h}5 ({@damage 1d6 + 2}) necrotic damage. The target must succeed on a {@dc 13} Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken, and the chupacabra regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
 					]
 				}
 			],
@@ -124,7 +124,7 @@
 				{
 					"ac": 25,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -159,7 +159,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -201,13 +201,13 @@
 				{
 					"name": "Frightful Presence",
 					"entries": [
-						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of it must succeed on a {@dc 17} Wisdom saving throw or become {@condition 恐惧} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the elder dinosaur's Frightful Presence for the next 24 hours."
+						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of it must succeed on a {@dc 17} Wisdom saving throw or become {@condition 恐懼} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the elder dinosaur's Frightful Presence for the next 24 hours."
 					]
 				},
 				{
 					"name": "Swallow",
 					"entries": [
-						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is {@condition 目盲} and {@condition 束缚}, it has total cover against attacks and other effects outside the elder dinosaur, and it takes 56 ({@damage 16d6}) acid damage at the start of each of the elder dinosaur's turns. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, it must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition 伏地} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition 束缚} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition 伏地}."
+						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is {@condition 目盲} and {@condition 束縛}, it has total cover against attacks and other effects outside the elder dinosaur, and it takes 56 ({@damage 16d6}) acid damage at the start of each of the elder dinosaur's turns. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, it must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition 伏地} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition 束縛} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition 伏地}."
 					]
 				}
 			],
@@ -271,7 +271,7 @@
 				{
 					"ac": 25,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -306,7 +306,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -340,7 +340,7 @@
 				{
 					"name": "Lightning Storm",
 					"entries": [
-						"The elder dinosaur is always accompanied by a raging thunderstorm similar to the effect of a {@spell 召雷术} spell. A storm cloud in the shape of a cylinder that is 10 feet tall with a 60-foot radius instantly forms 100 feet in the air over the elder dinosaur when it is angered or becomes violent, as long as it is outdoors. On each of its turns, as an action, the elder dinosaur can choose a point it can see within 120 feet of it. A bolt of lightning flashes down from the cloud to that point. Each creature within 10 feet of that point must make a {@dc 20} Dexterity saving throw, taking 21 ({@damage 6d6}) lightning damage on a failed save, or half as much damage on a successful one."
+						"The elder dinosaur is always accompanied by a raging thunderstorm similar to the effect of a {@spell 召雷術} spell. A storm cloud in the shape of a cylinder that is 10 feet tall with a 60-foot radius instantly forms 100 feet in the air over the elder dinosaur when it is angered or becomes violent, as long as it is outdoors. On each of its turns, as an action, the elder dinosaur can choose a point it can see within 120 feet of it. A bolt of lightning flashes down from the cloud to that point. Each creature within 10 feet of that point must make a {@dc 20} Dexterity saving throw, taking 21 ({@damage 6d6}) lightning damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -354,7 +354,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}36 ({@damage 4d12 + 10}) piercing damage. If the target is a creature, it is {@condition 被擒} (escape {@dc 20}). Until this grapple ends, the target is {@condition 束缚}, and the elder dinosaur can't bite another target."
+						"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}36 ({@damage 4d12 + 10}) piercing damage. If the target is a creature, it is {@condition 被擒} (escape {@dc 20}). Until this grapple ends, the target is {@condition 束縛}, and the elder dinosaur can't bite another target."
 					]
 				},
 				{
@@ -366,13 +366,13 @@
 				{
 					"name": "Frightful Presence",
 					"entries": [
-						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of it must succeed on a {@dc 17} Wisdom saving throw or become {@condition 恐惧} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the elder dinosaur's Frightful Presence for the next 24 hours."
+						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of it must succeed on a {@dc 17} Wisdom saving throw or become {@condition 恐懼} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the elder dinosaur's Frightful Presence for the next 24 hours."
 					]
 				},
 				{
 					"name": "Swallow",
 					"entries": [
-						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is {@condition 目盲} and {@condition 束缚}, it has total cover against attacks and other effects outside the elder dinosaur, and it takes 56 ({@damage 16d6}) acid damage at the start of each of the elder dinosaur's turns. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, it must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition 伏地} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition 束缚} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition 伏地}."
+						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is {@condition 目盲} and {@condition 束縛}, it has total cover against attacks and other effects outside the elder dinosaur, and it takes 56 ({@damage 16d6}) acid damage at the start of each of the elder dinosaur's turns. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, it must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition 伏地} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition 束縛} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition 伏地}."
 					]
 				}
 			],
@@ -446,7 +446,7 @@
 				{
 					"ac": 25,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -481,7 +481,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -523,7 +523,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}62 ({@damage 8d12 + 10}) piercing damage. If the target is a creature, it is {@condition 被擒} (escape {@dc 20}). Until this grapple ends, the target is {@condition 束缚}, and the elder dinosaur can't bite another target."
+						"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}62 ({@damage 8d12 + 10}) piercing damage. If the target is a creature, it is {@condition 被擒} (escape {@dc 20}). Until this grapple ends, the target is {@condition 束縛}, and the elder dinosaur can't bite another target."
 					]
 				},
 				{
@@ -541,13 +541,13 @@
 				{
 					"name": "Frightful Presence",
 					"entries": [
-						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of it must succeed on a {@dc 17} Wisdom saving throw or become {@condition 恐惧} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the elder dinosaur's Frightful Presence for the next 24 hours."
+						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of it must succeed on a {@dc 17} Wisdom saving throw or become {@condition 恐懼} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the elder dinosaur's Frightful Presence for the next 24 hours."
 					]
 				},
 				{
 					"name": "Swallow",
 					"entries": [
-						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is {@condition 目盲} and {@condition 束缚}, it has total cover against attacks and other effects outside the elder dinosaur, and it takes 56 ({@damage 16d6}) acid damage at the start of each of the elder dinosaur's turns. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, it must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition 伏地} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition 束缚} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition 伏地}."
+						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is {@condition 目盲} and {@condition 束縛}, it has total cover against attacks and other effects outside the elder dinosaur, and it takes 56 ({@damage 16d6}) acid damage at the start of each of the elder dinosaur's turns. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, it must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition 伏地} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition 束縛} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition 伏地}."
 					]
 				}
 			],
@@ -620,7 +620,7 @@
 				{
 					"ac": 25,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -656,7 +656,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -704,7 +704,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}36 ({@damage 4d12 + 10}) piercing damage. If the target is a creature, it is {@condition 被擒} (escape {@dc 20}). Until this grapple ends, the target is {@condition 束缚}, and the elder dinosaur can't bite another target."
+						"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}36 ({@damage 4d12 + 10}) piercing damage. If the target is a creature, it is {@condition 被擒} (escape {@dc 20}). Until this grapple ends, the target is {@condition 束縛}, and the elder dinosaur can't bite another target."
 					]
 				},
 				{
@@ -716,13 +716,13 @@
 				{
 					"name": "Frightful Presence",
 					"entries": [
-						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of it must succeed on a {@dc 17} Wisdom saving throw or become {@condition 恐惧} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the elder dinosaur's Frightful Presence for the next 24 hours."
+						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of it must succeed on a {@dc 17} Wisdom saving throw or become {@condition 恐懼} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the elder dinosaur's Frightful Presence for the next 24 hours."
 					]
 				},
 				{
 					"name": "Swallow",
 					"entries": [
-						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is {@condition 目盲} and {@condition 束缚}, it has total cover against attacks and other effects outside the elder dinosaur, and it takes 56 ({@damage 16d6}) acid damage at the start of each of the elder dinosaur's turns. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, it must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition 伏地} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition 束缚} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition 伏地}."
+						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is {@condition 目盲} and {@condition 束縛}, it has total cover against attacks and other effects outside the elder dinosaur, and it takes 56 ({@damage 16d6}) acid damage at the start of each of the elder dinosaur's turns. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, it must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition 伏地} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition 束縛} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition 伏地}."
 					]
 				}
 			],
@@ -795,7 +795,7 @@
 				{
 					"ac": 25,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -830,7 +830,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -884,7 +884,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}36 ({@damage 4d12 + 10}) piercing damage. If the target is a creature, it is {@condition 被擒} (escape {@dc 20}). Until this grapple ends, the target is {@condition 束缚}, and the elder dinosaur can't bite another target."
+						"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}36 ({@damage 4d12 + 10}) piercing damage. If the target is a creature, it is {@condition 被擒} (escape {@dc 20}). Until this grapple ends, the target is {@condition 束縛}, and the elder dinosaur can't bite another target."
 					]
 				},
 				{
@@ -914,13 +914,13 @@
 				{
 					"name": "Frightful Presence",
 					"entries": [
-						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of it must succeed on a {@dc 17} Wisdom saving throw or become {@condition 恐惧} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the elder dinosaur's Frightful Presence for the next 24 hours."
+						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of it must succeed on a {@dc 17} Wisdom saving throw or become {@condition 恐懼} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the elder dinosaur's Frightful Presence for the next 24 hours."
 					]
 				},
 				{
 					"name": "Swallow",
 					"entries": [
-						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is {@condition 目盲} and {@condition 束缚}, it has total cover against attacks and other effects outside the elder dinosaur, and it takes 56 ({@damage 16d6}) acid damage at the start of each of the elder dinosaur's turns. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, it must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition 伏地} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition 束缚} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition 伏地}."
+						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is {@condition 目盲} and {@condition 束縛}, it has total cover against attacks and other effects outside the elder dinosaur, and it takes 56 ({@damage 16d6}) acid damage at the start of each of the elder dinosaur's turns. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, it must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition 伏地} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition 束縛} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition 伏地}."
 					]
 				}
 			],
@@ -994,7 +994,7 @@
 				{
 					"ac": 25,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1029,7 +1029,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -1071,7 +1071,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}36 ({@damage 4d12 + 10}) piercing damage. If the target is a creature, it is {@condition 被擒} (escape {@dc 20}). Until this grapple ends, the target is {@condition 束缚}. If the elder dinosaur has three targets {@condition 束缚} in this way, it can't bite another target."
+						"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}36 ({@damage 4d12 + 10}) piercing damage. If the target is a creature, it is {@condition 被擒} (escape {@dc 20}). Until this grapple ends, the target is {@condition 束縛}. If the elder dinosaur has three targets {@condition 束縛} in this way, it can't bite another target."
 					]
 				},
 				{
@@ -1089,13 +1089,13 @@
 				{
 					"name": "Frightful Presence",
 					"entries": [
-						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of it must succeed on a {@dc 17} Wisdom saving throw or become {@condition 恐惧} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the elder dinosaur's Frightful Presence for the next 24 hours."
+						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of it must succeed on a {@dc 17} Wisdom saving throw or become {@condition 恐懼} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the elder dinosaur's Frightful Presence for the next 24 hours."
 					]
 				},
 				{
 					"name": "Swallow",
 					"entries": [
-						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is {@condition 目盲} and {@condition 束缚}, it has total cover against attacks and other effects outside the elder dinosaur, and it takes 56 ({@damage 16d6}) acid damage at the start of each of the elder dinosaur's turns. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, it must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition 伏地} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition 束缚} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition 伏地}."
+						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is {@condition 目盲} and {@condition 束縛}, it has total cover against attacks and other effects outside the elder dinosaur, and it takes 56 ({@damage 16d6}) acid damage at the start of each of the elder dinosaur's turns. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, it must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition 伏地} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition 束縛} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition 伏地}."
 					]
 				}
 			],
@@ -1168,7 +1168,7 @@
 				{
 					"ac": 25,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1207,7 +1207,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -1249,7 +1249,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}36 ({@damage 4d12 + 10}) piercing damage. If the target is a creature, it is {@condition 被擒} (escape {@dc 20}). Until this grapple ends, the target is {@condition 束缚}, and the elder dinosaur can't bite another target."
+						"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}36 ({@damage 4d12 + 10}) piercing damage. If the target is a creature, it is {@condition 被擒} (escape {@dc 20}). Until this grapple ends, the target is {@condition 束縛}, and the elder dinosaur can't bite another target."
 					]
 				},
 				{
@@ -1273,13 +1273,13 @@
 				{
 					"name": "Frightful Presence",
 					"entries": [
-						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of it must succeed on a {@dc 17} Wisdom saving throw or become {@condition 恐惧} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the elder dinosaur's Frightful Presence for the next 24 hours."
+						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of it must succeed on a {@dc 17} Wisdom saving throw or become {@condition 恐懼} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the elder dinosaur's Frightful Presence for the next 24 hours."
 					]
 				},
 				{
 					"name": "Swallow",
 					"entries": [
-						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is {@condition 目盲} and {@condition 束缚}, it has total cover against attacks and other effects outside the elder dinosaur, and it takes 56 ({@damage 16d6}) acid damage at the start of each of the elder dinosaur's turns. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, it must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition 伏地} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition 束缚} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition 伏地}."
+						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is {@condition 目盲} and {@condition 束縛}, it has total cover against attacks and other effects outside the elder dinosaur, and it takes 56 ({@damage 16d6}) acid damage at the start of each of the elder dinosaur's turns. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, it must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition 伏地} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition 束縛} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition 伏地}."
 					]
 				}
 			],
@@ -1347,7 +1347,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1426,7 +1426,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1472,14 +1472,14 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 15 ft., one target. {@h}39 ({@damage 5d12 + 7}) piercing damage. If the target is a Large or smaller creature, it must succeed on a {@dc 19} Dexterity saving throw or it is {@condition 被擒} (escape {@dc 19}). Until this grapple ends, the target is {@condition 束缚}, and Gishath can't bite another target."
+						"{@atk mw} {@hit 11} to hit, reach 15 ft., one target. {@h}39 ({@damage 5d12 + 7}) piercing damage. If the target is a Large or smaller creature, it must succeed on a {@dc 19} Dexterity saving throw or it is {@condition 被擒} (escape {@dc 19}). Until this grapple ends, the target is {@condition 束縛}, and Gishath can't bite another target."
 					]
 				},
 				{
 					"name": "Swallow",
 					"entries": [
-						"Gishath makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage and is swallowed, and the grapple ends. While swallowed, the creature is {@condition 目盲} and {@condition 束缚}, it has total cover against attacks and other effects outside Gishath, and it takes 21 ({@damage 6d6}) acid damage at the start of each of Gishath's turns.",
-						"If Gishath takes 30 damage or more on a single turn from a creature inside it, it must succeed on a {@dc 18} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition 伏地} in a space within 10 feet of it. If Gishath dies, a swallowed creature is no longer {@condition 束缚} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition 伏地}."
+						"Gishath makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage and is swallowed, and the grapple ends. While swallowed, the creature is {@condition 目盲} and {@condition 束縛}, it has total cover against attacks and other effects outside Gishath, and it takes 21 ({@damage 6d6}) acid damage at the start of each of Gishath's turns.",
+						"If Gishath takes 30 damage or more on a single turn from a creature inside it, it must succeed on a {@dc 18} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition 伏地} in a space within 10 feet of it. If Gishath dies, a swallowed creature is no longer {@condition 束縛} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition 伏地}."
 					]
 				},
 				{
@@ -1505,7 +1505,7 @@
 				{
 					"name": "Roar (Costs 2 Actions)",
 					"entries": [
-						"Each creature that is within 120 feet of Gishath and can hear it must succeed on a {@dc 19} Wisdom saving throw or become {@condition 恐惧} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on tself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Gishath's Roar for the next 24 hours."
+						"Each creature that is within 120 feet of Gishath and can hear it must succeed on a {@dc 19} Wisdom saving throw or become {@condition 恐懼} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on tself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Gishath's Roar for the next 24 hours."
 					]
 				}
 			],
@@ -1583,7 +1583,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1621,7 +1621,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -1655,7 +1655,7 @@
 				{
 					"name": "Keen Hearing and Sight",
 					"entries": [
-						"The sunbird has advantage on Wisdom ({@skill 察觉}) checks that rely on hearing or sight."
+						"The sunbird has advantage on Wisdom ({@skill 察覺}) checks that rely on hearing or sight."
 					]
 				}
 			],
@@ -1669,7 +1669,7 @@
 				{
 					"name": "Talon",
 					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d6 + 9}) slashing damage plus 14 ({@damage 4d6}) fire damage, and the target is {@condition 被擒} (escape {@dc 18}). Until this grapple ends, the target is {@condition 束缚}, and the sunbird can't attack another target with that talon. A {@condition 被擒} creature takes 11 ({@damage 2d10}) fire damage at the start of each of the sunbird's turns."
+						"{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d6 + 9}) slashing damage plus 14 ({@damage 4d6}) fire damage, and the target is {@condition 被擒} (escape {@dc 18}). Until this grapple ends, the target is {@condition 束縛}, and the sunbird can't attack another target with that talon. A {@condition 被擒} creature takes 11 ({@damage 2d10}) fire damage at the start of each of the sunbird's turns."
 					]
 				}
 			],

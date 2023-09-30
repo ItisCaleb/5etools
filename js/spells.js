@@ -149,17 +149,17 @@ class SpellsPage extends ListPage {
 
 		const tabMetas = [
 			new Renderer.utils.TabButton({
-				label: "法术",
+				label: "法術",
 				fnPopulate: buildStatsTab,
 				isVisible: true,
 			}),
 			new Renderer.utils.TabButton({
-				label: "信息",
+				label: "資訊",
 				fnPopulate: buildFluffTab,
 				isVisible: Renderer.utils.hasFluffText(spell, "spellFluff"),
 			}),
 			new Renderer.utils.TabButton({
-				label: "图片",
+				label: "圖片",
 				fnPopulate: buildFluffTab.bind(null, true),
 				isVisible: Renderer.utils.hasFluffImages(spell, "spellFluff"),
 			}),
@@ -323,8 +323,8 @@ class SpellsPage extends ListPage {
 		this._spellBookView = new BookModeView({
 			hashKey: "bookview",
 			$openBtn: $(`#btn-spellbook`),
-			$eleNoneVisible: $(`<span class="initial-message">如果你想要一次查看多个法术，请先创建一份清单</span>`),
-			pageTitle: "法术书视图",
+			$eleNoneVisible: $(`<span class="initial-message">如果你想要一次查看多個法術，請先創建一份清單</span>`),
+			pageTitle: "法術書視圖",
 			popTblGetNumShown: ($wrpContent, $dispName, $wrpControls) => {
 				const toShow = ListUtil.getSublistedIds().map(id => this._dataList[id])
 					.sort((a, b) => SortUtil.ascSortLower(a.name, b.name));
@@ -339,8 +339,8 @@ class SpellsPage extends ListPage {
 				if (lastOrder != null) lastOrder = `${lastOrder}`;
 
 				const $selSortMode = $(`<select class="form-control input-sm">
-					<option value="0">法术环位</option>
-					<option value="1">字母顺序</option>
+					<option value="0">法術環位</option>
+					<option value="1">字母順序</option>
 				</select>`)
 					.change(() => {
 						if (!toShow.length && Hist.lastLoadedId != null) return;
@@ -353,7 +353,7 @@ class SpellsPage extends ListPage {
 					});
 				if (lastOrder != null) $selSortMode.val(lastOrder);
 
-				$$`<div class="flex-vh-center ml-3"><div class="mr-2 no-wrap">排列顺序：</div>${$selSortMode}</div>`.appendTo($wrpControls);
+				$$`<div class="flex-vh-center ml-3"><div class="mr-2 no-wrap">排列順序：</div>${$selSortMode}</div>`.appendTo($wrpControls);
 
 				// region Markdown
 				// TODO refactor this and bestiary markdown section

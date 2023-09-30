@@ -25,151 +25,151 @@ class NavBar {
 		// create mobile "Menu" button
 		const btnShowHide = document.createElement("button");
 		btnShowHide.className = "btn btn-default page__btn-toggle-nav";
-		btnShowHide.innerHTML = "菜单";
+		btnShowHide.innerHTML = "菜單";
 		btnShowHide.onclick = () => {
 			$(btnShowHide).toggleClass("active");
 			$(`.page__nav-hidden-mobile`).toggleClass("block", $(btnShowHide).hasClass("active"));
 		};
 		document.getElementById("navigation").prepend(btnShowHide);
 
-		addLi(navBar, "5etools.html", "首页", {isRoot: true});
+		addLi(navBar, "5etools.html", "首頁", {isRoot: true});
 
-		const ulRules = addDropdown(navBar, "规则");
-		addLi(ulRules, "quickreference.html", "快速参照");
-		addLi(ulRules, "variantrules.html", "变体&选用规则/杂项");
+		const ulRules = addDropdown(navBar, "規則");
+		addLi(ulRules, "quickreference.html", "快速參照");
+		addLi(ulRules, "variantrules.html", "變體&選用規則/雜項");
 		addLi(ulRules, "tables.html", "表格");
 		addDivider(ulRules);
-		const ulBooks = addDropdown(ulRules, "出版书籍", true);
-		addLi(ulBooks, "books.html", "查看所有/自制内容");
+		const ulBooks = addDropdown(ulRules, "出版書籍", true);
+		addLi(ulBooks, "books.html", "查看所有/自製內容");
 		addDivider(ulBooks);
-		addLi(ulBooks, "book.html", "玩家手册", {aHash: "PHB", date: "2014"});
-		addLi(ulBooks, "book.html", "怪物图鉴", {aHash: "MM", date: null});
+		addLi(ulBooks, "book.html", "玩家手冊", {aHash: "PHB", date: "2014"});
+		addLi(ulBooks, "book.html", "怪物圖鑑", {aHash: "MM", date: null});
 		addLi(ulBooks, "book.html", "地下城主指南", {aHash: "DMG", date: null});
 		addDivider(ulBooks);
-		addLi(ulBooks, "book.html", "剑湾冒险指南", {aHash: "SCAG", date: "2015"});
-		addLi(ulBooks, "book.html", "瓦罗的怪物指南", {aHash: "VGM", date: "2016"});
-		addLi(ulBooks, "book.html", "姗纳萨的万事指南", {aHash: "XGE", date: "2017"});
-		addLi(ulBooks, "book.html", "魔邓肯的众敌卷册", {aHash: "MTF", date: "2018"});
-		addLi(ulBooks, "book.html", "拉尼卡的公会长指南", {aHash: "GGR", date: null});
-		addLi(ulBooks, "book.html", "艾奎兹玄有限责任公司", {aHash: "AI", date: "2019"});
-		addLi(ulBooks, "book.html", "艾伯伦：从终末战争复苏", {aHash: "ERLW", date: null});
-		addLi(ulBooks, "book.html", "龙与地下城 vs. 瑞克与莫蒂：基础规则", {aHash: "RMR", date: null});
-		addLi(ulBooks, "book.html", "荒洲探险家指南", {aHash: "EGW", date: "2020"});
-		addLi(ulBooks, "book.html", "塞洛斯的神话奥德赛", {aHash: "MOT", date: null});
-		addLi(ulBooks, "book.html", "塔莎的万象坩锅", {aHash: "TCE", date: null});
-		addLi(ulBooks, "book.html", "范·里希腾的鸦阁指南", {aHash: "VRGR", date: "2021"});
+		addLi(ulBooks, "book.html", "劍灣冒險指南", {aHash: "SCAG", date: "2015"});
+		addLi(ulBooks, "book.html", "瓦羅的怪物指南", {aHash: "VGM", date: "2016"});
+		addLi(ulBooks, "book.html", "姍納薩的萬事指南", {aHash: "XGE", date: "2017"});
+		addLi(ulBooks, "book.html", "魔鄧肯的眾敵卷冊", {aHash: "MTF", date: "2018"});
+		addLi(ulBooks, "book.html", "拉尼卡的公會長指南", {aHash: "GGR", date: null});
+		addLi(ulBooks, "book.html", "艾奎茲玄有限責任公司", {aHash: "AI", date: "2019"});
+		addLi(ulBooks, "book.html", "艾伯倫：從終末戰爭復甦", {aHash: "ERLW", date: null});
+		addLi(ulBooks, "book.html", "龍與地下城 vs. 瑞克與莫蒂：基礎規則", {aHash: "RMR", date: null});
+		addLi(ulBooks, "book.html", "荒洲探險家指南", {aHash: "EGW", date: "2020"});
+		addLi(ulBooks, "book.html", "塞洛斯的神話奧德賽", {aHash: "MOT", date: null});
+		addLi(ulBooks, "book.html", "塔莎的萬象坩鍋", {aHash: "TCE", date: null});
+		addLi(ulBooks, "book.html", "范·里希騰的鴉閣指南", {aHash: "VRGR", date: "2021"});
 		addDivider(ulBooks);
 		addLi(ulBooks, "book.html", "DM帷幕：荒野套件", {aHash: "ScreenWildernessKit", date: "2020"});
 		addDivider(ulBooks);
-		addLi(ulBooks, "book.html", "冒险者联盟", {aHash: "AL", date: "2016"});
-		addLi(ulBooks, "book.html", "智者建言手册", {aHash: "SAC", date: "2019"});
+		addLi(ulBooks, "book.html", "冒險者聯盟", {aHash: "AL", date: "2016"});
+		addLi(ulBooks, "book.html", "智者建言手冊", {aHash: "SAC", date: "2019"});
 
-		const ulPlayers = addDropdown(navBar, "玩家选项");
-		addLi(ulPlayers, "classes.html", "职业");
+		const ulPlayers = addDropdown(navBar, "玩家選項");
+		addLi(ulPlayers, "classes.html", "職業");
 		addLi(ulPlayers, "backgrounds.html", "背景");
-		addLi(ulPlayers, "feats.html", "专长");
-		addLi(ulPlayers, "races.html", "种族");
-		addLi(ulPlayers, "charcreationoptions.html", "其他角色创建选项");
-		addLi(ulPlayers, "optionalfeatures.html", "职业能力选项");
+		addLi(ulPlayers, "feats.html", "專長");
+		addLi(ulPlayers, "races.html", "種族");
+		addLi(ulPlayers, "charcreationoptions.html", "其他角色創建選項");
+		addLi(ulPlayers, "optionalfeatures.html", "職業能力選項");
 		addDivider(ulPlayers);
-		addLi(ulPlayers, "statgen.html", "属性生成器");
+		addLi(ulPlayers, "statgen.html", "屬性生成器");
 		addDivider(ulPlayers);
-		addLi(ulPlayers, "lifegen.html", "这是你的人生");
-		addLi(ulPlayers, "names.html", "名称");
+		addLi(ulPlayers, "lifegen.html", "這是你的人生");
+		addLi(ulPlayers, "names.html", "名稱");
 
 		const ulDms = addDropdown(navBar, "DM工具");
 		addLi(ulDms, "dmscreen.html", "DM 帷幕");
 		addDivider(ulDms);
-		const ulAdventures = addDropdown(ulDms, "冒险模组", true);
-		addLi(ulAdventures, "adventures.html", "查看所有/自制内容");
+		const ulAdventures = addDropdown(ulDms, "冒險模組", true);
+		addLi(ulAdventures, "adventures.html", "查看所有/自製內容");
 		addDivider(ulAdventures);
-		addLi(ulAdventures, "adventure.html", "凡戴尔的失落矿坑", {isSide: true, aHash: "LMoP", date: "2014"});
-		addLi(ulAdventures, "adventure.html", "龙后的宝山", {isSide: true, aHash: "HotDQ", date: null});
-		addLi(ulAdventures, "adventure.html", "提亚玛特的崛起", {isSide: true, aHash: "RoT", date: null});
-		addLi(ulAdventures, "adventure.html", "毁灭亲王", {isSide: true, aHash: "PotA", date: "2015"});
-		addLi(ulAdventures, "adventure.html", "逃离深渊", {isSide: true, aHash: "OotA", date: null});
-		addLi(ulAdventures, "adventure.html", "施特拉德的诅咒", {isSide: true, aHash: "CoS", date: "2016"});
-		addLi(ulAdventures, "adventure.html", "风暴君王之雷霆", {isSide: true, aHash: "SKT", date: null});
-		addLi(ulAdventures, "adventure.html", "深水龙门阵：暗无天日", {isSide: true, aHash: "TftYP-TSC", date: "2017"});
-		addLi(ulAdventures, "adventure.html", "深水龙门阵：愤怒熔炉", {isSide: true, aHash: "TftYP-TFoF", date: null});
-		addLi(ulAdventures, "adventure.html", "深水龙门阵：隐秘圣坛", {isSide: true, aHash: "TftYP-THSoT", date: null});
-		addLi(ulAdventures, "adventure.html", "深水龙门阵：白羽山", {isSide: true, aHash: "TftYP-WPM", date: null});
-		addLi(ulAdventures, "adventure.html", "深水龙门阵：死于赛尔", {isSide: true, aHash: "TftYP-DiT", date: null});
-		addLi(ulAdventures, "adventure.html", "深水龙门阵：挑战巨人", {isSide: true, aHash: "TftYP-AtG", date: null});
-		addLi(ulAdventures, "adventure.html", "深水龙门阵：恐怖墓穴", {isSide: true, aHash: "TftYP-ToH", date: null});
-		addLi(ulAdventures, "adventure.html", "湮灭之墓", {isSide: true, aHash: "ToA", date: null});
-		addLi(ulAdventures, "adventure.html", "龟人扩充包", {isSide: true, aHash: "TTP", date: null});
-		addLi(ulAdventures, "adventure.html", "深水城：龙金飞劫", {isSide: true, aHash: "WDH", date: "2018"});
-		addLi(ulAdventures, "adventure.html", "夸力许的失落实验室", {isSide: true, aHash: "LLK", date: null});
-		addLi(ulAdventures, "adventure.html", "深水城：疯法师的地下城", {isSide: true, aHash: "WDMM", date: null});
-		addLi(ulAdventures, "adventure.html", "追捕克仑可", {isSide: true, aHash: "KKW", date: null});
-		addLi(ulAdventures, "adventure.html", "盐沼幽魂", {isSide: true, aHash: "GoS", date: "2019"});
-		addLi(ulAdventures, "adventure.html", "寻找特萨尔蛇蜥", {isSide: true, aHash: "HftT", date: null});
-		addLi(ulAdventures, "adventure.html", "位面游荡仪", {isSide: true, aHash: "OoW", date: null});
-		addLi(ulAdventures, "adventure.html", "起始包：冰塔峰之龙", {isSide: true, aHash: "DIP", date: null});
-		addLi(ulAdventures, "adventure.html", "起始包：风暴领主之怒", {isSide: true, aHash: "SLW", date: null});
-		addLi(ulAdventures, "adventure.html", "起始包：沉睡巨龙醒转", {isSide: true, aHash: "SDW", date: null});
-		addLi(ulAdventures, "adventure.html", "起始包：神圣的争夺", {isSide: true, aHash: "DC", date: null});
-		addLi(ulAdventures, "adventure.html", "博德之门：坠入阿弗纳斯", {isSide: true, aHash: "BGDIA", date: null});
-		addLi(ulAdventures, "adventure.html", "洛卡鱼人崛起", {isSide: true, aHash: "LR", date: null});
-		addLi(ulAdventures, "adventure.html", "艾伯伦：失落的圣物", {isSide: true, aHash: "EFR", date: null});
-		addLi(ulAdventures, "adventure.html", "瑞克与莫蒂：BRE", {isSide: true, aHash: "RMBRE", date: null});
-		addLi(ulAdventures, "adventure.html", "重建炼狱机器", {isSide: true, aHash: "IMR", date: null});
-		addLi(ulAdventures, "adventure.html", "荒洲：复仇之潮", {isSide: true, aHash: "ToR", date: "2020"});
-		addLi(ulAdventures, "adventure.html", "荒洲：危险计划", {isSide: true, aHash: "DD", date: null});
-		addLi(ulAdventures, "adventure.html", "荒洲：封冻恶疾", {isSide: true, aHash: "FS", date: null});
-		addLi(ulAdventures, "adventure.html", "荒洲：恶客自来", {isSide: true, aHash: "US", date: null});
-		addLi(ulAdventures, "adventure.html", "塞洛斯：无声之密", {isSide: true, aHash: "MOT-NSS", date: null});
-		addLi(ulAdventures, "adventure.html", "冰风谷：冰霜少女的雾凇", {isSide: true, aHash: "IDRotF", date: null});
-		addLi(ulAdventures, "adventure.html", "烛堡秘辛", {isSide: true, aHash: "CM", date: "2021"});
+		addLi(ulAdventures, "adventure.html", "凡戴爾的失落礦坑", {isSide: true, aHash: "LMoP", date: "2014"});
+		addLi(ulAdventures, "adventure.html", "龍後的寶山", {isSide: true, aHash: "HotDQ", date: null});
+		addLi(ulAdventures, "adventure.html", "提亞瑪特的崛起", {isSide: true, aHash: "RoT", date: null});
+		addLi(ulAdventures, "adventure.html", "毀滅親王", {isSide: true, aHash: "PotA", date: "2015"});
+		addLi(ulAdventures, "adventure.html", "逃離深淵", {isSide: true, aHash: "OotA", date: null});
+		addLi(ulAdventures, "adventure.html", "施特拉德的詛咒", {isSide: true, aHash: "CoS", date: "2016"});
+		addLi(ulAdventures, "adventure.html", "風暴君王之雷霆", {isSide: true, aHash: "SKT", date: null});
+		addLi(ulAdventures, "adventure.html", "深水龍門陣：暗無天日", {isSide: true, aHash: "TftYP-TSC", date: "2017"});
+		addLi(ulAdventures, "adventure.html", "深水龍門陣：憤怒熔爐", {isSide: true, aHash: "TftYP-TFoF", date: null});
+		addLi(ulAdventures, "adventure.html", "深水龍門陣：隱秘聖壇", {isSide: true, aHash: "TftYP-THSoT", date: null});
+		addLi(ulAdventures, "adventure.html", "深水龍門陣：白羽山", {isSide: true, aHash: "TftYP-WPM", date: null});
+		addLi(ulAdventures, "adventure.html", "深水龍門陣：死於賽爾", {isSide: true, aHash: "TftYP-DiT", date: null});
+		addLi(ulAdventures, "adventure.html", "深水龍門陣：挑戰巨人", {isSide: true, aHash: "TftYP-AtG", date: null});
+		addLi(ulAdventures, "adventure.html", "深水龍門陣：恐怖墓穴", {isSide: true, aHash: "TftYP-ToH", date: null});
+		addLi(ulAdventures, "adventure.html", "湮滅之墓", {isSide: true, aHash: "ToA", date: null});
+		addLi(ulAdventures, "adventure.html", "龜人擴充包", {isSide: true, aHash: "TTP", date: null});
+		addLi(ulAdventures, "adventure.html", "深水城：龍金飛劫", {isSide: true, aHash: "WDH", date: "2018"});
+		addLi(ulAdventures, "adventure.html", "夸力許的失落實驗室", {isSide: true, aHash: "LLK", date: null});
+		addLi(ulAdventures, "adventure.html", "深水城：瘋法師的地下城", {isSide: true, aHash: "WDMM", date: null});
+		addLi(ulAdventures, "adventure.html", "追捕克侖可", {isSide: true, aHash: "KKW", date: null});
+		addLi(ulAdventures, "adventure.html", "鹽沼幽魂", {isSide: true, aHash: "GoS", date: "2019"});
+		addLi(ulAdventures, "adventure.html", "尋找特薩爾蛇蜥", {isSide: true, aHash: "HftT", date: null});
+		addLi(ulAdventures, "adventure.html", "位面遊蕩儀", {isSide: true, aHash: "OoW", date: null});
+		addLi(ulAdventures, "adventure.html", "起始包：冰塔峰之龍", {isSide: true, aHash: "DIP", date: null});
+		addLi(ulAdventures, "adventure.html", "起始包：風暴領主之怒", {isSide: true, aHash: "SLW", date: null});
+		addLi(ulAdventures, "adventure.html", "起始包：沉睡巨龍醒轉", {isSide: true, aHash: "SDW", date: null});
+		addLi(ulAdventures, "adventure.html", "起始包：神聖的爭奪", {isSide: true, aHash: "DC", date: null});
+		addLi(ulAdventures, "adventure.html", "博德之門：墜入阿弗納斯", {isSide: true, aHash: "BGDIA", date: null});
+		addLi(ulAdventures, "adventure.html", "洛卡魚人崛起", {isSide: true, aHash: "LR", date: null});
+		addLi(ulAdventures, "adventure.html", "艾伯倫：失落的聖物", {isSide: true, aHash: "EFR", date: null});
+		addLi(ulAdventures, "adventure.html", "瑞克與莫蒂：BRE", {isSide: true, aHash: "RMBRE", date: null});
+		addLi(ulAdventures, "adventure.html", "重建煉獄機器", {isSide: true, aHash: "IMR", date: null});
+		addLi(ulAdventures, "adventure.html", "荒洲：復仇之潮", {isSide: true, aHash: "ToR", date: "2020"});
+		addLi(ulAdventures, "adventure.html", "荒洲：危險計劃", {isSide: true, aHash: "DD", date: null});
+		addLi(ulAdventures, "adventure.html", "荒洲：封凍惡疾", {isSide: true, aHash: "FS", date: null});
+		addLi(ulAdventures, "adventure.html", "荒洲：惡客自來", {isSide: true, aHash: "US", date: null});
+		addLi(ulAdventures, "adventure.html", "塞洛斯：無聲之密", {isSide: true, aHash: "MOT-NSS", date: null});
+		addLi(ulAdventures, "adventure.html", "冰風谷：冰霜少女的霧凇", {isSide: true, aHash: "IDRotF", date: null});
+		addLi(ulAdventures, "adventure.html", "燭堡秘辛", {isSide: true, aHash: "CM", date: "2021"});
 		addLi(ulAdventures, "adventure.html", "Ravenloft: The House of Lament", {isSide: true, aHash: "HoL", date: null});
-		addLi(ulDms, "cultsboons.html", "异教&超自然恩惠");
+		addLi(ulDms, "cultsboons.html", "異教&超自然恩惠");
 		addLi(ulDms, "objects.html", "物件");
-		addLi(ulDms, "trapshazards.html", "陷阱&危险");
+		addLi(ulDms, "trapshazards.html", "陷阱&危險");
 		addDivider(ulDms);
-		addLi(ulDms, "crcalculator.html", "CR 计算器");
+		addLi(ulDms, "crcalculator.html", "CR 計算器");
 		addLi(ulDms, "encountergen.html", "遭遇生成器");
-		addLi(ulDms, "lootgen.html", "战利品生成器");
+		addLi(ulDms, "lootgen.html", "戰利品生成器");
 
-		const ulReferences = addDropdown(navBar, "参照数据");
-		addLi(ulReferences, "actions.html", "动作");
-		addLi(ulReferences, "bestiary.html", "怪物图鉴");
-		addLi(ulReferences, "conditionsdiseases.html", "状态 & 疾病");
+		const ulReferences = addDropdown(navBar, "參照數據");
+		addLi(ulReferences, "actions.html", "動作");
+		addLi(ulReferences, "bestiary.html", "怪物圖鑑");
+		addLi(ulReferences, "conditionsdiseases.html", "狀態 & 疾病");
 		addLi(ulReferences, "deities.html", "神祇");
 		addLi(ulReferences, "items.html", "物品");
-		addLi(ulReferences, "languages.html", "语言");
-		addLi(ulReferences, "rewards.html", "其他奖励");
-		addLi(ulReferences, "psionics.html", "灵能");
-		addLi(ulReferences, "spells.html", "法术");
-		addLi(ulReferences, "vehicles.html", "载具");
+		addLi(ulReferences, "languages.html", "語言");
+		addLi(ulReferences, "rewards.html", "其他獎勵");
+		addLi(ulReferences, "psionics.html", "靈能");
+		addLi(ulReferences, "spells.html", "法術");
+		addLi(ulReferences, "vehicles.html", "載具");
 		addDivider(ulReferences);
-		addLi(ulReferences, "recipes.html", "食谱");
+		addLi(ulReferences, "recipes.html", "食譜");
 
 		const ulUtils = addDropdown(navBar, "其他功能");
 		addLi(ulUtils, "search.html", "搜索");
 		addDivider(ulUtils);
-		addLi(ulUtils, "blacklist.html", "内容黑名单");
-		addLi(ulUtils, "makebrew.html", "自制内容生成器");
-		addLi(ulUtils, "managebrew.html", "管理所有自制内容");
+		addLi(ulUtils, "blacklist.html", "內容黑名單");
+		addLi(ulUtils, "makebrew.html", "自製內容生成器");
+		addLi(ulUtils, "managebrew.html", "管理所有自製內容");
 		addDivider(ulUtils);
-		addLi(ulUtils, "inittrackerplayerview.html", "先攻追踪器:玩家查看");
+		addLi(ulUtils, "inittrackerplayerview.html", "先攻追蹤器:玩家查看");
 		addDivider(ulUtils);
 		addLi(ulUtils, "renderdemo.html", "渲染器 Demo");
 		addLi(ulUtils, "makecards.html", "RPG 卡片 JSON 生成器");
-		addLi(ulUtils, "converter.html", "文本转换器");
+		addLi(ulUtils, "converter.html", "文本轉換器");
 		addDivider(ulUtils);
 		addLi(ulUtils, "plutonium.html", "Plutonium (Foundry MOD) 功能");
 		addDivider(ulUtils);
-		addLi(ulUtils, "roll20.html", "Roll20 脚本小帮手");
+		addLi(ulUtils, "roll20.html", "Roll20 腳本小幫手");
 		addDivider(ulUtils);
-		addLi(ulUtils, "changelog.html", "更新日志");
-		addLi(ulUtils, `https://wiki.5e.tools/index.php/Page:_${NavBar.getCurrentPage().replace(/.html$/i, "")}`, "帮助", {isExternal: true});
+		addLi(ulUtils, "changelog.html", "更新日誌");
+		addLi(ulUtils, `https://wiki.5e.tools/index.php/Page:_${NavBar.getCurrentPage().replace(/.html$/i, "")}`, "幫助", {isExternal: true});
 		addDivider(ulUtils);
-		addLi(ulUtils, "privacy-policy.html", "隐私政策");
+		addLi(ulUtils, "privacy-policy.html", "隱私政策");
 
-		addLi(navBar, "donate.html", "捐赠", {isRoot: true});
+		addLi(navBar, "donate.html", "捐贈", {isRoot: true});
 
-		const ulSettings = addDropdown(navBar, "设置");
+		const ulSettings = addDropdown(navBar, "設置");
 		addButton(
 			ulSettings,
 			{
@@ -188,7 +188,7 @@ class NavBar {
 		addButton(
 			ulSettings,
 			{
-				html: styleSwitcher.getActiveWide() === true ? "禁用宽幅模式" : "启用宽幅模式 (实验功能)",
+				html: styleSwitcher.getActiveWide() === true ? "禁用寬幅模式" : "啟用寬幅模式 (實驗功能)",
 				click: (evt) => {
 					evt.preventDefault();
 					styleSwitcher.toggleWide();
@@ -201,7 +201,7 @@ class NavBar {
 		addButton(
 			ulSettings,
 			{
-				html: "保存状态至文件",
+				html: "保存狀態至文件",
 				click: async (evt) => {
 					evt.preventDefault();
 					const sync = StorageUtil.syncGetDump();
@@ -215,7 +215,7 @@ class NavBar {
 		addButton(
 			ulSettings,
 			{
-				html: "从文件读取状态",
+				html: "從文件讀取狀態",
 				click: async (evt) => {
 					evt.preventDefault();
 					const jsons = await DataUtil.pUserUpload({expectedFileType: "5etools"});
@@ -238,7 +238,7 @@ class NavBar {
 		addButton(
 			ulSettings,
 			{
-				html: "添加为 App",
+				html: "添加為 App",
 				click: async (evt) => {
 					evt.preventDefault();
 					try {
@@ -253,7 +253,7 @@ class NavBar {
 		addButton(
 			ulSettings,
 			{
-				html: "预载离线数据",
+				html: "預載離線數據",
 				click: async (evt) => {
 					evt.preventDefault();
 

@@ -12,7 +12,7 @@
 					"type": "entries",
 					"name": "Demands of Nessus",
 					"entries": [
-						"At the start of each of this creature's turns, this creature can choose one ally it can see within 30 feet of it. The chosen ally loses 10 hit points, and this creature regains the same number of hit points. If the creature is {@condition 无力}, it makes no choice; instead, the closest ally within 30 feet is the chosen ally."
+						"At the start of each of this creature's turns, this creature can choose one ally it can see within 30 feet of it. The chosen ally loses 10 hit points, and this creature regains the same number of hit points. If the creature is {@condition 無力}, it makes no choice; instead, the closest ally within 30 feet is the chosen ally."
 					]
 				}
 			]
@@ -29,7 +29,7 @@
 					"type": "entries",
 					"name": "Demands of Nessus",
 					"entries": [
-						"At the start of each of this creature's turns, this creature can choose one ally it can see within 30 feet of it. The chosen ally loses 10 hit points, and this creature regains the same number of hit points. If the creature is {@condition 无力}, it makes no choice; instead, the closest ally within 30 feet is the chosen ally."
+						"At the start of each of this creature's turns, this creature can choose one ally it can see within 30 feet of it. The chosen ally loses 10 hit points, and this creature regains the same number of hit points. If the creature is {@condition 無力}, it makes no choice; instead, the closest ally within 30 feet is the chosen ally."
 					]
 				}
 			]
@@ -61,7 +61,7 @@
 				"entry": "Any NPC or monster that has suffered a fall from grace"
 			},
 			"signaturespells": {
-				"entry": "{@spell 次级幻象} (cantrip), {@spell 易容术} (1st level), {@spell 魅影之力} (2nd level), {@spell 强效幻影} (3rd level)"
+				"entry": "{@spell 次級幻象} (cantrip), {@spell 易容術} (1st level), {@spell 魅影之力} (2nd level), {@spell 強效幻影} (3rd level)"
 			},
 			"entries": [
 				"Baalzebul typically recruits individuals rather than cults. He offers hope to those whose failures drive them to seek redemption.",
@@ -87,7 +87,7 @@
 				"entry": "Any NPC or monster who has suffered a fall from grace"
 			},
 			"signaturespells": {
-				"entry": "{@spell 次级幻象} (cantrip), {@spell 易容术} (1st level), {@spell 魅影之力} (2nd level), {@spell 强效幻影} (3rd level)"
+				"entry": "{@spell 次級幻象} (cantrip), {@spell 易容術} (1st level), {@spell 魅影之力} (2nd level), {@spell 強效幻影} (3rd level)"
 			},
 			"entries": [
 				"Baalzebul typically recruits individuals rather than cults. He offers hope to those whose failures drive them to seek redemption.",
@@ -110,7 +110,7 @@
 				"entry": "{@creature acolyte||acolytes}, {@creature cultist||cultists}, {@creature cult fanatic||cult fanatics}, {@creature mage||mages}, or {@creature priest||priests} for Cultists, Initiates, and Priests; {@creature gladiator||gladiators}, {@creature guard||guards}, {@creature knight||knights}, {@creature veteran||veterans}, or infrequently {@creature wight||wights} riding undead horses with the statistics of Large-sized {@creature zombie||zombies} for Grimnants; and {@creature assassin||assassins}, {@creature bandit||bandits}, {@creature bandit captain||bandit captains}, {@creature spy||spies}, or {@creature thug||thugs} for Infiltrators and Assassins."
 			},
 			"signaturespells": {
-				"entry": "{@spell 寒颤之触} (cantrip), {@spell 脆弱诅咒} (1st level), {@spell 魅影之力} (2nd level), {@spell 恐惧术} (3rd level)"
+				"entry": "{@spell 冷顫之觸} (cantrip), {@spell 脆弱詛咒} (1st level), {@spell 魅影之力} (2nd level), {@spell 恐懼術} (3rd level)"
 			},
 			"entries": [
 				{
@@ -169,7 +169,7 @@
 					"type": "entries",
 					"name": "Borem's Embrace (1/Day)",
 					"entries": [
-						"The cultist touches one creature within 5 feet of it. The target must succeed on a DC 15 Dexterity saving throw or be coated in sticky, steaming mud. While it is coated in this way, the target's speed is halved, it can't use reactions, and it takes 10 ({@dice 3d6}) fire damage at the start of each of its turns. The effect lasts for 1 minute, until the cultist is {@condition 无力} or dies, or until the target is immersed in water."
+						"The cultist touches one creature within 5 feet of it. The target must succeed on a DC 15 Dexterity saving throw or be coated in sticky, steaming mud. While it is coated in this way, the target's speed is halved, it can't use reactions, and it takes 10 ({@dice 3d6}) fire damage at the start of each of its turns. The effect lasts for 1 minute, until the cultist is {@condition 無力} or dies, or until the target is immersed in water."
 					]
 				}
 			]
@@ -186,7 +186,7 @@
 				"entry": "{@creature Acolyte}, {@creature bandit}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature mage}, {@creature noble}, {@creature spy}"
 			},
 			"signaturespells": {
-				"entry": "{@spell 神导术} (cantrip), {@spell 鉴定术} (1st level), {@spell 识破隐形} (2nd level), {@spell 锐眼术} (3rd level)"
+				"entry": "{@spell 神導術} (cantrip), {@spell 鑑定術} (1st level), {@spell 識破隱形} (2nd level), {@spell 銳眼術} (3rd level)"
 			},
 			"entries": [
 				"Dispater trades in secrets, offering them in return for a creature's soul. His cults typically trade secrets to devils in return for other information. They often hatch conspiracies aimed at toppling and replacing governments or religious orders.",
@@ -220,7 +220,7 @@
 				"entry": "{@creature Acolyte}, {@creature bandit}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature mage}, {@creature noble}, {@creature spy}"
 			},
 			"signaturespells": {
-				"entry": "{@spell 神导术} (cantrip), {@spell 鉴定术} (1st level), {@spell 识破隐形} (2nd level), {@spell 锐眼术} (3rd level)"
+				"entry": "{@spell 神導術} (cantrip), {@spell 鑑定術} (1st level), {@spell 識破隱形} (2nd level), {@spell 銳眼術} (3rd level)"
 			},
 			"entries": [
 				"Dispater trades in secrets, offering them in return for a creature's soul. His cults typically trade secrets to devils in return for other information. They often hatch conspiracies aimed at toppling and replacing governments or religious orders.",
@@ -254,7 +254,7 @@
 				"entry": "{@creature Acolyte}, {@creature archmage}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature knight}, {@creature noble}, {@creature priest}, {@creature spy}"
 			},
 			"signaturespells": {
-				"entry": "{@spell 交友术} (cantrip), {@spell 魅惑人类} (1st level), {@spell 暗示术} (2nd level), {@spell 催眠图纹} (3rd level)"
+				"entry": "{@spell 交友術} (cantrip), {@spell 魅惑人類} (1st level), {@spell 暗示術} (2nd level), {@spell 催眠圖紋} (3rd level)"
 			},
 			"entries": [
 				"Fierna is a master manipulator. Mortals who desire success in love or who seek to become beloved leaders at the head of a band of fanatics are drawn to striking bargains with her.",
@@ -287,11 +287,11 @@
 				"entry": "{@creature Acolyte}, {@creature archmage}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature knight}, {@creature noble}, {@creature priest}, {@creature spy}"
 			},
 			"signaturespells": {
-				"entry": "{@spell 交友术} (cantrip), {@spell 魅惑人类} (1st level), {@spell 暗示术} (2nd level), {@spell 催眠图纹} (3rd level)"
+				"entry": "{@spell 交友術} (cantrip), {@spell 魅惑人類} (1st level), {@spell 暗示術} (2nd level), {@spell 催眠圖紋} (3rd level)"
 			},
 			"entries": [
 				"Fierna is a master manipulator. Mortals who desire success in love or who seek to become beloved leaders at the head of a band of fanatics are drawn to striking bargains with her.",
-				"Fierna grants gifts that allow her cultists to manipulate emotions; they gain increases to Charisma, as well as proficiency with skills such as {@skill 说服} and {@skill 威吓}. In addition, cultists can gain the Infernal Loyalty trait. Cult leaders can also gain the Loyalty beyond Death trait.",
+				"Fierna grants gifts that allow her cultists to manipulate emotions; they gain increases to Charisma, as well as proficiency with skills such as {@skill 說服} and {@skill 威嚇}. In addition, cultists can gain the Infernal Loyalty trait. Cult leaders can also gain the Loyalty beyond Death trait.",
 				{
 					"type": "entries",
 					"name": "Infernal Loyalty",
@@ -320,7 +320,7 @@
 				"entry": "{@creature Bandit}, {@creature bandit captain}, {@creature berserker}, {@creature cult fanatic}, {@creature cultist}, {@creature gladiator}, {@creature thug}, {@creature tribal warrior}, {@creature veteran||veterans}"
 			},
 			"signaturespells": {
-				"entry": "{@spell 橡棍术} (cantrip), {@spell 激愤斩} (1st level), {@spell 强化属性} (2nd level), {@spell 活力灵光} (3rd level)"
+				"entry": "{@spell 橡棍術} (cantrip), {@spell 激憤斬} (1st level), {@spell 強化屬性} (2nd level), {@spell 活力靈光} (3rd level)"
 			},
 			"entries": [
 				"Despite being deposed, Geryon still has the ability to strike bargains. He deals especially with those who seek brute strength. Any warlike monster-such as {@creature orc||orcs}, {@creature ogre||ogres}, and {@creature troll||trolls}-can be lured into Geryon's cult.",
@@ -354,7 +354,7 @@
 				"entry": "{@creature Bandit}, {@creature bandit captain}, {@creature berserker}, {@creature cult fanatic}, {@creature cultist}, {@creature gladiator}, {@creature thug}, {@creature tribal warrior}, {@creature veteran||veterans}"
 			},
 			"signaturespells": {
-				"entry": "{@spell 橡棍术} (cantrip), {@spell 激愤斩} (1st level), {@spell 强化属性} (2nd level), {@spell 活力灵光} (3rd level)"
+				"entry": "{@spell 橡棍術} (cantrip), {@spell 激憤斬} (1st level), {@spell 強化屬性} (2nd level), {@spell 活力靈光} (3rd level)"
 			},
 			"entries": [
 				"Despite being deposed, Geryon still has the ability to strike bargains. He deals especially with those who seek brute strength. Any warlike monster-such as {@creature orc||orcs}, {@creature ogre||ogres}, and {@creature troll||trolls}-can be lured into Geryon's cult.",
@@ -388,7 +388,7 @@
 				"entry": "{@creature Bandit}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature knight}, {@creature noble}, {@creature spy}, {@creature thug}"
 			},
 			"signaturespells": {
-				"entry": "{@spell 交友术} (cantrip), {@spell 魅惑人类} (1st level), {@spell 隐形术} (2nd level), {@spell 加速术} (3rd level)"
+				"entry": "{@spell 交友術} (cantrip), {@spell 魅惑人類} (1st level), {@spell 隱形術} (2nd level), {@spell 加速術} (3rd level)"
 			},
 			"entries": [
 				"As an expert in finding loopholes and exploiting the law for her own good, Glasya is a patron of thieves and other criminals, especially corrupt nobles. Her influence is supposed to strengthen family bonds, but she has taken a liberal interpretation of that and offers gifts that can be turned against family members.",
@@ -398,7 +398,7 @@
 					"type": "entries",
 					"name": "Step into Shadows (Recharges after a Short or Long Rest)",
 					"entries": [
-						"As an action, this creature, along with anything it is wearing and carrying, magically becomes {@condition 隐形} until the end of its next turn."
+						"As an action, this creature, along with anything it is wearing and carrying, magically becomes {@condition 隱形} until the end of its next turn."
 					]
 				},
 				{
@@ -422,7 +422,7 @@
 				"entry": "{@creature Bandit}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature knight}, {@creature noble}, {@creature spy}, {@creature thug}"
 			},
 			"signaturespells": {
-				"entry": "{@spell 交友术} (cantrip), {@spell 魅惑人类} (1st level), {@spell 隐形术} (2nd level), {@spell 加速术} (3rd level)"
+				"entry": "{@spell 交友術} (cantrip), {@spell 魅惑人類} (1st level), {@spell 隱形術} (2nd level), {@spell 加速術} (3rd level)"
 			},
 			"entries": [
 				"As an expert in finding loopholes and exploiting the law for her own good, Glasya is a patron of thieves and other criminals, especially corrupt nobles. Her influence is supposed to strengthen family bonds, but she has taken a liberal interpretation of that and offers gifts that can be turned against family members.",
@@ -432,7 +432,7 @@
 					"type": "entries",
 					"name": "Step into Shadows (Recharges after a Short or Long Rest)",
 					"entries": [
-						"As an action, this creature, along with anything it is wearing and carrying, magically becomes {@condition 隐形} until the end of its next turn."
+						"As an action, this creature, along with anything it is wearing and carrying, magically becomes {@condition 隱形} until the end of its next turn."
 					]
 				},
 				{
@@ -471,7 +471,7 @@
 				"entry": "{@creature Assassin}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature mage}, {@creature noble}, {@creature spy}, {@creature thug}"
 			},
 			"signaturespells": {
-				"entry": "{@spell 剑刃防护} (cantrip), {@spell 脚底抹油} (1st level), {@spell 蛛行术} (2nd level), {@spell 气化形体} (3rd level)"
+				"entry": "{@spell 劍刃防護} (cantrip), {@spell 腳底抹油} (1st level), {@spell 蛛行術} (2nd level), {@spell 氣化形體} (3rd level)"
 			},
 			"entries": [
 				"Levistus has no cult in the traditional sense. Instead, he offers favors to those who are desperate to escape a seemingly inevitable fate.",
@@ -498,7 +498,7 @@
 				"entry": "{@creature Assassin}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature mage}, {@creature noble}, {@creature spy}, {@creature thug}"
 			},
 			"signaturespells": {
-				"entry": "{@spell 剑刃防护} (cantrip), {@spell 脚底抹油} (1st level), {@spell 蛛行术} (2nd level), {@spell 气化形体} (3rd level)"
+				"entry": "{@spell 劍刃防護} (cantrip), {@spell 腳底抹油} (1st level), {@spell 蛛行術} (2nd level), {@spell 氣化形體} (3rd level)"
 			},
 			"entries": [
 				"Levistus has no cult in the traditional sense.",
@@ -526,7 +526,7 @@
 				"entry": "{@creature Bandit}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature noble}, {@creature spy}, {@creature thug}"
 			},
 			"signaturespells": {
-				"entry": "{@spell 修复术} (cantrip), {@spell 谭森浮碟术} (1st level), {@spell 秘法锁} (2nd level), {@spell 守卫铭文} (3rd level)"
+				"entry": "{@spell 修復術} (cantrip), {@spell 譚森浮碟術} (1st level), {@spell 秘法鎖} (2nd level), {@spell 守衛銘文} (3rd level)"
 			},
 			"entries": [
 				"Mammon's greed overwhelms everything else. He deals with mortals who desire material wealth and provides them with the ability to spread that greed like an infection.",
@@ -560,7 +560,7 @@
 				"entry": "{@creature Bandit}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature noble}, {@creature spy}, {@creature thug}"
 			},
 			"signaturespells": {
-				"entry": "{@spell 修复术} (cantrip), {@spell 谭森浮碟术} (1st level), {@spell 秘法锁} (2nd level), {@spell 守卫铭文} (3rd level)"
+				"entry": "{@spell 修復術} (cantrip), {@spell 譚森浮碟術} (1st level), {@spell 秘法鎖} (2nd level), {@spell 守衛銘文} (3rd level)"
 			},
 			"entries": [
 				"Mammon's greed overwhelms everything else.",
@@ -595,7 +595,7 @@
 				"entry": "{@creature Archmage}, {@creature cult fanatic}, {@creature cultist}, {@creature mage}, {@creature priest}"
 			},
 			"signaturespells": {
-				"entry": "{@spell 火焰箭} (cantrip), {@spell 燃烧之手} (1st level), {@spell 炽焰法球} (2nd level), {@spell 火球术} (3rd level)"
+				"entry": "{@spell 火焰箭} (cantrip), {@spell 燃燒之手} (1st level), {@spell 熾焰法球} (2nd level), {@spell 火球術} (3rd level)"
 			},
 			"entries": [
 				"As a master of the arcane arts, Mephistopheles finds eager recruits among those who study magic. Any monsters that use spells, such as {@creature storm giant||storm giants} and {@creature oni}, might follow him, and wizards' guilds and conclaves of sages are the most likely to come under his influence.",
@@ -628,7 +628,7 @@
 				"entry": "{@creature Archmage}, {@creature cult fanatic}, {@creature cultist}, {@creature mage}, {@creature priest}"
 			},
 			"signaturespells": {
-				"entry": "{@spell 火焰箭} (cantrip), {@spell 燃烧之手} (1st level), {@spell 炽焰法球} (2nd level), {@spell 火球术} (3rd level)"
+				"entry": "{@spell 火焰箭} (cantrip), {@spell 燃燒之手} (1st level), {@spell 熾焰法球} (2nd level), {@spell 火球術} (3rd level)"
 			},
 			"entries": [
 				"As a master of the arcane arts, Mephistopheles finds eager recruits among those who study magic. Any monster that uses spells, such as {@creature storm giant||storm giants} and {@creature oni}, might follow him, and wizards' guilds and conclaves of sages are the most likely to come under his influence.",
@@ -950,7 +950,7 @@
 				"entry": "{@creature Berserker}, {@creature cult fanatic}, {@creature cultist}, {@creature gladiator}, {@creature guard}, {@creature knight}, {@creature veteran}"
 			},
 			"signaturespells": {
-				"entry": "{@spell 克敌机先} (cantrip), {@spell 英雄气概} (1st level), {@spell 灵体武器} (2nd level), {@spell 十字军斗篷} (3rd level)"
+				"entry": "{@spell 克敵機先} (cantrip), {@spell 英雄氣概} (1st level), {@spell 靈體武器} (2nd level), {@spell 十字軍斗篷} (3rd level)"
 			},
 			"entries": [
 				"Zariel's cult offers martial training and talent. It flourishes in areas wracked by war. Refugees with the will to fight but lacking experience are drawn to Zariel, as she can provide them with the skills needed to survive. Established warriors looking for an edge are otherwise her most common recruits.",
@@ -967,7 +967,7 @@
 					"type": "entries",
 					"name": "Infernal Tactics",
 					"entries": [
-						"This creature has a keen eye for seizing a tactical advantage. Immediately after rolling initiative, it can choose itself and up to three allies it can see if it isn't {@condition 无力}. It can swap the initiative results of the chosen creatures among them."
+						"This creature has a keen eye for seizing a tactical advantage. Immediately after rolling initiative, it can choose itself and up to three allies it can see if it isn't {@condition 無力}. It can swap the initiative results of the chosen creatures among them."
 					]
 				}
 			]
@@ -984,7 +984,7 @@
 				"entry": "{@creature Berserker}, {@creature cult fanatic}, {@creature cultist}, {@creature gladiator}, {@creature guard}, {@creature knight}, {@creature veteran}"
 			},
 			"signaturespells": {
-				"entry": "{@spell 克敌机先} (cantrip), {@spell 英雄气概} (1st level), {@spell 灵体武器} (2nd level), {@spell 十字军斗篷} (3rd level)"
+				"entry": "{@spell 克敵機先} (cantrip), {@spell 英雄氣概} (1st level), {@spell 靈體武器} (2nd level), {@spell 十字軍斗篷} (3rd level)"
 			},
 			"entries": [
 				"Zariel's cult offers martial training and talent. It flourishes in areas wracked by war. Refugees with the will to fight but lacking experience are drawn to Zariel, as she can provide them with the skills needed to survive. Established warriors looking for an edge are otherwise her most common recruits.",
@@ -1001,7 +1001,7 @@
 					"type": "entries",
 					"name": "Infernal Tactics",
 					"entries": [
-						"This creature has a keen eye for seizing a tactical advantage. Immediately after rolling initiative, it can choose itself and up to three allies it can see if it isn't {@condition 无力}. It can swap the initiative results of the chosen creatures among them."
+						"This creature has a keen eye for seizing a tactical advantage. Immediately after rolling initiative, it can choose itself and up to three allies it can see if it isn't {@condition 無力}. It can swap the initiative results of the chosen creatures among them."
 					]
 				}
 			]
@@ -1033,7 +1033,7 @@
 				"entry": "Up to a +4 bonus to Strength, Wisdom, or both"
 			},
 			"signaturespells": {
-				"entry": "{@spell 猎人印记} (1st level), {@spell 野兽知觉} (2nd level), {@spell 缓速术} (3rd level)"
+				"entry": "{@spell 獵人印記} (1st level), {@spell 野獸知覺} (2nd level), {@spell 緩速術} (3rd level)"
 			},
 			"entries": [
 				"Baphomet grants the gifts of cunning and physical power. He grants his rank-and-file followers the Unerring Tracker trait, and cult leaders gain the Incite the Hunters trait. All of his devotees also gain the Labyrinthine Recall trait.",
@@ -1041,7 +1041,7 @@
 					"type": "entries",
 					"name": "Unerring Tracker",
 					"entries": [
-						"As a bonus action, this creature magically creates a psychic link with one creature it can see. For the next hour, as a bonus action this creature learns the current distance and direction to the target if it is on the same plane of existence. The link ends if this creature is {@condition 无力} or if it uses this ability on a different target."
+						"As a bonus action, this creature magically creates a psychic link with one creature it can see. For the next hour, as a bonus action this creature learns the current distance and direction to the target if it is on the same plane of existence. The link ends if this creature is {@condition 無力} or if it uses this ability on a different target."
 					]
 				},
 				{
@@ -1069,7 +1069,7 @@
 				"entry": "Up to a +4 bonus to Strength, Wisdom, or both"
 			},
 			"signaturespells": {
-				"entry": "{@spell 猎人印记} (1st level), {@spell 野兽知觉} (2nd level), {@spell 缓速术} (3rd level)"
+				"entry": "{@spell 獵人印記} (1st level), {@spell 野獸知覺} (2nd level), {@spell 緩速術} (3rd level)"
 			},
 			"entries": [
 				"Baphomet grants the gifts of cunning and physical power. He grants his rank and file followers the Unerring Tracker trait, and cult leaders gain the Incite the Hunters trait. All of his devotees also gain the Labyrinthine Recall trait.",
@@ -1077,7 +1077,7 @@
 					"type": "entries",
 					"name": "Unerring Tracker",
 					"entries": [
-						"As a bonus action, this creature magically creates a psychic link with one creature it can see. For the next hour, as a bonus action this creature learns the current distance and direction to the target if it is on the same plane of existence. The link ends if this creature is {@condition 无力} or if it uses this ability on a different target."
+						"As a bonus action, this creature magically creates a psychic link with one creature it can see. For the next hour, as a bonus action this creature learns the current distance and direction to the target if it is on the same plane of existence. The link ends if this creature is {@condition 無力} or if it uses this ability on a different target."
 					]
 				},
 				{
@@ -1105,7 +1105,7 @@
 				"entry": "Up to a +4 bonus to Strength, Charisma, or both"
 			},
 			"signaturespells": {
-				"entry": "{@spell 魅惑人类} (1st level), {@spell 变巨/缩小术} (2nd level), {@spell 吸血鬼之触} (3rd level)"
+				"entry": "{@spell 魅惑人類} (1st level), {@spell 變巨/縮小術} (2nd level), {@spell 吸血鬼之觸} (3rd level)"
 			},
 			"entries": [
 				"Demogorgon's followers are typically lone killers driven by the whispering voice of their master. His most blessed followers gain the Two Minds of Madness trait.",
@@ -1127,7 +1127,7 @@
 				"entry": "Up to a +4 bonus to Strength, Charisma, or both"
 			},
 			"signaturespells": {
-				"entry": "{@spell 魅惑人类} (1st level), {@spell 变巨/缩小术} (2nd level), {@spell 吸血鬼之触} (3rd level)"
+				"entry": "{@spell 魅惑人類} (1st level), {@spell 變巨/縮小術} (2nd level), {@spell 吸血鬼之觸} (3rd level)"
 			},
 			"entries": [
 				"Demogorgon's followers are typically lone killers driven by the whispering voice of their master. His most blessed followers gain the Two Minds of Madness trait.",
@@ -1149,7 +1149,7 @@
 				"entry": "Up to a +4 bonus to Wisdom, Charisma, or both"
 			},
 			"signaturespells": {
-				"entry": "{@spell 次级幻象} (cantrip), {@spell 易容术} (1st level), {@spell 隐形术} (2nd level), {@spell 催眠图纹} (3rd level)"
+				"entry": "{@spell 次級幻象} (cantrip), {@spell 易容術} (1st level), {@spell 隱形術} (2nd level), {@spell 催眠圖紋} (3rd level)"
 			},
 			"entries": [
 				"As a master of deceit, Fraz-Urb'luu teaches his initiates the secrets of lies and illusions. They can also gain the Liar's Eye trait.",
@@ -1157,7 +1157,7 @@
 					"type": "entries",
 					"name": "Liar's Eye",
 					"entries": [
-						"This creature has advantage on Wisdom ({@skill 洞悉} or {@skill 察觉}) checks.",
+						"This creature has advantage on Wisdom ({@skill 洞悉} or {@skill 察覺}) checks.",
 						"As a bonus action, it automatically detects the location of all illusions and hidden creatures within 15 feet of it."
 					]
 				}
@@ -1172,7 +1172,7 @@
 				"entry": "Up to a +4 bonus to Wisdom, Charisma, or both"
 			},
 			"signaturespells": {
-				"entry": "{@spell 次级幻象} (cantrip), {@spell 易容术} (1st level), {@spell 隐形术} (2nd level), {@spell 催眠图纹} (3rd level)"
+				"entry": "{@spell 次級幻象} (cantrip), {@spell 易容術} (1st level), {@spell 隱形術} (2nd level), {@spell 催眠圖紋} (3rd level)"
 			},
 			"entries": [
 				"As a master of deceit, Fraz-Urb'luu teaches his initiates the secrets of lies and illusions. They can also gain the Liar's Eye trait.",
@@ -1180,7 +1180,7 @@
 					"type": "entries",
 					"name": "Liar's Eye",
 					"entries": [
-						"This creature has advantage on Wisdom ({@skill 洞悉} or {@skill 察觉}) checks.",
+						"This creature has advantage on Wisdom ({@skill 洞悉} or {@skill 察覺}) checks.",
 						"As a bonus action, it automatically detects the location of all illusions and hidden creatures within 15 feet of it."
 					]
 				}
@@ -1211,7 +1211,7 @@
 				"entry": "Up to a +4 bonus to Constitution, Charisma, or both"
 			},
 			"signaturespells": {
-				"entry": "{@spell 摹造生命} (1st level), {@spell 人类定身术} (2nd level), {@spell 恐惧术} (3rd level)"
+				"entry": "{@spell 摹造生命} (1st level), {@spell 人類定身術} (2nd level), {@spell 恐懼術} (3rd level)"
 			},
 			"entries": [
 				"The Lord of Forbidden Pleasures grants his cultists the ability to transform even the most hideous pain into pleasure. His cultists gain the Joy from Pain trait, while his cult leaders gain the Master of Pleasures trait.",
@@ -1240,7 +1240,7 @@
 				"entry": "Up to a +4 bonus to Constitution, Charisma, or both"
 			},
 			"signaturespells": {
-				"entry": "{@spell 摹造生命} (1st level), {@spell 人类定身术} (2nd level), {@spell 恐惧术} (3rd level)"
+				"entry": "{@spell 摹造生命} (1st level), {@spell 人類定身術} (2nd level), {@spell 恐懼術} (3rd level)"
 			},
 			"entries": [
 				"The Lord of Forbidden Pleasures grants his cultists the ability to transform even the most hideous pain into pleasure. His cultists gain the Joy from Pain trait, while his cult leaders gain the Master of Pleasures trait.",
@@ -1269,7 +1269,7 @@
 				"entry": "Up to a +8 bonus to Constitution, with an equal penalty to Intelligence, Wisdom, and Charisma"
 			},
 			"signaturespells": {
-				"entry": "{@spell 油腻术} (1st level), {@spell 蛛网术} (2nd level), {@spell 气化形体} (3rd level)"
+				"entry": "{@spell 油膩術} (1st level), {@spell 蛛網術} (2nd level), {@spell 氣化形體} (3rd level)"
 			},
 			"entries": [
 				"The Faceless Lord's followers are bizarre loners who prefer the company of slimes and oozes to other creatures. They gain the hardiness of a slime at the cost of their minds. Lesser followers gain the Liquid Movement trait. The most dedicated devotees of ooze also gain the Slimy Organs trait.",
@@ -1344,7 +1344,7 @@
 					"type": "entries",
 					"name": "Guarded Mind",
 					"entries": [
-						"This creature is immune to the {@condition 恐惧} condition."
+						"This creature is immune to the {@condition 恐懼} condition."
 					]
 				}
 			]
@@ -1358,7 +1358,7 @@
 				"entry": "Up to a +4 bonus to Intelligence, Wisdom, or both"
 			},
 			"signaturespells": {
-				"entry": "{@spell 摹造生命} (1st level), {@spell 衰弱射线} (2nd level), {@spell 活化死尸} (3rd level)"
+				"entry": "{@spell 摹造生命} (1st level), {@spell 衰弱射線} (2nd level), {@spell 活化死屍} (3rd level)"
 			},
 			"entries": [
 				"In most cases, Orcus transforms his followers into undead creatures such as ghouls and wights. Sometimes he needs his followers to retain their mortal forms, to more easily infiltrate a kingdom or city. He grants rank-and-file cultists the Undying Soul trait, and his cult leaders gain the Aura of Death trait.",
@@ -1373,7 +1373,7 @@
 					"type": "entries",
 					"name": "Aura of Death",
 					"entries": [
-						"This creature emanates a deathly aura that extends 30 feet in every direction from its space while it isn't {@condition 无力}. The aura is blocked by total cover. While in the aura, the creature and any friendly undead are immune to the {@condition 恐惧} condition and have resistance to radiant damage. Enemies suffer disadvantage on death saving throws while in the aura."
+						"This creature emanates a deathly aura that extends 30 feet in every direction from its space while it isn't {@condition 無力}. The aura is blocked by total cover. While in the aura, the creature and any friendly undead are immune to the {@condition 恐懼} condition and have resistance to radiant damage. Enemies suffer disadvantage on death saving throws while in the aura."
 					]
 				}
 			]
@@ -1387,7 +1387,7 @@
 				"entry": "Up to a +4 bonus to Intelligence, Wisdom, or both"
 			},
 			"signaturespells": {
-				"entry": "{@spell 摹造生命} (1st level), {@spell 衰弱射线} (2nd level), {@spell 活化死尸} (3rd level)"
+				"entry": "{@spell 摹造生命} (1st level), {@spell 衰弱射線} (2nd level), {@spell 活化死屍} (3rd level)"
 			},
 			"entries": [
 				"In most cases, Orcus transforms his followers into undead creatures such as ghouls and wights. Sometimes he needs his followers to retain their mortal forms, to more easily infiltrate a kingdom or city. He grants rank and file cultists the Undying Soul trait, and his cult leaders gain the Aura of Death trait.",
@@ -1402,7 +1402,7 @@
 					"type": "entries",
 					"name": "Aura of Death",
 					"entries": [
-						"This creature emanates a deathly aura that extends 30 feet in every direction from its space while it isn't {@condition 无力}. The aura is blocked by total cover. While in the aura, the creature and any friendly undead are immune to the {@condition 恐惧} condition and have resistance to radiant damage. Enemies suffer disadvantage on death saving throws while in the aura."
+						"This creature emanates a deathly aura that extends 30 feet in every direction from its space while it isn't {@condition 無力}. The aura is blocked by total cover. While in the aura, the creature and any friendly undead are immune to the {@condition 恐懼} condition and have resistance to radiant damage. Enemies suffer disadvantage on death saving throws while in the aura."
 					]
 				}
 			]
@@ -1416,7 +1416,7 @@
 				"entry": "Up to a +4 bonus to Strength and Dexterity, with an equal penalty to Intelligence and Charisma"
 			},
 			"signaturespells": {
-				"entry": "{@spell 塔莎狂笑术} (1st level), {@spell 疯狂冠冕} (2nd level), {@spell 恐惧术} (3rd level)"
+				"entry": "{@spell 塔莎狂笑術} (1st level), {@spell 瘋狂冠冕} (2nd level), {@spell 恐懼術} (3rd level)"
 			},
 			"entries": [
 				"Yeenoghu's followers form packs of cannibalistic marauders. They grow more like {@creature gnoll||gnolls} in temperament with each passing day. His most devoted followers gain the Gnashing Jaws action option and the Rampage trait, while cult leaders gain the Aura of Bloodthirst trait.",
@@ -1438,7 +1438,7 @@
 					"type": "entries",
 					"name": "Aura of Bloodthirst",
 					"entries": [
-						"If this creature isn't {@condition 无力}, any creature with the Rampage trait can make its Gnashing Jaws attack as a bonus action while within 10 feet of this creature."
+						"If this creature isn't {@condition 無力}, any creature with the Rampage trait can make its Gnashing Jaws attack as a bonus action while within 10 feet of this creature."
 					]
 				}
 			]
@@ -1452,7 +1452,7 @@
 				"entry": "Up to a +4 bonus to Strength and Dexterity, with an equal penalty to Intelligence and Charisma"
 			},
 			"signaturespells": {
-				"entry": "{@spell 塔莎狂笑术} (1st level), {@spell 疯狂冠冕} (2nd level), {@spell 恐惧术} (3rd level)"
+				"entry": "{@spell 塔莎狂笑術} (1st level), {@spell 瘋狂冠冕} (2nd level), {@spell 恐懼術} (3rd level)"
 			},
 			"entries": [
 				"Yeenoghu's followers form roving packs of cannibalistic marauders. They grow more like {@creature gnoll||gnolls} in temperament and action with each passing day. His most devoted followers gain the Gnashing Jaws action option and the Rampage trait, while cult leaders gain the Aura of Bloodthirst trait.",
@@ -1474,7 +1474,7 @@
 					"type": "entries",
 					"name": "Aura of Bloodthirst",
 					"entries": [
-						"If this creature isn't {@condition 无力}, any creature with the Rampage trait can make its Gnashing Jaws attack as a bonus action while within 10 feet of this creature."
+						"If this creature isn't {@condition 無力}, any creature with the Rampage trait can make its Gnashing Jaws attack as a bonus action while within 10 feet of this creature."
 					]
 				}
 			]
@@ -1488,7 +1488,7 @@
 				"entry": "Up to a +4 bonus to Constitution, with an equal penalty to Intelligence, Wisdom, and Charisma"
 			},
 			"signaturespells": {
-				"entry": "{@spell 致病射线} (1st level), {@spell 暗示术} (2nd level), {@spell 植物滋长} (3rd level)"
+				"entry": "{@spell 致病射線} (1st level), {@spell 暗示術} (2nd level), {@spell 植物滋長} (3rd level)"
 			},
 			"entries": [
 				"Zuggtmoy's followers are primarily mindless victims of her children's strange spores. The spores burrow into a victim's brain, turning it into a fanatic servitor. Each victim gains the Spore Kissed trait.",
@@ -1496,7 +1496,7 @@
 					"type": "entries",
 					"name": "Spore Kissed",
 					"entries": [
-						"This creature is immune to the {@condition 魅惑} and {@condition 恐惧} conditions. In addition, if it is reduced to 0 hit points, each creature within 10 feet of it takes poison damage equal to its number of Hit Dice."
+						"This creature is immune to the {@condition 魅惑} and {@condition 恐懼} conditions. In addition, if it is reduced to 0 hit points, each creature within 10 feet of it takes poison damage equal to its number of Hit Dice."
 					]
 				}
 			]
@@ -1515,7 +1515,7 @@
 					"type": "entries",
 					"name": "Spore Kissed",
 					"entries": [
-						"This creature is immune to the {@condition 魅惑} and {@condition 恐惧} conditions. In addition, if it is reduced to 0 hit points, each creature within 10 feet of it takes poison damage equal to its number of Hit Dice."
+						"This creature is immune to the {@condition 魅惑} and {@condition 恐懼} conditions. In addition, if it is reduced to 0 hit points, each creature within 10 feet of it takes poison damage equal to its number of Hit Dice."
 					]
 				}
 			]

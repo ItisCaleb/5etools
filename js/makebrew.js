@@ -216,7 +216,7 @@ class PageUi {
 			this._setActiveBuilder(this._$selBuilderMode.val());
 		});
 
-		const $btnManageHomebrew = $(`<button class="btn btn-xs btn-info">管理自制内容</button>`)
+		const $btnManageHomebrew = $(`<button class="btn btn-xs btn-info">管理自製內容</button>`)
 			.click(() => BrewUtil.manageBrew());
 		$$`<div class="sidemenu__row">${$btnManageHomebrew}</div>`.appendTo($mnu)
 

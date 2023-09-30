@@ -9,7 +9,7 @@ const AX_Y = "AXIS_Y";
 
 const EVT_NAMESPACE = ".dm_screen";
 
-const TITLE_LOADING = "读取中...";
+const TITLE_LOADING = "讀取中...";
 
 const PANEL_TYP_EMPTY = 0;
 const PANEL_TYP_STATS = 1;
@@ -167,7 +167,7 @@ class Board {
 	}
 
 	doShowLoading () {
-		$(`<div class="dm-screen-loading"><span class="initial-message initial-message--large">读取中...</span></div>`).css({
+		$(`<div class="dm-screen-loading"><span class="initial-message initial-message--large">讀取中...</span></div>`).css({
 			gridColumnStart: "1",
 			gridColumnEnd: String(this.width + 1),
 			gridRowStart: "1",
@@ -569,14 +569,14 @@ class SideMenu {
 	render () {
 		const renderDivider = () => this.$mnu.append(`<hr class="sidemenu__row__divider">`);
 
-		const $wrpResizeW = $(`<div class="sidemenu__row split-v-center"><div class="sidemenu__row__label">宽度</div></div>`).appendTo(this.$mnu);
+		const $wrpResizeW = $(`<div class="sidemenu__row split-v-center"><div class="sidemenu__row__label">寬度</div></div>`).appendTo(this.$mnu);
 		const $iptWidth = $(`<input class="form-control" type="number" value="${this.board.width}">`).appendTo($wrpResizeW);
 		this.$iptWidth = $iptWidth;
 		const $wrpResizeH = $(`<div class="sidemenu__row split-v-center"><div class="sidemenu__row__label">高度</div></div>`).appendTo(this.$mnu);
 		const $iptHeight = $(`<input class="form-control" type="number" value="${this.board.height}">`).appendTo($wrpResizeH);
 		this.$iptHeight = $iptHeight;
 		const $wrpSetDim = $(`<div class="sidemenu__row split-v-center"/>`).appendTo(this.$mnu);
-		const $btnSetDim = $(`<button class="btn btn-primary" style="width: 100%;">设置分层</div>`).appendTo($wrpSetDim);
+		const $btnSetDim = $(`<button class="btn btn-primary" style="width: 100%;">設置分層</div>`).appendTo($wrpSetDim);
 		$btnSetDim.on("click", () => {
 			const w = Number($iptWidth.val());
 			const h = Number($iptHeight.val());
@@ -586,7 +586,7 @@ class SideMenu {
 		renderDivider();
 
 		const $wrpFullscreen = $(`<div class="sidemenu__row flex-vh-center-around"></div>`).appendTo(this.$mnu);
-		const $btnFullscreen = $(`<button class="btn btn-primary">开关全屏幕</button>`).appendTo($wrpFullscreen);
+		const $btnFullscreen = $(`<button class="btn btn-primary">開關全螢幕</button>`).appendTo($wrpFullscreen);
 		this.board.$btnFullscreen = $btnFullscreen;
 		$btnFullscreen.on("click", () => {
 			this.board.isFullscreen = !this.board.isFullscreen;
@@ -596,7 +596,7 @@ class SideMenu {
 			this.board.doSaveStateDebounced();
 			this.board.$creen.trigger("panelResize");
 		});
-		const $btnLockPanels = $(`<button class="btn btn-danger" title="锁定皮肤"><span class="glyphicon glyphicon-lock"/></button>`).appendTo($wrpFullscreen);
+		const $btnLockPanels = $(`<button class="btn btn-danger" title="鎖定皮膚"><span class="glyphicon glyphicon-lock"/></button>`).appendTo($wrpFullscreen);
 		this.board.$btnLockPanels = $btnLockPanels;
 		$btnLockPanels.on("click", () => {
 			this.board.isLocked = !this.board.isLocked;
@@ -618,7 +618,7 @@ class SideMenu {
 		$btnSaveFile.on("click", () => {
 			DataUtil.userDownload(`dm-screen`, this.board.getSaveableState(), {fileType: "dm-screen"});
 		});
-		const $btnLoadFile = $(`<button class="btn btn-primary">读取文件</button>`).appendTo($wrpSaveLoadFile);
+		const $btnLoadFile = $(`<button class="btn btn-primary">讀取文件</button>`).appendTo($wrpSaveLoadFile);
 		$btnLoadFile.on("click", async () => {
 			const jsons = await DataUtil.pUserUpload({expectedFileType: "dm-screen"});
 			if (!jsons?.length) return;
@@ -639,7 +639,7 @@ class SideMenu {
 		renderDivider();
 
 		const $wrpReset = $(`<div class="sidemenu__row split-v-center"/>`).appendTo(this.$mnu);
-		const $btnReset = $(`<button class="btn btn-danger" style="width: 100%;">重置屏幕</button>`).appendTo($wrpReset);
+		const $btnReset = $(`<button class="btn btn-danger" style="width: 100%;">重設螢幕</button>`).appendTo($wrpReset);
 		$btnReset.on("click", () => {
 			if (window.confirm("Are you sure?")) {
 				this.board.doReset();
@@ -914,7 +914,7 @@ class Panel {
 		return p;
 	}
 
-	static _get$eleLoading (message = "加载中") {
+	static _get$eleLoading (message = "載入中") {
 		return $(`<div class="panel-content-wrapper-inner"><div class="ui-search__message loading-spinner"><i>${message}...</i></div></div>`);
 	}
 
@@ -1160,7 +1160,7 @@ class Panel {
 			PANEL_TYP_ROLLBOX,
 			null,
 			$(`<div class="panel-content-wrapper-inner"/>`).append(Renderer.dice.get$Roller().addClass("rollbox-panel")),
-			title || "掷骰",
+			title || "擲骰",
 			true,
 			!!title,
 		);
@@ -1171,7 +1171,7 @@ class Panel {
 			PANEL_TYP_INITIATIVE_TRACKER,
 			state,
 			$(`<div class="panel-content-wrapper-inner"/>`).append(InitiativeTracker.make$Tracker(this.board, state)),
-			title || "先攻追踪器",
+			title || "先攻追蹤器",
 			true,
 		);
 	}
@@ -1181,7 +1181,7 @@ class Panel {
 			PANEL_TYP_INITIATIVE_TRACKER_PLAYER,
 			state,
 			$(`<div class="panel-content-wrapper-inner"/>`).append(InitiativeTrackerPlayer.make$tracker(this.board, state)),
-			title || "先攻追踪器",
+			title || "先攻追蹤器",
 			true,
 		);
 	}
@@ -1191,7 +1191,7 @@ class Panel {
 			PANEL_TYP_COUNTER,
 			state,
 			$(`<div class="panel-content-wrapper-inner"/>`).append(Counter.$getCounter(this.board, state)),
-			title || "计数器",
+			title || "計數器",
 			true,
 		);
 	}
@@ -1201,7 +1201,7 @@ class Panel {
 			PANEL_TYP_UNIT_CONVERTER,
 			state,
 			$(`<div class="panel-content-wrapper-inner"/>`).append(UnitConverter.make$Converter(this.board, state)),
-			title || "单位转换器",
+			title || "單位轉換器",
 			true,
 		);
 	}
@@ -1211,7 +1211,7 @@ class Panel {
 			PANEL_TYP_MONEY_CONVERTER,
 			state,
 			$(`<div class="panel-content-wrapper-inner"/>`).append(MoneyConverter.make$Converter(this.board, state)),
-			title || "货币转换器",
+			title || "貨幣轉換器",
 			true,
 		);
 	}
@@ -1221,7 +1221,7 @@ class Panel {
 			PANEL_TYP_TIME_TRACKER,
 			state,
 			$(`<div class="panel-content-wrapper-inner"/>`).append(TimeTracker.$getTracker(this.board, state)),
-			title || "时间追踪器",
+			title || "時間追蹤器",
 			true,
 		);
 	}
@@ -2500,7 +2500,7 @@ class AddMenuVideoTab extends AddMenuTab {
 			const $tab = $(`<div class="ui-search__wrp-output underline-tabs" id="${this.tabId}"/>`);
 
 			const $wrpYT = $(`<div class="ui-modal__row"/>`).appendTo($tab);
-			const $iptUrlYT = $(`<input class="form-control" placeholder="粘贴YouTube URL">`)
+			const $iptUrlYT = $(`<input class="form-control" placeholder="黏貼YouTube URL">`)
 				.on("keydown", (e) => {
 					if (e.which === 13) $btnAddYT.click();
 				})
@@ -2516,14 +2516,14 @@ class AddMenuVideoTab extends AddMenuTab {
 					$iptUrlYT.val("");
 				} else {
 					JqueryUtil.doToast({
-						content: `请输入一个URL，格式为： "https://www.youtube.com/watch?v=XXXXXXX"`,
+						content: `請輸入一個URL，格式為： "https://www.youtube.com/watch?v=XXXXXXX"`,
 						type: "danger",
 					});
 				}
 			});
 
 			const $wrpTwitch = $(`<div class="ui-modal__row"/>`).appendTo($tab);
-			const $iptUrlTwitch = $(`<input class="form-control" placeholder="粘贴Twitch URL">`)
+			const $iptUrlTwitch = $(`<input class="form-control" placeholder="黏貼Twitch URL">`)
 				.on("keydown", (e) => {
 					if (e.which === 13) $btnAddTwitch.click();
 				})
@@ -2543,7 +2543,7 @@ class AddMenuVideoTab extends AddMenuTab {
 					$iptUrlTwitch.val("");
 				} else {
 					JqueryUtil.doToast({
-						content: `请输入一个URL，格式为："https://www.twitch.tv/XXXXXX"`,
+						content: `請輸入一個URL，格式為："https://www.twitch.tv/XXXXXX"`,
 						type: "danger",
 					});
 				}
@@ -2559,14 +2559,14 @@ class AddMenuVideoTab extends AddMenuTab {
 					$iptUrlTwitch.val("");
 				} else {
 					JqueryUtil.doToast({
-						content: `请输入一个URL，格式为："https://www.twitch.tv/XXXXXX"`,
+						content: `請輸入一個URL，格式為："https://www.twitch.tv/XXXXXX"`,
 						type: "danger",
 					});
 				}
 			});
 
 			const $wrpGeneric = $(`<div class="ui-modal__row"/>`).appendTo($tab);
-			const $iptUrlGeneric = $(`<input class="form-control" placeholder="粘贴任何URL">`)
+			const $iptUrlGeneric = $(`<input class="form-control" placeholder="黏貼任何URL">`)
 				.on("keydown", (e) => {
 					if (e.which === 13) $iptUrlGeneric.click();
 				})
@@ -2579,7 +2579,7 @@ class AddMenuVideoTab extends AddMenuTab {
 					this.menu.doClose();
 				} else {
 					JqueryUtil.doToast({
-						content: `请输入一个URL！`,
+						content: `請輸入一個URL！`,
 						type: "danger",
 					});
 				}
@@ -2592,7 +2592,7 @@ class AddMenuVideoTab extends AddMenuTab {
 
 class AddMenuImageTab extends AddMenuTab {
 	constructor () {
-		super("图片");
+		super("圖片");
 		this.tabId = this.genTabId("image");
 	}
 
@@ -2602,7 +2602,7 @@ class AddMenuImageTab extends AddMenuTab {
 
 			// region Imgur
 			const $wrpImgur = $(`<div class="ui-modal__row"/>`).appendTo($tab);
-			$(`<span>Imgur （匿名上传） <i class="text-muted">（接受 <a href="https://help.imgur.com/hc/articles/115000083326" target="_blank" rel="noopener noreferrer">imgur 友好格式</a>）</i></span>`).appendTo($wrpImgur);
+			$(`<span>Imgur （匿名上傳） <i class="text-muted">（接受 <a href="https://help.imgur.com/hc/articles/115000083326" target="_blank" rel="noopener noreferrer">imgur 友好格式</a>）</i></span>`).appendTo($wrpImgur);
 			const $iptFile = $(`<input type="file" class="hidden">`).on("change", (evt) => {
 				const input = evt.target;
 				const reader = new FileReader();
@@ -2647,7 +2647,7 @@ class AddMenuImageTab extends AddMenuTab {
 				const ix = this.menu.pnl.doPopulate_Loading("Uploading"); // will be null if not in tabbed mode
 				this.menu.doClose();
 			}).appendTo($tab);
-			const $btnAdd = $(`<button class="btn btn-primary btn-sm">上传</button>`).appendTo($wrpImgur);
+			const $btnAdd = $(`<button class="btn btn-primary btn-sm">上傳</button>`).appendTo($wrpImgur);
 			$btnAdd.on("click", () => {
 				$iptFile.click();
 			});
@@ -2655,7 +2655,7 @@ class AddMenuImageTab extends AddMenuTab {
 
 			// region URL
 			const $wrpUtl = $(`<div class="ui-modal__row"/>`).appendTo($tab);
-			const $iptUrl = $(`<input class="form-control" placeholder="粘贴图片 URL">`)
+			const $iptUrl = $(`<input class="form-control" placeholder="黏貼圖片 URL">`)
 				.on("keydown", (e) => {
 					if (e.which === 13) $btnAddUrl.click();
 				})
@@ -2668,7 +2668,7 @@ class AddMenuImageTab extends AddMenuTab {
 					this.menu.doClose();
 				} else {
 					JqueryUtil.doToast({
-						content: `请输入 URL！`,
+						content: `請輸入 URL！`,
 						type: "danger",
 					});
 				}
@@ -2682,7 +2682,7 @@ class AddMenuImageTab extends AddMenuTab {
 				.click(() => DmMapper.pHandleMenuButtonClick(this.menu));
 
 			$$`<div class="ui-modal__row">
-				<div>冒险地图动态查看器</div>
+				<div>冒險地圖動態查看器</div>
 				${$btnSelectAdventure}
 			</div>`.appendTo($tab)
 			// endregion
@@ -2702,15 +2702,15 @@ class AddMenuSpecialTab extends AddMenuTab {
 		if (!this.$tab) {
 			const $tab = $(`<div class="ui-search__wrp-output underline-tabs overflow-y-auto pr-1" id="${this.tabId}"/>`);
 
-			const $wrpRoller = $(`<div class="ui-modal__row"><span>掷骰工具<i class="text-muted">（将掷骰工具钉到帷幕上）</i></span></div>`).appendTo($tab);
-			const $btnRoller = $(`<button class="btn btn-primary btn-sm">钉</button>`).appendTo($wrpRoller);
+			const $wrpRoller = $(`<div class="ui-modal__row"><span>擲骰工具<i class="text-muted">（將擲骰工具釘到帷幕上）</i></span></div>`).appendTo($tab);
+			const $btnRoller = $(`<button class="btn btn-primary btn-sm">釘</button>`).appendTo($wrpRoller);
 			$btnRoller.on("click", () => {
 				Renderer.dice.bindDmScreenPanel(this.menu.pnl);
 				this.menu.doClose();
 			});
 			$(`<hr class="ui-modal__row-sep"/>`).appendTo($tab);
 
-			const $wrpTracker = $(`<div class="ui-modal__row"><span>先攻追踪器</span></div>`).appendTo($tab);
+			const $wrpTracker = $(`<div class="ui-modal__row"><span>先攻追蹤器</span></div>`).appendTo($tab);
 			const $btnTracker = $(`<button class="btn btn-primary btn-sm">添加</button>`).appendTo($wrpTracker);
 			$btnTracker.on("click", () => {
 				this.menu.pnl.doPopulate_InitiativeTracker();
@@ -2724,13 +2724,13 @@ class AddMenuSpecialTab extends AddMenuTab {
 				});
 
 			$$`<div class="ui-modal__row">
-			<span>先攻追踪器：玩家查看页</span>
+			<span>先攻追蹤器：玩家查看頁</span>
 			${$btnPlayertracker}
 			</div>`.appendTo($tab);
 
 			$(`<hr class="ui-modal__row-sep"/>`).appendTo($tab);
 
-			const $wrpText = $(`<div class="ui-modal__row"><span>基础文本块 <i class="text-muted">（如需功能齐全编辑器，可嵌入 Google Doc 或类似编辑器）</i></span></div>`).appendTo($tab);
+			const $wrpText = $(`<div class="ui-modal__row"><span>基礎文本塊 <i class="text-muted">（如需功能齊全編輯器，可嵌入 Google Doc 或類似編輯器）</i></span></div>`).appendTo($tab);
 			const $btnText = $(`<button class="btn btn-primary btn-sm">添加</button>`).appendTo($wrpText);
 			$btnText.on("click", () => {
 				this.menu.pnl.doPopulate_TextBox();
@@ -2738,21 +2738,21 @@ class AddMenuSpecialTab extends AddMenuTab {
 			});
 			$(`<hr class="ui-modal__row-sep"/>`).appendTo($tab);
 
-			const $wrpUnitConverter = $(`<div class="ui-modal__row"><span>英制-公制单位转换器</span></div>`).appendTo($tab);
+			const $wrpUnitConverter = $(`<div class="ui-modal__row"><span>英制-公制單位轉換器</span></div>`).appendTo($tab);
 			const $btnUnitConverter = $(`<button class="btn btn-primary btn-sm">添加</button>`).appendTo($wrpUnitConverter);
 			$btnUnitConverter.on("click", () => {
 				this.menu.pnl.doPopulate_UnitConverter();
 				this.menu.doClose();
 			});
 
-			const $wrpMoneyConverter = $(`<div class="ui-modal__row"><span>货币转换器</span></div>`).appendTo($tab);
+			const $wrpMoneyConverter = $(`<div class="ui-modal__row"><span>貨幣轉換器</span></div>`).appendTo($tab);
 			const $btnMoneyConverter = $(`<button class="btn btn-primary btn-sm">添加</button>`).appendTo($wrpMoneyConverter);
 			$btnMoneyConverter.on("click", () => {
 				this.menu.pnl.doPopulate_MoneyConverter();
 				this.menu.doClose();
 			});
 
-			const $wrpCounter = $(`<div class="ui-modal__row"><span>计数器</span></div>`).appendTo($tab);
+			const $wrpCounter = $(`<div class="ui-modal__row"><span>計數器</span></div>`).appendTo($tab);
 			const $btnCounter = $(`<button class="btn btn-primary btn-sm">添加</button>`).appendTo($wrpCounter);
 			$btnCounter.on("click", () => {
 				this.menu.pnl.doPopulate_Counter();
@@ -2761,7 +2761,7 @@ class AddMenuSpecialTab extends AddMenuTab {
 
 			$(`<hr class="ui-modal__row-sep"/>`).appendTo($tab);
 
-			const $wrpTimeTracker = $(`<div class="ui-modal__row"><span>游戏内时钟/日历</span></div>`).appendTo($tab);
+			const $wrpTimeTracker = $(`<div class="ui-modal__row"><span>遊戲內時鐘/日曆</span></div>`).appendTo($tab);
 			const $btnTimeTracker = $(`<button class="btn btn-primary btn-sm">添加</button>`).appendTo($wrpTimeTracker);
 			$btnTimeTracker.on("click", () => {
 				this.menu.pnl.doPopulate_TimeTracker();
@@ -2770,7 +2770,7 @@ class AddMenuSpecialTab extends AddMenuTab {
 
 			$(`<hr class="ui-modal__row-sep"/>`).appendTo($tab);
 
-			const $wrpBlank = $(`<div class="ui-modal__row"><span class="help" title="为不喜欢加号标志的人提供。">空格</span></div>`).appendTo($tab);
+			const $wrpBlank = $(`<div class="ui-modal__row"><span class="help" title="為不喜歡加號標誌的人提供。">空格</span></div>`).appendTo($tab);
 			$(`<button class="btn btn-primary btn-sm">添加</button>`)
 				.on("click", () => {
 					this.menu.pnl.doPopulate_Blank();
@@ -2786,10 +2786,10 @@ class AddMenuSpecialTab extends AddMenuTab {
 class AddMenuSearchTab extends AddMenuTab {
 	static _getTitle (subType) {
 		switch (subType) {
-			case "content": return "内容";
-			case "rule": return "规则";
-			case "adventure": return "冒险模组";
-			case "book": return "书籍";
+			case "content": return "內容";
+			case "rule": return "規則";
+			case "adventure": return "冒險模組";
+			case "book": return "書籍";
 			default: throw new Error(`Unhandled search tab subtype: "${subType}"`);
 		}
 	}
@@ -2871,10 +2871,10 @@ class AddMenuSearchTab extends AddMenuTab {
 
 	_getAllTitle () {
 		switch (this.subType) {
-			case "content": return "所有类别";
-			case "rule": return "所有类别";
-			case "adventure": return "所有冒险模组";
-			case "book": return "所有书籍";
+			case "content": return "所有類別";
+			case "rule": return "所有類別";
+			case "adventure": return "所有冒險模組";
+			case "book": return "所有書籍";
 			default: throw new Error(`Unhandled search tab subtype: "${this.subType}"`);
 		}
 	}
@@ -2970,7 +2970,7 @@ class AddMenuSearchTab extends AddMenuTab {
 
 				if (resultCount > UiUtil.SEARCH_RESULTS_CAP) {
 					const diff = resultCount - UiUtil.SEARCH_RESULTS_CAP;
-					this.$results.append(`<div class="ui-search__row ui-search__row--readonly">...${diff} 条结果被隐藏。完善你的搜索！</div>`);
+					this.$results.append(`<div class="ui-search__row ui-search__row--readonly">...${diff} 條結果被隱藏。完善你的搜索！</div>`);
 				}
 			} else {
 				if (!srch.trim()) this.showMsgIpt();
@@ -3211,11 +3211,11 @@ class NoteBox {
 class UnitConverter {
 	static make$Converter (board, state) {
 		const units = [
-			new UnitConverterUnit("寸", "2.54", "厘米", "0.394"),
+			new UnitConverterUnit("寸", "2.54", "公分", "0.394"),
 			new UnitConverterUnit("尺", "0.305", "米", "3.28"),
-			new UnitConverterUnit("里", "1.61", "公里", "0.620"),
+			new UnitConverterUnit("裏", "1.61", "公里", "0.620"),
 			new UnitConverterUnit("磅", "0.454", "公斤", "2.20"),
-			new UnitConverterUnit("加仑", "3.79", "公升", "0.264"),
+			new UnitConverterUnit("加侖", "3.79", "公升", "0.264"),
 		];
 
 		let ixConv = state.c || 0;

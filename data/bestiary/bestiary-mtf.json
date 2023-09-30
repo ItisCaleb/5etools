@@ -97,7 +97,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -129,13 +129,13 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"The kruthik has advantage on Wisdom ({@skill 察觉}) checks that rely on smell."
+						"The kruthik has advantage on Wisdom ({@skill 察覺}) checks that rely on smell."
 					]
 				},
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 feet of the creature and the ally isn't {@condition 无力}."
+						"The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 feet of the creature and the ally isn't {@condition 無力}."
 					]
 				},
 				{
@@ -271,10 +271,10 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell 魅惑人类} (as 5th-level spell)",
-							"{@spell 七彩喷射}",
-							"{@spell 侦测思想}",
-							"{@spell 人类定身术} (as 3rd-level spell)"
+							"{@spell 魅惑人類} (as 5th-level spell)",
+							"{@spell 七彩噴射}",
+							"{@spell 偵測思想}",
+							"{@spell 人類定身術} (as 3rd-level spell)"
 						]
 					},
 					"ability": "int"
@@ -316,7 +316,7 @@
 				{
 					"name": "Eat Memories",
 					"entries": [
-						"The oblex targets one creature it can see within 5 feet of it. The target must succeed on a {@dc 15} Wisdom saving throw or take 18 ({@damage 4d8}) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the {@spell 高等复原术} or heal spell. Constructs, oozes, plants, and undead succeed on the save automatically.",
+						"The oblex targets one creature it can see within 5 feet of it. The target must succeed on a {@dc 15} Wisdom saving throw or take 18 ({@damage 4d8}) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the {@spell 高等復原術} or heal spell. Constructs, oozes, plants, and undead succeed on the save automatically.",
 						"While memory drained, the target must roll a {@dice d4} and subtract the number rolled from any ability check or attack roll it makes. Each time the target is memory drained beyond the first, the die size increases by one: the {@dice d4} becomes a {@dice d6}, the {@dice d6} becomes a {@dice d8}, and so on until the die becomes a {@dice d20}, at which point the target becomes {@condition 昏迷} for 1 hour. The effect then ends.",
 						"When an oblex causes a target to become memory drained, the oblex learns all the languages the target knows and gains all its proficiencies, except for any saving throw proficiencies."
 					]
@@ -367,7 +367,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "气元素追随者",
+			"name": "氣元素追隨者",
 			"ENG_name": "Air Elemental Myrmidon",
 			"source": "MTF",
 			"page": 202,
@@ -418,7 +418,7 @@
 			"wis": 10,
 			"cha": 10,
 			"senses": [
-				"黑暗视觉 60 尺"
+				"黑暗視覺 60 尺"
 			],
 			"passive": 10,
 			"resist": [
@@ -430,7 +430,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -444,8 +444,8 @@
 				"prone"
 			],
 			"languages": [
-				"气族语",
-				"一种它创造者所选择的语言"
+				"氣族語",
+				"一種它創造者所選擇的語言"
 			],
 			"cr": "7",
 			"trait": [
@@ -453,29 +453,29 @@
 					"name": "魔法武器",
 					"ENG_name": "Magic Weapons",
 					"entries": [
-						"追随者的武器攻击视作魔法攻击。"
+						"追隨者的武器攻擊視作魔法攻擊。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "多重攻击",
+					"name": "多重攻擊",
 					"entries": [
-						"追随者进行三次连枷攻击。"
+						"追隨者進行三次連枷攻擊。"
 					]
 				},
 				{
-					"name": "连枷",
+					"name": "連枷",
 					"ENG_name": "Flail",
 					"entries": [
-						"{@atk mw} 命中{@hit 7}，触及5尺，单一目标。{@h}8 ({@damage 1d8 + 4}) 钝击伤害。"
+						"{@atk mw} 命中{@hit 7}，觸及5尺，單一目標。{@h}8 ({@damage 1d8 + 4}) 鈍擊傷害。"
 					]
 				},
 				{
-					"name": "闪电猛击{@recharge}",
+					"name": "閃電猛擊{@recharge}",
 					"ENG_name": "Lightning Strike {@recharge}",
 					"entries": [
-						"追随者进行一次连枷攻击。若该攻击命中，则它将额外造成 18 ({@damage 4d8})闪电伤害，且目标必须成功通过一次DC 14的体质豁免，否则将被{@condition 震慑}直到该追随者的下个回合结束。"
+						"追隨者進行一次連枷攻擊。若該攻擊命中，則它將額外造成 18 ({@damage 4d8})閃電傷害，且目標必須成功通過一次DC 14的體質豁免，否則將被{@condition 震懾}直到該追隨者的下個回合結束。"
 					]
 				}
 			],
@@ -536,7 +536,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -575,7 +575,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -608,7 +608,7 @@
 					"name": "Foment Madness",
 					"entries": [
 						"Any creature that isn't a demon that starts its turn within 30 feet of the alkilith must succeed on a {@dc 18} Wisdom saving throw, or it hears a faint buzzing in its head for a moment and has disadvantage on its next attack roll, saving throw, or ability check.",
-						"If the saving throw against Foment Madness fails by 5 or more, the creature is instead subjected to the {@spell 困惑术} spell for 1 minute (no concentration required by the alkilith). While under the effect of that confusion, the creature is immune to Foment Madness."
+						"If the saving throw against Foment Madness fails by 5 or more, the creature is instead subjected to the {@spell 困惑術} spell for 1 minute (no concentration required by the alkilith). While under the effect of that confusion, the creature is immune to Foment Madness."
 					]
 				},
 				{
@@ -729,7 +729,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -777,7 +777,7 @@
 				{
 					"name": "Howling Babble {@recharge}",
 					"entries": [
-						"Each creature within 30 feet of the allip that can hear it must make a {@dc 14} Wisdom saving throw. On a failed save, a target takes 12 ({@damage 2d8 + 3}) psychic damage, and it is {@condition 震慑} until the end of its next turn. On a successful save, it takes half as much damage and isn't {@condition 震慑}. Constructs and undead are immune to this effect."
+						"Each creature within 30 feet of the allip that can hear it must make a {@dc 14} Wisdom saving throw. On a failed save, a target takes 12 ({@damage 2d8 + 3}) psychic damage, and it is {@condition 震懾} until the end of its next turn. On a successful save, it takes half as much damage and isn't {@condition 震懾}. Constructs and undead are immune to this effect."
 					]
 				}
 			],
@@ -833,7 +833,7 @@
 				{
 					"ac": 21,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -872,7 +872,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -897,17 +897,17 @@
 						"The amnizu's innate spellcasting ability is Intelligence (spell save {@dc 19}, {@hit 11} to hit with spell attacks). The amnizu can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 魅惑人类}",
-						"{@spell 命令术}"
+						"{@spell 魅惑人類}",
+						"{@spell 命令術}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell 支配人类}",
-							"{@spell 火球术}"
+							"{@spell 支配人類}",
+							"{@spell 火球術}"
 						],
 						"1e": [
 							"{@spell 支配怪物}",
-							"{@spell 弱智术}"
+							"{@spell 弱智術}"
 						]
 					},
 					"ability": "int"
@@ -955,7 +955,7 @@
 				{
 					"name": "Forgetfulness {@recharge}",
 					"entries": [
-						"The amnizu targets one creature it can see within 60 feet of it. That creature must make a {@dc 18} Intelligence saving throw and on a failure the target is {@condition 震慑} for 1 minute. A {@condition 震慑} creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target remains {@condition 震慑} for the full minute, it forgets everything it sensed, experienced, and learned during the last 5 hours."
+						"The amnizu targets one creature it can see within 60 feet of it. That creature must make a {@dc 18} Intelligence saving throw and on a failure the target is {@condition 震懾} for 1 minute. A {@condition 震懾} creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target remains {@condition 震懾} for the full minute, it forgets everything it sensed, experienced, and learned during the last 5 hours."
 					]
 				}
 			],
@@ -1045,7 +1045,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1180,7 +1180,7 @@
 				{
 					"ac": 20,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1220,7 +1220,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -1239,7 +1239,7 @@
 				{
 					"name": "Antimagic Cone",
 					"entries": [
-						"The astral dreadnought's opened eye creates an area of antimagic, as in the {@spell 反魔法结界} spell, in a 150-foot cone. At the start of each of its turns, the dreadnought decides which way the cone faces. The cone doesn't function while the dreadnought's eye is closed or while the dreadnought is {@condition 目盲}."
+						"The astral dreadnought's opened eye creates an area of antimagic, as in the {@spell 反魔法結界} spell, in a 150-foot cone. At the start of each of its turns, the dreadnought decides which way the cone faces. The cone doesn't function while the dreadnought's eye is closed or while the dreadnought is {@condition 目盲}."
 					]
 				},
 				{
@@ -1251,7 +1251,7 @@
 				{
 					"name": "Demiplanar Donjon",
 					"entries": [
-						"Any creature or object that the astral dreadnought swallows is transported to a demiplane that can be entered by no other means except a {@spell 祈愿术} spell or this creature's Donjon Visit ability. A creature can leave the demiplane only by using magic that enables planar travel, such as the {@spell plane shift} spell. The demiplane resembles a stone cave roughly 1,000 feet in diameter with a ceiling 100 feet high. Like a stomach, it contains the remains of the dreadnought's past meals.",
+						"Any creature or object that the astral dreadnought swallows is transported to a demiplane that can be entered by no other means except a {@spell 祈願術} spell or this creature's Donjon Visit ability. A creature can leave the demiplane only by using magic that enables planar travel, such as the {@spell plane shift} spell. The demiplane resembles a stone cave roughly 1,000 feet in diameter with a ceiling 100 feet high. Like a stomach, it contains the remains of the dreadnought's past meals.",
 						"The dreadnought can't be harmed from within the demiplane. If the dreadnought dies, the demiplane disappears, and everything inside it appears around the corpse. The demiplane is otherwise indestructible."
 					]
 				},
@@ -1284,7 +1284,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}36 ({@damage 5d10 + 9}) piercing damage. If the target is a creature of Huge size or smaller and this damage reduces it to 0 hit points or it is {@condition 无力}, the astral dreadnought swallows it. The swallowed target, along with everything it is wearing and carrying, appears in an unoccupied space on the floor of the astral dreadnought's Demiplanar Donjon."
+						"{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}36 ({@damage 5d10 + 9}) piercing damage. If the target is a creature of Huge size or smaller and this damage reduces it to 0 hit points or it is {@condition 無力}, the astral dreadnought swallows it. The swallowed target, along with everything it is wearing and carrying, appears in an unoccupied space on the floor of the astral dreadnought's Demiplanar Donjon."
 					]
 				},
 				{
@@ -1365,7 +1365,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1397,7 +1397,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -1415,17 +1415,17 @@
 					],
 					"will": [
 						"{@spell 安定心神}",
-						"{@spell 睡眠术}"
+						"{@spell 睡眠術}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell 治疗伤势} (as a 5th-level spell)",
-							"{@spell 次级复原术}"
+							"{@spell 治療傷勢} (as a 5th-level spell)",
+							"{@spell 次級復原術}"
 						],
 						"1e": [
-							"{@spell 高等复原术}",
-							"{@spell 治愈术}",
-							"{@spell 唤醒死者}"
+							"{@spell 高等復原術}",
+							"{@spell 治癒術}",
+							"{@spell 喚醒死者}"
 						]
 					},
 					"ability": "cha"
@@ -1575,7 +1575,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -1601,25 +1601,25 @@
 						"Bael's innate spellcasting ability is Charisma (spell save {@dc 21}, {@hit 13} to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 变造自身} (can become Medium when changing his appearance)",
-						"{@spell 活化死尸}",
-						"{@spell 魅惑人类}",
-						"{@spell 侦测魔法}",
-						"{@spell 造成伤势} (as an 8th-level spell)",
-						"{@spell 隐形术} (self only)",
-						"{@spell 强效幻影}"
+						"{@spell 變造自身} (can become Medium when changing his appearance)",
+						"{@spell 活化死屍}",
+						"{@spell 魅惑人類}",
+						"{@spell 偵測魔法}",
+						"{@spell 造成傷勢} (as an 8th-level spell)",
+						"{@spell 隱形術} (self only)",
+						"{@spell 強效幻影}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell 反制法术}",
+							"{@spell 反製法術}",
 							"{@spell 解除魔法}",
-							"{@spell 飞行术}",
-							"{@spell 暗示术}",
-							"{@spell 火墙术}"
+							"{@spell 飛行術}",
+							"{@spell 暗示術}",
+							"{@spell 火牆術}"
 						],
 						"1e": [
 							"{@spell 支配怪物}",
-							"{@spell 徽记术} (stunning only)"
+							"{@spell 徽記術} (stunning only)"
 						]
 					},
 					"ability": "cha"
@@ -1629,7 +1629,7 @@
 				{
 					"name": "Dreadful",
 					"entries": [
-						"Bael can use a bonus action to appear dreadful until the start of his next turn. Each creature, other than a devil, that starts its turn within 10 feet of Bael must succeed on a {@dc 22} Wisdom saving throw or be {@condition 恐惧} until the start of the creature's next turn."
+						"Bael can use a bonus action to appear dreadful until the start of his next turn. Each creature, other than a devil, that starts its turn within 10 feet of Bael must succeed on a {@dc 22} Wisdom saving throw or be {@condition 恐懼} until the start of the creature's next turn."
 					]
 				},
 				{
@@ -1673,7 +1673,7 @@
 				{
 					"name": "Infernal Command",
 					"entries": [
-						"Each ally of Bael's within 60 feet of him can't be {@condition 魅惑} or {@condition 恐惧} until the end of his next turn."
+						"Each ally of Bael's within 60 feet of him can't be {@condition 魅惑} or {@condition 恐懼} until the end of his next turn."
 					]
 				},
 				{
@@ -1767,7 +1767,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1827,7 +1827,7 @@
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage, and the target is {@condition 被擒} (escape {@dc 15}) and is moved up to 5 feet toward the balhannoth. Until this grapple ends, the target is {@condition 束缚}, and the balhannoth can't use this tentacle against other targets. The balhannoth has four tentacles."
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage, and the target is {@condition 被擒} (escape {@dc 15}) and is moved up to 5 feet toward the balhannoth. Until this grapple ends, the target is {@condition 束縛}, and the balhannoth can't use this tentacle against other targets. The balhannoth has four tentacles."
 					]
 				}
 			],
@@ -1847,7 +1847,7 @@
 				{
 					"name": "Vanish",
 					"entries": [
-						"The balhannoth magically becomes {@condition 隐形} for up to 10 minutes or until immediately after it makes an attack roll."
+						"The balhannoth magically becomes {@condition 隱形} for up to 10 minutes or until immediately after it makes an attack roll."
 					]
 				}
 			],
@@ -1926,7 +1926,7 @@
 				{
 					"ac": 22,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1969,7 +1969,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -1991,18 +1991,18 @@
 						"Baphomet's spellcasting ability is Charisma (spell save {@dc 18}). He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 侦测魔法}"
+						"{@spell 偵測魔法}"
 					],
 					"daily": {
 						"1": [
-							"{@spell 传送术}"
+							"{@spell 傳送術}"
 						],
 						"3e": [
 							"{@spell 解除魔法}",
-							"{@spell 支配野兽}",
-							"{@spell 猎人印记}",
-							"{@spell 迷宫术}",
-							"{@spell 石墙术}"
+							"{@spell 支配野獸}",
+							"{@spell 獵人印記}",
+							"{@spell 迷宮術}",
+							"{@spell 石牆術}"
 						]
 					},
 					"ability": "cha"
@@ -2074,7 +2074,7 @@
 				{
 					"name": "Frightful Presence",
 					"entries": [
-						"Each creature of Baphomet's choice within 120 feet of him and aware of him must succeed on a {@dc 18} Wisdom saving throw or become {@condition 恐惧} for 1 minute. A {@condition 恐惧} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. These later saves have disadvantage if Baphomet is within line of sight of the creature.",
+						"Each creature of Baphomet's choice within 120 feet of him and aware of him must succeed on a {@dc 18} Wisdom saving throw or become {@condition 恐懼} for 1 minute. A {@condition 恐懼} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. These later saves have disadvantage if Baphomet is within line of sight of the creature.",
 						"If a creature succeeds on any of these saves or the effect ends on it, the creature is immune to Baphomet's Frightful Presence for the next 24 hours."
 					]
 				}
@@ -2151,7 +2151,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -2195,11 +2195,11 @@
 						"The berbalang's innate spellcasting ability is Intelligence (spell save {@dc 13}). The berbalang can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 死者交谈术}"
+						"{@spell 死者交談術}"
 					],
 					"daily": {
 						"1": [
-							"{@spell 异界传送} (self only)"
+							"{@spell 異界傳送} (self only)"
 						]
 					},
 					"ability": "int"
@@ -2283,7 +2283,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -2321,7 +2321,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -2387,7 +2387,7 @@
 				{
 					"name": "Creeping Darkness {@recharge}",
 					"entries": [
-						"The abishai casts {@spell 黑暗术} at a point within 120 feet of it, requiring no components. Wisdom is its spellcasting ability for this spell. While the spell persists, the abishai can move the area of darkness up to 60 feet as a bonus action."
+						"The abishai casts {@spell 黑暗術} at a point within 120 feet of it, requiring no components. Wisdom is its spellcasting ability for this spell. While the spell persists, the abishai can move the area of darkness up to 60 feet as a bonus action."
 					]
 				}
 			],
@@ -2445,7 +2445,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -2482,7 +2482,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -2509,65 +2509,65 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 交友术}",
-								"{@spell 法师之手}",
-								"{@spell 传讯术}",
-								"{@spell 次级幻象}",
-								"{@spell 电爪}"
+								"{@spell 交友術}",
+								"{@spell 法師之手}",
+								"{@spell 傳訊術}",
+								"{@spell 次級幻象}",
+								"{@spell 電爪}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell 幻色法球}",
-								"{@spell 易容术}",
-								"{@spell 脚底抹油}",
-								"{@spell 魔法飞弹}",
-								"{@spell 魅惑人类}",
-								"{@spell 雷鸣波}"
+								"{@spell 易容術}",
+								"{@spell 腳底抹油}",
+								"{@spell 魔法飛彈}",
+								"{@spell 魅惑人類}",
+								"{@spell 雷鳴波}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 黑暗术}",
-								"{@spell 镜影术}",
-								"{@spell 迷踪步}"
+								"{@spell 黑暗術}",
+								"{@spell 鏡影術}",
+								"{@spell 迷蹤步}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
 								"{@spell 解除魔法}",
-								"{@spell 恐惧术}",
-								"{@spell 闪电束}"
+								"{@spell 恐懼術}",
+								"{@spell 閃電束}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 次元门}",
-								"{@spell 高等隐形术}",
-								"{@spell 冰风暴}"
+								"{@spell 次元門}",
+								"{@spell 高等隱形術}",
+								"{@spell 冰風暴}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell 寒冰锥}",
-								"{@spell 力墙术}"
+								"{@spell 寒冰錐}",
+								"{@spell 力牆術}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell 连环闪电}"
+								"{@spell 連環閃電}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell 传送术}"
+								"{@spell 傳送術}"
 							]
 						}
 					},
@@ -2675,7 +2675,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -2714,7 +2714,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -2948,7 +2948,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -3054,7 +3054,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -3131,7 +3131,7 @@
 				{
 					"name": "Paralyzing Breath {@recharge 5}",
 					"entries": [
-						"The cadaver collector releases paralyzing gas in a 30-foot cone. Each creature in that area must make a successful {@dc 18} Constitution saving throw or be {@condition 麻痹} for 1 minute. A {@condition 麻痹} creature repeats the saving throw at the end of each of its turns, ending the effect on itself with a success."
+						"The cadaver collector releases paralyzing gas in a 30-foot cone. Each creature in that area must make a successful {@dc 18} Constitution saving throw or be {@condition 麻痺} for 1 minute. A {@condition 麻痺} creature repeats the saving throw at the end of each of its turns, ending the effect on itself with a success."
 					]
 				}
 			],
@@ -3189,7 +3189,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -3225,7 +3225,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -3264,7 +3264,7 @@
 				{
 					"name": "Uncanny Senses",
 					"entries": [
-						"The canoloth can't be surprised while it isn't {@condition 无力}."
+						"The canoloth can't be surprised while it isn't {@condition 無力}."
 					]
 				}
 			],
@@ -3290,7 +3290,7 @@
 				{
 					"name": "Tongue",
 					"entries": [
-						"{@atk rw} {@hit 7} to hit, range 30 ft., one target. {@h}17 ({@damage 2d12 + 4}) piercing damage. If the target is Medium or smaller, it is {@condition 被擒} (escape {@dc 15}), pulled up to 30 feet toward the canoloth, and is {@condition 束缚} until the grapple ends. The canoloth can grapple one target at a time with its tongue."
+						"{@atk rw} {@hit 7} to hit, range 30 ft., one target. {@h}17 ({@damage 2d12 + 4}) piercing damage. If the target is Medium or smaller, it is {@condition 被擒} (escape {@dc 15}), pulled up to 30 feet toward the canoloth, and is {@condition 束縛} until the grapple ends. The canoloth can grapple one target at a time with its tongue."
 					]
 				}
 			],
@@ -3355,7 +3355,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -3413,7 +3413,7 @@
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage plus 3 ({@damage 1d6}) piercing damage. If the target is a Large or smaller creature, it is {@condition 被擒} (escape {@dc 15}). Until this grapple ends, the target is {@condition 束缚}, and the choker can't use this tentacle on another target. The choker has two tentacles. If this attack is a critical hit, the target also can't breathe or speak until the grapple ends."
+						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage plus 3 ({@damage 1d6}) piercing damage. If the target is a Large or smaller creature, it is {@condition 被擒} (escape {@dc 15}). Until this grapple ends, the target is {@condition 束縛}, and the choker can't use this tentacle on another target. The choker has two tentacles. If this attack is a critical hit, the target also can't breathe or speak until the grapple ends."
 					]
 				}
 			],
@@ -3521,7 +3521,7 @@
 				{
 					"name": "Stench of Death",
 					"entries": [
-						"Each creature that starts its turn within 10 feet of the corpse flower or one of its zombies must make a {@dc 14} Constitution saving throw, unless the creature is a construct or undead. On a failed save, the creature is {@condition 无力} until the end of the turn. Creatures that are immune to poison damage or the {@condition 中毒} condition automatically succeed on this saving throw. On a successful save, the creature is immune to the stench of all corpse flowers for 24 hours."
+						"Each creature that starts its turn within 10 feet of the corpse flower or one of its zombies must make a {@dc 14} Constitution saving throw, unless the creature is a construct or undead. On a failed save, the creature is {@condition 無力} until the end of the turn. Creatures that are immune to poison damage or the {@condition 中毒} condition automatically succeed on this saving throw. On a successful save, the creature is immune to the stench of all corpse flowers for 24 hours."
 					]
 				}
 			],
@@ -3593,7 +3593,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell 法师护甲}",
+					"condition": "with {@spell 法師護甲}",
 					"braces": true
 				}
 			],
@@ -3630,7 +3630,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -3652,9 +3652,9 @@
 						"The deathlock's innate spellcasting ability is Charisma (spell save {@dc 13}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 侦测魔法}",
-						"{@spell 易容术}",
-						"{@spell 法师护甲}"
+						"{@spell 偵測魔法}",
+						"{@spell 易容術}",
+						"{@spell 法師護甲}"
 					],
 					"ability": "cha"
 				},
@@ -3666,21 +3666,21 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 寒颤之触}",
+								"{@spell 冷顫之觸}",
 								"{@spell 魔能爆}",
-								"{@spell 法师之手}"
+								"{@spell 法師之手}"
 							]
 						},
 						"3": {
 							"lower": 1,
 							"slots": 2,
 							"spells": [
-								"{@spell 哈达之臂}",
+								"{@spell 哈達之臂}",
 								"{@spell 解除魔法}",
-								"{@spell 人类定身术}",
-								"{@spell 哈达之欲}",
-								"{@spell 隐形术}",
-								"{@spell 蛛行术}"
+								"{@spell 人類定身術}",
+								"{@spell 哈達之慾}",
+								"{@spell 隱形術}",
+								"{@spell 蛛行術}"
 							]
 						}
 					},
@@ -3713,9 +3713,9 @@
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
-								"Archfey patron: {@spell 闪现术}, {@spell 妖火术}, {@spell 哈达之欲}, {@spell 催眠图纹}, {@spell 魅影之力}, {@spell 睡眠术}",
-								"Fiend patron: {@spell 目盲/耳聋术}, {@spell 燃烧之手}, {@spell 命令术}, {@spell 火球术}, {@spell 炼狱叱喝}, {@spell 灼热射线}",
-								"Great Old One patron: {@spell 艾嘉西斯之铠}, {@spell 侦测思想}, {@spell 噪音暗语}, {@spell 哈达之欲}, {@spell 塔莎狂笑术}, {@spell 魅影之力}"
+								"Archfey patron: {@spell 閃現術}, {@spell 妖火術}, {@spell 哈達之慾}, {@spell 催眠圖紋}, {@spell 魅影之力}, {@spell 睡眠術}",
+								"Fiend patron: {@spell 目盲/耳聾術}, {@spell 燃燒之手}, {@spell 命令術}, {@spell 火球術}, {@spell 煉獄叱喝}, {@spell 灼熱射線}",
+								"Great Old One patron: {@spell 艾嘉西斯之鎧}, {@spell 偵測思想}, {@spell 噪音暗語}, {@spell 哈達之慾}, {@spell 塔莎狂笑術}, {@spell 魅影之力}"
 							]
 						}
 					]
@@ -3770,7 +3770,7 @@
 				13,
 				{
 					"ac": 16,
-					"condition": "with {@spell 法师护甲}",
+					"condition": "with {@spell 法師護甲}",
 					"braces": true
 				}
 			],
@@ -3808,7 +3808,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -3830,9 +3830,9 @@
 						"The deathlock's innate spellcasting ability is Charisma (spell save {@dc 14}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 侦测魔法}",
-						"{@spell 易容术}",
-						"{@spell 法师护甲}"
+						"{@spell 偵測魔法}",
+						"{@spell 易容術}",
+						"{@spell 法師護甲}"
 					],
 					"ability": "cha"
 				},
@@ -3844,26 +3844,26 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 寒颤之触}",
-								"{@spell 法师之手}",
-								"{@spell 次级幻象}",
-								"{@spell 毒气喷洒}"
+								"{@spell 冷顫之觸}",
+								"{@spell 法師之手}",
+								"{@spell 次級幻象}",
+								"{@spell 毒氣噴灑}"
 							]
 						},
 						"5": {
 							"lower": 1,
 							"slots": 2,
 							"spells": [
-								"{@spell 哈达之臂}",
-								"{@spell 枯萎术}",
-								"{@spell 反制法术}",
-								"{@spell 疯狂冠冕}",
-								"{@spell 黑暗术}",
-								"{@spell 次元门}",
+								"{@spell 哈達之臂}",
+								"{@spell 枯萎術}",
+								"{@spell 反製法術}",
+								"{@spell 瘋狂冠冕}",
+								"{@spell 黑暗術}",
+								"{@spell 次元門}",
 								"{@spell 解除魔法}",
-								"{@spell 飞行术}",
-								"{@spell 怪物定身术}",
-								"{@spell 隐形术}"
+								"{@spell 飛行術}",
+								"{@spell 怪物定身術}",
+								"{@spell 隱形術}"
 							]
 						}
 					},
@@ -3888,7 +3888,7 @@
 				{
 					"name": "Grave Bolts",
 					"entries": [
-						"{@atk rs} {@hit 6} to hit, range 120 ft., one or two targets. {@h}18 ({@damage 4d8}) necrotic damage. If the target is Large or smaller, it must succeed on a {@dc 16} Strength saving throw or become {@condition 束缚} as shadowy tendrils wrap around it for 1 minute. A {@condition 束缚} target can use its action to repeat the saving throw, ending the effect on itself on a success."
+						"{@atk rs} {@hit 6} to hit, range 120 ft., one or two targets. {@h}18 ({@damage 4d8}) necrotic damage. If the target is Large or smaller, it must succeed on a {@dc 16} Strength saving throw or become {@condition 束縛} as shadowy tendrils wrap around it for 1 minute. A {@condition 束縛} target can use its action to repeat the saving throw, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -3902,9 +3902,9 @@
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
-								"Archfey patron: {@spell 闪现术}, {@spell 支配野兽}, {@spell 支配人类}, {@spell 妖火术}, {@spell 高等隐形术}, {@spell 哈达之欲}, {@spell 催眠图纹}, {@spell 魅影之力}, {@spell 伪装术}, {@spell 睡眠术}",
-								"Fiend patron: {@spell 目盲/耳聋术}, {@spell 燃烧之手}, {@spell 命令术}, {@spell 火焰护盾}, {@spell 火球术}, {@spell 焰击术}, {@spell 炼狱叱喝}, {@spell 灼热射线}, {@spell 臭云术}, {@spell 火墙术}",
-								"Great Old One patron: {@spell 锐眼术}, {@spell 侦测思想}, {@spell 噪音暗语}, {@spell 支配人类}, {@spell 艾伐黑触手}, {@spell 哈达之欲}, {@spell 魅影之力}, {@spell 短讯术}, {@spell 塔莎狂笑术}, {@spell 心灵遥控}"
+								"Archfey patron: {@spell 閃現術}, {@spell 支配野獸}, {@spell 支配人類}, {@spell 妖火術}, {@spell 高等隱形術}, {@spell 哈達之慾}, {@spell 催眠圖紋}, {@spell 魅影之力}, {@spell 偽裝術}, {@spell 睡眠術}",
+								"Fiend patron: {@spell 目盲/耳聾術}, {@spell 燃燒之手}, {@spell 命令術}, {@spell 火焰護盾}, {@spell 火球術}, {@spell 焰擊術}, {@spell 煉獄叱喝}, {@spell 灼熱射線}, {@spell 臭雲術}, {@spell 火牆術}",
+								"Great Old One patron: {@spell 銳眼術}, {@spell 偵測思想}, {@spell 噪音暗語}, {@spell 支配人類}, {@spell 艾伐黑觸手}, {@spell 哈達之慾}, {@spell 魅影之力}, {@spell 簡訊術}, {@spell 塔莎狂笑術}, {@spell 心靈遙控}"
 							]
 						}
 					]
@@ -3968,7 +3968,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell 法师护甲}",
+					"condition": "with {@spell 法師護甲}",
 					"braces": true
 				}
 			],
@@ -4004,7 +4004,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -4026,15 +4026,15 @@
 						"The wight's innate spellcasting ability is Charisma (spell save {@dc 13}). It can innately cast the following spells, requiring no verbal or material components:"
 					],
 					"will": [
-						"{@spell 侦测魔法}",
-						"{@spell 易容术}",
-						"{@spell 法师护甲}"
+						"{@spell 偵測魔法}",
+						"{@spell 易容術}",
+						"{@spell 法師護甲}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 恐惧术}",
-							"{@spell 人类定身术}",
-							"{@spell 迷踪步}"
+							"{@spell 恐懼術}",
+							"{@spell 人類定身術}",
+							"{@spell 迷蹤步}"
 						]
 					},
 					"ability": "cha"
@@ -4044,7 +4044,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the wight has disadvantage on attack rolls, as well as on Wisdom ({@skill 察觉}) checks that rely on sight."
+						"While in sunlight, the wight has disadvantage on attack rolls, as well as on Wisdom ({@skill 察覺}) checks that rely on sight."
 					]
 				}
 			],
@@ -4130,7 +4130,7 @@
 				{
 					"ac": 22,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -4175,7 +4175,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -4197,17 +4197,17 @@
 						"Demogorgon's spellcasting ability is Charisma (spell save {@dc 23}). Demogorgon can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 侦测魔法}",
-						"{@spell 强效幻影}"
+						"{@spell 偵測魔法}",
+						"{@spell 強效幻影}"
 					],
 					"daily": {
 						"3e": [
 							"{@spell 解除魔法}",
-							"{@spell 恐惧术}",
-							"{@spell 心灵遥控}"
+							"{@spell 恐懼術}",
+							"{@spell 心靈遙控}"
 						],
 						"1e": [
-							"{@spell 弱智术}",
+							"{@spell 弱智術}",
 							"{@spell 投射幻影}"
 						]
 					},
@@ -4236,7 +4236,7 @@
 				{
 					"name": "Two Heads",
 					"entries": [
-						"Demogorgon has advantage on saving throws against being {@condition 目盲}, {@condition 耳聋}, {@condition 震慑}, or knocked {@condition 昏迷}."
+						"Demogorgon has advantage on saving throws against being {@condition 目盲}, {@condition 耳聾}, {@condition 震懾}, or knocked {@condition 昏迷}."
 					]
 				}
 			],
@@ -4256,11 +4256,11 @@
 				{
 					"name": "Gaze",
 					"entries": [
-						"Demogorgon turns his magical gaze toward one creature that he can see within 120 feet of him. That target must make a {@dc 23} Wisdom saving throw. Unless the target is {@condition 无力}, it can avert its eyes to avoid the gaze and to automatically succeed on the save. If the target does so, it can't see Demogorgon until the start of his next turn. If the target looks at him in the meantime, it must immediately make the save.",
+						"Demogorgon turns his magical gaze toward one creature that he can see within 120 feet of him. That target must make a {@dc 23} Wisdom saving throw. Unless the target is {@condition 無力}, it can avert its eyes to avoid the gaze and to automatically succeed on the save. If the target does so, it can't see Demogorgon until the start of his next turn. If the target looks at him in the meantime, it must immediately make the save.",
 						"If the target fails the save, the target suffers one of the following effects of Demogorgon's choice or at random:",
-						"1. Beguiling Gaze. The target is {@condition 震慑} until the start of Demogorgon's next turn or until Demogorgon is no longer within line of sight.",
+						"1. Beguiling Gaze. The target is {@condition 震懾} until the start of Demogorgon's next turn or until Demogorgon is no longer within line of sight.",
 						"2. Hypnotic Gaze. The target is {@condition 魅惑} by Demogorgon until the start of Demogorgon's next turn. Demogorgon chooses how the {@condition 魅惑} target uses its actions, reactions, and movement. Because this gaze requires Demogorgon to focus both heads on the target, he can't use his Maddening Gaze legendary action until the start of his next turn.",
-						"3. Insanity Gaze. The target suffers the effect of the {@spell 困惑术} spell without making a saving throw. The effect lasts until the start of Demogorgon's next turn. Demogorgon doesn't need to concentrate on the spell."
+						"3. Insanity Gaze. The target suffers the effect of the {@spell 困惑術} spell without making a saving throw. The effect lasts until the start of Demogorgon's next turn. Demogorgon doesn't need to concentrate on the spell."
 					]
 				}
 			],
@@ -4388,7 +4388,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the derro has disadvantage on attack rolls, as well as on Wisdom ({@skill 察觉}) checks that rely on sight."
+						"While in sunlight, the derro has disadvantage on attack rolls, as well as on Wisdom ({@skill 察覺}) checks that rely on sight."
 					]
 				}
 			],
@@ -4503,32 +4503,32 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 酸液溅爆}",
-								"{@spell 法师之手}",
-								"{@spell 传讯术}",
-								"{@spell 魔法技俩}",
-								"{@spell 冷冻射线}"
+								"{@spell 酸液濺爆}",
+								"{@spell 法師之手}",
+								"{@spell 傳訊術}",
+								"{@spell 魔法技倆}",
+								"{@spell 冷凍射線}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 燃烧之手}",
+								"{@spell 燃燒之手}",
 								"{@spell 幻色法球}",
-								"{@spell 睡眠术}"
+								"{@spell 睡眠術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 隐形术}",
-								"{@spell 蛛行术}"
+								"{@spell 隱形術}",
+								"{@spell 蛛行術}"
 							]
 						},
 						"3": {
 							"slots": 2,
 							"spells": [
-								"{@spell 闪电束}"
+								"{@spell 閃電束}"
 							]
 						}
 					},
@@ -4545,7 +4545,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the derro savant has disadvantage on attack rolls, as well as on Wisdom ({@skill 察觉}) checks that rely on sight."
+						"While in sunlight, the derro savant has disadvantage on attack rolls, as well as on Wisdom ({@skill 察覺}) checks that rely on sight."
 					]
 				}
 			],
@@ -4607,7 +4607,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -4642,7 +4642,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -4666,12 +4666,12 @@
 						"The dhergoloth's innate spellcasting ability is Charisma (spell save {@dc 10}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 黑暗术}",
-						"{@spell 恐惧术}"
+						"{@spell 黑暗術}",
+						"{@spell 恐懼術}"
 					],
 					"daily": {
 						"3": [
-							"{@spell 睡眠术}"
+							"{@spell 睡眠術}"
 						]
 					},
 					"ability": "cha"
@@ -4768,7 +4768,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -4803,7 +4803,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -4819,7 +4819,7 @@
 				{
 					"name": "Keen Senses",
 					"entries": [
-						"The troll has advantage on Wisdom ({@skill 察觉}) checks that rely on smell or sight."
+						"The troll has advantage on Wisdom ({@skill 察覺}) checks that rely on smell or sight."
 					]
 				},
 				{
@@ -4961,13 +4961,13 @@
 						"The drow's innate spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 舞光术}"
+						"{@spell 舞光術}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 黑暗术}",
-							"{@spell 妖火术}",
-							"{@spell 浮空术} (self only)"
+							"{@spell 黑暗術}",
+							"{@spell 妖火術}",
+							"{@spell 浮空術} (self only)"
 						]
 					},
 					"ability": "cha"
@@ -4980,35 +4980,35 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 寒颤之触}",
+								"{@spell 冷顫之觸}",
 								"{@spell 魔能爆}",
-								"{@spell 法师之手}",
-								"{@spell 毒气喷洒}"
+								"{@spell 法師之手}",
+								"{@spell 毒氣噴灑}"
 							]
 						},
 						"5": {
 							"lower": 1,
 							"slots": 3,
 							"spells": [
-								"{@spell 召唤动物} (spiders only)",
-								"{@spell 疯狂冠冕}",
-								"{@spell 次元门}",
+								"{@spell 召喚動物} (spiders only)",
+								"{@spell 瘋狂冠冕}",
+								"{@spell 次元門}",
 								"{@spell 解除魔法}",
-								"{@spell 恐惧术}",
-								"{@spell 飞行术}",
-								"{@spell 巨虫术}",
-								"{@spell 怪物定身术}",
-								"{@spell 疫病虫群}",
-								"{@spell 隐形术}",
-								"{@spell 吸血鬼之触}",
-								"{@spell 蛛网术}",
-								"{@spell 巫术箭}"
+								"{@spell 恐懼術}",
+								"{@spell 飛行術}",
+								"{@spell 巨蟲術}",
+								"{@spell 怪物定身術}",
+								"{@spell 疫病蟲群}",
+								"{@spell 隱形術}",
+								"{@spell 吸血鬼之觸}",
+								"{@spell 蛛網術}",
+								"{@spell 巫術箭}"
 							]
 						}
 					},
 					"daily": {
 						"1": [
-							"{@spell 摄心目光}",
+							"{@spell 攝心目光}",
 							"{@spell 跨入乙太界}",
 							"{@spell 支配怪物}"
 						]
@@ -5038,7 +5038,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ({@skill 察觉}) checks that rely on sight."
+						"While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ({@skill 察覺}) checks that rely on sight."
 					]
 				},
 				{
@@ -5064,13 +5064,13 @@
 				{
 					"name": "Bite (Giant Spider Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) piercing damage, and the target must make a {@dc 15} Constitution saving throw, taking 26 ({@damage 4d12}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition 中毒} for 1 hour, even after regaining hit points, and is {@condition 麻痹} while {@condition 中毒} in this way."
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) piercing damage, and the target must make a {@dc 15} Constitution saving throw, taking 26 ({@damage 4d12}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition 中毒} for 1 hour, even after regaining hit points, and is {@condition 麻痺} while {@condition 中毒} in this way."
 					]
 				},
 				{
 					"name": "Web (Giant Spider Form Only Recharge 5\u20136)",
 					"entries": [
-						"{@atk rw} {@hit 8} to hit, range 30/60 ft., one target. {@h}The target is {@condition 束缚} by webbing. As an action, the {@condition 束缚} target can make a {@dc 15} Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
+						"{@atk rw} {@hit 8} to hit, range 30/60 ft., one target. {@h}The target is {@condition 束縛} by webbing. As an action, the {@condition 束縛} target can make a {@dc 15} Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
 					]
 				}
 			],
@@ -5145,7 +5145,7 @@
 				15,
 				{
 					"ac": 18,
-					"condition": "with {@spell 法师护甲}",
+					"condition": "with {@spell 法師護甲}",
 					"braces": true
 				}
 			],
@@ -5189,13 +5189,13 @@
 						"The drow's innate spellcasting ability is Charisma (spell save {@dc 18}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 舞光术}"
+						"{@spell 舞光術}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 黑暗术}",
-							"{@spell 妖火术}",
-							"{@spell 浮空术} (self only)"
+							"{@spell 黑暗術}",
+							"{@spell 妖火術}",
+							"{@spell 浮空術} (self only)"
 						]
 					},
 					"ability": "cha"
@@ -5208,56 +5208,56 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 法师之手}",
-								"{@spell 传讯术}",
-								"{@spell 毒气喷洒}",
-								"{@spell 电爪}",
-								"{@spell 冷冻射线}"
+								"{@spell 法師之手}",
+								"{@spell 傳訊術}",
+								"{@spell 毒氣噴灑}",
+								"{@spell 電爪}",
+								"{@spell 冷凍射線}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 燃烧之手}",
-								"{@spell 法师护甲}",
-								"{@spell 魔法飞弹}",
-								"{@spell 护盾术}"
+								"{@spell 燃燒之手}",
+								"{@spell 法師護甲}",
+								"{@spell 魔法飛彈}",
+								"{@spell 護盾術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 造风术}",
-								"{@spell 隐形术}",
-								"{@spell 迷踪步}",
+								"{@spell 造風術}",
+								"{@spell 隱形術}",
+								"{@spell 迷蹤步}",
 								"{@spell 粉碎音波}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 反制法术}",
-								"{@spell 火球术}",
-								"{@spell 加速术}"
+								"{@spell 反製法術}",
+								"{@spell 火球術}",
+								"{@spell 加速術}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 次元门}",
-								"{@spell 欧提路克魔封法球}"
+								"{@spell 次元門}",
+								"{@spell 歐提路克魔封法球}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell 寒冰锥}"
+								"{@spell 寒冰錐}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell 连环闪电}"
+								"{@spell 連環閃電}"
 							]
 						}
 					},
@@ -5274,7 +5274,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ({@skill 察觉}) checks that rely on sight."
+						"While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ({@skill 察覺}) checks that rely on sight."
 					]
 				},
 				{
@@ -5411,13 +5411,13 @@
 						"The drow's innate spellcasting ability is Charisma (spell save {@dc 13}). He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 舞光术}"
+						"{@spell 舞光術}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 黑暗术}",
-							"{@spell 妖火术}",
-							"{@spell 浮空术} (self only)"
+							"{@spell 黑暗術}",
+							"{@spell 妖火術}",
+							"{@spell 浮空術} (self only)"
 						]
 					},
 					"ability": "cha"
@@ -5439,7 +5439,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ({@skill 察觉}) checks that rely on sight."
+						"While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ({@skill 察覺}) checks that rely on sight."
 					]
 				}
 			],
@@ -5582,18 +5582,18 @@
 						"The drow's innate spellcasting ability is Charisma (spell save {@dc 18}). She can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 舞光术}",
-						"{@spell 侦测魔法}"
+						"{@spell 舞光術}",
+						"{@spell 偵測魔法}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 锐眼术}",
-							"{@spell 黑暗术}",
-							"{@spell 侦测思想}",
+							"{@spell 銳眼術}",
+							"{@spell 黑暗術}",
+							"{@spell 偵測思想}",
 							"{@spell 解除魔法}",
-							"{@spell 妖火术}",
-							"{@spell 浮空术} (self only)",
-							"{@spell 暗示术}"
+							"{@spell 妖火術}",
+							"{@spell 浮空術} (self only)",
+							"{@spell 暗示術}"
 						]
 					},
 					"ability": "cha"
@@ -5606,27 +5606,27 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 神导术}",
-								"{@spell 传讯术}",
-								"{@spell 毒气喷洒}",
+								"{@spell 神導術}",
+								"{@spell 傳訊術}",
+								"{@spell 毒氣噴灑}",
 								"{@spell 提升抗力}",
-								"{@spell 奇术}"
+								"{@spell 奇術}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 灾祸术}",
-								"{@spell 治疗伤势}",
-								"{@spell 造成伤势}"
+								"{@spell 災禍術}",
+								"{@spell 治療傷勢}",
+								"{@spell 造成傷勢}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 目盲/耳聋术}",
-								"{@spell 沉默术}",
-								"{@spell 灵体武器}"
+								"{@spell 目盲/耳聾術}",
+								"{@spell 沉默術}",
+								"{@spell 靈體武器}"
 							]
 						},
 						"3": {
@@ -5634,30 +5634,30 @@
 							"spells": [
 								"{@spell 降咒}",
 								"{@spell 解除魔法}",
-								"{@spell 防护法阵}"
+								"{@spell 防護法陣}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 放逐术}",
-								"{@spell 预言术}",
-								"{@spell 行动自如术}"
+								"{@spell 放逐術}",
+								"{@spell 預言術}",
+								"{@spell 行動自如術}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell 疫病术}",
-								"{@spell 反制善恶}",
-								"{@spell 疫病虫群}"
+								"{@spell 疫病術}",
+								"{@spell 反制善惡}",
+								"{@spell 疫病蟲群}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell 伤害术}",
-								"{@spell 真知术}"
+								"{@spell 傷害術}",
+								"{@spell 真知術}"
 							]
 						}
 					},
@@ -5686,7 +5686,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ({@skill 察觉}) checks that rely on sight."
+						"While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ({@skill 察覺}) checks that rely on sight."
 					]
 				}
 			],
@@ -5832,18 +5832,18 @@
 						"The drow's innate spellcasting ability is Charisma (spell save {@dc 20}). She can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 舞光术}",
-						"{@spell 侦测魔法}"
+						"{@spell 舞光術}",
+						"{@spell 偵測魔法}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 锐眼术}",
-							"{@spell 黑暗术}",
-							"{@spell 侦测思想}",
+							"{@spell 銳眼術}",
+							"{@spell 黑暗術}",
+							"{@spell 偵測思想}",
 							"{@spell 解除魔法}",
-							"{@spell 妖火术}",
-							"{@spell 浮空术} (self only)",
-							"{@spell 暗示术}"
+							"{@spell 妖火術}",
+							"{@spell 浮空術} (self only)",
+							"{@spell 暗示術}"
 						]
 					},
 					"ability": "cha"
@@ -5856,81 +5856,81 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 神导术}",
-								"{@spell 修复术}",
+								"{@spell 神導術}",
+								"{@spell 修復術}",
 								"{@spell 提升抗力}",
-								"{@spell 圣焰}",
-								"{@spell 奇术}"
+								"{@spell 聖焰}",
+								"{@spell 奇術}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 灾祸术}",
-								"{@spell 命令术}",
-								"{@spell 治疗伤势}",
-								"{@spell 光导箭}"
+								"{@spell 災禍術}",
+								"{@spell 命令術}",
+								"{@spell 治療傷勢}",
+								"{@spell 光導箭}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 人类定身术}",
-								"{@spell 沉默术}",
-								"{@spell 灵体武器}"
+								"{@spell 人類定身術}",
+								"{@spell 沉默術}",
+								"{@spell 靈體武器}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
 								"{@spell 降咒}",
-								"{@spell 锐眼术}",
+								"{@spell 銳眼術}",
 								"{@spell 解除魔法}",
-								"{@spell 灵体守卫}"
+								"{@spell 靈體守衛}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 放逐术}",
-								"{@spell 防死护咒}",
-								"{@spell 行动自如术}",
-								"{@spell 虔诚守卫}"
+								"{@spell 放逐術}",
+								"{@spell 防死護咒}",
+								"{@spell 行動自如術}",
+								"{@spell 虔誠守衛}"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
-								"{@spell 疫病术}",
-								"{@spell 焰击术}",
-								"{@spell 指使术}",
-								"{@spell 群体治疗伤势}"
+								"{@spell 疫病術}",
+								"{@spell 焰擊術}",
+								"{@spell 指使術}",
+								"{@spell 群體治療傷勢}"
 							]
 						},
 						"6": {
 							"slots": 2,
 							"spells": [
-								"{@spell 剑刃障壁}",
-								"{@spell 伤害术}"
+								"{@spell 劍刃障壁}",
+								"{@spell 傷害術}"
 							]
 						},
 						"7": {
 							"slots": 2,
 							"spells": [
-								"{@spell 圣言术}",
-								"{@spell 异界传送}"
+								"{@spell 聖言術}",
+								"{@spell 異界傳送}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell 神圣灵光}"
+								"{@spell 神聖靈光}"
 							]
 						},
 						"9": {
 							"slots": 1,
 							"spells": [
-								"{@spell 异界之门}"
+								"{@spell 異界之門}"
 							]
 						}
 					},
@@ -5959,7 +5959,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ({@skill 察觉}) checks that rely on sight."
+						"While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ({@skill 察覺}) checks that rely on sight."
 					]
 				}
 			],
@@ -5973,7 +5973,7 @@
 				{
 					"name": "Demon Staff",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage, or 8 ({@damage 1d8 + 4}) bludgeoning damage if used with two hands, plus 14 ({@damage 4d6}) psychic damage. In addition, the target must succeed on a DC 19 Wisdom saving throw or become {@condition 恐惧} of the drow for 1 minute. The {@condition 恐惧} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage, or 8 ({@damage 1d8 + 4}) bludgeoning damage if used with two hands, plus 14 ({@damage 4d6}) psychic damage. In addition, the target must succeed on a DC 19 Wisdom saving throw or become {@condition 恐懼} of the drow for 1 minute. The {@condition 恐懼} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -6121,13 +6121,13 @@
 						"The drow's innate spellcasting ability is Charisma (spell save {@dc 13}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 舞光术}"
+						"{@spell 舞光術}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 黑暗术}",
-							"{@spell 妖火术}",
-							"{@spell 浮空术} (self only)"
+							"{@spell 黑暗術}",
+							"{@spell 妖火術}",
+							"{@spell 浮空術} (self only)"
 						]
 					},
 					"ability": "cha"
@@ -6149,7 +6149,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ({@skill 察觉}) checks that rely on sight."
+						"While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ({@skill 察覺}) checks that rely on sight."
 					]
 				}
 			],
@@ -6247,7 +6247,7 @@
 				{
 					"ac": 21,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -6294,14 +6294,14 @@
 						"The duergar despot's innate spellcasting ability is Intelligence (spell save {@dc 12}). It can cast the following spells, requiring no components:"
 					],
 					"will": [
-						"{@spell 法师之手}",
-						"{@spell 次级幻象}"
+						"{@spell 法師之手}",
+						"{@spell 次級幻象}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 反制法术}",
-							"{@spell 迷踪步}",
-							"{@spell 臭云术}"
+							"{@spell 反製法術}",
+							"{@spell 迷蹤步}",
+							"{@spell 臭雲術}"
 						]
 					},
 					"ability": "int"
@@ -6323,7 +6323,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the duergar despot has disadvantage on attack rolls, as well as on Wisdom ({@skill 察觉}) checks that rely on sight."
+						"While in sunlight, the duergar despot has disadvantage on attack rolls, as well as on Wisdom ({@skill 察覺}) checks that rely on sight."
 					]
 				}
 			],
@@ -6409,7 +6409,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -6574,13 +6574,13 @@
 				{
 					"name": "Duergar Resilience",
 					"entries": [
-						"The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being {@condition 魅惑} or {@condition 麻痹}."
+						"The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being {@condition 魅惑} or {@condition 麻痺}."
 					]
 				},
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom ({@skill 察觉}) checks that rely on sight."
+						"While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom ({@skill 察覺}) checks that rely on sight."
 					]
 				}
 			],
@@ -6606,7 +6606,7 @@
 				{
 					"name": "Shared Invisibility (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The duergar magically turns {@condition 隐形} for up to 1 hour or until it attacks, it casts a spell, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is {@condition 隐形} with it. While the {@condition 隐形} duergar is mounted on a female steeder, the steeder is {@condition 隐形} as well. The invisibility ends early on the steeder immediately after it attacks."
+						"The duergar magically turns {@condition 隱形} for up to 1 hour or until it attacks, it casts a spell, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is {@condition 隱形} with it. While the {@condition 隱形} duergar is mounted on a female steeder, the steeder is {@condition 隱形} as well. The invisibility ends early on the steeder immediately after it attacks."
 					]
 				}
 			],
@@ -6712,13 +6712,13 @@
 				{
 					"name": "Duergar Resilience",
 					"entries": [
-						"The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being {@condition 魅惑} or {@condition 麻痹}."
+						"The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being {@condition 魅惑} or {@condition 麻痺}."
 					]
 				},
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom ({@skill 察觉}) checks that rely on sight."
+						"While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom ({@skill 察覺}) checks that rely on sight."
 					]
 				}
 			],
@@ -6738,7 +6738,7 @@
 				{
 					"name": "Invisibility {@recharge 4}",
 					"entries": [
-						"The duergar magically turns {@condition 隐形} for up to 1 hour or until it attacks, it casts a spell, it uses its Reduce, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is {@condition 隐形} with it."
+						"The duergar magically turns {@condition 隱形} for up to 1 hour or until it attacks, it casts a spell, it uses its Reduce, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is {@condition 隱形} with it."
 					]
 				},
 				{
@@ -6750,7 +6750,7 @@
 				{
 					"name": "Reduce (Recharges after a Short or Long Rest)",
 					"entries": [
-						"For 1 minute, the duergar magically decreases in size, along with anything it is wearing or carrying. While reduced, the duergar is Tiny, reduces its weapon damage to 1, and makes attacks, checks, and saving throws with disadvantage if they use Strength. It gains a +5 bonus to all Dexterity ({@skill 隐匿}) checks and a +5 bonus to its AC. It can also take a bonus action on each of its turns to take the Hide action."
+						"For 1 minute, the duergar magically decreases in size, along with anything it is wearing or carrying. While reduced, the duergar is Tiny, reduces its weapon damage to 1, and makes attacks, checks, and saving throws with disadvantage if they use Strength. It gains a +5 bonus to all Dexterity ({@skill 隱匿}) checks and a +5 bonus to its AC. It can also take a bonus action on each of its turns to take the Hide action."
 					]
 				}
 			],
@@ -6801,7 +6801,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -6957,13 +6957,13 @@
 						"The duergar's innate spellcasting ability is Wisdom (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
 					],
 					"will": [
-						"{@spell 剑刃防护}",
-						"{@spell 克敌机先}"
+						"{@spell 劍刃防護}",
+						"{@spell 克敵機先}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell 跳跃术}",
-							"{@spell 猎人印记}"
+							"{@spell 跳躍術}",
+							"{@spell 獵人印記}"
 						]
 					},
 					"ability": "wis"
@@ -6973,19 +6973,19 @@
 				{
 					"name": "Duergar Resilience",
 					"entries": [
-						"The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being {@condition 魅惑} or {@condition 麻痹}."
+						"The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being {@condition 魅惑} or {@condition 麻痺}."
 					]
 				},
 				{
 					"name": "Create Soulblade",
 					"entries": [
-						"As a bonus action, the duergar can create a shortsword-sized, visible blade of psionic energy. The weapon appears in the duergar's hand and vanishes if it leaves the duergar's grip, or if the duergar dies or is {@condition 无力}."
+						"As a bonus action, the duergar can create a shortsword-sized, visible blade of psionic energy. The weapon appears in the duergar's hand and vanishes if it leaves the duergar's grip, or if the duergar dies or is {@condition 無力}."
 					]
 				},
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom ({@skill 察觉}) checks that rely on sight."
+						"While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom ({@skill 察覺}) checks that rely on sight."
 					]
 				}
 			],
@@ -7005,7 +7005,7 @@
 				{
 					"name": "Invisibility (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The duergar magically turns {@condition 隐形} for up to 1 hour or until it attacks, it casts a spell, it uses its Enlarge, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is {@condition 隐形} with it."
+						"The duergar magically turns {@condition 隱形} for up to 1 hour or until it attacks, it casts a spell, it uses its Enlarge, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is {@condition 隱形} with it."
 					]
 				}
 			],
@@ -7099,7 +7099,7 @@
 				{
 					"name": "Duergar Resilience",
 					"entries": [
-						"The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being {@condition 魅惑} or {@condition 麻痹}."
+						"The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being {@condition 魅惑} or {@condition 麻痺}."
 					]
 				},
 				{
@@ -7111,7 +7111,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom ({@skill 察觉}) checks that rely on sight."
+						"While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom ({@skill 察覺}) checks that rely on sight."
 					]
 				}
 			],
@@ -7137,7 +7137,7 @@
 				{
 					"name": "Invisibility (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The duergar magically turns {@condition 隐形} for up to 1 hour or until it attacks, it casts a spell, it uses its Enlarge, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is {@condition 隐形} with it."
+						"The duergar magically turns {@condition 隱形} for up to 1 hour or until it attacks, it casts a spell, it uses its Enlarge, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is {@condition 隱形} with it."
 					]
 				}
 			],
@@ -7224,13 +7224,13 @@
 				{
 					"name": "Duergar Resilience",
 					"entries": [
-						"The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being {@condition 魅惑} or {@condition 麻痹}."
+						"The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being {@condition 魅惑} or {@condition 麻痺}."
 					]
 				},
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom ({@skill 察觉}) checks that rely on sight."
+						"While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom ({@skill 察覺}) checks that rely on sight."
 					]
 				}
 			],
@@ -7268,7 +7268,7 @@
 				{
 					"name": "Invisibility {@recharge 4}",
 					"entries": [
-						"The duergar magically turns {@condition 隐形} for up to 1 hour or until it attacks, it casts a spell, it uses its Enlarge, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is {@condition 隐形} with it."
+						"The duergar magically turns {@condition 隱形} for up to 1 hour or until it attacks, it casts a spell, it uses its Enlarge, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is {@condition 隱形} with it."
 					]
 				}
 			],
@@ -7372,13 +7372,13 @@
 				{
 					"name": "Duergar Resilience",
 					"entries": [
-						"The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being {@condition 魅惑} or {@condition 麻痹}."
+						"The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being {@condition 魅惑} or {@condition 麻痺}."
 					]
 				},
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom ({@skill 察觉}) checks that rely on sight."
+						"While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom ({@skill 察覺}) checks that rely on sight."
 					]
 				}
 			],
@@ -7404,7 +7404,7 @@
 				{
 					"name": "Invisibility (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The duergar magically turns {@condition 隐形} for up to 1 hour or until it attacks, it casts a spell, it uses its Enlarge, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is {@condition 隐形} with it."
+						"The duergar magically turns {@condition 隱形} for up to 1 hour or until it attacks, it casts a spell, it uses its Enlarge, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is {@condition 隱形} with it."
 					]
 				}
 			],
@@ -7495,7 +7495,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -7526,11 +7526,11 @@
 						"The dybbuk's innate spellcasting ability is Charisma (spell save {@dc 12}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 次元门}"
+						"{@spell 次元門}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell 恐惧术}",
+							"{@spell 恐懼術}",
 							"{@spell 魅影之力}"
 						]
 					},
@@ -7553,7 +7553,7 @@
 				{
 					"name": "Violate Corpse",
 					"entries": [
-						"The dybbuk can use a bonus action while it is possessing a corpse to make it do something unnatural, such as vomit blood, twist its head all the way around, or cause a quadruped to move as a biped. Any beast or humanoid that sees this behavior must succeed on a {@dc 12} Wisdom saving throw or become {@condition 恐惧} for 1 minute. The {@condition 恐惧} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on a saving throw against this ability is immune to Violate Corpse for 24 hours."
+						"The dybbuk can use a bonus action while it is possessing a corpse to make it do something unnatural, such as vomit blood, twist its head all the way around, or cause a quadruped to move as a biped. Any beast or humanoid that sees this behavior must succeed on a {@dc 12} Wisdom saving throw or become {@condition 恐懼} for 1 minute. The {@condition 恐懼} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on a saving throw against this ability is immune to Violate Corpse for 24 hours."
 					]
 				}
 			],
@@ -7568,7 +7568,7 @@
 					"name": "Possess Corpse {@recharge}",
 					"entries": [
 						"The dybbuk disappears into an intact corpse it can see within 5 feet of it. The corpse must be Large or smaller and be that of a beast or a humanoid. The dybbuk is now effectively the possessed creature. Its type becomes undead, though it now looks alive, and it gains a number of temporary hit points equal to the corpse's hit point maximum in life.",
-						"While possessing the corpse, the dybbuk retains its hit points, alignment, Intelligence, Wisdom, Charisma, telepathy, and immunity to poison damage, {@condition 力竭}, and being {@condition 魅惑} and {@condition 恐惧}. It otherwise uses the possessed target's game statistics, gaining access to its knowledge and proficiencies but not its class features, if any.",
+						"While possessing the corpse, the dybbuk retains its hit points, alignment, Intelligence, Wisdom, Charisma, telepathy, and immunity to poison damage, {@condition 力竭}, and being {@condition 魅惑} and {@condition 恐懼}. It otherwise uses the possessed target's game statistics, gaining access to its knowledge and proficiencies but not its class features, if any.",
 						"The possession lasts until the temporary hit points are lost (at which point the body becomes a corpse once more) or the dybbuk ends its possession using a bonus action. When the possession ends, the dybbuk reappears in an unoccupied space within 5 feet of the corpse."
 					]
 				}
@@ -7614,7 +7614,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "土元素追随者",
+			"name": "土元素追隨者",
 			"ENG_name": "Earth Elemental Myrmidon",
 			"source": "MTF",
 			"page": 202,
@@ -7651,7 +7651,7 @@
 			"wis": 10,
 			"cha": 10,
 			"senses": [
-				"黑暗视觉 60 尺"
+				"黑暗視覺 60 尺"
 			],
 			"passive": 10,
 			"resist": [
@@ -7661,7 +7661,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -7675,8 +7675,8 @@
 				"prone"
 			],
 			"languages": [
-				"土族语",
-				"一种它创造者所选择的语言"
+				"土族語",
+				"一種它創造者所選擇的語言"
 			],
 			"cr": "7",
 			"trait": [
@@ -7684,29 +7684,29 @@
 					"name": "魔法武器",
 					"ENG_name": "Magic Weapons",
 					"entries": [
-						"追随者的武器攻击视作魔法攻击。"
+						"追隨者的武器攻擊視作魔法攻擊。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "多重攻击",
+					"name": "多重攻擊",
 					"entries": [
-						"追随者进行二次巨锤攻击。"
+						"追隨者進行二次巨錘攻擊。"
 					]
 				},
 				{
-					"name": "巨锤",
+					"name": "巨錘",
 					"ENG_name": "Maul",
 					"entries": [
-						"{@atk mw} 命中{@hit 7}，触及5尺，单一目标。 {@h}11 ({@damage 2d6 + 4}) 钝击伤害。"
+						"{@atk mw} 命中{@hit 7}，觸及5尺，單一目標。 {@h}11 ({@damage 2d6 + 4}) 鈍擊傷害。"
 					]
 				},
 				{
-					"name": "雷霆猛击{@recharge}",
+					"name": "雷霆猛擊{@recharge}",
 					"ENG_name": "Thunderous Strike {@recharge}",
 					"entries": [
-						"追随者进行一次巨锤攻击。若该攻击命中，则它将额外造成 16 ({@damage 3d10})雷鸣伤害，且目标必须成功通过一次DC 14的力量豁免，否则将被击倒{@condition 伏地}。"
+						"追隨者進行一次巨錘攻擊。若該攻擊命中，則它將額外造成 16 ({@damage 3d10})雷鳴傷害，且目標必須成功通過一次DC 14的力量豁免，否則將被擊倒{@condition 伏地}。"
 					]
 				}
 			],
@@ -7802,7 +7802,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -7850,7 +7850,7 @@
 				{
 					"name": "Divine Dread",
 					"entries": [
-						"Each creature within 60 feet of the eidolon that can see it must succeed on a {@dc 15} Wisdom saving throw or be {@condition 恐惧} for 1 minute. While {@condition 恐惧} in this way, the creature must take the Dash action and move away from the eidolon by the safest available route at the start of each of its turns, unless there is nowhere for it to move, in which case the creature also becomes {@condition 震慑} until it can move again. A {@condition 恐惧} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to any eidolon's Divine Dread for the next 24 hours."
+						"Each creature within 60 feet of the eidolon that can see it must succeed on a {@dc 15} Wisdom saving throw or be {@condition 恐懼} for 1 minute. While {@condition 恐懼} in this way, the creature must take the Dash action and move away from the eidolon by the safest available route at the start of each of its turns, unless there is nowhere for it to move, in which case the creature also becomes {@condition 震懾} until it can move again. A {@condition 恐懼} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to any eidolon's Divine Dread for the next 24 hours."
 					]
 				}
 			],
@@ -7946,20 +7946,20 @@
 						"The oblex's innate spellcasting ability is Intelligence (spell save {@dc 18}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 魅惑人类} (as 5th-level spell)",
-						"{@spell 侦测思想}",
-						"{@spell 人类定身术}"
+						"{@spell 魅惑人類} (as 5th-level spell)",
+						"{@spell 偵測思想}",
+						"{@spell 人類定身術}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell 困惑术}",
-							"{@spell 次元门}",
-							"{@spell 支配人类}",
-							"{@spell 恐惧术}",
+							"{@spell 困惑術}",
+							"{@spell 次元門}",
+							"{@spell 支配人類}",
+							"{@spell 恐懼術}",
 							"{@spell 幻景}",
-							"{@spell 怪物定身术}",
-							"{@spell 催眠图纹}",
-							"{@spell 心灵遥控}"
+							"{@spell 怪物定身術}",
+							"{@spell 催眠圖紋}",
+							"{@spell 心靈遙控}"
 						]
 					},
 					"ability": "int"
@@ -8001,7 +8001,7 @@
 				{
 					"name": "Eat Memories",
 					"entries": [
-						"The oblex targets one creature it can see within 5 feet of it. The target must succeed on a {@dc 18} Wisdom saving throw or take 44 ({@damage 8d10}) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the {@spell 高等复原术} or heal spell. Constructs, oozes, plants, and undead succeed on the save automatically.",
+						"The oblex targets one creature it can see within 5 feet of it. The target must succeed on a {@dc 18} Wisdom saving throw or take 44 ({@damage 8d10}) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the {@spell 高等復原術} or heal spell. Constructs, oozes, plants, and undead succeed on the save automatically.",
 						"While memory drained, the target must roll a {@dice d4} and subtract the number rolled from any ability check or attack roll it makes. Each time the target is memory drained beyond the first, the die size increases by one: the {@dice d4} becomes a {@dice d6}, the {@dice d6} becomes a {@dice d8}, and so on until the die becomes a {@dice d20}, at which point the target becomes {@condition 昏迷} for 1 hour. The effect then ends.",
 						"When an oblex causes a target to become memory drained, the oblex learns all the languages the target knows and gains all its proficiencies, except any saving throw proficiencies."
 					]
@@ -8099,7 +8099,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -8141,7 +8141,7 @@
 				{
 					"name": "Living Storm",
 					"entries": [
-						"The tempest is always at the center of a storm {@dice 1d6 + 4} miles in diameter. Heavy precipitation in the form of either rain or snow falls there, causing the area to be lightly obscured. Heavy rain also extinguishes open flames and imposes disadvantage on Wisdom ({@skill 察觉}) checks that rely on hearing.",
+						"The tempest is always at the center of a storm {@dice 1d6 + 4} miles in diameter. Heavy precipitation in the form of either rain or snow falls there, causing the area to be lightly obscured. Heavy rain also extinguishes open flames and imposes disadvantage on Wisdom ({@skill 察覺}) checks that rely on hearing.",
 						"In addition, strong winds swirl in the area covered by the storm. The winds impose disadvantage on ranged attack rolls. The winds extinguish open flames and disperse fog."
 					]
 				},
@@ -8168,7 +8168,7 @@
 				{
 					"name": "Lightning Storm {@recharge}",
 					"entries": [
-						"All other creatures within 120 feet of the tempest must each make a {@dc 20} Dexterity saving throw, taking 27 ({@damage 6d8}) lightning damage on a failed save, or half as much damage on a successful one. If a target's saving throw fails by 5 or more, the creature is also {@condition 震慑} until the end of its next turn."
+						"All other creatures within 120 feet of the tempest must each make a {@dc 20} Dexterity saving throw, taking 27 ({@damage 6d8}) lightning damage on a failed save, or half as much damage on a successful one. If a target's saving throw fails by 5 or more, the creature is also {@condition 震懾} until the end of its next turn."
 					]
 				}
 			],
@@ -8250,7 +8250,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -8333,7 +8333,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "火元素追随者",
+			"name": "火元素追隨者",
 			"ENG_name": "Fire Elemental Myrmidon",
 			"source": "MTF",
 			"page": 203,
@@ -8370,7 +8370,7 @@
 			"wis": 10,
 			"cha": 10,
 			"senses": [
-				"黑暗视觉 60 尺"
+				"黑暗視覺 60 尺"
 			],
 			"passive": 10,
 			"resist": [
@@ -8380,7 +8380,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -8395,8 +8395,8 @@
 				"prone"
 			],
 			"languages": [
-				"火族语",
-				"一种它创造者所选择的语言"
+				"火族語",
+				"一種它創造者所選擇的語言"
 			],
 			"cr": "7",
 			"trait": [
@@ -8404,36 +8404,36 @@
 					"name": "照明",
 					"ENG_name": "Illumination",
 					"entries": [
-						"追随者会散发出20尺半径的明亮光照和40尺的微光光照。"
+						"追隨者會散發出20尺半徑的明亮光照和40尺的微光光照。"
 					]
 				},
 				{
 					"name": "魔法武器",
 					"ENG_name": "Magic Weapons",
 					"entries": [
-						"追随者的武器攻击视作魔法攻击。"
+						"追隨者的武器攻擊視作魔法攻擊。"
 					]
 				},
 				{
-					"name": "水体敏感",
+					"name": "水體敏感",
 					"ENG_name": "Water Susceptibility",
 					"entries": [
-						"追随者每在水中移动5尺，它就会受到 2 ({@damage 1d4})冷冻伤害。"
+						"追隨者每在水中移動5尺，它就會受到 2 ({@damage 1d4})冷凍傷害。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "弯刀",
+					"name": "彎刀",
 					"entries": [
-						"{@atk mw} 命中{@hit 7}，触及5尺，单一目标。 {@h}7 ({@damage 1d6 + 4}) 挥砍伤害。"
+						"{@atk mw} 命中{@hit 7}，觸及5尺，單一目標。 {@h}7 ({@damage 1d6 + 4}) 揮砍傷害。"
 					]
 				},
 				{
-					"name": "烈焰猛击{@recharge}",
+					"name": "烈焰猛擊{@recharge}",
 					"ENG_name": "Fiery Strikes {@recharge}",
 					"entries": [
-						"追随者使用多重攻击。每次命中的攻击都将额外造成 5 ({@damage 1d10})火焰伤害。"
+						"追隨者使用多重攻擊。每次命中的攻擊都將額外造成 5 ({@damage 1d10})火焰傷害。"
 					]
 				}
 			],
@@ -8493,7 +8493,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -8539,7 +8539,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -8564,22 +8564,22 @@
 						"Fraz-Urb'luu's spellcasting ability is Charisma (spell save {@dc 23}). Fraz-Urb'luu can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 变造自身} (can become Medium when changing his appearance)",
-						"{@spell 侦测魔法}",
+						"{@spell 變造自身} (can become Medium when changing his appearance)",
+						"{@spell 偵測魔法}",
 						"{@spell 解除魔法}",
 						"{@spell 魅影之力}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell 困惑术}",
-							"{@spell 托梦术}",
-							"{@spell 假象术}",
-							"{@spell 预置幻象}",
-							"{@spell 伪装术}"
+							"{@spell 困惑術}",
+							"{@spell 託夢術}",
+							"{@spell 假象術}",
+							"{@spell 預置幻象}",
+							"{@spell 偽裝術}"
 						],
 						"1e": [
-							"{@spell 海市蜃楼}",
-							"{@spell 修改记忆}",
+							"{@spell 海市蜃樓}",
+							"{@spell 修改記憶}",
 							"{@spell 投射幻影}"
 						]
 					},
@@ -8636,7 +8636,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 15 ft., one target. {@h}20 ({@damage 2d10 + 9}) bludgeoning damage. If the target is a Large or smaller creature, it is also {@condition 被擒} (escape {@dc 24}). The {@condition 被擒} target is also {@condition 束缚}. Fraz-Urb'luu can grapple only one creature with his tail at a time."
+						"{@atk mw} {@hit 16} to hit, reach 15 ft., one target. {@h}20 ({@damage 2d10 + 9}) bludgeoning damage. If the target is a Large or smaller creature, it is also {@condition 被擒} (escape {@dc 24}). The {@condition 被擒} target is also {@condition 束縛}. Fraz-Urb'luu can grapple only one creature with his tail at a time."
 					]
 				},
 				{
@@ -8704,7 +8704,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -8829,7 +8829,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -8869,7 +8869,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -8896,19 +8896,19 @@
 						"Geryon's innate spellcasting ability is Charisma (spell save {@dc 21}). He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 变造自身} (can become Medium when changing his appearance)",
-						"{@spell 侦测魔法}",
-						"{@spell 指使术}",
-						"{@spell 冰风暴}",
-						"{@spell 隐形术} (self only)",
-						"{@spell 物品定位术}",
-						"{@spell 暗示术}",
-						"{@spell 冰墙术}"
+						"{@spell 變造自身} (can become Medium when changing his appearance)",
+						"{@spell 偵測魔法}",
+						"{@spell 指使術}",
+						"{@spell 冰風暴}",
+						"{@spell 隱形術} (self only)",
+						"{@spell 物品定位術}",
+						"{@spell 暗示術}",
+						"{@spell 冰牆術}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 圣言术}",
-							"{@spell 徽记术} (pain only)"
+							"{@spell 聖言術}",
+							"{@spell 徽記術} (pain only)"
 						]
 					},
 					"ability": "cha"
@@ -8950,7 +8950,7 @@
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 15 ft., one target. {@h}23 ({@damage 4d6 + 9}) slashing damage. If the target is Large or smaller, it is {@condition 被擒} ({@dc 24}) and is {@condition 束缚} until the grapple ends. Geryon can grapple one creature at a time. If the target is already {@condition 被擒} by Geryon, the target takes an extra 27 ({@damage 6d8}) slashing damage."
+						"{@atk mw} {@hit 16} to hit, reach 15 ft., one target. {@h}23 ({@damage 4d6 + 9}) slashing damage. If the target is Large or smaller, it is {@condition 被擒} ({@dc 24}) and is {@condition 束縛} until the grapple ends. Geryon can grapple one creature at a time. If the target is already {@condition 被擒} by Geryon, the target takes an extra 27 ({@damage 6d8}) slashing damage."
 					]
 				},
 				{
@@ -8970,7 +8970,7 @@
 				{
 					"name": "Infernal Glare",
 					"entries": [
-						"Geryon targets one creature he can see within 60 feet of him. If the target can see Geryon, the target must succeed on a {@dc 23} Wisdom saving throw or become {@condition 恐惧} of Geryon until the end of its next turn."
+						"Geryon targets one creature he can see within 60 feet of him. If the target can see Geryon, the target must succeed on a {@dc 23} Wisdom saving throw or become {@condition 恐懼} of Geryon until the end of its next turn."
 					]
 				},
 				{
@@ -9236,17 +9236,17 @@
 						"The githyanki's innate spellcasting ability is Intelligence (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
 					],
 					"will": [
-						"{@spell 法师之手} (the hand is invisible)"
+						"{@spell 法師之手} (the hand is invisible)"
 					],
 					"daily": {
 						"3e": [
-							"{@spell 跳跃术}",
-							"{@spell 迷踪步}",
-							"{@spell 回避侦测} (self only)"
+							"{@spell 跳躍術}",
+							"{@spell 迷蹤步}",
+							"{@spell 迴避偵測} (self only)"
 						],
 						"1e": [
-							"{@spell 异界传送}",
-							"{@spell 心灵遥控}"
+							"{@spell 異界傳送}",
+							"{@spell 心靈遙控}"
 						]
 					},
 					"ability": "int"
@@ -9259,41 +9259,41 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 剑刃防护}",
-								"{@spell 光亮术}",
-								"{@spell 传讯术}",
-								"{@spell 克敌机先}"
+								"{@spell 劍刃防護}",
+								"{@spell 光亮術}",
+								"{@spell 傳訊術}",
+								"{@spell 克敵機先}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 脚底抹油}",
-								"{@spell 魔法飞弹}",
-								"{@spell 睡眠术}",
-								"{@spell 雷鸣波}"
+								"{@spell 腳底抹油}",
+								"{@spell 魔法飛彈}",
+								"{@spell 睡眠術}",
+								"{@spell 雷鳴波}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 朦胧术}",
-								"{@spell 隐形术}",
-								"{@spell 浮空术}"
+								"{@spell 朦朧術}",
+								"{@spell 隱形術}",
+								"{@spell 浮空術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 反制法术}",
-								"{@spell 火球术}",
-								"{@spell 加速术}"
+								"{@spell 反製法術}",
+								"{@spell 火球術}",
+								"{@spell 加速術}"
 							]
 						},
 						"4": {
 							"slots": 2,
 							"spells": [
-								"{@spell 次元门}"
+								"{@spell 次元門}"
 							]
 						}
 					},
@@ -9410,18 +9410,18 @@
 						"The githyanki's innate spellcasting ability is Intelligence (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
 					],
 					"will": [
-						"{@spell 法师之手} (the hand is invisible)"
+						"{@spell 法師之手} (the hand is invisible)"
 					],
 					"daily": {
 						"3e": [
-							"{@spell 朦胧术}",
-							"{@spell 跳跃术}",
-							"{@spell 迷踪步}",
-							"{@spell 回避侦测} (self only)"
+							"{@spell 朦朧術}",
+							"{@spell 跳躍術}",
+							"{@spell 迷蹤步}",
+							"{@spell 迴避偵測} (self only)"
 						],
 						"1e": [
-							"{@spell 异界传送}",
-							"{@spell 心灵遥控}"
+							"{@spell 異界傳送}",
+							"{@spell 心靈遙控}"
 						]
 					},
 					"ability": "int"
@@ -9431,7 +9431,7 @@
 				{
 					"name": "Rally the Troops",
 					"entries": [
-						"As a bonus action, the githyanki can magically end the {@condition 魅惑} and {@condition 恐惧} conditions on itself and each creature of its choice that it can see within 30 feet of it."
+						"As a bonus action, the githyanki can magically end the {@condition 魅惑} and {@condition 恐懼} conditions on itself and each creature of its choice that it can see within 30 feet of it."
 					]
 				}
 			],
@@ -9549,20 +9549,20 @@
 						"The githyanki's innate spellcasting ability is Intelligence (spell save {@dc 16}, {@hit 8} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
 					],
 					"will": [
-						"{@spell 法师之手} (the hand is invisible)"
+						"{@spell 法師之手} (the hand is invisible)"
 					],
 					"daily": {
 						"3e": [
-							"{@spell 跳跃术}",
-							"{@spell 浮空术} (self only)",
-							"{@spell 迷踪步}",
-							"{@spell 回避侦测} (self only)"
+							"{@spell 跳躍術}",
+							"{@spell 浮空術} (self only)",
+							"{@spell 迷蹤步}",
+							"{@spell 迴避偵測} (self only)"
 						],
 						"1e": [
-							"{@spell 毕格比之掌}",
-							"{@spell 群体暗示术}",
-							"{@spell 异界传送}",
-							"{@spell 心灵遥控}"
+							"{@spell 畢格比之掌}",
+							"{@spell 群體暗示術}",
+							"{@spell 異界傳送}",
+							"{@spell 心靈遙控}"
 						]
 					},
 					"ability": "int"
@@ -9701,21 +9701,21 @@
 						"The anarch's innate spellcasting ability is Wisdom (spell save {@dc 18}, {@hit 10} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
 					],
 					"will": [
-						"{@spell 法师之手} (the hand is invisible)"
+						"{@spell 法師之手} (the hand is invisible)"
 					],
 					"daily": {
 						"3e": [
-							"{@spell 羽落术}",
-							"{@spell 跳跃术}",
-							"{@spell 识破隐形}",
-							"{@spell 护盾术}",
-							"{@spell 心灵遥控}"
+							"{@spell 羽落術}",
+							"{@spell 跳躍術}",
+							"{@spell 識破隱形}",
+							"{@spell 護盾術}",
+							"{@spell 心靈遙控}"
 						],
 						"1e": [
-							"{@spell 法术无效结界}",
-							"{@spell 异界传送}",
-							"{@spell 传送法阵}",
-							"{@spell 力墙术}"
+							"{@spell 法術無效結界}",
+							"{@spell 異界傳送}",
+							"{@spell 傳送法陣}",
+							"{@spell 力牆術}"
 						]
 					},
 					"ability": "wis"
@@ -9846,21 +9846,21 @@
 						"The githzerai's innate spellcasting ability is Wisdom (spell save {@dc 16}, {@hit 8} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
 					],
 					"will": [
-						"{@spell 法师之手} (the hand is invisible)"
+						"{@spell 法師之手} (the hand is invisible)"
 					],
 					"daily": {
 						"3e": [
-							"{@spell 朦胧术}",
-							"{@spell 脚底抹油}",
-							"{@spell 羽落术}",
-							"{@spell 跳跃术}",
-							"{@spell 识破隐形}",
-							"{@spell 护盾术}"
+							"{@spell 朦朧術}",
+							"{@spell 腳底抹油}",
+							"{@spell 羽落術}",
+							"{@spell 跳躍術}",
+							"{@spell 識破隱形}",
+							"{@spell 護盾術}"
 						],
 						"1e": [
-							"{@spell 加速术}",
-							"{@spell 异界传送}",
-							"{@spell 传送术}"
+							"{@spell 加速術}",
+							"{@spell 異界傳送}",
+							"{@spell 傳送術}"
 						]
 					},
 					"ability": "wis"
@@ -9942,7 +9942,7 @@
 				14,
 				{
 					"ac": 17,
-					"condition": "with {@spell 法师护甲}",
+					"condition": "with {@spell 法師護甲}",
 					"braces": true
 				}
 			],
@@ -9987,16 +9987,16 @@
 					],
 					"will": [
 						"{@spell 秘法眼}",
-						"{@spell 法师护甲}",
-						"{@spell 死者交谈术}"
+						"{@spell 法師護甲}",
+						"{@spell 死者交談術}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 秘法之门}",
-							"{@spell 灾祸术}",
-							"{@spell 强迫术}",
-							"{@spell 困惑术}",
-							"{@spell 真知术}"
+							"{@spell 秘法之門}",
+							"{@spell 災禍術}",
+							"{@spell 強迫術}",
+							"{@spell 困惑術}",
+							"{@spell 真知術}"
 						]
 					},
 					"ability": "cha"
@@ -10009,9 +10009,9 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 次级幻象}",
-								"{@spell 魔法技俩}",
-								"{@spell 寒颤之触}",
+								"{@spell 次級幻象}",
+								"{@spell 魔法技倆}",
+								"{@spell 冷顫之觸}",
 								"{@spell 魔能爆}*"
 							]
 						},
@@ -10019,17 +10019,17 @@
 							"lower": 1,
 							"slots": 3,
 							"spells": [
-								"{@spell 艾嘉西斯之铠}",
-								"{@spell 枯萎术}",
-								"{@spell 黑暗术}",
-								"{@spell 托梦术}",
-								"{@spell 隐形术}",
-								"{@spell 恐惧术}",
-								"{@spell 催眠图纹}",
-								"{@spell 强效幻影}",
-								"{@spell 异界探知}",
-								"{@spell 吸血鬼之触}",
-								"{@spell 巫术箭}"
+								"{@spell 艾嘉西斯之鎧}",
+								"{@spell 枯萎術}",
+								"{@spell 黑暗術}",
+								"{@spell 託夢術}",
+								"{@spell 隱形術}",
+								"{@spell 恐懼術}",
+								"{@spell 催眠圖紋}",
+								"{@spell 強效幻影}",
+								"{@spell 異界探知}",
+								"{@spell 吸血鬼之觸}",
+								"{@spell 巫術箭}"
 							]
 						}
 					},
@@ -10071,7 +10071,7 @@
 				{
 					"name": "Misty Escape (Recharges after a Short or Long Rest)",
 					"entries": [
-						"When the gloom weaver takes damage, it turns {@condition 隐形} and teleports up to 60 feet to an unoccupied space it can see. It remains {@condition 隐形} until the start of its next turn or until it attacks or casts a spell."
+						"When the gloom weaver takes damage, it turns {@condition 隱形} and teleports up to 60 feet to an unoccupied space it can see. It remains {@condition 隱形} until the start of its next turn or until it attacks or casts a spell."
 					]
 				}
 			],
@@ -10131,7 +10131,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -10245,7 +10245,7 @@
 				{
 					"ac": 20,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -10290,7 +10290,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -10312,24 +10312,24 @@
 						"Graz'zt's spellcasting ability is Charisma (spell save {@dc 23}). He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 魅惑人类}",
-						"{@spell 疯狂冠冕}",
-						"{@spell 侦测魔法}",
+						"{@spell 魅惑人類}",
+						"{@spell 瘋狂冠冕}",
+						"{@spell 偵測魔法}",
 						"{@spell 解除魔法}",
-						"{@spell 噪音暗语}"
+						"{@spell 噪音暗語}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell 反制法术}",
-							"{@spell 黑暗术}",
-							"{@spell 支配人类}",
-							"{@spell 圣域术}",
-							"{@spell 心灵遥控}",
-							"{@spell 传送术}"
+							"{@spell 反製法術}",
+							"{@spell 黑暗術}",
+							"{@spell 支配人類}",
+							"{@spell 聖域術}",
+							"{@spell 心靈遙控}",
+							"{@spell 傳送術}"
 						],
 						"1e": [
 							"{@spell 支配怪物}",
-							"{@spell 高等隐形术}"
+							"{@spell 高等隱形術}"
 						]
 					},
 					"ability": "cha"
@@ -10467,7 +10467,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -10507,7 +10507,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -10531,19 +10531,19 @@
 						"The abishai's innate spellcasting ability is Charisma (spell save {@dc 17}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 变造自身}",
-						"{@spell 强效幻影}"
+						"{@spell 變造自身}",
+						"{@spell 強效幻影}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell 魅惑人类}",
-							"{@spell 侦测思想}",
-							"{@spell 恐惧术}"
+							"{@spell 魅惑人類}",
+							"{@spell 偵測思想}",
+							"{@spell 恐懼術}"
 						],
 						"1e": [
-							"{@spell 困惑术}",
-							"{@spell 支配人类}",
-							"{@spell 群体暗示术}"
+							"{@spell 困惑術}",
+							"{@spell 支配人類}",
+							"{@spell 群體暗示術}"
 						]
 					},
 					"ability": "cha"
@@ -10648,7 +10648,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -10683,7 +10683,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -10723,7 +10723,7 @@
 					"name": "Flesh-Crushing Stride",
 					"entries": [
 						"The hellfire engine moves up to its speed in a straight line. During this move, it can enter Large or smaller creatures' spaces. A creature whose space the hellfire engine enters must make a {@dc 18} Dexterity saving throw. On a successful save, the creature is pushed to the nearest space out of the hellfire engine's path. On a failed save, the creature falls {@condition 伏地} and takes 28 ({@damage 8d6}) bludgeoning damage.",
-						"If the hellfire engine remains in the {@condition 伏地} creature's space, the creature is also {@condition 束缚} until it's no longer in the same space as the hellfire engine. While {@condition 束缚} in this way, the creature, or another creature within 5 feet of it, can make a {@dc 18} Strength check. On a success, the creature is shunted to an unoccupied space of its choice within 5 feet of the hellfire engine and is no longer {@condition 束缚}."
+						"If the hellfire engine remains in the {@condition 伏地} creature's space, the creature is also {@condition 束縛} until it's no longer in the same space as the hellfire engine. While {@condition 束縛} in this way, the creature, or another creature within 5 feet of it, can make a {@dc 18} Strength check. On a success, the creature is shunted to an unoccupied space of its choice within 5 feet of the hellfire engine and is no longer {@condition 束縛}."
 					]
 				},
 				{
@@ -10750,7 +10750,7 @@
 								}
 							]
 						},
-						"If the chosen option kills a creature, the creature's soul rises from the River Styx as a lemure in Avernus in {@dice 1d4} hours. If the creature isn't revived before then, only a {@spell 祈愿术} spell or killing the lemure and casting true resurrection on the creature's original body can restore it to life. Constructs and devils are immune to this effect."
+						"If the chosen option kills a creature, the creature's soul rises from the River Styx as a lemure in Avernus in {@dice 1d4} hours. If the creature isn't revived before then, only a {@spell 祈願術} spell or killing the lemure and casting true resurrection on the creature's original body can restore it to life. Constructs and devils are immune to this effect."
 					]
 				}
 			],
@@ -10803,7 +10803,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -10837,7 +10837,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -10852,7 +10852,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"A howler has advantage on attack rolls against a creature if at least one of the howler's allies is within 5 feet of the creature and the ally isn't {@condition 无力}."
+						"A howler has advantage on attack rolls against a creature if at least one of the howler's allies is within 5 feet of the creature and the ally isn't {@condition 無力}."
 					]
 				}
 			],
@@ -10866,13 +10866,13 @@
 				{
 					"name": "Rending Bite",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage. If the target is {@condition 恐惧} it takes an additional 22 ({@damage 4d10}) psychic damage. This attack ignores damage resistance."
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage. If the target is {@condition 恐懼} it takes an additional 22 ({@damage 4d10}) psychic damage. This attack ignores damage resistance."
 					]
 				},
 				{
 					"name": "Mind-Breaking Howl {@recharge}",
 					"entries": [
-						"The howler emits a keening howl in a 60-foot cone. Each creature in that area that isn't {@condition 耳聋} must succeed on a {@dc 16} Wisdom saving throw or be {@condition 恐惧} until the end of the howler's next turn. While a creature is {@condition 恐惧} in this way, its speed is halved, and it is {@condition 无力}. A target that successfully saves is immune to the Mind-Breaking Howl of all howlers for the next 24 hours."
+						"The howler emits a keening howl in a 60-foot cone. Each creature in that area that isn't {@condition 耳聾} must succeed on a {@dc 16} Wisdom saving throw or be {@condition 恐懼} until the end of the howler's next turn. While a creature is {@condition 恐懼} in this way, its speed is halved, and it is {@condition 無力}. A target that successfully saves is immune to the Mind-Breaking Howl of all howlers for the next 24 hours."
 					]
 				}
 			],
@@ -10934,7 +10934,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -10973,7 +10973,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -10999,22 +10999,22 @@
 						"Hutijin's innate spellcasting ability is Charisma (spell save {@dc 22}). He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 变造自身} (can become Medium when changing his appearance)",
-						"{@spell 活化死尸}",
-						"{@spell 侦测魔法}",
-						"{@spell 怪物定身术}",
-						"{@spell 隐形术} (self only)",
-						"{@spell 闪电束}",
-						"{@spell 暗示术}",
-						"{@spell 火墙术}"
+						"{@spell 變造自身} (can become Medium when changing his appearance)",
+						"{@spell 活化死屍}",
+						"{@spell 偵測魔法}",
+						"{@spell 怪物定身術}",
+						"{@spell 隱形術} (self only)",
+						"{@spell 閃電束}",
+						"{@spell 暗示術}",
+						"{@spell 火牆術}"
 					],
 					"daily": {
 						"3": [
 							"{@spell 解除魔法}"
 						],
 						"1e": [
-							"{@spell 治愈术}",
-							"{@spell 徽记术} (hopelessness only)"
+							"{@spell 治癒術}",
+							"{@spell 徽記術} (hopelessness only)"
 						]
 					},
 					"ability": "cha"
@@ -11094,7 +11094,7 @@
 				{
 					"name": "Fearful Voice {@recharge 5}",
 					"entries": [
-						"In response to taking damage, Hutijin utters a dreadful word of power. Each creature within 30 feet of him that isn't a devil must succeed on a {@dc 22} Wisdom saving throw or become {@condition 恐惧} of him for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that saves against this effect is immune to Hutijin's Fearful Voice for 24 hours."
+						"In response to taking damage, Hutijin utters a dreadful word of power. Each creature within 30 feet of him that isn't a devil must succeed on a {@dc 22} Wisdom saving throw or become {@condition 恐懼} of him for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that saves against this effect is immune to Hutijin's Fearful Voice for 24 hours."
 					]
 				}
 			],
@@ -11220,7 +11220,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -11247,19 +11247,19 @@
 						"The hydroloth's innate spellcasting ability is Intelligence (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 黑暗术}",
-						"{@spell 侦测魔法}",
+						"{@spell 黑暗術}",
+						"{@spell 偵測魔法}",
 						"{@spell 解除魔法}",
-						"{@spell 隐形术} (self only)",
+						"{@spell 隱形術} (self only)",
 						"{@spell 水面行走}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell 操控水体}",
-							"{@spell 疯狂冠冕}",
-							"{@spell 恐惧术}",
-							"{@spell 魅影杀手}",
-							"{@spell 暗示术}"
+							"{@spell 操控水體}",
+							"{@spell 瘋狂冠冕}",
+							"{@spell 恐懼術}",
+							"{@spell 魅影殺手}",
+							"{@spell 暗示術}"
 						]
 					},
 					"ability": "int"
@@ -11319,7 +11319,7 @@
 				{
 					"name": "Steal Memory (1/Day)",
 					"entries": [
-						"The hydroloth targets one creature it can see within 60 feet of it. The target takes {@dice 4d6} psychic damage, and it must make a {@dc 16} Intelligence saving throw. On a successful save, the target becomes immune to this hydroloth's Steal Memory for 24 hours. On a failed save, the target loses all proficiencies, it can't cast spells, it can't understand language, and if its Intelligence and Charisma scores are higher than 5, they become 5. Each time the target finishes a long rest, it can repeat the saving throw, ending the effect on itself on a success. A {@spell 高等复原术} or {@spell 移除诅咒} spell cast on the target ends this effect early."
+						"The hydroloth targets one creature it can see within 60 feet of it. The target takes {@dice 4d6} psychic damage, and it must make a {@dc 16} Intelligence saving throw. On a successful save, the target becomes immune to this hydroloth's Steal Memory for 24 hours. On a failed save, the target loses all proficiencies, it can't cast spells, it can't understand language, and if its Intelligence and Charisma scores are higher than 5, they become 5. Each time the target finishes a long rest, it can repeat the saving throw, ending the effect on itself on a success. A {@spell 高等復原術} or {@spell 移除詛咒} spell cast on the target ends this effect early."
 					]
 				},
 				{
@@ -11442,7 +11442,7 @@
 						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Constitution saving throw or suffer one random poison effect:",
 						"1. Poison Damage: The target takes 13 ({@damage 3d8}) poison damage.",
 						"2. Confusion: On its next turn, the target must use its action to make one weapon attack against a random creature it can see within 30 feet of it, using whatever weapon it has in hand and moving beforehand if necessary to get in range. If it's holding no weapon, it makes an unarmed strike. If no creature is visible within 30 feet, it takes the Dash action, moving toward the nearest creature.",
-						"3. Paralysis: The target is {@condition 麻痹} until the end of its next turn."
+						"3. Paralysis: The target is {@condition 麻痺} until the end of its next turn."
 					]
 				}
 			],
@@ -11505,7 +11505,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -11547,7 +11547,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -11578,14 +11578,14 @@
 						"Juiblex's spellcasting ability is Charisma (spell save {@dc 18}, {@hit 10} to hit with spell attacks). Juiblex can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 酸液溅爆} (17th level)",
-						"{@spell 侦测魔法}"
+						"{@spell 酸液濺爆} (17th level)",
+						"{@spell 偵測魔法}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell 枯萎术}",
-							"{@spell 疫病术}",
-							"{@spell 气化形体}"
+							"{@spell 枯萎術}",
+							"{@spell 疫病術}",
+							"{@spell 氣化形體}"
 						]
 					},
 					"ability": "cha"
@@ -11730,7 +11730,7 @@
 				{
 					"ac": 20,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -11762,13 +11762,13 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"The kruthik has advantage on Wisdom ({@skill 察觉}) checks that rely on smell."
+						"The kruthik has advantage on Wisdom ({@skill 察覺}) checks that rely on smell."
 					]
 				},
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 feet of the creature and the ally isn't {@condition 无力}."
+						"The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 feet of the creature and the ally isn't {@condition 無力}."
 					]
 				},
 				{
@@ -11882,7 +11882,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -12019,7 +12019,7 @@
 				{
 					"ac": 12,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -12120,7 +12120,7 @@
 				{
 					"ac": 22,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -12164,7 +12164,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -12189,7 +12189,7 @@
 						"The marut's innate spellcasting ability is Intelligence (spell save {@dc 20}). The marut can innately cast the following spell, requiring no material components."
 					],
 					"will": [
-						"{@spell 异界传送} (self only)"
+						"{@spell 異界傳送} (self only)"
 					],
 					"ability": "int"
 				}
@@ -12230,13 +12230,13 @@
 				{
 					"name": "Blazing Edict {@recharge 5}",
 					"entries": [
-						"Arcane energy emanates from the marut's chest in a 60-foot cube. Every creature in that area takes 45 radiant damage. Each creature that takes any of this damage must succeed on a {@dc 20} Wisdom saving throw or be {@condition 震慑} until the end of the marut's next turn."
+						"Arcane energy emanates from the marut's chest in a 60-foot cube. Every creature in that area takes 45 radiant damage. Each creature that takes any of this damage must succeed on a {@dc 20} Wisdom saving throw or be {@condition 震懾} until the end of the marut's next turn."
 					]
 				},
 				{
 					"name": "Justify",
 					"entries": [
-						"The marut targets up to two creatures it can see within 60 feet of it. Each target must succeed on a {@dc 20} Charisma saving throw or be teleported to a teleportation circle in the Hall of Concordance in Sigil. A target fails automatically if it is {@condition 无力}. If either target is teleported in this way, the marut teleports with it to the circle.",
+						"The marut targets up to two creatures it can see within 60 feet of it. Each target must succeed on a {@dc 20} Charisma saving throw or be teleported to a teleportation circle in the Hall of Concordance in Sigil. A target fails automatically if it is {@condition 無力}. If either target is teleported in this way, the marut teleports with it to the circle.",
 						"After teleporting in this way, the marut can't use this action again until it finishes a short or long rest."
 					]
 				}
@@ -12293,7 +12293,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -12328,7 +12328,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -12376,7 +12376,7 @@
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) slashing damage. If the target is a creature other than an undead, it must succeed on a {@dc 12} Constitution saving throw or be {@condition 麻痹} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) slashing damage. If the target is a creature other than an undead, it must succeed on a {@dc 12} Constitution saving throw or be {@condition 麻痺} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -12553,7 +12553,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -12582,7 +12582,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -12731,7 +12731,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -12755,18 +12755,18 @@
 						"The merrenoloth's innate spellcasting ability is Intelligence (spell save {@dc 13}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 魅惑人类}",
-						"{@spell 黑暗术}",
-						"{@spell 侦测魔法}",
+						"{@spell 魅惑人類}",
+						"{@spell 黑暗術}",
+						"{@spell 偵測魔法}",
 						"{@spell 解除魔法}",
-						"{@spell 造风术}"
+						"{@spell 造風術}"
 					],
 					"daily": {
 						"1": [
-							"{@spell 操控天气}"
+							"{@spell 操控天氣}"
 						],
 						"3": [
-							"{@spell 操控水体}"
+							"{@spell 操控水體}"
 						]
 					},
 					"ability": "int"
@@ -12808,7 +12808,7 @@
 				{
 					"name": "Fear Gaze",
 					"entries": [
-						"The merrenoloth targets one creature it can see within 60 feet of it. The target must succeed on a {@dc 13} Wisdom saving throw or become {@condition 恐惧} for 1 minute. The {@condition 恐惧} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"The merrenoloth targets one creature it can see within 60 feet of it. The target must succeed on a {@dc 13} Wisdom saving throw or become {@condition 恐懼} for 1 minute. The {@condition 恐懼} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -12881,7 +12881,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -12921,7 +12921,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -12947,22 +12947,22 @@
 						"Moloch's innate spellcasting ability is Charisma (spell save {@dc 21}). He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 变造自身} (can become Medium when changing his appearance)",
-						"{@spell 活化死尸}",
-						"{@spell 燃烧之手} (as a 7th-level spell)",
-						"{@spell 困惑术}",
-						"{@spell 侦测魔法}",
-						"{@spell 飞行术}",
-						"{@spell 指使术}",
-						"{@spell 强效幻影}",
-						"{@spell 臭云术}",
-						"{@spell 暗示术}",
-						"{@spell 火墙术}"
+						"{@spell 變造自身} (can become Medium when changing his appearance)",
+						"{@spell 活化死屍}",
+						"{@spell 燃燒之手} (as a 7th-level spell)",
+						"{@spell 困惑術}",
+						"{@spell 偵測魔法}",
+						"{@spell 飛行術}",
+						"{@spell 指使術}",
+						"{@spell 強效幻影}",
+						"{@spell 臭雲術}",
+						"{@spell 暗示術}",
+						"{@spell 火牆術}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 焰击术}",
-							"{@spell 徽记术} (stunning only)"
+							"{@spell 焰擊術}",
+							"{@spell 徽記術} (stunning only)"
 						]
 					},
 					"ability": "cha"
@@ -13022,7 +13022,7 @@
 				{
 					"name": "Breath of Despair {@recharge 5}",
 					"entries": [
-						"Moloch exhales in a 30-foot cube. Each creature in that area must succeed on a {@dc 21} Wisdom saving throw or take 27 ({@damage 5d10}) psychic damage, drop whatever it is holding, and become {@condition 恐惧} for 1 minute. While {@condition 恐惧} in this way, a creature must take the Dash action and move away from Moloch by the safest available route on each of its turns, unless there is nowhere to move, in which case it needn't take the Dash action. If the creature ends its turn in a location where it doesn't have line of sight to Moloch, the creature can repeat the saving throw. On a success, the effect ends."
+						"Moloch exhales in a 30-foot cube. Each creature in that area must succeed on a {@dc 21} Wisdom saving throw or take 27 ({@damage 5d10}) psychic damage, drop whatever it is holding, and become {@condition 恐懼} for 1 minute. While {@condition 恐懼} in this way, a creature must take the Dash action and move away from Moloch by the safest available route on each of its turns, unless there is nowhere to move, in which case it needn't take the Dash action. If the creature ends its turn in a location where it doesn't have line of sight to Moloch, the creature can repeat the saving throw. On a success, the effect ends."
 					]
 				},
 				{
@@ -13120,7 +13120,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -13160,7 +13160,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -13188,16 +13188,16 @@
 					],
 					"will": [
 						"{@spell 解除魔法}",
-						"{@spell 变形术}",
-						"{@spell 心灵遥控}",
-						"{@spell 传送术}"
+						"{@spell 變形術}",
+						"{@spell 心靈遙控}",
+						"{@spell 傳送術}"
 					],
 					"daily": {
 						"1": [
-							"{@spell 禁锢术}"
+							"{@spell 禁錮術}"
 						],
 						"3": [
-							"{@spell 闪电束}"
+							"{@spell 閃電束}"
 						]
 					},
 					"ability": "cha"
@@ -13245,7 +13245,7 @@
 				{
 					"name": "Snakebite",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 15 ft., one creature. {@h}12 ({@damage 1d6 + 9}) piercing damage, and the target must succeed on a {@dc 22} Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target transforms into a {@creature manes} if this reduces its hit point maximum to 0. This transformation can be ended only by a {@spell 祈愿术} spell."
+						"{@atk mw} {@hit 16} to hit, reach 15 ft., one creature. {@h}12 ({@damage 1d6 + 9}) piercing damage, and the target must succeed on a {@dc 22} Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target transforms into a {@creature manes} if this reduces its hit point maximum to 0. This transformation can be ended only by a {@spell 祈願術} spell."
 					]
 				}
 			],
@@ -13337,7 +13337,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -13376,7 +13376,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -13401,7 +13401,7 @@
 				{
 					"name": "Devour Soul",
 					"entries": [
-						"A nabassu can eat the soul of a creature it has killed within the last hour, provided that creature is neither a construct nor an undead. The devouring requires the nabassu to be within 5 feet of the corpse for at least 10 minutes, after which it gains a number of Hit Dice ({@dice d8}s) equal to half the creature's number of Hit Dice. Roll those dice, and increase the nabassu's hit points by the numbers rolled. For every 4 Hit Dice the nabassu gains in this way, its attacks deal an extra 3 ({@dice 1d6}) damage on a hit. The nabassu retains these benefits for 6 days. A creature devoured by a nabassu can be restored to life only by a {@spell 祈愿术} spell."
+						"A nabassu can eat the soul of a creature it has killed within the last hour, provided that creature is neither a construct nor an undead. The devouring requires the nabassu to be within 5 feet of the corpse for at least 10 minutes, after which it gains a number of Hit Dice ({@dice d8}s) equal to half the creature's number of Hit Dice. Roll those dice, and increase the nabassu's hit points by the numbers rolled. For every 4 Hit Dice the nabassu gains in this way, its attacks deal an extra 3 ({@dice 1d6}) damage on a hit. The nabassu retains these benefits for 6 days. A creature devoured by a nabassu can be restored to life only by a {@spell 祈願術} spell."
 					]
 				},
 				{
@@ -13497,7 +13497,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -13543,72 +13543,72 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 寒颤之触}",
+								"{@spell 冷顫之觸}",
 								"{@spell 火焰箭}",
-								"{@spell 法师之手}",
-								"{@spell 传讯术}",
-								"{@spell 次级幻象}"
+								"{@spell 法師之手}",
+								"{@spell 傳訊術}",
+								"{@spell 次級幻象}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 魅惑人类}",
-								"{@spell 侦测魔法}",
-								"{@spell 防护善恶}",
-								"{@spell 巫术箭}"
+								"{@spell 魅惑人類}",
+								"{@spell 偵測魔法}",
+								"{@spell 防護善惡}",
+								"{@spell 巫術箭}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 人类定身术}",
-								"{@spell 衰弱射线}",
-								"{@spell 暗示术}"
+								"{@spell 人類定身術}",
+								"{@spell 衰弱射線}",
+								"{@spell 暗示術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 反制法术}",
-								"{@spell 火球术}",
-								"{@spell 飞行术}"
+								"{@spell 反製法術}",
+								"{@spell 火球術}",
+								"{@spell 飛行術}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 困惑术}",
+								"{@spell 困惑術}",
 								"{@spell 幻景}",
-								"{@spell 火墙术}"
+								"{@spell 火牆術}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell 支配人类}",
-								"{@spell 托梦术}",
-								"{@spell 指使术}"
+								"{@spell 支配人類}",
+								"{@spell 託夢術}",
+								"{@spell 指使術}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell 死亡之环}",
-								"{@spell 解离术}"
+								"{@spell 死亡之環}",
+								"{@spell 解離術}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
 								"{@spell 跨入乙太界}",
-								"{@spell 虹光喷射}"
+								"{@spell 虹光噴射}"
 							]
 						},
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell 弱智术}"
+								"{@spell 弱智術}"
 							]
 						}
 					},
@@ -13625,7 +13625,7 @@
 				{
 					"name": "Paralysis {@recharge}",
 					"entries": [
-						"As a bonus action, the nagpa forces each creature within 30 feet of it to succeed on a {@dc 20} Wisdom saving throw or be {@condition 麻痹} for 1 minute. A {@condition 麻痹} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Undead and constructs are immune to this effect."
+						"As a bonus action, the nagpa forces each creature within 30 feet of it to succeed on a {@dc 20} Wisdom saving throw or be {@condition 麻痺} for 1 minute. A {@condition 麻痺} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Undead and constructs are immune to this effect."
 					]
 				}
 			],
@@ -13743,7 +13743,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -13793,19 +13793,19 @@
 					"name": "Hellfire Lance",
 					"entries": [
 						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}11 ({@damage 1d12 + 5}) piercing damage plus 16 ({@damage 3d10}) fire damage. If this damage kills a creature, the creature's soul rises from the River Styx as a lemure in Avernus in {@dice 1d4} hours.",
-						"If the creature isn't revived before then, only a {@spell 祈愿术} spell or killing the lemure and casting true resurrection on the creature's original body can restore it to life. Constructs and devils are immune to this effect."
+						"If the creature isn't revived before then, only a {@spell 祈願術} spell or killing the lemure and casting true resurrection on the creature's original body can restore it to life. Constructs and devils are immune to this effect."
 					]
 				},
 				{
 					"name": "Infernal Command",
 					"entries": [
-						"Each ally of the narzugon within 60 feet of it can't be {@condition 魅惑} or {@condition 恐惧} until the end of the narzugon's next turn."
+						"Each ally of the narzugon within 60 feet of it can't be {@condition 魅惑} or {@condition 恐懼} until the end of the narzugon's next turn."
 					]
 				},
 				{
 					"name": "Terrifying Command",
 					"entries": [
-						"Each creature that isn't a fiend within 60 feet of the narzugon that can hear it must succeed on a {@dc 17} Charisma saving throw or become {@condition 恐惧} of it for 1 minute.",
+						"Each creature that isn't a fiend within 60 feet of the narzugon that can hear it must succeed on a {@dc 17} Charisma saving throw or become {@condition 恐懼} of it for 1 minute.",
 						"A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that makes a successful saving throw is immune to this narzugon's Terrifying Command for 24 hours."
 					]
 				},
@@ -13895,7 +13895,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -13924,7 +13924,7 @@
 				{
 					"name": "Life Eater",
 					"entries": [
-						"A creature reduced to 0 hit points from damage dealt by the nightwalker dies and can't be revived by any means short of a {@spell 祈愿术} spell."
+						"A creature reduced to 0 hit points from damage dealt by the nightwalker dies and can't be revived by any means short of a {@spell 祈願術} spell."
 					]
 				}
 			],
@@ -13944,7 +13944,7 @@
 				{
 					"name": "Finger of Doom {@recharge}",
 					"entries": [
-						"The nightwalker points at one creature it can see within 300 feet of it. The target must succeed on a {@dc 21} Wisdom saving throw or take 26 ({@damage 4d12}) necrotic damage and become {@condition 恐惧} until the end of the nightwalker's next turn. While {@condition 恐惧} in this way, the creature is also {@condition 麻痹}. If a target's saving throw is successful, the target is immune to the nightwalker's Finger of Doom for the next 24 hours."
+						"The nightwalker points at one creature it can see within 300 feet of it. The target must succeed on a {@dc 21} Wisdom saving throw or take 26 ({@damage 4d12}) necrotic damage and become {@condition 恐懼} until the end of the nightwalker's next turn. While {@condition 恐懼} in this way, the creature is also {@condition 麻痺}. If a target's saving throw is successful, the target is immune to the nightwalker's Finger of Doom for the next 24 hours."
 					]
 				}
 			],
@@ -14003,7 +14003,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -14036,7 +14036,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -14110,7 +14110,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -14679,7 +14679,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -14720,7 +14720,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -14744,17 +14744,17 @@
 						"The oinoloth's innate spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 黑暗术}",
-						"{@spell 侦测魔法}",
+						"{@spell 黑暗術}",
+						"{@spell 偵測魔法}",
 						"{@spell 解除魔法}",
-						"{@spell 隐形术} (self only)"
+						"{@spell 隱形術} (self only)"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 弱智术}",
-							"{@spell 法术无效结界}",
-							"{@spell 火墙术}",
-							"{@spell 冰墙术}"
+							"{@spell 弱智術}",
+							"{@spell 法術無效結界}",
+							"{@spell 火牆術}",
+							"{@spell 冰牆術}"
 						]
 					},
 					"ability": "cha"
@@ -14798,7 +14798,7 @@
 				{
 					"name": "Corrupted Healing {@recharge}",
 					"entries": [
-						"The oinoloth touches one willing creature within 5 feet of it. The target regains all its hit points. In addition, the oinoloth can end one disease on the target or remove one of the following conditions from it: {@condition 目盲}, {@condition 耳聋}, {@condition 麻痹}, or {@condition 中毒}. The target then gains 1 level of {@condition 力竭}, and its hit point maximum is reduced by 7 ({@dice 2d6}). This reduction can be removed only by a {@spell 祈愿术} spell or by casting {@spell 高等复原术} on the target three times within the same hour. The target dies if its hit point maximum is reduced to 0."
+						"The oinoloth touches one willing creature within 5 feet of it. The target regains all its hit points. In addition, the oinoloth can end one disease on the target or remove one of the following conditions from it: {@condition 目盲}, {@condition 耳聾}, {@condition 麻痺}, or {@condition 中毒}. The target then gains 1 level of {@condition 力竭}, and its hit point maximum is reduced by 7 ({@dice 2d6}). This reduction can be removed only by a {@spell 祈願術} spell or by casting {@spell 高等復原術} on the target three times within the same hour. The target dies if its hit point maximum is reduced to 0."
 					]
 				},
 				{
@@ -14810,7 +14810,7 @@
 				{
 					"name": "Transfixing Gaze",
 					"entries": [
-						"The oinoloth targets one creature it can see within 30 feet of it. The target must succeed on a {@dc 16} Wisdom saving throw against this magic or be {@condition 魅惑} until the end of the oinoloth's next turn. While {@condition 魅惑} in this way, the target is {@condition 束缚}. If the target's saving throw is successful, the target is immune to the oinoloth's gaze for the next 24 hours."
+						"The oinoloth targets one creature it can see within 30 feet of it. The target must succeed on a {@dc 16} Wisdom saving throw against this magic or be {@condition 魅惑} until the end of the oinoloth's next turn. While {@condition 魅惑} in this way, the target is {@condition 束縛}. If the target's saving throw is successful, the target is immune to the oinoloth's gaze for the next 24 hours."
 					]
 				}
 			],
@@ -14887,7 +14887,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				},
 				{
@@ -14936,7 +14936,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -14958,15 +14958,15 @@
 						"Orcus's spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 寒颤之触} (17th level)",
-						"{@spell 侦测魔法}"
+						"{@spell 冷顫之觸} (17th level)",
+						"{@spell 偵測魔法}"
 					],
 					"daily": {
 						"1": [
-							"{@spell 时间停止}"
+							"{@spell 時間停止}"
 						],
 						"3e": [
-							"{@spell 创造不死生物}",
+							"{@spell 創造不死生物}",
 							"{@spell 解除魔法}"
 						]
 					},
@@ -14977,7 +14977,7 @@
 				{
 					"name": "Wand of Orcus",
 					"entries": [
-						"The wand has 7 charges, and any of its properties that require a saving throw have a save DC of 18. While holding it, Orcus can use an action to cast {@spell 活化死尸}, {@spell 枯萎术}, or {@spell 死者交谈术}. Alternatively, he can expend 1 or more of the wand's charges to cast one of the following spells from it: {@spell 死亡之环} (1 charge), {@spell 死亡一指} (1 charge), or {@spell 律令死亡} (2 charges). The wand regains {@dice 1d4 + 3} charges daily at dawn.",
+						"The wand has 7 charges, and any of its properties that require a saving throw have a save DC of 18. While holding it, Orcus can use an action to cast {@spell 活化死屍}, {@spell 枯萎術}, or {@spell 死者交談術}. Alternatively, he can expend 1 or more of the wand's charges to cast one of the following spells from it: {@spell 死亡之環} (1 charge), {@spell 死亡一指} (1 charge), or {@spell 律令死亡} (2 charges). The wand regains {@dice 1d4 + 3} charges daily at dawn.",
 						"While holding the wand, Orcus can use an action to conjure undead creatures whose combined average hit points don't exceed 500. These undead magically rise up from the ground or otherwise form in unoccupied spaces within 300 feet of Orcus and obey his commands until they are destroyed or until he dismisses them as an action. Once this property of the wand is used, the property can't be used again until the next dawn."
 					]
 				},
@@ -15002,7 +15002,7 @@
 				{
 					"name": "Master of Undeath",
 					"entries": [
-						"When Orcus casts {@spell 活化死尸} or {@spell 创造不死生物}, he chooses the level at which the spell is cast, and the creatures created by the spells remain under his control indefinitely. Additionally, he can cast create undead even when it isn't night."
+						"When Orcus casts {@spell 活化死屍} or {@spell 創造不死生物}, he chooses the level at which the spell is cast, and the creatures created by the spells remain under his control indefinitely. Additionally, he can cast create undead even when it isn't night."
 					]
 				}
 			],
@@ -15148,7 +15148,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -15171,7 +15171,7 @@
 				{
 					"name": "Invisibility Field",
 					"entries": [
-						"The orthon can use a bonus action to become {@condition 隐形}. Any equipment the orthon wears or carries is also {@condition 隐形} as long as the equipment is on its person. This invisibility ends immediately after the orthon makes an attack roll or is hit by an attack."
+						"The orthon can use a bonus action to become {@condition 隱形}. Any equipment the orthon wears or carries is also {@condition 隱形} as long as the equipment is on its person. This invisibility ends immediately after the orthon makes an attack roll or is hit by an attack."
 					]
 				},
 				{
@@ -15214,12 +15214,12 @@
 								{
 									"type": "item",
 									"name": "4. Entanglement",
-									"entry": "The target must make a successful {@dc 17} Dexterity saving throw or be {@condition 束缚} for 1 hour by strands of sticky webbing. A {@condition 束缚} creature can escape by using an action to make a successful {@dc 17} Dexterity or Strength check. Any creature other than an orthon that touches the {@condition 束缚} creature must make a successful {@dc 17} Dexterity saving throw or become similarly {@condition 束缚}."
+									"entry": "The target must make a successful {@dc 17} Dexterity saving throw or be {@condition 束縛} for 1 hour by strands of sticky webbing. A {@condition 束縛} creature can escape by using an action to make a successful {@dc 17} Dexterity or Strength check. Any creature other than an orthon that touches the {@condition 束縛} creature must make a successful {@dc 17} Dexterity saving throw or become similarly {@condition 束縛}."
 								},
 								{
 									"type": "item",
 									"name": "5. Paralysis (1/Day)",
-									"entry": "The target takes 22 ({@damage 4d10}) lightning damage and must make a successful {@dc 17} Constitution saving throw or be {@condition 麻痹} for 1 minute. The {@condition 麻痹} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+									"entry": "The target takes 22 ({@damage 4d10}) lightning damage and must make a successful {@dc 17} Constitution saving throw or be {@condition 麻痺} for 1 minute. The {@condition 麻痺} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 								},
 								{
 									"type": "item",
@@ -15330,7 +15330,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -15479,7 +15479,7 @@
 				{
 					"ac": 22,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -15518,7 +15518,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -15583,13 +15583,13 @@
 				{
 					"name": "Frightful Presence",
 					"entries": [
-						"Each creature of the abishai's choice that is within 120 feet and aware of it must succeed on a {@dc 18} Wisdom saving throw or become {@condition 恐惧} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the abishai's Frightful Presence for the next 24 hours."
+						"Each creature of the abishai's choice that is within 120 feet and aware of it must succeed on a {@dc 18} Wisdom saving throw or become {@condition 恐懼} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the abishai's Frightful Presence for the next 24 hours."
 					]
 				},
 				{
 					"name": "Incite Fanaticism",
 					"entries": [
-						"The abishai chooses up to four of its allies within 60 feet of it that can see it. For 1 minute, each of those allies makes attack rolls with advantage and can't be {@condition 恐惧}."
+						"The abishai chooses up to four of its allies within 60 feet of it that can see it. For 1 minute, each of those allies makes attack rolls with advantage and can't be {@condition 恐懼}."
 					]
 				},
 				{
@@ -15654,7 +15654,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -15721,8 +15721,8 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell 异界传送} (only self and up to one incapacitated creature which is considered willing for the spell)",
-							"{@spell 蛛网术}"
+							"{@spell 異界傳送} (only self and up to one incapacitated creature which is considered willing for the spell)",
+							"{@spell 蛛網術}"
 						]
 					},
 					"ability": "wis"
@@ -15758,8 +15758,8 @@
 				{
 					"name": "Paralyzing Beam {@recharge 5}",
 					"entries": [
-						"The retriever targets one creature it can see within 60 feet of it. The target must succeed on a {@dc 18} Constitution saving throw or be {@condition 麻痹} for 1 minute. The {@condition 麻痹} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-						"If the {@condition 麻痹} creature is Medium or smaller, the retriever can pick it up as part of the retriever's move and walk or climb with it at full speed."
+						"The retriever targets one creature it can see within 60 feet of it. The target must succeed on a {@dc 18} Constitution saving throw or be {@condition 麻痺} for 1 minute. The {@condition 麻痺} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+						"If the {@condition 麻痺} creature is Medium or smaller, the retriever can pick it up as part of the retriever's move and walk or climb with it at full speed."
 					]
 				}
 			],
@@ -15828,7 +15828,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -15974,7 +15974,7 @@
 				{
 					"name": "Crippling Fear",
 					"entries": [
-						"When a creature that isn't a demon starts its turn within 30 feet of three or more rutterkins, it must make a {@dc 11} Wisdom saving throw. The creature has disadvantage on the save if it's within 30 feet of six or more rutterkins. On a successful save, the creature is immune to the Crippling Fear of all rutterkins for 24 hours. On a failed save, the creature becomes {@condition 恐惧} for 1 minute. While {@condition 恐惧} in this way, the creature is {@condition 束缚}. At the end of each of the {@condition 恐惧} creature's turns, it can repeat the saving throw, ending the effect on itself on a success."
+						"When a creature that isn't a demon starts its turn within 30 feet of three or more rutterkins, it must make a {@dc 11} Wisdom saving throw. The creature has disadvantage on the save if it's within 30 feet of six or more rutterkins. On a successful save, the creature is immune to the Crippling Fear of all rutterkins for 24 hours. On a failed save, the creature becomes {@condition 恐懼} for 1 minute. While {@condition 恐懼} in this way, the creature is {@condition 束縛}. At the end of each of the {@condition 恐懼} creature's turns, it can repeat the saving throw, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -15982,7 +15982,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}12 ({@damage 3d6 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Constitution saving throw against disease or become {@condition 中毒}. At the end of each long rest, the {@condition 中毒} target can repeat the saving throw, ending the effect on itself on a success. If the target is reduced to 0 hit points while {@condition 中毒} in this way, it dies and instantly transforms into a living {@creature abyssal wretch|mtf}. The transformation of the body can be undone only by a {@spell 祈愿术} spell. (See notes)"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}12 ({@damage 3d6 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Constitution saving throw against disease or become {@condition 中毒}. At the end of each long rest, the {@condition 中毒} target can repeat the saving throw, ending the effect on itself on a success. If the target is reduced to 0 hit points while {@condition 中毒} in this way, it dies and instantly transforms into a living {@creature abyssal wretch|mtf}. The transformation of the body can be undone only by a {@spell 祈願術} spell. (See notes)"
 					]
 				}
 			],
@@ -16038,7 +16038,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -16072,7 +16072,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -16102,7 +16102,7 @@
 				{
 					"name": "Ghostly Inhabitant",
 					"entries": [
-						"The {@creature eidolon|MTF} that enters the sacred statue remains inside it until the statue drops to 0 hit points, the eidolon uses a bonus action to move out of the statue, or the eidolon is turned or forced out by an effect such as the {@spell 反制善恶} spell. When the eidolon leaves the statue, it appears in an unoccupied space within 5 feet of the statue."
+						"The {@creature eidolon|MTF} that enters the sacred statue remains inside it until the statue drops to 0 hit points, the eidolon uses a bonus action to move out of the statue, or the eidolon is turned or forced out by an effect such as the {@spell 反制善惡} spell. When the eidolon leaves the statue, it appears in an unoccupied space within 5 feet of the statue."
 					]
 				},
 				{
@@ -16245,7 +16245,7 @@
 						{
 							"type": "list",
 							"items": [
-								"The target is {@condition 被擒} (escape {@dc 14}) if it is a Medium or smaller creature. Until the grapple ends, the target is {@condition 束缚}, and the shadow dancer can't grapple another target.",
+								"The target is {@condition 被擒} (escape {@dc 14}) if it is a Medium or smaller creature. Until the grapple ends, the target is {@condition 束縛}, and the shadow dancer can't grapple another target.",
 								"The target is knocked {@condition 伏地}.",
 								"The target takes 22 ({@damage 4d10}) necrotic damage."
 							]
@@ -16316,7 +16316,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -16361,7 +16361,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -16383,14 +16383,14 @@
 						"The sibriex's innate spellcasting ability is Charisma (spell save {@dc 21}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 魅惑人类}",
-						"{@spell 命令术}",
+						"{@spell 魅惑人類}",
+						"{@spell 命令術}",
 						"{@spell 解除魔法}",
-						"{@spell 怪物定身术}"
+						"{@spell 怪物定身術}"
 					],
 					"daily": {
 						"3": [
-							"{@spell 弱智术}"
+							"{@spell 弱智術}"
 						]
 					},
 					"ability": "cha"
@@ -16444,7 +16444,7 @@
 				{
 					"name": "Warp Creature",
 					"entries": [
-						"The sibriex targets up to three creatures it can see within 120 feet of it. Each target must make a {@dc 20} Constitution saving throw. On a successful save, a creature becomes immune to this sibriex's Warp Creature. On a failed save, the target is {@condition 中毒}, which causes it to also gain 1 level of {@condition 力竭}. While {@condition 中毒} in this way, the target must repeat the saving throw at the start of each of its turns. Three successful saves against the poison end it, and ending the poison removes any levels of {@condition 力竭} caused by it. Each failed save causes the target to suffer another level of {@condition 力竭}. Once the target reaches 6 levels of {@condition 力竭}, it dies and instantly transforms into a living {@creature abyssal wretch|mtf} under the sibriex's control. The transformation of the body can be undone only by a {@spell 祈愿术} spell."
+						"The sibriex targets up to three creatures it can see within 120 feet of it. Each target must make a {@dc 20} Constitution saving throw. On a successful save, a creature becomes immune to this sibriex's Warp Creature. On a failed save, the target is {@condition 中毒}, which causes it to also gain 1 level of {@condition 力竭}. While {@condition 中毒} in this way, the target must repeat the saving throw at the start of each of its turns. Three successful saves against the poison end it, and ending the poison removes any levels of {@condition 力竭} caused by it. Each failed save causes the target to suffer another level of {@condition 力竭}. Once the target reaches 6 levels of {@condition 力竭}, it dies and instantly transforms into a living {@creature abyssal wretch|mtf} under the sibriex's control. The transformation of the body can be undone only by a {@spell 祈願術} spell."
 					]
 				}
 			],
@@ -16513,7 +16513,7 @@
 								],
 								[
 									"31-35",
-									"The target's ears tear free from its head and scurry away; the target is {@condition 耳聋}."
+									"The target's ears tear free from its head and scurry away; the target is {@condition 耳聾}."
 								],
 								[
 									"36-40",
@@ -16565,7 +16565,7 @@
 								],
 								[
 									"96-00",
-									"The target grows another head, causing it to have advantage on saving throws against being {@condition 魅惑}, {@condition 恐惧}, or {@condition 震慑}."
+									"The target grows another head, causing it to have advantage on saving throws against being {@condition 魅惑}, {@condition 恐懼}, or {@condition 震懾}."
 								]
 							]
 						}
@@ -16669,7 +16669,7 @@
 				{
 					"name": "Fallible Invisibility",
 					"entries": [
-						"The skulk is {@condition 隐形}. This invisibility can be circumvented by three things:",
+						"The skulk is {@condition 隱形}. This invisibility can be circumvented by three things:",
 						{
 							"type": "list",
 							"items": [
@@ -16774,7 +16774,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -16804,54 +16804,54 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 寒颤之触}",
+								"{@spell 冷顫之觸}",
 								"{@spell 火焰箭}",
-								"{@spell 法师之手}",
-								"{@spell 毒气喷洒}",
-								"{@spell 冷冻射线}",
-								"{@spell 电爪}"
+								"{@spell 法師之手}",
+								"{@spell 毒氣噴灑}",
+								"{@spell 冷凍射線}",
+								"{@spell 電爪}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 魔法飞弹}",
-								"{@spell 脚底抹油}",
-								"{@spell 雷鸣波}"
+								"{@spell 魔法飛彈}",
+								"{@spell 腳底抹油}",
+								"{@spell 雷鳴波}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 镜影术}",
-								"{@spell 灼热射线}"
+								"{@spell 鏡影術}",
+								"{@spell 灼熱射線}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 恐惧术}",
-								"{@spell 加速术}"
+								"{@spell 恐懼術}",
+								"{@spell 加速術}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 次元门}",
-								"{@spell 冰风暴}"
+								"{@spell 次元門}",
+								"{@spell 冰風暴}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell 死云术}",
-								"{@spell 寒冰锥}"
+								"{@spell 死雲術}",
+								"{@spell 寒冰錐}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell 摄心目光}"
+								"{@spell 攝心目光}"
 							]
 						},
 						"7": {
@@ -17027,17 +17027,17 @@
 						"The soul monger's innate spellcasting ability is Intelligence (spell save {@dc 16}, {@hit 8} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 寒颤之触}",
-						"{@spell 毒气喷洒}"
+						"{@spell 冷顫之觸}",
+						"{@spell 毒氣噴灑}"
 					],
 					"daily": {
 						"1e": [
 							"{@spell 降咒}",
-							"{@spell 连环闪电}",
+							"{@spell 連環閃電}",
 							"{@spell 死亡一指}",
-							"{@spell 气化形体}",
-							"{@spell 魅影杀手}",
-							"{@spell 伪装术}"
+							"{@spell 氣化形體}",
+							"{@spell 魅影殺手}",
+							"{@spell 偽裝術}"
 						]
 					},
 					"ability": "int"
@@ -17147,7 +17147,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -17185,7 +17185,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -17226,7 +17226,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}19 ({@damage 3d10 + 3}) psychic damage, and the target must succeed on a {@dc 15} Wisdom saving throw or be {@condition 震慑} for 1 minute. The {@condition 震慑} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}19 ({@damage 3d10 + 3}) psychic damage, and the target must succeed on a {@dc 15} Wisdom saving throw or be {@condition 震懾} for 1 minute. The {@condition 震懾} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -17292,7 +17292,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -17324,7 +17324,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -17341,18 +17341,18 @@
 						"The eladrin's innate spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 魅惑人类}",
-						"{@spell 塔莎狂笑术}"
+						"{@spell 魅惑人類}",
+						"{@spell 塔莎狂笑術}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell 困惑术}",
-							"{@spell 注目术}",
-							"{@spell 暗示术}"
+							"{@spell 困惑術}",
+							"{@spell 注目術}",
+							"{@spell 暗示術}"
 						],
 						"1e": [
 							"{@spell 幻景}",
-							"{@spell 奥图狂舞术}"
+							"{@spell 奧圖狂舞術}"
 						]
 					},
 					"ability": "cha"
@@ -17536,7 +17536,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -17571,7 +17571,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -17595,7 +17595,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The hulk makes two slam attacks. If both attacks hit the same target, the target also takes 9 ({@damage 2d8}) psychic damage and must succeed on a {@dc 17} Constitution saving throw or be {@condition 震慑} until the end of the target's next turn."
+						"The hulk makes two slam attacks. If both attacks hit the same target, the target also takes 9 ({@damage 2d8}) psychic damage and must succeed on a {@dc 17} Constitution saving throw or be {@condition 震懾} until the end of the target's next turn."
 					]
 				},
 				{
@@ -17658,7 +17658,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -17695,7 +17695,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -17722,11 +17722,11 @@
 					],
 					"will": [
 						"{@spell 魔能爆}*",
-						"{@spell 次级幻象}"
+						"{@spell 次級幻象}"
 					],
 					"daily": {
 						"1": [
-							"{@spell 死亡之环}"
+							"{@spell 死亡之環}"
 						],
 						"3": [
 							"{@spell 支配怪物}"
@@ -17756,7 +17756,7 @@
 				{
 					"name": "Plague of Worms {@recharge}",
 					"entries": [
-						"Each creature other than a star spawn within 10 feet of the larva mage must make a {@dc 19} Dexterity saving throw. On a failure the target takes 22 ({@damage 5d8}) necrotic damage and is {@condition 目盲} and {@condition 束缚} by masses of swarming worms. The affected creature takes 22 ({@damage 5d8}) necrotic damage at the start of each of the larva mage's turns. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"Each creature other than a star spawn within 10 feet of the larva mage must make a {@dc 19} Dexterity saving throw. On a failure the target takes 22 ({@damage 5d8}) necrotic damage and is {@condition 目盲} and {@condition 束縛} by masses of swarming worms. The affected creature takes 22 ({@damage 5d8}) necrotic damage at the start of each of the larva mage's turns. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -17784,7 +17784,7 @@
 				{
 					"name": "Feed (Costs 3 Actions)",
 					"entries": [
-						"Each creature {@condition 束缚} by the larva mage's Plague of Worms takes 13 ({@damage 3d8}) necrotic damage, and the larva mage gains 6 temporary hit points."
+						"Each creature {@condition 束縛} by the larva mage's Plague of Worms takes 13 ({@damage 3d8}) necrotic damage, and the larva mage gains 6 temporary hit points."
 					]
 				}
 			],
@@ -17962,7 +17962,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -18000,7 +18000,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -18035,7 +18035,7 @@
 				{
 					"name": "Comet Staff",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d6 + 6}) bludgeoning damage plus 18 ({@damage 4d8}) psychic damage, or 10 ({@damage 1d8 + 6}) bludgeoning damage plus 18 ({@damage 4d8}) psychic damage, if used with two hands, and the target must succeed on a {@dc 19} Constitution saving throw or be {@condition 无力} until the end of its next turn."
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d6 + 6}) bludgeoning damage plus 18 ({@damage 4d8}) psychic damage, or 10 ({@damage 1d8 + 6}) bludgeoning damage plus 18 ({@damage 4d8}) psychic damage, if used with two hands, and the target must succeed on a {@dc 19} Constitution saving throw or be {@condition 無力} until the end of its next turn."
 					]
 				},
 				{
@@ -18107,7 +18107,7 @@
 				{
 					"ac": 20,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -18149,7 +18149,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -18174,8 +18174,8 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell 次元门} (self only)",
-							"{@spell 异界传送} (self only)"
+							"{@spell 次元門} (self only)",
+							"{@spell 異界傳送} (self only)"
 						]
 					},
 					"ability": "wis"
@@ -18217,7 +18217,7 @@
 				{
 					"name": "Stunning Roar {@recharge 5}",
 					"entries": [
-						"The steel predator emits a roar in a 60-foot cone. Each creature in that area must make a {@dc 19} Constitution saving throw. On a failed save, a creature takes 27 ({@damage 5d10}) thunder damage, drops everything it's holding, and is {@condition 震慑} for 1 minute. On a successful save, a creature takes half as much damage. The {@condition 震慑} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"The steel predator emits a roar in a 60-foot cone. Each creature in that area must make a {@dc 19} Constitution saving throw. On a failed save, a creature takes 27 ({@damage 5d10}) thunder damage, drops everything it's holding, and is {@condition 震懾} for 1 minute. On a successful save, a creature takes half as much damage. The {@condition 震懾} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -18273,7 +18273,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -18326,7 +18326,7 @@
 				{
 					"name": "Petrifying Claws",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) slashing damage, or 14 ({@damage 2d10 + 3}) slashing damage if the attack roll had advantage. If the target is a creature, it must succeed on a {@dc 12} Constitution saving throw, or it begins to turn to stone and is {@condition 束缚} until the end of its next turn, when it must repeat the saving throw. The effect ends if the second save is successful; otherwise the target is {@condition 石化} for 24 hours."
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) slashing damage, or 14 ({@damage 2d10 + 3}) slashing damage if the attack roll had advantage. If the target is a creature, it must succeed on a {@dc 12} Constitution saving throw, or it begins to turn to stone and is {@condition 束縛} until the end of its next turn, when it must repeat the saving throw. The effect ends if the second save is successful; otherwise the target is {@condition 石化} for 24 hours."
 					]
 				}
 			],
@@ -18372,7 +18372,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -18499,7 +18499,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -18531,7 +18531,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -18545,7 +18545,7 @@
 				{
 					"name": "Fearsome Presence",
 					"entries": [
-						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a {@dc 16} Wisdom saving throw. On a failed save, the creature becomes {@condition 恐惧} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to any eladrin's Fearsome Presence for the next 24 hours."
+						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a {@dc 16} Wisdom saving throw. On a failed save, the creature becomes {@condition 恐懼} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to any eladrin's Fearsome Presence for the next 24 hours."
 					]
 				},
 				{
@@ -18687,7 +18687,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -18833,7 +18833,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -18913,7 +18913,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -18956,7 +18956,7 @@
 				{
 					"name": "Two Heads",
 					"entries": [
-						"The Angry has advantage on Wisdom ({@skill 察觉}) checks and on saving throws against being {@condition 目盲}, {@condition 魅惑}, {@condition 耳聋}, {@condition 恐惧}, {@condition 震慑}, or knocked {@condition 昏迷}."
+						"The Angry has advantage on Wisdom ({@skill 察覺}) checks and on saving throws against being {@condition 目盲}, {@condition 魅惑}, {@condition 耳聾}, {@condition 恐懼}, {@condition 震懾}, or knocked {@condition 昏迷}."
 					]
 				},
 				{
@@ -19023,7 +19023,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -19083,7 +19083,7 @@
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}18 ({@damage 4d6 + 4}) slashing damage. If the target is Medium or smaller, it is {@condition 被擒} (escape {@dc 16}) and is {@condition 束缚} until the grapple ends. While grappling a creature, the Hungry can't attack with its claws."
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}18 ({@damage 4d6 + 4}) slashing damage. If the target is Medium or smaller, it is {@condition 被擒} (escape {@dc 16}) and is {@condition 束縛} until the grapple ends. While grappling a creature, the Hungry can't attack with its claws."
 					]
 				}
 			],
@@ -19136,7 +19136,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -19256,7 +19256,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -19311,7 +19311,7 @@
 				{
 					"name": "Embrace",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}25 ({@damage 4d10 + 3}) piercing damage, and the target is {@condition 被擒} (escape {@dc 14}) if it is a Medium or smaller creature. Until the grapple ends, the target is {@condition 恐惧}, and it takes 27 ({@damage 6d8}) psychic damage at the end of each of its turns. The Lost can embrace only one creature at a time."
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}25 ({@damage 4d10 + 3}) piercing damage, and the target is {@condition 被擒} (escape {@dc 14}) if it is a Medium or smaller creature. Until the grapple ends, the target is {@condition 恐懼}, and it takes 27 ({@damage 6d8}) psychic damage at the end of each of its turns. The Lost can embrace only one creature at a time."
 					]
 				}
 			],
@@ -19374,7 +19374,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -19411,7 +19411,7 @@
 				{
 					"name": "Wretched Pack Tactics",
 					"entries": [
-						"The Wretched has advantage on an attack roll against a creature if at least one of the Wretched's allies is within 5 feet of the creature and the ally isn't {@condition 无力}. The Wretched otherwise has disadvantage on attack rolls."
+						"The Wretched has advantage on an attack roll against a creature if at least one of the Wretched's allies is within 5 feet of the creature and the ally isn't {@condition 無力}. The Wretched otherwise has disadvantage on attack rolls."
 					]
 				}
 			],
@@ -19467,7 +19467,7 @@
 				{
 					"ac": 20,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -19509,7 +19509,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -19535,24 +19535,24 @@
 						"Titivilus's innate spellcasting ability is Charisma (spell save {@dc 21}). He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 变造自身}",
-						"{@spell 活化死尸}",
+						"{@spell 變造自身}",
+						"{@spell 活化死屍}",
 						"{@spell 降咒}",
-						"{@spell 困惑术}",
-						"{@spell 强效幻影}",
-						"{@spell 修改记忆}",
-						"{@spell 回避侦测}",
-						"{@spell 短讯术}",
-						"{@spell 暗示术}"
+						"{@spell 困惑術}",
+						"{@spell 強效幻影}",
+						"{@spell 修改記憶}",
+						"{@spell 迴避偵測}",
+						"{@spell 簡訊術}",
+						"{@spell 暗示術}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell 高等隐形术} (self only)",
-							"{@spell 假象术}"
+							"{@spell 高等隱形術} (self only)",
+							"{@spell 假象術}"
 						],
 						"1e": [
-							"{@spell 弱智术}",
-							"{@spell 徽记术} (discord or sleep only)"
+							"{@spell 弱智術}",
+							"{@spell 徽記術} (discord or sleep only)"
 						]
 					},
 					"ability": "cha"
@@ -19606,7 +19606,7 @@
 				{
 					"name": "Frightful Word",
 					"entries": [
-						"Titivilus targets one creature he can see within 10 feet of him. The target must succeed on a {@dc 21} Wisdom saving throw or become {@condition 恐惧} for 1 minute. While {@condition 恐惧} in this way, the target must take the Dash action and move away from Titivilus by the safest available route on each of its turns, unless there is nowhere to move, in which case it needn't take the Dash action. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"Titivilus targets one creature he can see within 10 feet of him. The target must succeed on a {@dc 21} Wisdom saving throw or become {@condition 恐懼} for 1 minute. While {@condition 恐懼} in this way, the target must take the Dash action and move away from Titivilus by the safest available route on each of its turns, unless there is nowhere to move, in which case it needn't take the Dash action. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -19716,7 +19716,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -19830,7 +19830,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -19867,25 +19867,25 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 德鲁伊伎俩}",
-								"{@spell 神导术}",
-								"{@spell 燃火术}"
+								"{@spell 德魯伊伎倆}",
+								"{@spell 神導術}",
+								"{@spell 燃火術}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 化兽为友}",
-								"{@spell 治疗伤势}",
-								"{@spell 动物交谈术}",
-								"{@spell 雷鸣波}"
+								"{@spell 化獸為友}",
+								"{@spell 治療傷勢}",
+								"{@spell 動物交談術}",
+								"{@spell 雷鳴波}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 黑暗视觉}",
-								"{@spell 人类定身术}"
+								"{@spell 黑暗視覺}",
+								"{@spell 人類定身術}"
 							]
 						}
 					},
@@ -20008,7 +20008,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -20108,7 +20108,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -20146,7 +20146,7 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"The troll has advantage on Wisdom ({@skill 察觉}) checks that rely on smell."
+						"The troll has advantage on Wisdom ({@skill 察覺}) checks that rely on smell."
 					]
 				},
 				{
@@ -20245,7 +20245,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -20281,7 +20281,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -20392,7 +20392,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "水元素追随者",
+			"name": "水元素追隨者",
 			"ENG_name": "Water Elemental Myrmidon",
 			"source": "MTF",
 			"page": 203,
@@ -20433,7 +20433,7 @@
 			"wis": 10,
 			"cha": 10,
 			"senses": [
-				"黑暗视觉 60 尺"
+				"黑暗視覺 60 尺"
 			],
 			"passive": 10,
 			"resist": [
@@ -20444,7 +20444,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -20458,36 +20458,36 @@
 				"prone"
 			],
 			"languages": [
-				"水族语",
-				"一种它创造者所选择的语言"
+				"水族語",
+				"一種它創造者所選擇的語言"
 			],
 			"cr": "7",
 			"trait": [
 				{
 					"name": "魔法武器",
 					"entries": [
-						"追随者的武器攻击视作魔法攻击。"
+						"追隨者的武器攻擊視作魔法攻擊。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "多重攻击",
+					"name": "多重攻擊",
 					"entries": [
-						"追随者进行三次三叉戟攻击。"
+						"追隨者進行三次三叉戟攻擊。"
 					]
 				},
 				{
 					"name": "三叉戟",
 					"entries": [
-						"{@atk mw} 命中{@hit 7}，触及5尺，单一目标。 {@h}7 ({@damage 1d6 + 4}) 穿刺伤害。"
+						"{@atk mw} 命中{@hit 7}，觸及5尺，單一目標。 {@h}7 ({@damage 1d6 + 4}) 穿刺傷害。"
 					]
 				},
 				{
-					"name": "寒冻猛击{@recharge}",
+					"name": "寒凍猛擊{@recharge}",
 					"ENG_name": "Freezing Strikes {@recharge}",
 					"entries": [
-						"追随者使用多重攻击。每次命中的攻击都将额外造成 5 ({@damage 1d10})冷冻伤害，且目标的速度将被降低10尺，持续直到该追随者的下个回合结束。"
+						"追隨者使用多重攻擊。每次命中的攻擊都將額外造成 5 ({@damage 1d10})冷凍傷害，且目標的速度將被降低10尺，持續直到該追隨者的下個回合結束。"
 					]
 				}
 			],
@@ -20544,7 +20544,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -20577,7 +20577,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -20710,7 +20710,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -20739,7 +20739,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -20756,13 +20756,13 @@
 						"The eladrin's innate spellcasting ability is Intelligence (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 云雾术}",
-						"{@spell 造风术}"
+						"{@spell 雲霧術}",
+						"{@spell 造風術}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell 寒冰锥}",
-							"{@spell 冰风暴}"
+							"{@spell 寒冰錐}",
+							"{@spell 冰風暴}"
 						]
 					},
 					"ability": "int"
@@ -20866,7 +20866,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -20910,7 +20910,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -20934,15 +20934,15 @@
 						"The yagnoloth's innate spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 黑暗术}",
-						"{@spell 侦测魔法}",
+						"{@spell 黑暗術}",
+						"{@spell 偵測魔法}",
 						"{@spell 解除魔法}",
-						"{@spell 隐形术} (self only)",
-						"{@spell 暗示术}"
+						"{@spell 隱形術} (self only)",
+						"{@spell 暗示術}"
 					],
 					"daily": {
 						"3": [
-							"{@spell 闪电束}"
+							"{@spell 閃電束}"
 						]
 					},
 					"ability": "cha"
@@ -20978,13 +20978,13 @@
 				{
 					"name": "Massive Arm",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 15 ft., one target. {@h}23 ({@damage 3d12 + 4}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 16} Constitution saving throw or is {@condition 震慑} until the end of the yagnoloth's next turn."
+						"{@atk mw} {@hit 8} to hit, reach 15 ft., one target. {@h}23 ({@damage 3d12 + 4}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 16} Constitution saving throw or is {@condition 震懾} until the end of the yagnoloth's next turn."
 					]
 				},
 				{
 					"name": "Life Leech",
 					"entries": [
-						"The yagnoloth touches one {@condition 无力} creature within 15 feet of it. The target takes 36 ({@damage 7d8 + 4}) necrotic damage, and the yagnoloth gains temporary hit points equal to half the damage dealt. The target must succeed on a {@dc 16} Constitution saving throw, or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest, and the target dies if its hit point maximum is reduced to 0."
+						"The yagnoloth touches one {@condition 無力} creature within 15 feet of it. The target takes 36 ({@damage 7d8 + 4}) necrotic damage, and the yagnoloth gains temporary hit points equal to half the damage dealt. The target must succeed on a {@dc 16} Constitution saving throw, or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest, and the target dies if its hit point maximum is reduced to 0."
 					]
 				},
 				{
@@ -21075,7 +21075,7 @@
 				{
 					"ac": 20,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -21118,7 +21118,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -21140,16 +21140,16 @@
 						"Yeenoghu's spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 侦测魔法}"
+						"{@spell 偵測魔法}"
 					],
 					"daily": {
 						"1": [
-							"{@spell 传送术}"
+							"{@spell 傳送術}"
 						],
 						"3e": [
 							"{@spell 解除魔法}",
-							"{@spell 恐惧术}",
-							"{@spell 隐形术}"
+							"{@spell 恐懼術}",
+							"{@spell 隱形術}"
 						]
 					},
 					"ability": "cha"
@@ -21187,8 +21187,8 @@
 					"entries": [
 						"Yeenoghu makes three flail attacks. If an attack hits, he can cause it to create an additional effect of his choice or at random (each effect can be used only once per Multiattack):",
 						"1. The attack deals an extra 13 ({@damage 2d12}) bludgeoning damage.",
-						"2. The target must succeed on a {@dc 17} Constitution saving throw or be {@condition 麻痹} until the start of Yeenoghu's next turn.",
-						"3. The target must succeed on a {@dc 17} Wisdom saving throw or be affected by the {@spell 困惑术} spell until the start of Yeenoghu's next turn."
+						"2. The target must succeed on a {@dc 17} Constitution saving throw or be {@condition 麻痺} until the start of Yeenoghu's next turn.",
+						"3. The target must succeed on a {@dc 17} Wisdom saving throw or be affected by the {@spell 困惑術} spell until the start of Yeenoghu's next turn."
 					]
 				},
 				{
@@ -21283,7 +21283,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -21315,13 +21315,13 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"The kruthik has advantage on Wisdom ({@skill 察觉}) checks that rely on smell."
+						"The kruthik has advantage on Wisdom ({@skill 察覺}) checks that rely on smell."
 					]
 				},
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 feet of the creature and the ally isn't {@condition 无力}."
+						"The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 feet of the creature and the ally isn't {@condition 無力}."
 					]
 				},
 				{
@@ -21382,7 +21382,7 @@
 				{
 					"ac": 21,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -21419,7 +21419,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -21442,7 +21442,7 @@
 					"name": "Earth-Shaking Movement",
 					"entries": [
 						"As a bonus action after moving at least 10 feet on the ground, the zaratan can send a shock wave through the ground in a 120-foot-radius circle centered on itself. That area becomes difficult terrain for 1 minute. Each creature on the ground that is concentrating must succeed on a {@dc 25} Constitution saving throw or the creature's concentration is broken.",
-						"The shock wave deals 100 thunder damage to all structures in contact with the ground in the area. If a creature is near a structure that collapses, the creature might be buried; a creature within half the distance of the structure's height must make a {@dc 25} Dexterity saving throw. On a failed save, the creature takes 17 ({@damage 5d6}) bludgeoning damage, is knocked {@condition 伏地}, and is trapped in the rubble. A trapped creature is {@condition 束缚}, requiring a successful {@dc 20} Strength (Athletics) check as an action to escape. Another creature within 5 feet of the buried creature can use its action to clear rubble and grant advantage on the check. If three creatures use their actions in this way, the check is an automatic success. On a successful save, the creature takes half as much damage and doesn't fall {@condition 伏地} or become trapped."
+						"The shock wave deals 100 thunder damage to all structures in contact with the ground in the area. If a creature is near a structure that collapses, the creature might be buried; a creature within half the distance of the structure's height must make a {@dc 25} Dexterity saving throw. On a failed save, the creature takes 17 ({@damage 5d6}) bludgeoning damage, is knocked {@condition 伏地}, and is trapped in the rubble. A trapped creature is {@condition 束縛}, requiring a successful {@dc 20} Strength (Athletics) check as an action to escape. Another creature within 5 feet of the buried creature can use its action to clear rubble and grant advantage on the check. If three creatures use their actions in this way, the check is an automatic success. On a successful save, the creature takes half as much damage and doesn't fall {@condition 伏地} or become trapped."
 					]
 				},
 				{
@@ -21518,7 +21518,7 @@
 				{
 					"name": "Retract (Costs 2 Actions)",
 					"entries": [
-						"The zaratan retracts into its shell. Until it takes its Emerge action, it has resistance to all damage, and it is {@condition 束缚}. The next time it takes a legendary action, it must take its Revitalize or Emerge action."
+						"The zaratan retracts into its shell. Until it takes its Emerge action, it has resistance to all damage, and it is {@condition 束縛}. The next time it takes a legendary action, it must take its Revitalize or Emerge action."
 					]
 				},
 				{
@@ -21597,7 +21597,7 @@
 				{
 					"ac": 21,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -21638,7 +21638,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非银制武器且非魔法攻击所造成的",
+					"preNote": "非銀製武器且非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -21664,16 +21664,16 @@
 						"Zariel's innate spellcasting ability is Charisma (spell save {@dc 26}). She can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 变造自身} (can become Medium when changing her appearance)",
-						"{@spell 侦测善恶}",
-						"{@spell 火球术}",
-						"{@spell 隐形术} (self only)",
-						"{@spell 火墙术}"
+						"{@spell 變造自身} (can become Medium when changing her appearance)",
+						"{@spell 偵測善惡}",
+						"{@spell 火球術}",
+						"{@spell 隱形術} (self only)",
+						"{@spell 火牆術}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell 剑刃障壁}",
-							"{@spell 反制善恶}",
+							"{@spell 劍刃障壁}",
+							"{@spell 反制善惡}",
 							"{@spell 死亡一指}"
 						]
 					},
@@ -21734,7 +21734,7 @@
 				{
 					"name": "Horrid Touch {@recharge 5}",
 					"entries": [
-						"Zariel touches one creature within 10 feet of her. The target must succeed on a DC 26 Constitution saving throw or take 44 ({@damage 8d10}) necrotic damage and be {@condition 中毒} for 1 minute. While {@condition 中毒} in this way, the target is also {@condition 目盲} and {@condition 耳聋}. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"Zariel touches one creature within 10 feet of her. The target must succeed on a DC 26 Constitution saving throw or take 44 ({@damage 8d10}) necrotic damage and be {@condition 中毒} for 1 minute. While {@condition 中毒} in this way, the target is also {@condition 目盲} and {@condition 耳聾}. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -21836,7 +21836,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -21878,7 +21878,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -21900,20 +21900,20 @@
 						"Zuggtmoy's spellcasting ability is Charisma (spell save {@dc 22}). She can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 侦测魔法}",
-						"{@spell 动植物定位术}",
-						"{@spell 致病射线}"
+						"{@spell 偵測魔法}",
+						"{@spell 動植物定位術}",
+						"{@spell 致病射線}"
 					],
 					"daily": {
 						"3e": [
 							"{@spell 解除魔法}",
-							"{@spell 诱捕打击}",
-							"{@spell 纠缠术}",
-							"{@spell 植物滋长}"
+							"{@spell 誘捕打擊}",
+							"{@spell 糾纏術}",
+							"{@spell 植物滋長}"
 						],
 						"1e": [
 							"{@spell 跨入乙太界}",
-							"{@spell 传送术}"
+							"{@spell 傳送術}"
 						]
 					},
 					"ability": "cha"

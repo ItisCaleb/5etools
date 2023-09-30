@@ -426,7 +426,7 @@
 				{
 					"name": "Prone Deficiency",
 					"entries": [
-						"If the Demon Grinder rolls over and falls {@condition 伏地}, it can't right itself and is {@condition 无力} until flipped upright."
+						"If the Demon Grinder rolls over and falls {@condition 伏地}, it can't right itself and is {@condition 無力} until flipped upright."
 					]
 				}
 			],
@@ -510,7 +510,7 @@
 				{
 					"name": "Prone Deficiency",
 					"entries": [
-						"If the Devil's Ride falls {@condition 伏地}, it can't right itself and is {@condition 无力} until pulled upright."
+						"If the Devil's Ride falls {@condition 伏地}, it can't right itself and is {@condition 無力} until pulled upright."
 					]
 				},
 				{
@@ -1343,7 +1343,7 @@
 								{
 									"type": "item",
 									"name": "Paralyzing Ray.",
-									"entry": "The targeted creature must succeed on a DC 15 Constitution saving throw or be {@condition 麻痹} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+									"entry": "The targeted creature must succeed on a DC 15 Constitution saving throw or be {@condition 麻痺} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 								}
 							]
 						}
@@ -1841,7 +1841,7 @@
 				{
 					"name": "Prone Deficiency",
 					"entries": [
-						"If the Scavenger rolls over and falls {@condition 伏地}, it can't right itself and is {@condition 无力} until flipped upright."
+						"If the Scavenger rolls over and falls {@condition 伏地}, it can't right itself and is {@condition 無力} until flipped upright."
 					]
 				}
 			],
@@ -1855,7 +1855,7 @@
 				{
 					"name": "Grappling Claw (Requires 1 Crew and Grants Half Cover)",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 15 ft., one target. {@h}The target is {@condition 被擒} (escape DC 12). If the target is a creature, it is {@condition 束缚} until the grapple ends.The grappling claw can grapple only one target at a time, and the claw's operator can use a bonus action to make the claw release whatever it's holding."
+						"{@atk mw} {@hit 10} to hit, reach 15 ft., one target. {@h}The target is {@condition 被擒} (escape DC 12). If the target is a creature, it is {@condition 束縛} until the grapple ends.The grappling claw can grapple only one target at a time, and the claw's operator can use a bonus action to make the claw release whatever it's holding."
 					]
 				},
 				{
@@ -1883,7 +1883,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -1995,7 +1995,7 @@
 				{
 					"name": "Prone Deficiency",
 					"entries": [
-						"If the Tormentor rolls over and falls {@condition 伏地}, it can't right itself and is {@condition 无力} until flipped upright."
+						"If the Tormentor rolls over and falls {@condition 伏地}, it can't right itself and is {@condition 無力} until flipped upright."
 					]
 				},
 				{
@@ -2405,7 +2405,7 @@
 				"SHP:H"
 			],
 			"entries": [
-				"Crafted with materials harvested from the Shadowfell, this upgrade grants a ship an aura of dread. As an action, the ship can create a pulse of horrific energy. Every creature that is an enemy of the ship who is on board or within 210 feet of it must make DC 14 Wisdom saving throw. On a failed save, a creature is {@condition 恐惧} of the ship for 1 minute. On a successful save, the creature is immune to this ability for 24 hours. Once this ability is used, it can't be used again until {@dice 1d4} hours have passed."
+				"Crafted with materials harvested from the Shadowfell, this upgrade grants a ship an aura of dread. As an action, the ship can create a pulse of horrific energy. Every creature that is an enemy of the ship who is on board or within 210 feet of it must make DC 14 Wisdom saving throw. On a failed save, a creature is {@condition 恐懼} of the ship for 1 minute. On a successful save, the creature is immune to this ability for 24 hours. Once this ability is used, it can't be used again until {@dice 1d4} hours have passed."
 			]
 		},
 		{
@@ -2638,7 +2638,7 @@
 				"SHP:M"
 			],
 			"entries": [
-				"Woven from the energy of captured wraiths and bound with the spirit of a banshee, these sails groan mournfully when they catch the wind. As an action, while within 5 feet of the sails, the ship's captain can cause the sails to unleash a howl. Every creature hostile to the ship who is on board or within 300 feet of it must succeed on a DC 14 Wisdom saving throw, or the creature takes {@damage 4d6} psychic damage and is then {@condition 恐惧} for 1 minute. Once this ability has been used, it can't be used again until {@dice 2d6} hours have passed."
+				"Woven from the energy of captured wraiths and bound with the spirit of a banshee, these sails groan mournfully when they catch the wind. As an action, while within 5 feet of the sails, the ship's captain can cause the sails to unleash a howl. Every creature hostile to the ship who is on board or within 300 feet of it must succeed on a DC 14 Wisdom saving throw, or the creature takes {@damage 4d6} psychic damage and is then {@condition 恐懼} for 1 minute. Once this ability has been used, it can't be used again until {@dice 2d6} hours have passed."
 			]
 		},
 		{
@@ -2673,7 +2673,7 @@
 			],
 			"entries": [
 				"The vehicle is covered with spikes inscribed with blasphemous symbols. Luminous, ghostly figures impaled on these spikes wail and reach out in agony.",
-				"If a creature that isn't a devil dies within 30 feet of the infernal war machine, its soul (if it has one) is torn from its body and joins the wailing throng impaled on the spikes. As long as its soul remains trapped, a creature can't be raised from the dead by any means. A trapped soul is freed if the vehicle is destroyed, if the spike anchoring it is the target of a {@spell 移除诅咒} spell or similar magic, or if the spike is destroyed. Each spike is a Small object with AC 19, 15 hit points, and resistance to all damage except radiant damage."
+				"If a creature that isn't a devil dies within 30 feet of the infernal war machine, its soul (if it has one) is torn from its body and joins the wailing throng impaled on the spikes. As long as its soul remains trapped, a creature can't be raised from the dead by any means. A trapped soul is freed if the vehicle is destroyed, if the spike anchoring it is the target of a {@spell 移除詛咒} spell or similar magic, or if the spike is destroyed. Each spike is a Small object with AC 19, 15 hit points, and resistance to all damage except radiant damage."
 			]
 		},
 		{
@@ -2700,7 +2700,7 @@
 					"type": "entries",
 					"name": "Styx Sprayer (Requires 1 Crew and Grants Half Cover; 3 Uses)",
 					"entries": [
-						"{@atk rs}: +5 to hit, range 30 ft., one creature. {@h}The creature is struck by water from the River Styx and targeted by a {@spell 弱智术} spell (save DC 20). An already feebleminded creature is immune to this effect, as is a creature adapted to the River Styx. If the target fails its saving throw and the spell's effect on it is not ended within 30 days, the effect becomes permanent, whereupon the creature loses all its memories and becomes a near-mindless shell of its former self. At that point, nothing short of divine intervention can undo the effect."
+						"{@atk rs}: +5 to hit, range 30 ft., one creature. {@h}The creature is struck by water from the River Styx and targeted by a {@spell 弱智術} spell (save DC 20). An already feebleminded creature is immune to this effect, as is a creature adapted to the River Styx. If the target fails its saving throw and the spell's effect on it is not ended within 30 days, the effect becomes permanent, whereupon the creature loses all its memories and becomes a near-mindless shell of its former self. At that point, nothing short of divine intervention can undo the effect."
 					]
 				}
 			]
@@ -2735,7 +2735,7 @@
 				"SHP:H"
 			],
 			"entries": [
-				"A row of crystal orbs, each filled with viscous liquid and a beholder's eyeball, is mounted along this ship's hull. {@condition 隐形} creatures are visible while on the ship or within 120 feet of it."
+				"A row of crystal orbs, each filled with viscous liquid and a beholder's eyeball, is mounted along this ship's hull. {@condition 隱形} creatures are visible while on the ship or within 120 feet of it."
 			]
 		}
 	]

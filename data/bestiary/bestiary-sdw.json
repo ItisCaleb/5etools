@@ -66,7 +66,7 @@
 				{
 					"name": "Evasion",
 					"entries": [
-						"When the expert is not {@condition 无力} and subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it failed."
+						"When the expert is not {@condition 無力} and subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it failed."
 					]
 				},
 				{
@@ -128,7 +128,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -206,7 +206,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -257,10 +257,10 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell 创造饮食}",
-							"{@spell 侦测思想}",
-							"{@spell 云雾术}",
-							"{@spell 动物交谈术}"
+							"{@spell 創造飲食}",
+							"{@spell 偵測思想}",
+							"{@spell 雲霧術}",
+							"{@spell 動物交談術}"
 						]
 					},
 					"ability": "cha"
@@ -273,40 +273,40 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 光亮术}",
-								"{@spell 法师之手}",
-								"{@spell 修复术}"
+								"{@spell 光亮術}",
+								"{@spell 法師之手}",
+								"{@spell 修復術}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 魅惑人类}",
-								"{@spell 侦测魔法}",
-								"{@spell 脚底抹油}",
-								"{@spell 睡眠术}"
+								"{@spell 魅惑人類}",
+								"{@spell 偵測魔法}",
+								"{@spell 腳底抹油}",
+								"{@spell 睡眠術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 黑暗术}",
-								"{@spell 隐形术}",
-								"{@spell 暗示术}"
+								"{@spell 黑暗術}",
+								"{@spell 隱形術}",
+								"{@spell 暗示術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
 								"{@spell 解除魔法}",
-								"{@spell 防护能量}"
+								"{@spell 防護能量}"
 							]
 						},
 						"4": {
 							"slots": 2,
 							"spells": [
-								"{@spell 次元门}",
-								"{@spell 石肤术}"
+								"{@spell 次元門}",
+								"{@spell 石膚術}"
 							]
 						}
 					},
@@ -361,7 +361,7 @@
 				{
 					"name": "Frightful Presence",
 					"entries": [
-						"Each creature of Lhammaruntosz's choice that is within 120 feet of her and aware of her must succeed on a {@dc 17} Wisdom saving throw or become {@condition 恐惧} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Lhammaruntosz's Frightful Presence for the next 24 hours."
+						"Each creature of Lhammaruntosz's choice that is within 120 feet of her and aware of her must succeed on a {@dc 17} Wisdom saving throw or become {@condition 恐懼} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Lhammaruntosz's Frightful Presence for the next 24 hours."
 					]
 				},
 				{
@@ -511,45 +511,45 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 神导术}",
-								"{@spell 光亮术}",
+								"{@spell 神導術}",
+								"{@spell 光亮術}",
 								"{@spell 提升抗力}",
-								"{@spell 圣焰}"
+								"{@spell 聖焰}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 祝福术}",
-								"{@spell 治疗伤势}",
-								"{@spell 虔诚护盾}"
+								"{@spell 祝福術}",
+								"{@spell 治療傷勢}",
+								"{@spell 虔誠護盾}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 援助术}",
-								"{@spell 次级复原术}"
+								"{@spell 援助術}",
+								"{@spell 次級復原術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 防护能量}",
-								"{@spell 回生术}"
+								"{@spell 防護能量}",
+								"{@spell 回生術}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 放逐术}",
-								"{@spell 防死护咒}"
+								"{@spell 放逐術}",
+								"{@spell 防死護咒}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell 高等复原术}"
+								"{@spell 高等復原術}"
 							]
 						}
 					},
@@ -639,44 +639,44 @@
 						"0": {
 							"spells": [
 								"{@spell 火焰箭}",
-								"{@spell 光亮术}",
-								"{@spell 法师之手}",
-								"{@spell 次级幻象}"
+								"{@spell 光亮術}",
+								"{@spell 法師之手}",
+								"{@spell 次級幻象}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 燃烧之手}",
-								"{@spell 护盾术}",
-								"{@spell 睡眠术}"
+								"{@spell 燃燒之手}",
+								"{@spell 護盾術}",
+								"{@spell 睡眠術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 炽焰法球}",
-								"{@spell 隐形术}"
+								"{@spell 熾焰法球}",
+								"{@spell 隱形術}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 火球术}",
-								"{@spell 飞行术}"
+								"{@spell 火球術}",
+								"{@spell 飛行術}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 变形术}",
-								"{@spell 火墙术}"
+								"{@spell 變形術}",
+								"{@spell 火牆術}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells": [
-								"{@spell 寒冰锥}"
+								"{@spell 寒冰錐}"
 							]
 						}
 					},

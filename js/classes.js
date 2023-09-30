@@ -15,7 +15,7 @@ class ClassesPage extends BaseComponent {
 	static getBtnTitleSubclass (sc) {
 		const titlePartReprint = sc.isReprinted ? " (this subclass has been reprinted in a more recent source)" : "";
 		const sourcePart = Renderer.utils.getSourceAndPageText(sc);
-		return `${sc.name}; 资源：${sourcePart}${titlePartReprint}`;
+		return `${sc.name}; 資源：${sourcePart}${titlePartReprint}`;
 	}
 
 	static getBaseShortName (sc) {
@@ -850,8 +850,8 @@ class ClassesPage extends BaseComponent {
 				${$tblGroupHeaders}
 			</tr>
 			<tr>
-				<th class="cls-tbl__col-level" style="white-space:nowrap;">等级</th>
-				<th class="cls-tbl__col-prof-bonus" style="white-space:nowrap;">熟练加值</th>
+				<th class="cls-tbl__col-level" style="white-space:nowrap;">等級</th>
+				<th class="cls-tbl__col-prof-bonus" style="white-space:nowrap;">熟練加值</th>
 				<th>能力</th>
 				${$tblHeaders}
 			</tr>
@@ -883,7 +883,7 @@ class ClassesPage extends BaseComponent {
 			const abilityPart = [orPart, basePart].filter(Boolean).join("; ");
 
 			const allEntries = [
-				abilityPart ? `{@b 最低属性值: } ${abilityPart}` : null,
+				abilityPart ? `{@b 最低屬性值: } ${abilityPart}` : null,
 				...requirements.entries || [],
 			].filter(Boolean);
 
@@ -912,8 +912,8 @@ class ClassesPage extends BaseComponent {
 				<td colspan="6" class="cls-side__section">
 					<h5 class="cls-side__section-head">生命值</h5>
 					<div><strong>生命骰：</strong> ${Renderer.getEntryDice(hdEntry, "Hit die")}</div>
-					<div><strong>首级生命值：</strong> ${Renderer.class.getHitPointsAtFirstLevel(cls.hd)}</div>
-					<div><strong>其后生命值：</strong> ${Renderer.class.getHitPointsAtHigherLevels(cls.name, cls.hd, hdEntry)}</div>
+					<div><strong>首級生命值：</strong> ${Renderer.class.getHitPointsAtFirstLevel(cls.hd)}</div>
+					<div><strong>其後生命值：</strong> ${Renderer.class.getHitPointsAtHigherLevels(cls.name, cls.hd, hdEntry)}</div>
 				</td>
 			</tr>`
 		}
@@ -928,15 +928,15 @@ class ClassesPage extends BaseComponent {
 		if (cls.startingEquipment) {
 			const equip = cls.startingEquipment;
 			const rendered = [
-				equip.additionalFromBackground ? "<p>你起始携带下列物品，以及任何你背景所提供的东西。</p>" : "",
+				equip.additionalFromBackground ? "<p>你起始攜帶下列物品，以及任何你背景所提供的東西。</p>" : "",
 				equip.default && equip.default.length ? `<ul class="pl-4"><li>${equip.default.map(it => Renderer.get().render(it)).join("</li><li>")}</ul>` : "",
-				equip.goldAlternative != null ? `<p>或者，你可以选择起始拥有 ${Renderer.get().render(equip.goldAlternative)} 金币以自行购买装备。</p>` : "",
+				equip.goldAlternative != null ? `<p>或者，你可以選擇起始擁有 ${Renderer.get().render(equip.goldAlternative)} 金幣以自行購買裝備。</p>` : "",
 			].filter(Boolean).join("");
 			const $dispRendered = $(`<div/>`);
 
 			$ptEquipment = $$`<tr class="cls-side__show-hide">
 				<td class="cls-side__section" colspan="6">
-					<h5 class="cls-side__section-head">起始装备</h5>
+					<h5 class="cls-side__section-head">起始裝備</h5>
 					<div>${$dispRendered}</div>
 				</td>
 			</tr>`;
@@ -969,9 +969,9 @@ class ClassesPage extends BaseComponent {
 			let $ptMcProfsTools = null;
 			let $ptMcProfsSkills = null;
 			if (mc.proficienciesGained) {
-				$ptMcProfsIntro = $(`<div ${mc.requirements || mc.requirementsSpecial ? `class="cls-side__mc-prof-intro--requirements"` : ""}>当你不是以起始等级获得新职业的等级，你只会获得该职业一部分的起始熟练项目。</div>`);
+				$ptMcProfsIntro = $(`<div ${mc.requirements || mc.requirementsSpecial ? `class="cls-side__mc-prof-intro--requirements"` : ""}>當你不是以起始等級獲得新職業的等級，你只會獲得該職業一部分的起始熟練項目。</div>`);
 
-				if (mc.proficienciesGained.armor) $ptMcProfsArmor = $(`<div><b>护甲：</b> ${Renderer.class.getRenderedArmorProfs(mc.proficienciesGained.armor)}</div>`);
+				if (mc.proficienciesGained.armor) $ptMcProfsArmor = $(`<div><b>護甲：</b> ${Renderer.class.getRenderedArmorProfs(mc.proficienciesGained.armor)}</div>`);
 
 				if (mc.proficienciesGained.weapons) $ptMcProfsWeapons = $(`<div><b>武器：</b> ${Renderer.class.getRenderedWeaponProfs(mc.proficienciesGained.weapons)}</div>`);
 
@@ -987,7 +987,7 @@ class ClassesPage extends BaseComponent {
 
 			$ptMulticlassing = $$`<tr class="cls-side__show-hide">
 				<td class="cls-side__section" colspan="6">
-					<h5 class="cls-side__section-head">兼职</h5>
+					<h5 class="cls-side__section-head">兼職</h5>
 					${$ptMcPrereq}
 					${$ptMcPrereqSpecial}
 					${$ptMcEntries}
@@ -1012,12 +1012,12 @@ class ClassesPage extends BaseComponent {
 
 			<tr class="cls-side__show-hide">
 				<td colspan="6" class="cls-side__section">
-					<h5 class="cls-side__section-head">熟练</h5>
-					<div><b>护甲：</b> <span>${profs.armor ? Renderer.class.getRenderedArmorProfs(profs.armor) : "无"}</span></div>
-					<div><b>武器：</b> <span>${profs.weapons ? Renderer.class.getRenderedWeaponProfs(profs.weapons) : "无"}</span></div>
-					<div><b>工具：</b> <span>${profs.tools ? Renderer.class.getRenderedToolProfs(profs.tools) : "无"}</span></div>
-					<div><b>豁免：</b> <span>${cls.proficiency ? cls.proficiency.map(p => Parser.attAbvToFull(p)).join("、") : "无"}</span></div>
-					<div><b>技能：</b> <span>${profs.skills ? Renderer.class.getRenderedSkillProfs(profs.skills) : "无"}</span></div>
+					<h5 class="cls-side__section-head">熟練</h5>
+					<div><b>護甲：</b> <span>${profs.armor ? Renderer.class.getRenderedArmorProfs(profs.armor) : "無"}</span></div>
+					<div><b>武器：</b> <span>${profs.weapons ? Renderer.class.getRenderedWeaponProfs(profs.weapons) : "無"}</span></div>
+					<div><b>工具：</b> <span>${profs.tools ? Renderer.class.getRenderedToolProfs(profs.tools) : "無"}</span></div>
+					<div><b>豁免：</b> <span>${cls.proficiency ? cls.proficiency.map(p => Parser.attAbvToFull(p)).join("、") : "無"}</span></div>
+					<div><b>技能：</b> <span>${profs.skills ? Renderer.class.getRenderedSkillProfs(profs.skills) : "無"}</span></div>
 				</td>
 			</tr>
 
@@ -1043,9 +1043,9 @@ class ClassesPage extends BaseComponent {
 		const cls = this.activeClass;
 
 		// region features/fluff
-		const $btnToggleFeatures = ComponentUiUtil.$getBtnBool(this, "isHideFeatures", {text: "特性", activeClass: "cls__btn-cf--active", isInverted: true}).title("切换职业特性");
+		const $btnToggleFeatures = ComponentUiUtil.$getBtnBool(this, "isHideFeatures", {text: "特性", activeClass: "cls__btn-cf--active", isInverted: true}).title("切換職業特性");
 
-		const $btnToggleFeatureVariants = $(`<button class="btn btn-xs btn-default" title="切换职业特性选项/变体">变体</button>`)
+		const $btnToggleFeatureVariants = $(`<button class="btn btn-xs btn-default" title="切換職業特性選項/變體">變體</button>`)
 			.click(() => {
 				const f = this.filterBox.getValues();
 				const isClassFeatureVariantsDisplayed = f[this._pageFilter.optionsFilter.header].isClassFeatureVariant;
@@ -1060,7 +1060,7 @@ class ClassesPage extends BaseComponent {
 		this.filterBox.on(FilterBox.EVNT_VALCHANGE, () => hkUpdateBtnFeatureVariants());
 		hkUpdateBtnFeatureVariants();
 
-		const $btnToggleFluff = ComponentUiUtil.$getBtnBool(this, "isShowFluff", {text: "信息"}).title("切换职业信息");
+		const $btnToggleFluff = ComponentUiUtil.$getBtnBool(this, "isShowFluff", {text: "資訊"}).title("切換職業資訊");
 
 		$$`<div class="flex-v-center m-1 btn-group mr-3 no-shrink">${$btnToggleFeatures}${$btnToggleFeatureVariants}${$btnToggleFluff}</div>`.appendTo($wrp);
 		// endregion
@@ -1087,9 +1087,9 @@ class ClassesPage extends BaseComponent {
 			$dispCount.off("click");
 			if (this._listSubclass.visibleItems.length) {
 				const cntNotShown = this._listSubclass.items.length - this._listSubclass.visibleItems.length;
-				$dispCount.html(cntNotShown ? `<i class="clickable" title="调整筛选器以查看更多。">(${cntNotShown}个条目未显示)</i>` : "").click(() => this._doSelectAllSubclasses());
+				$dispCount.html(cntNotShown ? `<i class="clickable" title="調整篩選器以查看更多。">(${cntNotShown}個條目未顯示)</i>` : "").click(() => this._doSelectAllSubclasses());
 			} else if (this._listSubclass.items.length > 1) {
-				$dispCount.html(`<i class="clickable" title="调整筛选器以查看更多。">(${this._listSubclass.items.length - 1}个子职未显示)</i>`).click(() => this._doSelectAllSubclasses());
+				$dispCount.html(`<i class="clickable" title="調整篩選器以查看更多。">(${this._listSubclass.items.length - 1}個子職未顯示)</i>`).click(() => this._doSelectAllSubclasses());
 			} else $dispCount.html("");
 		});
 
@@ -1158,7 +1158,7 @@ class ClassesPage extends BaseComponent {
 			].filter(Boolean), true);
 			$selFilterPreset.val("-1");
 		};
-		const $selFilterPreset = $(`<select class="input-xs form-control cls-tabs__sel-preset"><option value="-1" disabled>筛选...</option></select>`)
+		const $selFilterPreset = $(`<select class="input-xs form-control cls-tabs__sel-preset"><option value="-1" disabled>篩選...</option></select>`)
 			.change(() => {
 				const val = Number($selFilterPreset.val());
 				if (val == null) return;
@@ -1690,7 +1690,7 @@ class ClassesPage extends BaseComponent {
 							const ptDate = ixScLvl === 0 && SourceUtil.isNonstandardSource(sc.source) && Parser.sourceJsonToDate(sc.source)
 								? Renderer.get().render(`{@note This subclass was published on ${MiscUtil.dateToStr(new Date(Parser.sourceJsonToDate(sc.source)))}.}`)
 								: "";
-							const ptSources = ixScLvl === 0 && sc.otherSources ? `{@note {@b 子职资源：} ${Renderer.utils.getSourceAndPageHtml(sc)}}` : "";
+							const ptSources = ixScLvl === 0 && sc.otherSources ? `{@note {@b 子職資源：} ${Renderer.utils.getSourceAndPageHtml(sc)}}` : "";
 							const toRender = (ptDate || ptSources) && scFeature.entries ? MiscUtil.copy(scFeature) : scFeature;
 							if (ptDate && toRender.entries) toRender.entries.unshift(ptDate);
 							if (ptSources && toRender.entries) toRender.entries.push(ptSources);
@@ -1728,7 +1728,7 @@ class ClassesPage extends BaseComponent {
 		if (cls.otherSources) {
 			const text = Renderer.utils.getSourceAndPageHtml(cls);
 			const $trClassFeature = $(`<tr data-feature-type="class"><td colspan="6"/></tr>`)
-				.fastSetHtml(`<hr class="hr-1"><b>职业资源：</b> ${text}`)
+				.fastSetHtml(`<hr class="hr-1"><b>職業資源：</b> ${text}`)
 				.appendTo($content);
 		}
 
@@ -1764,7 +1764,7 @@ class ClassesPage extends BaseComponent {
 	}
 
 	static _render_$getTrNoContent () {
-		return $(`<tr class="cls-main__msg-no-content"><td colspan="6">切换任一按钮来查看职业和子职信息</td></tr>`);
+		return $(`<tr class="cls-main__msg-no-content"><td colspan="6">切換任一按鈕來查看職業和子職資訊</td></tr>`);
 	}
 
 	_getDefaultState () { return MiscUtil.copy(ClassesPage._DEFAULT_STATE); }

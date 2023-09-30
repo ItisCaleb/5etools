@@ -6,7 +6,7 @@
 			"page": 4,
 			"id": "000",
 			"entries": [
-				"{@i Tasha's Cauldron of Everything} offers a host of new options for Dungeons & Dragons, and our journey through those options is accompanied by the notes of the wizard Tasha. Creator of the spell {@spell 塔莎狂笑术}, Tasha's life is one of the most storied in the D&D multiverse. Raised by Baba Yaga, the Mother of Witches herself, Tasha adventured across the world of Greyhawk and became the friend and sometimes enemy of other famous adventurers, like Mordenkainen. In time, she ruled as the Witch Queen and later changed her name to Iggwilv\u2014a figure of legend who is whispered about, feared, and admired.",
+				"{@i Tasha's Cauldron of Everything} offers a host of new options for Dungeons & Dragons, and our journey through those options is accompanied by the notes of the wizard Tasha. Creator of the spell {@spell 塔莎狂笑術}, Tasha's life is one of the most storied in the D&D multiverse. Raised by Baba Yaga, the Mother of Witches herself, Tasha adventured across the world of Greyhawk and became the friend and sometimes enemy of other famous adventurers, like Mordenkainen. In time, she ruled as the Witch Queen and later changed her name to Iggwilv\u2014a figure of legend who is whispered about, feared, and admired.",
 				" Written for players and Dungeon Masters alike, this book offers options to enhance characters and campaigns in any D&D world, whether you're adventuring in Greyhawk, another official D&D setting, or a world of your own creation.",
 				{
 					"type": "section",
@@ -92,7 +92,7 @@
 									"page": 4,
 									"id": "009",
 									"entries": [
-										"Certain game features let you take a special action, called a reaction, in response to an event. Making opportunity attacks and casting the {@spell 护盾术} spell are two typical uses of reactions. If you're unsure when a reaction occurs in relation to its trigger, here's the rule: the reaction happens after its trigger, unless the description of the reaction explicitly says otherwise. Once you take a reaction, you can't take another one until the start of your next turn."
+										"Certain game features let you take a special action, called a reaction, in response to an event. Making opportunity attacks and casting the {@spell 護盾術} spell are two typical uses of reactions. If you're unsure when a reaction occurs in relation to its trigger, here's the rule: the reaction happens after its trigger, unless the description of the reaction explicitly says otherwise. Once you take a reaction, you can't take another one until the start of your next turn."
 									]
 								},
 								{
@@ -369,7 +369,7 @@
 							"entries": [
 								"You gain class features in the {@book Player's Handbook|PHB} when you reach certain levels in your class. This section offers additional features that you can gain as a barbarian.",
 								"Unlike the features in the {@book Player's Handbook|PHB}, you don't gain the features here automatically. Consulting with your DM, you decide whether to gain a feature in this section if you meet the level requirement noted in the feature's description. These features can be selected separately from one another; you can use one, both, or none of them.",
-								"{@classFeature 原初见闻|Barbarian|PHB|3|TCE} ({@i 3rd-level barbarian feature})",
+								"{@classFeature 原初見聞|Barbarian|PHB|3|TCE} ({@i 3rd-level barbarian feature})",
 								"{@classFeature Instinctive Pounce|Barbarian|PHB|7|TCE} ({@i 7th-level barbarian feature})"
 							]
 						},
@@ -443,15 +443,15 @@
 											"type": "list",
 											"style": "list-hang-notitle",
 											"items": [
-												"1st level: {@spell 七彩喷射}, {@spell 命令术}",
-												"2nd level: {@spell 援助术}, {@spell 变巨/缩小术}, {@spell 镜影术}",
-												"3rd level: {@spell 智能壁垒|TCE},* {@spell 群体治愈真言}, {@spell 缓速术}",
-												"4th level: {@spell 魅影杀手}",
-												"5th level: {@spell 拉瑞心灵联结} (ritual)",
+												"1st level: {@spell 七彩噴射}, {@spell 命令術}",
+												"2nd level: {@spell 援助術}, {@spell 變巨/縮小術}, {@spell 鏡影術}",
+												"3rd level: {@spell 智慧壁壘|TCE},* {@spell 群體治癒真言}, {@spell 緩速術}",
+												"4th level: {@spell 魅影殺手}",
+												"5th level: {@spell 拉瑞心靈聯結} (ritual)",
 												"6th level: {@spell 英雄宴}",
-												"7th level: {@spell 蓝纱一梦|TCE},* {@spell 虹光喷射}",
-												"8th level: {@spell 嫌恶/共感术}",
-												"9th level: {@spell 虹光法墙}"
+												"7th level: {@spell 藍紗一夢|TCE},* {@spell 虹光噴射}",
+												"8th level: {@spell 嫌惡/共感術}",
+												"9th level: {@spell 虹光法牆}"
 											]
 										}
 									]
@@ -531,12 +531,12 @@
 											"type": "list",
 											"style": "list-hang-notitle",
 											"items": [
-												"3rd level: {@spell 活力灵光}, {@spell 魂灵环绕|TCE}*",
-												"4th level: {@spell 生命灵光}, {@spell 净化灵光}",
+												"3rd level: {@spell 活力靈光}, {@spell 魂靈環繞|TCE}*",
+												"4th level: {@spell 生命靈光}, {@spell 淨化靈光}",
 												"5th level: {@spell Summon celestial|TCE}*",
 												"6th level: {@spell 烈日光束}",
-												"8th level: {@spell 阳炎爆}",
-												"9th level: {@spell 律令治愈}"
+												"8th level: {@spell 陽炎爆}",
+												"9th level: {@spell 律令治癒}"
 											]
 										}
 									]
@@ -637,14 +637,14 @@
 											"type": "list",
 											"style": "list-hang-notitle",
 											"items": [
-												"1st level: {@spell 防护善恶}",
-												"2nd level: {@spell 卜筮}, (ritual) {@spell 不灭明焰}, {@spell 变巨/缩小术}, {@spell 野兽召唤术|TCE}*",
-												"3rd level: {@spell 活力灵光}, {@spell 元素武器}, {@spell 回生术}, {@spell 精类召唤术|TCE}*",
-												"4th level: {@spell 预言术}, (ritual) {@spell 火焰护盾}, {@spell 元素召唤术|TCE}*",
-												"5th level: {@spell 寒冰锥}",
-												"6th level: {@spell 石化术}",
-												"7th level: {@spell 徽记术}",
-												"8th level: {@spell 焚云术}"
+												"1st level: {@spell 防護善惡}",
+												"2nd level: {@spell 卜筮}, (ritual) {@spell 不滅明焰}, {@spell 變巨/縮小術}, {@spell 野獸召喚術|TCE}*",
+												"3rd level: {@spell 活力靈光}, {@spell 元素武器}, {@spell 回生術}, {@spell 精類召喚術|TCE}*",
+												"4th level: {@spell 預言術}, (ritual) {@spell 火焰護盾}, {@spell 元素召喚術|TCE}*",
+												"5th level: {@spell 寒冰錐}",
+												"6th level: {@spell 石化術}",
+												"7th level: {@spell 徽記術}",
+												"8th level: {@spell 焚雲術}"
 											]
 										}
 									]
@@ -745,10 +745,10 @@
 											"columns": 2,
 											"items": [
 												"{@optfeature 盲斗|TCE}",
-												"{@optfeature 拦截|TCE}",
+												"{@optfeature 攔截|TCE}",
 												"{@optfeature 卓越技巧|TCE}",
-												"{@optfeature 投掷武器战斗|TCE}",
-												"{@optfeature 徒手格斗|TCE}"
+												"{@optfeature 投擲武器戰鬥|TCE}",
+												"{@optfeature 徒手格鬥|TCE}"
 											]
 										}
 									]
@@ -767,13 +767,13 @@
 									"type": "list",
 									"columns": 2,
 									"items": [
-										"{@optfeature 突袭|TCE}",
-										"{@optfeature 诱饵战术|TCE}",
+										"{@optfeature 突襲|TCE}",
+										"{@optfeature 誘餌戰術|TCE}",
 										"{@optfeature 警戒|TCE}",
-										"{@optfeature 领导风范|TCE}",
-										"{@optfeature 擒拿击|TCE}",
-										"{@optfeature 快手投掷|TCE}",
-										"{@optfeature 战术预估|TCE}"
+										"{@optfeature 領導風範|TCE}",
+										"{@optfeature 擒拿擊|TCE}",
+										"{@optfeature 快手投擲|TCE}",
+										"{@optfeature 戰術預估|TCE}"
 									]
 								}
 							]
@@ -891,12 +891,12 @@
 										{
 											"type": "item",
 											"name": "Fighting Style:",
-											"entry": "{@optfeature 拦截|TCE},* {@optfeature Protection}"
+											"entry": "{@optfeature 攔截|TCE},* {@optfeature Protection}"
 										},
 										{
 											"type": "item",
 											"name": "Maneuvers:",
-											"entry": "{@optfeature 诱饵战术|TCE},* {@optfeature Disarming Attack}, {@optfeature Goading Attack}, {@optfeature 擒拿击|TCE}*"
+											"entry": "{@optfeature 誘餌戰術|TCE},* {@optfeature Disarming Attack}, {@optfeature Goading Attack}, {@optfeature 擒拿擊|TCE}*"
 										},
 										{
 											"type": "item",
@@ -921,12 +921,12 @@
 										{
 											"type": "item",
 											"name": "Fighting Style:",
-											"entry": "{@optfeature 盲斗|TCE},* {@optfeature Two-Weapon Fighting}, {@optfeature 徒手格斗|TCE}*"
+											"entry": "{@optfeature 盲斗|TCE},* {@optfeature Two-Weapon Fighting}, {@optfeature 徒手格鬥|TCE}*"
 										},
 										{
 											"type": "item",
 											"name": "Maneuvers:",
-											"entry": "{@optfeature 突袭|TCE},* {@optfeature Disarming Attack}, {@optfeature Feinting Attack}, {@optfeature Pushing Attack}, {@optfeature Trip Attack}"
+											"entry": "{@optfeature 突襲|TCE},* {@optfeature Disarming Attack}, {@optfeature Feinting Attack}, {@optfeature Pushing Attack}, {@optfeature Trip Attack}"
 										},
 										{
 											"type": "item",
@@ -1011,7 +1011,7 @@
 										{
 											"type": "item",
 											"name": "Fighting Style:",
-											"entry": "{@optfeature Defense}, {@optfeature 投掷武器战斗|TCE}*"
+											"entry": "{@optfeature Defense}, {@optfeature 投擲武器戰鬥|TCE}*"
 										},
 										{
 											"type": "item",
@@ -1076,7 +1076,7 @@
 										{
 											"type": "item",
 											"name": "Maneuvers:",
-											"entry": "{@optfeature 突袭|TCE},* {@optfeature Distracting Strike}, {@optfeature Goading Attack}, {@optfeature Precision Attack}, {@optfeature 快手投掷|TCE}*"
+											"entry": "{@optfeature 突襲|TCE},* {@optfeature Distracting Strike}, {@optfeature Goading Attack}, {@optfeature Precision Attack}, {@optfeature 快手投擲|TCE}*"
 										},
 										{
 											"type": "item",
@@ -1101,12 +1101,12 @@
 										{
 											"type": "item",
 											"name": "Fighting Style:",
-											"entry": "{@optfeature 徒手格斗|TCE}*"
+											"entry": "{@optfeature 徒手格鬥|TCE}*"
 										},
 										{
 											"type": "item",
 											"name": "Maneuvers:",
-											"entry": "{@optfeature Disarming Attack}, {@optfeature Evasive Footwork}, {@optfeature 擒拿击|TCE},* {@optfeature Menacing Attack}, {@optfeature Pushing Attack}, {@optfeature Riposte}, {@optfeature Trip Attack}"
+											"entry": "{@optfeature Disarming Attack}, {@optfeature Evasive Footwork}, {@optfeature 擒拿擊|TCE},* {@optfeature Menacing Attack}, {@optfeature Pushing Attack}, {@optfeature Riposte}, {@optfeature Trip Attack}"
 										},
 										{
 											"type": "item",
@@ -1161,12 +1161,12 @@
 										{
 											"type": "item",
 											"name": "Fighting Style:",
-											"entry": "{@optfeature Archery}, {@optfeature 投掷武器战斗|TCE}*"
+											"entry": "{@optfeature Archery}, {@optfeature 投擲武器戰鬥|TCE}*"
 										},
 										{
 											"type": "item",
 											"name": "Maneuvers:",
-											"entry": "{@optfeature 突袭|TCE},* {@optfeature 诱饵战术|TCE},* {@optfeature Distracting Strike}, {@optfeature 快手投掷|TCE}*"
+											"entry": "{@optfeature 突襲|TCE},* {@optfeature 誘餌戰術|TCE},* {@optfeature Distracting Strike}, {@optfeature 快手投擲|TCE}*"
 										},
 										{
 											"type": "item",
@@ -1196,7 +1196,7 @@
 										{
 											"type": "item",
 											"name": "Maneuvers:",
-											"entry": "{@optfeature Commander's Strike}, {@optfeature 领导风范|TCE},* {@optfeature Maneuvering Attack}, {@optfeature Rally}, {@optfeature 战术预估|TCE}*"
+											"entry": "{@optfeature Commander's Strike}, {@optfeature 領導風範|TCE},* {@optfeature Maneuvering Attack}, {@optfeature Rally}, {@optfeature 戰術預估|TCE}*"
 										},
 										{
 											"type": "item",
@@ -1310,8 +1310,8 @@
 											"type": "list",
 											"style": "list-hang-notitle",
 											"items": [
-												"2nd level: {@spell 遗体防腐}, {@spell 治愈祈祷}, {@spell 守护联结}",
-												"3rd level: {@spell 魂灵环绕|TCE}*",
+												"2nd level: {@spell 遺體防腐}, {@spell 治癒祈禱}, {@spell 守護聯結}",
+												"3rd level: {@spell 魂靈環繞|TCE}*",
 												"5th level: {@spell Summon celestial|TCE}*"
 											]
 										}
@@ -1331,7 +1331,7 @@
 											"items": [
 												"{@optfeature 受祝勇士|TCE}",
 												"{@optfeature 盲斗|TCE}",
-												"{@optfeature 拦截|TCE}"
+												"{@optfeature 攔截|TCE}"
 											]
 										}
 									]
@@ -1423,11 +1423,11 @@
 											"type": "list",
 											"style": "list-hang-notitle",
 											"items": [
-												"1st level: {@spell 纠缠术}, {@spell 炽炎斩}",
-												"2nd level: {@spell 援助术}, {@spell 强化属性}, {@spell 造风术}, {@spell 魔化武器}, {@spell 野兽召唤术|TCE}*",
-												"3rd level: {@spell 元素武器}, {@spell 融身入石}, {@spell 回生术}, {@spell 精类召唤术|TCE}*",
-												"4th level: {@spell 支配野兽}, {@spell 元素召唤术|TCE}*",
-												"5th level: {@spell 高等复原术}"
+												"1st level: {@spell 糾纏術}, {@spell 熾炎斬}",
+												"2nd level: {@spell 援助術}, {@spell 強化屬性}, {@spell 造風術}, {@spell 魔化武器}, {@spell 野獸召喚術|TCE}*",
+												"3rd level: {@spell 元素武器}, {@spell 融身入石}, {@spell 回生術}, {@spell 精類召喚術|TCE}*",
+												"4th level: {@spell 支配野獸}, {@spell 元素召喚術|TCE}*",
+												"5th level: {@spell 高等復原術}"
 											]
 										}
 									]
@@ -1445,8 +1445,8 @@
 											"columns": 3,
 											"items": [
 												"{@optfeature 盲斗|TCE}",
-												"{@optfeature 德鲁伊教战士|TCE}",
-												"{@optfeature 投掷武器战斗|TCE}"
+												"{@optfeature 德魯伊教戰士|TCE}",
+												"{@optfeature 投擲武器戰鬥|TCE}"
 											]
 										}
 									]
@@ -1617,16 +1617,16 @@
 											"type": "list",
 											"style": "list-hang-notitle",
 											"items": [
-												"Cantrip (0 Level): {@spell 轰雷剑|TCE},* {@spell 翠炎剑|TCE},* {@spell 闪电牵引|TCE},* {@spell 心灵之楔|TCE},* {@spell 剑刃爆发|TCE}*",
-												"1st Level: {@spell 油腻术}, {@spell 塔莎酸蚀酿|TCE}*",
-												"2nd Level: {@spell 火焰刀}, {@spell 炽焰法球}, {@spell 魔化武器}, {@spell 塔莎心灵鞭|TCE}*",
-												"3rd Level: {@spell 智能壁垒|TCE},* {@spell 吸血鬼之触}",
-												"4th Level: {@spell 火焰护盾}",
-												"5th Level: {@spell 毕格比之掌}",
-												"6th Level: {@spell 石化术}, {@spell 欧提路克冰冻法球}, {@spell 塔莎超凡形态|TCE}*",
-												"7th Level: {@spell 蓝纱一梦|TCE}*",
-												"8th Level: {@spell 创造半位面}",
-												"9th Level: {@spell 灾厄之刃|TCE}*"
+												"Cantrip (0 Level): {@spell 轟雷劍|TCE},* {@spell 翠炎劍|TCE},* {@spell 閃電牽引|TCE},* {@spell 心靈之楔|TCE},* {@spell 劍刃爆發|TCE}*",
+												"1st Level: {@spell 油膩術}, {@spell 塔莎酸蝕釀|TCE}*",
+												"2nd Level: {@spell 火焰刀}, {@spell 熾焰法球}, {@spell 魔化武器}, {@spell 塔莎心靈鞭|TCE}*",
+												"3rd Level: {@spell 智慧壁壘|TCE},* {@spell 吸血鬼之觸}",
+												"4th Level: {@spell 火焰護盾}",
+												"5th Level: {@spell 畢格比之掌}",
+												"6th Level: {@spell 石化術}, {@spell 歐提路克冰凍法球}, {@spell 塔莎超凡形態|TCE}*",
+												"7th Level: {@spell 藍紗一夢|TCE}*",
+												"8th Level: {@spell 創造半位面}",
+												"9th Level: {@spell 災厄之刃|TCE}*"
 											]
 										}
 									]
@@ -1716,13 +1716,13 @@
 											"type": "list",
 											"style": "list-hang-notitle",
 											"items": [
-												"Cantrip (0 level): {@spell 轰雷剑|TCE},* {@spell 翠炎剑|TCE},* {@spell 闪电牵引|TCE},* {@spell 心灵之楔|TCE},* {@spell 剑刃爆发|TCE}*",
-												"3rd level: {@spell 智能壁垒|TCE},* {@spell 魂灵环绕|TCE},* {@spell 精类召唤术|TCE},* {@spell 暗影衍体召唤术|TCE},* {@spell 亡灵召唤术|TCE}*",
-												"4th level: {@spell 异怪召唤术|TCE}*",
-												"5th level: {@spell 假象术}, {@spell 异界誓缚}, {@spell 传送法阵}",
-												"6th level: {@spell 精类召唤术|TCE},* {@spell 塔莎超凡形态|TCE}*",
-												"7th level: {@spell 蓝纱一梦|TCE}*",
-												"9th level: {@spell 灾厄之刃|TCE},* {@spell 异界之门}, {@spell 怪影杀手}"
+												"Cantrip (0 level): {@spell 轟雷劍|TCE},* {@spell 翠炎劍|TCE},* {@spell 閃電牽引|TCE},* {@spell 心靈之楔|TCE},* {@spell 劍刃爆發|TCE}*",
+												"3rd level: {@spell 智慧壁壘|TCE},* {@spell 魂靈環繞|TCE},* {@spell 精類召喚術|TCE},* {@spell 暗影衍體召喚術|TCE},* {@spell 亡靈召喚術|TCE}*",
+												"4th level: {@spell 異怪召喚術|TCE}*",
+												"5th level: {@spell 假象術}, {@spell 異界誓縛}, {@spell 傳送法陣}",
+												"6th level: {@spell 精類召喚術|TCE},* {@spell 塔莎超凡形態|TCE}*",
+												"7th level: {@spell 藍紗一夢|TCE}*",
+												"9th level: {@spell 災厄之刃|TCE},* {@spell 異界之門}, {@spell 怪影殺手}"
 											]
 										}
 									]
@@ -1750,14 +1750,14 @@
 											"type": "list",
 											"columns": 3,
 											"items": [
-												"{@optfeature 护符牵绊|TCE}",
+												"{@optfeature 護符牽絆|TCE}",
 												"{@optfeature 魔能意志|TCE}",
-												"{@optfeature 遥远音讯|TCE}",
-												"{@optfeature 守护馈赠|TCE}",
-												"{@optfeature 链主赋能|TCE}",
-												"{@optfeature 护符庇佑|TCE}",
-												"{@optfeature 符令责斥|TCE}",
-												"{@optfeature 永恒奴役|TCE}"
+												"{@optfeature 遙遠音訊|TCE}",
+												"{@optfeature 守護饋贈|TCE}",
+												"{@optfeature 鏈主賦能|TCE}",
+												"{@optfeature 護符庇佑|TCE}",
+												"{@optfeature 符令責斥|TCE}",
+												"{@optfeature 永恆奴役|TCE}"
 											]
 										}
 									]
@@ -1844,14 +1844,14 @@
 											"type": "list",
 											"style": "list-hang-notitle",
 											"items": [
-												"Cantrip (0 level): {@spell 轰雷剑|TCE},* (evoc.) {@spell 翠炎剑|TCE},* (evoc.) {@spell 闪电牵引|TCE},* (evoc.) {@spell 心灵之楔|TCE},* (ench.) {@spell 剑刃爆发|TCE}* (conj.)",
-												"1st level: {@spell 塔莎酸蚀酿|TCE}* (evoc.)",
-												"2nd level: {@spell 卜筮}, (divin., ritual) {@spell 强化属性}, (trans.) {@spell 塔莎心灵鞭|TCE}* (ench.)",
-												"3rd level: {@spell 智能壁垒|TCE},* (abjur.) {@spell 死者交谈术}, (necro.) {@spell 魂灵环绕|TCE},* (necro.) {@spell 精类召唤术|TCE},* (conj.) {@spell 暗影衍体召唤术|TCE},* (conj.) {@spell 亡灵召唤术|TCE}* (conj.)",
-												"4th level: {@spell 预言术}, (divin., ritual) {@spell 异怪召唤术|TCE},* (conj.) {@spell 构装体召唤术|TCE},* (conj.) {@spell 元素召唤术|TCE}* (conj.)",
-												"6th level: {@spell 精类召唤术|TCE},* (conj.) {@spell 塔莎超凡形态|TCE}* (trans.)",
-												"7th level: {@spell 蓝纱一梦|TCE}* (conj.)",
-												"9th level: {@spell 灾厄之刃|TCE}* (conj.)"
+												"Cantrip (0 level): {@spell 轟雷劍|TCE},* (evoc.) {@spell 翠炎劍|TCE},* (evoc.) {@spell 閃電牽引|TCE},* (evoc.) {@spell 心靈之楔|TCE},* (ench.) {@spell 劍刃爆發|TCE}* (conj.)",
+												"1st level: {@spell 塔莎酸蝕釀|TCE}* (evoc.)",
+												"2nd level: {@spell 卜筮}, (divin., ritual) {@spell 強化屬性}, (trans.) {@spell 塔莎心靈鞭|TCE}* (ench.)",
+												"3rd level: {@spell 智慧壁壘|TCE},* (abjur.) {@spell 死者交談術}, (necro.) {@spell 魂靈環繞|TCE},* (necro.) {@spell 精類召喚術|TCE},* (conj.) {@spell 暗影衍體召喚術|TCE},* (conj.) {@spell 亡靈召喚術|TCE}* (conj.)",
+												"4th level: {@spell 預言術}, (divin., ritual) {@spell 異怪召喚術|TCE},* (conj.) {@spell 構裝體召喚術|TCE},* (conj.) {@spell 元素召喚術|TCE}* (conj.)",
+												"6th level: {@spell 精類召喚術|TCE},* (conj.) {@spell 塔莎超凡形態|TCE}* (trans.)",
+												"7th level: {@spell 藍紗一夢|TCE}* (conj.)",
+												"9th level: {@spell 災厄之刃|TCE}* (conj.)"
 											]
 										}
 									]
@@ -1914,21 +1914,21 @@
 							"type": "list",
 							"columns": 4,
 							"items": [
-								"{@feat 奇械学徒|TCE}",
-								"{@feat 大厨|TCE}",
+								"{@feat 奇械學徒|TCE}",
+								"{@feat 大廚|TCE}",
 								"{@feat 粉碎者|TCE}",
-								"{@feat 魔能导师|TCE}",
-								"{@feat 精类触碰|TCE}",
-								"{@feat 战斗学徒|TCE}",
-								"{@feat 枪手|TCE}",
-								"{@feat 超魔法导师|TCE}",
+								"{@feat 魔能導師|TCE}",
+								"{@feat 精類觸碰|TCE}",
+								"{@feat 戰鬥學徒|TCE}",
+								"{@feat 槍手|TCE}",
+								"{@feat 超魔法導師|TCE}",
 								"{@feat 穿刺者|TCE}",
-								"{@feat 毒师|TCE}",
-								"{@feat 影界触碰|TCE}",
-								"{@feat 技艺专家|TCE}",
+								"{@feat 毒師|TCE}",
+								"{@feat 影界觸碰|TCE}",
+								"{@feat 技藝專家|TCE}",
 								"{@feat 劈砍者|TCE}",
-								"{@feat 念动力|TCE}",
-								"{@feat 心电感应|TCE}"
+								"{@feat 念動力|TCE}",
+								"{@feat 心電感應|TCE}"
 							]
 						},
 						{
@@ -1992,7 +1992,7 @@
 							"page": 83,
 							"id": "1e0",
 							"entries": [
-								"Having a group patron gives an adventuring group a common purpose, which inspires better coordination in the form of guidance and encouragement. As a result of this unity, each member of the party can grant advantage to an ability check, an attack roll, or a saving throw of another member of the party. To grant advantage in this way, a character and the chosen target must be able to see or hear each other, and neither can be {@condition 无力}. Once a party member grants this advantage, that individual can't do so again until they finish a long rest."
+								"Having a group patron gives an adventuring group a common purpose, which inspires better coordination in the form of guidance and encouragement. As a result of this unity, each member of the party can grant advantage to an ability check, an attack roll, or a saving throw of another member of the party. To grant advantage in this way, a character and the chosen target must be able to see or hear each other, and neither can be {@condition 無力}. Once a party member grants this advantage, that individual can't do so again until they finish a long rest."
 							]
 						},
 						{
@@ -2158,7 +2158,7 @@
 											"page": 85,
 											"id": "1eb",
 											"entries": [
-												"Because you're associated with the academy, you receive a discount on any education you wish to pursue. When you undergo training as a downtime activity (as described in the {@book Player's Handbook|PHB} or {@book Xanathar's Guide to Everything|XGE}), you pay half the normal cost, assuming the academy teaches that subject. Training in languages, musical instruments, and other tools is also available, at the DM's discretion. In addition, you can gain proficiency in the {@skill 奥秘}, {@skill 历史}, {@skill 自然}, or {@skill 宗教} skills by this method, as if you were learning a language. A character can learn only one of these skills in this way."
+												"Because you're associated with the academy, you receive a discount on any education you wish to pursue. When you undergo training as a downtime activity (as described in the {@book Player's Handbook|PHB} or {@book Xanathar's Guide to Everything|XGE}), you pay half the normal cost, assuming the academy teaches that subject. Training in languages, musical instruments, and other tools is also available, at the DM's discretion. In addition, you can gain proficiency in the {@skill 奧秘}, {@skill 歷史}, {@skill 自然}, or {@skill 宗教} skills by this method, as if you were learning a language. A character can learn only one of these skills in this way."
 											]
 										}
 									]
@@ -2394,7 +2394,7 @@
 											"page": 87,
 											"id": "1f2",
 											"entries": [
-												"Your patron's network has access to certain magic items. You can purchase common magic items from your patron contact. The DM determines the available stock or can call for a group Intelligence ({@skill 调查}) check to ascertain if the ancient being's network can successfully locate a desired item. The DC for this check is 10 in a city, 15 in a town, and 20 in a village. If the check fails, {@dice 1d8} days must pass before the same item can be searched for again in that community.",
+												"Your patron's network has access to certain magic items. You can purchase common magic items from your patron contact. The DM determines the available stock or can call for a group Intelligence ({@skill 調查}) check to ascertain if the ancient being's network can successfully locate a desired item. The DC for this check is 10 in a city, 15 in a town, and 20 in a village. If the check fails, {@dice 1d8} days must pass before the same item can be searched for again in that community.",
 												" The DM sets the price of a common magic item or determines it randomly: {@dice 2d4 × 10} gp, or half as much for a consumable item such as a potion or scroll."
 											]
 										},
@@ -4242,7 +4242,7 @@
 							"rows": [
 								[
 									"0",
-									"{@spell 轰雷剑|TCE}",
+									"{@spell 轟雷劍|TCE}",
 									"Evocation",
 									"No",
 									"No",
@@ -4250,7 +4250,7 @@
 								],
 								[
 									"0",
-									"{@spell 翠炎剑|TCE}",
+									"{@spell 翠炎劍|TCE}",
 									"Evocation",
 									"No",
 									"No",
@@ -4258,7 +4258,7 @@
 								],
 								[
 									"0",
-									"{@spell 闪电牵引|TCE}",
+									"{@spell 閃電牽引|TCE}",
 									"Evocation",
 									"No",
 									"No",
@@ -4266,7 +4266,7 @@
 								],
 								[
 									"0",
-									"{@spell 心灵之楔|TCE}",
+									"{@spell 心靈之楔|TCE}",
 									"Enchantment",
 									"No",
 									"No",
@@ -4274,7 +4274,7 @@
 								],
 								[
 									"0",
-									"{@spell 剑刃爆发|TCE}",
+									"{@spell 劍刃爆發|TCE}",
 									"Conjuration",
 									"No",
 									"No",
@@ -4282,7 +4282,7 @@
 								],
 								[
 									"1st",
-									"{@spell 塔莎酸蚀酿|TCE}",
+									"{@spell 塔莎酸蝕釀|TCE}",
 									"Evocation",
 									"Yes",
 									"No",
@@ -4290,7 +4290,7 @@
 								],
 								[
 									"2nd",
-									"{@spell 野兽召唤术|TCE}",
+									"{@spell 野獸召喚術|TCE}",
 									"Conjuration",
 									"Yes",
 									"No",
@@ -4298,7 +4298,7 @@
 								],
 								[
 									"2nd",
-									"{@spell 塔莎心灵鞭|TCE}",
+									"{@spell 塔莎心靈鞭|TCE}",
 									"Enchantment",
 									"No",
 									"No",
@@ -4306,7 +4306,7 @@
 								],
 								[
 									"3rd",
-									"{@spell 智能壁垒|TCE}",
+									"{@spell 智慧壁壘|TCE}",
 									"Abjuration",
 									"Yes",
 									"No",
@@ -4314,7 +4314,7 @@
 								],
 								[
 									"3rd",
-									"{@spell 魂灵环绕|TCE}",
+									"{@spell 魂靈環繞|TCE}",
 									"Necromancy",
 									"Yes",
 									"No",
@@ -4322,7 +4322,7 @@
 								],
 								[
 									"3rd",
-									"{@spell 精类召唤术|TCE}",
+									"{@spell 精類召喚術|TCE}",
 									"Conjuration",
 									"Yes",
 									"No",
@@ -4330,7 +4330,7 @@
 								],
 								[
 									"3rd",
-									"{@spell 暗影衍体召唤术|TCE}",
+									"{@spell 暗影衍體召喚術|TCE}",
 									"Conjuration",
 									"Yes",
 									"No",
@@ -4338,7 +4338,7 @@
 								],
 								[
 									"3rd",
-									"{@spell 亡灵召唤术|TCE}",
+									"{@spell 亡靈召喚術|TCE}",
 									"Necromancy",
 									"Yes",
 									"No",
@@ -4346,7 +4346,7 @@
 								],
 								[
 									"4th",
-									"{@spell 异怪召唤术|TCE}",
+									"{@spell 異怪召喚術|TCE}",
 									"Conjuration",
 									"Yes",
 									"No",
@@ -4354,7 +4354,7 @@
 								],
 								[
 									"4th",
-									"{@spell 构装体召唤术|TCE}",
+									"{@spell 構裝體召喚術|TCE}",
 									"Conjuration",
 									"Yes",
 									"No",
@@ -4362,7 +4362,7 @@
 								],
 								[
 									"4th",
-									"{@spell 元素召唤术|TCE}",
+									"{@spell 元素召喚術|TCE}",
 									"Conjuration",
 									"Yes",
 									"No",
@@ -4378,7 +4378,7 @@
 								],
 								[
 									"6th",
-									"{@spell 精类召唤术|TCE}",
+									"{@spell 精類召喚術|TCE}",
 									"Conjuration",
 									"Yes",
 									"No",
@@ -4386,7 +4386,7 @@
 								],
 								[
 									"6th",
-									"{@spell 塔莎超凡形态|TCE}",
+									"{@spell 塔莎超凡形態|TCE}",
 									"Transmutation",
 									"Yes",
 									"No",
@@ -4394,7 +4394,7 @@
 								],
 								[
 									"7th",
-									"{@spell 蓝纱一梦|TCE}",
+									"{@spell 藍紗一夢|TCE}",
 									"Conjuration",
 									"No",
 									"No",
@@ -4402,7 +4402,7 @@
 								],
 								[
 									"9th",
-									"{@spell 灾厄之刃|TCE}",
+									"{@spell 災厄之刃|TCE}",
 									"Conjuration",
 									"Yes",
 									"No",
@@ -4425,11 +4425,11 @@
 							],
 							"by": "Tasha"
 						},
-						"Just as every performer lends their art a personal flair and every warrior asserts their fighting styles through the lens of their own training, so too can a spellcaster use magic to express their individuality. Regardless of what type of spellcaster you're playing, you can customize the cosmetic effects of your character's spells. Perhaps you wish the effects of your caster's spells to appear in their favorite color, to suggest the training they received from a celestial mentor, or to exhibit their connection to a season of the year. The possibilities for how you might cosmetically customize your character's spells are endless. However, such alterations can't change the effects of a spell. They also can't make one spell seem like another\u2014you can't, for example, make a {@spell 魔法飞弹} look like a {@spell 火球术}.",
+						"Just as every performer lends their art a personal flair and every warrior asserts their fighting styles through the lens of their own training, so too can a spellcaster use magic to express their individuality. Regardless of what type of spellcaster you're playing, you can customize the cosmetic effects of your character's spells. Perhaps you wish the effects of your caster's spells to appear in their favorite color, to suggest the training they received from a celestial mentor, or to exhibit their connection to a season of the year. The possibilities for how you might cosmetically customize your character's spells are endless. However, such alterations can't change the effects of a spell. They also can't make one spell seem like another\u2014you can't, for example, make a {@spell 魔法飛彈} look like a {@spell 火球術}.",
 						" When customizing your spellcaster's magic, consider developing a theme\u2014often, the broader and more versatile the better. You may describe your caster's magic whenever you wish, particularly when it makes an interesting addition to a story. You may also use it to reinforce other choices you've made for your character, like making a bard's spells tied more closely to their favored art form or a cleric's spells themed around their deity. ",
-						" For example, the {@spell 火球术} of a wizard with a fondness for storms might erupt to look like burning clouds or a burst of red lightning (without affecting the spell's damage type), while the same wizard's {@spell 加速术} spell might limn the target in faint thunderheads.",
-						" Alternatively, a cleric who serves a moon god might radiate faint moonlight around their hands when they cast {@spell 治疗伤势}, or their {@spell 虔诚护盾} might surround the target with glimmering crescent moons. ",
-						" Further still, a druid could choose a cherry blossom theme for their magic, causing delicate branches and pink leaves to grow when they cast {@spell 纠缠术} or {@spell 橡棍术}, and their {@spell 妖火术} spell could appear more like wind-tossed petals than flames.",
+						" For example, the {@spell 火球術} of a wizard with a fondness for storms might erupt to look like burning clouds or a burst of red lightning (without affecting the spell's damage type), while the same wizard's {@spell 加速術} spell might limn the target in faint thunderheads.",
+						" Alternatively, a cleric who serves a moon god might radiate faint moonlight around their hands when they cast {@spell 治療傷勢}, or their {@spell 虔誠護盾} might surround the target with glimmering crescent moons. ",
+						" Further still, a druid could choose a cherry blossom theme for their magic, causing delicate branches and pink leaves to grow when they cast {@spell 糾纏術} or {@spell 橡棍術}, and their {@spell 妖火術} spell could appear more like wind-tossed petals than flames.",
 						" The Magic Themes table offers just a few suggestions that might inspire you while personalizing your character's spells.",
 						{
 							"type": "table",
@@ -5268,43 +5268,43 @@
 									"rows": [
 										[
 											"Aberration",
-											"{@skill 奥秘}"
+											"{@skill 奧秘}"
 										],
 										[
 											"Beast",
-											"{@skill 驯兽}, {@skill 自然}, or {@skill 生存}"
+											"{@skill 馴獸}, {@skill 自然}, or {@skill 生存}"
 										],
 										[
 											"Celestial",
-											"{@skill 奥秘} or {@skill 宗教}"
+											"{@skill 奧秘} or {@skill 宗教}"
 										],
 										[
 											"Construct",
-											"{@skill 奥秘}"
+											"{@skill 奧秘}"
 										],
 										[
 											"Dragon",
-											"{@skill 奥秘}, {@skill 历史}, or {@skill 自然}"
+											"{@skill 奧秘}, {@skill 歷史}, or {@skill 自然}"
 										],
 										[
 											"Elemental",
-											"{@skill 奥秘} or {@skill 自然}"
+											"{@skill 奧秘} or {@skill 自然}"
 										],
 										[
 											"Fey",
-											"{@skill 奥秘} or {@skill 自然}"
+											"{@skill 奧秘} or {@skill 自然}"
 										],
 										[
 											"Fiend",
-											"{@skill 奥秘} or {@skill 宗教}"
+											"{@skill 奧秘} or {@skill 宗教}"
 										],
 										[
 											"Giant",
-											"{@skill 历史}"
+											"{@skill 歷史}"
 										],
 										[
 											"Humanoid",
-											"{@skill 历史}"
+											"{@skill 歷史}"
 										],
 										[
 											"Monstrosity",
@@ -5312,7 +5312,7 @@
 										],
 										[
 											"Ooze",
-											"{@skill 奥秘} or {@skill 生存}"
+											"{@skill 奧秘} or {@skill 生存}"
 										],
 										[
 											"Plant",
@@ -5320,7 +5320,7 @@
 										],
 										[
 											"Undead",
-											"{@skill 奥秘} or {@skill 宗教}"
+											"{@skill 奧秘} or {@skill 宗教}"
 										]
 									]
 								}
@@ -5837,7 +5837,7 @@
 											"rows": [
 												[
 													"01\u201306",
-													"Golden light fills a 20-foot-radius, 40-foot-high cylinder centered on one character in the region and then fades. That character and their friends in the cylinder gain the benefits of the {@spell 神恩术} spell for 1 hour."
+													"Golden light fills a 20-foot-radius, 40-foot-high cylinder centered on one character in the region and then fades. That character and their friends in the cylinder gain the benefits of the {@spell 神恩術} spell for 1 hour."
 												],
 												[
 													"07\u201312",
@@ -5865,11 +5865,11 @@
 												],
 												[
 													"43\u201348",
-													"One character in the region hears whispers from celestial beings or refrains of celestial choirs. The character can ask those voices one question as if using the {@spell 通神术} spell."
+													"One character in the region hears whispers from celestial beings or refrains of celestial choirs. The character can ask those voices one question as if using the {@spell 通神術} spell."
 												],
 												[
 													"49\u201354",
-													"Aberrations, fiends, and undead in the region give off a crimson glow for 1 minute. The creatures shed dim light in a 10-foot radius, attacks against them have advantage if the attacker can see them, and the creatures can't benefit from being {@condition 隐形}."
+													"Aberrations, fiends, and undead in the region give off a crimson glow for 1 minute. The creatures shed dim light in a 10-foot radius, attacks against them have advantage if the attacker can see them, and the creatures can't benefit from being {@condition 隱形}."
 												],
 												[
 													"55\u201360",
@@ -5877,23 +5877,23 @@
 												],
 												[
 													"61\u201366",
-													"One character in the region feels a profound sense of purpose and gains the benefit of the {@spell 祝福术} spell for 1 minute. They can choose two other creatures they can see to gain the spell's benefits as well."
+													"One character in the region feels a profound sense of purpose and gains the benefit of the {@spell 祝福術} spell for 1 minute. They can choose two other creatures they can see to gain the spell's benefits as well."
 												],
 												[
 													"67\u201372",
-													"A booming voice thunders in Celestial and can be heard throughout the region. Each creature in the region must make a DC 15 Constitution saving throw. On a success, the creature gains {@dice 2d10} temporary hit points. On a failure, the creature is {@condition 耳聋} for 1 minute."
+													"A booming voice thunders in Celestial and can be heard throughout the region. Each creature in the region must make a DC 15 Constitution saving throw. On a success, the creature gains {@dice 2d10} temporary hit points. On a failure, the creature is {@condition 耳聾} for 1 minute."
 												],
 												[
 													"73\u201378",
-													"One character in the region gains the ability to cure afflictions for 1 hour. As an action, they can cast {@spell 次级复原术} or {@spell 高等复原术} without expending a spell slot and requiring no material components."
+													"One character in the region gains the ability to cure afflictions for 1 hour. As an action, they can cast {@spell 次級復原術} or {@spell 高等復原術} without expending a spell slot and requiring no material components."
 												],
 												[
 													"79\u201384",
-													"The effects of a {@spell 圣居} spell (save DC 17), with one of its extra effects (DM's choice), settle over the region for 24 hours."
+													"The effects of a {@spell 聖居} spell (save DC 17), with one of its extra effects (DM's choice), settle over the region for 24 hours."
 												],
 												[
 													"85\u201390",
-													"An angelic voice rings throughout the region. Each creature there must succeed on a DC 15 Wisdom saving throw or perform the grovel option of the {@spell 命令术} spell."
+													"An angelic voice rings throughout the region. Each creature there must succeed on a DC 15 Wisdom saving throw or perform the grovel option of the {@spell 命令術} spell."
 												],
 												[
 													"91\u201395",
@@ -5948,7 +5948,7 @@
 											"rows": [
 												[
 													"01\u201309",
-													"A structure in the region whispers faintly. Any creature within 60 feet of the structure that can hear it must succeed on a DC 12 Wisdom saving throw or be {@condition 魅惑}. While {@condition 魅惑} in this way, the creature must move toward the source of the whispering, avoiding obvious hazards. When it reaches the source, it is {@condition 无力}. The creature can repeat the saving throw when it takes damage and at the end of every hour, ending the effect on itself on a success."
+													"A structure in the region whispers faintly. Any creature within 60 feet of the structure that can hear it must succeed on a DC 12 Wisdom saving throw or be {@condition 魅惑}. While {@condition 魅惑} in this way, the creature must move toward the source of the whispering, avoiding obvious hazards. When it reaches the source, it is {@condition 無力}. The creature can repeat the saving throw when it takes damage and at the end of every hour, ending the effect on itself on a success."
 												],
 												[
 													"10\u201318",
@@ -5956,7 +5956,7 @@
 												],
 												[
 													"19\u201327",
-													"Local plants and animals share a malevolent intelligence. Roll a {@dice d6}. On a 1\u20132, an {@spell 疫病虫群} spell is centered on one random creature in the region. On a 3\u20134, {@dice 1d4} {@creature Swarm of Ravens||swarms of ravens} and {@dice 1d4} {@creature Swarm of Rats||swarms of rats} gather and attack any other creatures in the region. On a 5\u20136, a {@creature treant} (in forested terrain) or a {@creature galeb duhr} (in rockier terrain) attacks."
+													"Local plants and animals share a malevolent intelligence. Roll a {@dice d6}. On a 1\u20132, an {@spell 疫病蟲群} spell is centered on one random creature in the region. On a 3\u20134, {@dice 1d4} {@creature Swarm of Ravens||swarms of ravens} and {@dice 1d4} {@creature Swarm of Rats||swarms of rats} gather and attack any other creatures in the region. On a 5\u20136, a {@creature treant} (in forested terrain) or a {@creature galeb duhr} (in rockier terrain) attacks."
 												],
 												[
 													"28\u201336",
@@ -5972,7 +5972,7 @@
 												],
 												[
 													"55\u201363",
-													"Bizarre appendages squirm beneath the ground and around trees or other structures within this region. Dozens of limbs burst forth, entangling anyone within a 30-foot sphere surrounding one random creature. Each creature in the sphere must succeed on a DC 14 Dexterity saving throw or take {@dice 3d6} bludgeoning damage and be {@condition 束缚}. Any creature that ends its turn in the area takes {@dice 3d6} bludgeoning damage. A creature can free itself or someone else within reach from being {@condition 束缚} in this way by using an action to make a successful DC 14 Strength or Dexterity check (its choice)."
+													"Bizarre appendages squirm beneath the ground and around trees or other structures within this region. Dozens of limbs burst forth, entangling anyone within a 30-foot sphere surrounding one random creature. Each creature in the sphere must succeed on a DC 14 Dexterity saving throw or take {@dice 3d6} bludgeoning damage and be {@condition 束縛}. Any creature that ends its turn in the area takes {@dice 3d6} bludgeoning damage. A creature can free itself or someone else within reach from being {@condition 束縛} in this way by using an action to make a successful DC 14 Strength or Dexterity check (its choice)."
 												],
 												[
 													"64\u201372",
@@ -5980,11 +5980,11 @@
 												],
 												[
 													"73\u201379",
-													"One random creature in the region hears strange whispers and must succeed on a DC 14 Wisdom saving throw or become {@condition 魅惑}. While {@condition 魅惑} in this way, the creature focuses on copying the blasphemous designs that appear in its mind using whatever medium it has available (ink, charcoal, mud, or its own blood). Unless {@condition 束缚}, the creature completes the designs in 1 hour of work. When the creature finishes its work, it is no longer {@condition 魅惑}, and a {@creature death slaad} appears within 30 feet of it and attacks anyone in sight."
+													"One random creature in the region hears strange whispers and must succeed on a DC 14 Wisdom saving throw or become {@condition 魅惑}. While {@condition 魅惑} in this way, the creature focuses on copying the blasphemous designs that appear in its mind using whatever medium it has available (ink, charcoal, mud, or its own blood). Unless {@condition 束縛}, the creature completes the designs in 1 hour of work. When the creature finishes its work, it is no longer {@condition 魅惑}, and a {@creature death slaad} appears within 30 feet of it and attacks anyone in sight."
 												],
 												[
 													"80\u201385",
-													"Natural features and structures in this region writhe to spell out words and form strange symbols. Any creature that tries to read the messages must make a DC 20 Intelligence ({@skill 奥秘}) check. On a success, the creature gains insight as if it had cast the {@spell 异界探知} spell. On a failure, the creature is affected as if it failed a saving throw against the {@spell 困惑术} spell. This effect ends at the end of the creature's next turn."
+													"Natural features and structures in this region writhe to spell out words and form strange symbols. Any creature that tries to read the messages must make a DC 20 Intelligence ({@skill 奧秘}) check. On a success, the creature gains insight as if it had cast the {@spell 異界探知} spell. On a failure, the creature is affected as if it failed a saving throw against the {@spell 困惑術} spell. This effect ends at the end of the creature's next turn."
 												],
 												[
 													"86\u201390",
@@ -5996,7 +5996,7 @@
 												],
 												[
 													"96\u201300",
-													"A tear in reality creates a rift in the region, similar to the spell {@spell 异界之门}, that passes through the Far Realm and connects with a random plane. Any creature that enters the rift takes {@dice 10d10} psychic damage from the horrors of the Far Realm and appears in an empty space closest to the rift's opening on another random plane. The rift vanishes after {@dice 2d10 + 2} hours."
+													"A tear in reality creates a rift in the region, similar to the spell {@spell 異界之門}, that passes through the Far Realm and connects with a random plane. Any creature that enters the rift takes {@dice 10d10} psychic damage from the horrors of the Far Realm and appears in an empty space closest to the rift's opening on another random plane. The rift vanishes after {@dice 2d10 + 2} hours."
 												]
 											]
 										}
@@ -6013,7 +6013,7 @@
 										{
 											"type": "list",
 											"items": [
-												"A creature gains the {@condition 恐惧} condition.",
+												"A creature gains the {@condition 恐懼} condition.",
 												"Multiple creatures are unable to see.",
 												"A creature is alone.",
 												"Midnight or another ominous hour arrives.",
@@ -6048,7 +6048,7 @@
 												],
 												[
 													"06\u201310",
-													"A random building in the region gains the benefits of the {@spell 铜墙铁壁} spell (save DC 13) for the next 24 hours."
+													"A random building in the region gains the benefits of the {@spell 銅牆鐵壁} spell (save DC 13) for the next 24 hours."
 												],
 												[
 													"11\u201315",
@@ -6072,11 +6072,11 @@
 												],
 												[
 													"36\u201340",
-													"During the next night, one random sleeping creature vanishes and reappears approximately a foot beneath where they were sleeping\u2014typically buried in undisturbed dirt or in a space beneath floorboards. The creature or someone else can free it with a successful DC 13 Strength ({@skill 运动}) check."
+													"During the next night, one random sleeping creature vanishes and reappears approximately a foot beneath where they were sleeping\u2014typically buried in undisturbed dirt or in a space beneath floorboards. The creature or someone else can free it with a successful DC 13 Strength ({@skill 運動}) check."
 												],
 												[
 													"41\u201345",
-													"One random creature in the region is targeted by the {@spell 浮空术} spell (save DC 15) for 1 minute."
+													"One random creature in the region is targeted by the {@spell 浮空術} spell (save DC 15) for 1 minute."
 												],
 												[
 													"46\u201350",
@@ -6104,19 +6104,19 @@
 												],
 												[
 													"76\u201380",
-													"During the next night, one sleeping character in the region receives a vision as if the target of the {@spell 托梦术} spell. The dream is brief and unsettling, revealing some element of the environment's history and putting the character in the place of someone who suffered a grim fate there."
+													"During the next night, one sleeping character in the region receives a vision as if the target of the {@spell 託夢術} spell. The dream is brief and unsettling, revealing some element of the environment's history and putting the character in the place of someone who suffered a grim fate there."
 												],
 												[
 													"81\u201385",
-													"A coffin or small enclosed space in the region\u2014perhaps an antique box, stone cairn, or tree stump sealed with rocks\u2014radiates palpable malice. The first time a creature opens it, roll a die. If you roll an even number, the creature receives a terrible vision and is {@condition 恐惧} of all creatures for the next 24 hours. If you roll an odd number, an {@creature avatar of death|DMG} appears and attacks as though summoned by the Skull card from a {@item deck of many things}."
+													"A coffin or small enclosed space in the region\u2014perhaps an antique box, stone cairn, or tree stump sealed with rocks\u2014radiates palpable malice. The first time a creature opens it, roll a die. If you roll an even number, the creature receives a terrible vision and is {@condition 恐懼} of all creatures for the next 24 hours. If you roll an odd number, an {@creature avatar of death|DMG} appears and attacks as though summoned by the Skull card from a {@item deck of many things}."
 												],
 												[
 													"86\u201390",
-													"Over the next 24 hours, whenever any creature in the region regains hit points from a spell, the healing magic leaves scars. This might be accompanied by a purging of black bile or a spectral force tearing free from the creature. These scars can be removed only by {@spell 高等复原术} or {@spell 祈愿术}."
+													"Over the next 24 hours, whenever any creature in the region regains hit points from a spell, the healing magic leaves scars. This might be accompanied by a purging of black bile or a spectral force tearing free from the creature. These scars can be removed only by {@spell 高等復原術} or {@spell 祈願術}."
 												],
 												[
 													"91\u201395",
-													"For 24 hours, a luminous wisp of vapor floats above a corpse or grave in the region. If the wisp is put in a container, a creature holding the receptacle can cast the {@spell 复活术} spell once, requiring no components and causing the wisp to vanish. Any creature returned to life in this way experiences strange dreams."
+													"For 24 hours, a luminous wisp of vapor floats above a corpse or grave in the region. If the wisp is put in a container, a creature holding the receptacle can cast the {@spell 復活術} spell once, requiring no components and causing the wisp to vanish. Any creature returned to life in this way experiences strange dreams."
 												],
 												[
 													"96\u201300",
@@ -6175,7 +6175,7 @@
 												],
 												[
 													"11\u201315",
-													"A swarm of bioluminescent flies converges on one random creature in the region. For the next minute, the creature sheds dim light in a 10-foot radius, any attack against it has advantage if the attacker can see it, and the creature can't benefit from being {@condition 隐形}."
+													"A swarm of bioluminescent flies converges on one random creature in the region. For the next minute, the creature sheds dim light in a 10-foot radius, any attack against it has advantage if the attacker can see it, and the creature can't benefit from being {@condition 隱形}."
 												],
 												[
 													"16\u201320",
@@ -6199,11 +6199,11 @@
 												],
 												[
 													"46\u201350",
-													"Nearly every surface is covered with discarded cicadae-like shells that crunch loudly when trod upon, imposing disadvantage on Dexterity ({@skill 隐匿}) checks made while moving across them. The shells vanish after 1 hour."
+													"Nearly every surface is covered with discarded cicadae-like shells that crunch loudly when trod upon, imposing disadvantage on Dexterity ({@skill 隱匿}) checks made while moving across them. The shells vanish after 1 hour."
 												],
 												[
 													"51\u201355",
-													"A massive, bloated maggot emerges from the ground within 10 feet of the party and bursts, covering the ground with ichor in a 10-foot square centered on it. This region is affected by the {@spell 油腻术} spell (save DC 13) for 1 minute."
+													"A massive, bloated maggot emerges from the ground within 10 feet of the party and bursts, covering the ground with ichor in a 10-foot square centered on it. This region is affected by the {@spell 油膩術} spell (save DC 13) for 1 minute."
 												],
 												[
 													"56\u201360",
@@ -6219,7 +6219,7 @@
 												],
 												[
 													"71\u201375",
-													"One of the characters in the region must succeed on a DC 15 Wisdom saving throw or be transformed into a giant spider, as if by the {@spell 变形术} spell. The spell lasts for 1 hour or until dispelled."
+													"One of the characters in the region must succeed on a DC 15 Wisdom saving throw or be transformed into a giant spider, as if by the {@spell 變形術} spell. The spell lasts for 1 hour or until dispelled."
 												],
 												[
 													"76\u201380",
@@ -6286,7 +6286,7 @@
 											"rows": [
 												[
 													"01\u201306",
-													"Creatures in the region begin to display features other than their own for the next 24 hours. During that time, affected creatures have advantage on Charisma ({@skill 欺瞒}) checks and ability checks made to disguise themselves."
+													"Creatures in the region begin to display features other than their own for the next 24 hours. During that time, affected creatures have advantage on Charisma ({@skill 欺瞞}) checks and ability checks made to disguise themselves."
 												],
 												[
 													"07\u201312",
@@ -6294,11 +6294,11 @@
 												],
 												[
 													"13\u201318",
-													"One random creature in the region gains the benefits of the {@spell 闪现术} spell for 1 minute, shimmering with overlapping shattered reflections."
+													"One random creature in the region gains the benefits of the {@spell 閃現術} spell for 1 minute, shimmering with overlapping shattered reflections."
 												],
 												[
 													"19\u201324",
-													"Creatures in the region don't cast reflections. Wisdom ({@skill 洞悉}) checks made against those creatures have disadvantage, and the creatures have disadvantage on Charisma ({@skill 说服}) checks made against anyone who notices their lack of reflection. When they leave the region, creatures regain their reflections, and the effect ends."
+													"Creatures in the region don't cast reflections. Wisdom ({@skill 洞悉}) checks made against those creatures have disadvantage, and the creatures have disadvantage on Charisma ({@skill 說服}) checks made against anyone who notices their lack of reflection. When they leave the region, creatures regain their reflections, and the effect ends."
 												],
 												[
 													"25\u201334",
@@ -6306,15 +6306,15 @@
 												],
 												[
 													"35\u201340",
-													"One character in the region gains the benefit of the {@spell 镜影术} spell. The images created sometimes move or speak of their own volition."
+													"One character in the region gains the benefit of the {@spell 鏡影術} spell. The images created sometimes move or speak of their own volition."
 												],
 												[
 													"41\u201346",
-													"For the next 24 hours, certain wounds caused in the region attract spectral slivers of glass that cause extra damage. Any creature, other than a construct or an undead, hit by an attack that deals piercing or slashing damage begins to bleed, losing {@dice 1d4} hit points at the start of each of its turns. If the bleeding creature is hit by another such attack, the bleeding increases by {@dice 1d4}. Any creature can take an action to stanch the wound with a successful DC 10 Wisdom ({@skill 医疗}) check. The bleeding also stops if the target receives magical healing."
+													"For the next 24 hours, certain wounds caused in the region attract spectral slivers of glass that cause extra damage. Any creature, other than a construct or an undead, hit by an attack that deals piercing or slashing damage begins to bleed, losing {@dice 1d4} hit points at the start of each of its turns. If the bleeding creature is hit by another such attack, the bleeding increases by {@dice 1d4}. Any creature can take an action to stanch the wound with a successful DC 10 Wisdom ({@skill 醫療}) check. The bleeding also stops if the target receives magical healing."
 												],
 												[
 													"47\u201352",
-													"Mirrors and other highly reflective surfaces allow magical transport while in the region. Any creature that touches its reflection in an object that it isn't wearing or carrying can immediately cast the {@spell 迷踪步} spell, requiring no components."
+													"Mirrors and other highly reflective surfaces allow magical transport while in the region. Any creature that touches its reflection in an object that it isn't wearing or carrying can immediately cast the {@spell 迷蹤步} spell, requiring no components."
 												],
 												[
 													"53\u201358",
@@ -6338,7 +6338,7 @@
 												],
 												[
 													"83\u201388",
-													"The next time one character in the party sees their reflection in the region, that reflection of comes to life and engages its counterpart in conversation. It offers to answer one question posed to it as if the creature cast the {@spell 预言术} spell. After answering the question, the reflection returns to normal."
+													"The next time one character in the party sees their reflection in the region, that reflection of comes to life and engages its counterpart in conversation. It offers to answer one question posed to it as if the creature cast the {@spell 預言術} spell. After answering the question, the reflection returns to normal."
 												],
 												[
 													"89\u201394",
@@ -6365,7 +6365,7 @@
 											"items": [
 												"A creature endures a powerful emotional experience.",
 												"A creature takes an amount of psychic damage greater than its Constitution score.",
-												"A creature becomes {@condition 魅惑} or {@condition 恐惧}.",
+												"A creature becomes {@condition 魅惑} or {@condition 恐懼}.",
 												"A creature experiences telepathic communication."
 											]
 										},
@@ -6393,11 +6393,11 @@
 											"rows": [
 												[
 													"01\u201306",
-													"One random creature in the region gains the ability to cast the {@spell 侦测思想} spell (save DC 13) once over the next 24 hours, requiring no components. Intelligence is the spellcasting ability for this spell."
+													"One random creature in the region gains the ability to cast the {@spell 偵測思想} spell (save DC 13) once over the next 24 hours, requiring no components. Intelligence is the spellcasting ability for this spell."
 												],
 												[
 													"07\u201312",
-													"One random creature in the region is affected by the {@spell 心灵屏障} spell for the next 24 hours."
+													"One random creature in the region is affected by the {@spell 心靈屏障} spell for the next 24 hours."
 												],
 												[
 													"13\u201318",
@@ -6409,7 +6409,7 @@
 												],
 												[
 													"25\u201334",
-													"Headaches and nosebleeds plague humanoids in the region, imposing disadvantage on Wisdom ({@skill 察觉}) checks for 1 hour."
+													"Headaches and nosebleeds plague humanoids in the region, imposing disadvantage on Wisdom ({@skill 察覺}) checks for 1 hour."
 												],
 												[
 													"35\u201340",
@@ -6425,7 +6425,7 @@
 												],
 												[
 													"53\u201358",
-													"One random creature in the region can sense the presence of nearby minds for 1 hour. For the duration, the creature gains advantage on Wisdom ({@skill 察觉}) checks made to locate other creatures within 120 feet of it, even creatures behind total cover."
+													"One random creature in the region can sense the presence of nearby minds for 1 hour. For the duration, the creature gains advantage on Wisdom ({@skill 察覺}) checks made to locate other creatures within 120 feet of it, even creatures behind total cover."
 												],
 												[
 													"59\u201364",
@@ -6437,7 +6437,7 @@
 												],
 												[
 													"71\u201376",
-													"One random creature in the region gains the ability to cast the {@spell 心灵遥控} spell (save DC 15) once over the next 24 hours, requiring no components. Intelligence is the spellcasting ability for this spell."
+													"One random creature in the region gains the ability to cast the {@spell 心靈遙控} spell (save DC 15) once over the next 24 hours, requiring no components. Intelligence is the spellcasting ability for this spell."
 												],
 												[
 													"77\u201382",
@@ -6463,7 +6463,7 @@
 											"page": 161,
 											"id": "380",
 											"entries": [
-												"Legends are filled with natural forces and mundane objects that take on humanoid characteristics to guide or confound heroes: statues that sing, animals that whisper secrets, clouds that speak their mind. While monsters like elementals, {@creature galeb duhr}, and {@creature Treant||treants} represent natural forces brought to life, not every chatty rock or sagacious stream needs a stat block. Perhaps your adventures take a party to a land where plants speak freely or a cursed realm where petrified souls beg for help. Don't feel restricted by the options in the {@book Monster Manual|MM} or by the limitations of the {@spell Animate Objects||animate object} spell should you want to breathe extra life into your story. Filling a witch's redoubt with murmuring relics, a fey forest with eavesdropping vegetation, or a sky god's temple with avian choirs makes a place especially memorable. Spells such as {@spell 活化物体}, {@spell 启蒙术}, {@spell 动物交谈术}, {@spell 植物交谈术}, and the like provide guidance on how to bring commonplace creatures and objects to life."
+												"Legends are filled with natural forces and mundane objects that take on humanoid characteristics to guide or confound heroes: statues that sing, animals that whisper secrets, clouds that speak their mind. While monsters like elementals, {@creature galeb duhr}, and {@creature Treant||treants} represent natural forces brought to life, not every chatty rock or sagacious stream needs a stat block. Perhaps your adventures take a party to a land where plants speak freely or a cursed realm where petrified souls beg for help. Don't feel restricted by the options in the {@book Monster Manual|MM} or by the limitations of the {@spell Animate Objects||animate object} spell should you want to breathe extra life into your story. Filling a witch's redoubt with murmuring relics, a fey forest with eavesdropping vegetation, or a sky god's temple with avian choirs makes a place especially memorable. Spells such as {@spell 活化物體}, {@spell 啟蒙術}, {@spell 動物交談術}, {@spell 植物交談術}, and the like provide guidance on how to bring commonplace creatures and objects to life."
 											]
 										}
 									]
@@ -6512,11 +6512,11 @@
 												],
 												[
 													"06\u201310",
-													"The region becomes a dead-magic zone for 1 hour. For the duration, the entire region is affected by the {@spell 反魔法结界} spell."
+													"The region becomes a dead-magic zone for 1 hour. For the duration, the entire region is affected by the {@spell 反魔法結界} spell."
 												],
 												[
 													"11\u201315",
-													"One random creature in the region must succeed on a DC 15 Dexterity saving throw or be enclosed in {@spell 欧提路克魔封法球} for 1 minute."
+													"One random creature in the region must succeed on a DC 15 Dexterity saving throw or be enclosed in {@spell 歐提路克魔封法球} for 1 minute."
 												],
 												[
 													"16\u201320",
@@ -6528,7 +6528,7 @@
 												],
 												[
 													"26\u201330",
-													"One of the characters in the region must succeed on a DC 15 Wisdom saving throw or be transformed into a {@creature blink dog}, as if by the {@spell 变形术} spell. The spell lasts for 1 hour or until dispelled."
+													"One of the characters in the region must succeed on a DC 15 Wisdom saving throw or be transformed into a {@creature blink dog}, as if by the {@spell 變形術} spell. The spell lasts for 1 hour or until dispelled."
 												],
 												[
 													"31\u201335",
@@ -6544,7 +6544,7 @@
 												],
 												[
 													"46\u201350",
-													"The {@spell 炽焰法球} spell (save DC 15) spontaneously activates in an unoccupied space within 5 feet of the party. On initiative count 20 (losing all ties), the sphere moves 30 feet toward the nearest creature. The sphere vanishes after 1 minute."
+													"The {@spell 熾焰法球} spell (save DC 15) spontaneously activates in an unoccupied space within 5 feet of the party. On initiative count 20 (losing all ties), the sphere moves 30 feet toward the nearest creature. The sphere vanishes after 1 minute."
 												],
 												[
 													"51\u201355",
@@ -6568,7 +6568,7 @@
 												],
 												[
 													"76\u201380",
-													"The {@spell 重力反转} spell (save DC 18) activates for 1 minute, centered on the ground beneath one random creature in the region."
+													"The {@spell 重力反轉} spell (save DC 18) activates for 1 minute, centered on the ground beneath one random creature in the region."
 												],
 												[
 													"81\u201385",
@@ -6584,7 +6584,7 @@
 												],
 												[
 													"96\u201300",
-													"One random creature in the region can suddenly cast the {@spell 祈愿术} spell once, within the next minute. Reroll if you've rolled this effect in the past 24 hours."
+													"One random creature in the region can suddenly cast the {@spell 祈願術} spell once, within the next minute. Reroll if you've rolled this effect in the past 24 hours."
 												]
 											]
 										}
@@ -6634,7 +6634,7 @@
 									"page": 164,
 									"id": "387",
 									"entries": [
-										"Occasionally a place becomes infused with the powerful emotions of those who once dwelt, worked, celebrated, or suffered there. Areas with emotional echoes are typically associated with one common emotion, such as joy or sorrow. Such an area might be as small as a room in a house or as large as a forest. Once per day, if a creature within the area expresses even the faintest hint of the prevailing emotion, the land seeks to hold onto that creature and inspire it to produce more of the feeling tied to the emotional echo. The creature is targeted by a {@spell 暗示术} spell (DC 16), with the intent of making it linger in the area and perform an act related to its associated emotion. The effect lasts 24 hours.",
+										"Occasionally a place becomes infused with the powerful emotions of those who once dwelt, worked, celebrated, or suffered there. Areas with emotional echoes are typically associated with one common emotion, such as joy or sorrow. Such an area might be as small as a room in a house or as large as a forest. Once per day, if a creature within the area expresses even the faintest hint of the prevailing emotion, the land seeks to hold onto that creature and inspire it to produce more of the feeling tied to the emotional echo. The creature is targeted by a {@spell 暗示術} spell (DC 16), with the intent of making it linger in the area and perform an act related to its associated emotion. The effect lasts 24 hours.",
 										" The following list notes some of the most common emotional echoes, where they tend to appear, and how they typically influence creatures:",
 										{
 											"type": "entries",
@@ -6736,7 +6736,7 @@
 											"rows": [
 												[
 													"1",
-													"Any creature that touches or drinks the water of this spring feels blessed. The creature gains the benefits of a {@spell 祝福术} spell for 1 hour."
+													"Any creature that touches or drinks the water of this spring feels blessed. The creature gains the benefits of a {@spell 祝福術} spell for 1 hour."
 												],
 												[
 													"2",
@@ -6748,11 +6748,11 @@
 												],
 												[
 													"4",
-													"Bathing in the spring grants a creature the benefits of the {@spell 高等复原术} spell. As a side effect, the creature's skin, hair, and eyes become a shimmering golden color for {@dice 1d4} days."
+													"Bathing in the spring grants a creature the benefits of the {@spell 高等復原術} spell. As a side effect, the creature's skin, hair, and eyes become a shimmering golden color for {@dice 1d4} days."
 												],
 												[
 													"5",
-													"Bathing in the spring grants a creature the benefits of the {@spell 蛛行术} spell for 24 hours."
+													"Bathing in the spring grants a creature the benefits of the {@spell 蛛行術} spell for 24 hours."
 												],
 												[
 													"6",
@@ -6760,7 +6760,7 @@
 												],
 												[
 													"7",
-													"Any creature with an Intelligence score of 6 or higher that touches or drinks the water of this spring gains advantage on Wisdom ({@skill 洞悉}) checks and can cast the {@spell 侦测思想} spell once, requiring no components. The effects of the spring fade when either the spell is used or 24 hours pass, whichever happens first."
+													"Any creature with an Intelligence score of 6 or higher that touches or drinks the water of this spring gains advantage on Wisdom ({@skill 洞悉}) checks and can cast the {@spell 偵測思想} spell once, requiring no components. The effects of the spring fade when either the spell is used or 24 hours pass, whichever happens first."
 												],
 												[
 													"8",
@@ -6768,19 +6768,19 @@
 												],
 												[
 													"9",
-													"A creature that touches or drinks the water of this spring grows {@dice 1d4} eyestalks. These eyestalks let the creature see in all directions and grant it advantage on Wisdom ({@skill 察觉}) checks that rely on sight. The eyestalks vanish after {@dice 1d4} days."
+													"A creature that touches or drinks the water of this spring grows {@dice 1d4} eyestalks. These eyestalks let the creature see in all directions and grant it advantage on Wisdom ({@skill 察覺}) checks that rely on sight. The eyestalks vanish after {@dice 1d4} days."
 												],
 												[
 													"10",
-													"Bathing in the spring causes a creature's voice to sound sinister. For the next 24 hours, the creature's voice grants it advantage on Charisma ({@skill 威吓}) checks and disadvantage on Charisma ({@skill 欺瞒}) and Charisma ({@skill 说服}) checks."
+													"Bathing in the spring causes a creature's voice to sound sinister. For the next 24 hours, the creature's voice grants it advantage on Charisma ({@skill 威嚇}) checks and disadvantage on Charisma ({@skill 欺瞞}) and Charisma ({@skill 說服}) checks."
 												],
 												[
 													"11",
-													"A creature that touches or drinks the water of this spring grows a set of donkey ears. The ears grant the creature advantage on Wisdom ({@skill 察觉}) checks that rely on hearing. The ears vanish after {@dice 1d4} days."
+													"A creature that touches or drinks the water of this spring grows a set of donkey ears. The ears grant the creature advantage on Wisdom ({@skill 察覺}) checks that rely on hearing. The ears vanish after {@dice 1d4} days."
 												],
 												[
 													"12",
-													"Bathing in the spring causes a creature to develop a third eye on its forehead. The eye grants the creature {@sense 真实视觉} out to a range of 60 feet. The eye vanishes after 24 hours."
+													"Bathing in the spring causes a creature to develop a third eye on its forehead. The eye grants the creature {@sense 真實視覺} out to a range of 60 feet. The eye vanishes after 24 hours."
 												]
 											]
 										},
@@ -6803,7 +6803,7 @@
 									"id": "391",
 									"entries": [
 										"Mushrooms can be deadly, delicious, or both. Some have magical properties, especially those that grow in areas suffused by mystical energy, such as the Underdark and the Feywild.",
-										" Creatures proficient in the {@skill 医疗}, {@skill 自然}, or {@skill 生存} skills might be versed on the subject of fungi, especially the magical kind, since the beneficial effects can save lives or bestow unusual powers. But when an unknown variety of fungus is encountered, only an expert can identify it and determine its properties.",
+										" Creatures proficient in the {@skill 醫療}, {@skill 自然}, or {@skill 生存} skills might be versed on the subject of fungi, especially the magical kind, since the beneficial effects can save lives or bestow unusual powers. But when an unknown variety of fungus is encountered, only an expert can identify it and determine its properties.",
 										" To determine the effects of eating such fungus, roll on the Magic Mushroom Effects table. ",
 										{
 											"type": "table",
@@ -6819,11 +6819,11 @@
 											"rows": [
 												[
 													"1",
-													"The creature's skin turns an unusual color. Roll a {@dice d4}: 1, purple with yellow splotches; 2, bright orange with tiger stripes; 3, tree-frog green with red squiggles; 4, hot pink with yellow spots. This change is permanent unless removed by a {@spell 高等复原术} spell or similar magic."
+													"The creature's skin turns an unusual color. Roll a {@dice d4}: 1, purple with yellow splotches; 2, bright orange with tiger stripes; 3, tree-frog green with red squiggles; 4, hot pink with yellow spots. This change is permanent unless removed by a {@spell 高等復原術} spell or similar magic."
 												],
 												[
 													"2",
-													"The creature gains the enlarge or reduce effect (50 percent chance of either) of the {@spell 变巨/缩小术} spell for 1 hour."
+													"The creature gains the enlarge or reduce effect (50 percent chance of either) of the {@spell 變巨/縮小術} spell for 1 hour."
 												],
 												[
 													"3",
@@ -6831,7 +6831,7 @@
 												],
 												[
 													"4",
-													"Vocally, the creature can only cluck and croon like a chicken. The creature can also understand and speak to chickens. This curse lasts for 1 hour unless ended by a {@spell 移除诅咒} spell or similar magic."
+													"Vocally, the creature can only cluck and croon like a chicken. The creature can also understand and speak to chickens. This curse lasts for 1 hour unless ended by a {@spell 移除詛咒} spell or similar magic."
 												],
 												[
 													"5",
@@ -6839,23 +6839,23 @@
 												],
 												[
 													"6",
-													"The creature gains the benefits of the {@spell 心灵感应} spell for the next 24 hours."
+													"The creature gains the benefits of the {@spell 心靈感應} spell for the next 24 hours."
 												],
 												[
 													"7",
-													"The creature gains the benefits of the {@spell 植物交谈术} spell for 8 hours."
+													"The creature gains the benefits of the {@spell 植物交談術} spell for 8 hours."
 												],
 												[
 													"8",
-													"The creature immediately casts the {@spell 时间停止} spell, requiring no components. Constitution is the spellcasting ability for this spell."
+													"The creature immediately casts the {@spell 時間停止} spell, requiring no components. Constitution is the spellcasting ability for this spell."
 												],
 												[
 													"9",
-													"The creature immediately casts the {@spell 侦测思想} spell, requiring no components. Constitution is the spellcasting ability for this spell."
+													"The creature immediately casts the {@spell 偵測思想} spell, requiring no components. Constitution is the spellcasting ability for this spell."
 												],
 												[
 													"10",
-													"Magical mists pour out of the creature's eyes and ears, acting as a {@spell 云雾术} spell for 1 hour that is centered on the creature and moves with it."
+													"Magical mists pour out of the creature's eyes and ears, acting as a {@spell 雲霧術} spell for 1 hour that is centered on the creature and moves with it."
 												]
 											]
 										}
@@ -6888,8 +6888,8 @@
 												{
 													"type": "list",
 													"items": [
-														"The mimic colony chooses up to three creatures within 300 feet of it. Each target must succeed on a DC 15 Strength saving throw or have its speed reduced to 0 until initiative count 20 on the following round, as pieces of the environment grasp the target. If a target fails the save by 5 or more, it is {@condition 束缚} instead for that duration.",
-														"The mimic colony uses the {@action 协助} action, aiding a creature of its choice within 300 feet of it.",
+														"The mimic colony chooses up to three creatures within 300 feet of it. Each target must succeed on a DC 15 Strength saving throw or have its speed reduced to 0 until initiative count 20 on the following round, as pieces of the environment grasp the target. If a target fails the save by 5 or more, it is {@condition 束縛} instead for that duration.",
+														"The mimic colony uses the {@action 協助} action, aiding a creature of its choice within 300 feet of it.",
 														"The mimic colony chooses up to three creatures within 300 feet of it. Each target must succeed on a DC 15 Dexterity saving throw or take 13 ({@dice 3d8}) acid damage, as orifices appear on surfaces in the environment and launch caustic spittle.",
 														"The mimic colony chooses a cube of nonmagical, inanimate material in physical contact with it. The cube can be up to 15 feet on a side. The colony reshapes that material however it likes. This transformation lasts for 1 hour."
 													]
@@ -6917,7 +6917,7 @@
 									"entries": [
 										"In wild places brimming with nature's power, gardens meticulously tended by eccentric wizards, and blessed groves touched by divine providence, plants can sometimes produce fruit bursting with primal magic. Not every fruit-bearing plant holds this stored magic, but those that do bear obvious signs: their colors are more vibrant or shift randomly, their skin sparkles in the light or glows in the dark, soft hums emanate from them, or they feel peculiar to the touch.",
 										" A fruit-bearing plant that is suffused with magic might produce {@dice 1d6} pieces of primal fruit every week. Primal fruit remains potent for 1 week, after which it loses its magical properties but remains edible.",
-										" As an action, a creature can eat a piece of primal fruit to gain its effects. This fruit can be squeezed into juice or cooked into a dish and retains its magic. Choose an effect or roll on the Primal Fruit Effects table to determine what happens when a piece of the fruit is consumed. An {@spell 鉴定术} spell or similar magic reveals the beneficial effect of a piece of fruit before it is eaten, but it doesn't reveal a curse or side effect.",
+										" As an action, a creature can eat a piece of primal fruit to gain its effects. This fruit can be squeezed into juice or cooked into a dish and retains its magic. Choose an effect or roll on the Primal Fruit Effects table to determine what happens when a piece of the fruit is consumed. An {@spell 鑑定術} spell or similar magic reveals the beneficial effect of a piece of fruit before it is eaten, but it doesn't reveal a curse or side effect.",
 										{
 											"type": "image",
 											"href": {
@@ -6958,7 +6958,7 @@
 												],
 												[
 													"5",
-													"Euphoric visions of bright light swim through the creature's mind. The creature gains the benefits of the {@spell 防死护咒} spell for 8 hours and must succeed on a DC 13 Constitution saving throw or be {@condition 中毒} for the duration."
+													"Euphoric visions of bright light swim through the creature's mind. The creature gains the benefits of the {@spell 防死護咒} spell for 8 hours and must succeed on a DC 13 Constitution saving throw or be {@condition 中毒} for the duration."
 												],
 												[
 													"6",
@@ -6966,7 +6966,7 @@
 												],
 												[
 													"7",
-													"The creature doesn't require food, drink, or sleep for {@dice 1d4} days. For the duration, the creature can't be put to sleep by magic, and its dreams intrude upon its waking thoughts, imposing disadvantage on its Wisdom ({@skill 察觉}) checks."
+													"The creature doesn't require food, drink, or sleep for {@dice 1d4} days. For the duration, the creature can't be put to sleep by magic, and its dreams intrude upon its waking thoughts, imposing disadvantage on its Wisdom ({@skill 察覺}) checks."
 												],
 												[
 													"8",
@@ -7077,35 +7077,35 @@
 												],
 												[
 													"Blizzard",
-													"{@spell 寒冰锥}, {@spell 冰风暴}, {@spell 雪雨暴}"
+													"{@spell 寒冰錐}, {@spell 冰風暴}, {@spell 雪雨暴}"
 												],
 												[
 													"Earthquake",
-													"{@spell 地震术}"
+													"{@spell 地震術}"
 												],
 												[
 													"Falling debris",
-													"{@spell 召唤箭幕}, {@spell 召唤箭雨}"
+													"{@spell 召喚箭幕}, {@spell 召喚箭雨}"
 												],
 												[
 													"Flood",
-													"{@spell 操控水体}, {@spell 海啸术}"
+													"{@spell 操控水體}, {@spell 海嘯術}"
 												],
 												[
 													"Fog",
-													"{@spell 云雾术}"
+													"{@spell 雲霧術}"
 												],
 												[
 													"Lava bomb",
-													"{@spell 火球术}, {@spell 燃火术}"
+													"{@spell 火球術}, {@spell 燃火術}"
 												],
 												[
 													"Lightning",
-													"{@spell 召雷术}, {@spell 闪电束}"
+													"{@spell 召雷術}, {@spell 閃電束}"
 												],
 												[
 													"Meteor",
-													"{@spell 火球术}, {@spell 流星爆}"
+													"{@spell 火球術}, {@spell 流星爆}"
 												],
 												[
 													"Mirage",
@@ -7113,55 +7113,55 @@
 												],
 												[
 													"Pyroclastic flow",
-													"{@spell 焚云术}"
+													"{@spell 焚雲術}"
 												],
 												[
 													"Radiation",
-													"{@spell 枯萎术}, {@spell 死亡之环}"
+													"{@spell 枯萎術}, {@spell 死亡之環}"
 												],
 												[
 													"Smoke",
-													"{@spell 云雾术}"
+													"{@spell 雲霧術}"
 												],
 												[
 													"St. Elmo's fire",
-													"{@spell 妖火术}"
+													"{@spell 妖火術}"
 												],
 												[
 													"Swamp gas",
-													"{@spell 舞光术}"
+													"{@spell 舞光術}"
 												],
 												[
 													"Tidal wave",
-													"{@spell 海啸术}"
+													"{@spell 海嘯術}"
 												],
 												[
 													"Toxic eruption",
-													"{@spell 酸液溅爆}"
+													"{@spell 酸液濺爆}"
 												],
 												[
 													"Toxic gas",
-													"{@spell 死云术}, {@spell 臭云术}"
+													"{@spell 死雲術}, {@spell 臭雲術}"
 												],
 												[
 													"Thunder",
-													"{@spell 雷鸣波}"
+													"{@spell 雷鳴波}"
 												],
 												[
 													"Volcanic lightning",
-													"{@spell 复仇风暴}"
+													"{@spell 復仇風暴}"
 												],
 												[
 													"Whirlpool",
-													"{@spell 操控水体}"
+													"{@spell 操控水體}"
 												],
 												[
 													"Wildfire",
-													"{@spell 火焰风暴}, {@spell 火墙术}"
+													"{@spell 火焰風暴}, {@spell 火牆術}"
 												],
 												[
 													"Windstorm",
-													"{@spell 造风术}"
+													"{@spell 造風術}"
 												]
 											]
 										}
@@ -7385,8 +7385,8 @@
 									"id": "3a7",
 									"entries": [
 										"Any character has the option of making these ability checks to receive a hint:",
-										"{@b Intelligence ({@skill 调查}) DC 10}. The character deduces that the number of creatures in a painting is important and uses that number to determine which letter of the creature's name they should review.",
-										"{@b Wisdom ({@skill 察觉}) DC 10}. When looking at the dedication, the words \"count on\" alert the character that they should count the creatures."
+										"{@b Intelligence ({@skill 調查}) DC 10}. The character deduces that the number of creatures in a painting is important and uses that number to determine which letter of the creature's name they should review.",
+										"{@b Wisdom ({@skill 察覺}) DC 10}. When looking at the dedication, the words \"count on\" alert the character that they should count the creatures."
 									]
 								},
 								{
@@ -7476,9 +7476,9 @@
 									"id": "3ae",
 									"entries": [
 										"Any character has the option of making these ability checks to receive a hint:",
-										"{@b Intelligence ({@skill 奥秘}) DC 10}. The character sees one instance of a school of magic on the floor.",
-										"{@b Intelligence ({@skill 调查}) DC 10}. The character interprets the clue in the wall verse: there are eight schools of magic.",
-										"{@b Wisdom ({@skill 察觉}) DC 10}. Each character who succeeds on this check sees an instance of the word \"magic\" in the floor."
+										"{@b Intelligence ({@skill 奧秘}) DC 10}. The character sees one instance of a school of magic on the floor.",
+										"{@b Intelligence ({@skill 調查}) DC 10}. The character interprets the clue in the wall verse: there are eight schools of magic.",
+										"{@b Wisdom ({@skill 察覺}) DC 10}. Each character who succeeds on this check sees an instance of the word \"magic\" in the floor."
 									]
 								},
 								{
@@ -7532,7 +7532,7 @@
 														{
 															"type": "item",
 															"name": "Enchantment.",
-															"entry": "The trap casts {@spell 暗示术} (save DC 15) on the creature that triggered it. On a failed save, a gentle voice only the creature can hear tells it to move 5 feet in a random direction. This movement might cause it to trigger another trap."
+															"entry": "The trap casts {@spell 暗示術} (save DC 15) on the creature that triggered it. On a failed save, a gentle voice only the creature can hear tells it to move 5 feet in a random direction. This movement might cause it to trigger another trap."
 														},
 														{
 															"type": "item",
@@ -7552,7 +7552,7 @@
 														{
 															"type": "item",
 															"name": "Transmutation.",
-															"entry": "The trap casts {@spell 变形术} (save DC 15) on the creature that triggered it. On a failed save, the creature turns into a monster]giant frog[/monster]."
+															"entry": "The trap casts {@spell 變形術} (save DC 15) on the creature that triggered it. On a failed save, the creature turns into a monster]giant frog[/monster]."
 														}
 													]
 												}
@@ -7598,7 +7598,7 @@
 											"height": 941
 										},
 										"Show the players {@area puzzle handout 2|43a|x} (see the end of this chapter) when their characters examine the keys. Each key has a different number of teeth: six, five, four, and three, respectively.",
-										"Each lock has a creature molded in iron above it: a bat, snake, spider, or wolf, respectively. These locks can't be picked. If anything other than the correct key is placed inside a lock, creatures corresponding to the image above the lock ({@dice 1d4} {@creature Giant Bat||giant bats}, {@dice 1d4} {@creature Giant Poisonous Snake||giant poisonous snakes}, {@dice 1d4} {@creature Giant Wolf Spider||giant wolf spiders}, or {@dice 1d4} {@creature Wolf||wolves}) are summoned into the room. Each summoned creature is hostile and disappears after 10 minutes or when reduced to 0 hit points. These beasts can't be {@condition 魅惑} or {@condition 恐惧}."
+										"Each lock has a creature molded in iron above it: a bat, snake, spider, or wolf, respectively. These locks can't be picked. If anything other than the correct key is placed inside a lock, creatures corresponding to the image above the lock ({@dice 1d4} {@creature Giant Bat||giant bats}, {@dice 1d4} {@creature Giant Poisonous Snake||giant poisonous snakes}, {@dice 1d4} {@creature Giant Wolf Spider||giant wolf spiders}, or {@dice 1d4} {@creature Wolf||wolves}) are summoned into the room. Each summoned creature is hostile and disappears after 10 minutes or when reduced to 0 hit points. These beasts can't be {@condition 魅惑} or {@condition 恐懼}."
 									]
 								},
 								{
@@ -7661,7 +7661,7 @@
 												},
 												{
 													"type": "entries",
-													"name": "Wisdom ({@skill 察觉}) DC 10",
+													"name": "Wisdom ({@skill 察覺}) DC 10",
 													"id": "3b9",
 													"entries": [
 														"The character realizes that the keys' skull-shaped heads are all the same and probably have no bearing on the puzzle's solution."
@@ -7891,7 +7891,7 @@
 											"entries": [
 												{
 													"type": "entries",
-													"name": "Intelligence ({@skill 奥秘}) DC 15",
+													"name": "Intelligence ({@skill 奧秘}) DC 15",
 													"id": "3c5",
 													"entries": [
 														"The character can determine that there are spirits imprisoned in the gemstones scattered on the floor."
@@ -7930,7 +7930,7 @@
 											"page": 177,
 											"id": "3c9",
 											"entries": [
-												"To make the puzzle easier to solve, a spirit can provide a hint in addition to giving its name. Coaxing a hint from a spirit requires a successful DC 15 Charisma ({@skill 说服} or {@skill 威吓}) check. Consider hints like \"A is the first letter in the alphabet\" and \"The gemstones, in order, will help for a spell.\""
+												"To make the puzzle easier to solve, a spirit can provide a hint in addition to giving its name. Coaxing a hint from a spirit requires a successful DC 15 Charisma ({@skill 說服} or {@skill 威嚇}) check. Consider hints like \"A is the first letter in the alphabet\" and \"The gemstones, in order, will help for a spell.\""
 											]
 										},
 										{
@@ -8036,7 +8036,7 @@
 											"entries": [
 												{
 													"type": "entries",
-													"name": "Charisma ({@skill 说服}) DC 15",
+													"name": "Charisma ({@skill 說服}) DC 15",
 													"id": "3d3",
 													"entries": [
 														"The goblin provides a hint in the form of a synonym of the riddle's answer (for example, \"lizard\" for \"newt\")."
@@ -8044,7 +8044,7 @@
 												},
 												{
 													"type": "entries",
-													"name": "Intelligence ({@skill 调查}) DC 10",
+													"name": "Intelligence ({@skill 調查}) DC 10",
 													"id": "3d4",
 													"entries": [
 														"After a few riddles are answered correctly, a character notices that all the answers relate to eyes."
@@ -8143,7 +8143,7 @@
 											"entries": [
 												{
 													"type": "entries",
-													"name": "Intelligence ({@skill 调查}) DC 15",
+													"name": "Intelligence ({@skill 調查}) DC 15",
 													"id": "3dd",
 													"entries": [
 														"The verse indicates to the character that four of the skulls need to rest on tiles engraved with stars."
@@ -8255,7 +8255,7 @@
 											"entries": [
 												{
 													"type": "entries",
-													"name": "Intelligence ({@skill 调查}) DC 10",
+													"name": "Intelligence ({@skill 調查}) DC 10",
 													"id": "3e9",
 													"entries": [
 														"The word \"trace\" from the Day 3 entry strikes the character as important, suggesting that the map is meant to be drawn on."
@@ -8271,7 +8271,7 @@
 												},
 												{
 													"type": "entries",
-													"name": "Wisdom ({@skill 察觉}) DC 10",
+													"name": "Wisdom ({@skill 察覺}) DC 10",
 													"id": "3eb",
 													"entries": [
 														"The fact that the expedition lasted three days is significant, as there are three dials."
@@ -8347,7 +8347,7 @@
 											"page": 181,
 											"id": "3f2",
 											"entries": [
-												"All around the wizard's study are shelves and cases filled with books, scrolls, and other supplies. A character who makes a successful DC 12 Intelligence ({@skill 奥秘}) check notices a spell component with no gp value from the list (such as a chip of mica or a bit of bat fur)."
+												"All around the wizard's study are shelves and cases filled with books, scrolls, and other supplies. A character who makes a successful DC 12 Intelligence ({@skill 奧秘}) check notices a spell component with no gp value from the list (such as a chip of mica or a bit of bat fur)."
 											]
 										},
 										{
@@ -8357,7 +8357,7 @@
 											"id": "3f3",
 											"entries": [
 												"The parchment has a list of spells and a list of material components. However, the components to the right don't match with the adjacent spells to the left. The parchment itself doesn't have any magical qualities, but the word it reveals potentially does.",
-												"Wizards and other spellcasters can identify the correct spell components for any spell they know, but they must succeed on the Intelligence ({@skill 奥秘}) checks noted in the \"Hint Checks\" section below to recall the correct material components for any less familiar spells."
+												"Wizards and other spellcasters can identify the correct spell components for any spell they know, but they must succeed on the Intelligence ({@skill 奧秘}) checks noted in the \"Hint Checks\" section below to recall the correct material components for any less familiar spells."
 											]
 										}
 									]
@@ -8394,7 +8394,7 @@
 											"entries": [
 												{
 													"type": "entries",
-													"name": "Intelligence ({@skill 奥秘}) DC 10",
+													"name": "Intelligence ({@skill 奧秘}) DC 10",
 													"id": "3f7",
 													"entries": [
 														"The character recalls up to three of the material components for spells on the list they don't currently know."
@@ -8410,7 +8410,7 @@
 												},
 												{
 													"type": "entries",
-													"name": "Wisdom ({@skill 察觉}) DC 10",
+													"name": "Wisdom ({@skill 察覺}) DC 10",
 													"id": "3f9",
 													"entries": [
 														"The character notices that straight lines drawn between spells and material components cross through some of the letters in the center."
@@ -8498,7 +8498,7 @@
 											"page": 182,
 											"id": "402",
 											"entries": [
-												"If the characters continue watching the door, they see up to four more visitors approach it. To eavesdrop on each exchange, the characters must succeed on a DC 12 group Dexterity ({@skill 隐匿}) check to remain hidden; if the group check fails, the visitor notices they're being observed and speaks quietly enough that their answer can't be overheard.",
+												"If the characters continue watching the door, they see up to four more visitors approach it. To eavesdrop on each exchange, the characters must succeed on a DC 12 group Dexterity ({@skill 隱匿}) check to remain hidden; if the group check fails, the visitor notices they're being observed and speaks quietly enough that their answer can't be overheard.",
 												{
 													"type": "list",
 													"style": "list-hang-notitle",
@@ -8606,7 +8606,7 @@
 											"entries": [
 												{
 													"type": "entries",
-													"name": "Intelligence ({@skill 调查}) DC 15",
+													"name": "Intelligence ({@skill 調查}) DC 15",
 													"id": "406",
 													"entries": [
 														"The character deduces there is no mathematical equation that connects the numbers exchanged between the guard and visitors."
@@ -8699,7 +8699,7 @@
 											"entries": [
 												{
 													"type": "entries",
-													"name": "Intelligence ({@skill 调查}) DC 15",
+													"name": "Intelligence ({@skill 調查}) DC 15",
 													"id": "40f",
 													"entries": [
 														"The character realizes that if diagonal corners add up to ten, it makes filling out the rest of the grid much easier."
@@ -8791,7 +8791,7 @@
 											"id": "416",
 											"entries": [
 												"If the characters don't replace the four fallen tiles in their proper sequence, all four statues revert to their true forms at the same time and attack the characters. The exact timing of this event is left to you, but the characters should be given enough time to take a crack at solving the puzzle. The characters can also release the elementals individually by putting titles in the wrong order or orientation.",
-												"{@area Puzzle handout 6|43e|x} (see the end of this chapter) illustrates the row of tiles set into the wall above the statues. Without a check, the characters realize that four of the tiles fell down when the door slammed shut behind them. With a successful DC 15 Intelligence ({@skill 奥秘}) check, a character can determine that these tiles are what keeps the elementals bound.",
+												"{@area Puzzle handout 6|43e|x} (see the end of this chapter) illustrates the row of tiles set into the wall above the statues. Without a check, the characters realize that four of the tiles fell down when the door slammed shut behind them. With a successful DC 15 Intelligence ({@skill 奧秘}) check, a character can determine that these tiles are what keeps the elementals bound.",
 												"If a tile is placed in the wrong place in the row, the corresponding elemental is freed from its stone prison and attacks. Only one of each elemental appears:",
 												{
 													"type": "list",
@@ -8840,7 +8840,7 @@
 											"entries": [
 												{
 													"type": "entries",
-													"name": "Intelligence ({@skill 调查}) DC 15",
+													"name": "Intelligence ({@skill 調查}) DC 15",
 													"id": "41a",
 													"entries": [
 														"The character notes the words \"even\" and \"odd\" in the verse on the room's floor and believes they have some significance to the missing tiles."
@@ -8848,7 +8848,7 @@
 												},
 												{
 													"type": "entries",
-													"name": "Wisdom ({@skill 察觉}) DC 10",
+													"name": "Wisdom ({@skill 察覺}) DC 10",
 													"id": "41b",
 													"entries": [
 														"The character can deduce which tiles correspond to which elementals."
@@ -9057,7 +9057,7 @@
 											"entries": [
 												{
 													"type": "entries",
-													"name": "Charisma ({@skill 说服}) DC 10",
+													"name": "Charisma ({@skill 說服}) DC 10",
 													"id": "428",
 													"entries": [
 														"Dolora thinks of the character as her friend. When this character figures out the answer to a riddle, Dolora calls out the name of the person it's about unprompted (for example, as soon as the character says \"mother\" aloud, Dolora calls out \"Delia\")."
@@ -9065,7 +9065,7 @@
 												},
 												{
 													"type": "entries",
-													"name": "Charisma ({@skill 威吓}) DC 15",
+													"name": "Charisma ({@skill 威嚇}) DC 15",
 													"id": "429",
 													"entries": [
 														"The character frightens Dolora into divulging information. She tells the character that she remembers the names of people she knew. Dolora also reveals that it's important that their names be spelled correctly, though she doesn't say why."
@@ -9073,7 +9073,7 @@
 												},
 												{
 													"type": "entries",
-													"name": "Intelligence ({@skill 调查}) DC 15",
+													"name": "Intelligence ({@skill 調查}) DC 15",
 													"id": "42a",
 													"entries": [
 														"The character interprets Dolora's cryptic clue about the doll as follows: \"all six\" refers to the six letters of the doll's name, which can be determined by gathering information from the verses in the six alcoves."
@@ -9238,7 +9238,7 @@
 											"entries": [
 												{
 													"type": "entries",
-													"name": "Charisma ({@skill 威吓} or {@skill 说服}) DC 15",
+													"name": "Charisma ({@skill 威嚇} or {@skill 說服}) DC 15",
 													"id": "432",
 													"entries": [
 														"The character convinces Holda to whisper the following hint: \"Count your lucky coppers that we have seven choices on the menu for you.\""
@@ -9246,7 +9246,7 @@
 												},
 												{
 													"type": "entries",
-													"name": "Dexterity ({@skill 隐匿}) DC 15",
+													"name": "Dexterity ({@skill 隱匿}) DC 15",
 													"id": "433",
 													"entries": [
 														"The character blends in with the crowd to eavesdrop on another table, overhearing the patrons discussing how they must have gotten a misprinted menu because the prices don't seem right, or bemoaning the fact that the menu doesn't list items in alphabetical order."
@@ -9254,7 +9254,7 @@
 												},
 												{
 													"type": "entries",
-													"name": "Intelligence ({@skill 历史}) DC 15",
+													"name": "Intelligence ({@skill 歷史}) DC 15",
 													"id": "434",
 													"entries": [
 														"The character recalls stories of how secret messages used to be sent through taverns using common items anyone could access, such as menus."
@@ -9262,7 +9262,7 @@
 												},
 												{
 													"type": "entries",
-													"name": "Wisdom ({@skill 察觉}) DC 15",
+													"name": "Wisdom ({@skill 察覺}) DC 15",
 													"id": "435",
 													"entries": [
 														"The character notices the prices on the menu don't make much sense. For example, why is rabbit stew so much cheaper than corn and lentil stew?"
@@ -9278,7 +9278,7 @@
 									"page": 188,
 									"id": "436",
 									"entries": [
-										"\"Chimera\" might not be the password but rather a reference to something or someone else in the tavern. Characters who solve the puzzle and succeed on a DC 15 Wisdom ({@skill 察觉}) check might notice another patron wearing a cloak pin shaped like a chimera, or spot a shield emblazoned with a chimera hanging on a wall that conceals a secret door. Only after speaking to the patron or seeing what's on the other side of the secret door do the characters obtain the actual password, which can be anything you want.",
+										"\"Chimera\" might not be the password but rather a reference to something or someone else in the tavern. Characters who solve the puzzle and succeed on a DC 15 Wisdom ({@skill 察覺}) check might notice another patron wearing a cloak pin shaped like a chimera, or spot a shield emblazoned with a chimera hanging on a wall that conceals a secret door. Only after speaking to the patron or seeing what's on the other side of the secret door do the characters obtain the actual password, which can be anything you want.",
 										"You can easily change \"chimera\" to something else by swapping out menu items, choosing different letters within the replacement items, and adjusting the prices accordingly.",
 										{
 											"type": "entries",

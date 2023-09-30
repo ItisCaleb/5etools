@@ -23,7 +23,7 @@
 									"type": "entries",
 									"name": "Belashyrra's Cults",
 									"entries": [
-										"The Lord of Eyes has followers across Khorvaire, and its cults are typically driven by mad visions. Devoted cultists can grow eyes in unusual locations, and might have {@sense 黑暗视觉} or other supernatural abilities when they view the world through those eyes. Beholderkin often advise or lead Belashyrra's cults, and cultists typically treat these aberrations as divine beings."
+										"The Lord of Eyes has followers across Khorvaire, and its cults are typically driven by mad visions. Devoted cultists can grow eyes in unusual locations, and might have {@sense 黑暗視覺} or other supernatural abilities when they view the world through those eyes. Beholderkin often advise or lead Belashyrra's cults, and cultists typically treat these aberrations as divine beings."
 									]
 								}
 							]
@@ -935,7 +935,7 @@
 										"{@b Damage Immunity}. Replace the living spell's damage immunity with immunity to the type (or types) of damage dealt by the chosen spell.",
 										"{@b Magical Strike}. Replace the damage that Magical Strike deals with one type of damage dealt by the chosen spell.",
 										"{@b Spell Mimicry}. Replace the effect of Spell Mimicry with the effect of the chosen spell. If that spell requires a saving throw, use spell save DC from the replaced spell, and if the spell involves an attack roll, use the attack bonus from the living spell's Magical Strike.",
-										"For example, if you turn {@spell 火球术} (a 3rd-level spell) into a living spell, customize the {@creature living lightning bolt|ERLW}. The living fireball has immunity to fire damage, instead of lightning damage; deals fire damage with its Magical Strike; and replicates {@spell 火球术} with Spell Mimicry."
+										"For example, if you turn {@spell 火球術} (a 3rd-level spell) into a living spell, customize the {@creature living lightning bolt|ERLW}. The living fireball has immunity to fire damage, instead of lightning damage; deals fire damage with its Magical Strike; and replicates {@spell 火球術} with Spell Mimicry."
 									]
 								}
 							]
@@ -948,7 +948,7 @@
 			"name": "Magewright",
 			"source": "ERLW",
 			"entries": [
-				"In Khorvaire, magic is part of everyday life. A chef might use {@spell 魔法技俩} to heat and season food, while a blacksmith uses {@spell 修复术} to perform minor repairs and {@spell 神导术} to help inspire their work. Those who work minor magic into their labors are called magewrights.",
+				"In Khorvaire, magic is part of everyday life. A chef might use {@spell 魔法技倆} to heat and season food, while a blacksmith uses {@spell 修復術} to perform minor repairs and {@spell 神導術} to help inspire their work. Those who work minor magic into their labors are called magewrights.",
 				"Far more limited in magical power than a typical spellcaster, a magewright is dedicated to learning a handful of spells, and magewrights cast their non-cantrip spells as rituals\u2014even spells that can't normally be cast in this way. Most magewright rituals take 10 minutes to perform, but certain complex rituals can take up to 1 hour. However long the ritual takes, it requires extra material components, usually in the form of dragonshards.",
 				{
 					"type": "entries",
@@ -974,50 +974,50 @@
 								[
 									"1",
 									"Artisan",
-									"{@spell 神导术}, {@spell 修复术}",
+									"{@spell 神導術}, {@spell 修復術}",
 									"One type of artisan's tools"
 								],
 								[
 									"2",
 									"Entertainer",
-									"{@spell 次级幻象}, {@spell 奇术}. Ritual only: {@spell 易容术}.",
+									"{@spell 次級幻象}, {@spell 奇術}. Ritual only: {@spell 易容術}.",
 									"{@skill 表演} (+3)"
 								],
 								[
 									"3",
 									"Healer",
-									"{@spell 提升抗力}, {@spell 拯救濒死}. Ritual only: {@spell 侦测毒素或疾病}, {@spell 次级复原术} (1 hour).",
-									"{@skill 医疗} (+4), {@item 草药工具|PHB}"
+									"{@spell 提升抗力}, {@spell 拯救瀕死}. Ritual only: {@spell 偵測毒素或疾病}, {@spell 次級復原術} (1 hour).",
+									"{@skill 醫療} (+4), {@item 草藥工具|PHB}"
 								],
 								[
 									"4",
 									"Lamplighter",
-									"{@spell 光亮术}. Ritual only: {@spell 不灭明焰} (1 hour).",
+									"{@spell 光亮術}. Ritual only: {@spell 不滅明焰} (1 hour).",
 									"{@item 修理工具|PHB}"
 								],
 								[
 									"5",
 									"Locksmith",
-									"{@spell 修复术}. Ritual only: {@spell 秘法锁} (1 hour), {@spell 敲击术}.",
-									"{@item 盗贼工具|phb}, {@item 修理工具|PHB}"
+									"{@spell 修復術}. Ritual only: {@spell 秘法鎖} (1 hour), {@spell 敲擊術}.",
+									"{@item 盜賊工具|phb}, {@item 修理工具|PHB}"
 								],
 								[
 									"6",
 									"Mediator",
-									"{@spell 神导术}. Ritual only: {@spell 通晓语言}, {@spell 诚实之域}.",
-									"{@skill 洞悉} (+4), {@skill 说服} (+3)"
+									"{@spell 神導術}. Ritual only: {@spell 通曉語言}, {@spell 誠實之域}.",
+									"{@skill 洞悉} (+4), {@skill 說服} (+3)"
 								],
 								[
 									"7",
 									"Medium",
-									"{@spell 次级幻象}. Ritual only: {@spell 死者交谈术}.",
-									"{@skill 欺瞒} (+3), {@skill 宗教} (+4)"
+									"{@spell 次級幻象}. Ritual only: {@spell 死者交談術}.",
+									"{@skill 欺瞞} (+3), {@skill 宗教} (+4)"
 								],
 								[
 									"8",
 									"Oracle",
-									"{@spell 神导术}. Ritual only: {@spell 卜筮}, {@spell 预言术} (1 hour).",
-									"{@skill 历史} (+4), {@skill 宗教} (+4)"
+									"{@spell 神導術}. Ritual only: {@spell 卜筮}, {@spell 預言術} (1 hour).",
+									"{@skill 歷史} (+4), {@skill 宗教} (+4)"
 								]
 							]
 						}
@@ -1130,7 +1130,7 @@
 									"type": "entries",
 									"name": "Fallen Angels",
 									"entries": [
-										"The insatiable hunger to be adored can transform a fallen angel, physically and mentally. In its true form, a radiant idol appears to be a warped angel. It might have bloody stumps in place of its wings, or its wings could be weighted down with chains representing its pride. A radiant idol uses {@spell 易容术} to hide its corruption, presenting an image of celestial glory."
+										"The insatiable hunger to be adored can transform a fallen angel, physically and mentally. In its true form, a radiant idol appears to be a warped angel. It might have bloody stumps in place of its wings, or its wings could be weighted down with chains representing its pride. A radiant idol uses {@spell 易容術} to hide its corruption, presenting an image of celestial glory."
 									]
 								},
 								{
@@ -1320,32 +1320,32 @@
 												[
 													"1",
 													"{@spell 火焰箭} ({@dice 2d10})",
-													"{@spell 燃烧之手} ({@dice 3d6})"
+													"{@spell 燃燒之手} ({@dice 3d6})"
 												],
 												[
 													"2",
-													"{@spell 电爪} ({@dice 2d8})",
+													"{@spell 電爪} ({@dice 2d8})",
 													"{@spell 幻色法球} ({@dice 4d8})"
 												],
 												[
 													"3",
-													"{@spell 毒气喷洒} ({@dice 2d12})",
-													"{@spell 致病射线} ({@dice 3d8})"
+													"{@spell 毒氣噴灑} ({@dice 2d12})",
+													"{@spell 致病射線} ({@dice 3d8})"
 												],
 												[
 													"4",
-													"{@spell 交友术}",
-													"{@spell 魅惑人类} (two creatures)"
+													"{@spell 交友術}",
+													"{@spell 魅惑人類} (two creatures)"
 												],
 												[
 													"5",
-													"{@spell 次级幻象}",
-													"{@spell 雷鸣波} ({@dice 2d8})"
+													"{@spell 次級幻象}",
+													"{@spell 雷鳴波} ({@dice 2d8})"
 												],
 												[
 													"6",
-													"{@spell 舞光术}",
-													"{@spell 睡眠术} ({@dice 7d8})"
+													"{@spell 舞光術}",
+													"{@spell 睡眠術} ({@dice 7d8})"
 												]
 											]
 										}
@@ -1604,7 +1604,7 @@
 												],
 												[
 													"3",
-													"Camouflage. The animal has advantage on Dexterity ({@skill 隐匿}) checks it makes while outdoors."
+													"Camouflage. The animal has advantage on Dexterity ({@skill 隱匿}) checks it makes while outdoors."
 												],
 												[
 													"4",
@@ -1612,7 +1612,7 @@
 												],
 												[
 													"5",
-													"Fey Ancestry. The animal has advantage on saving throws against being {@condition 魅惑} or {@condition 恐惧}, and magic can't put it to sleep."
+													"Fey Ancestry. The animal has advantage on saving throws against being {@condition 魅惑} or {@condition 恐懼}, and magic can't put it to sleep."
 												],
 												[
 													"6",
@@ -1620,7 +1620,7 @@
 												],
 												[
 													"7",
-													"Quickness (Recharge 6). The animal can take the {@action 闪避} action as a bonus action."
+													"Quickness (Recharge 6). The animal can take the {@action 閃避} action as a bonus action."
 												],
 												[
 													"8",

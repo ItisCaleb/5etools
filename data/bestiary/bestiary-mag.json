@@ -13,7 +13,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -78,13 +78,13 @@
 				{
 					"name": "Barbed Web Attack",
 					"entries": [
-						"{@atk rw} {@hit 7} to hit, range 90/90 ft., one creature. {@h}18 ({@dice 3d10 + 2}) damage, and the target is retrained. As an action, the {@condition 束缚} creature can make a {@dc 18} Strength check, destroying from the webbing on a success. The effect ends if the webbing is destroyed. The webbing has AC 15; 25 hit points; is vulnerable to fire damage; and is immune to bludgeoning, poison, and psychic damage."
+						"{@atk rw} {@hit 7} to hit, range 90/90 ft., one creature. {@h}18 ({@dice 3d10 + 2}) damage, and the target is retrained. As an action, the {@condition 束縛} creature can make a {@dc 18} Strength check, destroying from the webbing on a success. The effect ends if the webbing is destroyed. The webbing has AC 15; 25 hit points; is vulnerable to fire damage; and is immune to bludgeoning, poison, and psychic damage."
 					]
 				},
 				{
 					"name": "Web Net {@recharge 5}",
 					"entries": [
-						"The spider shark launches webs at a 30-foot radius area within 90 feet. Each creature in that area must succeed on a {@dc 16} Dexterity save. On a failed save, the creature takes 18 ({@dice 3d10 + 2}) damage and is {@condition 束缚} by webbing. As an action, the {@condition 束缚} creature can make a {@dc 18} Strength check, destroying from the webbing on a success. The effect ends if the webbing is destroyed. The webbing has AC 15; 25 hit points; is vulnerable to fire damage; and is immune to bludgeoning, poison, and psychic damage."
+						"The spider shark launches webs at a 30-foot radius area within 90 feet. Each creature in that area must succeed on a {@dc 16} Dexterity save. On a failed save, the creature takes 18 ({@dice 3d10 + 2}) damage and is {@condition 束縛} by webbing. As an action, the {@condition 束縛} creature can make a {@dc 18} Strength check, destroying from the webbing on a success. The effect ends if the webbing is destroyed. The webbing has AC 15; 25 hit points; is vulnerable to fire damage; and is immune to bludgeoning, poison, and psychic damage."
 					]
 				}
 			],

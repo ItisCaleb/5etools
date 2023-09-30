@@ -1,12 +1,12 @@
 {
 	"reward": [
 		{
-			"name": "俄佐立护咒",
+			"name": "俄佐立護咒",
 			"source": "GGR",
 			"page": 173,
 			"type": "Charm",
 			"entries": [
-				"当你激活此护咒，你可以施放{@spell 人类定身术}（3环版本）、{@spell 命令术}或{@spell 反制法术}法术。此护咒会在你激活它之后消失。"
+				"當你啟用此護咒，你可以施放{@spell 人類定身術}（3環版本）、{@spell 命令術}或{@spell 反製法術}法術。此護咒會在你啟用它之後消失。"
 			]
 		},
 		{
@@ -15,7 +15,7 @@
 			"page": 228,
 			"type": "Blessing",
 			"entries": [
-				"你的体质属性值提升2点，上限为22。"
+				"你的體質屬性值提升2點，上限為22。"
 			]
 		},
 		{
@@ -24,16 +24,16 @@
 			"page": 228,
 			"type": "Blessing",
 			"entries": [
-				"你在对抗法术或其他魔法效果的豁免检定中具有优势。"
+				"你在對抗法術或其他魔法效果的豁免檢定中具有優勢。"
 			]
 		},
 		{
-			"name": "防护祝福",
+			"name": "防護祝福",
 			"source": "DMG",
 			"page": 228,
 			"type": "Blessing",
 			"entries": [
-				"你的AC和豁免检定获得+1的加值。"
+				"你的AC和豁免檢定獲得+1的加值。"
 			]
 		},
 		{
@@ -42,43 +42,43 @@
 			"page": 228,
 			"type": "Blessing",
 			"entries": [
-				"你的感知属性值提升2点，上限为22。"
+				"你的感知屬性值提升2點，上限為22。"
 			]
 		},
 		{
-			"name": "瓦尔哈拉祝福",
+			"name": "瓦爾哈拉祝福",
 			"source": "DMG",
 			"page": 228,
 			"type": "Blessing",
 			"entries": [
-				"此祝福赋予你召唤精魂战士的力量，就如同你吹响一把{@item horn of valhalla, silver|DMG|silver horn of Valhalla}。一旦你使用此祝福，直到7天过去之前你都不能再使用它。"
+				"此祝福賦予你召喚精魂戰士的力量，就如同你吹響一把{@item horn of valhalla, silver|DMG|silver horn of Valhalla}。一旦你使用此祝福，直到7天過去之前你都不能再使用它。"
 			]
 		},
 		{
-			"name": "武器增强祝福",
+			"name": "武器增強祝福",
 			"source": "DMG",
 			"page": 228,
 			"type": "Blessing",
 			"entries": [
-				"你所拥有的一把非魔法武器会在你持用它时变成一把{@item 武器+1}。"
+				"你所擁有的一把非魔法武器會在你持用它時變成一把{@item 武器+1}。"
 			]
 		},
 		{
-			"name": "愈合祝福",
+			"name": "癒合祝福",
 			"source": "DMG",
 			"page": 228,
 			"type": "Blessing",
 			"entries": [
-				"此祝福赋予你{@item periapt of wound closure}所提供的好处。"
+				"此祝福賦予你{@item periapt of wound closure}所提供的好處。"
 			]
 		},
 		{
-			"name": "英勇战斗之恩惠",
+			"name": "英勇戰鬥之恩惠",
 			"source": "DMG",
 			"page": 232,
 			"type": "Boon",
 			"entries": [
-				"当你在一次近战武器攻击中失手，你可以选择改为使之命中。一旦你使用此恩惠，直到完成一次短休之前你都不能再使用它。"
+				"當你在一次近戰武器攻擊中失手，你可以選擇改為使之命中。一旦你使用此恩惠，直到完成一次短休之前你都不能再使用它。"
 			]
 		},
 		{
@@ -87,25 +87,25 @@
 			"page": 232,
 			"type": "Boon",
 			"entries": [
-				"以一个动作，你可以施放{@spell 迷踪步}法术，且不需要消耗法术位和任何构材。一旦你使用此恩惠，直到完成一次短休之前你都不能再使用它。"
+				"以一個動作，你可以施放{@spell 迷蹤步}法術，且不需要消耗法術位和任何構材。一旦你使用此恩惠，直到完成一次短休之前你都不能再使用它。"
 			]
 		},
 		{
-			"name": "扭曲命运之恩惠",
+			"name": "扭曲命運之恩惠",
 			"source": "DMG",
 			"page": 232,
 			"type": "Boon",
 			"entries": [
-				"当一个距离你60尺内你所能看见的生物进行一次属性检定、攻击检定、或豁免检定时，你可以骰{@dice d10}，并将骰出来的数字作为加值或减值加到对方的检定结果中。一旦你使用此恩惠，直到完成一次短休之前你都不能再使用它。"
+				"當一個距離你60尺內你所能看見的生物進行一次屬性檢定、攻擊檢定、或豁免檢定時，你可以骰{@dice d10}，並將骰出來的數字作為加值或減值加到對方的檢定結果中。一旦你使用此恩惠，直到完成一次短休之前你都不能再使用它。"
 			]
 		},
 		{
-			"name": "超凡强韧之恩惠",
+			"name": "超凡強韌之恩惠",
 			"source": "DMG",
 			"page": 232,
 			"type": "Boon",
 			"entries": [
-				"你的生命值最大值增加40点。"
+				"你的生命值最大值增加40點。"
 			]
 		},
 		{
@@ -114,43 +114,43 @@
 			"page": 232,
 			"type": "Boon",
 			"entries": [
-				"如果你已拥有9环的法术位，则你再额外获得一个9环法术位。"
+				"如果你已擁有9環的法術位，則你再額外獲得一個9環法術位。"
 			]
 		},
 		{
-			"name": "不朽不灭之恩惠",
+			"name": "不朽不滅之恩惠",
 			"source": "DMG",
 			"page": 232,
 			"type": "Boon",
 			"entries": [
-				"你停止衰老。你免疫任何会使你衰老的效果，且你不会因衰老而死。"
+				"你停止衰老。你免疫任何會使你衰老的效果，且你不會因衰老而死。"
 			]
 		},
 		{
-			"name": "金身不坏之恩惠",
+			"name": "金身不壞之恩惠",
 			"source": "DMG",
 			"page": 232,
 			"type": "Boon",
 			"entries": [
-				"当你受到任何来源的伤害时，你可以将该伤害减为0。一旦你使用此恩惠，直到完成一次短休之前你都不能再使用它。"
+				"當你受到任何來源的傷害時，你可以將該傷害減為0。一旦你使用此恩惠，直到完成一次短休之前你都不能再使用它。"
 			]
 		},
 		{
-			"name": "无敌攻势之恩惠",
+			"name": "無敵攻勢之恩惠",
 			"source": "DMG",
 			"page": 232,
 			"type": "Boon",
 			"entries": [
-				"你可以忽视任何生物的伤害抗性。"
+				"你可以忽視任何生物的傷害抗性。"
 			]
 		},
 		{
-			"name": "操弄幸运之恩惠",
+			"name": "操弄幸運之恩惠",
 			"source": "DMG",
 			"page": 232,
 			"type": "Boon",
 			"entries": [
-				"你可以将一颗{@dice d10}骰加入任何你所进行的一次属性检定、攻击检定、或豁免检定中。一旦你使用此恩惠，直到完成一次短休之前你都不能再使用它。"
+				"你可以將一顆{@dice d10}骰加入任何你所進行的一次屬性檢定、攻擊檢定、或豁免檢定中。一旦你使用此恩惠，直到完成一次短休之前你都不能再使用它。"
 			]
 		},
 		{
@@ -159,16 +159,16 @@
 			"page": 232,
 			"type": "Boon",
 			"entries": [
-				"你在对抗法术或魔法效果而进行的豁免检定中具有优势。"
+				"你在對抗法術或魔法效果而進行的豁免檢定中具有優勢。"
 			]
 		},
 		{
-			"name": "无双狙杀之恩惠",
+			"name": "無雙狙殺之恩惠",
 			"source": "DMG",
 			"page": 232,
 			"type": "Boon",
 			"entries": [
-				"你可以让你自己在一次你所进行的远程攻击检定中获得+20的加值。一旦你使用此恩惠，直到完成一次短休之前你都不能再使用它。"
+				"你可以讓你自己在一次你所進行的遠程攻擊檢定中獲得+20的加值。一旦你使用此恩惠，直到完成一次短休之前你都不能再使用它。"
 			]
 		},
 		{
@@ -177,7 +177,7 @@
 			"page": 232,
 			"type": "Boon",
 			"entries": [
-				"你免疫所有毒素和疾病，且你在体质豁免中具有优势。"
+				"你免疫所有毒素和疾病，且你在體質豁免中具有優勢。"
 			]
 		},
 		{
@@ -186,7 +186,7 @@
 			"page": 232,
 			"type": "Boon",
 			"entries": [
-				"当你获得此恩惠时，选择一个物质位面以外的存在位面。你能够以一个动作施放{@spell 异界传送}法术（不需要消耗法术位和任何构材），只能以自己为目标，且只能传送到你所选的位面，或从该位面回到物质位面。一旦你使用此恩惠，直到完成一次短休之前你都不能再使用它。"
+				"當你獲得此恩惠時，選擇一個物質位面以外的存在位面。你能夠以一個動作施放{@spell 異界傳送}法術（不需要消耗法術位和任何構材），只能以自己為目標，且只能傳送到你所選的位面，或從該位面回到物質位面。一旦你使用此恩惠，直到完成一次短休之前你都不能再使用它。"
 			]
 		},
 		{
@@ -195,70 +195,70 @@
 			"page": 232,
 			"type": "Boon",
 			"entries": [
-				"从你所能施放的1环到3环法术中选择一个施法时间为一个动作的法术。往后此法术的施法时间对你而言是一个附赠动作。"
+				"從你所能施放的1環到3環法術中選擇一個施法時間為一個動作的法術。往後此法術的施法時間對你而言是一個附贈動作。"
 			]
 		},
 		{
-			"name": "恢复活力之恩惠",
+			"name": "恢復活力之恩惠",
 			"source": "DMG",
 			"page": 232,
 			"type": "Boon",
 			"entries": [
-				"你可以使用一个附赠动作以回复等同于你生命值最大值一半的生命值。一旦你使用此恩惠，直到完成一次长休之前你都不能再使用它。"
+				"你可以使用一個附贈動作以回復等同於你生命值最大值一半的生命值。一旦你使用此恩惠，直到完成一次長休之前你都不能再使用它。"
 			]
 		},
 		{
-			"name": "物理韧性之恩惠",
+			"name": "物理韌性之恩惠",
 			"source": "DMG",
 			"page": 232,
 			"type": "Boon",
 			"entries": [
-				"你对非魔法武器所造成的钝击、穿刺、和挥砍伤害具有抗性。"
+				"你對非魔法武器所造成的鈍擊、穿刺、和揮砍傷害具有抗性。"
 			]
 		},
 		{
-			"name": "技能熟练之恩惠",
+			"name": "技能熟練之恩惠",
 			"source": "DMG",
 			"page": 232,
 			"type": "Boon",
 			"entries": [
-				"你熟练于所有技能。"
+				"你熟練於所有技能。"
 			]
 		},
 		{
-			"name": "速度爆发之恩惠",
+			"name": "速度爆發之恩惠",
 			"source": "DMG",
 			"page": 232,
 			"type": "Boon",
 			"entries": [
-				"你的步行速度提升30尺。此外，你可以使用一个附赠动作以采取{@action 疾走}或{@action 撤离}动作。一旦你这么做，直到完成一次短休之前你都不能再使用它。"
+				"你的步行速度提升30尺。此外，你可以使用一個附贈動作以採取{@action 疾走}或{@action 撤離}動作。一旦你這麼做，直到完成一次短休之前你都不能再使用它。"
 			]
 		},
 		{
-			"name": "法术掌控之恩惠",
+			"name": "法術掌控之恩惠",
 			"source": "DMG",
 			"page": 232,
 			"type": "Boon",
 			"entries": [
-				"选择一个你所能施展的1环法师、术士、或契术师法术。往后你能够以它的最低环阶施放此法术，且无需消耗法术位。"
+				"選擇一個你所能施展的1環法師、術士、或契術師法術。往後你能夠以它的最低環階施放此法術，且無需消耗法術位。"
 			]
 		},
 		{
-			"name": "法术召返之恩惠",
+			"name": "法術召返之恩惠",
 			"source": "DMG",
 			"page": 232,
 			"type": "Boon",
 			"entries": [
-				"你可以施放任何你已知或已准备的一个法术而无需消耗法术位。一旦你使用此恩惠，直到完成一次长休之前你都不能再使用它。"
+				"你可以施放任何你已知或已準備的一個法術而無需消耗法術位。一旦你使用此恩惠，直到完成一次長休之前你都不能再使用它。"
 			]
 		},
 		{
-			"name": "炽焰魂魄之恩惠",
+			"name": "熾焰魂魄之恩惠",
 			"source": "DMG",
 			"page": 232,
 			"type": "Boon",
 			"entries": [
-				"你免疫火焰伤害。你也可以随意施放{@spell 燃烧之手}（豁免DC 15），而无需消耗法术位和任何构材。"
+				"你免疫火焰傷害。你也可以隨意施放{@spell 燃燒之手}（豁免DC 15），而無需消耗法術位和任何構材。"
 			]
 		},
 		{
@@ -267,61 +267,61 @@
 			"page": 232,
 			"type": "Boon",
 			"entries": [
-				"当你完全处于微光光照或黑暗环境时，你可以使用一个动作变得{@condition 隐形}。你将维持{@condition 隐形}直到你采取一个动作或反应。"
+				"當你完全處於微光光照或黑暗環境時，你可以使用一個動作變得{@condition 隱形}。你將維持{@condition 隱形}直到你採取一個動作或反應。"
 			]
 		},
 		{
-			"name": "暴风后裔之恩惠",
+			"name": "暴風後裔之恩惠",
 			"source": "DMG",
 			"page": 232,
 			"type": "Boon",
 			"entries": [
-				"你免疫闪电和雷鸣伤害。你也可以随意施放{@spell 雷鸣波}（豁免DC 15），而无需消耗法术位和任何构材。"
+				"你免疫閃電和雷鳴傷害。你也可以隨意施放{@spell 雷鳴波}（豁免DC 15），而無需消耗法術位和任何構材。"
 			]
 		},
 		{
-			"name": "无拘无束之恩惠",
+			"name": "無拘無束之恩惠",
 			"source": "DMG",
 			"page": 232,
 			"type": "Boon",
 			"entries": [
-				"你为抵抗{@condition 被擒}而进行的属性检定中具有优势。此外，你可以使用一个动作直接挣脱擒抱、或从任何形式的束缚状态中脱身。"
+				"你為抵抗{@condition 被擒}而進行的屬性檢定中具有優勢。此外，你可以使用一個動作直接掙脫擒抱、或從任何形式的束縛狀態中脫身。"
 			]
 		},
 		{
-			"name": "真实视觉之恩惠",
+			"name": "真實視覺之恩惠",
 			"source": "DMG",
 			"page": 232,
 			"type": "Boon",
 			"entries": [
-				"你获得范围60尺的{@sense 真实视觉}。"
+				"你獲得範圍60尺的{@sense 真實視覺}。"
 			]
 		},
 		{
-			"name": "无形无迹之恩惠",
+			"name": "無形無跡之恩惠",
 			"source": "DMG",
 			"page": 232,
 			"type": "Boon",
 			"entries": [
-				"你在敏捷（{@skill 隐匿}）检定中获得+10的加值，且你无法被{@filter 预言系|spells|school=D}魔法，包括{@spell 探知}感应器，侦测或指定为目标。"
+				"你在敏捷（{@skill 隱匿}）檢定中獲得+10的加值，且你無法被{@filter 預言系|spells|school=D}魔法，包括{@spell 探知}感應器，偵測或指定為目標。"
 			]
 		},
 		{
-			"name": "波洛斯护咒",
+			"name": "波洛斯護咒",
 			"source": "GGR",
 			"page": 173,
 			"type": "Charm",
 			"entries": [
-				"当你激活此护咒，你可以施放{@spell 十字军斗篷}或{@spell 加速术}法术。或者，你可以施放{@spell 光导箭}法术，且若它命中，你获得等同于它造成伤害数量的生命值。此护咒会在你激活它之后消失。"
+				"當你啟用此護咒，你可以施放{@spell 十字軍斗篷}或{@spell 加速術}法術。或者，你可以施放{@spell 光導箭}法術，且若它命中，你獲得等同於它造成傷害數量的生命值。此護咒會在你啟用它之後消失。"
 			]
 		},
 		{
-			"name": "召唤动物护咒",
+			"name": "召喚動物護咒",
 			"source": "DMG",
 			"page": 228,
 			"type": "Charm",
 			"entries": [
-				"此护咒让你能够以一个动作施放{@spell 召唤动物}法术（3环版本）。一旦使用三次后，此护咒随即从你身上消失。"
+				"此護咒讓你能夠以一個動作施放{@spell 召喚動物}法術（3環版本）。一旦使用三次後，此護咒隨即從你身上消失。"
 			]
 		},
 		{
@@ -341,7 +341,7 @@
 			"type": "Charm",
 			"entries": [
 				"{@note This charm can be bestowed by a {@creature chwinga|ToA} living in Icewind Dale or other cold regions by using their Magical Gift action.}",
-				"This charm has 3 charges. As an action, you can expend 1 of the charm's charges to cast the {@spell 创造饮食} spell, requiring no components. Once all its charges have been expended, this charm vanishes from you."
+				"This charm has 3 charges. As an action, you can expend 1 of the charm's charges to cast the {@spell 創造飲食} spell, requiring no components. Once all its charges have been expended, this charm vanishes from you."
 			]
 		},
 		{
@@ -355,30 +355,30 @@
 			]
 		},
 		{
-			"name": "黑暗视觉护咒",
+			"name": "黑暗視覺護咒",
 			"source": "DMG",
 			"page": 228,
 			"type": "Charm",
 			"entries": [
-				"此护咒让你能够以一个动作施放{@spell 黑暗视觉}法术，且无需任何构材。一旦使用三次后，此护咒随即从你身上消失。"
+				"此護咒讓你能夠以一個動作施放{@spell 黑暗視覺}法術，且無需任何構材。一旦使用三次後，此護咒隨即從你身上消失。"
 			]
 		},
 		{
-			"name": "羽落护咒",
+			"name": "羽落護咒",
 			"source": "DMG",
 			"page": 228,
 			"type": "Charm",
 			"entries": [
-				"此护咒赋予你{@item ring of feather falling}所提供的好处。这个好处会持续10天，随后此护咒便会从你身上消失。"
+				"此護咒賦予你{@item ring of feather falling}所提供的好處。這個好處會持續10天，隨後此護咒便會從你身上消失。"
 			]
 		},
 		{
-			"name": "英雄气概护咒",
+			"name": "英雄氣概護咒",
 			"source": "DMG",
 			"page": 228,
 			"type": "Charm",
 			"entries": [
-				"此护咒让你能够以一个动作使自己获得{@item potion of heroism}所提供的好处。一旦你这么做，此护咒随即从你身上消失。"
+				"此護咒讓你能夠以一個動作使自己獲得{@item potion of heroism}所提供的好處。一旦你這麼做，此護咒隨即從你身上消失。"
 			]
 		},
 		{
@@ -391,12 +391,12 @@
 			]
 		},
 		{
-			"name": "复原护咒",
+			"name": "復原護咒",
 			"source": "DMG",
 			"page": 228,
 			"type": "Charm",
 			"entries": [
-				"此护咒含有6发充能。你可以使用一个动作以消耗特定数量的充能来施放下列法术：{@spell 高等复原术}（4充能）或{@spell 次级复原术}（2充能）。一旦所有充能被耗尽，此护咒随即从你身上消失。"
+				"此護咒含有6發充能。你可以使用一個動作以消耗特定數量的充能來施放下列法術：{@spell 高等復原術}（4充能）或{@spell 次級復原術}（2充能）。一旦所有充能被耗盡，此護咒隨即從你身上消失。"
 			]
 		},
 		{
@@ -457,13 +457,13 @@
 			]
 		},
 		{
-			"name": "杀戮护咒",
+			"name": "殺戮護咒",
 			"ENG_name": "Charm of the Slayer",
 			"source": "DMG",
 			"page": 228,
 			"type": "Charm",
 			"entries": [
-				"你所拥有的一把剑在接下来的9天内变成一把{@item dragon slayer}或{@item giant slayer}（由DM决定）。之后此护咒随即将从你身上消失，且该武器恢复正常。"
+				"你所擁有的一把劍在接下來的9天內變成一把{@item dragon slayer}或{@item giant slayer}（由DM決定）。之後此護咒隨即將從你身上消失，且該武器恢復正常。"
 			]
 		},
 		{
@@ -491,7 +491,7 @@
 			"page": 41,
 			"type": "Charm",
 			"entries": [
-				"You become charged with the power of the storm, to the extent that tiny sparks crackle in your eyes. You can cast the {@spell 闪电束} spell (3rd-level version) as an action. Once used three times, the charm vanishes from you."
+				"You become charged with the power of the storm, to the extent that tiny sparks crackle in your eyes. You can cast the {@spell 閃電束} spell (3rd-level version) as an action. Once used three times, the charm vanishes from you."
 			]
 		},
 		{
@@ -510,7 +510,7 @@
 			"type": "Charm",
 			"entries": [
 				"{@note This charm can be bestowed by a {@creature chwinga|ToA} living in Icewind Dale or other cold regions by using their Magical Gift action.}",
-				"This charm has 3 charges. As an action, you can expend 1 of the charm's charges to cast the {@spell 李欧蒙小屋} spell, no components required. Once all its charges have been expended, this charm vanishes from you."
+				"This charm has 3 charges. As an action, you can expend 1 of the charm's charges to cast the {@spell 李歐蒙小屋} spell, no components required. Once all its charges have been expended, this charm vanishes from you."
 			]
 		},
 		{
@@ -533,12 +533,12 @@
 			]
 		},
 		{
-			"name": "活力护咒",
+			"name": "活力護咒",
 			"source": "DMG",
 			"page": 228,
 			"type": "Charm",
 			"entries": [
-				"此护咒让你能够以一个动作使自己获得{@item potion of vitality}所提供的好处。一旦你这么做，此护咒随即从你身上消失。"
+				"此護咒讓你能夠以一個動作使自己獲得{@item potion of vitality}所提供的好處。一旦你這麼做，此護咒隨即從你身上消失。"
 			]
 		},
 		{
@@ -579,7 +579,7 @@
 			"page": 192,
 			"type": "Charm",
 			"entries": [
-				"Dahlver-Nar's gift is the power to live many lives. Upon receiving this dark gift, the beneficiary instantly reincarnates when it dies, as though it was the target of a {@spell 转生术} spell. The new body appears within 10 feet of the old one. After it has been used three times, the dark gift vanishes.",
+				"Dahlver-Nar's gift is the power to live many lives. Upon receiving this dark gift, the beneficiary instantly reincarnates when it dies, as though it was the target of a {@spell 轉生術} spell. The new body appears within 10 feet of the old one. After it has been used three times, the dark gift vanishes.",
 				"The beneficiary of this dark gift loses all of its teeth until it reincarnates for the third and final time."
 			]
 		},
@@ -589,7 +589,7 @@
 			"page": 193,
 			"type": "Charm",
 			"entries": [
-				"Delban's gift is the power to unleash deadly cold. This dark gift allows its beneficiary to cast the {@spell 寒冰锥} spell as an action. After it has been used seven times, the dark gift vanishes. Until it vanishes, the beneficiary also gains the benefits of a {@item ring of warmth}.",
+				"Delban's gift is the power to unleash deadly cold. This dark gift allows its beneficiary to cast the {@spell 寒冰錐} spell as an action. After it has been used seven times, the dark gift vanishes. Until it vanishes, the beneficiary also gains the benefits of a {@item ring of warmth}.",
 				"The beneficiary of this dark gift gains the following flaw: \"Fire terrifies me.\""
 			]
 		},
@@ -609,7 +609,7 @@
 			"page": 191,
 			"type": "Charm",
 			"entries": [
-				"Fekre's gift is the power of spreading disease. This dark gift allows its beneficiary to cast the {@spell 疫病术} spell as an action. After it has been used three times, the dark gift vanishes.",
+				"Fekre's gift is the power of spreading disease. This dark gift allows its beneficiary to cast the {@spell 疫病術} spell as an action. After it has been used three times, the dark gift vanishes.",
 				"The beneficiary of this dark gift reeks of filth."
 			]
 		},
@@ -649,7 +649,7 @@
 			"page": 192,
 			"type": "Charm",
 			"entries": [
-				"Savnok's gift is the power to shield the mind. This dark gift takes the form of a {@spell 心灵屏障} spell cast on the beneficiary. The spell has an extended duration of 1 year, after which the dark gift vanishes.",
+				"Savnok's gift is the power to shield the mind. This dark gift takes the form of a {@spell 心靈屏障} spell cast on the beneficiary. The spell has an extended duration of 1 year, after which the dark gift vanishes.",
 				"The beneficiary's eyes melt away upon receiving this dark gift, leaving empty sockets that can still see."
 			]
 		},
@@ -669,7 +669,7 @@
 			"page": 192,
 			"type": "Charm",
 			"entries": [
-				"Shami-Amourae's gift is the power of persuasion. This dark gift allows its beneficiary to cast the {@spell 暗示术} spell as an action, and saving throws against the spell have disadvantage. After it has been used three times, the dark gift vanishes.",
+				"Shami-Amourae's gift is the power of persuasion. This dark gift allows its beneficiary to cast the {@spell 暗示術} spell as an action, and saving throws against the spell have disadvantage. After it has been used three times, the dark gift vanishes.",
 				"The beneficiary of this dark gift gains an extra finger on each hand, as well as the following flaw: \"I can't get enough pleasure. I desire others to create beauty for me at all times.\""
 			]
 		},
@@ -679,7 +679,7 @@
 			"page": 192,
 			"type": "Charm",
 			"entries": [
-				"Sykane's gift is the power to raise the recently deceased. This dark gift allows its beneficiary to cast the {@spell 唤醒死者} spell as an action. After it has been used three times, the dark gift vanishes.",
+				"Sykane's gift is the power to raise the recently deceased. This dark gift allows its beneficiary to cast the {@spell 喚醒死者} spell as an action. After it has been used three times, the dark gift vanishes.",
 				"As soon as this dark gift is received, the beneficiary's eyes glow a sickly yellow until the dark gift vanishes. The beneficiary also gains the following flaw: \"If I help someone, I expect payment in return.\""
 			]
 		},
@@ -739,35 +739,35 @@
 			"page": 192,
 			"type": "Charm",
 			"entries": [
-				"Zrin-Hala's gift is the power to create lightning. This dark gift allows its beneficiary to cast the {@spell 闪电束} spell as an action. After it has been used three times, the dark gift vanishes.",
+				"Zrin-Hala's gift is the power to create lightning. This dark gift allows its beneficiary to cast the {@spell 閃電束} spell as an action. After it has been used three times, the dark gift vanishes.",
 				"As soon as this dark gift is received, one side of the beneficiary's face sags and loses all feeling."
 			]
 		},
 		{
-			"name": "底密尔护咒",
+			"name": "底密爾護咒",
 			"source": "GGR",
 			"page": 173,
 			"type": "Charm",
 			"entries": [
-				"当你激活此护咒，你可以施放{@spell 闪现术}或{@spell 睡眠术}（3环版本）法术。或者，当你受到伤害，你可以采取你的反应变得{@condition 隐形}并传送到最多30尺距离的一处你所能看见的未被占据空间。你维持{@condition 隐形}状态直到你的下个回合开始，或直到你攻击或施放法术。此护咒会在你激活它之后消失。"
+				"當你啟用此護咒，你可以施放{@spell 閃現術}或{@spell 睡眠術}（3環版本）法術。或者，當你受到傷害，你可以採取你的反應變得{@condition 隱形}並傳送到最多30尺距離的一處你所能看見的未被占據空間。你維持{@condition 隱形}狀態直到你的下個回合開始，或直到你攻擊或施放法術。此護咒會在你啟用它之後消失。"
 			]
 		},
 		{
-			"name": "葛加理护咒",
+			"name": "葛加理護咒",
 			"source": "GGR",
 			"page": 173,
 			"type": "Charm",
 			"entries": [
-				"当你激活此护咒，你可以施放{@spell 解除魔法}、{@spell 摹造生命}（3环版本）、或{@spell 臭云术}法术。此护咒会在你激活它之后消失。"
+				"當你啟用此護咒，你可以施放{@spell 解除魔法}、{@spell 摹造生命}（3環版本）、或{@spell 臭雲術}法術。此護咒會在你啟用它之後消失。"
 			]
 		},
 		{
-			"name": "古鲁护咒",
+			"name": "古魯護咒",
 			"source": "GGR",
 			"page": 173,
 			"type": "Charm",
 			"entries": [
-				"当你激活此护咒，你可以施放{@spell 英雄气概}或{@spell 雷鸣波}法术（3环版本）。或者，当你在一次武器攻击中失手时，你可以采取一个反应对你攻击失手的目标再进行另一次攻击。此护咒会在你激活它之后消失。"
+				"當你啟用此護咒，你可以施放{@spell 英雄氣概}或{@spell 雷鳴波}法術（3環版本）。或者，當你在一次武器攻擊中失手時，你可以採取一個反應對你攻擊失手的目標再進行另一次攻擊。此護咒會在你啟用它之後消失。"
 			]
 		},
 		{
@@ -815,12 +815,12 @@
 			]
 		},
 		{
-			"name": "伊捷护咒",
+			"name": "伊捷護咒",
 			"source": "GGR",
 			"page": 174,
 			"type": "Charm",
 			"entries": [
-				"当你激活此护咒，你可以施放{@spell 解除魔法}或{@spell 闪电束}法术。或者，以一个动作，你可以回复一个三环或以下的已消耗法术位。此护咒会在你激活它之后消失。"
+				"當你啟用此護咒，你可以施放{@spell 解除魔法}或{@spell 閃電束}法術。或者，以一個動作，你可以回復一個三環或以下的已消耗法術位。此護咒會在你啟用它之後消失。"
 			]
 		},
 		{
@@ -937,7 +937,7 @@
 						{
 							"type": "item",
 							"name": "Power:",
-							"entry": "The host can use an action to turn {@condition 隐形}. Anything the host is wearing or carrying is {@condition 隐形} as long as it is on the host's person. The effect ends if the host attacks, casts a spell, forces a saving throw, or deals damage."
+							"entry": "The host can use an action to turn {@condition 隱形}. Anything the host is wearing or carrying is {@condition 隱形} as long as it is on the host's person. The effect ends if the host attacks, casts a spell, forces a saving throw, or deals damage."
 						}
 					]
 				}
@@ -1032,12 +1032,12 @@
 			]
 		},
 		{
-			"name": "欧佐夫护咒",
+			"name": "歐佐夫護咒",
 			"source": "GGR",
 			"page": 174,
 			"type": "Charm",
 			"entries": [
-				"当你激活此护咒，你可以施放{@spell 降咒}或{@spell 恐惧术}法术。或者，当一个距离你30尺内且你所能看见的生物的生命值被归零，你可以采取你的反应以改为将它的生命值降至1。此护咒会在你激活它之后消失。"
+				"當你啟用此護咒，你可以施放{@spell 降咒}或{@spell 恐懼術}法術。或者，當一個距離你30尺內且你所能看見的生物的生命值被歸零，你可以採取你的反應以改為將它的生命值降至1。此護咒會在你啟用它之後消失。"
 			]
 		},
 		{
@@ -1085,21 +1085,21 @@
 			]
 		},
 		{
-			"name": "拉铎司护咒",
+			"name": "拉鐸司護咒",
 			"source": "GGR",
 			"page": 174,
 			"type": "Charm",
 			"entries": [
-				"当你激活此护咒，你可以施放{@spell 疯狂冠冕}、{@spell 炼狱叱喝}或{@spell 粉碎音波}法术。此护咒会在你激活它之后消失。"
+				"當你啟用此護咒，你可以施放{@spell 瘋狂冠冕}、{@spell 煉獄叱喝}或{@spell 粉碎音波}法術。此護咒會在你啟用它之後消失。"
 			]
 		},
 		{
-			"name": "瑟雷尼亚护咒",
+			"name": "瑟雷尼亞護咒",
 			"source": "GGR",
 			"page": 174,
 			"type": "Charm",
 			"entries": [
-				"当你激活此护咒，你可以施放{@spell 活力灵光}或{@spell 召唤动物}法术。或者，以一个动作，你可以使距离你30尺内，最多三个你所选择的生物获得对钝击、穿刺、和挥砍伤害的抗性，持续直到你的下个回合结束。此护咒会在你激活它之后消失。"
+				"當你啟用此護咒，你可以施放{@spell 活力靈光}或{@spell 召喚動物}法術。或者，以一個動作，你可以使距離你30尺內，最多三個你所選擇的生物獲得對鈍擊、穿刺、和揮砍傷害的抗性，持續直到你的下個回合結束。此護咒會在你啟用它之後消失。"
 			]
 		},
 		{
@@ -1140,19 +1140,19 @@
 						{
 							"type": "item",
 							"name": "Power:",
-							"entry": "The host can make one extra attack when taking the {@action 攻击} action on its turn."
+							"entry": "The host can make one extra attack when taking the {@action 攻擊} action on its turn."
 						}
 					]
 				}
 			]
 		},
 		{
-			"name": "析米克护咒",
+			"name": "析米克護咒",
 			"source": "GGR",
 			"page": 174,
 			"type": "Charm",
 			"entries": [
-				"当你激活此护咒，你可以施放{@spell 强化属性}（3环版本）、{@spell 变巨/缩小术}或{@spell 气化形体}法术。此护咒会在你激活它之后消失。"
+				"當你啟用此護咒，你可以施放{@spell 強化屬性}（3環版本）、{@spell 變巨/縮小術}或{@spell 氣化形體}法術。此護咒會在你啟用它之後消失。"
 			]
 		},
 		{
@@ -1247,7 +1247,7 @@
 			"page": 228,
 			"type": "Charm",
 			"entries": [
-				"You gain 1 foot of height every hour and become proportionately heavier until you stand 21 feet tall and weigh 7,700 pounds. When you are 9 feet tall, your Strength becomes 19 unless it is already higher. For every 3 additional feet of height you gain, your Strength increases by 1, to a maximum of 23. Armor and clothing you are wearing and weapons you are carrying magically increase in size to match your growth. If you are the recipient of a {@spell 高等复原术} spell or similar magic, this charm vanishes from you, and you immediately shrink back to normal size, along with any armor, clothing, and weapons in your possession."
+				"You gain 1 foot of height every hour and become proportionately heavier until you stand 21 feet tall and weigh 7,700 pounds. When you are 9 feet tall, your Strength becomes 19 unless it is already higher. For every 3 additional feet of height you gain, your Strength increases by 1, to a maximum of 23. Armor and clothing you are wearing and weapons you are carrying magically increase in size to match your growth. If you are the recipient of a {@spell 高等復原術} spell or similar magic, this charm vanishes from you, and you immediately shrink back to normal size, along with any armor, clothing, and weapons in your possession."
 			]
 		},
 		{
@@ -1288,7 +1288,7 @@
 						{
 							"type": "item",
 							"name": "Power:",
-							"entry": "The host can use an action to unleash a psionic assault on a creature it can see within 60 feet of it. The target must succeed on a DC 16 Wisdom saving throw or be {@condition 震慑} until the end of the target's next turn."
+							"entry": "The host can use an action to unleash a psionic assault on a creature it can see within 60 feet of it. The target must succeed on a DC 16 Wisdom saving throw or be {@condition 震懾} until the end of the target's next turn."
 						}
 					]
 				}
@@ -1300,7 +1300,7 @@
 			"page": 119,
 			"type": "Other",
 			"entries": [
-				"A human can be transformed into a yuan-ti pureblood. The transformation can be undone only by a {@spell 祈愿术} spell or divine intervention. A character who survives it gains a random form of {@table indefinite madness} (see \"{@book Madness|DMG|8|Madness}\" in chapter 8 of the {@i Dungeon Master's Guide}). A human that undergoes and survives the ritual retains its traits and gains the following yuan-ti racial traits.",
+				"A human can be transformed into a yuan-ti pureblood. The transformation can be undone only by a {@spell 祈願術} spell or divine intervention. A character who survives it gains a random form of {@table indefinite madness} (see \"{@book Madness|DMG|8|Madness}\" in chapter 8 of the {@i Dungeon Master's Guide}). A human that undergoes and survives the ritual retains its traits and gains the following yuan-ti racial traits.",
 				{
 					"type": "entries",
 					"name": "Darkvision",
@@ -1312,7 +1312,7 @@
 					"type": "entries",
 					"name": "Innate Spellcasting",
 					"entries": [
-						"You know the {@spell 毒气喷洒} cantrip. You can cast {@spell 化兽为友} an unlimited number of times with this trait, but you can target only snakes with it. Starting at 3rd level, you can also cast {@spell 暗示术} with this trait. Once you cast it, you can't do so again until you finish a long rest. Charisma is your spellcasting ability for these spells."
+						"You know the {@spell 毒氣噴灑} cantrip. You can cast {@spell 化獸為友} an unlimited number of times with this trait, but you can target only snakes with it. Starting at 3rd level, you can also cast {@spell 暗示術} with this trait. Once you cast it, you can't do so again until you finish a long rest. Charisma is your spellcasting ability for these spells."
 					]
 				},
 				{

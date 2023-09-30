@@ -34,7 +34,7 @@
 				}
 			],
 			"entries": [
-				"You awaken the sense of mortality in one creature you can see within range. The target must succeed on a Wisdom saving throw or become {@condition 恐惧} for the duration. A target with 25 hit points or fewer makes the saving throw with disadvantage. The spell has no effect on constructs or undead."
+				"You awaken the sense of mortality in one creature you can see within range. The target must succeed on a Wisdom saving throw or become {@condition 恐懼} for the duration. A target with 25 hit points or fewer makes the saving throw with disadvantage. The spell has no effect on constructs or undead."
 			],
 			"conditionInflict": [
 				"frightened"
@@ -130,7 +130,7 @@
 					"type": "entries",
 					"name": "Funeral Rite",
 					"entries": [
-						"You bless one corpse within 5 feet of you. For the next 24 hours, the target can't become undead by any means short of a {@spell 祈愿术} spell."
+						"You bless one corpse within 5 feet of you. For the next 24 hours, the target can't become undead by any means short of a {@spell 祈願術} spell."
 					]
 				},
 				{
@@ -783,9 +783,9 @@
 			],
 			"entries": [
 				"While you cast this spell, you use the cord or rope to create a circle with a 5-foot radius on a flat surface within your reach. When you finish casting, the cord or rope disappears to become a magical trap.",
-				"The trap is nearly invisible and requires a successful Intelligence ({@skill 调查}) check against your spell save DC to be found. The trap triggers when a Small creature or larger moves into the area protected by the spell.",
-				"The triggering creature must succeed on a Dexterity saving throw or fall {@condition 伏地} and be hoisted into the air until it hangs upside down 3 feet above the protected surface, where it is {@condition 束缚}.",
-				"The {@condition 束缚} creature can make a Dexterity saving throw with disadvantage at the end of each of its turns and ends the {@condition 束缚} effect on a success. Alternatively, another creature that can reach the {@condition 束缚} creature can use an action to make an Intelligence ({@skill 奥秘}) check against your spell save DC. On a success, the {@condition 束缚} effect also ends."
+				"The trap is nearly invisible and requires a successful Intelligence ({@skill 調查}) check against your spell save DC to be found. The trap triggers when a Small creature or larger moves into the area protected by the spell.",
+				"The triggering creature must succeed on a Dexterity saving throw or fall {@condition 伏地} and be hoisted into the air until it hangs upside down 3 feet above the protected surface, where it is {@condition 束縛}.",
+				"The {@condition 束縛} creature can make a Dexterity saving throw with disadvantage at the end of each of its turns and ends the {@condition 束縛} effect on a success. Alternatively, another creature that can reach the {@condition 束縛} creature can use an action to make an Intelligence ({@skill 奧秘}) check against your spell save DC. On a success, the {@condition 束縛} effect also ends."
 			],
 			"conditionInflict": [
 				"prone",
@@ -983,7 +983,7 @@
 			],
 			"entries": [
 				"Music of a style you choose fills the air around you in a 30-foot radius. The music spreads around corners and can be heard from up to 100 feet away. The music moves with you, centered on you for the duration.",
-				"Until the spell ends, you make Charisma ({@skill 表演}) checks with advantage. In addition, you can use a bonus action on each of your turns to beguile one creature you choose within 30 feet of you that can see you and hear the music. The creature must make a Charisma saving throw. If you or your companions are attacking it, the creature automatically succeeds on the saving throw. On a failure, the creature becomes friendly to you for as long as it can hear the music and for 1 hour thereafter. You make Charisma ({@skill 欺瞒}) checks and Charisma ({@skill 说服}) checks against creatures made friendly by this spell with advantage."
+				"Until the spell ends, you make Charisma ({@skill 表演}) checks with advantage. In addition, you can use a bonus action on each of your turns to beguile one creature you choose within 30 feet of you that can see you and hear the music. The creature must make a Charisma saving throw. If you or your companions are attacking it, the creature automatically succeeds on the saving throw. On a failure, the creature becomes friendly to you for as long as it can hear the music and for 1 hour thereafter. You make Charisma ({@skill 欺瞞}) checks and Charisma ({@skill 說服}) checks against creatures made friendly by this spell with advantage."
 			],
 			"savingThrow": [
 				"charisma"

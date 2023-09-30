@@ -117,7 +117,7 @@
 					},
 					"name": "Perceive the Unseen",
 					"entries": [
-						"As a bonus action, you gain the ability to see auras even of {@condition 隐形} or hidden creatures. Until your concentration ends, you can see all creatures, including hidden and {@condition 隐形} ones, regardless of lighting conditions."
+						"As a bonus action, you gain the ability to see auras even of {@condition 隱形} or hidden creatures. Until your concentration ends, you can see all creatures, including hidden and {@condition 隱形} ones, regardless of lighting conditions."
 					]
 				}
 			]
@@ -140,7 +140,7 @@
 			"entries": [
 				"You transform your body, gaining traits of different beasts"
 			],
-			"focus": "While focused on this discipline, you have advantage on Wisdom ({@skill 驯兽}) checks.",
+			"focus": "While focused on this discipline, you have advantage on Wisdom ({@skill 馴獸}) checks.",
 			"modes": [
 				{
 					"cost": {
@@ -195,7 +195,7 @@
 							},
 							"name": "Keen Senses",
 							"entries": [
-								"Your eyes and ears become more sensitive. You gain advantage on Wisdom ({@skill 察觉}) checks."
+								"Your eyes and ears become more sensitive. You gain advantage on Wisdom ({@skill 察覺}) checks."
 							]
 						},
 						{
@@ -205,7 +205,7 @@
 							},
 							"name": "Perfect Senses",
 							"entries": [
-								"You gain a keen sense of smell and an instinct to detect prey. You can see {@condition 隐形} creatures and objects within 10 feet of you, even if you are {@condition 目盲}."
+								"You gain a keen sense of smell and an instinct to detect prey. You can see {@condition 隱形} creatures and objects within 10 feet of you, even if you are {@condition 目盲}."
 							]
 						},
 						{
@@ -247,7 +247,7 @@
 			"page": 27,
 			"type": "T",
 			"entries": [
-				"As an action, you erase your image from the mind of one creature you can see within 120 feet of you; the target must succeed on a Wisdom saving throw, or you are {@condition 隐形} to it until the end of your next turn."
+				"As an action, you erase your image from the mind of one creature you can see within 120 feet of you; the target must succeed on a Wisdom saving throw, or you are {@condition 隱形} to it until the end of your next turn."
 			]
 		},
 		{
@@ -259,7 +259,7 @@
 			"entries": [
 				"You augment your natural strength with psionic energy, granting you the ability to achieve incredible feats of might."
 			],
-			"focus": "While focused on this discipline, you have advantage on Strength ({@skill 运动}) checks",
+			"focus": "While focused on this discipline, you have advantage on Strength ({@skill 運動}) checks",
 			"modes": [
 				{
 					"cost": {
@@ -341,7 +341,7 @@
 					},
 					"name": "Blur of Motion",
 					"entries": [
-						"As an action, you cause yourself to be {@condition 隐形} during any of your movement during the current turn."
+						"As an action, you cause yourself to be {@condition 隱形} during any of your movement during the current turn."
 					]
 				},
 				{
@@ -438,7 +438,7 @@
 			"entries": [
 				"You have learned to harvest seeds of despair in a creature's psyche, wracking it with self-doubt and inaction"
 			],
-			"focus": "While focused on this discipline, you have advantage on Charisma ({@skill 威吓}) checks.",
+			"focus": "While focused on this discipline, you have advantage on Charisma ({@skill 威嚇}) checks.",
 			"modes": [
 				{
 					"cost": {
@@ -461,7 +461,7 @@
 					},
 					"name": "Call to Inaction",
 					"entries": [
-						"If you spend 1 minute conversing with a creature, you can attempt to seed it with overwhelming ennui. At the end of the minute, you can use an action to force the creature to make a Wisdom saving throw. The save automatically succeeds if the target is immune to being {@condition 魅惑}. On a failed save, it sits and is {@condition 无力} until your concentration ends. This effect immediately ends if the target or any ally it can see is attacked or takes damage. On a successful save, the creature is unaffected and has no inkling of your attempt to bend its will."
+						"If you spend 1 minute conversing with a creature, you can attempt to seed it with overwhelming ennui. At the end of the minute, you can use an action to force the creature to make a Wisdom saving throw. The save automatically succeeds if the target is immune to being {@condition 魅惑}. On a failed save, it sits and is {@condition 無力} until your concentration ends. This effect immediately ends if the target or any ally it can see is attacked or takes damage. On a successful save, the creature is unaffected and has no inkling of your attempt to bend its will."
 					]
 				},
 				{
@@ -485,7 +485,7 @@
 					},
 					"name": "Dolorous Mind",
 					"entries": [
-						"As an action, you choose one creature you can see within 60 feet of you. It must succeed on a Charisma saving throw, or it is {@condition 无力} and has a speed of 0 until your concentration ends. It can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"As an action, you choose one creature you can see within 60 feet of you. It must succeed on a Charisma saving throw, or it is {@condition 無力} and has a speed of 0 until your concentration ends. It can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			]
@@ -499,7 +499,7 @@
 			"entries": [
 				"You cause a creature to be flooded with emotions of disgust."
 			],
-			"focus": "While you are focused on this discipline, the area in a 5 foot radius around you is difficult terrain for any enemy that isn't immune to being {@condition 恐惧}.",
+			"focus": "While you are focused on this discipline, the area in a 5 foot radius around you is difficult terrain for any enemy that isn't immune to being {@condition 恐懼}.",
 			"modes": [
 				{
 					"cost": {
@@ -550,7 +550,7 @@
 					},
 					"name": "World of Horror",
 					"entries": [
-						"As an action, choose up to six creatures within 60 feet of you. Each target must make a Charisma saving throw. On a failed save, a target takes {@damage 8d6} psychic damage, and it is {@condition 恐惧} until your concentration ends. On a successful save, a target takes half as much damage. While {@condition 恐惧} by this effect, a target's speed is reduced to 0, and the target can use its action, and any bonus action it might have, only to make melee attacks. The {@condition 恐惧} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"As an action, choose up to six creatures within 60 feet of you. Each target must make a Charisma saving throw. On a failed save, a target takes {@damage 8d6} psychic damage, and it is {@condition 恐懼} until your concentration ends. On a successful save, a target takes half as much damage. While {@condition 恐懼} by this effect, a target's speed is reduced to 0, and the target can use its action, and any bonus action it might have, only to make melee attacks. The {@condition 恐懼} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			]
@@ -636,7 +636,7 @@
 			"entries": [
 				"You manipulate the matter that composes your body, drastically reducing your size without surrendering any of your might."
 			],
-			"focus": "While focused on this discipline, you have advantage on Dexterity ({@skill 隐匿}) checks.",
+			"focus": "While focused on this discipline, you have advantage on Dexterity ({@skill 隱匿}) checks.",
 			"modes": [
 				{
 					"cost": {
@@ -649,7 +649,7 @@
 					},
 					"name": "Miniature Form",
 					"entries": [
-						"As a bonus action, you become Tiny until your concentration ends. While this size, you gain a +5 bonus to Dexterity ({@skill 隐匿}) checks and can move through gaps up to 6 inches across without squeezing."
+						"As a bonus action, you become Tiny until your concentration ends. While this size, you gain a +5 bonus to Dexterity ({@skill 隱匿}) checks and can move through gaps up to 6 inches across without squeezing."
 					]
 				},
 				{
@@ -683,7 +683,7 @@
 					},
 					"name": "Microscopic Form",
 					"entries": [
-						"As a bonus action, you become smaller than Tiny until your concentration ends. While this size, you gain a +10 bonus to Dexterity ({@skill 隐匿}) checks and a +5 bonus to AC, you can move through gaps up to 1 inch across without squeezing, and you can't make weapon attacks."
+						"As a bonus action, you become smaller than Tiny until your concentration ends. While this size, you gain a +10 bonus to Dexterity ({@skill 隱匿}) checks and a +5 bonus to AC, you can move through gaps up to 1 inch across without squeezing, and you can't make weapon attacks."
 					]
 				}
 			]
@@ -860,7 +860,7 @@
 					},
 					"name": "Charming Presence",
 					"entries": [
-						"As an action, you exert an aura of sympathetic power. Roll {@dice 2d8} per psi point spent on this ability; the total is how many hit points worth of creatures this option can affect. Creatures within 30 feet of you are affected in ascending order of their hit point maximums, ignoring {@condition 无力} creatures, creatures immune to being {@condition 魅惑}, and creatures engaged in combat.",
+						"As an action, you exert an aura of sympathetic power. Roll {@dice 2d8} per psi point spent on this ability; the total is how many hit points worth of creatures this option can affect. Creatures within 30 feet of you are affected in ascending order of their hit point maximums, ignoring {@condition 無力} creatures, creatures immune to being {@condition 魅惑}, and creatures engaged in combat.",
 						"Starting with the creature that has the lowest hit point maximum, each creature affected by this option is {@condition 魅惑} by you for 10 minutes, regarding you as a friendly acquaintance. Subtract each creature's hit point maximum from the total before moving on to the next creature. A creature's hit point maximum must be equal to or less than the remaining total for that creature to be affected"
 					]
 				},
@@ -875,7 +875,7 @@
 					},
 					"name": "Center of Attention",
 					"entries": [
-						"As an action, you exert an aura of power that grabs a creature's attention. Choose one creature you can see within 60 feet of you. It must make a Charisma saving throw. On a failed save, the creature is so thoroughly distracted by you that all other creatures are {@condition 隐形} to it until your concentration ends. This effect ends if the creature can no longer see or hear you or if it takes damage."
+						"As an action, you exert an aura of power that grabs a creature's attention. Choose one creature you can see within 60 feet of you. It must make a Charisma saving throw. On a failed save, the creature is so thoroughly distracted by you that all other creatures are {@condition 隱形} to it until your concentration ends. This effect ends if the creature can no longer see or hear you or if it takes damage."
 					]
 				},
 				{
@@ -903,7 +903,7 @@
 			"entries": [
 				"You exert an aura of trust and authority, enhancing the coordination among your allies."
 			],
-			"focus": "While focused on this discipline, when you end your turn and didn't move during it, you can use your reaction to allow one ally you can see within 30 feet of you to move up to half their speed, following a path of your choice. To move in this way, the ally mustn't be {@condition 无力}.",
+			"focus": "While focused on this discipline, when you end your turn and didn't move during it, you can use your reaction to allow one ally you can see within 30 feet of you to move up to half their speed, following a path of your choice. To move in this way, the ally mustn't be {@condition 無力}.",
 			"modes": [
 				{
 					"cost": {
@@ -974,7 +974,7 @@
 			"entries": [
 				"You focus your mind on courage, radiating confidence and bravado to your allies."
 			],
-			"focus": "While focused on this discipline, you and allies within 10 feet of you who can see you have advantage on saving throws against being {@condition 恐惧}.",
+			"focus": "While focused on this discipline, you and allies within 10 feet of you who can see you have advantage on saving throws against being {@condition 恐懼}.",
 			"modes": [
 				{
 					"cost": {
@@ -983,7 +983,7 @@
 					},
 					"name": "Incite Courage",
 					"entries": [
-						"As a bonus action, choose up to six creatures you can see within 60 feet of you. If any of those creatures is {@condition 恐惧}, that condition ends on that creature."
+						"As a bonus action, choose up to six creatures you can see within 60 feet of you. If any of those creatures is {@condition 恐懼}, that condition ends on that creature."
 					]
 				},
 				{
@@ -1025,7 +1025,7 @@
 			"entries": [
 				"You tap into a well of primal fear and turn yourself into a beacon of terror to your enemies."
 			],
-			"focus": "While focused on this discipline, you have advantage on Charisma ({@skill 威吓}) checks.",
+			"focus": "While focused on this discipline, you have advantage on Charisma ({@skill 威嚇}) checks.",
 			"modes": [
 				{
 					"cost": {
@@ -1038,7 +1038,7 @@
 					},
 					"name": "Incite Fear",
 					"entries": [
-						"As an action, choose one creature you can see within 60 feet of you. The target must succeed on a Wisdom saving throw or become {@condition 恐惧} of you until your concentration ends. Whenever the {@condition 恐惧} target ends its turn in a location where it can't see you, it can repeat the saving throw, ending the effect on itself on a success."
+						"As an action, choose one creature you can see within 60 feet of you. The target must succeed on a Wisdom saving throw or become {@condition 恐懼} of you until your concentration ends. Whenever the {@condition 恐懼} target ends its turn in a location where it can't see you, it can repeat the saving throw, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -1052,7 +1052,7 @@
 					},
 					"name": "Unsettling Aura",
 					"entries": [
-						"As a bonus action, you cloak yourself in unsettling psychic energy. Until your concentration ends, any enemy within 60 feet of you that can see you must spend 1 extra foot of movement for every foot it moves toward you. A creature ignores this effect if immune to being {@condition 恐惧}."
+						"As a bonus action, you cloak yourself in unsettling psychic energy. Until your concentration ends, any enemy within 60 feet of you that can see you must spend 1 extra foot of movement for every foot it moves toward you. A creature ignores this effect if immune to being {@condition 恐懼}."
 					]
 				},
 				{
@@ -1066,7 +1066,7 @@
 					},
 					"name": "Incite Panic",
 					"entries": [
-						"As an action, choose up to eight creatures you can see within 90 feet of you that can see you. At the start of each of a target's turns before your concentration ends, the target must make a Wisdom saving throw. On a failed save, the target is {@condition 恐惧} until the start of its next turn, and you roll a die. If you roll an odd number, the {@condition 恐惧} target moves half its speed in random direction and takes no action on that turn, other than to scream in terror. If you roll an even number, the {@condition 恐惧} target makes one melee attack against a random target within its reach. If there is no such target, it moves half its speed in a random direction and takes no action on that turn. This effect end on a target if it succeeds on three saving throws against it."
+						"As an action, choose up to eight creatures you can see within 90 feet of you that can see you. At the start of each of a target's turns before your concentration ends, the target must make a Wisdom saving throw. On a failed save, the target is {@condition 恐懼} until the start of its next turn, and you roll a die. If you roll an odd number, the {@condition 恐懼} target moves half its speed in random direction and takes no action on that turn, other than to scream in terror. If you roll an even number, the {@condition 恐懼} target makes one melee attack against a random target within its reach. If there is no such target, it moves half its speed in a random direction and takes no action on that turn. This effect end on a target if it succeeds on three saving throws against it."
 					]
 				}
 			]
@@ -1145,7 +1145,7 @@
 			"entries": [
 				"You tap into the joy within you, radiating it outward in soothing, psychic energy that brings hope and comfort to creatures around you."
 			],
-			"focus": "While focused on this discipline, you have advantage on Charisma ({@skill 说服}) checks",
+			"focus": "While focused on this discipline, you have advantage on Charisma ({@skill 說服}) checks",
 			"modes": [
 				{
 					"cost": {
@@ -1182,7 +1182,7 @@
 					},
 					"name": "Aura of Jubilation",
 					"entries": [
-						"As a bonus action, you radiate a distracting mirth until your concentration ends. Each creature within 60 feet of you that can see you suffers disadvantage on any checks using the {@skill 察觉} and {@skill 调查} skills."
+						"As a bonus action, you radiate a distracting mirth until your concentration ends. Each creature within 60 feet of you that can see you suffers disadvantage on any checks using the {@skill 察覺} and {@skill 調查} skills."
 					]
 				},
 				{
@@ -1810,7 +1810,7 @@
 					},
 					"name": "Thunder Clap",
 					"entries": [
-						"As an action, choose a point you can see within 60 feet of you. Thunder energy erupts in a 20-foot-radius sphere centered on that point. Each creature in that area must make Constitution saving throw. On a failed save, a target takes {@damage 8d6} thunder damage, and it is {@condition 震慑} until the end of your next turn. On a successful save, a target takes half as much damage."
+						"As an action, choose a point you can see within 60 feet of you. Thunder energy erupts in a 20-foot-radius sphere centered on that point. Each creature in that area must make Constitution saving throw. On a failed save, a target takes {@damage 8d6} thunder damage, and it is {@condition 震懾} until the end of your next turn. On a successful save, a target takes half as much damage."
 					]
 				}
 			]
@@ -2006,7 +2006,7 @@
 			"entries": [
 				"You create a screen of psychic power that distorts your appearance, allowing you to blend into the background or even turn invisible."
 			],
-			"focus": "While focused on this discipline, you have advantage on Dexterity ({@skill 隐匿}) checks.",
+			"focus": "While focused on this discipline, you have advantage on Dexterity ({@skill 隱匿}) checks.",
 			"modes": [
 				{
 					"cost": {
@@ -2029,7 +2029,7 @@
 					},
 					"name": "Step from Sight",
 					"entries": [
-						"As a bonus action, cloak yourself from sight. You can target one additional creature for every additional psi point you spend on this ability. The added targets must be visible to you and within 60 feet of you. Each target turns {@condition 隐形} and remains so until your concentration ends or until immediately after it targets, damages, or otherwise affects any creature with an attack, a spell, or another ability."
+						"As a bonus action, cloak yourself from sight. You can target one additional creature for every additional psi point you spend on this ability. The added targets must be visible to you and within 60 feet of you. Each target turns {@condition 隱形} and remains so until your concentration ends or until immediately after it targets, damages, or otherwise affects any creature with an attack, a spell, or another ability."
 					]
 				},
 				{
@@ -2043,7 +2043,7 @@
 					},
 					"name": "Enduring Invisibility",
 					"entries": [
-						"As a bonus action, you turn {@condition 隐形} and remain so until your concentration ends."
+						"As a bonus action, you turn {@condition 隱形} and remain so until your concentration ends."
 					]
 				}
 			]
@@ -2070,7 +2070,7 @@
 					},
 					"name": "Wandering Mind",
 					"entries": [
-						"You enter a deep contemplation. If you concentrate for this option's full duration, you then gain proficiency with up to three of the following skills (one skill for every 2 psi points spent): {@skill 驯兽}, {@skill 奥秘}, {@skill 历史}, {@skill 医疗}, {@skill 自然}, {@skill 表演}, {@skill 宗教}, and {@skill 生存}. The benefit lasts for 1 hour, no concentration required."
+						"You enter a deep contemplation. If you concentrate for this option's full duration, you then gain proficiency with up to three of the following skills (one skill for every 2 psi points spent): {@skill 馴獸}, {@skill 奧秘}, {@skill 歷史}, {@skill 醫療}, {@skill 自然}, {@skill 表演}, {@skill 宗教}, and {@skill 生存}. The benefit lasts for 1 hour, no concentration required."
 					]
 				},
 				{
@@ -2327,7 +2327,7 @@
 					},
 					"name": "Restore Health",
 					"entries": [
-						"As an action, you touch one creature and remove one of the following conditions from it: {@condition 目盲}, {@condition 耳聋}, {@condition 麻痹}, or {@condition 中毒}. Alternatively, you remove one disease from the creature."
+						"As an action, you touch one creature and remove one of the following conditions from it: {@condition 目盲}, {@condition 耳聾}, {@condition 麻痺}, or {@condition 中毒}. Alternatively, you remove one disease from the creature."
 					]
 				},
 				{
@@ -2457,7 +2457,7 @@
 					},
 					"name": "Psychic Crush",
 					"entries": [
-						"As an action, you create a 20-foot cube of psychic energy within 120 feet of you. Each creature in that area must make an Intelligence saving throw. On a failed save, a target takes {@damage 8d8} psychic damage and is {@condition 震慑} until the end of your next turn. On a successful save, a target takes half as much damage."
+						"As an action, you create a 20-foot cube of psychic energy within 120 feet of you. Each creature in that area must make an Intelligence saving throw. On a failed save, a target takes {@damage 8d8} psychic damage and is {@condition 震懾} until the end of your next turn. On a successful save, a target takes half as much damage."
 					]
 				}
 			]
@@ -2471,7 +2471,7 @@
 			"entries": [
 				"You create psychic static that disrupts other creatures' ability to think clearly."
 			],
-			"focus": "While focused on this discipline, you have advantage on Charisma ({@skill 欺瞒}) checks.",
+			"focus": "While focused on this discipline, you have advantage on Charisma ({@skill 欺瞞}) checks.",
 			"modes": [
 				{
 					"cost": {
@@ -2494,7 +2494,7 @@
 					},
 					"name": "Daze",
 					"entries": [
-						"As an action, choose one creature you can see within 60 feet of you. That creature must make an Intelligence saving throw. On a failed save, the target is {@condition 无力} until the end of your next turn or until it takes any damage."
+						"As an action, choose one creature you can see within 60 feet of you. That creature must make an Intelligence saving throw. On a failed save, the target is {@condition 無力} until the end of your next turn or until it takes any damage."
 					]
 				},
 				{
@@ -2589,7 +2589,7 @@
 			"entries": [
 				"Your power reaches into a creature's mind and causes it false perceptions"
 			],
-			"focus": "While focused on this discipline, you have advantage on Charisma ({@skill 欺瞒}) checks.",
+			"focus": "While focused on this discipline, you have advantage on Charisma ({@skill 欺瞞}) checks.",
 			"modes": [
 				{
 					"cost": {
@@ -2697,7 +2697,7 @@
 					},
 					"name": "Psychic Grip",
 					"entries": [
-						"As an action, you target one creature you can see within 60 feet of you. The target must succeed on an Intelligence saving throw, or it is {@condition 麻痹} until your concentration ends. At the end of each of its turns, it can repeat the saving throw. On a success, this effect ends. On a failure, you can use your reaction to force the target to move up to half its speed, even though it's {@condition 麻痹}."
+						"As an action, you target one creature you can see within 60 feet of you. The target must succeed on an Intelligence saving throw, or it is {@condition 麻痺} until your concentration ends. At the end of each of its turns, it can repeat the saving throw. On a success, this effect ends. On a failure, you can use your reaction to force the target to move up to half its speed, even though it's {@condition 麻痺}."
 					]
 				},
 				{

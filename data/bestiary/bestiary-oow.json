@@ -137,7 +137,7 @@
 				{
 					"name": "Constrict",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 35 ft., one creature. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage, and the target is {@condition 被擒} (escape {@dc 16}). Until this grapple ends, the creature is {@condition 束缚}, and the tentacle can't constrict another target."
+						"{@atk mw} {@hit 6} to hit, reach 35 ft., one creature. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage, and the target is {@condition 被擒} (escape {@dc 16}). Until this grapple ends, the creature is {@condition 束縛}, and the tentacle can't constrict another target."
 					]
 				}
 			],

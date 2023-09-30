@@ -9,7 +9,7 @@ class PageFilterFeats extends PageFilter {
 
 		this._asiFilter = new Filter({
 			header: "Ability Bonus",
-			headerName: "属性加值",
+			headerName: "屬性加值",
 			items: [
 				"str",
 				"dex",
@@ -24,9 +24,9 @@ class PageFilterFeats extends PageFilter {
 		this._otherPrereqFilter = new Filter({
 			displayFn: function (tag) {
 				switch (tag) {
-					case "Ability": 	return "属性值";
-					case "Race": 		return "种族";
-					case "Proficiency": return "熟练";
+					case "Ability": 	return "屬性值";
+					case "Race": 		return "種族";
+					case "Proficiency": return "熟練";
 					case "Spellcasting":return "施法";
 					default: return tag;
 				}
@@ -38,7 +38,7 @@ class PageFilterFeats extends PageFilter {
 			header: "Level",
 			itemSortFn: SortUtil.ascSortNumericalSuffix,
 		});
-		this._prerequisiteFilter = new MultiFilter({header: "Prerequisite", headerName: "先决条件", filters: [this._otherPrereqFilter, this._levelFilter]});
+		this._prerequisiteFilter = new MultiFilter({header: "Prerequisite", headerName: "先決條件", filters: [this._otherPrereqFilter, this._levelFilter]});
 		this._benefitsFilter = new Filter({
 			header: "Benefits",
 			headerName: "增益",

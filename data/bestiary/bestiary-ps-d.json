@@ -21,7 +21,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -53,7 +53,7 @@
 			"cr": "1",
 			"trait": [
 				{
-					"name": "两栖",
+					"name": "兩棲",
 					"ENG_name": "Amphibious",
 					"entries": [
 						"The homarid can breathe air and water."
@@ -110,7 +110,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -205,7 +205,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],

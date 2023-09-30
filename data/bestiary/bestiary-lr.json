@@ -85,34 +85,34 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 神导术}",
-								"{@spell 修复术}",
+								"{@spell 神導術}",
+								"{@spell 修復術}",
 								"{@spell shape water|XGE}",
-								"{@spell 橡棍术}"
+								"{@spell 橡棍術}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
 								"{@spell absorb elements|XGE}",
-								"{@spell 治疗伤势}",
-								"{@spell 纠缠术}",
-								"{@spell 动物交谈术}"
+								"{@spell 治療傷勢}",
+								"{@spell 糾纏術}",
+								"{@spell 動物交談術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 黑暗视觉}",
-								"{@spell 人类定身术}",
-								"{@spell 次级复原术}",
-								"{@spell 月华之光}"
+								"{@spell 黑暗視覺}",
+								"{@spell 人類定身術}",
+								"{@spell 次級復原術}",
+								"{@spell 月華之光}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 召唤动物}",
+								"{@spell 召喚動物}",
 								"{@spell 解除魔法}",
 								"{@spell 水下呼吸}"
 							]
@@ -121,20 +121,20 @@
 							"slots": 3,
 							"spells": [
 								"{@spell charm monster|XGE}",
-								"{@spell 行动自如术}"
+								"{@spell 行動自如術}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell 高等复原术}",
-								"{@spell 群体治疗伤势}"
+								"{@spell 高等復原術}",
+								"{@spell 群體治療傷勢}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell 召唤精类生物}"
+								"{@spell 召喚精類生物}"
 							]
 						}
 					},
@@ -145,7 +145,7 @@
 				{
 					"name": "Hearth of Moonlight and Shadow",
 					"entries": [
-						"At the start of a short or long rest, Amble can touch a point in space, and an {@condition 隐形}, 30-foot-radius sphere of magic appears, centered on that point. Total cover blocks the sphere.",
+						"At the start of a short or long rest, Amble can touch a point in space, and an {@condition 隱形}, 30-foot-radius sphere of magic appears, centered on that point. Total cover blocks the sphere.",
 						"While within the sphere, Amble and their allies gain a +5 bonus to Dexterity (Stealth) and Wisdom (Perception) checks, and any light from open flames in the sphere isn't visible outside it.",
 						"The sphere vanishes at the end of the rest or when Amble leaves the sphere."
 					]
@@ -237,8 +237,8 @@
 						"daily": {
 							"1e": [
 								{
-									"replace": "{@spell 召雷术}",
-									"with": "{@spell 闪电束}"
+									"replace": "{@spell 召雷術}",
+									"with": "{@spell 閃電束}"
 								}
 							]
 						}
@@ -286,7 +286,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -326,7 +326,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -368,7 +368,7 @@
 						"0": {
 							"spells": [
 								"{@spell frostbite|XGE}",
-								"{@spell 修复术}",
+								"{@spell 修復術}",
 								"{@spell 提升抗力}",
 								"{@spell shape water|XGE}",
 								"{@spell thunderclap|XGE}*"
@@ -377,27 +377,27 @@
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 造水/枯水术}",
-								"{@spell 魅惑人类}",
-								"{@spell 治疗伤势}",
-								"{@spell 雷鸣波}"
+								"{@spell 造水/枯水術}",
+								"{@spell 魅惑人類}",
+								"{@spell 治療傷勢}",
+								"{@spell 雷鳴波}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 黑暗视觉}",
-								"{@spell 人类定身术}",
-								"{@spell 镜影术}*",
-								"{@spell 迷踪步}*",
-								"{@spell 行踪无迹}",
-								"{@spell 防护毒素}"
+								"{@spell 黑暗視覺}",
+								"{@spell 人類定身術}",
+								"{@spell 鏡影術}*",
+								"{@spell 迷蹤步}*",
+								"{@spell 行蹤無跡}",
+								"{@spell 防護毒素}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 召唤动物}",
+								"{@spell 召喚動物}",
 								"{@spell 解除魔法}",
 								"{@spell tidal wave|XGE}",
 								"{@spell 水下呼吸}*",
@@ -408,31 +408,31 @@
 							"slots": 3,
 							"spells": [
 								"{@spell charm monster|XGE}",
-								"{@spell 操控水体}*",
-								"{@spell 支配野兽}",
-								"{@spell 行动自如术}*",
+								"{@spell 操控水體}*",
+								"{@spell 支配野獸}",
+								"{@spell 行動自如術}*",
 								"{@spell watery sphere|XGE}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell 召唤元素生物}*",
+								"{@spell 召喚元素生物}*",
 								"{@spell maelstrom|XGE}",
 								"{@spell 探知}*",
-								"{@spell 树跃术}"
+								"{@spell 樹躍術}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell 治愈术}"
+								"{@spell 治癒術}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell 异界传送}"
+								"{@spell 異界傳送}"
 							]
 						}
 					},
@@ -574,7 +574,7 @@
 				11,
 				{
 					"ac": 14,
-					"condition": "with {@spell 法师护甲}",
+					"condition": "with {@spell 法師護甲}",
 					"braces": true
 				}
 			],
@@ -620,7 +620,7 @@
 					],
 					"daily": {
 						"1": [
-							"{@spell 造水/枯水术}"
+							"{@spell 造水/枯水術}"
 						]
 					},
 					"ability": "con"
@@ -633,32 +633,32 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 酸液溅爆}",
-								"{@spell 寒颤之触}",
-								"{@spell 光亮术}",
-								"{@spell 魔法技俩}",
-								"{@spell 冷冻射线}"
+								"{@spell 酸液濺爆}",
+								"{@spell 冷顫之觸}",
+								"{@spell 光亮術}",
+								"{@spell 魔法技倆}",
+								"{@spell 冷凍射線}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 易容术}",
-								"{@spell 法师护甲}",
-								"{@spell 护盾术}"
+								"{@spell 易容術}",
+								"{@spell 法師護甲}",
+								"{@spell 護盾術}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 人类定身术}",
-								"{@spell 迷踪步}"
+								"{@spell 人類定身術}",
+								"{@spell 迷蹤步}"
 							]
 						},
 						"3": {
 							"slots": 2,
 							"spells": [
-								"{@spell 闪电束}",
+								"{@spell 閃電束}",
 								"{@spell tidal wave|XGE}"
 							]
 						},
@@ -728,8 +728,8 @@
 						"daily": {
 							"1e": [
 								{
-									"replace": "{@spell 召雷术}",
-									"with": "{@spell 闪电束}"
+									"replace": "{@spell 召雷術}",
+									"with": "{@spell 閃電束}"
 								}
 							]
 						}
@@ -768,7 +768,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -807,7 +807,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -844,7 +844,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -879,14 +879,14 @@
 					"name": "Bite",
 					"entries": [
 						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}20 ({@damage 3d8 + 7}) piercing damage.",
-						"If the target is a Medium or smaller creature {@condition 被擒} by the kraken, that creature is swallowed and the grapple ends. While swallowed, the creature is {@condition 目盲} and {@condition 束缚}, it has total cover against attacks and other effects outside the kraken, and it takes 21 ({@damage 6d6}) acid damage at the start of each of the kraken's turns. One Medium or two smaller creatures can be swallowed at the same time.",
-						"If the kraken takes 35 damage or more on a single turn from a creature inside it, the kraken must succeed on a {@dc 23} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition 伏地} in spaces within 10 feet of the kraken. If the kraken dies, a swallowed creature is no longer {@condition 束缚} by it and can escape from the corpse using 10 feet of movement, exiting {@condition 伏地}."
+						"If the target is a Medium or smaller creature {@condition 被擒} by the kraken, that creature is swallowed and the grapple ends. While swallowed, the creature is {@condition 目盲} and {@condition 束縛}, it has total cover against attacks and other effects outside the kraken, and it takes 21 ({@damage 6d6}) acid damage at the start of each of the kraken's turns. One Medium or two smaller creatures can be swallowed at the same time.",
+						"If the kraken takes 35 damage or more on a single turn from a creature inside it, the kraken must succeed on a {@dc 23} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition 伏地} in spaces within 10 feet of the kraken. If the kraken dies, a swallowed creature is no longer {@condition 束縛} by it and can escape from the corpse using 10 feet of movement, exiting {@condition 伏地}."
 					]
 				},
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 20 ft., one target. {@h}17 ({@damage 3d6 + 7}) bludgeoning damage, and the target is {@condition 被擒} (escape {@dc 20}). Until the grapple ends, the target is {@condition 束缚}. The kraken has ten tentacles, each of which can grapple one target."
+						"{@atk mw} {@hit 12} to hit, reach 20 ft., one target. {@h}17 ({@damage 3d6 + 7}) bludgeoning damage, and the target is {@condition 被擒} (escape {@dc 20}). Until the grapple ends, the target is {@condition 束縛}. The kraken has ten tentacles, each of which can grapple one target."
 					]
 				},
 				{

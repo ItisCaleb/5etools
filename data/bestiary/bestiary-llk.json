@@ -25,7 +25,7 @@
 				{
 					"ac": 11,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -68,21 +68,21 @@
 						"The brain in a jar's innate spellcasting ability is Intelligence (spell save {@dc 15}). It can innately cast the following spells, requiring no components:"
 					],
 					"will": [
-						"{@spell 侦测思想}",
-						"{@spell 法师之手}",
-						"{@spell 诚实之域}"
+						"{@spell 偵測思想}",
+						"{@spell 法師之手}",
+						"{@spell 誠實之域}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell 魅惑人类}",
-							"{@spell 命令术}",
-							"{@spell 人类定身术}"
+							"{@spell 魅惑人類}",
+							"{@spell 命令術}",
+							"{@spell 人類定身術}"
 						],
 						"1e": [
-							"{@spell 强迫术}",
-							"{@spell 怪物定身术}",
-							"{@spell 睡眠术} (cast at 3rd level)",
-							"{@spell 塔莎狂笑术}"
+							"{@spell 強迫術}",
+							"{@spell 怪物定身術}",
+							"{@spell 睡眠術} (cast at 3rd level)",
+							"{@spell 塔莎狂笑術}"
 						]
 					},
 					"ability": "int"
@@ -92,7 +92,7 @@
 				{
 					"name": "Detect Sentience",
 					"entries": [
-						"The brain in a jar can sense the presence and location of any creature within 300 feet of it that has an Intelligence of 3 or higher, regardless of interposing barriers, unless the creature is protected by a {@spell 心灵屏障} spell."
+						"The brain in a jar can sense the presence and location of any creature within 300 feet of it that has an Intelligence of 3 or higher, regardless of interposing barriers, unless the creature is protected by a {@spell 心靈屏障} spell."
 					]
 				},
 				{
@@ -106,7 +106,7 @@
 				{
 					"name": "Mind Blast {@recharge 5}",
 					"entries": [
-						"The brain in a jar magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a {@dc 15} Intelligence saving throw or take 13 ({@damage 2d8 + 4}) psychic damage and be {@condition 震慑} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"The brain in a jar magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a {@dc 15} Intelligence saving throw or take 13 ({@damage 2d8 + 4}) psychic damage and be {@condition 震懾} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -150,7 +150,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -179,7 +179,7 @@
 						"piercing",
 						"slashing"
 					],
-					"preNote": "非魔法攻击所造成的",
+					"preNote": "非魔法攻擊所造成的",
 					"cond": true
 				}
 			],
@@ -264,7 +264,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -304,18 +304,18 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 剑刃防护}",
-								"{@spell 恶毒嘲笑}"
+								"{@spell 劍刃防護}",
+								"{@spell 惡毒嘲笑}"
 							]
 						},
 						"1": {
 							"slots": 3,
 							"spells": [
-								"{@spell 魅惑人类}",
-								"{@spell 侦测魔法}",
-								"{@spell 易容术}",
-								"{@spell 鉴定术}",
-								"{@spell 塔莎狂笑术}"
+								"{@spell 魅惑人類}",
+								"{@spell 偵測魔法}",
+								"{@spell 易容術}",
+								"{@spell 鑑定術}",
+								"{@spell 塔莎狂笑術}"
 							]
 						}
 					},
@@ -344,7 +344,7 @@
 				{
 					"name": "Sneak Attack (1/Turn)",
 					"entries": [
-						"Garret deals an extra 7 ({@dice 2d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Garret that isn't {@condition 无力} and Garret doesn't have disadvantage on the attack roll."
+						"Garret deals an extra 7 ({@dice 2d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Garret that isn't {@condition 無力} and Garret doesn't have disadvantage on the attack roll."
 					]
 				}
 			],
@@ -412,7 +412,7 @@
 				{
 					"name": "Petrifying Gaze",
 					"entries": [
-						"When a creature that can see the medusa's eyes starts its turn within 30 feet of the medusa, the medusa can force it to make a {@dc 14} Constitution saving throw if the medusa isn't {@condition 无力} and can see the creature. If the saving throw fails by 5 or more, the creature is instantly {@condition 石化}. Otherwise, a creature that fails the save begins to turn to glass and is {@condition 束缚}. The {@condition 束缚} creature must repeat the saving throw at the end of its next turn, becoming {@condition 石化} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the  {@spell 高等复原术} spell or other magic.",
+						"When a creature that can see the medusa's eyes starts its turn within 30 feet of the medusa, the medusa can force it to make a {@dc 14} Constitution saving throw if the medusa isn't {@condition 無力} and can see the creature. If the saving throw fails by 5 or more, the creature is instantly {@condition 石化}. Otherwise, a creature that fails the save begins to turn to glass and is {@condition 束縛}. The {@condition 束縛} creature must repeat the saving throw at the end of its next turn, becoming {@condition 石化} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the  {@spell 高等復原術} spell or other magic.",
 						"Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the medusa until the start of its next turn, when it can avert its eyes again. If the creature looks at the medusa in the meantime, it must immediately make the save.",
 						"If the medusa sees itself reflected on a polished surface within 30 feet of it and in an area of bright light, the medusa is, due to its curse, affected by its own gaze."
 					]
@@ -486,21 +486,21 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 寒颤之触}",
+								"{@spell 冷顫之觸}",
 								"{@spell 魔能爆}",
-								"{@spell 法师之手}"
+								"{@spell 法師之手}"
 							]
 						},
 						"3": {
 							"lower": 1,
 							"slots": 3,
 							"spells": [
-								"{@spell 黑暗术}",
-								"{@spell 脆弱诅咒}",
-								"{@spell 催眠图纹}",
-								"{@spell 迷踪步}",
+								"{@spell 黑暗術}",
+								"{@spell 脆弱詛咒}",
+								"{@spell 催眠圖紋}",
+								"{@spell 迷蹤步}",
 								"{@spell 魅影之力}",
-								"{@spell 隐形仆役}"
+								"{@spell 隱形僕役}"
 							]
 						}
 					},
@@ -517,7 +517,7 @@
 				{
 					"name": "Fey Presence (Recharges after a Short Rest)",
 					"entries": [
-						"Mary can cause each creature within 10 feet of her to succeed on a {@dc 12} Wisdom saving throw or become {@condition 魅惑} or {@condition 恐惧} by her (Mary's choice) until the end of her next turn."
+						"Mary can cause each creature within 10 feet of her to succeed on a {@dc 12} Wisdom saving throw or become {@condition 魅惑} or {@condition 恐懼} by her (Mary's choice) until the end of her next turn."
 					]
 				},
 				{
@@ -577,7 +577,7 @@
 				{
 					"ac": 10,
 					"from": [
-						"天生护甲"
+						"天生護甲"
 					]
 				}
 			],
@@ -611,7 +611,7 @@
 				{
 					"name": "Transparent",
 					"entries": [
-						"Even when an ooze-folk is in plain sight, it takes a {@dc 12} Wisdom ({@skill 察觉}) check to spot an ooze-folk that has neither moved nor attacked. A creature that tries to enter the ooze-folk's space while unaware of the ooze-folk is surprised by the ooze-folk."
+						"Even when an ooze-folk is in plain sight, it takes a {@dc 12} Wisdom ({@skill 察覺}) check to spot an ooze-folk that has neither moved nor attacked. A creature that tries to enter the ooze-folk's space while unaware of the ooze-folk is surprised by the ooze-folk."
 					]
 				},
 				{
