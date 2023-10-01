@@ -2,7 +2,8 @@
 	"data": [
 		{
 			"type": "section",
-			"name": "Foreword: Ravenloft Revisited",
+			"name": "前言：重返鴉閣",
+			"ENG_name": "Foreword: Ravenloft Revisited",
 			"id": "000",
 			"entries": [
 				{
@@ -13,23 +14,23 @@
 							"type": "quote",
 							"skipItalics": true,
 							"entries": [
-								"We turned the corner, and there was a vampire.",
-								"I groaned and rolled my eyes.",
-								"It was 1978, and I was playing in one of my first dungeon adventures. It was being run by a friend I had known in high school, John Scott Clegg, and it was typical of the type of adventure that people played in those days. It was all about exploring a hodgepodge collection of rooms connected by dungeon corridors, beating up the monsters that we encountered, searching for treasure, and gaining experience points.",
-								"Now we were face to face with random encounter number thirty-four: a vampire. Not a Vampire with a capital V, but a so-many-Hit-Dice-with-such-and-such-an-Armor-Class lowercase vampire. Just another monster in the dungeon.",
-								"I remember thinking at the time, What are {@i you} doing here? This creature seemed completely out of place with the kobolds, orcs, and gelatinous cubes we had seen thus far. This was a creature who deserved his own setting and to be so much more than just a wandering monster. When I came home from that game, I told all these thoughts to Laura.",
-								"That was when Strahd von Zarovich was born.",
-								"Strahd would be no afterthought\u2014he demanded his own setting, his own tragic history. Laura and I launched into researching the mythology and folklore surrounding the vampire. We started with the vague, black-and-white image of Bela Lugosi in 1931, but found so much more.",
-								"The first \"modern\" literary foundation of the vampire was penned by John William Polidori based on a fragment of a story by Lord Byron. It was while at the Villa Diodati\u2014a rented house next to Lake Geneva, Switzerland\u2014that Byron and Polidori met Mary Wollstonecraft Godwin and her husband-to-be, Percy Shelley. One night in June, Byron suggested that they each write a ghost story. Mary Shelley's contribution to the effort would later become {@i Frankenstein}. The short story \"The Vampyre,\" published in 1819, was Polidori's contribution. He was Byron's personal physician, and the first of the so-called \"romantic\" vampires under Polidori's hand was actually modeled after Lord Byron.",
-								"Byron\u2014like the fictional vampires that he inspired, from Polidori's Lord Ruthven down through the penultimate work of Bram Stoker\u2014was a decadent predator, an abuser hidden behind a romantic veil. He was a comely and alluring monster\u2014but a monster nevertheless. The romantic vampire of the earliest years of the genre was not just a spouse abuser but a spouse killer, the archetype of abuse in the worst kind of destructive codependency.",
-								"For Laura and me, those were the elements that truly defined Strahd von Zarovich\u2014a selfish beast forever lurking behind a mask of tragic romance, the illusion of redemption that was ever only camouflage for his prey.",
-								"Initially we were going to title the adventure {@i Vampyr}\u2014one of a series of games we called Nightventure that Laura and I were self-publishing back in 1978. The castle was called Ravenloft, and when Halloween came around each year, our friends asked us if we could play \"that Ravenloft game\" again... and so the better title won out. It was, in part, because of this design that I was hired by TSR, Inc., to write {@b Dungeons & Dragons} adventures in 1982. Soon thereafter, I6 {@i Ravenloft} was published.",
-								"Since then, fans of {@i Ravenloft} have seen many different creative perspectives on Barovia (a country which, by absolute coincidence, is featured in a 1947 Bob Hope movie called {@i Where There's Life}). It continues to be one of the most popular {@b Dungeons & Dragons} adventures of all time. In its various incarnations, each designer has endeavored to bring something new to the ancient legend of Strahd, and to each of them we are grateful.",
-								"But the vampire genre has taken a turn from its roots in recent years. The vampire we so often see today exemplifies the polar opposite of the original archetype: the lie that it's okay to enter into a romance with an abusive monster because if you love it enough, it will change.",
-								"When Laura and I got a call from Christopher Perkins about revisiting {@i Ravenloft}, we hoped we could bring the message of the vampire folktale back to its original cautionary roots. The talented team at Wizards of the Coast not only graciously took our suggestions but engaged us in a dialogue that delivered new insights on the nightmare beyond the gates of Barovia.",
-								"Now we invite you again as our guests to pass through the Svalich Woods if you dare. For here the romance is tragically dangerous... and a true monster smiles at your approach."
+								"刚出转角，我们眼前赫然出現一只吸血鬼。",
+								"我不由得翻了个白眼，发出呻吟。",
+								"这件事发生在 1978 年，就在我人生中最早的某个地城冒险里。一个我高中就认䇶的朋友在带团，大名約翰·史考特·克雷格。这场冒险极具当年的特色——就是在一大堆雜七雜八由地城走廊连接的房间里探索，踢门杀怪，搜寻宝藏，获得经验。",
+								"現在我们面对的是随机遭遇 34 号：吸血鬼。不是那种吸血鬼传说中那样厉害角色，而是淹没在茫茫怪海里的一只普通怪物，一只生命骰和护甲等級比较高的地下城怪物。",
+								"我当时就在想，一只吸血鬼怎么会在这？它和之前出現的的狗头人,兽人,胶质方块之类的怪物格格不入。这是一个值得拥有专属設定的生物，值得比一个随机遭遇里的游荡怪物走得更远。当跑完团回家之后，我把这些想法都告诉了劳拉。",
+								"施特拉德·冯·扎洛维奇就此誕生。",
+								"施特拉德不会只是地下城种种怪物里的一个添头，他需要专属的设定和悲剧身世。劳拉和我立刻行动起来，研究吸血鬼相关传说和民间故事。我们从贝拉·卢戈西 Bela Lugosi 在 1931年那部模糊的黑白老电影开始着手，结果却收获颇丰。",
+								"威廉·波利多里 William Polidori 创作的，“现代”文学史上第一个吸血鬼形象，取材于拜伦爵士笔下故事的一个片段。当时在瑞士日内瓦湖畔的迪奥达蒂别墅 Villa Diodati 中，波利多里 和 拜 伦 遇 见 了 玛 丽 · 沃 尔 斯 通 克 拉 福 特 · 葛 德 文 Mary Wollstonecraft Godwin 和她的未婚夫波西·雪莱 Percy Shelley。在六月的一个晚上，拜伦提议他们每人分别写一篇鬼故事。玛丽·雪莱写的稿子成为日后《科学怪人 Frankenstein》的雏形。而波利多里的稿子在 1819 年出版，定名为《吸血鬼传奇 The Vampyre》。波利多里是拜伦的私人医生，他笔下这个最早的“浪漫传奇式”吸血鬼实际上是根据拜伦爵士的形象塑造的。",
+								"从波利多里笔下的鲁斯文爵士 Lord Ruthven 到布莱姆·斯托克 Bram Stoker 的倒数第二部作品，那些以拜伦为灵感的虚构吸血鬼们都有着他本人的特质——带着颓废气息的捕食者、浪漫面纱掩盖下的施虐者，俊秀迷人，内里却有个真正的怪物。早年的浪漫传奇式的吸血鬼不仅会对配偶施虐，还会将之杀害。这是种种虐待里最糟糕的：互相依赖又互相毁灭。",
+								"于劳拉和我，这些要素真正地定义了施特拉德·冯·扎洛维奇——他永远是一头自私的野兽，潜伏在浪漫悲剧的面具后面。任何救赎都是幻影，都是捕猎的伪装。",
+								"起初我和劳拉将这场冒险命名为《吸血鬼传奇 Vampyr》，放在 1978 年自行出版的系列游戏《黑夜冒险 Nightventure》里。游戏里的城堡叫做鸦阁 Ravenloft，每年万圣节，朋友们都来问我能否再跑一次那个“鸦阁的游戏”……由此我们知道，“鸦阁”是个更好的名字。在某种程度上，正是因为鸦阁，TSR股份有限公司看上了我，1982 年他们雇我来写龙与地下城的冒险。在那之后不久，I6 模组：《鸦阁 Ravenloft》出版了。",
+								"自那以后，鸦阁 的爱好者们在巴洛维亚上看到了许多富有创意的点子（巴洛维亚与 1947 年由鲍勃·霍普 Bob Hope 主演的喜剧电影 Where There's Life 里的国家重名，纯属偶然。）。发生在巴洛维亚的故事一直是龙与地下城里最受欢迎的冒险之一，在其发展的每一个阶段、每一位设计师都致力于为施特拉德古老的传说增添新的内容，我感激他们。",
+								"但是近年来，吸血鬼题材的作品已经和它的起源大相径庭，现今常见的吸血鬼与它最初的原型截然相反，这些浪漫故事们普遍掺杂着一个谎言：如果你给一个施虐的怪物足够的爱，它就能有所改变。",
+								"当克里斯多夫·派金斯致电我和劳拉并提到重访鸦阁这件事的时候，我就希望能把以前充满劝诫意味的吸血鬼传说重新带回给读者。海岸巫师才华横溢的团队不仅亲切地采纳了我们的建议，还邀请我们进行了一次谈话。而这次交谈使我们得以从全新的视角窥探潜藏在巴洛维亚的大门后面的噩梦。",
+								"现在，您，我的客人，请容我们再次送出邀请：如果您够胆，就穿过斯瓦里奇森林，赴一场充满悲剧和危机的浪漫冒险……而一个真正的怪物，也正因为你的到来，露出微笑。"
 							],
-							"by": "Tracy Hickman May 2015"
+							"by": "Tracy Hickman 2015 年 5 月"
 						}
 					]
 				}

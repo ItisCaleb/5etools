@@ -18,7 +18,7 @@
 				"armor": [
 					"light",
 					"medium",
-					"{@item shield|phb|盾牌}"
+					"{@item 盾牌|phb|盾牌}"
 				],
 				"weapons": [
 					"simple",
@@ -89,7 +89,7 @@
 				},
 				"proficienciesGained": {
 					"armor": [
-						"{@item shield|phb|盾牌}"
+						"{@item 盾牌|phb|盾牌}"
 					],
 					"weapons": [
 						"simple",

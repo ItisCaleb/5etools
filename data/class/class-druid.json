@@ -128,7 +128,7 @@
 						"light",
 						"medium",
 						{
-							"proficiency": "{@item shield|phb|盾牌}",
+							"proficiency": "{@item 盾牌|phb|盾牌}",
 							"full": "盾牌（德魯伊不能穿戴或使用金屬製成的護甲和盾牌）"
 						}
 					]

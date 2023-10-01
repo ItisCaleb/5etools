@@ -456,7 +456,7 @@
 				"armor": [
 					"light",
 					"medium",
-					"{@item shield|phb|盾牌}"
+					"{@item 盾牌|phb|盾牌}"
 				],
 				"weapons": [
 					"simple",
@@ -537,7 +537,7 @@
 					"armor": [
 						"light",
 						"medium",
-						"{@item shield|phb|盾牌}"
+						"{@item 盾牌|phb|盾牌}"
 					],
 					"tools": [
 						"{@item 盜賊工具|phb}",
@@ -1054,7 +1054,7 @@
 				"armor": [
 					"light",
 					"medium",
-					"{@item shield|phb|盾牌}"
+					"{@item 盾牌|phb|盾牌}"
 				],
 				"weapons": [
 					"simple",
@@ -1133,7 +1133,7 @@
 					"armor": [
 						"light",
 						"medium",
-						"{@item shield|phb|盾牌}"
+						"{@item 盾牌|phb|盾牌}"
 					],
 					"tools": [
 						"{@item 盜賊工具|PHB}",
@@ -1670,7 +1670,7 @@
 					"ENG_name": "Artificer",
 					"type": "section",
 					"entries": [
-						"Masters of invention, artificers use ingenuity and magic to unlock extraordinary capabilities in objects. They see magic as a complex system waiting to be decoded and then harnessed in their spells and inventions. You can find everything you need to play one of these inventors in the next few sections. Artificers use a variety of tools to channel their arcane power. To cast a spell, an artificer might use alchemist's supplies to create a potent elixir, calligrapher's supplies to inscribe a sigil of power, or tinker's tools to craft a temporary charm. The magic of artificers is tied to their tools and their talents, and few other characters can produce the right tool for a job as well as an artificer.",
+						"作為發明的大師，奇械師們運用智慧和魔法賦予物品不凡的能力。他們將魔法視為一個等待被解析的複雜體系，然後運用在他們的咒語和發明中。在接下來的幾節中，您將找到所有您需要了解的有關這些奇械師的資訊。奇械師使用各種工具來引導他們的奧術能力。為了施展咒語，奇械師可能使用煉金術材料來製作強效的萬靈藥劑，用書法工具刻印強力的符文，或利用修理工具來製作臨時護符。奇械師的魔法與他們的工具和才華緊密相連，很少有其他角色能像奇械師一樣為特定工作製造適當的工具。",
 						{
 							"type": "entries",
 							"entries": [
@@ -1678,7 +1678,7 @@
 									"type": "entries",
 									"name": "Artificers in Many Worlds",
 									"entries": [
-										"Throughout the D&D multiverse, artificers create inventions and magic items of peace and war. Many lives have been brightened or saved because of the work of kind artificers, but countless lives have also been lost because of the mass destruction unleashed by certain artificers' creations.",
+										"在<<龍與地下城>>的多元宇宙中，奇械師為了和平與戰爭發明了許多魔法物品。許多人因善良奇械師的成果而得到拯救拯救，但也有無數生命因某些奇械師的造物而喪命。",
 										"In the Forgotten Realms, the island of Lantan is home to many artificers, and in the world of Dragonlance, tinker gnomes are often members of this class. The strange technologies in the Barrier Peaks of the world of Greyhawk have inspired some folk to walk the path of the artificer, and in Mystara, various nations employ artificers to keep airships and other wondrous devices operational.",
 										"Artificers in the City of Sigil share discoveries from throughout the multiverse, and from there, the gnome artificer Vi runs a cosmos-spanning business that hires adventurers to fix problems that others deem unfixable. In Vi's home world, Eberron, magic is harnessed as a form of science and deployed throughout society, largely as a result of the wondrous ingenuity of artificers."
 									]

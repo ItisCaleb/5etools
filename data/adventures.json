@@ -1883,7 +1883,7 @@
 			]
 		},
 		{
-			"name": "Curse of Strahd",
+			"name": "施特拉德的詛咒",
 			"id": "CoS",
 			"source": "CoS",
 			"coverUrl": "img/covers/CoS.png",
@@ -1895,24 +1895,24 @@
 			},
 			"contents": [
 				{
-					"name": "Foreword: Ravenloft Revisited"
+					"name": "前言：重返鴉閣"
 				},
 				{
-					"name": "Introduction",
+					"name": "简介",
 					"headers": [
-						"Running the Adventure",
+						"运作冒险",
 						"Marks of Horror"
 					]
 				},
 				{
-					"name": "Into the Mists",
+					"name": "踏入迷雾",
 					"ordinal": {
 						"type": "chapter",
 						"identifier": 1
 					},
 					"headers": [
-						"Strahd von Zarovich",
-						"Fortunes of Ravenloft",
+						"施特拉德·冯·扎洛维奇",
+						"魔域天机",
 						{
 							"depth": 1,
 							"header": "1. The Tome of Strahd"
