@@ -167,8 +167,6 @@ class NavBar {
 		addDivider(ulUtils);
 		addLi(ulUtils, "privacy-policy.html", "隱私政策");
 
-		addLi(navBar, "donate.html", "捐贈", {isRoot: true});
-
 		const ulSettings = addDropdown(navBar, "設置");
 		addButton(
 			ulSettings,
